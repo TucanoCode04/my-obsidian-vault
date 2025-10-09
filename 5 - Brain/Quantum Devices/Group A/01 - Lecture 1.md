@@ -15,7 +15,10 @@ The electric field tilts the potential energy landscape of the crystal, wells cr
 ##### Microscopic Ohm's Law
 Depending on the material conductivity, the density of current $\vec{J}$ is proportional to the applied electric field $\vec{E}$:
 $$\vec{J} = \frac{I}{A} = \sigma \vec{E}$$ Where $\sigma$ is the conductivity of the material, $I$ is the current and $A$ is the cross-sectional area of the material. 
-
+The stronger the electric field, the larger the current density. The conductivity $\sigma$ is a measure of how easily charges can move through a material when subjected to an electric field. It depends on the number of charge carriers (electrons or holes) available for conduction and their mobility within the material. 
+$\sigma$ has units of $\frac{S}{cm} = \frac{1}{\Omega cm}$, where $S$ is Siemens and $\Omega$ is Ohm.
+An ideal conductor presents: $\sigma \to \infty$.
+An ideal insulator presents: $\sigma = 0$.
 ##### Potential Energies 
 - Isolated Atom: The potential energy of an electron in an isolated atom is quantized, meaning it can only take on specific discrete and stable energy levels. From Pauli exclusion principle, no two electrons can occupy the same quantum state simultaneously, which leads to the formation of distinct energy levels. These energy levels are determined by the electrostatic attraction between the negatively charged electrons and the positively charged nucleus, following the Coulomb potential. The potential energy is negative, indicating that the electron is bound to the nucleus with a $\approx \frac{1}{|x|}$ dependence. These are called localized states because the electron is confined to a specific region around the nucleus.
 - 2 Atoms Far from Each Other: If they are far enough, they do not interact and the potential energy is just the sum of the individual atoms.
@@ -23,7 +26,7 @@ $$\vec{J} = \frac{I}{A} = \sigma \vec{E}$$ Where $\sigma$ is the conductivity of
 ##### Energy Bands in Crystals
 For a crystal made of $N >> N_A$ atoms, where $N_A$ is the number of Avogadro, each isolated energy level of an atom will split into $N$ closely spaced energy levels due to the interactions between atoms. For a crystal of elements of group IV, like Silicon or Germanium, which have 4 valence electrons, the outermost energy levels will merge to form two main energy bands: the valence band and the conduction band, each of magnitude $4N$. 
 We also define a crystal forbidden band, or band gap, $E_g$, which is which is the the energy range between the valence band and the conduction band where no electron states can exist.
-Since each atom provides 4 electrons from its outer shell to be put in the bands, we must find a place for $4N$ electrons. At $T=0K$ all electrons will occupy the lowest available energy states, filling up the valence band completely with $4N$ electrons, while the conduction band remains empty. This is the ground state of the crystal, where $\delta = 0$. 
-If we apply a strong enough electric field, we can provide enough energy to some electrons to jump from the valence band to the conduction band, creating free electrons in the conduction band and holes the valence band. This creates a non-equilibrium state where $\delta \neq 0$. The force on the electrons due to the electric field will be $\vec{F} = -q \vec{E}$, where $-q$ is the charge of the electron and $q= 1.6 \times 10^{-19} C$.
+Since each atom provides 4 electrons from its outer shell to be put in the bands, we must find a place for $4N$ electrons. At $T=0K$ all electrons will occupy the lowest available energy states, filling up the valence band completely with $4N$ electrons, while the conduction band remains empty. This is the ground state of the crystal, where $\sigma = 0$. 
+If we apply a strong enough electric field, we can provide enough energy to some electrons to jump from the valence band to the conduction band, creating free electrons in the conduction band and holes the valence band. This creates a non-equilibrium state where $\sigma \neq 0$. The force on the electrons due to the electric field will be $\vec{F} = -q \vec{E}$, where $-q$ is the charge of the electron and $q= 1.6 \times 10^{-19} C$.
 Conduction is the valence band is interpreted as the movement of holes in the field direction $\vec{F} = +q \vec{E}$, where $+q$ is the charge of the hole.
 ## References
