@@ -7,7 +7,6 @@ Tags: [[Electric Field]] [[Magnetic Field]] [[Schrodinger Equation]]
 
 # Scalar and Vector Potential
 ### Electric Field
-We use Maxwell's equations to describe the behavior of electric and magnetic fields. 
 
 
 ## References
