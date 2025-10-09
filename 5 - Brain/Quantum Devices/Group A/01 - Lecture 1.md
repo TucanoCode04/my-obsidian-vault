@@ -13,6 +13,8 @@ $$\vec{F} = Q \vec{E}$$
 This force causes particles(electrons or holes) to accelerate, creating an electric current $\vec{J}$, this is the microscopic origin of electrical conduction.
 The electric field tilts the potential energy landscape of the crystal, wells created by the nuclei, creating a potential gradient that causes charged particles to move towards lower potential energy(higher if the charge is negative like electrons). The electric field does work on the charged particles, increasing their kinetic energy and causing them to move through the crystal lattice.
 ##### Microscopic Ohm's Law
+Depending on the material conductivity, the density of current $\vec{J}$ is proportional to the applied electric field $\vec{E}$:
+$$\vec{J} = \frac{I}{A} = \sigma \vec{E}$$ Where $\sigma$ is the conductivity of the material, $I$ is the current and $A$ is the cross-sectional area of the material. 
 
 ##### Potential Energies 
 - Isolated Atom: The potential energy of an electron in an isolated atom is quantized, meaning it can only take on specific discrete and stable energy levels. From Pauli exclusion principle, no two electrons can occupy the same quantum state simultaneously, which leads to the formation of distinct energy levels. These energy levels are determined by the electrostatic attraction between the negatively charged electrons and the positively charged nucleus, following the Coulomb potential. The potential energy is negative, indicating that the electron is bound to the nucleus with a $\approx \frac{1}{|x|}$ dependence. These are called localized states because the electron is confined to a specific region around the nucleus.
