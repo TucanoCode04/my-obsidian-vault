@@ -15,3 +15,6 @@ ECC elliptic curve crypthography, 2 dimension
 
 
 message integrity is more important then secrecy, duh
+
+
+key digest $\neq$ key with a digest
