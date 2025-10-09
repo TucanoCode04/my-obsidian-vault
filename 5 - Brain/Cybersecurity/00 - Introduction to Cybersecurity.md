@@ -1,0 +1,125 @@
+
+2025-09-27 21:28
+
+Status: 
+
+Tags:
+
+# Introduction to Cybersecurity
+
+The possible consequences of a successful attack might be:
+- financial loss: both direct(fund transfer) or indirect(value of share)
+- recovery cost: get the system back to normal operations and improve the system to avoid new attacks
+- productivity cost: process stopped or delayed
+- business disruption: customers may choose alternative suppliers
+- reputation damage
+
+Complexity of the Information and Communication Technology(ICT):
+- personal devices: laptop, smartphone, smart TV
+- communication networks: wired and wireless networks
+- distributed services: hosting, cloud, IoT, computation and storage
+- programming increasingly complex: stratification, framework
+##### Risk Evaluation
+To evaluate how risk prone is a service, we first analyze the risks bound to the asset(set of goods, data and people needed for an IT service), then we observe the possible events(vulnerabilities(intrinsic weakness of an asset) that can produce threats(possible action or event that can produce loss of security property by exploiting a vulnerability)) to prevent attacks(threats occurrence: deliberate action) and negative events(threat occurrence: accidental event)
+##### Risk Management
+To successfully manage the risks you need to keep into account not only the impact but also the available time and budget to solve it. Risk assessment matrices are useful for that.
+![[Pasted image 20250929120619.png]]
+
+Basically evaluation analyzes assets, vulnerabilities and threats to evaluate the risks, and then the management selects countermeasures, implements them and the there's an audit.
+##### Security in the lifecycle of a system
+![[Pasted image 20250929121113.png]]
+
+##### Concepts and relations in cybersecurity
+![[Pasted image 20250929121201.png]]
+
+##### Window of exposure
+![[Pasted image 20250929121230.png]]
+
+###### State of Art: magnitude of malware for different ops
+- Windows: O($10^6$)
+- MacOs: O($10^3$)
+- Linux: O($10^4$)
+- Android: O($10^5$)
+
+##### Weight of Evidence: responsible disclosure
+A software house responsible for cybersecurity analysis called Zero Day Initiative sets a 120 days deadline, as part of their responsible disclosure policy, for the vendor to fix the vulnerabilities they found, and then they disclose it to the public. This is done to put pressure on the vendor, inform users and security professionals about the risks and maintain transparency.
+##### List of Standardization Bodies
+(slides 18-19)
+
+##### What is security?
+Security is a process, not a product. Products provide protection, but the only way to effectively do business in an insecure world is to put processes in place that recognize the inherent insecurity in the products. The trick is to reduce your risk of exposure regardless of the products or patches.
+##### Some security principles
+- Security in Depth: multiple layers of security controls(firewalls + antivirus + encryption + access control)
+- Security by Design: built into the system from the start(input validation, secure coding practices)
+- Security by Default: secure out of the box(default strong pwds, disabled unnecessary services)
+- Separation of Duties: no single person should have control over all aspects of a critical process
+- Least Privilege: users and systems should only have the minimum access they need to perform their tasks
+- Need-to-Know: access should be granted only if it is necessary for a specific role or task(HR data only visible to HR staff)
+
+##### Security properties and principles
+- C.I.A: confidentiality, integrity and availability
+- Simple/Mutual Authentication
+- Peer Authentication: security process where identities of the single(Single Peer Authentication) or two communicating systems(Mutual Peer Authentication) are verified against each other
+- Data/Origin Authentication: a security process to confirm a message's claimed sender and guarantee it has not been altered during transmission
+- Authorization, Access Control: the process of determining whether a user or system has the right to access a resource or perform an action
+- Integrity: the property that data has not been altered, filtered or destroyed in an unauthorized manner
+- Confidentiality, Privacy, Secrecy: the property that information is not made available or disclosed to unauthorized individuals, entities, or processes
+- Non-repudiation: formal proof(acceptable by a court of justice) of the origin and integrity of data. We, almost, never have non-repudiation with protocols or procedures that perform automatic actions, because there's no human intervention.
+- Availability
+- Traceability, Accountability
+##### Replay Attack
+A replay attack is a a network attack in which a valid data transmission is maliciously or fraudulently repeated or delayed. This or delayed. This is normally done by an adversary who intercepts data and retransmits it. 
+##### Data Protection
+For each security property, we consider 3 categories of data protection:
+- Data in Transit: data transmitted over a communication channel, we need network security(firewalls, VPNs, TLS, IPsec)
+- Data at Rest: data stored on stored on a device, we need storage security(encryption, access control)
+- Data at Work: data being processed, for example in RAM used by a process, we need processing security(secure coding practices, memory protection)
+##### Where is the enemy?
+- Outside of organization: boundary, perimeter defence(firewalls, IDS/IPS)
+- Outside of organization with exception of partners: extranet security(VPNs, secure APIs)
+- Inside of organization: LAN, Intranet security(network segmentation, access control)
+- Everywhere: application security(secure coding practices, regular updates), data security(encryption, access control), ZTA(Zero Trust Architecture)
+
+- Position:
+	- Man-in-the-Middle(MitM): sitting between two communicating peers A and B
+	- Man-at-the-End(MitE): having control over one of the two communicating peers, A or B
+	- Man-in-the-Browser(MitB): having control over the web browser of one of the two communicating peers, A or B
+- Capability: 
+	- Passive: can only eavesdrop the data or the traffic
+	- Active: can also modify, inject or delete data or traffic
+##### Basic technological problems
+The networks are insecure: 
+- Most communications are made in clear
+- LANs operate in broadcast mode
+- Wireless communication is easy to intercept, while wired communication requires physical access.
+- Geographical connections are not made through end to end dedicated lines but through shared lines or third party routers
+
+The user authentication is normally password-based, that is weak.
+Server authentication is also weak, normally based on certificates that can be forged or stolen.
+The softwares already contain bugs and vulnerabilities.
+##### Some classes of Attacks
+- IP Spoofing(Masquerading): an attacker uses the address of of a trusted host, to take its place as a client or a server. Forging the source IP address(level 3) or the MAC address(level 2). An alternative name is Source Address Spoofing.
+	- attacks: data forging, unauthorized access
+	- countermeasures: do never use address-based authentication
+- Packet Sniffing(Eavesdropping): an attacker intercepts and reads data packets in transit over a network. It's easier to perform in a broadcast network(LAN) or at the switching nodes(routers, switches). 
+	- attacks: allows to intercept anything
+	- countermeasures: encryption of packet payload(TLS, IPsec), non-broadcast networks
+- Connection Hijacking/Data Spoofing: an attacker takes over an active network connection to insert, delete or manipulate the traffic. It can be a logical or physical MitM attack.
+	- attacks: reading, insertion of false data and modification of data exchanged between two parties
+	- countermeasures: secrecy, authentication, integrity and serialization of each individual network packet
+- Shadow Server: an attacker sets up a fake server that mimics a legitimate one to deceive users. It can be accomplished by request sniffing and response spoofing(it's difficult cause the fake server needs to respond faster than the real one) or wrong mapping(DNS manipulation, routing table manipulation)
+	- attacks: issue wrong answers and wrong services, capture victims' data
+	- countermeasures: server authentication(certificates)
+- Denial of Service(DoS): an attacker overwhelms a system with traffic or requests to make it unavailable to legitimate users. It keeps an host busy so that it can't provide its service(mail/log saturation, ping bombing, SYN attack)
+	- attacks: block the use of a system/service
+	- countermeasures: monitoring and oversizing can mitigate the effects but there are no real solutions
+- Distributed Denial of Service(DDoS): an attacker uses multiple compromised systems to launch a coordinated DoS attack. Softwares for DoS are installed on many node(named daemon, zombie or malbot) to create a botnet. Daemons are remotely controlled by a master through a command and control(C&C) infrastructure, with C/S or P2P communications, encrypted or covert channels and auto-update capabilities. The effects are similar to DoS but multiplied by the number of daemons.
+- Trojan: a program containing a dangerous payload(hidden inside a useful program, like a keylogger inside a game or a browser extension). This attack can function over a protected network because the user voluntarily installs the trojan. It's often used to create backdoors like MitB and MatE attacks. 
+- Virus and Worm: a malicious program that damages the target and replicates itself, the propagation is involuntary done by humans(virus) or is automatic(worm). (Only viruses create damage???). It's used to create backdoors(unauthorized access points), rootkits(hide the presence of certain processes or programs through privilege escalation) or install trojans or PUA( potentially unwanted applications). They require complicity from the user, the sys manager or the producer.
+	- countermeasures: user awareness, antivirus, correct configuration/secure software
+- Ransomware: a type of malware created to encrypt files on a device or lock the system, then demand a ransom to restore access. It's not only relative to the technology but also to procedures and organizations: encrypted data? How old is the backup? Off-line or network backup? Verified or £trusted backup? When was the attack discovered?  
+
+We can implement all types of securities but it is all subject to human errors. 
+##### Malware food chain
+![[Pasted image 20250929185422.png]]
+## References
