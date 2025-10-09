@@ -22,7 +22,6 @@ The electric field tilts the potential energy landscape of the crystal, wells cr
 For a crystal made of $N >> N_A$ atoms, where $N_A$ is the number of Avogadro, each isolated energy level of an atom will split into $N$ closely spaced energy levels due to the interactions between atoms. For a crystal of elements of group IV, like Silicon or Germanium, which have 4 valence electrons, the outermost energy levels will merge to form two main energy bands: the valence band and the conduction band, each of magnitude $4N$. 
 We also define a crystal forbidden band, or band gap, $E_g$, which is which is the the energy range between the valence band and the conduction band where no electron states can exist.
 Since each atom provides 4 electrons from its outer shell to be put in the bands, we must find a place for $4N$ electrons. At $T=0K$ all electrons will occupy the lowest available energy states, filling up the valence band completely with $4N$ electrons, while the conduction band remains empty. This is the ground state of the crystal, where $\delta = 0$. 
-If we apply a strong enough electric field, we can provide enough energy to some electrons to jump from the valence band to the conduction band, creating free electrons in the conduction band and holes the valence band. 
-
-
+If we apply a strong enough electric field, we can provide enough energy to some electrons to jump from the valence band to the conduction band, creating free electrons in the conduction band and holes the valence band. This creates a non-equilibrium state where $\delta \neq 0$. The force on the electrons due to the electric field will be $\vec{F} = -q \vec{E}$, where $-q$ is the charge of the electron and $q= 1.6 \times 10^{-19} C$.
+Conduction is the valence band is interpreted as the movement of holes in the field direction $\vec{F} = +q \vec{E}$, where $+q$ is the charge of the hole.
 ## References
