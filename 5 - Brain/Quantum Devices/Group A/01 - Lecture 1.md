@@ -19,8 +19,7 @@ The electric field tilts the potential energy landscape of the crystal, wells cr
 - 2 Atoms Far from Each Other: If they are far enough, they do not interact and the potential energy is just the sum of the individual atoms.
 - 2 Atoms Close to Each Other: When two atoms are brought close together, their outer electron orbitals start to overlap. Due to the Pauli exclusion principle, no two electrons can occupy the same quantum state. As a result, the discrete energy levels of individual atoms broaden into a continuous range of energy levels known as energy bands when you have a large concentration of atoms like in a solid. These are called delocalized states because the electron is no longer confined to a specific atom but can move throughout the crystal lattice.
 ##### Energy Bands in Crystals
-For a crystal made of $N >> N_A$ atoms, where $N_A$ is the number of Avogadro, each isolated energy level of an atom will split into $N$ closely spaced energy levels due to the interactions between atoms. For a crystal of elements of group IV, like Silicon or Germanium, which have 4 valence electrons, the outermost energy levels will split into two main bands:
-1. **Valence Band**: 
+For a crystal made of $N >> N_A$ atoms, where $N_A$ is the number of Avogadro, each isolated energy level of an atom will split into $N$ closely spaced energy levels due to the interactions between atoms. For a crystal of elements of group IV, like Silicon or Germanium, which have 4 valence electrons, the outermost energy levels will split into two main bands: the valence band and the conduction band, each with a magnitude of $4N$ allowed states. 
 
 
 ## References
