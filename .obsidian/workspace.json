@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Quantum Devices/Group A/02 - Lecture 2.md",
+                "file": "5 - Brain/Quantum Devices/Group A/01 - Lecture 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02 - Lecture 2"
+              "title": "01 - Lecture 1"
             }
           }
         ],
@@ -149,7 +149,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -254,11 +255,11 @@
   },
   "active": "6ee9dd6f536438da",
   "lastOpenFiles": [
+    "5 - Brain/Quantum Devices/Group A/02 - Lecture 2.md",
     "5 - Brain/Quantum Devices/Group A/01 - Lecture 1.md",
     "copilot-custom-prompts/Explain like I am 5.md",
     "copilot-custom-prompts/Translate to Chinese.md",
     "copilot-custom-prompts/Rewrite as tweet.md",
-    "5 - Brain/Quantum Devices/Group A/02 - Lecture 2.md",
     "To do/Scalar and Vector.md",
     "To do/Quantum Devices.md",
     "To do/Mathematics.md",
