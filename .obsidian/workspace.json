@@ -53,28 +53,20 @@
             "id": "9d1c113ed2580508",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "To do/Fund of Tech Processes Prof 2 Refrigeration.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Fund of Tech Processes Prof 2 Refrigeration"
+              "title": "New tab"
             }
           },
           {
             "id": "3080ae498006927a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "To do/Quantum Devices.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Quantum Devices"
+              "title": "New tab"
             }
           },
           {
@@ -265,6 +257,7 @@
   },
   "active": "6ee9dd6f536438da",
   "lastOpenFiles": [
+    "5 - Brain/Quantum Devices/Group A/02 - Lecture 2.md",
     "5 - Brain/Quantum Condensed Matter Physics/03 - Reciprocal Bravais Lattice.md",
     "5 - Brain/Quantum Condensed Matter Physics/00 - Scalar and Vector Potential.md",
     "5 - Brain/Cybersecurity/Cryptography.md",
@@ -272,7 +265,6 @@
     "5 - Brain/Cybersecurity/00 - Introduction to Cybersecurity.md",
     "5 - Brain/Quantum Devices/Group A/01 - Lecture 1.md",
     "5 - Brain/Untitled.base",
-    "5 - Brain/Quantum Devices/Group A/02 - Lecture 2.md",
     "copilot-custom-prompts/Explain like I am 5.md",
     "copilot-custom-prompts/Translate to Chinese.md",
     "copilot-custom-prompts/Rewrite as tweet.md",
