@@ -96,9 +96,16 @@ Assume a charge $q$ in position $\vec{r}$.
 The varying magnetic field affects the charge, by pushing or pulling it, because it generates an electric field. The charge would like to change its momentum as a result of the force from the electric field, but it is constrained by something that keeps it in position $\vec{r}$. We calculate the impulse necessary to keep the charge in position $\vec{r}$:
 $$\vec{F_{ext}} = q\left(\vec{F} + \vec{v} \times \vec{B}\right)$$
 $$\vec{F} = -\frac{\partial \vec{A}}{\partial t}, \quad \text{there's no static charges so }\nabla \phi = 0$$
-$$I = \delta \vec{p} = \vec{F_{ext}} \delta t = - \int_{0}^{t} \vec{F_{ext}} dt = = - \int_{0}^{t} q \vec{F} dt = - \int_{0}^{t} q \left(-\frac{\partial \vec{A}}{\partial t}\right) dt = q \vec{A}$$
+$$I = \Delta \vec{p} = \vec{F_{ext}} \Delta t = - \int_{0}^{t} \vec{F_{ext}} dt = = - \int_{0}^{t} q \vec{F} dt = - \int_{0}^{t} q \left(-\frac{\partial \vec{A}}{\partial t}\right) dt = q \vec{A}$$
 So the vector potential represents the impulse per unit charge needed to keep a charge in position $\vec{r}$ when the magnetic field varies from 0 to $\vec{B}$.
 
-Relationship between $\vec{A}$ and the momentum
+**Relationship between $\vec{A}$ and the momentum $\vec{p}$ :**
+$$I= \Delta \vec{p} = q \vec{A}$$ The general form related related to particle velocity and to magnetic field is:
+$$\Delta\vec{p} = m\Delta\vec{v} + q\vec{A}$$ where $m\Delta\vec{v}$ is the change in momentum due to the change in velocity of the particle(mechanical momentum), and $q\vec{A}$ is the change in momentum due to the presence of the magnetic vector potential.
 
+The formula of canonical momentum is:
+$$\vec{p} = m\vec{v} + q\vec{A}$$ 
+Where $\vec{p}$ is the canonical momentum, which includes both the mechanical momentum $m\vec{v}$ and the contribution from the magnetic vector potential $q\vec{A}$. The canonical momentum is a fundamental concept in quantum mechanics and plays a crucial role in the formulation of the Schrödinger equation in the presence of electromagnetic fields.
+##### Expanding the equation of Schrodinger for a free electron in an electric and magnetic field
+SEARCH WTF IS MOMENTUM
 ## References
