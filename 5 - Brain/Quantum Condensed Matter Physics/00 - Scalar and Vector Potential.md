@@ -50,4 +50,5 @@ Definition of potential: a potential is a scalar or vector field from which a fo
 Why do we use potentials? They are powerful tools to express and analyze physical fields, for example the allow us to express conservation laws in a more intuitive way, they simplify Maxwell's equations, and they can encode fields into a simpler, more fundamental form.
 
 
+
 ## References
