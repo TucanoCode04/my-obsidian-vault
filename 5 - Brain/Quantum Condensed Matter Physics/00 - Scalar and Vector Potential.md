@@ -81,4 +81,5 @@ $$\phi \rightarrow \phi' = \phi - \frac{\partial \chi}{\partial t}$$
 These are called gauge transformations, and they reflect the freedom we have in choosing the potentials without changing the physical fields $\vec{F}$ and $\vec{B}$(Gauge Invariance).
 The freedom in choosing $\vec{A}$ could led us to believe that $\vec{A}$ is not physical, but it is not true.
 
+
 ## References
