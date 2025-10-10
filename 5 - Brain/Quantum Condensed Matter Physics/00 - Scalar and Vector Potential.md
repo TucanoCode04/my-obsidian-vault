@@ -30,6 +30,19 @@ A property of a scalar field $\phi$ is that its gradient is irrotational:
 $$\nabla \times (\nabla \phi) = 0$$
 This property is obvious, because the gradient of a scalar field points in the direction of the maximum rate of increase of the scalar field, and it does not have any rotational component, and the curl measures the rotational component of a vector field.
 So we can express the electric field as the gradient of a scalar potential:
-$$\vec{F} = -\nabla \phi$$ where $\phi$ is the electric potential, which represents the electric potential energy per unit charge at a given point in space. The negative sign indicates that the electric field points in the direction of decreasing electric potential, meaning that positive charges will naturally move towards regions of lower potential energy. The higher the potential, the faster the charge will move. 
+$$\vec{F} = -\nabla \phi$$ where $\phi$ is the electric potential, which represents the electric potential energy per unit charge at a given point in space. The negative sign indicates that the electric field points in the direction of decreasing electric potential, meaning that positive charges will naturally move towards regions of lower potential energy. The higher the potential, the steeper the field, the faster the charge will fall from the high potential to the low potential.
 
+Conservative means that:
+$$\int_{A_{path1}}^B \vec{F} d\vec{l} = \int_{A_{path2}}^B \vec{F} d\vec{l}$$
+##### Magnetic Field
+The magnetic field $\vec{B}$ is described by Maxwell's equations:
+$$\nabla \cdot \vec{B} = 0$$
+$$\nabla \times \times \vec{B} = \mu_0 \vec{J} + \mu_0 \epsilon_0 \frac{\partial \vec{E}}{\partial t}$$ 
+Where $\mu_0$ is the permeability of free space, which is a constant that describes how magnetic fields interact with the vacuum. $\vec{J}$ is the current density, which is the amount of electric current per unit area. The divergence of the magnetic field is zero, indicating that there are no magnetic monopoles; magnetic field lines always form closed loops and do not begin or end at any point. The curl of the magnetic field is proportional to the current density and the rate of change of the electric field, indicating that electric currents and changing electric fields induce circulating magnetic fields.
+This implies that the magnetic field is solenoidal, meaning that the divergence is zero. 
+A property of a vector field $\vec{A}$ is that its curl is solenoidal:
+$$\nabla \cdot (\nabla \times \vec{A}) = 0$$
+This property is obvious, because the curl of a vector field represents the rotation or circulation of the field, and it does not have any divergence component, and the divergence measures the rate of change of the field's magnitude in all directions.
+So we can express the magnetic field as the curl of a vector potential:
+$$\vec{B} = \nabla \times \vec{A}$$ where $\vec{A}$ is the magnetic vector potential, which is a vector field whose curl gives the magnetic field. The vector potential is not unique; different choices of $\vec{A}$ can lead to the same magnetic field $\vec{B}$, as adding the gradient of any scalar function to $\vec{A}$ does not change its curl.
 ## References
