@@ -17,9 +17,9 @@ where $\hat{i}$, $\hat{j}$ and $\hat{k}$ are the unit vectors in the x, y and z 
 It is represented in this way because, for each direction, the curl component is calculated as the difference between the rate of change of the vector field's components perpendicular to that direction. 
 ##### Electric Field
 We can express the behavior of the electric field $\vec{F}$ using Maxwell's equations:
-$$\nabla \cdot \vec{E} = \frac{\rho}{\epsilon_0}$$
-$$\nabla \times \vec{E} = -\frac{\partial \vec{B}}{\partial t}$$
-Where $\rho$ is the charge density, which is the amount of electric charge per unit volume, so the electric field is proportional to the charge density and it diverges from positive charges and converges towards negative charges. $\epsilon_0$ is the permittivity of free space, which is a constant that describes how electric fields interact with the vacuum. $\vec{B}$ is the magnetic field, which can vary with time depending on the motion of charges. The curl of the electric field is proportional to the negative rate of change of the magnetic field, indicating that a changing magnetic field induces a circulating electric field. 
+$$\nabla \cdot \vec{F} = \frac{\rho}{\epsilon_0}$$
+$$\nabla \times \vec{F} = -\frac{\partial \vec{B}}{\partial t}$$
+Where $\rho$ is the charge density, which is the amount of electric charge per unit volume, so the electric field is proportional to the charge density and it diverges from positive charges and converges towards negative charges. $\epsilon_0$ is the permittivity of free space, which is a constant that describes how electric fields interact with the vacuum. $\vec{B}$ is the magnetic field, which can vary with time depending on the motion of charges. The curl of the electric field is proportional to the negative rate of change of the magnetic field, indicating that a changing magnetic field induces a circulating electric field.
 We force the electric field to be conservative, meaning that the work done by the electric field on a charged particle moving between two points is independent of the path taken. Explained in simpler terms, if you move a charged particle in a closed loop in an electric field, the net work done by the electric field on the particle is zero, because the electric field is conservative.
 This implies that the curl of the electric field must be zero:
 $$\nabla \times \vec{F} = 0$$
@@ -37,7 +37,7 @@ $$\int_{A_{path1}}^B \vec{F} d\vec{l} = \int_{A_{path2}}^B \vec{F} d\vec{l}$$
 ##### Magnetic Field
 The magnetic field $\vec{B}$ is described by Maxwell's equations:
 $$\nabla \cdot \vec{B} = 0$$
-$$\nabla \times \times \vec{B} = \mu_0 \vec{J} + \mu_0 \epsilon_0 \frac{\partial \vec{E}}{\partial t}$$ 
+$$\nabla \times \vec{B} = \mu_0 \vec{J} + \mu_0 \epsilon_0 \frac{\partial \vec{E}}{\partial t}$$ 
 Where $\mu_0$ is the permeability of free space, which is a constant that describes how magnetic fields interact with the vacuum. $\vec{J}$ is the current density, which is the amount of electric current per unit area. The divergence of the magnetic field is zero, indicating that there are no magnetic monopoles; magnetic field lines always form closed loops and do not begin or end at any point. The curl of the magnetic field is proportional to the current density and the rate of change of the electric field, indicating that electric currents and changing electric fields induce circulating magnetic fields.
 This implies that the magnetic field is solenoidal, meaning that the divergence is zero. 
 A property of a vector field $\vec{A}$ is that its curl is solenoidal:
