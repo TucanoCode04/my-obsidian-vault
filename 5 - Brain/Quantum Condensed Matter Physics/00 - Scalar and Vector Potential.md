@@ -69,6 +69,16 @@ $$\nabla \times \vec{F} = -\frac{\partial \vec{B}}{\partial t} = -\frac{\partial
 $$\nabla \times \left( \vec{F} + \frac{\partial \vec{A}}{\partial t} \right) = 0$$
 Remember that a field with zero curl can be expressed as the gradient of a scalar potential:
 $$\nabla \times \left( \nabla \cdot \phi \right) = 0 \quad \Rightarrow \quad \vec{F} = -\nabla \phi - \frac{\partial \vec{A}}{\partial t}$$
- 
+ The minus sign in front of the time derivative is a convention, to symbolize the external work done on the charge and not from the charge.
+$\vec{F}$ has not to change as we change $\vec{A}$ so something has to compensate the change in $\vec{A}$:
+$$\vec{A} \rightarrow \vec{A'} = \vec{A} + \nabla \chi$$
+$$- \nabla \phi - \frac{\partial \vec{A}}{\partial t} = -\nabla \phi' - \frac{\partial \vec{A'}}{\partial t} = - \nabla \phi' - \frac{\partial}{\partial t} (\vec{A} + \nabla \chi)$$
+We get rid of $\vec{A}$ on both sides:
+$$\nabla \left(\phi' - \phi + \frac{\partial \chi}{\partial t}\right) = 0 \quad \Rightarrow \quad \phi' = \phi - \frac{\partial \chi}{\partial t}$$
+So the potentials transform as:
+$$\vec{A} \rightarrow \vec{A'} = \vec{A} + \nabla \chi$$
+$$\phi \rightarrow \phi' = \phi - \frac{\partial \chi}{\partial t}$$
+These are called gauge transformations, and they reflect the freedom we have in choosing the potentials without changing the physical fields $\vec{F}$ and $\vec{B}$(Gauge Invariance).
+The freedom in choosing 
 
 ## References
