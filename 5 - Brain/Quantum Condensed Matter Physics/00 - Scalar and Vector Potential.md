@@ -49,6 +49,9 @@ $$\vec{B} = \nabla \times \vec{A}$$ where $\vec{A}$ is the magnetic vector poten
 Definition of potential: a potential is a scalar or vector field from which a force field(physical field you can observe) can be derived(spatial or temporal rate of change).
 Why do we use potentials? They are powerful tools to express and analyze physical fields, for example the allow us to express conservation laws in a more intuitive way, they simplify Maxwell's equations, and they can encode fields into a simpler, more fundamental form.
 
+For the electric field:
+$$\vec{F} = -\nabla \phi \quad \Rightarrow \quad \phi(\vec{x}, t)) = -\int_{- \infty}^{\vec{x}} \vec{F}(\vec{x'}, t) d\vec{x'}$$
+$\phi$ is 
 
 
 ## References
