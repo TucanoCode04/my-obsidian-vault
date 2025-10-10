@@ -51,7 +51,7 @@ Why do we use potentials? They are powerful tools to express and analyze physica
 
 For the electric field:
 $$\vec{F} = -\nabla \phi \quad \Rightarrow \quad \phi(\vec{x}, t)) = -\int_{- \infty}^{\vec{x}} \vec{F}(\vec{x'}, t) d\vec{x'}$$
-$\phi$ is defined up to an additive constant, because the gradient of a constant is zero, so adding a constant to the potential does not change the electric field. This means that only differences in potential are physically meaningful(since it comes from integration), not the absolute value of the potential. So we can choose the potential such that $\vec{F}$ does not change as long as:
+$\phi$ is defined up to an additive constant, because the integration of a constant is zero, so adding a constant to the potential does not change the electric field. So we can choose the potential such that $\vec{F}$ does not change as long as:
 $$\phi' = \phi + C$$ Where $C$ is a constant.
 $$\vec{F} = -\nabla \phi = -\nabla \phi' = \vec{F'}$$
 
@@ -61,7 +61,14 @@ The curl operation allows for more functions to fulfill the same equation, becau
 $$\nabla \times (\nabla \chi) = 0$$
 So we can add the gradient of any scalar function $\chi$ to the vector potential without changing the magnetic field:
 $$\vec{A} \rightarrow \vec{A'} = \vec{A} + \nabla \chi \quad \Rightarrow \quad \vec{B} = \nabla \times \vec{A} = \nabla \times \vec{A'} = \vec{B'}$$
+So $\vec{A}$ is defined up to the gradient of a scalar function, so we have the freedom to choose the form of $\vec{A}$ that is most convenient for our calculations, as long as it satisfies the equation for $\vec{B}$.
 
+$\vec{B}$ and $\vec{F}$ are connected and so are their potentials.
+General case for $\vec{B}$ varying with time:
+$$\nabla \times \vec{F} = -\frac{\partial \vec{B}}{\partial t} = -\frac{\partial}{\partial t} (\nabla \times \vec{A}) = -\nabla \times \left( \frac{\partial \vec{A}}{\partial t} \right)$$
+$$\nabla \times \left( \vec{F} + \frac{\partial \vec{A}}{\partial t} \right) = 0$$
+Remember that a field with zero curl can be expressed as the gradient of a scalar potential:
+$$\nabla \times \left( \nabla \cdot \phi \right) = 0 \quad \Rightarrow \quad \vec{F} = -\nabla \phi - \frac{\partial \vec{A}}{\partial t}$$
  
 
 ## References
