@@ -27,7 +27,7 @@ We can prove that, by using Stokes' theorem:
 $$\oint_C \vec{F} d\vec{l} = \int_{\epsilon} (\nabla \times \vec{F}) ds = 0$$
 We said that the field is irrotational, meaning that the curl of the field is zero.
 A property of a scalar field $\phi$ is that its gradient is irrotational:
-$$\nabla \times (\nabla \phi) = 0$$
+$$\nabla \times (\nabla \cdot \phi) = 0$$
 This property is obvious, because the gradient of a scalar field points in the direction of the maximum rate of increase of the scalar field, and it does not have any rotational component, and the curl measures the rotational component of a vector field.
 So we can express the electric field as the gradient of a scalar potential:
 $$\vec{F} = -\nabla \phi$$ where $\phi$ is the electric potential, which represents the electric potential energy per unit charge at a given point in space. The negative sign indicates that the electric field points in the direction of decreasing electric potential, meaning that positive charges will naturally move towards regions of lower potential energy. The higher the potential, the steeper the field, the faster the charge will fall from the high potential to the low potential.
@@ -45,4 +45,9 @@ $$\nabla \cdot (\nabla \times \vec{A}) = 0$$
 This property is obvious, because the curl of a vector field represents the rotation or circulation of the field, and it does not have any divergence component, and the divergence measures the rate of change of the field's magnitude in all directions.
 So we can express the magnetic field as the curl of a vector potential:
 $$\vec{B} = \nabla \times \vec{A}$$ where $\vec{A}$ is the magnetic vector potential, which is a vector field whose curl gives the magnetic field. The vector potential is not unique; different choices of $\vec{A}$ can lead to the same magnetic field $\vec{B}$, as adding the gradient of any scalar function to $\vec{A}$ does not change its curl.
+##### Properties of the potentials
+Definition of potential: a potential is a scalar or vector field from which a force field(physical field you can observe) can be derived(spatial or temporal rate of change).
+Why do we use potentials? They are powerful tools to express and analyze physical fields, for example the allow us to express conservation laws in a more intuitive way, they simplify Maxwell's equations, and they can encode fields into a simpler, more fundamental form.
+
+
 ## References
