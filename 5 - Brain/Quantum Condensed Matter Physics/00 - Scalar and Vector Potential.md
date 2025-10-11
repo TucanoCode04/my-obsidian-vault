@@ -108,5 +108,11 @@ $$\vec{p} = m\vec{v} + q\vec{A}$$
 Where $\vec{p}$ is the canonical momentum, which includes both the mechanical momentum $m\vec{v}$ and the contribution from the magnetic vector potential $q\vec{A}$. The canonical momentum is a fundamental concept in quantum mechanics and plays a crucial role in the formulation of the Schrödinger equation in the presence of electromagnetic fields.
 ##### Expanding the equation of Schrodinger for a free electron in an electric and magnetic field
 The time-dependent Schrödinger equation for a free particle is given by:
-$$
+$$\hat{H} \Psi(\vec{R}, t) = i \hbar \frac{\partial}{\partial t} \Psi(\vec{R}, t)$$ Where $\hat{H}$ is the Hamiltonian operator, $\Psi(\vec{R}, t)$ is the wave function of the particle, $i$ is the imaginary unit, and $\hbar$ is the reduced Planck's constant.
+$\hat{H}$ is divided into kinetic and potential energy:
+$$\hat{H} = \hat{T} + \hat{V}$$
+The kinetic energy operator $\hat{T}$ for a free particle is given by:
+$$\hat{T} = \frac{\hat{p}^2}{2m} = -\frac{\hbar^2}{2m} \nabla^2$$ 
+
+
 ## References
