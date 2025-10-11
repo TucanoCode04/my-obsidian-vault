@@ -120,5 +120,7 @@ So the Hamiltonian operator becomes:
 $$\hat{H} = \frac{(\hat{p} - q\vec{A})^2}{2m} + q\phi$$
 Where $q\phi$ is the potential energy term due to the electric potential $\phi$(energy per unit of charge).
 Now we can rewrite the Schrödinger equation:
-$$\left{ \frac{
+$$\left\{ \frac{1}{2m} \left[\hat{p} - q\vec{A} \right]^2 + q\phi \right\} \Psi(\vec{R}, t) = i \hbar \frac{\partial}{\partial t} \Psi(\vec{R}, t)$$
+The effect of changing gauge on the wave function is basically  a phase change:
+$$\Psi \rightarrow \Psi' = \Psi e^{\frac{i q \chi}{\hbar}}$$ Where $\chi$ is the scalar function used in the gauge transformation of the potentials.
 ## References
