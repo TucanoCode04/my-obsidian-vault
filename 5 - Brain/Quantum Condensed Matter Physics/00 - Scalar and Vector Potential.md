@@ -107,5 +107,6 @@ The formula of canonical momentum is:
 $$\vec{p} = m\vec{v} + q\vec{A}$$ 
 Where $\vec{p}$ is the canonical momentum, which includes both the mechanical momentum $m\vec{v}$ and the contribution from the magnetic vector potential $q\vec{A}$. The canonical momentum is a fundamental concept in quantum mechanics and plays a crucial role in the formulation of the Schrödinger equation in the presence of electromagnetic fields.
 ##### Expanding the equation of Schrodinger for a free electron in an electric and magnetic field
-SEARCH WTF IS MOMENTUM
+The time-dependent Schrödinger equation for a free particle is given by:
+$$
 ## References
