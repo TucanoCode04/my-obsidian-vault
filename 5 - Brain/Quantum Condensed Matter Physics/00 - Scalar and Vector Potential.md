@@ -109,7 +109,16 @@ Where $\vec{p}$ is the canonical momentum, which includes both the mechanical mo
 ##### Expanding the equation of Schrodinger for a free electron in an electric and magnetic field
 The time-dependent Schrödinger equation for a free particle is given by:
 $$\hat{H} \Psi(\vec{R}, t) = i \hbar \frac{\partial}{\partial t} \Psi(\vec{R}, t)$$ Where $\hat{H}$ is the Hamiltonian operator, $\Psi(\vec{R}, t)$ is the wave function of the particle, $i$ is the imaginary unit, and $\hbar$ is the reduced Planck's constant.
-$\hat{H}$ 
-
-
+The Hamiltonian operator is divided into kinetic and potential energy terms:
+$$\hat{H} = \hat{T} + \hat{V}$$
+In this case, we have no potential energy, so $\hat{V} = 0$ and the Hamiltonian operator is equal to the kinetic energy operator:
+$$\hat{H} = \hat{T} = \frac{\hat{p}^2}{2m}$$
+But since we have an electric and magnetic field the components are affected by it and we have to use the canonical momentum instead of the mechanical momentum:
+$$\hat{p} = -i \hbar \nabla$$
+$$\hat{p} \rightarrow \hat{p} - q\vec{A}$$
+So the Hamiltonian operator becomes:
+$$\hat{H} = \frac{(\hat{p} - q\vec{A})^2}{2m} + q\phi$$
+Where $q\phi$ is the potential energy term due to the electric potential $\phi$(energy per unit of charge).
+Now we can rewrite the Schrödinger equation:
+$$\left{ \frac{
 ## References
