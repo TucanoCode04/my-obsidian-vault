@@ -20,7 +20,9 @@ where $|\psi\rangle$ is an entangled state of particles A and B.
 ##### Write the state $|GHZ\rangle = \frac{1}{\sqrt{2}}(|000\rangle + |111\rangle)$ in the basis:
 - $|+\rangle, |-\rangle$
 - 
+Can you write the state|GHZ\rangle = \frac{1}{\sqrt{2}}(|000\rangle + |111\rangle) in the basis:
 
+|+\rangle, |-\rangle and
 
 
 ## References
