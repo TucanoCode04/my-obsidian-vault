@@ -75,12 +75,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Cybersecurity/00 - Introduction to Cybersecurity.md",
+                "file": "5 - Brain/Mathematics for Quantum Engineering/Q2 - Entanglement.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00 - Introduction to Cybersecurity"
+              "title": "Q2 - Entanglement"
             }
           }
         ],
@@ -141,8 +141,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -257,12 +256,13 @@
   },
   "active": "6ee9dd6f536438da",
   "lastOpenFiles": [
+    "5 - Brain/Cybersecurity/00 - Introduction to Cybersecurity.md",
+    "5 - Brain/Mathematics for Quantum Engineering/Q2 - Entanglement.md",
     "5 - Brain/Quantum Condensed Matter Physics/00 - Scalar and Vector Potential.md",
     "5 - Brain/Quantum Devices/Group A/02 - Lecture 2.md",
     "5 - Brain/Quantum Condensed Matter Physics/03 - Reciprocal Bravais Lattice.md",
     "5 - Brain/Cybersecurity/Cryptography.md",
     "5 - Brain/Quantum Condensed Matter Physics/01 - Introduction to the Crystal Structure.md",
-    "5 - Brain/Cybersecurity/00 - Introduction to Cybersecurity.md",
     "5 - Brain/Quantum Devices/Group A/01 - Lecture 1.md",
     "5 - Brain/Untitled.base",
     "copilot-custom-prompts/Explain like I am 5.md",
