@@ -122,8 +122,8 @@ The softwares already contain bugs and vulnerabilities.
 We can implement all types of securities but it is all subject to human errors. 
 ##### Malware food chain
 ![[Pasted image 20250929185422.png]]
-
-
+##### Non technological problems
+Related to human nature:
 
 
 
