@@ -123,9 +123,14 @@ We can implement all types of securities but it is all subject to human errors.
 ##### Malware food chain
 ![[Pasted image 20250929185422.png]]
 ##### Non technological problems
-Related to human nature:
+There may be some problems related to human nature, for example a poor understanding of the existence of the problem(awareness of the problem), mistakes(leaded by stress or work overloading), the human tendency to trust, complex interfaces or architecture(can mislead the user) or a performance decrease due to the application of security measures
 
-
+Some other problems related to social engineering techniques and strategies through mail, phone or even paper:
+- asking for the user's involuntary participation in the attack
+- targeting a naive user(change the password with this password because your pc in under attack)
+- targeting more experienced users(copying authentic emails with different attachments or URLs)
+- exerting psychological pressure(help, I'm in trouble, do it or I'll report to the boss)
+- 
 
 
 

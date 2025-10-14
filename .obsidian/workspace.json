@@ -141,8 +141,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -216,16 +215,6 @@
             }
           },
           {
-            "id": "6d1aeb13e187a869",
-            "type": "leaf",
-            "state": {
-              "type": "github-copilot-chat-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "github-copilot-chat-view"
-            }
-          },
-          {
             "id": "0d9bc37f9ef97e25",
             "type": "leaf",
             "state": {
@@ -233,6 +222,16 @@
               "state": {},
               "icon": "git-pull-request",
               "title": "Source Control"
+            }
+          },
+          {
+            "id": "f9fb5b0b164008ca",
+            "type": "leaf",
+            "state": {
+              "type": "github-copilot-chat-view",
+              "state": {},
+              "icon": "bot-message-square",
+              "title": "Copilot Chat"
             }
           }
         ],
@@ -255,7 +254,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6ee9dd6f536438da",
+  "active": "f9fb5b0b164008ca",
   "lastOpenFiles": [
     "5 - Brain/Mathematics for Quantum Engineering/Q2 - Entanglement.md",
     "5 - Brain/Cybersecurity/00 - Introduction to Cybersecurity.md",
