@@ -225,7 +225,7 @@
             }
           },
           {
-            "id": "f9fb5b0b164008ca",
+            "id": "48af541d23a1daf9",
             "type": "leaf",
             "state": {
               "type": "github-copilot-chat-view",
@@ -239,8 +239,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -256,15 +255,18 @@
   },
   "active": "6ee9dd6f536438da",
   "lastOpenFiles": [
-    "5 - Brain/Mathematics for Quantum Engineering/Q2 - Entanglement.md",
+    "5 - Brain/Cybersecurity/Cryptography.md",
     "5 - Brain/Cybersecurity/00 - Introduction to Cybersecurity.md",
+    "5 - Brain/Fundamental of Technological Processes/Professor Cocuzza/02 - Crystallography and Crystalline Defects.md",
+    "5 - Brain/Fundamental of Technological Processes/Professor Cocuzza/01 - Wafer Production.md",
+    "5 - Brain/Mathematics for Quantum Engineering/Q2 - Entanglement.md",
+    "5 - Brain/Quantum Devices/Main Course/Untitled.md",
+    "5 - Brain/Untitled.base",
     "5 - Brain/Quantum Condensed Matter Physics/00 - Scalar and Vector Potential.md",
     "5 - Brain/Quantum Devices/Group A/02 - Lecture 2.md",
     "5 - Brain/Quantum Condensed Matter Physics/03 - Reciprocal Bravais Lattice.md",
-    "5 - Brain/Cybersecurity/Cryptography.md",
     "5 - Brain/Quantum Condensed Matter Physics/01 - Introduction to the Crystal Structure.md",
     "5 - Brain/Quantum Devices/Group A/01 - Lecture 1.md",
-    "5 - Brain/Untitled.base",
     "copilot-custom-prompts/Explain like I am 5.md",
     "copilot-custom-prompts/Translate to Chinese.md",
     "copilot-custom-prompts/Rewrite as tweet.md",
@@ -277,7 +279,6 @@
     "To do/Fund of Tech Processes Prof 1 Lithography.md",
     "To do/Cybersecurity.md",
     "To do/Cybersec Levels of Networking.md",
-    "5 - Brain/Fundamental of Technological Processes/Professor Cocuzza/01 - Wafer Production.md",
     "5 - Brain/Quantum Devices/Main Course",
     "5 - Brain/Quantum Devices/Untitled.md",
     "5 - Brain/Quantum Devices/Group A",
@@ -288,9 +289,6 @@
     "5 - Brain/Quantum Devices.md",
     "Images",
     "6 - Trash/Untitled 2",
-    "5 - Brain/Fundamental of Technological Processes/Professor Cocuzza/02 - Crystallography and Crystalline Defects.md",
-    "6 - Trash/Funzioni Complesse.md",
-    "2 - Tags/Amorphous.md",
     "5 - Brain/Quantum Condensed Matter Physics",
     "Images/Pasted image 20250929185422.png",
     "Images/Pasted image 20250929121230.png",
