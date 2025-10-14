@@ -118,7 +118,9 @@ The softwares already contain bugs and vulnerabilities.
 - Virus and Worm: a malicious program that damages the target and replicates itself, the propagation is involuntary done by humans(virus) or is automatic(worm). (Only viruses create damage???). It's used to create backdoors(unauthorized access points), rootkits(hide the presence of certain processes or programs through privilege escalation) or install trojans or PUA( potentially unwanted applications). They require complicity from the user, the sys manager or the producer.
 	- countermeasures: user awareness, antivirus, correct configuration/secure software
 - Ransomware: a type of malware created to encrypt files on a device or lock the system, then demand a ransom to restore access. It's not only relative to the technology but also to procedures and organizations: encrypted data? How old is the backup? Off-line or network backup? Verified or £trusted backup? When was the attack discovered?  
-- Phishing: 
+- Phishing: an attacker impersonates a trusted entity (such as a bank, company, or colleague) to trick users into revealing sensitive information like passwords, credit card numbers, or login credentials. It’s typically carried out through deceptive emails, fake websites, fake kidnapping alarms or instant messages that appear legitimate. Variants include **spear phishing** (targeted attacks against specific individuals or organizations), **whaling** (targeting high-profile figures such as executives), and **smishing/vishing** (using SMS or voice calls instead of email). It's easy to create a fake email, but it's difficult to replicate the right tone, so it's easier to use the original mail with a different(malicious) attachment.
+    - **attacks:** credential theft, financial fraud, identity theft, malware installation through malicious links or attachments
+    - **countermeasures:** user awareness and training, email filtering, verification of URLs and sender addresses, use of multi-factor authentication, and anti-phishing tools integrated into browsers and mail clients
 
 We can implement all types of securities but it is all subject to human errors. 
 ##### Malware food chain
