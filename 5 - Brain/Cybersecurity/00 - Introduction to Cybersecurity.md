@@ -134,8 +134,9 @@ Some other problems related to social engineering techniques and strategies thro
 - targeting more experienced users(copying authentic emails with different attachments or URLs)
 - exerting psychological pressure(help, I'm in trouble, do it or I'll report to the boss)
 - lowering the targets defenses by showing acquaintance with the company's procedures, habits or personnel
-
-
+##### Some attacks
+- **T.J.Maxx attack**: hackers infiltrated TJX network by exploiting weak wireless encryption (WEP) used in their in-store Wi-Fi. Once inside, the attackers installed sniffer programs that intercepted data from customers’ credit and debit cards as it was transmitted to the company’s servers. Over an 18-month period, they stole information linked to more than 45 million payment cards, leading to widespread financial fraud.
+- 
 
 
 
