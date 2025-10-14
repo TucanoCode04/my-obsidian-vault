@@ -118,6 +118,7 @@ The softwares already contain bugs and vulnerabilities.
 - Virus and Worm: a malicious program that damages the target and replicates itself, the propagation is involuntary done by humans(virus) or is automatic(worm). (Only viruses create damage???). It's used to create backdoors(unauthorized access points), rootkits(hide the presence of certain processes or programs through privilege escalation) or install trojans or PUA( potentially unwanted applications). They require complicity from the user, the sys manager or the producer.
 	- countermeasures: user awareness, antivirus, correct configuration/secure software
 - Ransomware: a type of malware created to encrypt files on a device or lock the system, then demand a ransom to restore access. It's not only relative to the technology but also to procedures and organizations: encrypted data? How old is the backup? Off-line or network backup? Verified or £trusted backup? When was the attack discovered?  
+- Phishing: a 
 
 We can implement all types of securities but it is all subject to human errors. 
 ##### Malware food chain
@@ -130,7 +131,9 @@ Some other problems related to social engineering techniques and strategies thro
 - targeting a naive user(change the password with this password because your pc in under attack)
 - targeting more experienced users(copying authentic emails with different attachments or URLs)
 - exerting psychological pressure(help, I'm in trouble, do it or I'll report to the boss)
-- 
+- lowering the targets defenses by showing acquaintance with the company's procedures, habits or personnel
+
+
 
 
 
