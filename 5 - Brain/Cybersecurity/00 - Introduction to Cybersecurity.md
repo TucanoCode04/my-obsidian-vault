@@ -140,10 +140,21 @@ Some other problems related to social engineering techniques and strategies thro
 - **Fancy Bear/APT 28**: The group is known for cyber-espionage and disinformation campaigns targeting governments, media, and defense organizations, particularly in NATO and Europe. Ukrainian artillery-targeting Android app (an APK named Попр-D30.apk) with its X-Agent for Android implant and posted it on military forums between late 2014 and 2016. The malicious build looked like a legitimate targeting/ballistics tool used by D-30 howitzer crews but secretly exfiltrated device metadata (notably location), allowing the actor to infer the positions and movements of Ukrainian rocket and artillery units
 - **Mirai:** The Mirai botnet, first identified in 2016 (Mirai 1), was a massive distributed denial-of-service (DDoS) attack that infected Internet of Things (IoT) devices such as routers, cameras, and DVRs. By exploiting default factory credentials, Mirai turned these devices into a global botnet capable of overwhelming major websites and services—including Twitter, Netflix, and Dyn—with unprecedented traffic volumes. The attack revealed the security weaknesses of IoT ecosystems and how easily they could be hijacked. Later variants, like Mirai 2, expanded on the original code (which was publicly released), leading to multiple derivative botnets used by criminals and hacktivists worldwide. Together, the Mirai attacks highlighted the dangers of insecure connected devices and the urgent need for better default security configurations and firmware updates in consumer electronics.
 ##### Three(Four) Pillars of Security
+Cybersecurity is not a one-time action but an ongoing process involving planning, prevention, detection, and investigation, each reinforcing the others to create a resilient defense system
 - **0 Planning phase:** preliminary phase. It involves defining a security policy, setting goals, identifying assets, and determining the acceptable level of risk. Essentially, it’s about planning how security should be managed before any technical measures are implemented.
 - **1 Avoidance**: avoiding security incidents by implementing protective measures, to reduce vulnerabilities and prevent attacks: Firewalls(to block unauthorized access), VPNs(secure communication over untrusted networks), PKI(Public Key Infrastructure, to manage encryption and digital certificates)
 - **2 Detection:** some attacks will still happen, so we need to ensure quick awareness of the threats to respond promptly: IDS(Intrusion Detection Systems), Network and System Monitoring(suspicious behavior or breaches)
-- **3 Investigation:** after an incident is detected we need to analyze what happened: Forensic Anl
+- **3 Investigation:** after an incident is detected we need to analyze what happened to learn and improve future defenses: Forensic Analysis(reconstruction of the attacks and its impacts), Internal Audits(security controls and compliance)
+##### NIST Cybersecurity Framework 2.0
+One of the most widely used models for managing and improving cybersecurity across organizations. Developed by the National Institute of Standards and Technology (NIST), this framework provides a structured approach to identifying, protecting against, detecting, responding to, and recovering from cyber threats.
+- **Govern:** defines the policies, roles, and responsibilities that guide all cybersecurity activities. It ensures that every phase (identify, protect, detect, respond, recover) operates under consistent management principles and that cybersecurity aligns with the organization’s mission and risk appetite.
+- **Identify:** understanding what needs protection. It includes inventorying assets, both static (hardware, software) and dynamic (data flows, connections) and identifying critical resources, potential risks, and vulnerabilities. The goal is to create a complete picture of the organization’s environment.
+- **Protect:** once critical assets are identified, the next step is to apply defensive security controls to safeguard them. This includes firewalls, access control, encryption, and security policies that prevent or limit the impact of cyber incidents.
+- **Detect:** organizations implement alarm and monitoring systems (like IDS/IPS, SIEM, and logging tools) to quickly identify when something abnormal occurs. It focuses on continuous monitoring and timely detection of potential security events.
+- **Respond:** 
+
+
+
 
 
 
