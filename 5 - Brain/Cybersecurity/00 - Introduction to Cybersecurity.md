@@ -136,7 +136,7 @@ Some other problems related to social engineering techniques and strategies thro
 - lowering the targets defenses by showing acquaintance with the company's procedures, habits or personnel
 ##### Some attacks
 - **T.J.Maxx attack**: hackers infiltrated TJX network by exploiting weak wireless encryption (WEP) used in their in-store Wi-Fi. Once inside, the attackers installed sniffer programs that intercepted data from customers’ credit and debit cards as it was transmitted to the company’s servers. Over an 18-month period, they stole information linked to more than 45 million payment cards, leading to widespread financial fraud.
-- 
+- **Stuxnet:** was a highly sophisticated state-sponsored cyberweapon that specifically targeted Iran’s nuclear enrichment facilities. It spread through USB drives and Windows vulnerabilities using worms and viruses, secretly infiltrating industrial control systems (SCADA) made by Siemens. Once inside, Stuxnet manipulated the centrifuges used to enrich uranium by making them spin at destructive speeds while showing normal readings to operators, causing physical damage without detection. Believed to have been developed jointly by the United States and Israel, Stuxnet marked the first known malware capable of causing real-world physical destruction, ushering in the era of cyberwarfare and critical infrastructure attacks. The attacks and propagation vectors were 2 known zero days vulnerabilities. The first injection was likely via a USB key from a maintenance technician, the attack was disguised as a driver vith a digital signature validated by Microsof
 
 
 
