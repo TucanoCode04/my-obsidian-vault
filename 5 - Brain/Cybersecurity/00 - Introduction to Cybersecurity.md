@@ -151,12 +151,6 @@ One of the most widely used models for managing and improving cybersecurity acro
 - **Identify:** understanding what needs protection. It includes inventorying assets, both static (hardware, software) and dynamic (data flows, connections) and identifying critical resources, potential risks, and vulnerabilities. The goal is to create a complete picture of the organization’s environment.
 - **Protect:** once critical assets are identified, the next step is to apply defensive security controls to safeguard them. This includes firewalls, access control, encryption, and security policies that prevent or limit the impact of cyber incidents.
 - **Detect:** organizations implement alarm and monitoring systems (like IDS/IPS, SIEM, and logging tools) to quickly identify when something abnormal occurs. It focuses on continuous monitoring and timely detection of potential security events.
-- **Respond:** 
-
-
-
-
-
-
-
+- **Respond:** when an incident is detected, the cybersecurity emergency response plan comes into play. This includes containment, mitigation, communication, and coordination procedures to handle the situation effectively and minimize damage.
+- **Recover:** after an incident, systems and operations must be restored. The recovery phase includes redesigning or re-implementing security measures to avoid recurrence, as well as learning from the event to improve resilience.
 ## References

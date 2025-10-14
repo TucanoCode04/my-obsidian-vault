@@ -75,12 +75,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Cybersecurity/00 - Introduction to Cybersecurity.md",
+                "file": "5 - Brain/Quantum Devices/Group A/04 - Lecture 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00 - Introduction to Cybersecurity"
+              "title": "04 - Lecture 4"
             }
           }
         ],
@@ -141,8 +141,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -257,6 +256,9 @@
   },
   "active": "6ee9dd6f536438da",
   "lastOpenFiles": [
+    "5 - Brain/Quantum Devices/Group A/03 - Lecture 3.md",
+    "5 - Brain/Quantum Devices/Group A/04 - Lecture 4.md",
+    "5 - Brain/Cybersecurity/01 - Networking.md",
     "5 - Brain/Cybersecurity/Cryptography.md",
     "5 - Brain/Cybersecurity/00 - Introduction to Cybersecurity.md",
     "5 - Brain/Fundamental of Technological Processes/Professor Cocuzza/02 - Crystallography and Crystalline Defects.md",
@@ -282,13 +284,11 @@
     "To do/Cybersecurity.md",
     "To do/Cybersec Levels of Networking.md",
     "5 - Brain/Quantum Devices/Main Course",
-    "5 - Brain/Quantum Devices/Untitled.md",
     "5 - Brain/Quantum Devices/Group A",
     "5 - Brain/Fundamental of Technological Processes/Professor Ghigo",
     "5 - Brain/Fundamental of Technological Processes/Professor Cocuzza",
     "5 - Brain/Mathematics for Quantum Engineering",
     "5 - Brain/Quantum Devices",
-    "5 - Brain/Quantum Devices.md",
     "Images",
     "6 - Trash/Untitled 2",
     "5 - Brain/Quantum Condensed Matter Physics",
