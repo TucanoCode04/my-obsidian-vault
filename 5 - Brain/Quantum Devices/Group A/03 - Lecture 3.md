@@ -27,7 +27,16 @@ p = \int_{-\infty}^{E_V} \gamma_p \sqrt{E_V - E} \cdot \frac{1}{1 + e^{- \frac{E
 $$
 So the density of electrons and holes are integrals over energy that multiplies the density of states by the probability of occupation(Fermi-Dirac function).
 We write $n = n(E_F)$ and $p = p(E_F)$ to highlight that the populations depend on the Fermi energy level.
-We now have 
+We now have a system of 2 equations with 3 variables, $n$, $p$ and $E_F$.
+$E_F$ depends on $n$ and $p$ at equilibrium, $n$ and $p$ depend on doping, so $E_F$ depends on doping. Because it influences the number of carriers, doping influences the Fermi level.
+For zero doping, the semiconductor is intrinsic so we use the intrinsic carrier concentration $n_i$:
+$$
+n = n_i = n(E_{F_i}) \quad , \quad p = n_i = p(E_{F_i}) \quad \Rightarrow \quad n_i^2 = n(E_{F_i}) \cdot p(E_{F_i})
+$$
+Where $E_{F_i}$ is the intrinsic Fermi level.
+Since doping changes the population from $n_i$ to $n$ and $p$, the Fermi level shifts from $E_{F_i}$ to $E_F$.
+If we concentrate for example on the n-type doping, the number of carriers in modified to $n > n_i$, causing the Fermi level to shift up $E_F > E_{F_i}$, but $E_F$ is a also a variable in the expression for $p$, so there should be a corresponding decrea
+
 
 
 
