@@ -134,8 +134,7 @@ $$
  p - n + N^+ = 0 $$
  This is the third equation we were looking for.
  So considering a non-degenerate material, combining local neutrality and mass action law, we can solve the system of equations:
- 1. For n-type doping, $N^+ > 0$:
- $$
+ 1. For n-type doping, $N^+ > 0$:$$
  \begin{cases}
  n \cdot p = n_i^2 \\
  p - n + N^+ = 0 
@@ -165,6 +164,19 @@ $$
 The limits of the net doping grants the usage of the non-degenerate assumption and the Boltzmann approximation.
 Let's analyze a more general case.
 1. For n-type doping, $N^+ >> n_i$:
+$$
+\begin{cases}
+n \approx N^+ \quad \text{in the order of} 10^{15} cm^{-3} \\
+p = \frac{n_i^2}{N^+} = 2.1 \cdot 10^{5} cm^{-3} \quad \text{for Si at RT}
+\end{cases}$$
+	Here $n$ and $p$ are called majority and minority carriers respectively. From the mass action law we can see that the minority carrier concentration is very low.
+	Basically can define the position of $E_F$ using the equation for $n$.
+	By combining the Shockley's equation, telling us the position of $E_F$ in respect to $E_{F_i}$:
+$$
+kt \ln(\frac{n}{n_i}) = E_F - E_{F_i}$$
+	and the Boltzmann relation, telling us the position of $E_F$  in respect to $E_C$:
+$$
+kt \ln(\frac{N_C}{n}) = E_C - E_F$$ 
 
 
 
