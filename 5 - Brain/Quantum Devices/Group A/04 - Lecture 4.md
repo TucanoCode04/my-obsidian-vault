@@ -22,7 +22,9 @@ $$ \begin{cases}
 \vec{v}_{p, drift} = + \mu_p \vec{\epsilon}
 				\end{cases} $$
 	Where $\mu_n$ and $\mu_p$ are the electron and hole mobilities, which are positive quantities that characterize how easily the carriers can move through the material under the influence of an electric field. The negative sign for electrons indicates that they move opposite to the direction of the electric field, while holes move in the same direction as the field.
-
+	$\mu_n$ and $\mu_p$ are constant only for small electric fields, for high fields they depend on the field itself:
+$$ \log_{10} |\vec{v}_{drift}| = \log_{10} |\mu \vec{\epsilon}| = \log_{10} \mu + \log_{10} |\vec{\epsilon}| $$
+	So we can see that for high fields the mobility decreases with the field, and the drift velocity saturates at a certain value called saturation velocity $v_{sat}$.
 
 
 
