@@ -166,23 +166,35 @@ Let's analyze a more general case.
 1. For n-type doping, $N^+ >> n_i$:
 $$
 \begin{cases}
-n \approx N^+ \quad \text{in the order of} 10^{15} cm^{-3} \\
+n \approx N^+ \quad \text{in the order of} \ 10^{15} cm^{-3} \\
 p = \frac{n_i^2}{N^+} = 2.1 \cdot 10^{5} cm^{-3} \quad \text{for Si at RT}
 \end{cases}$$
 	Here $n$ and $p$ are called majority and minority carriers respectively. From the mass action law we can see that the minority carrier concentration is very low.
 	Basically can define the position of $E_F$ using the equation for $n$.
 	By combining the Shockley's equation, telling us the position of $E_F$ in respect to $E_{F_i}$:
 $$
-kt \ln(\frac{n}{n_i}) = E_F - E_{F_i}$$
+kT \ln(\frac{n}{n_i}) = E_F - E_{F_i}$$
 	and the Boltzmann relation, telling us the position of $E_F$  in respect to $E_C$:
 $$
-kt \ln(\frac{N_C}{n}) = E_C - E_F$$ 
-
-
-
-
-
-
-
-
+					kT \ln(\frac{N_C}{n}) = E_C - E_F$$
+	we can determine the maximum doping level that allows the usage of the non-degenerate assumption:
+$$
+kT \ln(\frac{N_C}{N^+}) > 0 \quad \Rightarrow \quad N^+ < N_C$$ For Silicon at room temperature $N_C \approx 4 \cdot 10^{19} cm^{-3}$, so we can use the non-degenerate assumption up to this doping level. The more he $E_F$ approaches $E_C$, the less accurate the Boltzmann approximation becomes.
+2. For p-type doping, $|N^+| >> n_i$:
+$$
+\begin{cases}
+p \approx |N^+| \quad \text{in the order of} \ 10^{15} cm^{-3} \\
+n = \frac{n_i^2}{|N^+|} = 2.1 \cdot 10^{5} cm^{-3} \quad \text{for Si at RT}
+\end{cases}$$
+	Here $p$ and $n$ are called majority and minority carriers respectively. From the mass action law we can see that the minority carrier concentration is very low.
+	Basically can define the position of $E_F$ using the equation for $p$.
+	By combining the Shockley's equation, telling us the position of $E_F$ in respect to $E_{F_i}$:
+$$
+kT \ln(\frac{p}{n_i}) = E_{F_i} - E_F$$
+	and the Boltzmann relation, telling us the position of $E_F$  in respect to $E_V$:
+$$
+					kT \ln(\frac{N_V}{p}) = E_F - E_V$$
+	we can determine the maximum doping level that allows the usage of the non-degenerate assumption:
+$$
+kT \ln(\frac{N_V}{|N^+|}) > 0 \quad \Rightarrow \quad |N^+| < N_V$$ For Silicon at room temperature $N_V \approx 1.04 \cdot 10^{19} cm^{-3}$, so we can use the non-degenerate assumption up to this doping level. The more he $E_F$ approaches $E_V$, the less accurate the Boltzmann approximation becomes.
 ## References

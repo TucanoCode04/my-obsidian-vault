@@ -6,10 +6,7 @@ Status:
 Tags:
 
 # Lecture 4
-##### Particle flow
-Neglecting quantum phenomena(like tunneling) charged particles flow for 2 main reasons: drift and diffusion of the carriers.
-
-
+##### Charge Transport in Semiconductors
 
 
 ##### Effect of an Electric Field $\epsilon$(drift of the carriers)
