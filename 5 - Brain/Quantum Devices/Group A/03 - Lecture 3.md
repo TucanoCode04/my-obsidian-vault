@@ -139,9 +139,16 @@ $$
  \begin{cases}
  n \cdot p = n_i^2 \\
  p - n + N^+ = 0 
- \end{cases} \quad \Rightarrow \quad p 
-
-
+ \end{cases} \quad \Rightarrow \quad p = \frac{n_i^2}{n} \quad \Rightarrow \quad n^2 - N^+ n - n_i^2 = 0 \quad \Rightarrow \quad n= \frac{N^+}{2} [1 + \sqrt{1 + \frac{4n_i^2}{(N^+)^2}}]$$
+	 We discard the negative solution because the population cannot be negative.
+$$
+\begin{cases}
+\text{if} \ n_i << N^+ \quad \Rightarrow \quad n \approx N^+ \\
+\text{if} \ n_i >> N^+ \quad \Rightarrow \quad n \approx n_i
+\end{cases}$$
+	In the first case the doping is dominant, while in the second case the intrinsic carrier concentration is dominant.
+In quantum devices we don't have the charge nutrality condition, because we have very small volumes, so we need to consider the full Poisson equation.
+2. 
 
 
 
