@@ -26,7 +26,16 @@ $$ \begin{cases}
 $$ \log_{10} |\vec{v}_{drift}| = \log_{10} |\mu \vec{\epsilon}| = \log_{10} \mu + \log_{10} |\vec{\epsilon}| $$
 	So we can see that for high fields the mobility decreases with the field, and the drift velocity saturates at a certain value called saturation velocity $v_{sat}$.
 	![[Pasted image 20251016183152.png]]
-	They are considered constants, we say that low field mobility is constant, when we are in the low field regime of the $v_{drift}(\vec{\epsilon})$ curve. Different values of mobility give different slopes of the curve. The average velocity grows linearly with the field until it reaches the saturation velocity, which is a characteristic of the material, for semiconductors it is around $10^7 cm/s$.
+	They are considered constants, we say that low field mobility is constant, when we are in the low field regime of the $v_{drift}(\vec{\epsilon})$ curve. Different values of mobility give different slopes of the curve. The average velocity grows linearly with the field until it reaches the saturation velocity, which is a characteristic of the material, for semiconductors it is around $10^7 cm/s$. It doesn't always follow a smooth curve, for example in compound semiconductors like GaAs, the curve has a peak and then decreases before reaching saturation. This is due to the complex band structure of the material. 
+	The drift corresponds to a drift flow of particles:
+$$
+\phi = \frac{\text{\# of particles}}{\text{time area}} \cdot \frac{\text{space}}{\text{space}} = \frac{\text{\# of particles}}{\text{volume}} \cdot \frac{\text{space}}{\text{time}}$$
+	$area \cdot space$ on the denominator is the volume in which we find the particle moving. The first term is the density of particles $n$ or $p$, and the second term is the space in which they move over time, which is the drift velocity. So we can write:
+	$$ \phi_{n, drift} = n \vec{v}_{n, drift} = - n \mu_n \vec{\epsilon} \quad \quad \quad  \phi_{p, drift} = p \vec{v}_{p, drift} = + p \mu_p \vec{\epsilon} $$
+	And the current density due to drift is given by:
+	$$ \vec{J}_{n, drift} = - q \phi_{n, drift} = q n \mu_n \vec{\epsilon} \quad \quad \quad  \vec{J}_{p, drift} = + q \phi_{p, drift} = q p \mu_p \vec{\epsilon} $$
+2. 
+	
 
 
 
