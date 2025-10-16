@@ -20,12 +20,14 @@ When the temperature $T \to 0K$ the transition becomes a step function, in fact 
 
 We now have all factors to get an expression for the populations of electrons in the conduction band and holes in the valence band at thermal equilibrium.
 $$
-n = \int_{E_C}^{\infty} \gamma_n \sqrt{E - E_C} \cdot \frac{1}{1 + e^{\frac{E - E_F}{kT}}} dE
+n = \int_{E_C}^{\infty} \gamma_n \sqrt{E - E_C} \cdot \frac{1}{1 + e^{\frac{E - E_F}{kT}}} dE \quad , \quad n=n(E_F)
 $$
 $$
-p = \int_{-\infty}^{E_V} \gamma_p \sqrt{E_V - E} \cdot \left(1 - \frac{1}{1 + e^{\frac{E - E_F}{kT}}}\right) dE
+p = \int_{-\infty}^{E_V} \gamma_p \sqrt{E_V - E} \cdot \frac{1}{1 + e^{- \frac{E - E_F}{kT}}} dE \quad , \quad p=p(E_F)
 $$
-
+So the density of electrons and holes are integrals over energy that multiplies the density of states by the probability of occupation(Fermi-Dirac function).
+We write $n = n(E_F)$ and $p = p(E_F)$ to highlight that the populations depend on the Fermi energy level.
+We now have 
 
 
 
