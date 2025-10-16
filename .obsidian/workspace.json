@@ -75,12 +75,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Quantum Devices/Group A/05 - Lecture 5.md",
+                "file": "5 - Brain/Quantum Devices/Group A/04 - Lecture 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05 - Lecture 5"
+              "title": "04 - Lecture 4"
             }
           }
         ],
@@ -141,8 +141,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -257,9 +256,9 @@
   },
   "active": "6ee9dd6f536438da",
   "lastOpenFiles": [
+    "5 - Brain/Quantum Devices/Group A/03 - Lecture 3.md",
     "5 - Brain/Quantum Devices/Group A/04 - Lecture 4.md",
     "5 - Brain/Quantum Devices/Group A/05 - Lecture 5.md",
-    "5 - Brain/Quantum Devices/Group A/03 - Lecture 3.md",
     "5 - Brain/Quantum Condensed Matter Physics/03 - Reciprocal Bravais Lattice.md",
     "5 - Brain/Quantum Condensed Matter Physics/01 - Introduction to the Crystal Structure.md",
     "5 - Brain/Quantum Condensed Matter Physics/00 - Scalar and Vector Potential.md",
