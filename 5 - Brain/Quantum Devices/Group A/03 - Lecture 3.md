@@ -11,7 +11,11 @@ In order to provide a better understanding of the Fermi Energy level, we will se
 We can first identify some asymptotes:
 - For very high energy values, the probability of occupation tends to 0
 - For very low energy values the probability of occupation tends to 1, meaning that all states are occupied
-- At the Fermi level th
+- At the Fermi level the probability of occupation is $\frac{1}{2}$
+- The span of the transition region is $\approx 3kT$
+
+The transition is monotonic, meaning that the probability of occupation decreases as the energy increases. 
+The value of $T$ determines the slope of the transition region, the higher the temperature the smoother the slope $T_2 > T_1 = 300K$, the lower the temperature the steeper the slope $T_3 < T_1 = 300K$. When the temperature $T \to 0K$ the transition becomes a step function, in fact at $0K$ all the states below $E_F$ are occupied and all the states above it are empty
 
 
 
