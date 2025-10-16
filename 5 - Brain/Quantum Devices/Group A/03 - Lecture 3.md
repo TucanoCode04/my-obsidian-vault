@@ -87,7 +87,17 @@ The conjugate population $np$ does not depend on the Fermi level, even though it
 We use this relation, we use the simplest case where the dopant is 0, to define the mass action law, a relation between the instrinsic carrier concentration and the effective density of states in the conduction and valence band:
 $$
 np = n_i^2 = N_C N_V e^{- \frac{E_g}{kT}}$$
- where $N_CN_V \approx T^3$, explaining why semiconductors 
+ where $N_CN_V \approx T^3$, explaining why semiconductors at high temperatures become more conductive, because the intrinsic carrier concentration increases and the doping effect is less relevant(to fact check).
+##### Shockley's Equations $\Leftrightarrow$ Boltzmann Relations
+Shockley's equations provide a physical meaning to the Boltzmann relations, maintaining their mathematical sense.
+$$
+\begin{cases}
+n = N_C e^{- \frac{E_C - E_F}{kT}} \\
+p = N_V e^{- \frac{E_F - E_V}{kT}}
+\end{cases} \quad \xLeftrightarrow{Intrinsic case}
+
+
+
 
 
 
