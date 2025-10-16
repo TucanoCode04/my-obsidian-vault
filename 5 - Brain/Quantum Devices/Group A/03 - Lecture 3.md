@@ -68,7 +68,13 @@ N_V = \gamma_p (kt)^{\frac{3}{2}} \frac{\sqrt{\pi}}{2}$$
 For an intrinsic material at equilibrium we have:
 $$
 n = n_i = N_C e^{- \frac{E_C - E_{F_i}}{kT}} = p = n_i = N_V e^{- \frac{E_{F_i} - E_V}{kT}}$$
-
+From which we can derive:
+$$
+e^{\frac{E_{F_i} - E_C}{kT}} \cdot e^{\frac{E_{F_i} - E_V}{kT}} = \frac{N_V}{N_C} = \frac{\gamma_p}{\gamma_n} = \left( \frac{m_p^*}{m_n^*} \right)^{\frac{3}{2}}$$
+We now that $\frac{m_p^*}{m_n^*}$ is very close to 1 for the mass action law to hold, sow e can approximate>
+$$
+e^{\frac{2E_{F_i} - (E_C + E_V)}{kT}} \approx 1 \quad \Rightarrow \quad \frac{2E_{F_i} - (E_C + E_V)}{kT} \approx \ln(\frac{N_V}{N_C} \approx 1) \approx 0 \quad \Rightarrow \quad E_{F_i} \approx \frac{E_C + E_V}{2} + \frac{kT}{2} \ln(\frac{N_V}{N_C})$$
+So the intrinsic Fermi level lies close to the middle of the band gap, with a small correction negligible in semiconductors term that depends on temperature and the effective masses of electrons and holes.
 
 
 
