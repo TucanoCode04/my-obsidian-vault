@@ -38,7 +38,9 @@ Since doping changes the population from $n_i$ to $n$ and $p$, the Fermi level s
 If we concentrate for example on the n-type doping, the number of carriers in modified to $n > n_i$, causing the Fermi level to shift up $E_F > E_{F_i}$, but $E_F$ is a also a variable in the expression for $p$, so there should be a corresponding decrease in the number of hole $p < n_i$. 
 This correlation is $\sqrt{np} = n_i$ and is called the mass action law. We will see that this correlation stands only when the doping does not exceed a certain limit(the semiconductor is not degenerate(to check)).
 A semiconductor is non-degenerate if $E_V < E_F < E_C$.
-This guarantees that the Fermi level is in the band gap, so we can use the Boltzmann approximation to simplify t
+This guarantees that the Fermi level is in the band gap, so we can use the Boltzmann approximation to simplify the equations for $n$ and $p$.
+1. For electrons:
+$$E > E_F \quad \forall E \in CB \quad \Rightarrow \quad E - E_F > 0 \Rightarrow e^{\frac{E - E_F}{kT}} >> 1$$
 
 
 
