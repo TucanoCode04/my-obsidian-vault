@@ -34,15 +34,8 @@ $$
 	$$ \phi_{n, drift} = n \vec{v}_{n, drift} = - n \mu_n \vec{\epsilon} \quad \quad \quad  \phi_{p, drift} = p \vec{v}_{p, drift} = + p \mu_p \vec{\epsilon} $$
 	And the current density due to drift is given by:
 	$$ \vec{J}_{n, drift} = - q \phi_{n, drift} = q n \mu_n \vec{\epsilon} \quad \quad \quad  \vec{J}_{p, drift} = + q \phi_{p, drift} = q p \mu_p \vec{\epsilon} $$
-2. 
+2. An effect due to the random movement of free particles(diffusion of the carriers) that causes them to move from regions of high concentration to regions of low concentration, creating a diffusion current. 
 	
-
-
-
-
-##### Effect of an Electric Field $\epsilon$(drift of the carriers)
-
-##### Effect due to random movement of free particles(diffusion of the carriers)
 
 
 
