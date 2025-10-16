@@ -75,6 +75,12 @@ We now that $\frac{m_p^*}{m_n^*}$ is very close to 1 for the mass action law to 
 $$
 e^{\frac{2E_{F_i} - (E_C + E_V)}{kT}} \approx 1 \quad \Rightarrow \quad \frac{2E_{F_i} - (E_C + E_V)}{kT} \approx \ln(\frac{N_V}{N_C} \approx 1) \approx 0 \quad \Rightarrow \quad E_{F_i} \approx \frac{E_C + E_V}{2} + \frac{kT}{2} \ln(\frac{N_V}{N_C})$$
 So the intrinsic Fermi level lies close to the middle of the band gap, with a small correction negligible in semiconductors term that depends on temperature and the effective masses of electrons and holes.
+If the Fermi energy level is exactly in the middle of the band gap, that's the best for degenerate semiconductors, because it maximizes the energy required for an electron to jump from the valence band to the conduction band, minimizing thermal generation of carriers.
+
+We now want to verify the assumption:
+$$
+\
+
 
 
 
