@@ -147,8 +147,25 @@ $$
 \text{if} \ n_i >> N^+ \quad \Rightarrow \quad n \approx n_i
 \end{cases}$$
 	In the first case the doping is dominant, while in the second case the intrinsic carrier concentration is dominant.
-In quantum devices we don't have the charge nutrality condition, because we have very small volumes, so we need to consider the full Poisson equation.
-2. 
+In quantum devices we don't have the charge neutrality condition, because we have very small volumes, so we need to consider the full Poisson equation.
+2. For p-type doping, $N^+ < 0$:
+$$
+\begin{cases}
+n \cdot p = n_i^2 \\
+p - n + N^+ = 0
+\end{cases} \quad \Rightarrow \quad n = \frac{n_i^2}{p} \quad \Rightarrow \quad p^2 - |N^+| p - n_i^2 = 0 \quad \Rightarrow \quad p= \frac{|N^+|}{2} [1 + \sqrt{1 + \frac{4n_i^2}{(|N^+|)^2}}]$$
+	We discard the negative solution because the population cannot be negative. And we use the absolute value of $N^+$ because it is negative.
+$$
+\begin{cases}
+\text{if} \ n_i << |N^+| \quad \Rightarrow \quad p \approx |N^+| \\
+\text{if} \ n_i >> |N^+| \quad \Rightarrow \quad p \approx n_i
+\end{cases}$$
+	In the first case the doping is dominant, while in the second case the intrinsic carrier concentration is dominant.
+
+The limits of the net doping grants the usage of the non-degenerate assumption and the Boltzmann approximation.
+Let's analyze a more general case.
+1. For n-type doping, $N^+ >> n_i$:
+
 
 
 
