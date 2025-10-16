@@ -48,10 +48,26 @@ f_n(E) \approx e^{- \frac{E - E_F}{kT}} = A e^{- \frac{E}{kT}}$$
 	So we can rewrite the expression for $n$:
 $$
 n = N_C e^{- \frac{E_C - E_F}{kT}}$$
-	this is called the Boltzmann relation, where $N_C$ is the effective density of states in the conduction band, defined as:
+	this is called the Boltzmann relation, where $N_C$ is the effective density of states in the conduction band, which is a property of the material and depends on temperature:
 $$
-N_C = \sigma_n (kt)^{\frac{3}{2}} \frac{\sqrt{\pi}}{2}$$
-If the fermi level is within the band, the 
+N_C = \gamma_n (kt)^{\frac{3}{2}} \frac{\sqrt{\pi}}{2}$$
+If the Fermi level lies well within the band gap, the carriers population behaves as a classical gas, obeying Boltzmann statistics rather than Fermi-Dirac statistics, and the quantum nature of electrons can be neglected.
+2. For holes:
+$$E < E_F \quad \forall E \in VB \quad \Rightarrow \quad E - E_F < 0 \quad \Rightarrow \quad  e^{- \frac{E - E_F}{kT}} >> 1$$
+	So we can approximate the Fermi-Dirac distribution function as:
+$$
+f_p(E) \approx e^{\frac{E - E_F}{kT}} = B e^{\frac{E}{kT}}$$
+	this is called the Boltzmann distribution, where $B = e^{- \frac{E_F}{kT}}$ is a constant. 
+	So we can rewrite the expression for $p$:
+$$
+p = N_V e^{- \frac{E_F - E_V}{kT}}$$
+	this is called the Boltzmann relation, where $N_V$ is the effective density of states in the valence band, which is a property of the material and depends on temperature:
+$$
+N_V = \gamma_p (kt)^{\frac{3}{2}} \frac{\sqrt{\pi}}{2}$$
+
+For an intrinsic material at equilibrium we have:
+$$
+n = n_i = N_C e^{- \frac{E_C - E_{F_i}}{kT}} = p = n_i = N_V e^{- \frac{E_{F_i} - E_V}{kT}}$$
 
 
 
