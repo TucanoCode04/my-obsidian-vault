@@ -141,7 +141,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -256,20 +257,20 @@
   },
   "active": "6ee9dd6f536438da",
   "lastOpenFiles": [
-    "5 - Brain/Quantum Devices/Group A/03 - Lecture 3.md",
+    "5 - Brain/Fundamental of Technological Processes/Professor Cocuzza/01 - Wafer Production.md",
+    "5 - Brain/Cybersecurity/00 - Introduction to Cybersecurity.md",
+    "5 - Brain/Cybersecurity/01 - Networking.md",
+    "5 - Brain/Mathematics for Quantum Engineering/Q2 - Entanglement.md",
     "5 - Brain/Quantum Devices/Group A/04 - Lecture 4.md",
+    "5 - Brain/Quantum Devices/Group A/03 - Lecture 3.md",
     "5 - Brain/Quantum Devices/Group A/05 - Lecture 5.md",
     "5 - Brain/Quantum Condensed Matter Physics/03 - Reciprocal Bravais Lattice.md",
     "5 - Brain/Quantum Condensed Matter Physics/01 - Introduction to the Crystal Structure.md",
     "5 - Brain/Quantum Condensed Matter Physics/00 - Scalar and Vector Potential.md",
     "5 - Brain/Quantum Devices/Group A/02 - Lecture 2.md",
     "Pasted image 20251016091018.png",
-    "5 - Brain/Cybersecurity/01 - Networking.md",
     "5 - Brain/Cybersecurity/Cryptography.md",
-    "5 - Brain/Cybersecurity/00 - Introduction to Cybersecurity.md",
     "5 - Brain/Fundamental of Technological Processes/Professor Cocuzza/02 - Crystallography and Crystalline Defects.md",
-    "5 - Brain/Fundamental of Technological Processes/Professor Cocuzza/01 - Wafer Production.md",
-    "5 - Brain/Mathematics for Quantum Engineering/Q2 - Entanglement.md",
     "5 - Brain/Quantum Devices/Main Course/Untitled.md",
     "5 - Brain/Untitled.base",
     "5 - Brain/Quantum Devices/Group A/01 - Lecture 1.md",
