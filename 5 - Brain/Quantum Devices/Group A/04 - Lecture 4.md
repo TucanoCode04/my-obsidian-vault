@@ -25,7 +25,8 @@ $$ \begin{cases}
 	$\mu_n$ and $\mu_p$ are constant only for small electric fields, for high fields they depend on the field itself:
 $$ \log_{10} |\vec{v}_{drift}| = \log_{10} |\mu \vec{\epsilon}| = \log_{10} \mu + \log_{10} |\vec{\epsilon}| $$
 	So we can see that for high fields the mobility decreases with the field, and the drift velocity saturates at a certain value called saturation velocity $v_{sat}$.
-
+	![[Pasted image 20251016183152.png]]
+	They are considered constants, we say that low field mobility is constant, when we are in the low field regime of the $v_{drift}(\vec{\epsilon})$ curve. Different values of mobility give different slopes of the curve. The average velocity grows linearly with the field until it reaches the saturation velocity, which is a characteristic of the material, for semiconductors it is around $10^7 cm/s$.
 
 
 
