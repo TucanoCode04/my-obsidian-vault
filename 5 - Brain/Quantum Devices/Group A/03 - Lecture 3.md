@@ -110,7 +110,16 @@ p = n_i e^{\frac{E_{F_i} - E_V}{kT}} e^{- \frac{E_F - E_V}{kT}} = n_i e^{\frac{E
 n-\text{TYPE} \leadsto E_F > E_{F_i} \\
 p-\text{TYPE} \leadsto E_F < E_{F_i}
 \end{cases}$$
-The equations show that the carrier concentration depends exponentially on the difference between the Fermi level and the intrinsic Fermi level. Thus, the Fermi level moves 
+The equations show that the carrier concentration depends exponentially on the difference between the Fermi level and the intrinsic Fermi level. Thus, the Fermi level moves upward in n-type materials and downward in p-type materials, telling us the number of carriers in the semiconductor, it can be viewed as a center of mass for our system.
+$E_F$ grows as we increase doping in n-type semiconductors, while it decreases as we increase doping in p-type semiconductors. 
+We exit from the general assumption as the doping increases, because the Fermi level can enter the conduction band in n-type semiconductors or the valence band in p-type semiconductors.  When this happens, the semiconductor is called degenerate, and we can no longer use the Boltzmann approximation, because $E_F$ is no longer in the band gap.
+
+For a doped semiconductor, we can easily derive the third equation, allowing for the evaluation of $n$, $p$ and $E_F$, for an homogeneous semiconductor at thermal equilibrium.
+At thermal equilibrium the total charge must be 0:
+$$
+\epsilon \oint_{\epsilon} \hat{n} \cdot \vec{\epsilon} d\sigma = \oint_{\omega} \rho dv = 0$$
+
+
 
 
 
