@@ -117,8 +117,13 @@ We exit from the general assumption as the doping increases, because the Fermi l
 For a doped semiconductor, we can easily derive the third equation, allowing for the evaluation of $n$, $p$ and $E_F$, for an homogeneous semiconductor at thermal equilibrium.
 At thermal equilibrium the total charge must be 0:
 $$
-\epsilon \oint_{\epsilon} \hat{n} \cdot \vec{\epsilon} d\sigma = \oint_{\omega} \rho dv = 0$$
-
+\epsilon \oint_{\varepsilon} \hat{n} \cdot \vec{\varepsilon} d\sigma = \oint_{\Omega} \rho dv = 0$$
+ where $\varepsilon$ is a closed surface enclosing a volume $\Omega$, $\hat{n}$ is the unit vector normal to the surface,(indicating the direction of the electric field when applying Gauss's law on the closed surface) $\vec{\varepsilon}$ is the electric field, $\rho$ is the charge density.
+ The homogeneity of the semiconductor implies that the electric field is 0 everywhere(local charge neutrality). 
+ Now we consider a semiconductor doped with $N_D$ donor atoms and $N_A$ acceptor atoms per unit volume, which are fully ionized at room temperature:
+ $$
+ \rho = q[p - n + N_D^+ - N_A^-]$$
+ where $N_D^+$ is the concentration of ionized donors and $N_A^-$ is the concentration of ionized acceptors and $N^+ = N_D^+ - N_A^-$ is the net doping concentration. 
 
 
 
