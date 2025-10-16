@@ -123,7 +123,23 @@ $$
  Now we consider a semiconductor doped with $N_D$ donor atoms and $N_A$ acceptor atoms per unit volume, which are fully ionized at room temperature:
  $$
  \rho = q[p - n + N_D^+ - N_A^-]$$
- where $N_D^+$ is the concentration of ionized donors and $N_A^-$ is the concentration of ionized acceptors and $N^+ = N_D^+ - N_A^-$ is the net doping concentration. 
+ where $N_D^+$ is the concentration of ionized donors and $N_A^-$ is the concentration of ionized acceptors and $N^+ = N_D^+ - N_A^-$ is the net doping concentration.
+ $N^+ > 0$ means n-type doping cause more donors than acceptors, while $N^+ < 0$ means p-type doping cause more acceptors than donors.
+ The expression identifies the net charge density for every semiconductor.
+ For a mature technology, we can assume that all dopants are ionized at room temperature:
+ $$
+ N_D^+ \approx N_D \quad , \quad N_A^- \approx N_A \quad \Rightarrow \quad N^+ = N_D - N_A$$
+ So, by knowing the net doping concentration, we can write the charge neutrality condition:
+ $$
+ p - n + N^+ = 0 $$
+ This is the third equation we were looking for.
+ So considering a non-degenerate material, combining local neutrality and mass action law, we can solve the system of equations:
+ 1. For n-type doping, $N^+ > 0$:
+ $$
+ \begin{cases}
+ n \cdot p = n_i^2 \\
+ p - n + N^+ = 0 
+ \end{cases} \quad \Rightarrow \quad p 
 
 
 
