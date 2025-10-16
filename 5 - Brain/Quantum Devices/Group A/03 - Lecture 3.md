@@ -94,8 +94,23 @@ $$
 \begin{cases}
 n = N_C e^{- \frac{E_C - E_F}{kT}} \\
 p = N_V e^{- \frac{E_F - E_V}{kT}}
-\end{cases} \quad \xLeftrightarrow{Intrinsic case}
-
+\end{cases} \quad \xRightarrow{\text{Intrinsic case}} \quad \begin{cases}
+n_i = N_C e^{- \frac{E_C - E_{F_i}}{kT}} \\
+n_i = N_V e^{- \frac{E_{F_i} - E_V}{kT}}
+\end{cases} \quad \Rightarrow \quad \begin{cases}
+N_C = n_i e^{\frac{E_C - E_{F_i}}{kT}} \\
+N_V = n_i e^{\frac{E_{F_i} - E_V}{kT}}
+\end{cases} $$
+Then we substitute in the original equations:
+$$
+\begin{cases}
+n = n_i e^{\frac{E_C - E_{F_i}}{kT}} e^{- \frac{E_C - E_F}{kT}} = n_i e^{\frac{E_F - E_{F_i}}{kT}} \\
+p = n_i e^{\frac{E_{F_i} - E_V}{kT}} e^{- \frac{E_F - E_V}{kT}} = n_i e^{\frac{E_{F_i} - E_F}{kT}}
+\end{cases} \quad \Rightarrow \quad \begin{cases}
+n-\text{TYPE} \leadsto E_F > E_{F_i} \\
+p-\text{TYPE} \leadsto E_F < E_{F_i}
+\end{cases}$$
+The equations show that the carrier concentration depends exponentially on the difference between the Fermi level and the intrinsic Fermi level. Thus, the Fermi level moves 
 
 
 
