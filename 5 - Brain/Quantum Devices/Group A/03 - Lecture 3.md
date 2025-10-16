@@ -79,7 +79,15 @@ If the Fermi energy level is exactly in the middle of the band gap, that's the b
 
 We now want to verify the assumption:
 $$
-\
+\begin{cases}
+n = N_C e^{- \frac{E_C - E_F}{kT}} \\
+p = N_V e^{- \frac{E_F - E_V}{kT}}
+\end{cases} \quad \Rightarrow \quad np = N_C N_V e^{- \frac{E_C - E_V}{kT}} = N_C N_V e^{- \frac{E_g}{kT}}$$
+The conjugate population $np$ does not depend on the Fermi level, even though it changes with doping, their product is not influenced. 
+We use this relation, we use the simplest case where the dopant is 0, to define the mass action law, a relation between the instrinsic carrier concentration and the effective density of states in the conduction and valence band:
+$$
+np = n_i^2 = N_C N_V e^{- \frac{E_g}{kT}}$$
+ where $N_CN_V \approx T^3$, explaining why semiconductors 
 
 
 
