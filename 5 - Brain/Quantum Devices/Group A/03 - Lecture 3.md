@@ -40,8 +40,18 @@ This correlation is $\sqrt{np} = n_i$ and is called the mass action law. We will
 A semiconductor is non-degenerate if $E_V < E_F < E_C$.
 This guarantees that the Fermi level is in the band gap, so we can use the Boltzmann approximation to simplify the equations for $n$ and $p$.
 1. For electrons:
-$$E > E_F \quad \forall E \in CB \quad \Rightarrow \quad E - E_F > 0 \Rightarrow e^{\frac{E - E_F}{kT}} >> 1$$
-
+$$E > E_F \quad \forall E \in CB \quad \Rightarrow \quad E - E_F > 0 \quad \Rightarrow \quad  e^{\frac{E - E_F}{kT}} >> 1$$
+	So we can approximate the Fermi-Dirac distribution function as:
+$$
+f_n(E) \approx e^{- \frac{E - E_F}{kT}} = A e^{- \frac{E}{kT}}$$
+	this is called the Boltzmann distribution, where $A = e^{\frac{E_F}{kT}}$ is a constant. 
+	So we can rewrite the expression for $n$:
+$$
+n = N_C e^{- \frac{E_C - E_F}{kT}}$$
+	this is called the Boltzmann relation, where $N_C$ is the effective density of states in the conduction band, defined as:
+$$
+N_C = \sigma_n (kt)^{\frac{3}{2}} \frac{\sqrt{\pi}}{2}$$
+If the fermi level is within the band, the 
 
 
 
