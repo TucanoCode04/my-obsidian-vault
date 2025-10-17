@@ -58,6 +58,10 @@ Following the detailed balance condition we have:
 $$ \begin{cases}
 \vec{J}_n = \vec{J}_{n, drift} + \vec{J}_{n, diff} = 0 \\
 \vec{J}_p = \vec{J}_{p, drift} + \vec{J}_{p, diff} = 0
+\end{cases}$$
+So they do not compensate each other, but it applies separately for electrons and holes. In an homogeneous semiconductor at equilibrium, the carrier concentrations are uniform in space, and the electric field must be zero. 
+##### Quasi-Fermi levels
+In non-equilibrium conditions, where $E_F$ doesn't exist, we can define quasi-Fermi levels for electrons and holes, denoted as $E_{Fn}$ and $E_{Fp}$, respectively. These levels represent the energy levels at which the probability of finding an electron or hole is 50%. The carrier concentrations can be expressed in terms of these quasi-Fermi levels:
 
 	
 	
