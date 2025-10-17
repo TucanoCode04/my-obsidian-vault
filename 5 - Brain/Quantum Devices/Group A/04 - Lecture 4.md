@@ -51,8 +51,14 @@ We assume Einstein relation is always valid, even out of equilibrium.
 ##### Drift-Diffusion Model
 The total current density for electrons and holes in a semiconductor is given by the sum of the drift and diffusion components:
 $$ \vec{J}(x, t) = \vec{J}_n (x, t) + \vec{J}_p (x, t) = [\vec{J}_{n, drift} + \vec{J}_{n, diff}] + [\vec{J}_{p, drift} + \vec{J}_{p, diff}] $$
-This is called the drift-diffusion model for current conduction. This model depends on the concentrations o
-	
+This is called the drift-diffusion model for current conduction. This model depends on the concentrations of electrons and holes, the electric field, and the material properties(mobilities and diffusion coefficients). So we need to know 3 equations for 3 unknowns($n$, $p$, $\epsilon$) to solve the problem of charge transport in semiconductors.
+At equilibrium, there is no net current flow in the semiconductor:
+$$ \vec{J} = 0 = \vec{J}_n + \vec{J}_p $$
+Following the detailed balance condition we have:
+$$ \begin{cases}
+\vec{J}_n = \vec{J}_{n, drift} + \vec{J}_{n, diff} = 0 \\
+\vec{J}_p = \vec{J}_{p, drift} + \vec{J}_{p, diff} = 0
+
 	
 	
 
