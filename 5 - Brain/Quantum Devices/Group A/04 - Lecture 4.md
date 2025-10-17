@@ -90,13 +90,8 @@ $$ \vec{J}_n = n \mu_n \frac{\partial E_{F_n}}{\partial x} $$
 Where $n$ represents the electron concentration, $\mu_n$ is the electron mobility, and $E_{F_n}$ is the quasi-Fermi level for electrons. A similar derivation can be done for holes, leading to:
 $$ \vec{J}_p = p \mu_p \frac{\partial E_{F_p}}{\partial x} $$ 
 Where $p$ is the hole concentration, $\mu_p$ is the hole mobility, and $E_{F_p}$ is the quasi-Fermi level for holes. These expressions show that the current densities for electrons and holes are directly proportional to the gradients of their respective quasi-Fermi levels.
-
-	
-
-
-
-
-
-
-
+$$ \begin{cases} \vec{J}_n = 0 \quad \Leftrightarrow \quad \frac{\partial E_{F_n}}{\partial x} = 0 \quad \Rightarrow \quad E_{F_n} = \text{constant} \\
+\vec{J}_p = 0 \quad \Leftrightarrow \quad \frac{\partial E_{F_p}}{\partial x} = 0 \quad \Rightarrow \quad E_{F_p} = \text{constant} \end{cases} $$
+At thermal equilibrium $E_{F_n} = E_{F_p} = E_F$ and detailed balance holds, so:
+$$ \frac{\partial E_{F}}{\partial x} = 0 \quad \Rightarrow \quad E_{F} = \text{constant at eequilibrium} $$
 ## References
