@@ -38,8 +38,21 @@ $$
 	In a semiconductor, if we have a non uniform distribution of carriers, they will tend to diffuse from regions of high concentration to regions of low concentration. This creates a diffusion flux. Fick's first law describes this phenomenon:
 $$
 \phi = - D \frac{\partial c}{\partial x} $$
-	where $D$ is the diffusion coefficient, which is a measure of how easily the particles can diffuse through the medium, and $c$ is the concentration of particles, derived spati. The negative sign indicates that the flux is directed from high concentration to low concentration.
+	where $D$ is the diffusion coefficient, which is a measure of how easily the particles can diffuse through the medium, and $c$ is the concentration of particles, derived spatially. The negative sign indicates that the flux is directed from high concentration to low concentration.
 	Applying this to electrons and holes in a semiconductor, we have:
+$$
+\phi_{n, diff} = - D_n \frac{\partial n}{\partial x} \quad \quad \quad  \phi_{p, diff} = - D_p \frac{\partial p}{\partial x} $$
+	And the current density due to diffusion is given by:
+$$ \vec{J}_{n, diff} = - q \phi_{n, diff} = q D_n \frac{\partial n}{\partial x} \quad \quad \quad  \vec{J}_{p, diff} = + q \phi_{p, diff} = - q D_p \frac{\partial p}{\partial x} $$
+	Where $D_n$ and $D_p$ are the diffusion coefficients for electrons and holes, respectively. At thermal equilibrium, the diffusion coefficient and mobility are related by the Einstein relation:
+$$ D_n = \frac{kT}{q} \mu_n \quad \quad \quad  D_p = \frac{kT}{q} \mu_p $$
+	where the term $\frac{kT}{q} = \frac{\text{energy}}{\text{charge}}$ is called the thermal voltage $V_T$, which is approximately 25.9 mV at room temperature(300K).
+We assume Einstein relation is always valid, even out of equilibrium.
+##### Drift-Diffusion Model
+The total current density for electrons and holes in a semiconductor is given by the sum of the drift and diffusion components:
+$$ \vec{J}(x, t) = \vec{J}_n (x, t) + \vec{J}_p (x, t) = [\vec{J}_{n, drift} + \vec{J}_{n, diff}] + [\vec{J}_{p, drift} + \vec{J}_{p, diff}] $$
+This is called the drift-diffusion model for current conduction. This model depends on the concentrations o
+	
 	
 	
 
