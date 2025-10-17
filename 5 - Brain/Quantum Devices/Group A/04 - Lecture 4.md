@@ -74,7 +74,23 @@ $$ \vec{J}_n = \vec{J}_{n, drift} + \vec{J}_{n, diff} = q n \mu_n \vec{\epsilon}
 We now evaluate the spatial derivative of $n$:
 $$ \frac{\partial n}{\partial x} = n_i e^{\frac{E_{F_n} - E_{F_i}}{kt}} \cdot \frac{1}{kt} \left( \frac{\partial E_{F_n}}{\partial x} - \frac{\partial E_{F_i}}{\partial x} \right) = n \cdot \frac{1}{kt} \left( \frac{\partial E_{F_n}}{\partial x} - \frac{\partial E_{F_i}}{\partial x} \right) $$
 This leads us to the diffusion current for electrons:
-$$ \vec{J}_{n, diff} = q D_n \frac{\partial n}{\partial x} = \mu_n
+$$ \vec{J}_{n, diff} = q D_n \frac{\partial n}{\partial x} = \mu_n n \left( \frac{\partial E_{F_n}}{\partial x} - \frac{\partial E_{F_i}}{\partial x} \right) $$
+For the drift component we need to express the electric field in terms of the intrinsic Fermi level:
+$$ \vec{\epsilon} = -\frac{\partial \psi}{\partial x}$$
+For electrons $\psi$ is associated to a potential energy:
+$$ U(x) = - q \psi (x) $$
+We can then choose the intrinsic Fermi level as the reference energy level for the potential energy. because it represents the energy level where the probability of finding an electron is 50% in an intrinsic semiconductor. Therefore:
+$$ E_{F_i} (x) = - q \psi (x) + \text{constant} $$
+Taking the spatial derivative:
+$$ \frac{\partial E_{F_i}}{\partial x} = - q \frac{\partial \psi}{\partial x} = q \vec{\epsilon} \quad \Rightarrow \quad \vec{\epsilon} = \frac{1}{q} \frac{\partial E_{F_i}}{\partial x} $$
+Substituting this into the drift current expression:
+$$ \vec{J}_{n, drift} = q n \mu_n \vec{\epsilon} = \mu_n n \frac{\partial E_{F_i}}{\partial x} $$
+Combining the drift and diffusion components, we obtain the total electron current density:
+$$ \vec{J}_n = n \mu_n \frac{\partial E_{F_n}}{\partial x} $$
+Where $n$ represents the electron concentration, $\mu_n$ is the electron mobility, and $E_{F_n}$ is the quasi-Fermi level for electrons. A similar derivation can be done for holes, leading to:
+$$ \vec{J}_p = p \mu_p \frac{\partial E_{F_p}}{\partial x} $$ 
+Where $p$ is the hole concentration, $\mu_p$ is the hole mobility, and $E_{F_p}$ is the quasi-Fermi level for holes. These expressions show that the current densities for electrons and holes are directly proportional to the gradients of their respective quasi-Fermi levels.
+
 	
 
 
