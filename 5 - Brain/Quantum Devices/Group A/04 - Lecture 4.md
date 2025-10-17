@@ -34,7 +34,13 @@ $$
 	$$ \phi_{n, drift} = n \vec{v}_{n, drift} = - n \mu_n \vec{\epsilon} \quad \quad \quad  \phi_{p, drift} = p \vec{v}_{p, drift} = + p \mu_p \vec{\epsilon} $$
 	And the current density due to drift is given by:
 	$$ \vec{J}_{n, drift} = - q \phi_{n, drift} = q n \mu_n \vec{\epsilon} \quad \quad \quad  \vec{J}_{p, drift} = + q \phi_{p, drift} = q p \mu_p \vec{\epsilon} $$
-2. An effect due to the random movement of free particles(diffusion of the carriers) that causes them to move from regions of high concentration to regions of low concentration, creating a diffusion current. 
+2. An effect due to the random movement of free particles(diffusion of the carriers) that causes them to move from regions of high concentration to regions of low concentration, creating a diffusion current. This is a well known phenomenon in physics and chemistry, where particles tend to spread out evenly in a medium. We can image a container partitioned in 2 parts by an ideal separator at $t < 0$, the concentration of particles diminishes in function of the position(basically the left side has a high concentration and the right side has a low concentration). At $t = 0$ we remove the separator, and the particles start to diffuse from the left side to the right side, than a number of particles will also move from right to left until they reach an equilibrium where the concentration is uniform throughout the container(the net flux of particles from left to right is equal to the net flux from right to left). 
+	In a semiconductor, if we have a non uniform distribution of carriers, they will tend to diffuse from regions of high concentration to regions of low concentration. This creates a diffusion flux. Fick's first law describes this phenomenon:
+$$
+\phi = - D \frac{\partial c}{\partial x} $$
+	where $D$ is the diffusion coefficient, which is a measure of how easily the particles can diffuse through the medium, and $c$ is the concentration of particles, derived spati. The negative sign indicates that the flux is directed from high concentration to low concentration.
+	Applying this to electrons and holes in a semiconductor, we have:
+	
 	
 
 
