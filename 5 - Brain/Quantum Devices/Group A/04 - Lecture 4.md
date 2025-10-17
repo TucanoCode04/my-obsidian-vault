@@ -62,8 +62,19 @@ $$ \begin{cases}
 So they do not compensate each other, but it applies separately for electrons and holes. In an homogeneous semiconductor at equilibrium, the carrier concentrations are uniform in space, and the electric field must be zero. 
 ##### Quasi-Fermi levels
 In non-equilibrium conditions, where $E_F$ doesn't exist, we can define quasi-Fermi levels for electrons and holes, denoted as $E_{Fn}$ and $E_{Fp}$, respectively. These levels represent the energy levels at which the probability of finding an electron or hole is 50%. The carrier concentrations can be expressed in terms of these quasi-Fermi levels:
-
-	
+$$ \begin{cases}
+n = n_i e^{\frac{E_{F_n} - E_{F_i}}{kt}} \\
+p = n_i e^{\frac{E_{F_i} - E_{F_p}}{kt}}
+\end{cases} \quad \xLeftarrow{\text{from equilibrium eq}} \quad \begin{cases}
+n_0 = n_i e^{\frac{E_{F} - E_{F_i}}{kt}} \\
+p_0 = n_i e^{\frac{E_{F_i} - E_{F}}{kt}}
+\end{cases} $$
+Where $E_{F_i}$ is the intrinsic Fermi level. In equilibrium, the quasi-Fermi levels coincide with the Fermi level: $E_{F_n} = E_{F_p} = E_F$. This definition is consistent with the Shockley relation. 
+$$ \vec{J}_n = \vec{J}_{n, drift} + \vec{J}_{n, diff} = q n \mu_n \vec{\epsilon} + q D_n \frac{\partial n}{\partial x} $$
+We now evaluate the spatial derivative of $n$:
+$$ \frac{\partial n}{\partial x} = n_i e^{\frac{E_{F_n} - E_{F_i}}{kt}} \cdot \frac{1}{kt} \left( \frac{\partial E_{F_n}}{\partial x} - \frac{\partial E_{F_i}}{\partial x} \right) = n \cdot \frac{1}{kt} \left( \frac{\partial E_{F_n}}{\partial x} - \frac{\partial E_{F_i}}{\partial x} \right) $$
+This leads us to the diffusion current for electrons:
+$$ \vec{J}_{n, diff} = q D_n \frac{\partial n}{\partial x} = \mu_n
 	
 
 
