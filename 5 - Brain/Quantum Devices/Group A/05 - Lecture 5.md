@@ -29,8 +29,14 @@ For $t>0$, a transient starts, and electrons start diffusing from the n region n
 Far from the center of the system, the material remains neutral($\rho = 0$), since the free carrier densities are very high compared to the ionized impurity densities. So the number of holes equals the number of ionized acceptors in the p region, and the number of electrons equals the number of ionized donors in the n region. 
 In the central region, close to the metallurgical junction, we have a space-charge depleted region, where the free carrier densities are very low compared to the ionized impurity densities. So in this region, the net charge density is approximately equal to the negative of the ionized impurity density:
 $$\rho(x) \approx \begin{cases} - q N_A & x < 0 \\ + q N_D & x > 0 \end{cases}$$
-This region is called the depletion region or space-charge region, and it extends from $-x_p$ to $x_n$, where $x_p$ and $x_n$ are the widths of the depletion region in the p and n sides respectively. 
-
+This region is called the depletion region or space-charge region, and it extends from $-x_p$ to $x_n$, where $x_p$ and $x_n$ are the widths of the depletion region in the p and n sides respectively. To uniquely define the thickness of the depletion region, we use the same approximation from the abrupt junction: we assume that the transition from the neutral region to the depletion region is very sharp(depletion approximation).
+Globally, the crystal remains neutral, so the total negative charge in the p side of the depletion region must equal the total positive charge in the n side:
+$$q N_A x_p = q N_D x_n \quad \Rightarrow \quad N_A x_p = N_D x_n$$
+We integrate the charge density to find the built-in electric field in the depletion region using Gauss's law:
+$$\frac{d \varepsilon}{d x} = \frac{\rho(x)}{\epsilon} \quad \Rightarrow \quad \varepsilon(0) = -\frac{qN_A}{\epsilon} x_p = \frac{qN_D}{\epsilon} x_n$$
+![[Pasted image 20251019180547.png]]
+We can integrate again to find the built-in potential:
+$$\frac{d \psi}{d x} = = - \varepsilon(x) \quad \Rightarrow \quad -\varepsilon(0) x_p = \psi(-x_p) - \psi(0) = V_{bi}$$
 
 
 
