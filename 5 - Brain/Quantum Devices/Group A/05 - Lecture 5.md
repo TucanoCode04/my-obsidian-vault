@@ -22,10 +22,14 @@ Let's examine a piece of crystal where we can differentiate two regions: one wit
 We define the metallurgical junction as the point where the acceptor and donor densities are equal, in a graph showing the net doping profile in function of position it is the point where the curve crosses the x axis.
 To simplify the analysis we assume an abrupt junction, meaning that the transition between the two regions is very sharp, not allowing for a smooth transition from $N_A$ to $N_D$.
 We now analyze, at a fictitious time $t<0$, those two regions as isolated, so we have two separate pieces of crystal, one p type and one n type. In each region, the Fermi level is constant and the assumption of homogeneity and global neutrality holds($\rho(x) = 0$) in each region separately. 
-It has been doped with acceptor atoms each acceptor captures one electron, becoming negatively ionized, and leaving behind a hole in the valence band. To find a free electron in the conduction band is very unlikely if we think about the mass action law:
+It has been doped with acceptor atoms, each acceptor captures one electron, becoming negatively ionized, and leaving behind a hole in the valence band. To find a free electron in the conduction band is very unlikely if we think about the mass action law:
 $$n \cdot p = n_i^2$$
-At time $t=0$ we put the two regions in contact, in a unique and ideal crystal. We don't have the technology to connect instantly two pieces of crystal, but we want to imagine that each free carrier is now able to diffuse freely from one region to the other. So there should be a transient(instantaneous) that creates a net diffusion of electrons from the n region to 
-For $t>0$ 
+At time $t=0$ we put the two regions in contact, in a unique and ideal crystal. We don't have the technology to connect instantly two pieces of crystal, but we want to imagine that each free carrier is now able to diffuse freely from one region to the other. So there should be a transient(instantaneous) that creates a net diffusion of electrons from the n region to the p region, and holes from the p region to the n region, due to the concentration gradients. We want to then analyze the built-in electric field that will be created to restore the equilibrium condition of detailed balance. 
+For $t>0$, a transient starts, and electrons start diffusing from the n region n region to the p region, leaving behind positively ionized donor atoms in the n region, and holes start diffusing from the p region to the n region, leaving behind negatively ionized acceptor atoms in the p region. 
+Far from the center of the system, the material remains neutral($\rho = 0$), since the free carrier densities are very high compared to the ionized impurity densities. So the number of holes equals the number of ionized acceptors in the p region, and the number of electrons equals the number of ionized donors in the n region. 
+In the central region, close to the metallurgical junction, we have a space-charge depleted region, where the free carrier densities are very low compared to the ionized impurity densities. So in this region, the net charge density is approximately equal to the negative of the ionized impurity density:
+$$\rho(x) \approx \begin{cases} - q N_A & x < 0 \\ + q N_D & x > 0 \end{cases}$$
+This region is called the depletion region or space-charge region, and it extends from $-x_p$ to $x_n$, where $x_p$ and $x_n$ are the widths of the depletion region in the p and n sides respectively. 
 
 
 
