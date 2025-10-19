@@ -75,12 +75,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Quantum Condensed Matter Physics/03 - Reciprocal Bravais Lattice.md",
+                "file": "5 - Brain/Quantum Devices/Group A/05 - Lecture 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03 - Reciprocal Bravais Lattice"
+              "title": "05 - Lecture 5"
             }
           }
         ],
@@ -141,7 +141,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -239,7 +240,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -255,6 +257,7 @@
   },
   "active": "6ee9dd6f536438da",
   "lastOpenFiles": [
+    "5 - Brain/Quantum Condensed Matter Physics/03 - Reciprocal Bravais Lattice.md",
     "5 - Brain/Quantum Devices/Group A/05 - Lecture 5.md",
     "5 - Brain/Quantum Devices/Group A/04 - Lecture 4.md",
     "Pasted image 20251016183152.png",
@@ -263,7 +266,6 @@
     "5 - Brain/Cybersecurity/00 - Introduction to Cybersecurity.md",
     "5 - Brain/Cybersecurity/01 - Networking.md",
     "5 - Brain/Mathematics for Quantum Engineering/Q2 - Entanglement.md",
-    "5 - Brain/Quantum Condensed Matter Physics/03 - Reciprocal Bravais Lattice.md",
     "5 - Brain/Quantum Condensed Matter Physics/01 - Introduction to the Crystal Structure.md",
     "5 - Brain/Quantum Condensed Matter Physics/00 - Scalar and Vector Potential.md",
     "5 - Brain/Quantum Devices/Group A/02 - Lecture 2.md",
