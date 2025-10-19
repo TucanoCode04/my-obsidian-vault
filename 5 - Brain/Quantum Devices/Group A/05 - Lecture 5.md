@@ -22,8 +22,9 @@ Let's examine a piece of crystal where we can differentiate two regions: one wit
 We define the metallurgical junction as the point where the acceptor and donor densities are equal, in a graph showing the net doping profile in function of position it is the point where the curve crosses the x axis.
 To simplify the analysis we assume an abrupt junction, meaning that the transition between the two regions is very sharp, not allowing for a smooth transition from $N_A$ to $N_D$.
 We now analyze, at a fictitious time $t<0$, those two regions as isolated, so we have two separate pieces of crystal, one p type and one n type. In each region, the Fermi level is constant and the assumption of homogeneity and global neutrality holds($\rho(x) = 0$) in each region separately. 
-To describe the two different regions more precisely: the p type region has a high density of acceptors $N_A^-$, where each of this acceptors contributes with a negative charge, so in this region we have a high density of holes in the bonds, and a low density of electrons in the conduction band. In the n type region we have a high density of donors $N_D^+$, where each of this donors contributes with a positive charge, so in this region we have a high density of electrons in the conduction band, and a low density of holes in the bonds.
-At time $t=0$ we put the two regions in contact, in a unique and ideal crystal. 
+It has been doped with acceptor atoms each acceptor captures one electron, becoming negatively ionized, and leaving behind a hole in the valence band. To find a free electron in the conduction band is very unlikely if we think about the mass action law:
+$$n \cdot p = n_i^2$$
+At time $t=0$ we put the two regions in contact, in a unique and ideal crystal. We don't have the technology to connect instantly two pieces of crystal, but we want to imagine that each free carrier is now able to diffuse freely from one region to the other. So there should be a transient(instantaneous) that creates a net diffusion of electrons from the n region to 
 For $t>0$ 
 
 
