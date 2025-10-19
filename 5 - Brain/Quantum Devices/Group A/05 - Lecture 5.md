@@ -50,6 +50,13 @@ $V_{bi}$ is the built-in voltage of the pn junction at equilibrium, so the volta
 We now have 2 equations and 2 unknowns($x_n$ and $x_p$), but if $V_{bi}$ is known we can find explicit expressions for $x_n$ and $x_p$:
 $$\begin{cases}
 V_{bi} = q\frac{N_D}{2\epsilon} x_n^2 + q\frac{N_A}{2\epsilon} x_p^2 \\
-
+N_A x_p = N_D x_n
+\end{cases}$$
+$V_{bi}$ can be estimated from the band diagram(plot of the electron potential energy in respect to position $x$) of the pn junction at equilibrium. 
+$$U(x) = - q \psi(x) + u_0$$ where $u_0$ is a constant that sets the zero of energy. We use the Gauss law in potential>
+$$\frac{d^2 U}{d x^2} = - q \frac{d^2 \psi}{d x^2} = q \frac{\rho(x)}{\epsilon}$$
+In the neutral regions, the diagram will be straight with constant slope:
+$$\frac{d U}{d x} = - q\frac{d \psi}{d x} = q \varepsilon(x) = 0 = \text{constant}$$
+In the depletion region, the diagram will be parabolic,
 
 ## References
