@@ -21,6 +21,8 @@ $$\varepsilon (x) |_{eq} \neq 0 \quad \Rightarrow \quad \frac{\partial\psi}{\par
 Let's examine a piece of crystal where we can differentiate two regions: one with a high density of acceptors(p type) and one with a high density of donors(n type). This is called a pn junction. We define it in function of the position(since we are in a non homogeneous device). 
 We define the metallurgical junction as the point where the acceptor and donor densities are equal, in a graph showing the net doping profile in function of position it is the point where the curve crosses the x axis.
 To simplify the analysis we assume an abrupt junction, meaning that the transition between the two regions is very sharp, not allowing for a smooth transition from $N_A$ to $N_D$.
+We now analyze, at a fictitious time $t<0$, those two regions as isolated, so we have two separate pieces of crystal, one p type and one n type. In each region, the Fermi level is constant and the assumption of global neutrality holds($\rho(x) = 0$) in each region separately. 
+At time $t=0$ we put the two regions in contact, in a unique and ideal crystal. 
 
 
 
