@@ -34,7 +34,7 @@ Globally, the crystal remains neutral, so the total negative charge in the p sid
 $$q N_A x_p = q N_D x_n \quad \Rightarrow \quad N_A x_p = N_D x_n$$
 We integrate the charge density to find the built-in electric field in the depletion region using Gauss's law:
 $$\frac{d \varepsilon}{d x} = \frac{\rho(x)}{\epsilon} \quad \Rightarrow \quad \varepsilon(0) = -\frac{qN_A}{\epsilon} x_p = \frac{qN_D}{\epsilon} x_n$$
-The 
+The functions are even because of global neutrality.
 ![[Pasted image 20251019180547.png]]
 We can integrate again to find the built-in potential:
 $$\frac{d \psi}{d x} = = - \varepsilon(x) \quad \Rightarrow \quad -\varepsilon(0) = \frac{qN_A}{\epsilon} x_p = \frac{qN_D}{\epsilon} x_n \quad \Rightarrow \quad V_{bi} = \psi(x_n) - \psi(-x_p)= \phi_n +\phi_p$$
@@ -44,6 +44,12 @@ $$\frac{d \psi}{d x} = - \varepsilon(x) \quad \Rightarrow \quad \psi(x) - \psi(0
 \phi_n = \psi(x_n) - \psi(0) = \frac{1}{2} x_n [-\varepsilon(0)] = q\frac{N_D}{2\epsilon} x_n^2 \\
 \phi_p = \psi(0) - \psi(-x_p) = -\frac{1}{2} x_p [-\varepsilon(0)] = q\frac{N_A}{2\epsilon} x_p^2
 \end{cases}$$
+![[Pasted image 20251019181955.png]]
+$V_{bi}$ is the built-in voltage of the pn junction at equilibrium, so the voltage difference between the two ends of the depletion region. 
+(LOOK BETTER WHY WE INTEGRATED(EASIER WAY OF SOLVING?) AND THE SHAPE OF THE FUNCTIONS)
+We now have 2 equations and 2 unknowns($x_n$ and $x_p$), but if $V_{bi}$ is known we can find explicit expressions for $x_n$ and $x_p$:
+$$\begin{cases}
+V_{bi} = q\frac{N_D}{2\epsilon} x_n^2 + q\frac{N_A}{2\epsilon} x_p^2 \\
 
 
 ## References
