@@ -59,9 +59,5 @@ In the neutral regions, the diagram will be straight with constant slope:
 $$\frac{d U}{d x} = - q\frac{d \psi}{d x} = q \varepsilon(x) = 0 = \text{constant}$$
 In the depletion region, the diagram will be parabolic. In the region with $\rho(x) < 0$ the curvature will be negative, meaning that the second derivative of $U$ is negative, given by the negative charge density, and vice versa for the region with $\rho(x) > 0$.
 ![[Pasted image 20251019183933.png]]
-##### A different way to build the equilibrium band diagram 
-We separate two pieces of crystal, one p type and one n type, of the non homogeneous device(like we did before at $t<0$). 
-The only energy shared at this point in the system is a free electron energy level, defined as the minimum energy required to bring a free electron outside its subsystem.
-![[Pasted image 20251019184435.png]]
 
 ## References

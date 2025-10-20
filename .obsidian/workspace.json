@@ -75,12 +75,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Quantum Devices/Group A/05 - Lecture 5.md",
+                "file": "5 - Brain/Quantum Devices/Group A/06 - Lecture 6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05 - Lecture 5"
+              "title": "06 - Lecture 6"
             }
           }
         ],
@@ -240,7 +240,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -256,12 +257,14 @@
   },
   "active": "6ee9dd6f536438da",
   "lastOpenFiles": [
+    "Pasted image 20251020115350.png",
+    "5 - Brain/Quantum Devices/Group A/05 - Lecture 5.md",
+    "5 - Brain/Quantum Devices/Group A/06 - Lecture 6.md",
     "Pasted image 20251019184435.png",
     "Pasted image 20251019183933.png",
     "Pasted image 20251019181955.png",
     "Pasted image 20251019180547.png",
     "5 - Brain/Quantum Condensed Matter Physics/03 - Reciprocal Bravais Lattice.md",
-    "5 - Brain/Quantum Devices/Group A/05 - Lecture 5.md",
     "5 - Brain/Quantum Devices/Group A/04 - Lecture 4.md",
     "Pasted image 20251016183152.png",
     "5 - Brain/Quantum Devices/Group A/03 - Lecture 3.md",
@@ -287,7 +290,6 @@
     "To do/Fund of Tech Processes Prof 2 Thermodynamics.md",
     "To do/Fund of Tech Processes Prof 2 Refrigeration.md",
     "To do/Fund of Tech Processes Prof 1 Cleanroom.md",
-    "To do/Fund of Tech Processes Prof 1 Lithography.md",
     "5 - Brain/Quantum Devices/Main Course",
     "5 - Brain/Quantum Devices/Group A",
     "5 - Brain/Fundamental of Technological Processes/Professor Ghigo",
@@ -300,7 +302,6 @@
     "Images/Pasted image 20250929185422.png",
     "Images/Pasted image 20250929121230.png",
     "Images/Pasted image 20250929121201.png",
-    "Images/Pasted image 20250929121113.png",
-    "Images/Pasted image 20250929120619.png"
+    "Images/Pasted image 20250929121113.png"
   ]
 }
