@@ -43,5 +43,18 @@ N_A x_p = N_D x_n
 \end{cases} \quad \Rightarrow \quad V_{bi} = \frac{q N_D}{2 \epsilon} \left(\frac{N_D}{N_A} +1\right) x_n^2$$
  where $\left(\frac{N_D}{N_A} +1\right) = \frac{N_A + N_D}{N_A}$, which leads to:
  $$x_n^2 = \frac{2 \epsilon}{q N_D} \cdot \frac{N_A}{N_A + N_D} V_{bi}$$
-  we multiply by $\frac{N_D}{N_D}$, so we can use the $N_{eq} = \frac{N_A N_D}{N_A + N_D}$
+  we multiply by $\frac{N_D}{N_D}$, so we can use the $N_{eq} = \frac{N_A N_D}{N_A + N_D}$ equivalent doping concentration since the $N_A \parallel N_D$ is a parallel association of doping concentrations:
+  $$x_n =  \frac{1}{N_D} \sqrt{ \frac{2 \epsilon}{q} N_{eq} V_{bi}} \quad \Rightarrow \quad \begin{cases} x_p = \frac{1}{N_A} \sqrt{ \frac{2 \epsilon}{q} N_{eq} V_{bi}} \\ x_d = x_n + x_p = \left(\frac{1}{N_A} + \frac{1}{N_D}\right) \sqrt{ \frac{2 \epsilon}{q} N_{eq} V_{bi}} \end{cases}$$
+   where $x_d$ is the total depletion region width.
+Now we have all the parameters to evaluate the band diagram of the pn junction at equilibrium using this different approach. 
+$$ \begin{cases} 
+x_n = x_d \frac{N_A}{N_A + N_D} \\
+x_p = x_d \frac{N_D}{N_A + N_D}
+\end{cases} \quad \Rightarrow \quad \begin{cases}
+\phi_n = V_{bi} \frac{N_A}{N_A + N_D} \\
+\phi_p = V_{bi} \frac{N_D}{N_A + N_D}
+\end{cases}$$
+We can easily see a correlation between the doping concentrations and the depletion region widths and potential differences: the region with higher doping concentration has a smaller depletion width and smaller potential difference.
+$$ \frac{\phi_n}{\phi_p} = \frac{x_n}{x_p}$$
+This re
 ## References
