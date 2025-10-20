@@ -18,5 +18,15 @@ In the secondo step we compare the values of $E_F$ in the two regions. At the ti
 A prediction on $\rho(x)$ becomes now possible, since the flow of electrons and holes will leave behind ionized impurity atoms in the depletion region. 
 Far from the junction, the material remains neutral($\rho = 0$), since the free carrier densities are very high compared to the ionized impurity densities. So the number of holes equals the number of ionized acceptors in the p region, and the number of electrons equals the number of ionized donors in the n region. Near the junction, we will have a region with $\rho < 0$ on the p side, since electrons have diffused into the p region leaving behind negatively ionized acceptor atoms, and a region with $\rho > 0$ on the n side, since holes have diffused into the the n region leaving behind positively ionized donor atoms. Global neutrality is still valid $\int_{x_1}^{x_2} \rho(x) dx = 0$, with $x_1$ and $x_2$ far from the junction.
 The shape depends on how the charges distribute close to the junction, but we can approximate it with the depletion approximation used before.
-To finalize the band diagram at equilibrium, we draw the constant Fermi level $E_F$ across the device, we then add the $x$ axis with the relevant points characterizing $
+To finalize the band diagram at equilibrium, we draw the constant Fermi level $E_F$ across the device, we then add the $x$ axis with the relevant points characterizing the charge distribution $\rho(x)$.
+![[Pasted image 20251020122600.png]]
+In the neutral regions the band diagram satisfies Poisson's equation for electrostatic energy for electrons:
+$$\frac{d^2 U}{d x^2}= q\frac{\rho(x)}{\epsilon} = 0 \quad \Rightarrow \quad \frac{d U}{d x} = -q \frac{d \psi}{d x} = q \varepsilon$$
+Meaning that $U(x)$ is linear with constant slope in the neutral regions.
+In the depletion region, the band diagram satisfies Poisson's equation with $\rho(x) \neq 0$, leading to parabolic shapes as before.
+$$\frac{d^2 U}{d x^2}= q\frac{\rho(x)}{\epsilon} \quad \Rightarrow \quad \begin{cases} \text{concave down for } \rho(x) < 0 \\ \text{concave up for } \rho(x) > 0 \end{cases}$$
+![[Pasted image 20251020123036.png]]
+Now we need to calculate the built-in voltage $V_{bi}$, using the work functions of the two regions:
+$$q V_{bi} = q\phi_{s_p} - q\phi_{s_n}$$ Where $q\phi_{s_p}$ is the work function of the p region and $q\phi_{s_n}$ is the work function of the n region. The work function is defined as the energy required to bring an electron from the Fermi level inside the material to the vacuum level just outside the material surface.
+$$q V_{bi} = [q \chi + \frac{E_g}{2} + kt\ln(\frac{N_A}{n_i})] - [q \chi + \frac{E_g}{2} + kt\ln(\frac{N_D}{n_i})] = }]
 ## References
