@@ -11,7 +11,8 @@ We separate two pieces of crystal, one p type and one n type, of the non homogen
 The only energy shared at this point in the system is a free electron energy level, defined as the minimum energy required to bring a free electron outside its subsystem.
 ![[Pasted image 20251019184435.png]]
 ##### For example in Metals
-The $q\phi_M$ is the energy required to bring an electron from the Fermi level inside the metal to the vacuum level just outside the metal surface. The only levels that are occupied are the ones below the Fermi level, inside the material, this meaning t
+The $q\phi_M$ is the energy required to bring an electron from the Fermi level inside the metal to the vacuum level just outside the metal surface. The only levels that are occupied are the ones below the Fermi level, inside the material, this meaning an abundance of free electrons. The large number of electrons is due to the fact that in metals the conduction band and valence band overlap, so there is no energy gap, so many electrons from the valence band can occupy states in the conduction band, basically detaching themselves from the atoms and becoming a sea of free electrons.
 ![[Pasted image 20251020115350.png]]
+##### Continuing from the second step
 
 ## References
