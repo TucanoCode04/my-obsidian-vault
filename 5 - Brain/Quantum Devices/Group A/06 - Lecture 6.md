@@ -28,5 +28,20 @@ $$\frac{d^2 U}{d x^2}= q\frac{\rho(x)}{\epsilon} \quad \Rightarrow \quad \begin{
 ![[Pasted image 20251020123036.png]]
 Now we need to calculate the built-in voltage $V_{bi}$, using the work functions of the two regions:
 $$q V_{bi} = q\phi_{s_p} - q\phi_{s_n}$$ Where $q\phi_{s_p}$ is the work function of the p region and $q\phi_{s_n}$ is the work function of the n region. The work function is defined as the energy required to bring an electron from the Fermi level inside the material to the vacuum level just outside the material surface.
-$$q V_{bi} = [q \chi + \frac{E_g}{2} + kt\ln(\frac{N_A}{n_i})] - [q \chi + \frac{E_g}{2} + kt\ln(\frac{N_D}{n_i})] = }]
+$$q V_{bi} = [q \chi + \frac{E_g}{2} + kt\ln(\frac{N_A}{n_i})] - [q \chi + \frac{E_g}{2} + kt\ln(\frac{N_D}{n_i})] = kt \ln(\frac{N_A N_D}{n_i^2})$$ where $q \chi$ is the electron affinity of the semiconductor, which is the energy required to bring an electron from the conduction band minimum inside the material to the vacuum level just outside the material surface, $E_g$ is the energy gap of the semiconductor, $k$ is the Boltzmann constant, $t$ is the temperature in Kelvin, $N_A$ and $N_D$ are the acceptor and donor doping concentrations respectively, and $n_i$ is the intrinsic carrier concentration of the semiconductor. So we evaluated the built-in voltage $V_{bi}$ in function of the doping concentrations and intrinsic properties of the semiconductor.
+$$V_{bi} = \frac{kt}{q} \ln(\frac{N_A N_D}{n_i^2})$$
+$\frac{kt}{q} = V_T$ is the thermal voltage, which at room temperature(300K) is approximately 25.9 mV, which is the energy scale associated with thermal energy at a given temperature.
+Now we can use this expression for $V_{bi}$ to find the depletion region widths $x_n$ and $x_p$ as before.
+$$\begin{cases}
+q \phi_p = E_o(-x_p) - E_o(0) = q [\psi(0) - \psi(-x_p)] \quad \Rightarrow \quad \phi_p = \frac{q N_A}{2 \epsilon} x_p^2 \\
+q \phi_n = E_o(0) - E_o(x_n) = q [\psi(x_n) - \psi(0)] \quad \Rightarrow \quad \phi_n = \frac{q N_D}{2 \epsilon} x_n^2
+\end{cases}$$
+Where $E_o(x)$ is the electron potential energy in function of position $x$.
+$$\begin{cases}
+V_{bi} = \phi_n + \phi_p = \frac{q N_D}{2 \epsilon} x_n^2 + \frac{q N_A}{2 \epsilon} x_p^2 \\
+N_A x_p = N_D x_n
+\end{cases} \quad \Rightarrow \quad V_{bi} = \frac{q N_D}{2 \epsilon} \left(\frac{N_D}{N_A} +1\right) x_n^2$$
+ where $\left(\frac{N_D}{N_A} +1\right) = \frac{N_A + N_D}{N_A}$, which leads to:
+ $$x_n^2 = \frac{2 \epsilon}{q N_D} \cdot \frac{N_A}{N_A + N_D} V_{bi}$$
+  we multiply by $\frac{N_D}{N_D}$, so we can use the $N_{eq} = \frac{N_A N_D}{N_A + N_D}$
 ## References
