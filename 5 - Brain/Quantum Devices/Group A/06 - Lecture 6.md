@@ -56,5 +56,7 @@ x_p = x_d \frac{N_D}{N_A + N_D}
 \end{cases}$$
 We can easily see a correlation between the doping concentrations and the depletion region widths and potential differences: the region with higher doping concentration has a smaller depletion width and smaller potential difference.
 $$ \frac{\phi_n}{\phi_p} = \frac{x_n}{x_p}$$
-This re
+We can derive from this relationship, the behavior of the band diagram when we change the doping concentrations, for example for strongly asymmetric doping:
+$$ N_A \gg N_D \iff p^+n\text{ junction} \quad \Rightarrow \quad \begin{cases} x_n \approx x_d \rightarrow x_p \ll x_d \\ \phi_n  \approx V_{bi} \rightarrow \phi_p \ll V_{bi} \end{cases}$$
+$$ N_D \gg N_A \iff pn^+ \text{ junction} \quad \Rightarrow \quad \begin{cases} x_p \approx x_d \rightarrow x_n \ll x_d \\ \phi_p  \approx V_{bi} \rightarrow \phi_n \ll V_{bi} \end{cases}$$
 ## References
