@@ -14,5 +14,5 @@ The only energy shared at this point in the system is a free electron energy lev
 The $q\phi_M$ is the energy required to bring an electron from the Fermi level inside the metal to the vacuum level just outside the metal surface. The only levels that are occupied are the ones below the Fermi level, inside the material, this meaning an abundance of free electrons. The large number of electrons is due to the fact that in metals the conduction band and valence band overlap, so there is no energy gap, so many electrons from the valence band can occupy states in the conduction band, basically detaching themselves from the atoms and becoming a sea of free electrons.
 ![[Pasted image 20251020115350.png]]
 ##### Continuing from the second step
-
+In the secondo step we compare the values of $E_F$ in the two regions. At the time of contact($t=0$) free carriers flow according to the concentration gradients: electrons from the material with larger $E_F$ to the material with smaller $E_F$, and holes in the opposite direction. This flow of carriers creates charged regions close to the junction($\rho \neq 0$), generating a built-in electric field and built-in voltage that opposes the diffusion currents, required to restore the equilibrium condition of detailed balance. 
 ## References
