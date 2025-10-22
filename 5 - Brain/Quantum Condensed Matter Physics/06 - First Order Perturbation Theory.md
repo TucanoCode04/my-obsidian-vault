@@ -32,6 +32,15 @@ $$\Phi_n (\vec{r},t) = \psi_n (\vec{r}) e^{-i E_n t / \hbar}$$
 where $\psi_n (\vec{r})$ are the spatial part of the wave functions. They are called stationary states because their probability density does not change with time and the energy is well defined. They are eigenfunctions of the time-independent Hamiltonian $\hat{H_0}$, normalized and orthogonal to each other, $\braket{\psi_i | \psi_j} = \delta_{ij}$.
 The probability is also time-independent because:
 $$|\Phi_n (\vec{r},t)|^2 = |\psi_n (\vec{r})|^2$$
+So time can be considered as a phase factor that does not affect the probability density. 
+The electromagnetic wave perturbs the system, so we introduce a time-dependent perturbation cause it heats the solid and makes the atoms vibrate. The total Hamiltonian becomes:
+$$\hat{H} = \hat{H_0} + \hat{V}(t)$$
+where $\hat{V}(t)$ is the time-dependent perturbation, it is still $\vec{r}$ dependent, but we drop it for simplicity.
+The formula that we are about to derive is generalized for all types of perturbations, but we will later apply it to the case of photon absorption in semiconductors.
+We want to solve the time-dependent Schrödinger equation:
+$$\hat{H} \Psi (\vec{r},t) = i \hbar \frac{\partial}{\partial t} \Psi (\vec{r},t)$$where $\Psi (\vec{r},t)$ is the wave function of the perturbed system at time $t > 0$. 
+We can express $\Psi (\vec{r},t)$ as a linear combination of the unperturbed eigenfunctions:
+$$\Psi (\vec{r},t) = \sum_j c_j(t) \Phi_j (\vec{r},t) $$
 
 
 ## References
