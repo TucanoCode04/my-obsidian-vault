@@ -41,7 +41,10 @@ We want to solve the time-dependent Schrödinger equation:
 $$\hat{H} \Psi (\vec{r},t) = i \hbar \frac{\partial}{\partial t} \Psi (\vec{r},t)$$where $\Psi (\vec{r},t)$ is the wave function of the perturbed system at time $t > 0$. 
 We can express $\Psi (\vec{r},t)$ as a linear combination of the unperturbed eigenfunctions:
 $$\Psi (\vec{r},t) = \sum_j c_j(t) \Phi_j (\vec{r},t) $$where $c_j(t)$ are time-dependent coefficients that represent the contribution of each unperturbed state to the perturbed wave function. The probability of finding the system in state $j$ at time $t$ is given by $|c_j(t)|^2$.
-
+Substituting this expansion into the time-dependent Schrödinger equation, we get:
+$$\left( \hat{H_0} + \hat{V}(t) \right) \sum_j c_j(t) \Phi_j (\vec{r},t) = i \hbar \frac{\partial}{\partial t} \sum_j c_j(t) \Phi_j (\vec{r},t) $$
+$\hat{V}(t)$ commutes cause it doesn't contain derivatives with respect to $\vec{r}$, so we can write: 
+$$\sum_j c_j(t) E_j \Phi_j (\vec{r},t) + \sum_j c_j(t) \hat{V}(t) \Phi_j (\vec{r},t) = i \hbar \sum_j  \frac{\partial c_j (t)}{\partial t} \Phi_j (\vec{r},t) + \sum_j c_j(t)E_j \Phi_j (\vec{r},t) $$
 
 
 ## References
