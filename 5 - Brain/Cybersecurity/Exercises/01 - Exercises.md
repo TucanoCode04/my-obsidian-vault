@@ -42,8 +42,4 @@ The main types of IP addresses are:
 - Broadcast: Represents all hosts on a local network segment. Data sent to a broadcast address is delivered to all hosts within that network segment. For example: 255.255.255.255(all devices on the local network) or 192.168.1.255(for a specific subnet)
 - Anycast: Represents a group of hosts, but data sent to an anycast address is delivered to the nearest host (in terms of routing distance) within that group. For example: 8.8.8.8(Google Public DNS, which is anycasted to multiple locations worldwide)
 
-
-
-
-
 ## References
