@@ -6,7 +6,13 @@ Status:
 Tags:
 
 # Exercises
-##### Question1: Alice wants to open a communication channel with Bob. Which of the follow
+##### Question 1: Alice wants to open a communication channel with Bob. Which of the following security properties she must implement in order to check that she is really communicating with Bob?
+This is the definition of Peer-Authentication.
+##### Question 2: Assume Alice sends a message to Bob. Bob knows that he has to perform data authentication. What does it mean?
+Bob must ensure that the message he received was sent by Alice and was not altered during transmission. 
+##### Question 3: Assume Alice wants to connect to two systems run by Bob. Alice and Bob must always perform mutual authentication. What does it mean?
+Mutual authentication means that both Alice and Bob verify each other's identities before establishing a communication channel. This ensures that Alice is indeed communicating with Bob's systems, and Bob's systems are indeed communicating with Alice.
+
 
 
 
