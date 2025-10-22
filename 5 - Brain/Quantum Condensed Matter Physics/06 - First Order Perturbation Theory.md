@@ -41,10 +41,18 @@ We want to solve the time-dependent Schrödinger equation:
 $$\hat{H} \Psi (\vec{r},t) = i \hbar \frac{\partial}{\partial t} \Psi (\vec{r},t)$$where $\Psi (\vec{r},t)$ is the wave function of the perturbed system at time $t > 0$. 
 We can express $\Psi (\vec{r},t)$ as a linear combination of the unperturbed eigenfunctions:
 $$\Psi (\vec{r},t) = \sum_j c_j(t) \Phi_j (\vec{r},t) $$where $c_j(t)$ are time-dependent coefficients that represent the contribution of each unperturbed state to the perturbed wave function. The probability of finding the system in state $j$ at time $t$ is given by $|c_j(t)|^2$.
+Before starting we introduce the derivative of the unperturbed eigenfunctions with respect to time: 
+$$\frac{\partial}{\partial t} \Phi_n (\vec{r},t) = \psi_n (\vec{r}) -i \frac{E_n}{\hbar} e^{-i E_n t/ \hbar} = -i \frac{E_n}{\hbar} \Phi_n (\vec{r},t) $$
 Substituting this expansion into the time-dependent Schrödinger equation, we get:
 $$\left( \hat{H_0} + \hat{V}(t) \right) \sum_j c_j(t) \Phi_j (\vec{r},t) = i \hbar \frac{\partial}{\partial t} \sum_j c_j(t) \Phi_j (\vec{r},t) $$
 $\hat{V}(t)$ commutes cause it doesn't contain derivatives with respect to $\vec{r}$, so we can write: 
 $$\sum_j c_j(t) E_j \Phi_j (\vec{r},t) + \sum_j c_j(t) \hat{V}(t) \Phi_j (\vec{r},t) = i \hbar \sum_j  \frac{\partial c_j (t)}{\partial t} \Phi_j (\vec{r},t) + \sum_j c_j(t)E_j \Phi_j (\vec{r},t) $$
+The terms $\sum_j c_j(t) E_j \Phi_j (\vec{r},t)$ cancel out on both sides and we explicitly write the time dependence of $\Phi_j (\vec{r},t)$: 
+$$\sum_j c_j(t) \hat{V}(t) \psi_j (\vec{r}) e^{-i E_j t / \hbar} = i \hbar \sum_j  \frac{\partial c_j (t)}{\partial t} \psi_j (\vec{r}) e^{-i E_j t / \hbar} $$
+Now we multiply by $\bra{\psi_f  }$, because we want to find the coefficient $c_f(t)$ for a specific final state $f$ and we integrate over all space(because the wave functions are defined in all space):
+$$\sum_j c_j(t) \bra{\psi_f } \hat{V}(t) \ket{\psi_j } e^{-i E_j t / \hbar} = i \hbar \sum_j  \frac{\partial c_j (t)}{\partial t} \braket{\psi_f |\psi_j } e^{-i E_j t / \hbar} $$
+ where $\bra{\psi_f } \hat{V}(t) \ket{\psi_j }$ are the matrix elements of the perturbation between the initial and final states, matrix of $\hat{V}(t)$ in basis $\psi_f,  
+
 
 
 ## References
