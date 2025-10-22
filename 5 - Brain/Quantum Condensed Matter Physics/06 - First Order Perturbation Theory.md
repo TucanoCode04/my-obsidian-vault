@@ -27,8 +27,11 @@ We want to study how this external perturbation (the incident photons) perturbs 
 We focus on an unperturbed system with quantized energy levels described by the Hamiltonian $H_0$. The Hamiltonian describes how electrons behave in the periodic potential of the crystal lattice. 
 We want to study how this system responds to an external perturbation, such as a photon flux incident on the semiconductor. The system can be described as:
 $$\hat{H_0} \Phi_n (\vec{r},t) = E_n \Phi_n (\vec{r},t)$$
-where $\Phi_n (\vec{r},t)$ are the eigenfunctions of the unperturbed Hamiltonian and $E_n$ are the corresponding energy eigenvalues.
-When we introduce a time-dependent perturbation $\hat{H'}(t)$, the total Hamiltonian becomes:
+where $\Phi_n (\vec{r},t)$ are the eigenfunctions of the unperturbed Hamiltonian and $E_n$ are the corresponding energy eigenvalues. Here $\hat{H_0}$ is time independent, because the energy levels do not change with time. The time dependence of the wave functions can be easily factorized as:
+$$\Phi_n (\vec{r},t) = \psi_n (\vec{r}) e^{-i E_n t / \hbar}$$
+where $\psi_n (\vec{r})$ are the spatial part of the wave functions. They are called stationary states because their probability density does not change with time and the energy is well defined. They are eigenfunctions of the time-independent Hamiltonian $\hat{H_0}$, normalized and orthogonal to each other, $\braket{\psi_i | \psi_j} = \delta_{ij}$.
+The probability is also time-independent because:
+$$|\Phi_n (\vec{r},t)|^2 = |\psi_n (\vec{r})|^2$$
 
 
 ## References
