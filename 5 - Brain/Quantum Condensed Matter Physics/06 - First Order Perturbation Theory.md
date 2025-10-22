@@ -24,7 +24,11 @@ We consider a flux of photons $I$ with energy $E = h \nu = \hbar \omega$ inciden
 $$I(z) = I_0 e^{-\alpha z}$$ where $I_0$ is the incident intensity at the surface ($z=0$) and $\alpha$ is the absorption coefficient of of the material, which depends on the material properties and the photon energy. For larger $\alpha$, the material is more absorptive, so the intensity decreases more rapidly with depth. it varies depending on the band structure and the frequency of the incident light. At low frequencies (below the bandgap), $\alpha = 0$ because photons do not have enough energy to excite electrons across the bandgap, so there is no absorption. As the frequency increases and exceeds the bandgap energy, $\alpha$ increases, indicating that photons can now be absorbed to create electron-hole pairs.
 We want to study how this external perturbation (the incident photons) perturbs the ground state of the semiconductor. We can use first-order perturbation theory to calculate the transition rates from the ground state to excited states due to the interaction with the electromagnetic field of the photons.
 ##### First-Order Perturbation Theory
-In f
+We focus on an unperturbed system with quantized energy levels described by the Hamiltonian $H_0$. The Hamiltonian describes how electrons behave in the periodic potential of the crystal lattice. 
+We want to study how this system responds to an external perturbation, such as a photon flux incident on the semiconductor. The system can be described as:
+$$\hat{H_0} \Phi_n (\vec{r},t) = E_n \Phi_n (\vec{r},t)$$
+where $\Phi_n (\vec{r},t)$ are the eigenfunctions of the unperturbed Hamiltonian and $E_n$ are the corresponding energy eigenvalues.
+When we introduce a time-dependent perturbation $\hat{H'}(t)$, the total Hamiltonian becomes:
 
 
 ## References
