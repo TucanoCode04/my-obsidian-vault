@@ -8,7 +8,18 @@ Tags:
 # First Order Perturbation Theory
 From previous lectures: $\vec{k}$ is quantum number used to label the momentum of a particle in a periodic potential. 
 ##### Parabolic Band Approximation
-The Parabolic Band Approximation assumes that near the band edges (conduction band minimum and (conduction band maximum), the energy-momentum relationship can be approximated as 
+The Parabolic Band Approximation assumes that near the band edges (conduction band minimum and (conduction band maximum), the energy-momentum relationship can be approximated as parabolic. This is useful for simplifying calculations of electronic properties in semiconductors. This can be done because electrons behave like free particles with an effective mass that differs from the free electron mass due to the periodic potential of the crystal lattice.
+The effective mass is not a scalar quantity, but rather a tensor, because the response of an electron to an applied force can vary depending on the direction of the force relative to the crystal lattice. In anisotropic materials, the effective mass can differ along different crystallographic directions, leading to a tensor representation. 
+For example, if we take and asymptote of the band structure near the valence band maximum, putting the energy at the maximum to be zero, an other asymptote near the conduction band minimum, putting the energy at the minimum to be $E_g$, we can write the energy in the conduction and valence bands as:
+$$\begin{cases}
+E_C = E_g + \frac{\hbar^2 k^2}{2 m_e^*} \\
+E_V = - \frac{\hbar^2 k^2}{2 m_h^*}
+\end{cases}$$
+where $m_e^*$ and $m_h^*$ are the effective masses of electrons and holes, respectively.
+
+In semiconductors, we have 3 band in the valence band: heavy hole band, light hole band and split-off band. The heavy hole and light hole bands are degenerate at the $\Gamma$ point (k=0), while the split-off band is separated by a small energy gap due to spin-orbit coupling. The effective masses of holes in these bands differ, with heavy holes having a larger effective mass compared to light holes.
+#### Absorption of a Photon by a Semiconductor 
+
 
 
 ## References
