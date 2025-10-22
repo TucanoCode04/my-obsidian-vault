@@ -19,7 +19,9 @@ where $m_e^*$ and $m_h^*$ are the effective masses of electrons and holes, respe
 
 In semiconductors, we have 3 band in the valence band: heavy hole band, light hole band and split-off band. The heavy hole and light hole bands are degenerate at the $\Gamma$ point (k=0), while the split-off band is separated by a small energy gap due to spin-orbit coupling. The effective masses of holes in these bands differ, with heavy holes having a larger effective mass compared to light holes.
 #### Absorption of a Photon by a Semiconductor 
-
+When a photon is absorbed by a semiconductor, it can excite an electron from the valence band to the conduction band, creating an electron-hole pair. The energy of the photon must be at least equal to the bandgap energy ($E_g$) of the semiconductor for this transition to occur, if this was not a solid-state material, the energy should have been equal to the difference in energy levels for the transition to occur, because in a solid-state material we have bands of energy levels rather than discrete energy levels.
+We consider a flux of photons $I$ with energy $E = h \nu = \hbar \omega$ incident on the semiconductor. We position our coordinate system such that the z-axis starts at the surface of the semiconductor and goes into the material. The photons are absorbed as they penetrate the material, leading to an exponential decrease in intensity with depth $z$:
+$$
 
 
 ## References
