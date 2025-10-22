@@ -75,12 +75,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Quantum Condensed Matter Physics/Untitled.md",
+                "file": "5 - Brain/Quantum Condensed Matter Physics/04 - Metal model and Sommerfeld Model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "04 - Metal model and Sommerfeld Model"
             }
           }
         ],
@@ -141,7 +141,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -257,7 +258,7 @@
   "active": "6ee9dd6f536438da",
   "lastOpenFiles": [
     "5 - Brain/Quantum Condensed Matter Physics/06 - First Order Perturbation Theory.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Untitled.md",
+    "5 - Brain/Quantum Condensed Matter Physics/04 - Metal model and Sommerfeld Model.md",
     "5 - Brain/Cybersecurity/Exercises/01 - Exercises.md",
     "5 - Brain/Cybersecurity/Exercises/02 - Exercises.md",
     "5 - Brain/Cybersecurity/Exercises",
