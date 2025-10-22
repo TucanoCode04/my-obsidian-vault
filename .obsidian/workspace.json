@@ -75,12 +75,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Quantum Devices/Group A/06 - Lecture 6.md",
+                "file": "5 - Brain/Cybersecurity/Exercises/01 - Exercises.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06 - Lecture 6"
+              "title": "01 - Exercises"
             }
           }
         ],
@@ -254,13 +254,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6ee9dd6f536438da",
+  "active": "be216889e26b3807",
   "lastOpenFiles": [
+    "5 - Brain/Cybersecurity/Exercises",
+    "5 - Brain/Quantum Devices/Group A/06 - Lecture 6.md",
+    "5 - Brain/Cybersecurity/Exercises/01 - Exercises.md",
     "5 - Brain/Quantum Condensed Matter Physics/03 - Reciprocal Bravais Lattice.md",
     "5 - Brain/Quantum Condensed Matter Physics/01 - Introduction to the Crystal Structure.md",
     "5 - Brain/Quantum Condensed Matter Physics/00 - Scalar and Vector Potential.md",
     "5 - Brain/Fundamental of Technological Processes/Professor Cocuzza/01 - Wafer Production.md",
-    "5 - Brain/Quantum Devices/Group A/06 - Lecture 6.md",
     "Pasted image 20251020123036.png",
     "Pasted image 20251020122600.png",
     "Pasted image 20251020115350.png",
@@ -290,7 +292,6 @@
     "To do/Mathematics.md",
     "To do/Fund of Tech Processes Prof 2 Thermodynamics.md",
     "To do/Fund of Tech Processes Prof 2 Refrigeration.md",
-    "To do/Fund of Tech Processes Prof 1 Cleanroom.md",
     "5 - Brain/Quantum Devices/Main Course",
     "5 - Brain/Quantum Devices/Group A",
     "5 - Brain/Fundamental of Technological Processes/Professor Ghigo",
