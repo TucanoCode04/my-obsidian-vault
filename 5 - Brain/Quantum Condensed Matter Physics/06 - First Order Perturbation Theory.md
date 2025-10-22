@@ -53,9 +53,14 @@ Now we multiply by $\bra{\psi_f  }$, because we want to find the coefficient $c_
 $$\sum_j c_j(t) \bra{\psi_f } \hat{V}(t) \ket{\psi_j } e^{-i E_j t / \hbar} = i \hbar \sum_j  \frac{\partial c_j (t)}{\partial t} \braket{\psi_f |\psi_j } e^{-i E_j t / \hbar} $$
  where $\bra{\psi_f } \hat{V}(t) \ket{\psi_j }$ are the matrix elements of the perturbation between the initial and final states, matrix of $\hat{V}(t)$ in basis $\psi_f, \psi_j$. Using the orthogonality of the unperturbed eigenfunctions $\braket{\psi_f |\psi_j } = \delta_{fj}$, we get:
  $$\sum_j c_j(t) V_{fj}(t) e^{-i E_j t / \hbar} = i \hbar  \frac{\partial c_f (t)}{\partial t} e^{-i E_f t / \hbar} $$
-Now we approximate using FOPT, assuming that we switch on the perturbation and we only 
-  
-
-
-
+Now we approximate using FOPT, assuming that we switch on the perturbation and we only observe for a short period of time, so that the coefficients $c_j(t)$ do not change significantly from their initial values, meaning that the probability of being in the final state is 0. This means that $c_i(t \approx 0) = 1; c_j(t \approx 0)_{j \neq i} = 0$ , where $i$ is the initial state. Now we get:
+$$1 \cdot V_{fi}(t) e^{-i E_i t / \hbar} = i \hbar  \frac{\partial c_f (t)}{\partial t} e^{-i E_f t / \hbar} $$
+If we integrate we get how $c_f(t)$ evolves with time, that's our only unknown variable:
+$$\frac{\partial c_f (t)}{\partial t} = \frac{1}{i \hbar} V_{fi}(t) e^{i (E_f - E_i) t / \hbar} $$
+We will now use $E_{fi} = E_f - E_i$ to simplify the notation, we integrate both sides from 0 to $t$:
+$$c_f = \frac{1}{i \hbar} \int_0^t V_{fi}(t') e^{i E_{fi} t' / \hbar} dt' $$
+This formula gives us the time evolution of the coefficient $c_f(t)$, which represents the amplitude of finding the system in the final state $f$ at at time time $t$, due to the perturbation $\hat{V}(t)$. The transition probability from the initial state $i$ to the final state $f$ at time $t$ is given by the square of the amplitude:
+$$P_{i \to f}(t) = |c_f(t)|^2 = \left| \frac{1}{i \hbar} \int_0^t V_{fi}(t') e^{i E_{fi} t' / \hbar} dt' \right|^2 $$
+We define as the derivative of the transition probability with respect to time, which gives us the transition rate from state $i$ to state $f$(we use the derivative because we want the rate, which is probability per unit time):
+$$W_{i \to f}(t) = \frac{d}{dt} P_{i \to f}(t) = \frac{d}{dt} \left| \frac{1}{i \hbar} \int_0^t V_{fi}(t') e^{i E_{fi} t' / \hbar} dt' \right|^2 $$
 ## References
