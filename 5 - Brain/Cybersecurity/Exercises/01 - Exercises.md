@@ -35,6 +35,12 @@ The difference between FQDN and CNAME is that FQDN is the complete domain name f
 - Forwarding DNS Servers: These servers forward DNS queries to other DNS servers, often used to cache responses for improved performance.
 ICMP (Internet Control Message Protocol) Servers: Not a type of DNS server; ICMP is a network layer protocol used for error messages and operational information.
 ##### Question 10: 
+##### Question 11: What are the main types of IP addresses, and how do they differ in terms of communication model and destination semantics?
+The main types of IP addresses are:
+- Unicast: Represents a single unique host on a network. Data sent to a unicast address is delivered to the specific host identified by that address. For example: 192.168.1.10
+- Multicast: Represents a group of hosts. Data sent to a multicast address is delivered to all hosts that are members of the multicast group. For example: 224.0.0.1(all hosts on a local network) or 239.255.0.1(administratively scoped addresses, local organization use)
+- Broadcast: Represents all hosts on a local network segment. Data sent to a broadcast address is delivered to all hosts within that network segment. For example: 255.255.255.255(all devices on the local network) or 192.168.
+- Anycast: Represents a group of hosts, but data sent to an anycast address is delivered to the nearest host (in terms of routing distance) within that group.
 
 
 
