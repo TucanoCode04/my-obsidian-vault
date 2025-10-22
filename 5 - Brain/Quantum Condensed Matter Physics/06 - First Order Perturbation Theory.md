@@ -51,7 +51,10 @@ The terms $\sum_j c_j(t) E_j \Phi_j (\vec{r},t)$ cancel out on both sides and we
 $$\sum_j c_j(t) \hat{V}(t) \psi_j (\vec{r}) e^{-i E_j t / \hbar} = i \hbar \sum_j  \frac{\partial c_j (t)}{\partial t} \psi_j (\vec{r}) e^{-i E_j t / \hbar} $$
 Now we multiply by $\bra{\psi_f  }$, because we want to find the coefficient $c_f(t)$ for a specific final state $f$ and we integrate over all space(because the wave functions are defined in all space):
 $$\sum_j c_j(t) \bra{\psi_f } \hat{V}(t) \ket{\psi_j } e^{-i E_j t / \hbar} = i \hbar \sum_j  \frac{\partial c_j (t)}{\partial t} \braket{\psi_f |\psi_j } e^{-i E_j t / \hbar} $$
- where $\bra{\psi_f } \hat{V}(t) \ket{\psi_j }$ are the matrix elements of the perturbation between the initial and final states, matrix of $\hat{V}(t)$ in basis $\psi_f,  
+ where $\bra{\psi_f } \hat{V}(t) \ket{\psi_j }$ are the matrix elements of the perturbation between the initial and final states, matrix of $\hat{V}(t)$ in basis $\psi_f, \psi_j$. Using the orthogonality of the unperturbed eigenfunctions $\braket{\psi_f |\psi_j } = \delta_{fj}$, we get:
+ $$\sum_j c_j(t) V_{fj}(t) e^{-i E_j t / \hbar} = i \hbar  \frac{\partial c_f (t)}{\partial t} e^{-i E_f t / \hbar} $$
+ 
+  
 
 
 
