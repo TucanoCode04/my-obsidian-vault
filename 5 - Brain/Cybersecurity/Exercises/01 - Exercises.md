@@ -16,7 +16,16 @@ Transport layer, which includes protocols like TCP that ensure reliable data tra
 Provides reliable data transmission through error detection, retransmission of lost packets, and flow control. Implements error checking mechanisms like checksums to ensure data integrity. It adopts different ports to distinguish between multiple applications on the same device, this is called multiplexing and it works at the Transport layer. We have 2^16 = 65536 ports available, ranging from 0 to 65535. Well-known ports (0-1023) are assigned to common services like HTTP (port 80) and HTTPS (port 443). Ports are logical constructs and do not correspond to physical ports on a device.
 ##### Question 5: User Datagram Protocol: 
 UDP is a connectionless protocol that provides low-latency communication without the overhead of error correction and flow control. It is suitable for applications that require speed over reliability, such as video streaming and online gaming, real-time applications. Like TCP, UDP also uses ports to differentiate between multiple applications on the same device.
-##### Question 6: 
+##### Question 6: Which layer handles routing of data across wide area network ...?
+Network layer is responsible for routing data across wide area networks (WANs). It manages logical addressing (IP addresses) and determines the best path for data packets to travel from the source to the destination across interconnected networks.
+##### Question 7: What is the primary function of the Session Layer in the OSI model?
+Session layer is responsible for establishing, managing, and terminating sessions between applications. It provides mechanisms for dialog control, synchronization, and checkpointing to ensure that data exchange is organized and can be resumed in case of interruptions.
+This layer is deprecated in the TCP/IP model, where its functions are often handled by the Transport layer or Application layer protocols.
+##### Question 8: Which of the following are DNS record types?
+- A (Address) Record: Maps a domain name to an IPv4 address.
+- AAAA (IPv6 Address) Record: Maps a domain name to an IPv6 address.
+- 
+
 
 
 
