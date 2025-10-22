@@ -24,7 +24,17 @@ This layer is deprecated in the TCP/IP model, where its functions are often hand
 ##### Question 8: Which of the following are DNS record types?
 - A (Address) Record: Maps a domain name to an IPv4 address.
 - AAAA (IPv6 Address) Record: Maps a domain name to an IPv6 address.
-- 
+- MX (Mail Exchange) Record: Specifies the mail server responsible for receiving email on behalf of a domain.
+FQDN (Fully Qualified Domain Name): Not a DNS record type, but refers to the complete domain name for a specific host within the DNS hierarchy.
+A record type is a specific format used to store information in the DNS system.
+The difference between FQDN and CNAME is that FQDN is the complete domain name for a specific host, while CNAME (Canonical Name) is a type of DNS record that maps an alias name to the true or canonical domain name.
+##### Question 9: Which of the following are types of DNS servers in the DNS hierarchy?
+- Root DNS Servers: The top-level DNS servers that respond to queries for records in the root zone and direct requests to appropriate TLD servers.
+- TLD (Top-Level Domain) DNS Servers: These servers manage the top-level domains (like .com, .org, .net) and direct queries to the authoritative DNS servers for specific domains.
+- Authoritative DNS Servers: These servers hold the actual DNS records for domains and respond to queries with the requested information.
+- Forwarding DNS Servers: These servers forward DNS queries to other DNS servers, often used to cache responses for improved performance.
+ICMP (Internet Control Message Protocol) Servers: Not a type of DNS server; ICMP is a network layer protocol used for error messages and operational information.
+##### Question 10: 
 
 
 
