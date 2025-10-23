@@ -25,7 +25,10 @@ $$\psi (\vec{r}) = \frac{1}{\sqrt{V}} e^{i \vec{k} \cdot \vec{r}}$$ Where $V = L
 $$\psi (x) = \frac{1}{\sqrt{L}} e^{i k x}$$
 Where $k$ is the wavevector in the x-direction. The wavevector is related to the wavelength $\lambda$ of the electron wave by the relation:
 $$k = \frac{2 \pi}{\lambda}$$
-
+We can see that the wavevector determines the wavelength of the electron wave, and thus its momentum and energy.  
+We can extract the energy of the electron from the Schrödinger equation:
+$$E = \frac{\hbar^2 k^2}{2m}$$ 
+Where $k^2 = k_x^2 + k_y^2 + k_z^2$ is the square of the magnitude of the wavevector. This relation shows that the energy of the electron is proportional to the square of its wavevector, which means that higher wavevectors correspond to higher energies.
 
 
 ## References
