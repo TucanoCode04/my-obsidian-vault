@@ -53,5 +53,13 @@ So we can conclude that the wave vectors $\vec{k}$ must be vectors of the recipr
 $$\psi_{\vec{k} + \vec{G}} (\vec{r}) = \psi_{\vec{k}} (\vec{r})$$
 We are basically translating the wave vector $\vec{k}$ by a reciprocal lattice vector $\vec{G}$, which corresponds to moving to an equivalent point in the reciprocal space. 
 $$\hat{H} \psi_{\vec{k} + \vec{G}} (\vec{r}) = E_{\vec{k} + \vec{G}} \psi_{\vec{k} + \vec{G}} (\vec{r}) \quad \Rightarrow \quad \hat{H} \psi_{\vec{k}} (\vec{r}) = E_{\vec{k} + \vec{G}} \psi_{\vec{k}} (\vec{r}) \quad \Rightarrow \quad E_{\vec{k} + \vec{G}} = E_{\vec{k}}$$
-We found that the energy eigenvalues are periodic in the reciprocal space with a periodicity defined by the reciprocal lattice vectors $\vec{G}$.  Leading to the fact that 
+We found that the energy eigenvalues are periodic in the reciprocal space with a periodicity defined by the reciprocal lattice vectors $\vec{G}$.  Leading to the fact that we can restrict our analysis to the first Brillouin zone. So we would find the same results analyzing:
+$$\vec{k} = \vec{k_0} + \vec{G}$$
+where $\vec{k_0}$ is in the first Brillouin zone.
+
+To summarize, the PBC lead to quantized allowed wave vectors $\vec{k}$ in the reciprocal space, which correspond to unique quantum states for electrons in the periodic potential of the solid. The periodicity of the energy eigenvalues in the reciprocal space allows us to focus our analysis on the first Brillouin zone, simplifying the study of electronic properties in crystalline solids, and tells us that the energy bands are quantized since only discrete values of $\vec{k}$ are allowed.
+
+In a neutral solid, where each cell contributes one electron, the total number of electrons is equal to the total number of unit cells $N_{TOT}$. Each allowed wave vector $\vec{k}$ can accommodate two electrons due to the spin degeneracy (spin-up and spin-down states). Therefore, the occupancy of the electronic states will be half-filled, meaning that only half of the available states in the energy bands will be occupied by electrons at absolute zero temperature. 
+
+
 ## References
