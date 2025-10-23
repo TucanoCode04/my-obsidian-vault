@@ -113,5 +113,11 @@ We define Heat Capacity as the amount of heat needed to change the temperature o
 ##### Adding an Electric Field 
 At start the sphere in the k-space is centered at the origin, meaning that the average momentum of the electrons is zero. More specifically we have the same numbers of electrons with same velocity in opposite directions, so the net momentum is zero $-\hbar |\vec{k}| + \hbar |\vec{k}| = 0$. 
 When we apply an electric field $\vec{E}$, the electrons experience a force $\vec{F} = -e \vec{E}$, where $e$ is the elementary charge. This force causes the electrons to accelerate in the direction opposite to the electric field (since electrons are negatively charged).
+$$\vec{F} = \frac{d\vec{p}}{dt} = \hbar \frac{d\vec{k}}{dt} = -e \vec{E} \quad \Rightarrow \quad \frac{d\vec{k}}{dt} = -\frac{e \vec{E}}{\hbar}$$
+This equation describes how the wavevector $\vec{k}$ of the electrons changes over time under the influence of the electric field. The negative sign indicates that the wavevector decreases in the direction of the electric field.
+By integrating this equation over the k-space, we find that the entire Fermi sphere shifts in the direction opposite to the electric field. This shift represents a net momentum of the electrons in that direction, leading to a net current flow in the metal.
+$$\hbar d\vec{k} = -e \vec{E} dt \quad \Rightarrow \quad \hbar (\vec{k(\epsilon)} - \vec{k(0)}) = -e \vec{E} t$$
+Where $\vec{k(0)}$ is the initial wavevector and $\vec{k(\epsilon)}$ is the wavevector after a time interval $t$ under the influence of the electric field. So when we switch on the electric field, the momentum will change linearly with time(increase or decrease depending on the direction of the field).
+$$\vec{k(\epsilon)} = \vec{k(0)} - \frac{e \vec{E}}{\hbar} t$$So the sphere will start to shift to higher or lower values of k infinitely(classically), but in reality, the electrons will scatter off impurities or phonons in the metal after a certain time or they will experience friction from the nuclei, which limits the maximum shift of the Fermi sphere. After a certain time, known as the collisiontime $\tau$, the electrons will scatter 
 
 ## References
