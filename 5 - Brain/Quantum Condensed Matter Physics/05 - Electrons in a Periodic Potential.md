@@ -40,5 +40,9 @@ $$\vec{k} \cdot (N_1 a_1) = (x_1 \vec{g_1} + x_2 \vec{g_2} + x_3 \vec{g_3}) \cdo
 Where we used the definition of the reciprocal lattice vectors, so $\vec{g_i} \cdot \vec{a_j} = 2 \pi \delta_{ij}$. So now $x_1$ is quantized, and is defined by the integer $m_1$ that changes to describe different allowed wave vectors $\vec{k}$ in the $x$ direction, it can take $N_1$ different values. By repeating the same procedure for the other two directions, we obtain:
 $$x_2 = \frac{m_2}{N_2}, \quad m_2 \in \mathbb{Z}, \quad m_2 = 0, 1, 2, \ldots, N_2 - 1$$
 $$x_3 = \frac{m_3}{N_3}, \quad m_3 \in \mathbb{Z}, \quad m_3 = 0, 1, 2, \ldots, N_3 - 1$$
-
+So the allowed wave vectors $\vec{k}$ are given by:
+$$\vec{k} = \frac{m_1}{N_1} \vec{g_1} + \frac{m_2}{N_2} \vec{g_2} + \frac{m_3}{N_3} \vec{g_3}$$ where $m_1, m_2, m_3$ are integers that index the allowed wave vectors in each direction. The total number of allowed wave vectors is equal to the total number of unit cells in the solid, $N_{TOT} = N_1 N_2 N_3$. Each allowed wave vector corresponds to a unique quantum state for the electron in the periodic potential. The correspondence between the number of allowed wave vectors and the number of unit cells reflects the fact that each unit cell can host one electron state for each allowed wave vector.
+So the volume that we associate to each allowed wave vector in the reciprocal space is given by:
+$$\Delta k = \frac{g_1}{N_1} (\frac{g_2}{N_2} \times \frac{g_3}{N_3} ) = \frac{1}{N_{TOT}} \left( g_1 \cdot (g_2 \times g_3) \right) = \frac{V_{rec}}{N_{TOT}}$$
+Where $V_{rec}$ is the volume of the primitive cell in the reciprocal lattice, also called the first Brillouin zone. 
 ## References
