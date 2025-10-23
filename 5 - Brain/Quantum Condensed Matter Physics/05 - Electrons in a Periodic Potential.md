@@ -24,5 +24,9 @@ $$\mu_{\vec{k}} (\vec{r} + \vec{R_n}) = \mu_{\vec{k}} (\vec{r})$$
 Different values of $\vec{k}$ correspond to different eigenstates of the electron in the periodic potential, meaning different energy levels $E(\vec{k})$(we don't have an explicit formula as in the Sommerfeld model). The allowed values of $\vec{k}$ are determined by the boundary conditions imposed on the wave function. We will see that is real and it will have discrete values.
 We express now the Bloch function in terms of its periodic part:
 $$\psi_{\vec{k}} (\vec{r + R_n}) = e^{i \vec{k} \cdot (\vec{r} + \vec{R_n})} \mu_{\vec{k}} (\vec{r} + \vec{R_n}) = e^{i \vec{k} \cdot \vec{R_n}} e^{i \vec{k} \cdot \vec{r}} \mu_{\vec{k}} (\vec{r}) = e^{i \vec{k} \cdot \vec{R_n}} \psi_{\vec{k}} (\vec{r})$$
-So the Bloch function acquires a phase factor $e^{i \vec{k} \cdot \vec{R_n}}$ when translated by a lattice vector $\vec{R_n}$.
+So the Bloch function acquires a phase factor $e^{i \vec{k} \cdot \vec{R_n}}$ when translated by a lattice vector $\vec{R_n}$. So after the translation, we see equal states up to a phase factor.
+##### Boundary Conditions and Allowed Wave Vectors
+To determine the allowed values of the wave vector $\vec{k}$, we impose periodic boundary conditions on the wave function over the entire solid. This means that the wave function must be the same when translated by the dimensions of the solid, for example we analyze the $x$ direction:
+$$\psi_{\vec{k}} (\vec{r} + L_x) = \psi_{\vec{k}} (\vec{r} + N_1 a_1) = \psi_{\vec{k}} (\vec{r}), \quad N_1 a_1 \in \{\vec{R_n}\}$$
+Where $N_1$ is the number of unit cells in the $x$ direction and one of the infinite lattice vectors 
 ## References
