@@ -48,14 +48,26 @@ Where  is an integer. Using a similar process for the second and third equalitie
 $$k_x = \frac{2 \pi n_x}{L_x}, \quad k_y = \frac{2 \pi n_y}{L_y}, \quad k_z = \frac{2 \pi n_z}{L_z}$$
 Where $n_x$, $n_y$, and $n_z$ are integers (positive, negative, or zero). This quantization of the wavevectors means that the electrons can only occupy discrete states in momentum space, which leads to a discrete energy spectrum(it's easy to see this from the energy relation we found earlier). 
 But, in this particular case, the spacing between these allowed wavevectors is very small because the dimensions of the metal are macroscopic (on the order of centimeters or larger). This means that the allowed wavevectors are very closely spaced, and we can treat them as a continuous distribution for practical purposes.
-We can imagine it as a parabola, where each point on the parabola represents an allowed energy state in which the electrons can exist.
-##### What is $\vec{k}$?
+We can imagine it as a parabola, where each point on the parabola represents an allowed energy state in which the electrons can exist. The electrons will fill these states starting from the lowest energy level, following the Pauli exclusion principle. 
+##### What is $\vec{k}$?(Not important for the exam, but important for me)
 The wavevector $\vec{k}$ is a vector quantity that describes the spatial variation of the electron's wavefunction. It is related to the momentum of the electron by the relation:
 $$\vec{p} = \hbar \vec{k}$$
 Where $\vec{p}$ is the momentum of the electron. The magnitude of the wavevector $k$ is related to the wavelength $\lambda$ of the electron wave by the relation:
 $$k = \frac{2 \pi}{\lambda}$$
+This means that the wavevector determines the wavelength of the electron wave, and thus its momentum and energy.
 The direction of the wavevector indicates the direction of propagation of the electron wave. In three dimensions, the wavevector has components in the x, y, and z directions, which determine how the wavefunction varies in each spatial dimension.
-
+The number of allowed wavevectors in a given volume of momentum space can be calculated by considering the spacing between the allowed wavevectors. In three dimensions, the allowed wavevectors form a cubic lattice in momentum space, with a spacing of:
+$$\Delta k_x = \frac{2 \pi}{L_x}, \quad \Delta k_y = \frac{2 \pi}{L_y}, \quad \Delta k_z = \frac{2 \pi}{L_z}$$
+This means that the volume of each allowed state in momentum space is given by:
+$$\Delta k_x \Delta k_y \Delta k_z = \frac{(2 \pi)^3}{V}$$
+Where $V = L_x L_y L_z$ is the volume of the metal. Therefore, the number of allowed wavevectors in a given volume of momentum space $d^3k$ is given by:
+$$\frac{V}{(2 \pi)^3} d^3k$$
+This all allows us to calculate the density of states and other properties of the electron gas in the metal.
+To recap, the large number of atoms influences the number of allowed wavevectors because each atom contributes electrons that can occupy these states. The periodic boundary conditions lead to quantized wavevectors, but due to the macroscopic size of the metal, the spacing between these wavevectors is very small, allowing us to treat them as a continuous distribution. This results in a high density of states in momentum space, which is crucial for understanding the electronic properties of metals.
+The orbits in k-space are filled according to the Pauli exclusion principle, which states that no two electrons can occupy the same quantum state simultaneously. This means that each allowed wavevector can be occupied by at most two electrons (one with spin up and one with spin down). 
+Basically two electrons can have the same energy only if they have opposite spins or they occupy different wavevectors(this are called quantum numbers). 
+When two electrons have the same energy, in a continuous energy spectrum, they lie on the same energy band, but their occupation is determined by their wavevectors and spins.
+##### 
 
 
 
