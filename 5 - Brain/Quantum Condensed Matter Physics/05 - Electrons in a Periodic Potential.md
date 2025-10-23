@@ -37,5 +37,8 @@ $\vec{k}$ can't be defined as a linear combination of the primitive vectors of t
 $$\vec{k} = x_1 \vec{g_1} + x_2 \vec{g_2} + x_3 \vec{g_3}$$
 We can't have a continuous range of values for $x_1, x_2, x_3$, because we need to satisfy the condition derived from the PBC. We calculate $x_1$:
 $$\vec{k} \cdot (N_1 a_1) = (x_1 \vec{g_1} + x_2 \vec{g_2} + x_3 \vec{g_3}) \cdot (N_1 a_1) = x_1 N_1 (\vec{g_1} \cdot \vec{a_1}) + 0 + 0 = x_1 N_1 (2 \pi) = 2 \pi m_1 \quad \Rightarrow \quad x_1 = \frac{m_1}{N_1}$$
-Where we used the definition of the reciprocal lattice vectors, so $\vec{g_i} \cdot \vec{a_j} = 2 \pi \delta_{ij}$. $m_1$ is an integer, that changes 
+Where we used the definition of the reciprocal lattice vectors, so $\vec{g_i} \cdot \vec{a_j} = 2 \pi \delta_{ij}$. So now $x_1$ is quantized, and is defined by the integer $m_1$ that changes to describe different allowed wave vectors $\vec{k}$ in the $x$ direction, it can take $N_1$ different values. By repeating the same procedure for the other two directions, we obtain:
+$$x_2 = \frac{m_2}{N_2}, \quad m_2 \in \mathbb{Z}, \quad m_2 = 0, 1, 2, \ldots, N_2 - 1$$
+$$x_3 = \frac{m_3}{N_3}, \quad m_3 \in \mathbb{Z}, \quad m_3 = 0, 1, 2, \ldots, N_3 - 1$$
+
 ## References
