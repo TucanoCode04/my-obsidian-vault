@@ -110,6 +110,8 @@ The total number of electrons $N$ can be calculated by integrating the product o
 $$N = \int_0^\infty D(E) f(E, T) dE$$
 This integral gives us the total number of electrons by summing up the contributions from all energy states, weighted by their occupation probabilities. The total number of electrons remains constant since electrons are just excited not created. 
 We define Heat Capacity as the amount of heat needed to change the temperature of a substance by a certain amount in time. So a large heat capacity means that the substance can absorb a lot of heat without a significant change in temperature. It is possible to calculate the heat capacity due to the electrons in the metal, it will be little since only electrons near the Fermi energy can be excited and contribute to the heat capacity.
-
+##### Adding an Electric Field 
+At start the sphere in the k-space is centered at the origin, meaning that the average momentum of the electrons is zero. More specifically we have the same numbers of electrons with same velocity in opposite directions, so the net momentum is zero $-\hbar |\vec{k}| + \hbar |\vec{k}| = 0$. 
+When we apply an electric field $\vec{E}$, the electrons experience a force $\vec{F} = -e \vec{E}$, where $e$ is the elementary charge. This force causes the electrons to accelerate in the direction opposite to the electric field (since electrons are negatively charged).
 
 ## References
