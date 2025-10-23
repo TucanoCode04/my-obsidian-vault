@@ -133,4 +133,6 @@ $$\sigma = n e^2 \frac{\tau}{m}$$
 To conclude the Sommerfeld model provides a simple yet powerful framework for understanding the behavior of electrons in metals. By treating the electrons as a free electron gas and applying periodic boundary conditions, we the can derive important properties such as the density of states, Fermi-Dirac distribution, and electrical conductivity. 
 The sphere in k-space represents the allowed energy states of the electrons, its shifts under an applied electric field are permitted since there are available states for the electrons outside the original sphere to occupy. This shift leads to a net current flow in the metal, which is described by Ohm's law.
 
+
+
 ## References
