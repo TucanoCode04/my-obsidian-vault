@@ -31,7 +31,11 @@ $$E = \frac{\hbar^2 k^2}{2m}$$This relation shows that the energy of the electro
 The plane wave are eigenfunctions of the momentum operator $\hat{p} = -i \hbar \nabla$, with eigenvalues given by:
 $$\hat{p} \psi (\vec{r}) = \hbar \vec{k} \psi (\vec{r})$$
 This means that the momentum of the electron is given by its wavevector, with a proportionality constant of $\hbar$. 
-In free particle, we can, then, easily find the mom
+In free particle, we can, then, easily find the momentum and energy of the electron from its wavevector. This is possible because we assumed that the electrons are free and non-interacting, so by excluding a spatially varying potential, the Hamiltonian commutes with the momentum operator, allowing us to use plane waves as eigenfunctions.
+$$[\hat{H}, \hat{p}] = 0 \quad \Rightarrow \quad \hat{H}= \frac{\hat{p}^2}{2m}$$
+Again, this is possible only because we have no potential term in the Hamiltonian.
+
+We will use boundary conditions, a mathematical constraint that represents a physical condition, to determine the allowed wavevectors of the electrons in the metal. In particular, we will assume that when the particle is at one end of the metal, it reappears at the other end. This is known as Periodic Boundary Conditions, and it is a common approximation used in solid-state physics to simplify calculations.
 
 
 ## References
