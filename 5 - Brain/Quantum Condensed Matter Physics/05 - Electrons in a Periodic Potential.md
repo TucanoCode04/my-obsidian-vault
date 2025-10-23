@@ -48,5 +48,10 @@ Where $V_{rec}$ is the volume of the primitive cell in the reciprocal lattice, a
 $$V_{rec} = \frac{(2 \pi)^3}{V_{dir}}$$ Where $V_{dir}$ is the volume of the primitive cell in the direct lattice. So we can write:
 $$\Delta k = \frac{(2 \pi)^3}{V_{dir}} \frac{1}{N_{TOT}} = \frac{(2 \pi)^3}{V}$$
 Where we used that $V = N_{TOT} V_{dir}$ is the total volume of the solid. This result shows that each allowed wave vector occupies a volume of $\frac{(2 \pi)^3}{V}$ in the reciprocal space, which is inversely proportional to the total volume of the solid. As the volume of the solid increases, the spacing between allowed wave vectors decreases, leading to a denser distribution of states in the reciprocal space.
-
+Only a subset of the allowed wave vectors need to be considered to describe the electronic properties of the solid, the one that holds a correspondence to $\vec{G}$ vectors of the reciprocal lattice. 
+So we can conclude that the wave vectors $\vec{k}$ must be vectors of the reciprocal lattice $\vec{G}$. So we write the Bloch State as:
+$$\psi_{\vec{k} + \vec{G}} (\vec{r}) = \psi_{\vec{k}} (\vec{r})$$
+We are basically translating the wave vector $\vec{k}$ by a reciprocal lattice vector $\vec{G}$, which corresponds to moving to an equivalent point in the reciprocal space. 
+$$\hat{H} \psi_{\vec{k} + \vec{G}} (\vec{r}) = E_{\vec{k} + \vec{G}} \psi_{\vec{k} + \vec{G}} (\vec{r}) \quad \Rightarrow \quad \hat{H} \psi_{\vec{k}} (\vec{r}) = E_{\vec{k} + \vec{G}} \psi_{\vec{k}} (\vec{r}) \quad \Rightarrow \quad E_{\vec{k} + \vec{G}} = E_{\vec{k}}$$
+We found that the energy eigenvalues are periodic in the reciprocal space with a periodicity defined by the reciprocal lattice vectors $\vec{G}$.  Leading to the fact that 
 ## References
