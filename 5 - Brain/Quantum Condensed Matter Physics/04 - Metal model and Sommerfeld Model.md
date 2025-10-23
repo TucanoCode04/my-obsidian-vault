@@ -88,4 +88,22 @@ Substituting this expression for $k$ into the equation for $N(E)$, we get:
 $$N(E) = \frac{V}{3 \pi^2} \left( \sqrt{\frac{2mE}{\hbar^2}} \right)^3 = \frac{V}{3 \pi^2} \left( \frac{2mE}{\hbar^2} \right)^{3/2}$$
 Now we can substitute this expression for $N(E)$ into the formula for the density of states:
 $$D(E) = \frac{1}{V} \frac{d}{dE} \left( \frac{V}{3 \pi^2} \left( \frac{2mE}{\hbar^2} \right)^{3/2} \right) = \frac{1}{V} \cdot \frac{V}{3 \pi^2} \cdot \frac{3}{2} \left( \frac{2m}{\hbar^2} \right)^{3/2} E^{1/2} = \frac{1}{2 \pi^2} \left( \frac{2m}{\hbar^2} \right)^{3/2} E^{1/2}$$
+This expression shows that the density of states increases with the square root of energy, meaning that there are more available states at higher energy levels. So at higher energies there will be more degenerate states. 
+This results tells nothing about the occupation of these states, which is determined by the Fermi-Dirac distribution. It only tells us the probability of finding an electron at a given energy level and temperature.
+##### Fermi-Dirac Distribution
+The Fermi-Dirac distribution describes the probability that an electron occupies a given energy state at a specific temperature. It is given by the formula:
+$$f(E, T) = \frac{1}{1 + e^{(E - E_F) / (k T)}}$$
+Where $f(E, T)$ is the probability of occupation of an energy state with energy $E$ at temperature $T$, $E_F$ is the Fermi energy (the highest occupied energy level at absolute zero temperature), $k$ is the Boltzmann constant, and $T$ is the absolute temperature.
+If we plot the Fermi-Dirac distribution as a function of energy for different temperatures, we observe the following behavior:
+1. At absolute zero temperature (T = 0 K), the distribution is a step function. All energy states below the Fermi energy are fully occupied (f(E) = 1), while all states above the Fermi energy are empty (f(E) = 0).
+2. As the temperature increases, the step function smooths out. Some electrons gain enough thermal energy to occupy states above the Fermi energy, while some states below the Fermi energy become unoccupied.
+This results in a gradual transition from occupied to unoccupied states around the Fermi energy.
+##### Combining Density of States and Fermi-Dirac Distribution
+To find the total number of electrons in the metal at a given temperature, we can combine the graphs of the density of states and the Fermi-Dirac distribution. The total number of electrons $N$ can be calculated by integrating the product of the density of states and the Fermi-Dirac distribution over all energy levels:
+$$N = \int_0^\infty D(E) f(E, T) dE$$
+This integral gives us the total number of electrons by summing up the contributions from all energy states, weighted by their occupation probabilities.
+If we plot the product $D(E) f(E, T)$ as a function of energy, we obtain a curve that represents the effective number of occupied states at each energy level. The area under this curve corresponds to the total number of electrons in the metal. 
+1. At low temperatures, the area under the curve is concentrated around the Fermi energy, as most electrons occupy states near this energy level.
+2. 
+
 ## References
