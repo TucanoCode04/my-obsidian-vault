@@ -72,8 +72,20 @@ Basically two electrons can have the same energy only if they have opposite spin
 When two electrons have the same energy, in a continuous energy spectrum, they lie on the same energy band, but their occupation is determined by their wavevectors and spins.
 ##### Density of States
 The density of states represents the number of available electronic states per unit energy range at a given energy level. It is a crucial concept in solid-state physics because it helps us understand how electrons are distributed among the available energy levels in a material.
-Basically, if we represents the energy 
-
-
-
+Basically, if we represents the energy levels as a graph, using the results from before, the graph would be a parabola($E = \frac{\hbar^2 k^2}{2m}$). The density of states tells us how many states are available at each energy level along this graph, meaning that the density of states indicates the number of states when you take a slice of the graph at a specific energy value(y-axis) and count how many states fall within that slice. For example at $E_0$, you will hit just one point, meaning it has two states(considering spin).
+The density of states is given by the formula:
+$$D(E) = \frac{1}{V} \frac{dN(E)}{dE}$$
+Where $D(E)$ is the density of states at energy $E$, $V$ is the volume of the metal, and $N(E)$ is the total number of states with energy less than or equal to $E$.
+The volume of each lattice point in k-space is given by:
+$$\frac{(2 \pi)^3}{L_xL_yL_z}=\frac{(2 \pi)^3}{V}$$
+This comes from the periodic boundary conditions we applied earlier, which quantize the allowed wavevectors in momentum space.
+To find $N(E)$, we can divide the total volume of the sphere in k-space (up to the wavevector corresponding to energy $E$) by the volume of each lattice point(energy state):
+$$N(E) = 2 \cdot \frac{\frac{4}{3} \pi k^3}{\frac{(2 \pi)^3}{V}} = \frac{V}{3 \pi^2} k^3$$
+Where the factor of 2 accounts for the two possible spin states for each wavevector.
+To express $N(E)$ in terms of energy, we can use the relation between energy and wavevector:
+$$E = \frac{\hbar^2 k^2}{2m} \quad \Rightarrow \quad k = \sqrt{\frac{2mE}{\hbar^2}}$$
+Substituting this expression for $k$ into the equation for $N(E)$, we get:
+$$N(E) = \frac{V}{3 \pi^2} \left( \sqrt{\frac{2mE}{\hbar^2}} \right)^3 = \frac{V}{3 \pi^2} \left( \frac{2mE}{\hbar^2} \right)^{3/2}$$
+Now we can substitute this expression for $N(E)$ into the formula for the density of states:
+$$D(E) = \frac{1}{V} \frac{d}{dE} \left( \frac{V}{3 \pi^2} \left( \frac{2mE}{\hbar^2} \right)^{3/2} \right) = \frac{1}{V} \cdot \frac{V}{3 \pi^2} \cdot \frac{3}{2} \left( \frac{2m}{\hbar^2} \right)^{3/2} E^{1/2} = \frac{1}{2 \pi^2} \left( \frac{2m}{\hbar^2} \right)^{3/2} E^{1/2}$$
 ## References
