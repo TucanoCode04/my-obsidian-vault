@@ -99,11 +99,17 @@ If we plot the Fermi-Dirac distribution as a function of energy for different te
 2. As the temperature increases, the step function smooths out. Some electrons gain enough thermal energy to occupy states above the Fermi energy, while some states below the Fermi energy become unoccupied.
 This results in a gradual transition from occupied to unoccupied states around the Fermi energy.
 ##### Combining Density of States and Fermi-Dirac Distribution
-To find the total number of electrons in the metal at a given temperature, we can combine the graphs of the density of states and the Fermi-Dirac distribution. The total number of electrons $N$ can be calculated by integrating the product of the density of states and the Fermi-Dirac distribution over all energy levels:
-$$N = \int_0^\infty D(E) f(E, T) dE$$
-This integral gives us the total number of electrons by summing up the contributions from all energy states, weighted by their occupation probabilities.
+To find the total number of electrons in the metal at a given temperature, we can combine the graphs of the density of states and the Fermi-Dirac distribution. 
 If we plot the product $D(E) f(E, T)$ as a function of energy, we obtain a curve that represents the effective number of occupied states at each energy level. The area under this curve corresponds to the total number of electrons in the metal. 
 1. At low temperatures, the area under the curve is concentrated around the Fermi energy, as most electrons occupy states near this energy level.
-2. 
+2. As the temperature increases, the area spreads out, reflecting the increased occupation of higher energy states and the decreased occupation of lower energy states. Some states below the Fermi energy become unoccupied, while states above the Fermi energy become occupied.
+
+There's no Bravais Lattice since the metal is considered as a free electron gas without a periodic potential from the lattice structure. 
+
+The total number of electrons $N$ can be calculated by integrating the product of the density of states and the Fermi-Dirac distribution over all energy levels:
+$$N = \int_0^\infty D(E) f(E, T) dE$$
+This integral gives us the total number of electrons by summing up the contributions from all energy states, weighted by their occupation probabilities. The total number of electrons remains constant since electrons are just excited not created. 
+We define Heat Capacity as the amount of heat needed to change the temperature of a substance by a certain amount in time. So a large heat capacity means that the substance can absorb a lot of heat without a significant change in temperature. It is possible to calculate the heat capacity due to the electrons in the metal, it will be little since only electrons near the Fermi energy can be excited and contribute to the heat capacity.
+
 
 ## References
