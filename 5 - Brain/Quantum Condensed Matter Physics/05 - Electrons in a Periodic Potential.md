@@ -14,7 +14,15 @@ $$V(\vec{r} + \vec{R_n}) = V(\vec{r})$$
 We consider a solid with a given volume $V = L_x L_y L_z$, containing $N_{TOT} = N_1 N_2 N_3$ unit cells, where $N_i = \frac{L_i}{a_i}$ is the number of unit cells along the $i$-th direction. 
 ##### Schrödinger Equation in a Periodic Potential
 We want to solve the time-independent Schrödinger equation for an electron in this periodic potential:
-$$\hat{H} \psi 
-
-
+$$\hat{H} \psi (\vec{r}) = \left[ -\frac{\hbar^2}{2m} \nabla^2 + V(\vec{r}) \right] \psi (\vec{r}) = E \psi (\vec{r})$$
+where $\hat{H}$ is the Hamiltonian operator, $\psi (\vec{r})$ is the wave function of the electron, and $E$ is the energy eigenvalue. The potential $V(\vec{r})$ is periodic, reflecting the underlying lattice structure of the solid.
+##### Bloch's Theorem
+Bloch's theorem states that the wave functions of electrons in a periodic potential can be expressed as:
+$$\psi_{\vec{k}} (\vec{r}) = e^{i \vec{k} \cdot \vec{r}} \mu_{\vec{k}} (\vec{r})$$
+where $\vec{k}$ is the wave vector (or crystal momentum) and $\mu_{\vec{k}} (\vec{r})$ is a function(can be complex, so it can add a phase) that has the same periodicity as the lattice:
+$$\mu_{\vec{k}} (\vec{r} + \vec{R_n}) = \mu_{\vec{k}} (\vec{r})$$
+Different values of $\vec{k}$ correspond to different eigenstates of the electron in the periodic potential, meaning different energy levels $E(\vec{k})$(we don't have an explicit formula as in the Sommerfeld model). The allowed values of $\vec{k}$ are determined by the boundary conditions imposed on the wave function. We will see that is real and it will have discrete values.
+We express now the Bloch function in terms of its periodic part:
+$$\psi_{\vec{k}} (\vec{r + R_n}) = e^{i \vec{k} \cdot (\vec{r} + \vec{R_n})} \mu_{\vec{k}} (\vec{r} + \vec{R_n}) = e^{i \vec{k} \cdot \vec{R_n}} e^{i \vec{k} \cdot \vec{r}} \mu_{\vec{k}} (\vec{r}) = e^{i \vec{k} \cdot \vec{R_n}} \psi_{\vec{k}} (\vec{r})$$
+So the Bloch function acquires a phase factor $e^{i \vec{k} \cdot \vec{R_n}}$ when translated by a lattice vector $\vec{R_n}$.
 ## References
