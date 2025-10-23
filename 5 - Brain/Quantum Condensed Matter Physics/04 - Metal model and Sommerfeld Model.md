@@ -60,6 +60,7 @@ This means that the wavevector determines the wavelength of the electron wave, a
 The direction of the wavevector indicates the direction of propagation of the electron wave. In three dimensions, the wavevector has components in the x, y, and z directions, which determine how the wavefunction varies in each spatial dimension.
 The number of allowed wavevectors in a given volume of momentum space can be calculated by considering the spacing between the allowed wavevectors. In three dimensions, the allowed wavevectors form a cubic lattice in momentum space, with a spacing of:
 $$\Delta k_x = \frac{2 \pi}{L_x}, \quad \Delta k_y = \frac{2 \pi}{L_y}, \quad \Delta k_z = \frac{2 \pi}{L_z}$$
+The number $2 \pi$ comes from the periodic boundary conditions we applied earlier.
 This means that the volume of each allowed state in momentum space is given by:
 $$\Delta k_x \Delta k_y \Delta k_z = \frac{(2 \pi)^3}{V}$$
 Where $V = L_x L_y L_z$ is the volume of the metal. Therefore, the number of allowed wavevectors in a given volume of momentum space $d^3k$ is given by:
@@ -71,6 +72,7 @@ Basically two electrons can have the same energy only if they have opposite spin
 When two electrons have the same energy, in a continuous energy spectrum, they lie on the same energy band, but their occupation is determined by their wavevectors and spins.
 ##### Density of States
 The density of states represents the number of available electronic states per unit energy range at a given energy level. It is a crucial concept in solid-state physics because it helps us understand how electrons are distributed among the available energy levels in a material.
+Basically, if we represents the energy 
 
 
 
