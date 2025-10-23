@@ -62,5 +62,8 @@ To summarize, the PBC lead to quantized allowed wave vectors $\vec{k}$ in the re
 In a neutral solid, where each cell contributes one electron, the total number of electrons is equal to the total number of unit cells $N_{TOT}$. Each allowed wave vector $\vec{k}$ can accommodate two electrons due to the spin degeneracy (spin-up and spin-down states). Therefore, only half of the available wave vectors will be occupied by electrons in the ground state, since each wave vector can hold two electrons. 
 ##### Density of States in a Periodic Potential
 $$D(E) = \frac{1}{V} \sum_{\vec{k}} \delta(E - E(\vec{k})) 2$$ Where the factor of 2 accounts for the spin degeneracy. As $V\to \infty$, we can replace the sum over discrete wave vectors $\vec{k}$ with an integral over the continuous reciprocal space:
-$$D(E) = \frac{1}{V} \int
+$$D(E) = \frac{1}{V} \int 2 \delta(E - E(\vec{k})) $$
+Since the number of allowed wave vectors is given by the volume time the density of states in reciprocal space, we have:
+$$D(E) = \frac{1}{(4 \pi^3)} \int_{\text{Brilloin Zone} } \delta(E - E(\vec{k})) d \vec{k}$$
+Where the integral is performed over the first Brillouin zone. This expression gives the density of states per unit volume at energy $E$ for electrons in a periodic potential, taking into account the spin degeneracy.
 ## References
