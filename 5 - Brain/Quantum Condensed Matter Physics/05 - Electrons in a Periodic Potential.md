@@ -28,5 +28,12 @@ So the Bloch function acquires a phase factor $e^{i \vec{k} \cdot \vec{R_n}}$ wh
 ##### Boundary Conditions and Allowed Wave Vectors
 To determine the allowed values of the wave vector $\vec{k}$, we impose periodic boundary conditions on the wave function over the entire solid. This means that the wave function must be the same when translated by the dimensions of the solid, for example we analyze the $x$ direction:
 $$\psi_{\vec{k}} (\vec{r} + L_x) = \psi_{\vec{k}} (\vec{r} + N_1 a_1) = \psi_{\vec{k}} (\vec{r}), \quad N_1 a_1 \in \{\vec{R_n}\}$$
-Where $N_1$ is the number of unit cells in the $x$ direction and one of the infinite lattice vectors 
+Where $N_1$ is the number of unit cells in the $x$ direction and one of the infinite lattice vectors $\vec{R_n}$. This needs to satisfy the Bloch condition:
+$$\Psi_{\vec{k}} (\vec{r} + N_1 a_1) = e^{i \vec{k} \cdot (N_1 a_1)} \psi_{\vec{k}} (\vec{r})$$
+The two condition that needs to be satisfied are the PBC and the Bloch condition, so we have: 
+$$e^{i \vec{k} \cdot (N_1 a_1)} = 1 \quad \Rightarrow \quad \vec{k} \cdot (N_1 a_1) = 2 \pi m_1, \quad m_1 \in \mathbb{Z}$$
+The intuition behind this condition is that the phase factor must be an an integer multiple of $2\pi$ to ensure that the wave function remains single-valued and continuous across the boundaries of the solid. 
+$\vec{k}$ can't be defined as a linear combination of the primitive vectors of the lattice $\vec{a_1}, \vec{a_2}, \vec{a_3}$, because $\vec{k}$ is defined in the reciprocal space. And $\vec{g_1}, \vec{g_2}, \vec{g_3}$ can't be defined as linear combinations of $\vec{a_1}, \vec{a_2}, \vec{a_3}$, we already defined them in the section about the Reciprocal Lattice. So we can express $\vec{k}$ as a linear combination of the primitive vectors of the reciprocal lattice:
+$$\vec{k} = x_1 \vec{g_1} + x_2 \vec{g_2} + x_3 \vec{g_3}$$
+We can't have a continuous range of values for $x_1, x_2, x_3$, because we need to satisfy the condition derived from the PBC. 
 ## References
