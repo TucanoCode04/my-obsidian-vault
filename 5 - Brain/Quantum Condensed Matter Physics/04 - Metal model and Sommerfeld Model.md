@@ -5,7 +5,7 @@ Status:
 
 Tags:
 
-# Metal Model
+# Sommerfeld Model
 We want to understand the behavior of electrons in metals. A common approach is to model the electrons as a free electron gas, where they move freely within the metal lattice, only occasionally scattering off impurities or lattice vibrations (phonons). 
 This model is based on two main assumptions:
 1. There's no Coulomb repulsion between electrons, meaning they don't interact with each other so we can treat them as independent particles.
@@ -124,6 +124,13 @@ here $\Delta \vec{v} = \frac{\hbar}{m} \Delta \vec{k}$ is the change in velocity
 The sphere will have a positive net flux in the direction opposite to the electric field, but only in the part of the sphere shifted out of the original sphere, while the part of the sphere that overlaps with the original sphere will have no net flux. We don't have a negative flux in the part once occupied by the sphere, so we have a positive net flux overall.
 This electrons will then contribute to the electrical conductivity of the metal, as they move in response to the applied electric field. Not al electrons contribute, the ones with $- \hbar |\vec{k}|$ don't contribute since they are still in the original sphere.
 So the average velocity is now greater than zero, leading to a net current flow in the metal. The new average velocity can be calculated as:
-$$\Delta \vec{v} = \frac{\hbar}{m} \left()
+$$\Delta \vec{v} = \frac{\hbar}{m} \left( -\frac{e \vec{E}}{\hbar} \tau \right) = -\frac{e \vec{E} \tau}{m}$$
+The current density $\vec{J}$ in the metal can be calculated using the formula:
+$$\vec{J} = -n e \Delta \vec{v} = n e^2 \frac{\tau}{m} \vec{E}$$ Where $n$ is the number density of electrons in the metal. This equation shows that the current density is proportional to the applied electric field, with a proportionality constant given by $n e^2 \frac{\tau}{m}$, which is similar to the classical results of Ohm's law: $\vec{J} = \sigma \vec{E}$, where $\sigma$ is the electrical conductivity of the metal.
+In this case the conductivity is given by the scattering of electrons off impurities and phonons:
+$$\sigma = n e^2 \frac{\tau}{m}$$
+##### Conclusion
+To conclude the Sommerfeld model provides a simple yet powerful framework for understanding the behavior of electrons in metals. By treating the electrons as a free electron gas and applying periodic boundary conditions, we the can derive important properties such as the density of states, Fermi-Dirac distribution, and electrical conductivity. 
+The sphere in k-space represents the allowed energy states of the electrons, its shifts under an applied electric field are permitted since there are available states for the electrons outside the original sphere to occupy. This shift leads to a net current flow in the metal, which is described by Ohm's law.
 
 ## References
