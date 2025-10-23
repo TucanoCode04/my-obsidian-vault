@@ -8,63 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a3d600744ec1a3f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5 - Brain/Fundamental of Technological Processes/01 - Wafer Production.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01 - Wafer Production"
-            }
-          },
-          {
-            "id": "720a2e54444feae4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5 - Brain/Quantum Condensed Matter Physics/03 - Reciprocal Bravais Lattice.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "03 - Reciprocal Bravais Lattice"
-            }
-          },
-          {
-            "id": "197510b69e342006",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5 - Brain/Quantum Condensed Matter Physics/00 - Scalar and Vector Potential.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "00 - Scalar and Vector Potential"
-            }
-          },
-          {
             "id": "6ee9dd6f536438da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Quantum Condensed Matter Physics/06 - Energy Bands Slides.md",
+                "file": "5 - Brain/Mathematics for Quantum Engineering/Exercises/Q2 - Entanglement.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06 - Energy Bands Slides"
+              "title": "Q2 - Entanglement"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -234,8 +190,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6ee9dd6f536438da",
+  "active": "be216889e26b3807",
   "lastOpenFiles": [
+    "5 - Brain/Mathematics for Quantum Engineering/Exercises",
+    "5 - Brain/Quantum Condensed Matter Physics/07 - First Order Perturbation Theory.md",
+    "5 - Brain/Quantum Condensed Matter Physics/06 - Energy Bands Slides.md",
     "Pasted image 20251023175451.png",
     "Pasted image 20251023175442.png",
     "Pasted image 20251023175432.png",
@@ -245,8 +204,6 @@
     "Pasted image 20251023175337.png",
     "Pasted image 20251023175324.png",
     "5 - Brain/Quantum Condensed Matter Physics/05 - Electrons in a Periodic Potential.md",
-    "5 - Brain/Quantum Condensed Matter Physics/06 - Energy Bands Slides.md",
-    "5 - Brain/Quantum Condensed Matter Physics/07 - First Order Perturbation Theory.md",
     "5 - Brain/Quantum Condensed Matter Physics/04 - Sommerfeld Model.md",
     "5 - Brain/Quantum Condensed Matter Physics/03 - Reciprocal Bravais Lattice.md",
     "5 - Brain/Quantum Condensed Matter Physics/01 - Introduction to the Crystal Structure.md",
@@ -258,13 +215,12 @@
     "5 - Brain/Fundamental of Technological Processes/Professor Cocuzza/01 - Wafer Production.md",
     "Pasted image 20251020123036.png",
     "Pasted image 20251020122600.png",
-    "Pasted image 20251020115350.png",
     "5 - Brain/Quantum Devices/Group A/05 - Lecture 5.md",
     "5 - Brain/Quantum Devices/Group A/04 - Lecture 4.md",
     "5 - Brain/Quantum Devices/Group A/03 - Lecture 3.md",
     "5 - Brain/Cybersecurity/00 - Introduction to Cybersecurity.md",
     "5 - Brain/Cybersecurity/01 - Networking.md",
-    "5 - Brain/Mathematics for Quantum Engineering/Q2 - Entanglement.md",
+    "5 - Brain/Mathematics for Quantum Engineering/Exercises/Q2 - Entanglement.md",
     "5 - Brain/Quantum Devices/Group A/02 - Lecture 2.md",
     "5 - Brain/Cybersecurity/Cryptography.md",
     "5 - Brain/Fundamental of Technological Processes/Professor Cocuzza/02 - Crystallography and Crystalline Defects.md",
