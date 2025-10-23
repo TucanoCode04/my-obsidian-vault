@@ -59,7 +59,7 @@ where $\vec{k_0}$ is in the first Brillouin zone.
 
 To summarize, the PBC lead to quantized allowed wave vectors $\vec{k}$ in the reciprocal space, which correspond to unique quantum states for electrons in the periodic potential of the solid. The periodicity of the energy eigenvalues in the reciprocal space allows us to focus our analysis on the first Brillouin zone, simplifying the study of electronic properties in crystalline solids, and tells us that the energy bands are quantized since only discrete values of $\vec{k}$ are allowed.
 
-In a neutral solid, where each cell contributes one electron, the total number of electrons is equal to the total number of unit cells $N_{TOT}$. Each allowed wave vector $\vec{k}$ can accommodate two electrons due to the spin degeneracy (spin-up and spin-down states). Therefore, the occupancy of the electronic states will be half-filled, meaning that only half of the available states in the energy bands will be occupied by electrons at absolute zero temperature. 
+In a neutral solid, where each cell contributes one electron, the total number of electrons is equal to the total number of unit cells $N_{TOT}$. Each allowed wave vector $\vec{k}$ can accommodate two electrons due to the spin degeneracy (spin-up and spin-down states). Therefore, only half of the available wave vectors will be occupied by electrons in the ground state, since each wave vector can hold two electrons. 
 
 
 ## References
