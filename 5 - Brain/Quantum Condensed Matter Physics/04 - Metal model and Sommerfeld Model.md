@@ -16,6 +16,7 @@ The metal contains a large number of atoms, which we denote as $N \approx N_A$, 
 So we describe the potential as:
 $$V(x, y, z) =\begin{cases} 0 & 0< x < L_x, 0 < y < L_y, 0 < z < L_z \\ \infty & x \leq 0, x \geq L_x, y \leq 0, y \geq L_y, z \leq 0, z \geq L_z \end{cases}$$
 Where $L_x$, $L_y$, and $L_z$ are the dimensions of the metal in the x, y, and z directions respectively.
+##### Schrödinger Equation for Free Electrons
 The Schrödinger equation for a single electron in this potential is given by:
 $$-\frac{\hbar^2}{2m} \nabla^2 \psi(\vec{r}) = E \psi(\vec{r})$$
 Where $\hbar$ is the reduced Planck's constant, $m$ is the mass of the electron, $\psi(\vec{r})$ is the wavefunction of the electron, and $E$ is the energy of the electron. We don't include the potential term since it's zero inside the metal., and the kinetic energy operator for a free particle is $-\frac{\hbar^2}{2m} \nabla^2$.  
@@ -36,6 +37,18 @@ $$[\hat{H}, \hat{p}] = 0 \quad \Rightarrow \quad \hat{H}= \frac{\hat{p}^2}{2m}$$
 Again, this is possible only because we have no potential term in the Hamiltonian.
 
 We will use boundary conditions, a mathematical constraint that represents a physical condition, to determine the allowed wavevectors of the electrons in the metal. In particular, we will assume that when the particle is at one end of the metal, it reappears at the other end. This is known as Periodic Boundary Conditions, and it is a common approximation used in solid-state physics to simplify calculations.
+##### Periodic Boundary Conditions
+This conditions are also called Born–von Karman boundary conditions. They state that the wavefunction must be periodic in space, meaning that:
+$$\psi (x, y, z) = \psi (x + L_x, y, z) = \psi (x, y + L_y, z) = \psi (x, y, z + L_z)$$
+Applying these conditions to the plane wave solutions, remembering that:
+$$ \vec{k} = (k_x, k_y, k_z) \quad \Rightarrow \quad \frac{1}{\sqrt{V}} e^{i (k_x x + k_y y + k_z z)} = \frac{1}{\sqrt{V}} e^{i (k_x (x + L_x) + k_y y + k_z z)} = \frac{1}{\sqrt{V}} e^{i (k_x x + k_y (y + L_y) + k_z z)} = \frac{1}{\sqrt{V}} e^{i (k_x x + k_y y + k_z (z + L_z))}$$
+From the first equality, we have:
+$$e^{i k_x x} = e^{i k_x (x + L_x)} \quad \Rightarrow \quad e^{i k_x L_x} = 1 \quad \Rightarrow \quad k_x L_x = 2 \pi n_x$$
+Where  is an integer. Using a similar process for the second and third equalities, we find that the allowed wavevectors must satisfy:
+$$k_x = \frac{2 \pi n_x}{L_x}, \quad k_y = \frac{2 \pi n_y}{L_y}, \quad k_z = \frac{2 \pi n_z}{L_z}$$
+Where $n_x$, $n_y$, and $n_z$ are integers (positive, negative, or zero). This quantization of the wavevectors means that the electrons can only occupy discrete states in momentum space, which leads to a discrete energy spectrum(it's easy to see this from the energy relation we found earlier). 
+But, in this particular case, the spacing between these allowed wavevectors is very small because the dimensions of the metal are macroscopic (on the order of centimeters or larger). This means that the allowed wavevectors are very closely spaced, and we can treat them as a continuous distribution for practical purposes.
+
 
 
 ## References
