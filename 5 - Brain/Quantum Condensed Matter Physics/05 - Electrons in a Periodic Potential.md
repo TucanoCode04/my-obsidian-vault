@@ -35,5 +35,7 @@ $$e^{i \vec{k} \cdot (N_1 a_1)} = 1 \quad \Rightarrow \quad \vec{k} \cdot (N_1 a
 The intuition behind this condition is that the phase factor must be an an integer multiple of $2\pi$ to ensure that the wave function remains single-valued and continuous across the boundaries of the solid. 
 $\vec{k}$ can't be defined as a linear combination of the primitive vectors of the lattice $\vec{a_1}, \vec{a_2}, \vec{a_3}$, because $\vec{k}$ is defined in the reciprocal space. And $\vec{g_1}, \vec{g_2}, \vec{g_3}$ can't be defined as linear combinations of $\vec{a_1}, \vec{a_2}, \vec{a_3}$, we already defined them in the section about the Reciprocal Lattice. So we can express $\vec{k}$ as a linear combination of the primitive vectors of the reciprocal lattice:
 $$\vec{k} = x_1 \vec{g_1} + x_2 \vec{g_2} + x_3 \vec{g_3}$$
-We can't have a continuous range of values for $x_1, x_2, x_3$, because we need to satisfy the condition derived from the PBC. 
+We can't have a continuous range of values for $x_1, x_2, x_3$, because we need to satisfy the condition derived from the PBC. We calculate $x_1$:
+$$\vec{k} \cdot (N_1 a_1) = (x_1 \vec{g_1} + x_2 \vec{g_2} + x_3 \vec{g_3}) \cdot (N_1 a_1) = x_1 N_1 (\vec{g_1} \cdot \vec{a_1}) + 0 + 0 = x_1 N_1 (2 \pi) = 2 \pi m_1 \quad \Rightarrow \quad x_1 = \frac{m_1}{N_1}$$
+Where we used the definition of the reciprocal lattice vectors, so $\vec{g_i} \cdot \vec{a_j} = 2 \pi \delta_{ij}$. $m_1$ is an integer, that changes 
 ## References
