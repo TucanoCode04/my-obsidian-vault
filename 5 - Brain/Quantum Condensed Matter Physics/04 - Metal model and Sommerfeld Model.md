@@ -48,7 +48,9 @@ Where  is an integer. Using a similar process for the second and third equalitie
 $$k_x = \frac{2 \pi n_x}{L_x}, \quad k_y = \frac{2 \pi n_y}{L_y}, \quad k_z = \frac{2 \pi n_z}{L_z}$$
 Where $n_x$, $n_y$, and $n_z$ are integers (positive, negative, or zero). This quantization of the wavevectors means that the electrons can only occupy discrete states in momentum space, which leads to a discrete energy spectrum(it's easy to see this from the energy relation we found earlier). 
 But, in this particular case, the spacing between these allowed wavevectors is very small because the dimensions of the metal are macroscopic (on the order of centimeters or larger). This means that the allowed wavevectors are very closely spaced, and we can treat them as a continuous distribution for practical purposes.
-We can imagine it as a parabola, where each point on the parabola represents an allowed energy state in which the electrons can exist. The electrons will fill these states starting from the lowest energy level, following the Pauli exclusion principle. 
+We can imagine it as a parabola, where each point on the parabola represents an allowed energy state in which the electrons can exist. The electrons will fill these states starting from the lowest energy level, following the Pauli exclusion principle. The possible energy states can be referred as possible wavefunctions considering the meaning of $\vec{k}$ explained later.
+All the possible wavevectors represents the lattice points in k-space, where the limit of the lattice points is determined by the maximum energy of the electrons in the metal(easily found considering the Fermi energy, the highest occupied energy level at absolute zero temperature). They create a sphere after occupying all the possible energy states up to the Fermi energy, known as the Fermi sphere.
+In we consider the Hydrogen atom, the P-orbitals are an example of quantized energy levels due to the Coulomb potential. In that case, the electrons can only occupy 3 discrete energy levels corresponding to the three p-orbitals (px, py, pz). This happens because the energy levels corresponding to the p-orbitals are degenerate, meaning they have the same energy but different spatial orientations. 
 ##### What is $\vec{k}$?(Not important for the exam, but important for me)
 The wavevector $\vec{k}$ is a vector quantity that describes the spatial variation of the electron's wavefunction. It is related to the momentum of the electron by the relation:
 $$\vec{p} = \hbar \vec{k}$$
@@ -67,7 +69,7 @@ To recap, the large number of atoms influences the number of allowed wavevectors
 The orbits in k-space are filled according to the Pauli exclusion principle, which states that no two electrons can occupy the same quantum state simultaneously. This means that each allowed wavevector can be occupied by at most two electrons (one with spin up and one with spin down). 
 Basically two electrons can have the same energy only if they have opposite spins or they occupy different wavevectors(this are called quantum numbers). 
 When two electrons have the same energy, in a continuous energy spectrum, they lie on the same energy band, but their occupation is determined by their wavevectors and spins.
-##### 
+##### Density of States
 
 
 
