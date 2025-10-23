@@ -48,6 +48,14 @@ Where  is an integer. Using a similar process for the second and third equalitie
 $$k_x = \frac{2 \pi n_x}{L_x}, \quad k_y = \frac{2 \pi n_y}{L_y}, \quad k_z = \frac{2 \pi n_z}{L_z}$$
 Where $n_x$, $n_y$, and $n_z$ are integers (positive, negative, or zero). This quantization of the wavevectors means that the electrons can only occupy discrete states in momentum space, which leads to a discrete energy spectrum(it's easy to see this from the energy relation we found earlier). 
 But, in this particular case, the spacing between these allowed wavevectors is very small because the dimensions of the metal are macroscopic (on the order of centimeters or larger). This means that the allowed wavevectors are very closely spaced, and we can treat them as a continuous distribution for practical purposes.
+We can imagine it as a parabola, where each point on the parabola represents an allowed energy state in which the electrons can exist.
+##### What is $\vec{k}$?
+The wavevector $\vec{k}$ is a vector quantity that describes the spatial variation of the electron's wavefunction. It is related to the momentum of the electron by the relation:
+$$\vec{p} = \hbar \vec{k}$$
+Where $\vec{p}$ is the momentum of the electron. The magnitude of the wavevector $k$ is related to the wavelength $\lambda$ of the electron wave by the relation:
+$$k = \frac{2 \pi}{\lambda}$$
+The direction of the wavevector indicates the direction of propagation of the electron wave. In three dimensions, the wavevector has components in the x, y, and z directions, which determine how the wavefunction varies in each spatial dimension.
+
 
 
 
