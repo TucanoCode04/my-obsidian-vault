@@ -70,6 +70,7 @@ The orbits in k-space are filled according to the Pauli exclusion principle, whi
 Basically two electrons can have the same energy only if they have opposite spins or they occupy different wavevectors(this are called quantum numbers). 
 When two electrons have the same energy, in a continuous energy spectrum, they lie on the same energy band, but their occupation is determined by their wavevectors and spins.
 ##### Density of States
+The density of states represents the number of available electronic states per unit energy range at a given energy level. It is a crucial concept in solid-state physics because it helps us understand how electrons are distributed among the available energy levels in a material.
 
 
 
