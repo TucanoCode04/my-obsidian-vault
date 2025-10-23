@@ -220,7 +220,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -236,6 +237,14 @@
   },
   "active": "6ee9dd6f536438da",
   "lastOpenFiles": [
+    "Pasted image 20251023175451.png",
+    "Pasted image 20251023175442.png",
+    "Pasted image 20251023175432.png",
+    "Pasted image 20251023175417.png",
+    "Pasted image 20251023175401.png",
+    "Pasted image 20251023175351.png",
+    "Pasted image 20251023175337.png",
+    "Pasted image 20251023175324.png",
     "5 - Brain/Quantum Condensed Matter Physics/05 - Electrons in a Periodic Potential.md",
     "5 - Brain/Quantum Condensed Matter Physics/06 - Energy Bands Slides.md",
     "5 - Brain/Quantum Condensed Matter Physics/07 - First Order Perturbation Theory.md",
@@ -252,18 +261,12 @@
     "Pasted image 20251020122600.png",
     "Pasted image 20251020115350.png",
     "5 - Brain/Quantum Devices/Group A/05 - Lecture 5.md",
-    "Pasted image 20251019184435.png",
-    "Pasted image 20251019183933.png",
-    "Pasted image 20251019181955.png",
-    "Pasted image 20251019180547.png",
     "5 - Brain/Quantum Devices/Group A/04 - Lecture 4.md",
-    "Pasted image 20251016183152.png",
     "5 - Brain/Quantum Devices/Group A/03 - Lecture 3.md",
     "5 - Brain/Cybersecurity/00 - Introduction to Cybersecurity.md",
     "5 - Brain/Cybersecurity/01 - Networking.md",
     "5 - Brain/Mathematics for Quantum Engineering/Q2 - Entanglement.md",
     "5 - Brain/Quantum Devices/Group A/02 - Lecture 2.md",
-    "Pasted image 20251016091018.png",
     "5 - Brain/Cybersecurity/Cryptography.md",
     "5 - Brain/Fundamental of Technological Processes/Professor Cocuzza/02 - Crystallography and Crystalline Defects.md",
     "5 - Brain/Quantum Devices/Main Course/Untitled.md",
@@ -272,7 +275,6 @@
     "copilot-custom-prompts/Explain like I am 5.md",
     "copilot-custom-prompts/Translate to Chinese.md",
     "copilot-custom-prompts/Rewrite as tweet.md",
-    "To do/Scalar and Vector.md",
     "5 - Brain/Quantum Devices/Main Course",
     "5 - Brain/Quantum Devices/Group A",
     "5 - Brain/Fundamental of Technological Processes/Professor Ghigo",
@@ -280,7 +282,6 @@
     "5 - Brain/Mathematics for Quantum Engineering",
     "5 - Brain/Quantum Devices",
     "Images",
-    "6 - Trash/Untitled 2",
-    "Images/Pasted image 20250929185422.png"
+    "6 - Trash/Untitled 2"
   ]
 }
