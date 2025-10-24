@@ -42,6 +42,6 @@ $$\vec{p}(z,t) = e^{i(- \omega t)} \left( \cos\theta \hat{x} + \sin\theta e^{i\p
 where $m = \tan\theta$ is the ratio of the amplitudes of the y and x components of the electric field. 
 In the $\vec{p}(z,t)$ expression, there is no motion of intensity of the field, only the direction of the electric field vector changes with time.
 ##### Classification of Polarization
-
+We classify the polarization depending on the locus described by $\vec{p}(z,t)$ as time progresses:
 
 ## References
