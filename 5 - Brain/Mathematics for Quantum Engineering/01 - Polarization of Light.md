@@ -25,4 +25,16 @@ where:
 - $t$ is time, and $z$ is the position along the direction of wave propagation.
 ![[Pasted image 20251024114216.png]]
 $$E_0 = (E_{0,x}, E_{0,y}, 0) = (E_0 \cos\theta, E_0 \sin\theta, 0)$$
+By the Euler's formula, we can express the electric field components as:
+$$e^{i\phi} = \cos\phi + i\sin\phi \quad \Rightarrow \quad cos(kz - \omega t + \phi_1) = Re\{e^{i(kz - \omega t + \phi_1)}\} = \frac{e^{i(kz - \omega t + \phi_1)} + \text{c.c.}}{2}$$
+where "c.c." stands for complex conjugate. Thus, the electric field components can be rewritten as:
+$$\begin{cases}
+E_x(z,t) = \frac{E_0 \cos\theta}{2} \left( e^{i(kz - \omega t + \phi_1)} + \text{c.c.} \right) \\
+E_y(z,t) = \frac{E_0 \sin\theta}{2} \left( e^{i(kz - \omega t + \phi_2)} + \text{c.c.} \right) \\
+E_z(z,t) = 0
+\end{cases}$$
+We forget about the "c.c." term for simplicity, and express the electric field vector as:
+$$\vec{E}(z,t) = {E_x}(z,t) \hat{x} + {E_y}(z,t) \hat{y} = \frac{E_0}{2} e^{i(kz - \omega t + \phi_1)} \left( \cos\theta \hat{x} + \sin\theta e^{i(\phi_2 - \phi_1)} \hat{y} \right)$$
+
+
 ## References
