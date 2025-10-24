@@ -35,6 +35,13 @@ E_z(z,t) = 0
 \end{cases}$$
 We forget about the "c.c." term for simplicity, and express the electric field vector as:
 $$\vec{E}(z,t) = {E_x}(z,t) \hat{x} + {E_y}(z,t) \hat{y} = \frac{E_0}{2} e^{i(kz - \omega t + \phi_1)} \left( \cos\theta \hat{x} + \sin\theta e^{i(\phi_2 - \phi_1)} \hat{y} \right)$$
+The polarization state of the light wave is determined by the relative magnitudes and phase difference between the x and y components of the electric field. By fixing $\vec{z}= -\frac{\phi_1}{k}$, we can analyze the polarization at a specific position along the propagation direction.
+$$\vec{E}(\vec{z},t) = \frac{E_0}{2} e^{i(- \omega t)} \left( \cos\theta \hat{x} + \sin\theta e^{i\phi} \hat{y} \right)$$
+where $\phi = \phi_2 - \phi_1$ is the phase difference between the y and x components. We can then classify the polarization vector:
+$$\vec{p}(z,t) = e^{i(- \omega t)} \left( \cos\theta \hat{x} + \sin\theta e^{i\phi} \hat{y} \right) = e^{i(- \omega t)} \left( \hat{x} + m e^{i\phi} \hat{y} \right)$$
+where $m = \tan\theta$ is the ratio of the amplitudes of the y and x components of the electric field. 
+In the $\vec{p}(z,t)$ expression, there is no motion of intensity of the field, only the direction of the electric field vector changes with time.
+##### Classification of Polarization
 
 
 ## References
