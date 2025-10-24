@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Mathematics for Quantum Engineering/Untitled.md",
+                "file": "5 - Brain/Mathematics for Quantum Engineering/01 - Polarization of Light.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "01 - Polarization of Light"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -193,7 +194,7 @@
   "active": "6ee9dd6f536438da",
   "lastOpenFiles": [
     "5 - Brain/Mathematics for Quantum Engineering/Exercises/Q2 - Entanglement.md",
-    "5 - Brain/Mathematics for Quantum Engineering/Untitled.md",
+    "5 - Brain/Mathematics for Quantum Engineering/01 - Polarization of Light.md",
     "5 - Brain/Mathematics for Quantum Engineering/Exercises",
     "5 - Brain/Quantum Condensed Matter Physics/07 - First Order Perturbation Theory.md",
     "5 - Brain/Quantum Condensed Matter Physics/06 - Energy Bands Slides.md",
