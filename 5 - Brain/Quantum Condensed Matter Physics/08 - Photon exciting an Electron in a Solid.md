@@ -36,7 +36,12 @@ $$ M_{fi} = \bra{\psi_f}e \vec{r} \cdot \vec{E_0} e^{i \vec{k} \cdot \vec{r}} \k
 Where $M_{fi}$ is the matrix element for the absorption of a photon, and $M_{fi}^*$ is the matrix element for the emission of a photon.
 After solving the integral we can now calculate the transition probability $|c_f(t)|^2$, and successively the transition rate $R_{i \to f}$ by taking the derivative with respect to time:
 $$ R_{i \to f} = \frac{d}{dt} |c_f(t)|^2 $$
-$$ |c_f(t)|^2 = `frac`
-
+$$ |c_f(t)|^2 = \frac{t^2}{\hbar^2} |M_{fi}|^2 \text{sinc}^2 [(E_{fi} - \hbar \omega) \frac{t}{2 \hbar}] + \frac{t^2}{\hbar^2} |M_{fi}^*|^2 \text{sinc}^2 [(E_{fi} + \hbar \omega) \frac{t}{2 \hbar}] + \text{cross terms} $$
+Where $\text{sinc}(x) = \frac{\sin(x)}{x}$ and the cross terms oscillate rapidly and average to zero over time.
+As time passes $c_f(t)$ should become larger(even larger than 1 due to the approximation), but physically the probability cannot exceed 1. The dependencies are still $t$ and $|M_{fi}|^2$. We now denominate the first term as $f_1$ and the second term as $f_2$.
+![[Pasted image 20251027172948.png]]
+The maximum of the function becomes sharper in time and approaches a delta function, near $E_{fi} = \hbar \omega$ for $f_1$. This means that the transition occurs when the energy difference between the final and initial states matches the photon energy, which is the condition for resonance absorption. 
+$E_{fi} = \hbar \omega \quad \Rightarrow \quad E_f - E_i = \hbar \omega \quad \Rightarrow \quad E_f = E_i + \hbar \omega$
+This condition represents the conservation of energy during the absorption process, 
 
 ## References
