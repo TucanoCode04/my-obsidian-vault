@@ -94,5 +94,18 @@ Using the conservation of momentum, we can simplify the matrix element expressio
 $$ M_{fi} = \frac{1}{V} \int \mu_f^*(\vec{r}) e \vec{r} \cdot \vec{E_0} \mu_i(\vec{r}) d \vec{r} $$
 Depending on the symmetry properties of the initial and final states, this integral may be zero or non-zero. If the integral is non-zero, it indicates that the transition is allowed, and the electron can absorb the photon and move from the valence band to the conduction band. This defines the selection rules for optical transitions in direct bandgap semiconductors. For example in the harmonic oscillator model, transitions are allowed between states closed by one energy level. It depends on the symmetry of the wavefunctions.
 In the visible light range(optical frequencies), the photon momentum $\hbar \vec{k}$ is much smaller than the typical electron momentum in the crystal. Therefore, we can approximate $\vec{k} \approx 0$ for optical optical transitions. Meaning, as we said before, that the electron momentum doesn't change during the interaction with the photon and it has vertical transition in k-space.
-
+![[Pasted image 20251027192518.png]]
+By using the parabolic band approximation near the band edges, we can define the two energy bands as:
+$$ E_i = -\frac{\hbar^2 k_i^2}{2 m_h^*}, \quad E_f = E_g + \frac{\hbar^2 k_f^2}{2 m_e^*} $$
+Where $m_h^*$ and $m_e^*$ are the effective masses of holes and electrons, respectively, and $E_g$ is the bandgap energy.
+So the energy difference between the final and initial states is:
+$$ \Delta E = E_f - E_i = E_g + \frac{\hbar^2 k_f^2}{2 m_e^*} + \frac{\hbar^2 k_i^2}{2 m_h^*} = E_g + \hbar^2 k_f^2 (\frac{1}{2 m_e^*} + \frac{1}{2 m_h^*}) $$
+Where we used the momentum conservation $\vec{k_f} = \vec{k_i}$.
+We can define the reduced effective mass $\mu$ as:
+$$ \frac{1}{\mu} = \frac{1}{m_e^*} + \frac{1}{m_h^*} \quad \Rightarrow \quad \mu = \frac{m_e^* m_h^*}{m_e^* + m_h^*} $$
+So the energy difference becomes:
+$$ \Delta E = E_g + \frac{\hbar^2 k_f^2}{2 \mu} \quad \Rightarrow \quad \Delta E - E_g = \frac{\hbar^2 k_f^2}{2 \mu} $$
+$\vec{k_f}$ is still discrete thanks to the periodic boundary conditions, so then we can calculate the number of allowed states($N$) and then the density of states($D(\Delta E)$) and so on.
+We remember that $\frac{\text{number of states}}{\text{volume of the system}}= \text{joint density of states}$.
+In the analytical calculation we found a dependence of $\sqrt{e}
 ## References
