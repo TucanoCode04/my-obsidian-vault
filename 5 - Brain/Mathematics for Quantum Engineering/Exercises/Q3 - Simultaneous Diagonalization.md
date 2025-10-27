@@ -120,7 +120,13 @@ For $\lambda_2 = 7$:
 $$ (S - 7I)\mathbf{v} = 0 \Rightarrow \begin{pmatrix}
 3 & 7(1 + i \sqrt{3}) & 7(1 - i \sqrt{3}) \\
 7(1 - i \sqrt{3}) & 3 & 7(1 + i \sqrt{3}) \\
-
+7(1 + i \sqrt{3}) & 7(1 - i \sqrt{3}) & 3
+\end{pmatrix}\mathbf{v} = 0 $$
+Solving the system, we find that two linearly independent eigenvectors are:
+$$\mathbf{v_2} = \begin{pmatrix}1 \\ -1 \\ 0
+\end{pmatrix}, \quad \mathbf{v_3} = \begin{pmatrix}1 \\ 0 \\ -1
+\end{pmatrix}$$
+Normalizing these eigenvectors, we get the same orthonormal basis as before:
 
 
 
