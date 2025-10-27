@@ -80,6 +80,18 @@ Note: here $\vec{k}$ is the photon wave vector, not the electron wave vector(per
 We define the state wavefunctions for the initial and final states as Bloch states:
 $$ \psi_i = \frac{1}{\sqrt{V}} e^{i \vec{k_i} \cdot \vec{r}} \mu_i(\vec{r}), \quad \psi_f = \frac{1}{\sqrt{V}} e^{i \vec{k_f} \cdot \vec{r}} \mu_f(\vec{r}) $$
 Where $\mu_i(\vec{r})$ and $\mu_f(\vec{r})$ are the periodic parts of the Bloch functions, and $V$ is the normalization volume. 
-Note: 
+Note: the electron wave vectors $\vec{k_i}$ and $\vec{k_f}$ are different from the photon wave vector $\vec{k}$.
+Substituting these wavefunctions into the matrix element expression, we get:
+$$ M_{fi} = \frac{1}{V} \int e^{-i \vec{k_f} \cdot \vec{r}} \mu_f^*(\vec{r}) e\vec{r} \cdot \vec{E_0} e^{i \vec{k} \cdot \vec{r}} e^{i \vec{k_i} \cdot \vec{r}} \mu_i(\vec{r}) d \vec{r}
+$$
+$$M_{fi} = \frac{1}{V} \int e^{i (\vec{k_i} - \vec{k_f} + \vec{k}) \cdot \vec{r}} \mu_f^*(\vec{r}) e \vec{r} \cdot \vec{E_0} \mu_i(\vec{r}) d \vec{r} $$
+This expressions describes: a photon with wave vector $\vec{k}$ and its own momentum $\hbar \vec{k}$ hits an electron in the initial state with wave vector $\vec{k_i}$ and momentum $\hbar \vec{k_i}$. After the interaction, the electron transitions to the final state with wave vector $\vec{k_f}$ and momentum $\hbar \vec{k_f}$. The exponential term $e^{i (\vec{k_i} - \vec{k_f} + \vec{k}) \cdot \vec{r}}$ represents the conservation of momentum during the interaction.
+$$ \hbar \vec{k} + \hbar \vec{k_i} = \hbar \vec{k_f} \quad \Rightarrow \quad \vec{k} + \vec{k_i} - \vec{k_f} = 0 $$
+So the exponential term becomes $e^{i \cdot 0 \cdot \vec{r}} = 1$.
+![[Pasted image 20251027185018.png]]
+This can be seen by the vertical line in the first figure, where the electron transitions vertically in k-space without changing its momentum(since the momentum is given by the vertical lines).
+Using the conservation of momentum, we can simplify the matrix element expression:
+$$ M_{fi} = \frac{1}{V} \int \mu_f^*(\vec{r}) e \vec{r} \cdot \vec{E_0} \mu_i(\vec{r}) d \vec{r} $$
+Depending on the symmetry properties of the initial and final states, this integral may be zero 
 
 ## References
