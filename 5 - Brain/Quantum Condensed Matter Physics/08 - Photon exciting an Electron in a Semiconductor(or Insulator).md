@@ -109,5 +109,10 @@ $\vec{k_f}$ is still discrete thanks to the periodic boundary conditions, so the
 We remember that $\frac{\text{number of states}}{\text{volume of the system}}= \text{joint density of states}$.
 In the analytical calculation we found a dependence of $\sqrt{e}$, for the density of states in 3D systems.
 For the joint density of states we have:
-$$g(\Delta E) = g(\hbar \omega) = 
+$$g(\Delta E) = g(\hbar \omega) = \frac{1}{2 \pi^2} (\frac{2 \mu}{\hbar^2})^{3/2} \sqrt{\hbar \omega - E_g}$$
+Where $\hbar \omega$ is the photon energy. Only valid for $\hbar \omega \geq E_g$.
+Otherwise $g(\hbar \omega) = 0$.
+![[Pasted image 20251027193728.png]]
+As we ca see from the graph, the joint density of states starts from zero at the bandgap energy $E_g$ and increases with the square root of the photon energy above the bandgap. This behavior is characteristic of direct bandgap semiconductors, where optical transitions can occur directly between the valence and conduction bands without any change in momentum.
+The second graph shows $\alpha^2$ versus photon energy, which results in a linear relationship above the bandgap energy. This linearity is often used experimentally to determine the bandgap energy of direct bandgap semiconductors by extrapolating the linear portion of the $\alpha^2$ plot to the photon energy axis.
 ## References
