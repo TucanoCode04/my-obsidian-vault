@@ -98,6 +98,28 @@ $$\mathbf{u_1} = \frac{1}{\sqrt{3}}\begin{pmatrix}1 \\ 1 \\ 1
 \end{pmatrix}, \quad \mathbf{u_2} = \frac{1}{\sqrt{2}}\begin{pmatrix}1 \\ -1 \\ 0
 \end{pmatrix}, \quad \mathbf{u_3} = \frac{1}{\sqrt{2}}\begin{pmatrix}1 \\ 0 \\ -1
 \end{pmatrix}$$
+Now we do the same for matrix $S$:
+The characteristic polynomial of $S$ is given by:
+$$\text{det}(S - \lambda I) = \text{det}\begin{pmatrix}
+10 - \lambda & 7(1 + i \sqrt{3}) & 7(1 - i \sqrt{3}) \\
+7(1 - i \sqrt{3}) & 10 - \lambda & 7(1 + i \sqrt{3}) \\
+7(1 + i \sqrt{3}) & 7(1 - i \sqrt{3}) & 10 - \lambda
+\end{pmatrix} = 0$$
+Calculating the determinant:
+$$ \Rightarrow (10 - \lambda)((10 - \lambda)^2 - |7(1 + i \sqrt{3})|^2) + \ldots = 0$$
+$$ \Rightarrow (10 - \lambda)(\lambda^2 - 20\lambda + 49) = 0$$
+$$ \Rightarrow -\lambda^3 + 30\lambda^2 - 249\lambda + 490 = 0$$
+Factoring, we find the eigenvalues of $S$ are $\lambda_1 = 0$, $\lambda_2 = 7$, and $\lambda_3 = 21$.
+Next, we find the eigenvectors corresponding to these eigenvalues.
+For $\lambda_1 = 0$:
+$$ (S - 0I)\mathbf{v} = 0 \Rightarrow S\mathbf{v} = 0 $$
+Solving the system, we find that one eigenvector is:
+$$\mathbf{v_1} = \begin{pmatrix}1 \\ 1 \\ 1
+\end{pmatrix}$$
+For $\lambda_2 = 7$:
+$$ (S - 7I)\mathbf{v} = 0 \Rightarrow \begin{pmatrix}
+3 & 7(1 + i \sqrt{3}) & 7(1 - i \sqrt{3}) \\
+7(1 - i \sqrt{3}) & 3 & 7(1 + i \sqrt{3}) \\
 
 
 
