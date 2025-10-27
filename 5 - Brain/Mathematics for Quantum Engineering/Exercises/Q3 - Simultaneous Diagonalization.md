@@ -93,6 +93,11 @@ x + y + z = 0
 \end{cases} \Rightarrow x = -(y + z) \Rightarrow \mathbf{v_2} = \begin{pmatrix}1 \\ -1 \\ 0
 \end{pmatrix}, \quad \mathbf{v_3} = \begin{pmatrix}1 \\ 0 \\ -1
 \end{pmatrix}$$
+If we normalize these eigenvectors, we get an orthonormal basis:
+$$\mathbf{u_1} = \frac{1}{\sqrt{3}}\begin{pmatrix}1 \\ 1 \\ 1
+\end{pmatrix}, \quad \mathbf{u_2} = \frac{1}{\sqrt{2}}\begin{pmatrix}1 \\ -1 \\ 0
+\end{pmatrix}, \quad \mathbf{u_3} = \frac{1}{\sqrt{2}}\begin{pmatrix}1 \\ 0 \\ -1
+\end{pmatrix}$$
 
 
 
