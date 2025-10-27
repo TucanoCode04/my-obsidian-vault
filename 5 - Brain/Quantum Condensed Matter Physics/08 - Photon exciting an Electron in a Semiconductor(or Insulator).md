@@ -5,8 +5,8 @@ Status:
 
 Tags:
 
-# Photon exciting an Electron in a Solid
-We consider a photon with energy $E = \hbar \nu$ incident on a solid material. The photon can interact with the electrons in the solid, potentially exciting an electron from a lower energy state to a state whose gap is equal to the photon energy. 
+# Photon exciting an Electron in a Semicondutor(or Insulator)
+We consider a photon with energy $E = \hbar \nu$ incident on a solid material. The photon can interact with the electrons in the solid, potentially exciting an electron from a lower energy state to a state whose gap is equal to the photon energy. The presence of energy gaps is due to the semiconductor(or insulator) physical properties.
 The electrons in the solid feel an attractive potential from the positively charged atomic nuclei, which modifies their energy levels compared to free electrons. 
 $$
 \vec{p} = e \cdot \vec{r}
@@ -52,6 +52,16 @@ $$ |c_f(t)|^2= \frac{t^2}{\hbar^2} |M_{fi}|^2 \text{sinc}^2 [(E_{fi} - \hbar \om
 We now introduce:
 $$\lim_{t \to \infty} \frac{\sin^2(\alpha t)}{\pi \alpha^2 t} = \delta(\alpha) $$
 Where $\delta(\alpha)$ is the Dirac delta function. Using this limit we can rewrite the transition probability as:
-$$ |c_f(t)|^2 = \frac{\pi t}{\hbar^2} |M_{fi}|^2 \delta(E_{fi} - \hbar \omega) $$
+$$ |c_f(t)|^2 = \frac{\pi t}{\hbar^2} |M_{fi}|^2 \delta(\frac{E_{fi} - \hbar \omega}{2 \hbar}), \quad \text{where} \quad \alpha = \frac{E_{fi} - \hbar \omega}{2 \hbar} $$
+One of the properties of the delta function is:
+$$ \delta(a x) = \frac{1}{|a|} \delta(x) $$
+Using this property we can simplify the expression:
+$$ |c_f(t)|^2 = \frac{2 \pi t}{\hbar} |M_{fi}|^2 \delta(E_{fi} - \hbar \omega) $$
+This is the probability of transition from state $i$ to state $f$ due to the absorption of a photon with energy $\hbar \omega$. The delta function enforces the energy conservation condition, ensuring that transitions only occur when the energy difference between the initial and final states matches the photon energy.
+With this expression for $|c_f(t)|^2$, we can now calculate the transition rate $W_{i \to f}$ by taking the derivative with respect to time:
+$$ W_{i \to f} = \frac{d}{dt} |c_f(t)|^2 = \frac{2 \pi}{\hbar} |M_{fi}|^2 \delta(E_{fi} - \hbar \omega) $$
+This is Fermi's Golden Rule applied to the case of photon absorption in a semiconductor or insulator. It gives the rate at which electrons transition from an initial state $\ket{\psi_i}$ to a final state $\ket{\psi_f}$ due to the interaction with the electromagnetic field of the photon.
+In this expression $|M_{fi}|^2$ represents the perturbation strength, which depends on the overlap between the initial and final states and the interaction with the electric field of the photon. The delta function $\delta(E_{fi} - \hbar \omega)$ ensures that energy is conserved during the transition, meaning that the energy difference between the final and initial states must equal the photon energy $\hbar \omega$ for the transition to occur and is a derivative of space.
+
 
 ## References
