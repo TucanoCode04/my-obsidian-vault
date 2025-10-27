@@ -63,7 +63,21 @@ $$\text{det}(T - \lambda I) = \text{det}\begin{pmatrix}
 -1 & -1 & 2 - \lambda
 \end{pmatrix} = 0$$
 Calculating the determinant:
-$$\text{det}(T - \lambda I) = (2- \lambda) \left((2 - \lambda)^2 - 1\right) + 1 \left(-1(2 - \lambda) + 1\right) - 1 \left(-1 + (2 - \lambda)\right) = 
+$$\text{det}(T - \lambda I) = (2- \lambda) \left((2 - \lambda)^2 - 1\right) + 1 \left(-1(2 - \lambda) + 1\right) - 1 \left(-1 + (2 - \lambda)\right) = 0$$
+$$ \Rightarrow (2 - \lambda)((2 - \lambda)^2 - 1) + 2 - 2\lambda = 0$$
+$$ \Rightarrow (2 - \lambda)(\lambda^2 - 4\lambda + 3) + 2 - 2\lambda = 0$$
+$$ \Rightarrow (2 - \lambda)(\lambda - 1)(\lambda - 3) + 2 - 2\lambda = 0$$
+$$ \Rightarrow -\lambda^3 + 6\lambda^2 - 9\lambda = 0$$
+Factoring out $\lambda$, we get:
+$$ \lambda(\lambda^2 - 6\lambda + 9) = \lambda(\lambda - 3)^2 = 0$$
+Thus, the eigenvalues of $T$ are $\lambda_1 = 0$ and $\lambda_2 = 3$ (with multiplicity 2).
+Next, we find the eigenvectors corresponding to these eigenvalues.
+For $\lambda_1 = 0$:
+$$ (T - 0I)\mathbf{v} = 0 \Rightarrow T\mathbf{v} = 0 $$
+Solving the system, we find that one eigenvector is:
+$$ \mathbf{v_1} = \begin{pmatrix}
+1 \\
+
 
 
 
