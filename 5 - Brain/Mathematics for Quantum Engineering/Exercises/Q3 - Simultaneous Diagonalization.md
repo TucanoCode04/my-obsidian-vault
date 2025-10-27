@@ -75,8 +75,7 @@ Next, we find the eigenvectors corresponding to these eigenvalues.
 For $\lambda_1 = 0$:
 $$ (T - 0I)\mathbf{v} = 0 \Rightarrow T\mathbf{v} = 0 $$
 Solving the system, we find that one eigenvector is:
-$$ \mathbf{v_1} = \begin{pmatrix}
-1 \\
+
 
 
 
