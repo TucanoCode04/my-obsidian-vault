@@ -64,7 +64,13 @@ This is Fermi's Golden Rule applied to the case of photon absorption in a semico
 In this expression $|M_{fi}|^2$ represents the perturbation strength, which depends on the overlap between the initial and final states and the interaction with the electric field of the photon. The delta function $\delta(E_{fi} - \hbar \omega)$ ensures that energy is conserved during the transition, meaning that the energy difference between the final and initial states must equal the photon energy $\hbar \omega$ for the transition to occur and is a derivative of space.
 We have to consider the fact that there may be multiple coupled $\ket{\psi_i}$ and $\ket{\psi_f}$ states that satisfy the energy conservation condition. The overall transition rate $R_{i \to f}$ from the initial state to all possible final states is obtained by summing over all initial and final states:
 $$ W_{i \to f} = \frac{2 \pi}{\hbar} \sum_{i,f} |M_{fi}|^2 \delta(E_{f} - E_{i} - \hbar \omega) $$
-Empirically $\sum_{i,f} |M_{fi}|^2$ doesn't vary significantly with energy, so we can take it out of the summation, we can also define $g(\Delta E_{fi})$ as the joint density of states that counts the number of available final states per unit energy unit at the energy difference $\Delta E_{fi} = E_f - E_i$:
+Empirically $\sum_{i,f} |M_{fi}|^2$ doesn't vary significantly with energy, so we can take it out of the summation, we can also define $g(\Delta E_{fi})$ as the joint density of states that counts the number of available final states per unit energy at the energy difference $\Delta E_{fi} = E_f - E_i$:
+$$ W_{i \to f} = \frac{2 \pi}{\hbar} |M_{fi}|^2 g(\hbar \omega) $$
+![[Pasted image 20251027180442.png]]
+The difference between the joint density of states and the density of states is that the former considers a difference in energy between initial and final states, while the latter considers the number of available states at a specific energy level. For example in the figure, if we have 10 photons with energy $\hbar \omega$, the joint density of states $g(\hbar \omega)$ counts how many pairs of initial and final states exist such that the energy difference between them equals $\hbar \omega$(4). The density of states $D(E)$ counts how many states are available at a specific available energy level $E$(1 at $E_2$).
+The absorption coefficient $\alpha \propto W_{i \to f}$ describes how much light is absorbed by the material per unit distance. We will see how it changes in direct and indirect bandgap semiconductors.
+Reminder: now we would use the Fermi-Dirac distribution to account for the occupation probabilities of the initial and final states.
+##### Absorption in Direct Bandgap Semiconductors
 
 
 ## References
