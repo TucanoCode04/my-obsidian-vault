@@ -33,10 +33,11 @@ $$ST = S \cdot T = \begin{pmatrix}
 \end{pmatrix}$$
 Calculating the entries of $ST$:
 $$ST = \begin{pmatrix}
-24 & -7(1 + i \sqrt{3}) & -7(1 - i \sqrt{3}) \\
--7(1 - i \sqrt{3}) & 24 & -7(1 + i \sqrt{3}) \\
--7(1 + i \sqrt{3}) & -7(1 - i \sqrt{3}) & 24
+6 & - 3 + 21 i \sqrt{3} & - 3 - 21 i \sqrt{3} \\
+-3 - 21 i \sqrt{3} & 6 & -3 + 21 i \sqrt{3} \\
+-3 + 21 i \sqrt{3} & -3 - 21 i \sqrt{3} & 6
 \end{pmatrix}$$
+
 Next, we compute the product $TS$:
 $$TS = T \cdot S = \begin{pmatrix}
 2 & -1 & -1 \\
@@ -47,6 +48,15 @@ $$TS = T \cdot S = \begin{pmatrix}
 7(1 - i \sqrt{3}) & 10 & 7(1 + i \sqrt{3}) \\
 7(1 + i \sqrt{3}) & 7(1 - i \sqrt{3}) & 10
 \end{pmatrix}$$
+Calculating the entries of $TS$:
+$$TS = \begin{pmatrix}
+6 & - 3 + 21 i \sqrt{3} & - 3 - 21 i \sqrt{3} \\
+-3 - 21 i \sqrt{3} & 6 & -3 + 21 i \sqrt{3} \\
+-3 + 21 i \sqrt{3} & -3 - 21 i \sqrt{3} & 6
+\end{pmatrix}$$
+Since $ST = TS$, the matrices $S$ and $T$ commute. Therefore, they can be simultaneously diagonalized by an orthonormal basis of $\mathbb{C}^3$.
+
+
 
 
 
