@@ -42,6 +42,16 @@ As time passes $c_f(t)$ should become larger(even larger than 1 due to the appro
 ![[Pasted image 20251027172948.png]]
 The maximum of the function becomes sharper in time and approaches a delta function, near $E_{fi} = \hbar \omega$ for $f_1$. This means that the transition occurs when the energy difference between the final and initial states matches the photon energy, which is the condition for resonance absorption. 
 $E_{fi} = \hbar \omega \quad \Rightarrow \quad E_f - E_i = \hbar \omega \quad \Rightarrow \quad E_f = E_i + \hbar \omega$
-This condition represents the conservation of energy during the absorption process, 
+This condition represents the conservation of energy during the absorption process: the final energy of the electron after absorbing the photon is equal to its initial energy plus the energy of the photon.
+![[Pasted image 20251027173410.png]]
+For $f_2$, the maximum occurs at $E_{fi} = - \hbar \omega$, which corresponds to the emission of a photon. This is called stimulated emission, where an electron in a higher energy state can drop to a lower energy state by emitting a photon with energy $\hbar \omega$. As we can see in the figure, a photon is entering the system, but another photon is leaving the system, so the net effect is that a photon is emitted with the same energy as the incident photon.
+$$ E_f = E_i - \hbar \omega $$
+There exists also spontaneous emission, where an electron in a higher energy state can spontaneously drop to a lower energy state and emit a photon without the presence of an incident photon. This process is normally coupled with interactions with phonons or other particles to conserve momentum and energy.
+In most practical scenarios, especially in semiconductors under illumination, absorption processes dominate over emission processes. Therefore, we will now focus on the first term $f_1$ related to absorption.
+$$ |c_f(t)|^2= \frac{t^2}{\hbar^2} |M_{fi}|^2 \text{sinc}^2 [(E_{fi} - \hbar \omega) \frac{t}{2 \hbar}] $$
+We now introduce:
+$$\lim_{t \to \infty} \frac{\sin^2(\alpha t)}{\pi \alpha^2 t} = \delta(\alpha) $$
+Where $\delta(\alpha)$ is the Dirac delta function. Using this limit we can rewrite the transition probability as:
+$$ |c_f(t)|^2 = \frac{\pi t}{\hbar^2} |M_{fi}|^2 \delta(E_{fi} - \hbar \omega) $$
 
 ## References
