@@ -92,6 +92,7 @@ So the exponential term becomes $e^{i \cdot 0 \cdot \vec{r}} = 1$.
 This can be seen by the vertical line in the first figure, where the electron transitions vertically in k-space without changing its momentum(since the momentum is given by the vertical lines).
 Using the conservation of momentum, we can simplify the matrix element expression:
 $$ M_{fi} = \frac{1}{V} \int \mu_f^*(\vec{r}) e \vec{r} \cdot \vec{E_0} \mu_i(\vec{r}) d \vec{r} $$
-Depending on the symmetry properties of the initial and final states, this integral may be zero 
+Depending on the symmetry properties of the initial and final states, this integral may be zero or non-zero. If the integral is non-zero, it indicates that the transition is allowed, and the electron can absorb the photon and move from the valence band to the conduction band. This defines the selection rules for optical transitions in direct bandgap semiconductors. For example in the harmonic oscillator model, transitions are allowed between states closed by one energy level. It depends on the symmetry of the wavefunctions.
+In the visible light range(optical frequencies), the photon momentum $\hbar \vec{k}$ is much smaller than the typical electron momentum in the crystal. Therefore, we can approximate $\vec{k} \approx 0$ for optical optical transitions. Meaning, as we said before, that the electron momentum doesn't change during the interaction with the photon and it has vertical transition in k-space.
 
 ## References
