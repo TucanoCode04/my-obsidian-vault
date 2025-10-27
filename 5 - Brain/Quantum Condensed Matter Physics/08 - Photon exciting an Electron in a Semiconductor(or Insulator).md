@@ -71,6 +71,15 @@ The difference between the joint density of states and the density of states is 
 The absorption coefficient $\alpha \propto W_{i \to f}$ describes how much light is absorbed by the material per unit distance. We will see how it changes in direct and indirect bandgap semiconductors.
 Reminder: now we would use the Fermi-Dirac distribution to account for the occupation probabilities of the initial and final states.
 ##### Absorption in Direct Bandgap Semiconductors
-
+In direct bandgap semiconductors, the conduction band minimum and valence band maximum occur at the same momentum value in k-space. This means that an electron can directly transition from the valence band to the conduction band by absorbing a photon without any change in momentum.
+![[Pasted image 20251027183635.png]]
+The absorption changes with the photon energy.
+We use the result derived previously for the transition rate:$$ W_{i \to f} = \frac{2 \pi}{\hbar} |M_{fi}|^2 g(\Delta E)$$ And for the potential matrix element representing the perturbation due to the photon:
+$$ M_{fi} = \bra{\psi_f}e \vec{r} \cdot \vec{E_0} e^{i \vec{k} \cdot \vec{r}} \ket{\psi_i} $$
+Note: here $\vec{k}$ is the photon wave vector, not the electron wave vector(perturbation).
+We define the state wavefunctions for the initial and final states as Bloch states:
+$$ \psi_i = \frac{1}{\sqrt{V}} e^{i \vec{k_i} \cdot \vec{r}} \mu_i(\vec{r}), \quad \psi_f = \frac{1}{\sqrt{V}} e^{i \vec{k_f} \cdot \vec{r}} \mu_f(\vec{r}) $$
+Where $\mu_i(\vec{r})$ and $\mu_f(\vec{r})$ are the periodic parts of the Bloch functions, and $V$ is the normalization volume. 
+Note: 
 
 ## References
