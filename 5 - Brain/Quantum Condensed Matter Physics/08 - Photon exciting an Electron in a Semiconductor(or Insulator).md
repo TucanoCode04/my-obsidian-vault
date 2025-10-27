@@ -107,5 +107,7 @@ So the energy difference becomes:
 $$ \Delta E = E_g + \frac{\hbar^2 k_f^2}{2 \mu} \quad \Rightarrow \quad \Delta E - E_g = \frac{\hbar^2 k_f^2}{2 \mu} $$
 $\vec{k_f}$ is still discrete thanks to the periodic boundary conditions, so then we can calculate the number of allowed states($N$) and then the density of states($D(\Delta E)$) and so on.
 We remember that $\frac{\text{number of states}}{\text{volume of the system}}= \text{joint density of states}$.
-In the analytical calculation we found a dependence of $\sqrt{e}
+In the analytical calculation we found a dependence of $\sqrt{e}$, for the density of states in 3D systems.
+For the joint density of states we have:
+$$g(\Delta E) = g(\hbar \omega) = 
 ## References
