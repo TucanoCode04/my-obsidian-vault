@@ -55,7 +55,15 @@ $$TS = \begin{pmatrix}
 -3 + 21 i \sqrt{3} & -3 - 21 i \sqrt{3} & 6
 \end{pmatrix}$$
 Since $ST = TS$, the matrices $S$ and $T$ commute. Therefore, they can be simultaneously diagonalized by an orthonormal basis of $\mathbb{C}^3$.
-
+To find such a basis, we can diagonalize one of the matrices and then check if the eigenvectors are also eigenvectors of the other matrix. Let's diagonalize $T$ first.
+The characteristic polynomial of $T$ is given by:
+$$\text{det}(T - \lambda I) = \text{det}\begin{pmatrix}
+2 - \lambda & -1 & -1 \\
+-1 & 2 - \lambda & -1 \\
+-1 & -1 & 2 - \lambda
+\end{pmatrix} = 0$$
+Calculating the determinant:
+$$\text{det}(T - \lambda I) = (2- \lambda) \left((2 - \lambda)^2 - 1\right) + 1 \left(-1(2 - \lambda) + 1\right) - 1 \left(-1 + (2 - \lambda)\right) = 
 
 
 
