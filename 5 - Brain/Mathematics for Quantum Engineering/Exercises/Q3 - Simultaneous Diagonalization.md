@@ -75,6 +75,25 @@ Next, we find the eigenvectors corresponding to these eigenvalues.
 For $\lambda_1 = 0$:
 $$ (T - 0I)\mathbf{v} = 0 \Rightarrow T\mathbf{v} = 0 $$
 Solving the system, we find that one eigenvector is:
+$$Tv = 0 \Rightarrow \begin{cases}
+2x - y - z = 0 \\
+-x + 2y - z = 0 \\
+-x - y + 2z = 0
+\end{cases} \Rightarrow \mathbf{v_1} = \begin{pmatrix}1 \\ 1 \\ 1
+\end{pmatrix}$$
+For $\lambda_2 = 3$:
+$$ (T - 3I)\mathbf{v} = 0 \Rightarrow \begin{pmatrix}
+-1 & -1 & -1 \\
+-1 & -1 & -1 \\
+-1 & -1 & -1
+\end{pmatrix}\mathbf{v} = 0 $$
+Solving the system, we find that two linearly independent eigenvectors are:
+$$\begin{cases}
+x + y + z = 0
+\end{cases} \Rightarrow x = -(y + z) \Rightarrow \mathbf{v_2} = \begin{pmatrix}1 \\ -1 \\ 0
+\end{pmatrix}, \quad \mathbf{v_3} = \begin{pmatrix}1 \\ 0 \\ -1
+\end{pmatrix}$$
+
 
 
 
