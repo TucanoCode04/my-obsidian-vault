@@ -17,6 +17,8 @@ $$\Delta V = - \vec{p} \cdot \vec{E} \quad \Rightarrow \quad V(t) = - \vec{p} \c
 Where $\vec{E}$ is the electric field vector of the incident wave(the photon), that oscillates in time. $\Delta V$ is the change in potential energy of the electron due to the interaction with the electric field of the photon. That give us the time-dependent classical potential $V(t)$.
 In quantum mechanics, we use operators to describe physical quantities. The potential energy operator $\hat{V}(t)$ corresponding to the classical potential $V(t)$ is given by:
 $$\hat{V}(t) = -e \cdot \vec{r} \cdot \vec{E_{ph}}$$
-Where $\vec{E_{ph}} = \vec{E_0}(e^{i \vec{k} \cdot \vec{r} - \omega t})$ 
+Where $\vec{E_{ph}} = \vec{E_0}(e^{i \vec{k} \cdot \vec{r} - \omega t} + e^{-i \vec{k} \cdot \vec{r} + \omega t})$ is the electric field vector, with $\vec{E_0}$ being the amplitude of the electric field, $\vec{k}$ the wave vector, and $\omega$ the angular frequency. 
+$$e^{i \vec{k} \cdot \vec{r} - \omega t} + e^{-i \vec{k} \cdot \vec{r} + \omega t} \propto \cos(\vec{k} \cdot \vec{r} - \omega t) $$
+Represents plane waves propagating through space and oscillating in time. 
 
 ## References
