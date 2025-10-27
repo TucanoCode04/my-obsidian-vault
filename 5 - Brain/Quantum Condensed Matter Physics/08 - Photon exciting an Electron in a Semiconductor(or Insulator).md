@@ -17,7 +17,7 @@ $$\Delta V = - \vec{p} \cdot \vec{E} \quad \Rightarrow \quad V(t) = - \vec{p} \c
 Where $\vec{E}$ is the electric field vector of the incident wave(the photon), that oscillates in time. $\Delta V$ is the change in potential energy of the electron due to the interaction with the electric field of the photon. That give us the time-dependent classical potential $V(t)$.
 In quantum mechanics, we use operators to describe physical quantities. The potential energy operator $\hat{V}(t)$ corresponding to the classical potential $V(t)$ is given by:
 $$\hat{V}(t) = -e \cdot \vec{r} \cdot \vec{E_{ph}}$$
-Where $\vec{E_{ph}} = \vec{E_0}(e^{i (\vec{k} \cdot \vec{r} - \omega t)} + e^{-i (\vec{k} \cdot \vec{r} + \omega t)})$ is the electric field vector, with $\vec{E_0}$ being the amplitude of the electric field, $\vec{k}$ the wave vector, and $\omega$ the angular frequency. 
+Where $\vec{E_{ph}} = \vec{E_0}(e^{i (\vec{k} \cdot \vec{r} - \omega t)} + e^{-i (\vec{k} \cdot \vec{r} + \omega t)})$ is the electric field vector, with $\vec{E_0}$ being the amplitude of the electric field, $\vec{k}$ the photon wave vector(different from the $\vec{k}$ of the previous lesson), and $\omega$ the angular frequency. 
 $$e^{i (\vec{k} \cdot \vec{r} - \omega t)} + e^{-i (\vec{k} \cdot \vec{r} + \omega t)} \propto \cos(\vec{k} \cdot \vec{r} - \omega t) $$
 Represents plane waves propagating through space and oscillating in time. 
 $$ \hat{V}(t) = -e \cdot \vec{r} \cdot \vec{E_0}(e^{i (\vec{k} \cdot \vec{r} - \omega t)} + e^{-i (\vec{k} \cdot \vec{r} + \omega t)})$$
@@ -62,6 +62,9 @@ With this expression for $|c_f(t)|^2$, we can now calculate the transition rate 
 $$ W_{i \to f} = \frac{d}{dt} |c_f(t)|^2 = \frac{2 \pi}{\hbar} |M_{fi}|^2 \delta(E_{fi} - \hbar \omega) $$
 This is Fermi's Golden Rule applied to the case of photon absorption in a semiconductor or insulator. It gives the rate at which electrons transition from an initial state $\ket{\psi_i}$ to a final state $\ket{\psi_f}$ due to the interaction with the electromagnetic field of the photon.
 In this expression $|M_{fi}|^2$ represents the perturbation strength, which depends on the overlap between the initial and final states and the interaction with the electric field of the photon. The delta function $\delta(E_{fi} - \hbar \omega)$ ensures that energy is conserved during the transition, meaning that the energy difference between the final and initial states must equal the photon energy $\hbar \omega$ for the transition to occur and is a derivative of space.
+We have to consider the fact that there may be multiple coupled $\ket{\psi_i}$ and $\ket{\psi_f}$ states that satisfy the energy conservation condition. The overall transition rate $R_{i \to f}$ from the initial state to all possible final states is obtained by summing over all initial and final states:
+$$ W_{i \to f} = \frac{2 \pi}{\hbar} \sum_{i,f} |M_{fi}|^2 \delta(E_{f} - E_{i} - \hbar \omega) $$
+Empirically $\sum_{i,f} |M_{fi}|^2$ doesn't vary significantly with energy, so we can take it out of the summation, we can also define $g(\Delta E_{fi})$ as the joint density of states that counts the number of available final states per unit energy unit at the energy difference $\Delta E_{fi} = E_f - E_i$:
 
 
 ## References
