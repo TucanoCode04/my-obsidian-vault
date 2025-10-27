@@ -99,15 +99,22 @@ $$\mathbf{u_1} = \frac{1}{\sqrt{3}}\begin{pmatrix}1 \\ 1 \\ 1
 \end{pmatrix}, \quad \mathbf{u_3} = \frac{1}{\sqrt{2}}\begin{pmatrix}1 \\ 0 \\ -1
 \end{pmatrix}$$
 If we do the same for matrix $S$, we will find that its eigenvectors are:
-For $\lambda_1 = 24$:
+For $\lambda_1 = \lambda_2 = 24$:
 $$\mathbf{w_1} = \begin{pmatrix}1 \\ 1 \\ 1
+\end{pmatrix}, \quad \mathbf{w_2} = \begin{pmatrix}1 \\ \omega \\ \omega^2 \end{pmatrix} = \begin{pmatrix}1 \\ e^{2\pi i/3} \\ e^{4\pi i/3} 
+\end{pmatrix} = \begin{pmatrix}1 - i\sqrt{3} \\ 2 \\  0 \end{pmatrix}$$For $\lambda_3 = -18$:
+$$\mathbf{w_3} = \begin{pmatrix}1 \\ \omega^2 \\ \omega \end{pmatrix} = \begin{pmatrix}1 \\ e^{4\pi i/3} \\ e^{2\pi i/3}
+\end{pmatrix} = \begin{pmatrix} - 1 + i\sqrt{3} \\ - 1 - i\sqrt{3} \\ 2 \end{pmatrix}$$
+Normalizing these eigenvectors, we get another orthonormal basis:
+$$\mathbf{v_1} = \frac{1}{\sqrt{3}}\begin{pmatrix}1 \\ 1 \\ 1
+\end{pmatrix}, \quad \mathbf{v_2} = \frac{1}{\sqrt{6}}\begin{pmatrix}1 - i\sqrt{3} \\ 2 \\ 0
+\end{pmatrix}, \quad \mathbf{v_3} = \frac{1}{\sqrt{6}}\begin{pmatrix}-1 + i\sqrt{3} \\ -1 - i\sqrt{3} \\ 2
 \end{pmatrix}$$
-For $\lambda_2 = 24
-
-
-
-
-
-
-
+Thus, the orthonormal basis that simultaneously diagonalizes both $S$ and $T$ is:
+$$\mathbf{u_1} = \frac{1}{\sqrt{3}}\begin{pmatrix}1 \\ 1 \\ 1
+\end{pmatrix}, \quad \mathbf{u_2} = \frac{1}{\sqrt{2}}\begin{pmatrix}1 \\ -1 \\ 0
+\end{pmatrix}, \quad \mathbf{u_3} = \frac{1}{\sqrt{2}}\begin{pmatrix}1 \\ 0 \\ -1
+\end{pmatrix}$$
+### Geometric Interpretation
+The matrices $S$ and $T$ can be interpreted as linear transformations in $\mathbb{C}^3$. The fact that they can be simultaneously diagonalized means that there exists a common set of directions (the eigenvectors) in which both transformations act by simply scaling. This implies that the transformations represented by $S$ and $T$ preserve the same geometric structure in $\mathbb{C}^3$, allowing us to analyze their effects independently along these directions. 
 ## References
