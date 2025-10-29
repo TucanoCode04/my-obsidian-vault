@@ -18,7 +18,8 @@ Defense-in-depth is a cybersecurity strategy that involves implementing multiple
 An attacker exploits daemons(zombies and masters) to flood a target system with traffic, overwhelming its resources and causing service disruption. It's distributed because it uses multiple compromised systems to launch the attack, making it harder to mitigate. A zombie is a compromised computer controlled by an attacker, while a master is the command-and-control server that coordinates the attack.
 ##### Question 14: Bob is an attacker who decides to activate a DNS shadow server to attack Alice? 
 A DNS shadow server is a malicious server set up by an attacker to intercept and manipulate DNS queries. When Alice tries to access a legitimate website, her DNS request is redirected to the shadow server controlled by Bob. This allows Bob to provide false IP addresses, redirecting Alice to malicious websites, stealing sensitive information, or launching further attacks. The use of a DNS shadow server can lead to phishing attacks, malware distribution, and other security breaches. It can also allow for a Denial of Service (DoS) attack of Alice's access to legitimate services.
-##### Question 20: 
+##### Question 21:
+![[WhatsApp Image 2025-10-29 at 10.35.54 AM.jpeg]]
 
 
 
