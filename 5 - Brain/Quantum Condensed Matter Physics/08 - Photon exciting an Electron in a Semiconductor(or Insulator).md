@@ -175,6 +175,15 @@ So even after shining light with energy equal to the bandgap $E_g$, we can still
 To excite an exciton we will need $\Delta E(n) = E_g - \frac{R_X}{n^2}$. So this states will be below the bandgap energy $E_g$, because of the binding energy.
 This means the excitement of excitons requires less energy than exciting free electron-hole pairs across the bandgap. This will lead to additional absorption peaks in the optical spectrum below the bandgap energy. As we said this peaks will only show up if the binding energy is greater than the thermal energy $k_B T$.
 ![[Pasted image 20251029181904.png]]
+At lower energies we will see more excitonic peaks corresponding to different principal quantum numbers $n$. As the photon energy increases and surpasses the bandgap energy $E_g$, the absorption will transition to that of free electron-hole pairs, leading to a continuous absorption spectrum above the bandgap.
+This can be seen in the GaAs absorption spectrum, where we can see the excitonic peaks below the bandgap energy $E_g$ and the continuous absorption above it.
+![[Pasted image 20251029182029.png]]
+Normally wide band gap materials(ex: NaCl, LiF) have Frenkel excitons, so we can't use the hydrogen-like model to describe them, since the electron and hole are tightly bound and localized on the same lattice site. 
+![[Pasted image 20251029182429.png]]
+##### Bulk Optical Emission
+In bulk semiconductors, optical emission occurs when electrons in the conduction band recombine with holes in the valence band. This mechanism differs between direct and indirect bandgap semiconductors. 
+In direct bandgap semiconductors, the conduction band minimum and valence band maximum occur at the same momentum value in k-space. This allows electrons to directly recombine with holes by emitting photons without any change in momentum. The emitted photons have energies close to the bandgap energy, resulting in efficient light emission. This property makes direct bandgap semiconductors ideal for optoelectronic applications such as light-emitting diodes (LEDs) and laser diodes.
+In indirect bandgap semiconductors, the conduction band minimum and valence band maximum occur at different momentum values in k-space. As a result, the electron and the holes relax to the band edges, this process is called thermalization. As they relax, they lose energy by emitting phonons, which are quanta of lattice vibrations. Once the electrons and holes reach the band edges, there's a competition between luminescence(combination of electron and hole by emission of a photon) and phonon emission.
 
 
 ## References
