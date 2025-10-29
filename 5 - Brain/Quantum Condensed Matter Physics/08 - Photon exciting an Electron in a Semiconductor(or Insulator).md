@@ -132,5 +132,7 @@ In our model we neglected two important aspects:
 ##### InAs Optical Absorption Spectrum
 ![[Pasted image 20251029134923.png]]
 ##### Indirect Bandgap Semiconductors
-In indirect bandgap semiconductors, the conduction band minimum and valence band maximum occur at different momentum values in k-space. This means that an electron cannot directly transition from the valence band to the conduction band by absorbing a photon alone, as this would violate momentum conservation.
+In indirect bandgap semiconductors, the conduction band minimum and valence band maximum occur at different momentum values in k-space. This means that an electron cannot directly transition from the valence band to the conduction band by absorbing a photon alone, as this would violate momentum conservation. Instead, the transition requires the involvement of a phonon, which is a quantized lattice vibration that can provide or absorb momentum. 
+Phonons are quanta of lattice vibrations in a crystalline solid, to better understand them we can think of them as collective excitations of atoms in the lattice that propagate as waves. 
+So the absorption edge(the minimum photon energy required for absorption) is assisted by phonons.
 ## References
