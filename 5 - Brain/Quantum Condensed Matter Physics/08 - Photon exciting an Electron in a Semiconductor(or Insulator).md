@@ -115,4 +115,14 @@ Otherwise $g(\hbar \omega) = 0$.
 ![[Pasted image 20251027193728.png]]
 As we ca see from the graph, the joint density of states starts from zero at the bandgap energy $E_g$ and increases with the square root of the photon energy above the bandgap. This behavior is characteristic of direct bandgap semiconductors, where optical transitions can occur directly between the valence and conduction bands without any change in momentum.
 The second graph shows $\alpha^2$ versus photon energy, which results in a linear relationship above the bandgap energy. This linearity is often used experimentally to determine the bandgap energy of direct bandgap semiconductors by extrapolating the linear portion of the $\alpha^2$ plot to the photon energy axis.
+##### Resume
+- the eigenfunctions of the unperturbed Hamiltonian of the semiconductor are Bloch functions, this represents the energy states of the electrons in the crystal lattice.
+- the eigenvalues represent the energy levels energy levels associated with these Bloch functions, and are calculated using the parabolic band approximation near the band edges.
+- the transition in direct bandgap semiconductors occurs vertically in k-space, meaning that the electron's momentum does not change during the transition.
+- Matrix element $M_{fi}$ determines the probability amplitude for the transition between initial and final states, but it doesn't change much with energy.
+- the selection rules for optical transitions depend on the symmetry properties of the initial and final states, for symmetry properties we mean whether the wavefunctions are even or odd functions. So certain transitions may be allowed or forbidden based on these symmetry considerations.
+- the joint density of states is equal to the joint density of states of free particles with the reduced effective mass $\mu$.
+- the intercept of the linear fit of $\alpha^2$ versus photon energy gives the bandgap energy $E_g$ of the semiconductor.
+##### Band Structure of InAs
+
 ## References
