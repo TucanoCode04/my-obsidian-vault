@@ -150,7 +150,13 @@ Away from the parabolic band approximation we can see some more energy peaks in 
 ##### Excitons
 In semiconductors and insulators, when an electron is excited from the valence band to the conduction band, it leaves behind a positively charged hole. The electron and hole can form a bound state called an exciton due to their Coulomb attraction. Excitons can significantly influence the optical properties of materials, especially near the band edge.
 There are two main types of excitons:
-1. Wannier-Mott Excitons(Free Excitons): These excitons have a large radius that extends over several lattice constants. They are typically found in materials with high dielectric constants and low effective masses for electrons and holes, semiconductors. Wannier-Mott excitons can be described using a hydrogen-like model, where the electron and hole orbit around each other. This type of exciton is more delocalized and can move freely through the crystal lattice.
+1. Wannier-Mott Excitons(Free Excitons): These excitons have a large radius that extends over several lattice constants. They are typically found in materials with high dielectric constants and low effective masses for electrons and holes, semiconductors. This type of exciton is more delocalized and can move freely through the crystal lattice.
 2. Frenkel Excitons(Tightly Bound Excitons): These excitons have a small radius, typically on the order of a lattice constant. They are commonly found in materials with low dielectric constants and and high effective masses for electrons and holes, such as organic semiconductors and molecular crystals, insulators. Frenkel excitons are more localized and are confined to specific lattice sites.
-The excitons exists, basically this binding energ
+The excitons exists, basically this binding energy exists, if the interaction binding energy is greater than the thermal energy $k_B T$. At room temperature $k_B T \approx 25 meV$, so materials with exciton binding energies larger than this value can sustain excitons at room temperature.
+Wannier-Mott excitons typically have binding energies in the range of $1-10 meV$, making them unsustainable at room temperature. They are more likely to exist at lower temperatures where thermal energy is reduced.
+Frenkel excitons, on the other hand, can have binding energies ranging from $0.1 eV$ to several electron volts, making them stable at room temperature and even higher temperatures. In fact they are found in insulators.
+##### Excitonic Effects on Optical Absorption
+We now want to see how excitons affect the optical absorption spectrum of semiconductors.
+We can see the exciton as a hydrogen-like system, where the electron and hole are bound together by Coulomb attraction. 
+
 ## References
