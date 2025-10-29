@@ -148,5 +148,9 @@ Some indirect band gap materials are Silicon and Germanium. In particular German
 ![[Pasted image 20251029141639.png]]
 Away from the parabolic band approximation we can see some more energy peaks in the absorption spectrum due to the actual band structure of the material. For example here in Germanium there are peaks $E_1$ and $E_2$ due to the bands being almost parallel one to another, leading to a high joint density of states and so a high absorption at those photon energies.
 ##### Excitons
-
+In semiconductors and insulators, when an electron is excited from the valence band to the conduction band, it leaves behind a positively charged hole. The electron and hole can form a bound state called an exciton due to their Coulomb attraction. Excitons can significantly influence the optical properties of materials, especially near the band edge.
+There are two main types of excitons:
+1. Wannier-Mott Excitons(Free Excitons): These excitons have a large radius that extends over several lattice constants. They are typically found in materials with high dielectric constants and low effective masses for electrons and holes, semiconductors. Wannier-Mott excitons can be described using a hydrogen-like model, where the electron and hole orbit around each other. This type of exciton is more delocalized and can move freely through the crystal lattice.
+2. Frenkel Excitons(Tightly Bound Excitons): These excitons have a small radius, typically on the order of a lattice constant. They are commonly found in materials with low dielectric constants and and high effective masses for electrons and holes, such as organic semiconductors and molecular crystals, insulators. Frenkel excitons are more localized and are confined to specific lattice sites.
+The excitons exists, basically this binding energ
 ## References
