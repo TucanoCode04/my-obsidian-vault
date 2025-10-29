@@ -144,5 +144,9 @@ Since the process of absorption now involves 3 particles(electron, photon, phono
 The absorption coefficient $\alpha$ is now plotted using the square root instead of the square, due to the more complex nature of the transition.
 $$\alpha^{\text{indirect}} \propto (\hbar \omega - E_g \pm \hbar \Omega)^2 $$
 ![[Pasted image 20251029141349.png]]
-Some indirect band gap materials are Silicon and Germanium. In particular Germanium has an indirect band gap of 0.66 eV and a direct band gap of 0.8 eV, so it can also show direct band gap behavior at higher photon energies as we
+Some indirect band gap materials are Silicon and Germanium. In particular Germanium has an indirect band gap of 0.66 eV and a direct band gap of 0.8 eV, so it can also show direct band gap behavior at higher photon energies as we can see in the figure. The indirect band gap absorption plotted in the direct band gap scale in almost zero.
+![[Pasted image 20251029141639.png]]
+Away from the parabolic band approximation we can see some more energy peaks in the absorption spectrum due to the actual band structure of the material. For example here in Germanium there are peaks $E_1$ and $E_2$ due to the bands being almost parallel one to another, leading to a high joint density of states and so a high absorption at those photon energies.
+##### Excitons
+
 ## References
