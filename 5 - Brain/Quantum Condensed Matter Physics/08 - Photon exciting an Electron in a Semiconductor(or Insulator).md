@@ -127,5 +127,6 @@ The second graph shows $\alpha^2$ versus photon energy, which results in a linea
 ![[Pasted image 20251029130754.png]]
 If you stray away from the band edges the parabolic band approximation is no longer valid, and we have to consider the actual band structure of the material. 
 In our model we neglected two important aspects:
-- 
+1. Excitonic Effects: When an electron is excited from the valence band to the conduction band, it leaves behind a positively charged hole. The electron and hole can form a bound state called an exciton due to their Coulomb attraction. This excitonic effect modifies the absorption spectrum, especially near the band edge, leading to additional absorption peaks below the bandgap energy.
+2. 
 ## References
