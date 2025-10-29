@@ -164,10 +164,17 @@ The parameters we have to modify are:
 	 Where $m_e^*$ and $m_h^*$ are the effective masses of the electron and hole, respectively.
 2. Dielectric Constant ($\epsilon_r$): The Coulomb interaction between the electron and hole is screened by the dielectric constant of the material. This reduces the effective Coulomb attraction compared to the hydrogen atom.
 The exciton binding energy levels can be expressed as:
-$$ E_n = -\frac{\mu}{m_0} \frac{1}{\epsilon_r^2} \frac{R_H}{n^2} = -\frac{R_X}{n^2} $$ Where $R_H$ is the Rydberg constant for hydrogen (approximately 13.6 eV), $m_0$ is the free electron mass, and $R_X$ is the exciton Rydberg energy, which is typically much smaller than $R_H$ due to the reduced mass and dielectric screening.
+$$ E_n = -\frac{\mu}{m_0} \frac{1}{\epsilon_r^2} \frac{R_H}{n^2} = -\frac{R_X}{n^2} $$ Where $R_H$ is the Rydberg constant for hydrogen (approximately 13.6 eV), $m_0$ is the free electron mass, and $R_X$ is the exciton Rydberg energy, which is typically much smaller than $R_H$ due to the reduced mass and dielectric screening($\epsilon_r > \epsilon_0$, so as we can see from the formula the binding energy is reduced).
 $$R_X = \frac{\mu}{m_0} \frac{R_H}{\epsilon_r^2}$$
 The radius of the exciton can be expressed as:
 $$ r_n = - \frac{m_0}{\mu} \epsilon_r n^2 a_H = n^2 a_X $$
 Where $a_H$ is the Bohr radius for hydrogen (approximately 0.59 Å), and $a_X = \frac{m_0 \epsilon_r}{\mu} a_H$ is the exciton Bohr radius, which is typically larger than $a_H$ due to the reduced mass and dielectric screening.
+So basically as $E_g$ increases, $R_X$ increases because the dielectric constant $\epsilon_r$ decreases. This means that in wide bandgap materials, excitons are more tightly bound and have higher binding energies. And $a_X$ decreases, meaning that the exciton is more localized.
+![[Pasted image 20251029181302.png]]
+So even after shining light with energy equal to the bandgap $E_g$, we can still have this pair of electron-hole bound states below the bandgap energy, leading to additional absorption peaks in the optical spectrum. To separate them we need energy greater than $\frac{R_X}{n^2}$.
+To excite an exciton we will need $\Delta E(n) = E_g - \frac{R_X}{n^2}$. So this states will be below the bandgap energy $E_g$, because of the binding energy.
+This means the excitement of excitons requires less energy than exciting free electron-hole pairs across the bandgap. This will lead to additional absorption peaks in the optical spectrum below the bandgap energy. As we said this peaks will only show up if the binding energy is greater than the thermal energy $k_B T$.
+![[Pasted image 20251029181904.png]]
+
 
 ## References
