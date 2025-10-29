@@ -133,6 +133,16 @@ In our model we neglected two important aspects:
 ![[Pasted image 20251029134923.png]]
 ##### Indirect Bandgap Semiconductors
 In indirect bandgap semiconductors, the conduction band minimum and valence band maximum occur at different momentum values in k-space. This means that an electron cannot directly transition from the valence band to the conduction band by absorbing a photon alone, as this would violate momentum conservation. Instead, the transition requires the involvement of a phonon, which is a quantized lattice vibration that can provide or absorb momentum. 
-Phonons are quanta of lattice vibrations in a crystalline solid, to better understand them we can think of them as collective excitations of atoms in the lattice that propagate as waves. 
+![[Pasted image 20251029141318.png]]
+Phonons are quanta of lattice vibrations in a crystalline solid, to better understand them we can think of them as collective excitations of atoms in the lattice that propagate as waves with their own momenta and energies. 
 So the absorption edge(the minimum photon energy required for absorption) is assisted by phonons.
+$$ \hbar \vec{k_{f}} = \hbar \vec{k_{i}} \pm \hbar \vec{q} $$
+Where $\vec{q}$ is the phonon wave vector, and the plus sign corresponds to phonon absorption while the minus sign corresponds to phonon emission.
+$$E_f = E_i + \hbar \omega \pm \hbar \Omega $$
+Where $\hbar \Omega$ is the phonon energy. 
+Since the process of absorption now involves 3 particles(electron, photon, phonon), the probability of collision is lower compared to direct bandgap semiconductors where only 2 particles are involved(electron and photon). This is called second-order process. The Fermi Golden rules becomes much more complicated since it considers the perturbation from both the photon and the phonon.
+The absorption coefficient $\alpha$ is now plotted using the square root instead of the square, due to the more complex nature of the transition.
+$$\alpha^{\text{indirect}} \propto (\hbar \omega - E_g \pm \hbar \Omega)^2 $$
+![[Pasted image 20251029141349.png]]
+Some indirect band gap materials are Silicon and Germanium. In particular Germanium has an indirect band gap of 0.66 eV and a direct band gap of 0.8 eV, so it can also show direct band gap behavior at higher photon energies as we
 ## References
