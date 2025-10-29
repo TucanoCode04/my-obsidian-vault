@@ -124,5 +124,8 @@ The second graph shows $\alpha^2$ versus photon energy, which results in a linea
 - the joint density of states is equal to the joint density of states of free particles with the reduced effective mass $\mu$.
 - the intercept of the linear fit of $\alpha^2$ versus photon energy gives the bandgap energy $E_g$ of the semiconductor.
 ##### Band Structure of InAs
-
+![[Pasted image 20251029130754.png]]
+If you stray away from the band edges the parabolic band approximation is no longer valid, and we have to consider the actual band structure of the material. 
+In our model we neglected two important aspects:
+- 
 ## References
