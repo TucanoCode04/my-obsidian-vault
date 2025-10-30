@@ -30,9 +30,5 @@ The photon is not emitted, but the electron relaxes back to the ground state non
 We can create this F-centers in ionic crystals. $LiF$ has a small $a$, so it has high absorption in the UV, while $NaCl$ has a larger $a$, so it absorbs in the visible spectrum, making it appear yellow. By irradiating these crystals with X-rays or gamma rays, we can create F-centers by knocking out some of the anions from their lattice sites, allowing electrons to occupy these vacancies.
 //GRAPH
 
-
-
-
-
-
+So F-centers create the possibility for an electron to occupy discrete energy levels within the band gap of an ionic crystal, this is relevant for qubits and quantum computing, where we want to manipulate and control the states of electrons for information processing. 
 ## References
