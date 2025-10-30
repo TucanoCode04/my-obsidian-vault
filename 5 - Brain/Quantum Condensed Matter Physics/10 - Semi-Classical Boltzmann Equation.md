@@ -40,6 +40,9 @@ This equation describes how the distribution function $f$ evolves over time due 
 This is a integral differential equation, as the collision term on the right-hand side is an integral and we want to integrate the other side to know the distribution function $f$.
 ##### Electron-Phonon Collision Term
 We can use the Fermi Golden Rule to calculate the collision term, which gives the transition rate between quantum states identified by their wave vectors $\vec{k}$ and $\vec{k'}$ due to a perturbation, such as electron-phonon interaction.
-$$W_{\vec{k} \rightarrow \vec{k'}} \cdot dt \cdot d\vec{k'} \cdot \frac{V}{(2\pi)^3
-
+$$W_{\vec{k} \rightarrow \vec{k'}} \cdot dt \cdot d\vec{k'} \cdot \frac{V}{(2\pi)^3} \cdot \frac{1}{V} = W_{\vec{k} \rightarrow \vec{k'}} \cdot \frac{1}{4\pi^3} dt \cdot d\vec{k'}$$
+gives the probability that an electron in state $\vec{k}$ will scatter into a state within the volume element $d\vec{k'}$ around $\vec{k'}$ during time $dt$. We don't multiply by 2 because during scattering the spin is conserved.
+I need to integrate over all possible final states $\vec{k'}$ because I don't know where the electron will scatter to, additionally I need also to check if $\vec{k}$ is filled and $\vec{k'}$ is empty to check the occupation:
+$$- \int d\vec{k'} \cdot W_{\vec{k} \rightarrow \vec{k'}} \cdot f(\vec{k}) \cdot (1 - f(\vec{k'})) \cdot \frac{1}{(2\pi)^3} = \left( \frac{\partial f}{\partial t} \right)_{collision}^{out} $$
+This term represents the rate at which electrons leave the state $\vec{k}$ due to scattering into other states $\vec{k'}$. The factor $f(\vec{k})$ ensures that there is an electron in the initial state, while $(1 - f(\vec{k'}))$ ensures that the final state is unoccupied. The minus sign indicates that we are only counting electrons leaving the state $\vec{k}$, so collision out.
 ## References
