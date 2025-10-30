@@ -28,6 +28,15 @@ We define the volume element as $d\Omega$ that evolves into $d\Omega'$ after tim
 The number of electrons in this volume element must be conserved if there are no scattering events, so:
 $$f(\vec{r}, \vec{k}, t) = f(\vec{r} + \vec{v} dt, \vec{k} + \frac{\vec{F}}{\hbar} dt, t + dt)$$
 If this was true the sphere would drift infinitely. Electrons in a periodic potential are represented by Bloch waves, which are delocalized states that extend throughout the crystal lattice, so they are not subject to localization due to scattering. However, in reality, scattering events occur due to impurities, phonons, and other electrons, which randomize the momentum of the electrons and prevent indefinite drift.
-To describe an example, a particle in the volume element $d\Omega$ at time $t$ may collide with a phonon exchanging momentum and energy, and thus leave the volume element $d\Omega$ before time $t + dt$. Conversely, another particle from outside $d\Omega$ may scatter into it. These scattering events change the probability of finding particles in the volume element $d\Omega'$ over time.
+To describe an example, a particle in the volume element $d\Omega$ at time $t$ may collide with a phonon exchanging momentum and energy, and thus leave the volume element $d\Omega$ before time $t + dt$. Conversely, another particle from outside $d\Omega$ may scatter into it. These scattering events change the number of particles in $d\Omega$ over time. Changing the probability distribution function $f$ over time due to scattering can be expressed as:
+$$f(\vec{r} + \vec{v} dt, \vec{k} + \frac{\vec{F}}{\hbar} dt, t + dt) - f(\vec{r}, \vec{k}, t) = \left( \frac{\partial f}{\partial t} \right)_{collision} dt$$
+where:
+$$\left( \frac{\partial f}{\partial t} \right)_{collision} = \left( \frac{\partial f}{\partial t} \right)_{collision}^{in} - \left( \frac{\partial f}{\partial t} \right)_{collision}^{out}$$
+Combining all together, we get:
+$$df = f(\vec{r} + \vec{v} dt, \vec{k} + \frac{\vec{F}}{\hbar} dt, t + dt) - f(\vec{r}, \vec{k}, t) = \frac{\partial f}{\partial \vec{r}} \cdot d\vec{r} + \frac{\partial f}{\partial \vec{k}} \cdot d\vec{k} + \frac{\partial f}{\partial t} dt$$
+Dividing by $dt$ and substituting $d\vec{r} = \vec{v} dt$ and $d\vec{k} = \frac{\vec{F}}{\hbar} dt$, we obtain the semi-classical Boltzmann equation:
+$$\frac{\partial f}{\partial t} + \vec{v} \cdot \nabla_{\vec{r}} f + \frac{\vec{F}}{\hbar} \cdot \nabla_{\vec{k}} f = \left( \frac{\partial f}{\partial t} \right)_{collision}$$
+This equation describes how the distribution function $f$ evolves over time due to the combined effects of particle motion in real space, changes in momentum space due to external forces, and scattering events. It is a powerful tool for analyzing transport phenomena in materials, such as electrical conductivity, thermal conductivity, and more. It is called Boltzmann Transport Equation (BTE).
+
 
 ## References
