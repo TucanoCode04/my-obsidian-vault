@@ -45,4 +45,5 @@ gives the probability that electrons in state $\vec{k}$ will scatter into a stat
 I need to integrate over all possible final states $\vec{k'}$ because I don't know where the electrons will scatter to, additionally I need also to check if $\vec{k}$ is filled and $\vec{k'}$ is empty to check the occupation:
 $$- \int d\vec{k'} \cdot W_{\vec{k} \rightarrow \vec{k'}} \cdot f(\vec{k}) \cdot (1 - f(\vec{k'})) \cdot \frac{1}{(2\pi)^3} = \left( \frac{\partial f}{\partial t} \right)_{collision}^{out} $$
 This term represents the rate at which electrons leave the state $\vec{k}$ due to scattering into other states $\vec{k'}$. The factor $f(\vec{k})$ ensures that there is an electron in the initial state, while $(1 - f(\vec{k'}))$ ensures that the final state is unoccupied. The minus sign indicates that we are only counting electrons leaving the state $\vec{k}$, so collision out.
+Note: we are always talking about electrons collecti
 ## References
