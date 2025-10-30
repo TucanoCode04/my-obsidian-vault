@@ -38,6 +38,6 @@ Dividing by $dt$ and substituting $d\vec{r} = \vec{v} dt$ and $d\vec{k} = \frac{
 $$\frac{\partial f}{\partial t} + \vec{v} \cdot \nabla_{\vec{r}} f + \frac{\vec{F}}{\hbar} \cdot \nabla_{\vec{k}} f = \left( \frac{\partial f}{\partial t} \right)_{collision}$$
 This equation describes how the distribution function $f$ evolves over time due to the combined effects of particle motion in real space, changes in momentum space due to external forces, and scattering events. It is a powerful tool for analyzing transport phenomena in materials, such as electrical conductivity, thermal conductivity, and more. It is called Boltzmann Transport Equation (BTE).
 This is a integral differential equation, as the collision term on the right-hand side is an integral and we want to integrate the other side to know the distribution function $f$.
-We can use the Fermi Golden Rule to calculate the collision term, which gives the transition rate between quantum states identified by their wave vectors $\vec{k}$ and $\vec{k'}$ due to a perturbation.
+We can use the Fermi Golden Rule to calculate the collision term, which gives the transition rate between quantum states identified by their wave vectors $\vec{k}$ and $\vec{k'}$ due to a perturbation, such as electron-phonon interaction.
 
 ## References
