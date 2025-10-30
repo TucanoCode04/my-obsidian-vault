@@ -21,7 +21,8 @@ $$E_{111} = \frac{h^2}{8m(2a)^2}(1^2 + 1^2 + 1^2) = \frac{3h^2}{32ma^2}$$
 The second lowest energy state is degenerate, occurring for the combinations (1,1,2), (1,2,1), and (2,1,1). If we imagine the electron transitioning from the second lowest energy state to the ground state, the energy difference $\Delta E$ is:
 $$\Delta E = \hbar \omega = E_{211} - E_{111} = \frac{h^2}{8m(2a)^2}(2^2 + 1^2 + 1^2 - (1^2 + 1^2 + 1^2)) = \frac{3h^2}{32ma^2}$$
 This energy difference corresponds to the energy of the photon absorbed or emitted during the transition. $2a$ is related to the lattice constant, which is related to the mass of the atom, so different materials will have different lattice constants and thus different energy levels for their F-centers.  
-
+This energy falls within the visible spectrum for many ionic crystals, because the lattice constants are typically on the order of a few angstroms, leading to energy differences that correspond to visible light wavelengths. 
+The material becomes colored because the F-centers absorb specific wavelengths of light corresponding to these energy transitions, while other wavelengths are transmitted or reflected, giving rise to the observed color. This defects make it so less energy is required to excite the electron, because 
 
 
 
