@@ -184,6 +184,8 @@ Normally wide band gap materials(ex: NaCl, LiF) have Frenkel excitons, so we can
 In bulk semiconductors, optical emission occurs when electrons in the conduction band recombine with holes in the valence band. This mechanism differs between direct and indirect bandgap semiconductors. 
 In direct bandgap semiconductors, the conduction band minimum and valence band maximum occur at the same momentum value in k-space. This allows electrons to directly recombine with holes by emitting photons without any change in momentum. The emitted photons have energies close to the bandgap energy, resulting in efficient light emission. This property makes direct bandgap semiconductors ideal for optoelectronic applications such as light-emitting diodes (LEDs) and laser diodes.
 In indirect bandgap semiconductors, the conduction band minimum and valence band maximum occur at different momentum values in k-space. As a result, the electron and the holes relax to the band edges, this process is called thermalization. As they relax, they lose energy by emitting phonons, which are quanta of lattice vibrations. Once the electrons and holes reach the band edges, there's a competition between luminescence(combination of electron and hole by emission of a photon) and phonon emission.
-
-
+The process of luminescence can be exploited by injecting carriers(electrons and holes) into the semiconductor using electrical current or optical excitation. When these carriers recombine radiatively, they emit photons with energies close to the bandgap energy. 
+![[Pasted image 20251029183144.png]]
+The luminescence graph will show a peak at the bandgap energy, with a tail extending to lower energies due to phonon-assisted recombination processes.
+![[Pasted image 20251029183132.png]]
 ## References
