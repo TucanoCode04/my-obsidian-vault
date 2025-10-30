@@ -21,7 +21,13 @@ The semi-classical approach describes the changes in position and momentum of th
 $$\vec{r} \rightarrow \vec{r'} = \vec{r} + \vec{v} dt$$
 $$\vec{k}; \quad \vec{p} = \hbar \vec{k} \rightarrow \hbar \vec{k'} = \hbar \vec{k} + \hbar d\vec{k} = \hbar \vec{k} + d\vec{p} = \hbar \vec{k} + \vec{F} dt$$
 $$\vec{k'} = \vec{k} + \frac{\vec{F}}{\hbar} dt $$
-where $\vec{v}$ is the group velocity of the electrons, given by $\vec{v} = \frac{1}{\hbar} \nabla_{\vec{k}} E(\vec{k})$. So our system 
-
+where $\vec{v}$ is the group velocity of the electrons, given by $\vec{v} = \frac{1}{\hbar} \nabla_{\vec{k}} E(\vec{k})$. So our system evolves as:
+$$f(\vec{r}, \vec{k}, t) \rightarrow f(\vec{r} + \vec{v} dt, \vec{k} + \frac{\vec{F}}{\hbar} dt, t + dt)$$
+We define the volume element as $d\Omega$ that evolves into $d\Omega'$ after time $dt$. 
+//GRAPH
+The number of electrons in this volume element must be conserved if there are no scattering events, so:
+$$f(\vec{r}, \vec{k}, t) = f(\vec{r} + \vec{v} dt, \vec{k} + \frac{\vec{F}}{\hbar} dt, t + dt)$$
+If this was true the sphere would drift infinitely. Electrons in a periodic potential are represented by Bloch waves, which are delocalized states that extend throughout the crystal lattice, so they are not subject to localization due to scattering. However, in reality, scattering events occur due to impurities, phonons, and other electrons, which randomize the momentum of the electrons and prevent indefinite drift.
+To describe an example, a particle in the volume element $d\Omega$ at time $t$ may collide with a phonon exchanging momentum and energy, and thus leave the volume element $d\Omega$ before time $t + dt$. Conversely, another particle from outside $d\Omega$ may scatter into it. These scattering events change the probability of finding particles in the volume element $d\Omega'$ over time.
 
 ## References
