@@ -6,7 +6,7 @@ Status:
 Tags:
 
 # Color Centers
-
+F-centers are defects in a crystal lattice where an anion has left its position, 
 
 
 
