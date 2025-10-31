@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Qubito/Team Presentation.md",
+                "file": "5 - Brain/Quantum Condensed Matter Physics/09 - Color Centers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Team Presentation"
+              "title": "09 - Color Centers"
             }
           }
         ]
@@ -176,7 +176,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,10 +194,10 @@
   "active": "6ee9dd6f536438da",
   "lastOpenFiles": [
     "5 - Brain/Quantum Condensed Matter Physics/10 - Semi-Classical Boltzmann Equation.md",
+    "5 - Brain/Quantum Condensed Matter Physics/09 - Color Centers.md",
+    "5 - Brain/Quantum Condensed Matter Physics/08 - Photon exciting an Electron in a Semiconductor(or Insulator).md",
     "5 - Brain/Qubito/Team Presentation.md",
     "5 - Brain/Qubito",
-    "5 - Brain/Quantum Condensed Matter Physics/08 - Photon exciting an Electron in a Semiconductor(or Insulator).md",
-    "5 - Brain/Quantum Condensed Matter Physics/09 - Color Centers.md",
     "5 - Brain/Quantum Condensed Matter Physics/Untitled.md",
     "Pasted image 20251029183144.png",
     "Pasted image 20251029183132.png",
