@@ -53,10 +53,16 @@ This term represents the rate at which electrons enter the state $\vec{k}$ from 
 To put it all together, the total collision term is:
 $$\left( \frac{\partial f}{\partial t} \right)_{collision} = \int d\vec{k'} \cdot \left[ W_{\vec{k'} \rightarrow \vec{k}} \cdot f(\vec{k'}) \cdot (1 - f(\vec{k})) - W_{\vec{k} \rightarrow \vec{k'}} \cdot f(\vec{k}) \cdot (1 - f(\vec{k'})) \right] \cdot \frac{1}{(2\pi)^3}$$
 It is hard to solve the BTE because the collision term is an integral over all possible final states, making it an integro-differential equation. Additionally, the transition rates $W_{\vec{k} \rightarrow \vec{k'}}$ depend on the specific scattering mechanisms involved, which can be complex and material-dependent. We then introduce approximations to make it solvable.
-**Independent Electron Approximation**: We assume tcattering due to deviation from strict periodicity of the lattice. The only scattering events will then be:
+**Independent Electron Approximation**: We assume that electrons scatter independently, ignoring electron-electron interaction(Coulomb interaction). We only look at scattering events due to deviations from the strict periodic potential of the crystal lattice, such as:
 - Defects(vacancies, impurities): We can have a localized perturbation $\vec{R}_i$ in the crystal potential. This is normally time independent, since defects don't move.
-- Phonons: Lattice vibrations that can absorb or emit energy and momentum during scattering events. Waves that propagate through the crystal. They are time dependent. For lower temperatures this is less likely than defects.
-So we remove the 
+- Phonons: Lattice vibrations that can absorb or emit energy and momentum during scattering events. Waves that propagate through the crystal. They are time dependent. For lower temperatures 
+
+The scattering rate due to defects can be calculated using Fermi's Golden Rule, considering the perturbation introduced by the defects. 
+$$W_{\vec{k} \rightarrow \vec{k'}}^{defects} = \frac{2\pi}{\hbar} | \langle \vec{k'} | U_{defects} | \vec{k} \rangle |^2 \delta(E(\vec{k'}) - E(\vec{k}))$$
+where $U_{defects}$ is the potential due to defects, and the delta function ensures energy conservation during scattering. We now that the scattering is elastic because defects are static, so the energy before and after scattering is the same $E(\vec{k'}) = E(\vec{k})$, it only changes momentum.
+$U_{defects}$ can be modeled as an integral of localized perturbations due to the defect sites:
+$$| \langle \vec{k'} | U_{defects} | \vec{k} \rangle = \int d\vec{r} \cdot \psi_{\vec{k'}}^*(\vec{r}) U_{defects}(\vec{r} - \vec{R}_i) \psi_{\vec{k}}(\vec{r})$$
+where $\psi_{\vec{k}}(\vec{r})$ are the Bloch wavefunctions of the electrons.
 
 
 
