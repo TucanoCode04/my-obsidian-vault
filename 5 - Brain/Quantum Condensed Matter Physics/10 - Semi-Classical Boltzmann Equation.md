@@ -38,13 +38,24 @@ Dividing by $dt$ and substituting $d\vec{r} = \vec{v} dt$ and $d\vec{k} = \frac{
 $$\frac{\partial f}{\partial t} + \vec{v} \cdot \nabla_{\vec{r}} f + \frac{\vec{F}}{\hbar} \cdot \nabla_{\vec{k}} f = \left( \frac{\partial f}{\partial t} \right)_{collision}$$
 This equation describes how the distribution function $f$ evolves over time due to the combined effects of particle motion in real space, changes in momentum space due to external forces, and scattering events. It is a powerful tool for analyzing transport phenomena in materials, such as electrical conductivity, thermal conductivity, and more. It is called Boltzmann Transport Equation (BTE).
 This is a integral differential equation, as the collision term on the right-hand side is an integral and we want to integrate the other side to know the distribution function $f$.
-##### Electron-Phonon Collision Term
+##### Electron-Phonon Collision Out Term
 We can use the Fermi Golden Rule to calculate the collision term, which gives the transition rate describing how electrons in a quantum state identified by the wave vector $\vec{k}$ scatter into a quantum state identified by $\vec{k'}$ due to a perturbation, such as electron-phonon interaction.
 $$W_{\vec{k} \rightarrow \vec{k'}} \cdot dt \cdot d\vec{k'} \cdot \frac{V}{(2\pi)^3} \cdot \frac{1}{V} = W_{\vec{k} \rightarrow \vec{k'}} \cdot \frac{1}{4\pi^3} dt \cdot d\vec{k'}$$
 gives the probability that electrons in state $\vec{k}$ will scatter into a state within the volume element $d\vec{k'}$ around $\vec{k'}$ during time $dt$. We don't multiply by 2 because during scattering the spin is conserved.
 I need to integrate over all possible final states $\vec{k'}$ because I don't know where the electrons will scatter to, additionally I need also to check if $\vec{k}$ is filled and $\vec{k'}$ is empty to check the occupation:
 $$- \int d\vec{k'} \cdot W_{\vec{k} \rightarrow \vec{k'}} \cdot f(\vec{k}) \cdot (1 - f(\vec{k'})) \cdot \frac{1}{(2\pi)^3} = \left( \frac{\partial f}{\partial t} \right)_{collision}^{out} $$
 This term represents the rate at which electrons leave the state $\vec{k}$ due to scattering into other states $\vec{k'}$. The factor $f(\vec{k})$ ensures that there is an electron in the initial state, while $(1 - f(\vec{k'}))$ ensures that the final state is unoccupied. The minus sign indicates that we are only counting electrons leaving the state $\vec{k}$, so collision out.
+##### Electron-Phonon Collision In Term
+To calculate the collision in term, we consider electrons that scatter from other states $\vec{k'}$ into the state $\vec{k}$. 
+$$+ \int d\vec{k'} \cdot W_{\vec{k'} \rightarrow \vec{k}} \cdot f(\vec{k'}) \cdot (1 - f(\vec{k})) \cdot \frac{1}{(2\pi)^3} = \left( \frac{\partial f}{\partial t} \right)_{collision}^{in} $$
+This term represents the rate at which electrons enter the state $\vec{k}$ from other states $\vec{k'}$. The factor $f(\vec{k'})$ ensures that there is an electron in the initial state $\vec{k'}$, while $(1 - f(\vec{k}))$ ensures that the final state $\vec{k}$ is unoccupied. The plus sign indicates that we are counting electrons entering the state $\vec{k}$, so collision in.
 
-**Note:** we are always talking about how electrons in a metal evolve over time, we are not talking about single electron wavefunctions, but the statistical distribution of many electrons.
+To put it all together, the total collision term is:
+$$\left( \frac{\partial f}{\partial t} \right)_{collision} = \int d\vec{k'} \cdot \left[ W_{\vec{k'} \rightarrow \vec{k}} \cdot f(\vec{k'}) \cdot (1 - f(\vec{k})) - W_{\vec{k} \rightarrow \vec{k'}} \cdot f(\vec{k}) \cdot (1 - f(\vec{k'})) \right] \cdot \frac{1}{(2\pi)^3}$$
+It is hard to solve the BTE because the collision term is an integral over all possible final states, making it an integro-differential equation. Additionally, the transition rates $W_{\vec{k} \rightarrow \vec{k'}}$ depend on the specific scattering mechanisms involved, which can be complex and material-dependent. We then introduce approximations to make it solvable.
+**Independent Electron Approximation**:  
+
+
+
+
 ## References
