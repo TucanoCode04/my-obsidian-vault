@@ -60,9 +60,15 @@ It is hard to solve the BTE because the collision term is an integral over all p
 The scattering rate due to defects can be calculated using Fermi's Golden Rule, considering the perturbation introduced by the defects. 
 $$W_{\vec{k} \rightarrow \vec{k'}}^{defects} = \frac{2\pi}{\hbar} | \langle \vec{k'} | U_{defects} | \vec{k} \rangle |^2 \delta(E(\vec{k'}) - E(\vec{k}))$$
 where $U_{defects}$ is the potential due to defects, and the delta function ensures energy conservation during scattering. We now that the scattering is elastic because defects are static, so the energy before and after scattering is the same $E(\vec{k'}) = E(\vec{k})$, it only changes momentum.
-$U_{defects}$ can be modeled as an integral of localized perturbations due to the defect sites:
+$U_{defects}$ can be modeled as an integral of localized perturbations due to defects:
 $$| \langle \vec{k'} | U_{defects} | \vec{k} \rangle = \int d\vec{r} \cdot \psi_{\vec{k'}}^*(\vec{r}) U_{defects}(\vec{r} - \vec{R}_i) \psi_{\vec{k}}(\vec{r})$$
-where $\psi_{\vec{k}}(\vec{r})$ are the Bloch wavefunctions of the electrons.
+where $\psi_{\vec{k}}(\vec{r})$ are the Bloch wavefunctions of the electrons. $\vec{R}_i$ are the positions of the defects in the crystal lattice. 
+The scattering rate due to phonons can also be calculated using Fermi's Golden Rule. Phonons can be seen as sound waves propagating through the crystal lattice, which are described as:
+$$\mu = A e^{i(\vec{q} \cdot \vec{r} - \omega t)}$$ where $\vec{q}$ is the phonon wave vector, $\omega$ is the angular frequency, and $A$ is the amplitude of the wave. 
+$$W_{\vec{k} \rightarrow \vec{k'}}^{phonons} \propto \delta(E(\vec{k'}) - E(\vec{k}) + \hbar \omega \cdot | \langle \vec{k'} | e^{i \vec{q} \cdot \vec{r}} | \vec{k} \rangle |^2 $$
+where $\hbar \omega$ is the energy of the phonon involved in the scattering process. The term which included $t$ is lost while calculating the derivative of the Fermi Golden Rule, it is now represented in the delta function. The scattering, this time, is not elastic because phonons can absorb or emit energy, so $E(\vec{k'}) - E(\vec{k}) = \pm \hbar \omega$. 
+##### Relaxation Time Approximation
+
 
 
 
