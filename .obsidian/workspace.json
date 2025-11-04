@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Quantum Condensed Matter Physics/10 - Semi-Classical Boltzmann Equation.md",
+                "file": "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/10 - Semi-Classical Boltzmann Equation.md",
                 "mode": "source",
                 "source": false
               },
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -191,11 +190,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6ee9dd6f536438da",
+  "active": "be216889e26b3807",
   "lastOpenFiles": [
-    "5 - Brain/Quantum Condensed Matter Physics/09 - Color Centers.md",
-    "5 - Brain/Quantum Condensed Matter Physics/10 - Semi-Classical Boltzmann Equation.md",
-    "5 - Brain/Quantum Condensed Matter Physics/08 - Photon exciting an Electron in a Semiconductor(or Insulator).md",
+    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter",
+    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity",
+    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/09 - Color Centers.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/10 - Semi-Classical Boltzmann Equation.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/08 - Photon exciting an Electron in a Semiconductor(or Insulator).md",
     "5 - Brain/Qubito/Team Presentation.md",
     "5 - Brain/Qubito",
     "5 - Brain/Quantum Condensed Matter Physics/Untitled.md",
@@ -212,14 +213,14 @@
     "5 - Brain/Cybersecurity/00 - Introduction to Cybersecurity.md",
     "5 - Brain/Cybersecurity/Exercises/02 - Exercises.md",
     "5 - Brain/Cybersecurity/01 - Networking.md",
-    "5 - Brain/Quantum Condensed Matter Physics/07 - First Order Perturbation Theory.md",
-    "5 - Brain/Quantum Condensed Matter Physics/06 - Energy Bands Slides.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/07 - First Order Perturbation Theory.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/06 - Energy Bands Slides.md",
     "5 - Brain/Mathematics for Quantum Engineering/Exercises/Q3 - Simultaneous Diagonalization.md",
-    "5 - Brain/Quantum Condensed Matter Physics/04 - Sommerfeld Model.md",
-    "5 - Brain/Quantum Condensed Matter Physics/01 - Introduction to the Crystal Structure.md",
-    "5 - Brain/Quantum Condensed Matter Physics/05 - Electrons in a Periodic Potential.md",
-    "5 - Brain/Quantum Condensed Matter Physics/03 - Reciprocal Bravais Lattice.md",
-    "5 - Brain/Quantum Condensed Matter Physics/00 - Scalar and Vector Potential.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/04 - Sommerfeld Model.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/01 - Introduction to the Crystal Structure.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/05 - Electrons in a Periodic Potential.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/03 - Reciprocal Bravais Lattice.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/00 - Scalar and Vector Potential.md",
     "5 - Brain/Mathematics for Quantum Engineering/01 - Polarization of Light.md",
     "5 - Brain/Mathematics for Quantum Engineering/Exercises/Q2 - Entanglement.md",
     "5 - Brain/Mathematics for Quantum Engineering/Exercises",
@@ -231,13 +232,11 @@
     "5 - Brain/Quantum Devices/Group A/04 - Lecture 4.md",
     "5 - Brain/Quantum Devices/Group A/03 - Lecture 3.md",
     "5 - Brain/Quantum Devices/Group A/02 - Lecture 2.md",
-    "5 - Brain/Cybersecurity/Cryptography.md",
     "5 - Brain/Untitled.base",
     "5 - Brain/Quantum Devices/Main Course",
     "5 - Brain/Quantum Devices/Group A",
     "5 - Brain/Fundamental of Technological Processes/Professor Ghigo",
     "5 - Brain/Fundamental of Technological Processes/Professor Cocuzza",
-    "5 - Brain/Mathematics for Quantum Engineering",
-    "5 - Brain/Quantum Devices"
+    "5 - Brain/Mathematics for Quantum Engineering"
   ]
 }
