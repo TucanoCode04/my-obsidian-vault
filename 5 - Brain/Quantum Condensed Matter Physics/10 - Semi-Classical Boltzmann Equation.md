@@ -92,7 +92,12 @@ $$- \frac{e \vec{E}}{\hbar} \cdot \nabla_{\vec{k}} f = -  \frac{f(\vec{k}) - f_0
 Rearranging this equation gives:
 $$f(\vec{k}) = f_0(\vec{k}) + \frac{e \vec{E} \cdot \nabla_{\vec{k}} f (\vec{k})}{\hbar} \tau $$
 This equation describes how the distribution function $f(\vec{k})$ deviates from the equilibrium distribution function $f_0(\vec{k})$ due to the applied electric field $\vec{E}$. The term $\frac{e \vec{E} \cdot \nabla_{\vec{k}} f (\vec{k})}{\hbar} \tau$ represents the perturbation to the distribution function caused by the electric field, scaled by the relaxation time $\tau$.
-This equation is again difficult to solve. However, we can use the self-consistent method to find an approximate solution. 
+This equation is again difficult to solve. However, we can use the self-consistent method to find an approximate solution. We start with an initial guess for $f(\vec{k})$, such as the equilibrium distribution $f_0(\vec{k})$. We then compute the right-hand side of the equation using this guess to obtain a new estimate for $f(\vec{k})$. This process is repeated iteratively until convergence is achieved, meaning that the changes in $f(\vec{k})$ between successive iterations become negligibly small.
+This time we only do the first iteration:
+$$f(\vec{k}) \approx f_0(\vec{k}) + \frac{e \vec{E} \cdot \nabla_{\vec{k}} f_0 (\vec{k})}{\hbar} \tau $$
+Which can be seen as the Taylor expansion of $f$ around $f_0$ considering only the first order term.
+$$f(\vec{k}) \approx f_0(\vec{k}) \cdot \left( \vec{k} + \frac{e \vec{E} \tau}{\hbar} \right) $$
+
 
 
 
