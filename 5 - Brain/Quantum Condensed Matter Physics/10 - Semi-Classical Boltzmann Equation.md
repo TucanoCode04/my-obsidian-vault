@@ -97,7 +97,15 @@ This time we only do the first iteration:
 $$f(\vec{k}) \approx f_0(\vec{k}) + \frac{e \vec{E} \cdot \nabla_{\vec{k}} f_0 (\vec{k})}{\hbar} \tau $$
 Which can be seen as the Taylor expansion of $f$ around $f_0$ considering only the first order term.
 $$f(\vec{k}) \approx f_0(\vec{k}) \cdot \left( \vec{k} + \frac{e \vec{E} \tau}{\hbar} \right) $$
-
+This shows that the effect of the electric field is to shift the distribution function in momentum space by an amount proportional to $\frac{e \vec{E} \tau}{\hbar}$. Assuming that $\vec{E} = \begin{pmatrix} E_x \\ 0 \\ 0 \end{pmatrix}$, we come to the, previously mentioned, shift of the Fermi sphere in the opposite direction of the applied field and we can write this shift as:
+$$d \vec{k} = \frac{e \vec{E} \tau(\vec{k})}{\hbar} $$
+Remember that $\tau$ can depend on $\vec{k}$ because different states can have different scattering rates. 
+##### Calculation of Electrical Current
+The electrical current density $\vec{J}$ can be calculated classically using:
+$$\vec{J} = n \cdot (-e) \cdot \vec{v_d}$$
+where $n$ is the electron concentration, $-e$ is the charge of an electron, and $\vec{v_d}$ is the drift velocity of the electrons. This equation describes the flux of electrons per unit area per unit time, with the same average velocity $\vec{v_d}$.
+In a microscopic picture, different $\vec{k}$ results in different velocities $\vec{v}(\vec{k})$, so we need to integrate over all possible states in momentum space, weighted by their occupation given by the distribution function $f(\vec{k})$:
+$$d \vec{J} = -e \cdot \vec{v}(\vec{k}) \cdot f(\vec{k}) \cdot \frac{V}{(2\pi)^3} \cdot 2 \cdot \frac{1}{V} \cdot d\vec{k} $$
 
 
 
