@@ -73,8 +73,9 @@ $$\left( \frac{\partial f}{\partial t} \right)_{collision} = -  \frac{f(\vec{k})
 We can now rewrite the semi-classical Boltzmann equation using the RTA:
 $$\frac{\partial f}{\partial t} + \vec{v} \cdot \nabla_{\vec{r}} f + \frac{\vec{F}}{\hbar} \cdot \nabla_{\vec{k}} f = -  \frac{f(\vec{k}) - f_0(\vec{k})}{\tau(\vec{k})} $$
 We will later see that $\vec{F} = -e \vec{E}$, where $\vec{E}$ is the applied electric field. We expect that by removing the perturbation, the system will return to equilibrium, so $f \rightarrow f_0$ as $t \rightarrow \tau$.
-The perturbation will induce our system to be in a non-equilibrium stationary state, meaning that the state does not change with time. We further assume that the system is homogeneous, so there are no spatial variations in the distribution function.
-
+The perturbation will induce our system to be in a non-equilibrium stationary state, meaning that the state does not change with time. We further assume that the system is homogeneous, so there are no spatial variations in the distribution function.  
+So now we want to describe how the system goes from a stationary non-equilibrium state to the equilibrium state. Thus, we set $\frac{\partial f}{\partial t} = 0$, from the stationary state, and $\nabla_{\vec{r}} f = 0$, from the homogeneity assumption. 
+At $t=0$, we remove the pertubation, so $f(t=0) = f_{stationary}$. Since we 
 
 
 
