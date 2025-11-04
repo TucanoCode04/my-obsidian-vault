@@ -167,8 +167,8 @@
             "state": {
               "type": "github-copilot-chat-view",
               "state": {},
-              "icon": "bot-message-square",
-              "title": "Copilot Chat"
+              "icon": "lucide-ghost",
+              "title": "github-copilot-chat-view"
             }
           }
         ],
