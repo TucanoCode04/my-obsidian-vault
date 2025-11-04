@@ -53,7 +53,8 @@ This term represents the rate at which electrons enter the state $\vec{k}$ from 
 To put it all together, the total collision term is:
 $$\left( \frac{\partial f}{\partial t} \right)_{collision} = \int d\vec{k'} \cdot \left[ W_{\vec{k'} \rightarrow \vec{k}} \cdot f(\vec{k'}) \cdot (1 - f(\vec{k})) - W_{\vec{k} \rightarrow \vec{k'}} \cdot f(\vec{k}) \cdot (1 - f(\vec{k'})) \right] \cdot \frac{1}{(2\pi)^3}$$
 It is hard to solve the BTE because the collision term is an integral over all possible final states, making it an integro-differential equation. Additionally, the transition rates $W_{\vec{k} \rightarrow \vec{k'}}$ depend on the specific scattering mechanisms involved, which can be complex and material-dependent. We then introduce approximations to make it solvable.
-**Independent Electron Approximation**:  
+**Independent Electron Approximation**: We assume that electrons scatter independently, ignoring electron-electron interactions. The only scattering events will then be:
+- Defects(vacancies, impurities): 
 
 
 
