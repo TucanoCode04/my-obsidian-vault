@@ -75,7 +75,24 @@ $$\frac{\partial f}{\partial t} + \vec{v} \cdot \nabla_{\vec{r}} f + \frac{\vec{
 We will later see that $\vec{F} = -e \vec{E}$, where $\vec{E}$ is the applied electric field. We expect that by removing the perturbation, the system will return to equilibrium, so $f \rightarrow f_0$ as $t \rightarrow \tau$.
 The perturbation will induce our system to be in a non-equilibrium stationary state, meaning that the state does not change with time. We further assume that the system is homogeneous, so there are no spatial variations in the distribution function.  
 So now we want to describe how the system goes from a stationary non-equilibrium state to the equilibrium state. Thus, we set $\frac{\partial f}{\partial t} = 0$, from the stationary state, and $\nabla_{\vec{r}} f = 0$, from the homogeneity assumption. 
-At $t=0$, we remove the pertubation, so $f(t=0) = f_{stationary}$. Since we 
+At $t=0$, we remove the pertubation, so $f(t=0) = f_{stationary}$. Since we said:
+$$\frac{\partial f}{\partial t} = -  \frac{f(\vec{k}) - f_0(\vec{k})}{\tau(\vec{k})} $$
+We can solve this differential equation:
+$$\int_{f_{stationary}}^{f(t)} \frac{df}{f - f_0} = - \int_0^t \frac{dt'}{\tau} $$
+$$\ln \left( \frac{f(t) - f_0}{f_{stationary} - f_0} \right) = - \frac{t}{\tau} $$
+$$f(t) = f_0 + (f_{stationary} - f_0) e^{-\frac{t}{\tau}} $$
+This shows that the distribution function $f(t)$ exponentially relaxes towards the equilibrium distribution function $f_0$ over the characteristic time scale $\tau$. The relaxation time $\tau$ encapsulates the effects of various scattering mechanisms in the system, such as electron-phonon interactions, impurity scattering, and other processes that contribute to the return to equilibrium.
+##### Boltzmann Equation under Electric Field
+Now we consider the case where an external electric field $\vec{E}$ is applied to the system. The force acting on an electron due to the electric field is given by:
+$$\vec{F} = -e \vec{E}$$
+where $e$ is the elementary charge. Substituting this force into the semi-classical Boltzmann equation using the relaxation time approximation, we have:
+$$\frac{\partial f}{\partial t} + \vec{v} \cdot \nabla_{\vec{r}} f - \frac{e \vec{E}}{\hbar} \cdot \nabla_{\vec{k}} f = -  \frac{f(\vec{k}) - f_0(\vec{k})}{\tau(\vec{k})} $$
+In the steady-state condition, where the distribution function does not change with time ($\frac{\partial f}{\partial t} = 0$), and assuming spatial homogeneity ($\nabla_{\vec{r}} f = 0$), the equation simplifies to:
+$$- \frac{e \vec{E}}{\hbar} \cdot \nabla_{\vec{k}} f = -  \frac{f(\vec{k}) - f_0(\vec{k})}{\tau(\vec{k})} $$
+Rearranging this equation gives:
+$$f(\vec{k}) = f_0(\vec{k}) + \frac{e \vec{E} \cdot \nabla_{\vec{k}} f (\vec{k})}{\hbar} \tau $$
+This equation describes how the distribution function $f(\vec{k})$ deviates from the equilibrium distribution function $f_0(\vec{k})$ due to the applied electric field $\vec{E}$. The term $\frac{e \vec{E} \cdot \nabla_{\vec{k}} f (\vec{k})}{\hbar} \tau$ represents the perturbation to the distribution function caused by the electric field, scaled by the relaxation time $\tau$.
+This equation is again difficult to solve. However, we can use the self-consistent method to find an approximate solution. 
 
 
 
