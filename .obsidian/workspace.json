@@ -190,8 +190,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "be216889e26b3807",
+  "active": "6ee9dd6f536438da",
   "lastOpenFiles": [
+    "5 - Brain/Cybersecurity/Cybersec",
+    "5 - Brain/Mathematics for Quantum Engineering/Mathematics",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/09 - Color Centers.md",
@@ -210,9 +212,9 @@
     "Pasted image 20251029141349.png",
     "Pasted image 20251029141318.png",
     "Pasted image 20251029134923.png",
-    "5 - Brain/Cybersecurity/00 - Introduction to Cybersecurity.md",
+    "5 - Brain/Cybersecurity/Cybersec/00 - Introduction to Cybersecurity.md",
     "5 - Brain/Cybersecurity/Exercises/02 - Exercises.md",
-    "5 - Brain/Cybersecurity/01 - Networking.md",
+    "5 - Brain/Cybersecurity/Cybersec/01 - Networking.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/07 - First Order Perturbation Theory.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/06 - Energy Bands Slides.md",
     "5 - Brain/Mathematics for Quantum Engineering/Exercises/Q3 - Simultaneous Diagonalization.md",
@@ -221,13 +223,13 @@
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/05 - Electrons in a Periodic Potential.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/03 - Reciprocal Bravais Lattice.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/00 - Scalar and Vector Potential.md",
-    "5 - Brain/Mathematics for Quantum Engineering/01 - Polarization of Light.md",
+    "5 - Brain/Mathematics for Quantum Engineering/Mathematics/01 - Polarization of Light.md",
     "5 - Brain/Mathematics for Quantum Engineering/Exercises/Q2 - Entanglement.md",
     "5 - Brain/Mathematics for Quantum Engineering/Exercises",
     "5 - Brain/Cybersecurity/Exercises/01 - Exercises.md",
     "5 - Brain/Cybersecurity/Exercises",
     "5 - Brain/Quantum Devices/Group A/06 - Lecture 6.md",
-    "5 - Brain/Fundamental of Technological Processes/Professor Cocuzza/01 - Wafer Production.md",
+    "5 - Brain/Fundamental of Technological Processes/Technological Processes/01 - Wafer Production.md",
     "5 - Brain/Quantum Devices/Group A/05 - Lecture 5.md",
     "5 - Brain/Quantum Devices/Group A/04 - Lecture 4.md",
     "5 - Brain/Quantum Devices/Group A/03 - Lecture 3.md",
@@ -235,8 +237,6 @@
     "5 - Brain/Untitled.base",
     "5 - Brain/Quantum Devices/Main Course",
     "5 - Brain/Quantum Devices/Group A",
-    "5 - Brain/Fundamental of Technological Processes/Professor Ghigo",
-    "5 - Brain/Fundamental of Technological Processes/Professor Cocuzza",
-    "5 - Brain/Mathematics for Quantum Engineering"
+    "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity"
   ]
 }
