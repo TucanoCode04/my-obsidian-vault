@@ -66,8 +66,14 @@ where $\psi_{\vec{k}}(\vec{r})$ are the Bloch wavefunctions of the electrons. $\
 The scattering rate due to phonons can also be calculated using Fermi's Golden Rule. Phonons can be seen as sound waves propagating through the crystal lattice, which are described as:
 $$\mu = A e^{i(\vec{q} \cdot \vec{r} - \omega t)}$$ where $\vec{q}$ is the phonon wave vector, $\omega$ is the angular frequency, and $A$ is the amplitude of the wave. 
 $$W_{\vec{k} \rightarrow \vec{k'}}^{phonons} \propto \delta(E(\vec{k'}) - E(\vec{k}) + \hbar \omega \cdot | \langle \vec{k'} | e^{i \vec{q} \cdot \vec{r}} | \vec{k} \rangle |^2 $$
-where $\hbar \omega$ is the energy of the phonon involved in the scattering process. The term which included $t$ is lost while calculating the derivative of the Fermi Golden Rule, it is now represented in the delta function. The scattering, this time, is not elastic because phonons can absorb or emit energy, so $E(\vec{k'}) - E(\vec{k}) = \pm \hbar \omega$. 
+where $\hbar \omega$ is the energy of the phonon involved in the scattering process. The term which included $t$ is lost while calculating the derivative of the Fermi Golden Rule, it is now represented in the delta function. The scattering, this time, is not elastic because the phonon can be either absorbed or emitted, so $E(\vec{k'}) - E(\vec{k}) = \pm \hbar \omega$. 
 ##### Relaxation Time Approximation
+To simplify the collision term, we can use the relaxation time approximation (RTA). This approximation assumes that the distribution function $f$ relaxes towards the equilibrium distribution function $f_0$, from the state of non-equilibrium $f$, over a characteristic time scale known as the relaxation time $\tau$. The RTA expresses the collision term as:
+$$\left( \frac{\partial f}{\partial t} \right)_{collision} = -  \frac{f(\vec{k}) - f_0(\vec{k})}{\tau(\vec{k})} $$
+We can now rewrite the semi-classical Boltzmann equation using the RTA:
+$$\frac{\partial f}{\partial t} + \vec{v} \cdot \nabla_{\vec{r}} f + \frac{\vec{F}}{\hbar} \cdot \nabla_{\vec{k}} f = -  \frac{f(\vec{k}) - f_0(\vec{k})}{\tau(\vec{k})} $$
+We will later see that $\vec{F} = -e \vec{E}$, where $\vec{E}$ is the applied electric field. We expect that by removing the perturbation, the system will return to equilibrium, so $f \rightarrow f_0$ as $t \rightarrow \tau$.
+The perturbation will induce our system to be in a non-equilibrium stationary state, meaning that the state does not change with time. We further assume that the system is homogeneous, so there are no spatial variations in the distribution function.
 
 
 
