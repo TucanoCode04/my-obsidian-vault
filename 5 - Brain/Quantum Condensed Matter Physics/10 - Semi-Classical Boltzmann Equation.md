@@ -106,7 +106,8 @@ $$\vec{J} = n \cdot (-e) \cdot \vec{v_d}$$
 where $n$ is the electron concentration, $-e$ is the charge of an electron, and $\vec{v_d}$ is the drift velocity of the electrons. This equation describes the flux of electrons per unit area per unit time, with the same average velocity $\vec{v_d}$.
 In a microscopic picture, different $\vec{k}$ results in different velocities $\vec{v}(\vec{k})$, so we need to integrate over all possible states in momentum space, weighted by their occupation given by the distribution function $f(\vec{k})$:
 $$d \vec{J} = -e \cdot \vec{v}(\vec{k}) \cdot f(\vec{k}) \cdot \frac{V}{(2\pi)^3} \cdot 2 \cdot \frac{1}{V} \cdot d\vec{k} $$
-
+$$\vec{J} = - \frac{e}{4 \pi^3} \int_{BZ} d\vec{k} \cdot \vec{v}(\vec{k}) \cdot f(\vec{k}) $$
+where the integral is over the entire Brillouin zone (BZ) in momentum space, because it contains all unique crystal momenta, every possible electron state in the periodic solid is represented once within it. $\vec{v}(\vec{k})$ is the group velocity of electrons at wave vector $\vec{k}$, so it's the slope of the energy band $E(\vec{k})$ at that point in the momentum space, basically the derivative of energy with respect to momentum: $$\vec{v}(\vec{k}) = \frac{1}{\hbar} \nabla_{\vec{k}} E(\vec{k}) $$
 
 
 
