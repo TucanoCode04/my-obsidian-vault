@@ -116,5 +116,11 @@ $$U(t) |\Psi_0 \rangle = \sum_{j=1}^n c_j(0) U(t) |\xi_j \rangle = \sum_{j=1}^n 
 	0 & 0 & \ldots & e^{-\frac{i}{\hbar} \lambda_n t}
 	\end{pmatrix}$$
 	**Remark:** (i) U(t) unitary $\Rightarrow$ $U(t)^{\dagger}$ unitary. 
+	$$\langle U(t)^{\dagger} v | U(t)^{\dagger} w \rangle = \langle v | U(t) U(t)^{\dagger} w \rangle = \langle v | w \rangle$$
+	(ii) $(T^{\dagger})^{\dagger} = T$
+	(iii) $U$ unitary $\Rightarrow$ $U(t)^{-1} = U(t)^{\dagger}$
+	(iv) $U(t)$ unitary $\Rightarrow$ $U(t)$ invertible.
+	(v) $\mu$ eigenvalue of $U(t) \Rightarrow$ $|\mu| = 1 \Rightarrow \mu = e^{i \alpha}, \quad \alpha \in \mathbb{R}$ Dove $e^{i \alpha}$ is called a phase factor.
+	(vi) The matrix that represents a unitary operator $U(t)$ in an orthonormal basis. Every column  
 
 ## References
