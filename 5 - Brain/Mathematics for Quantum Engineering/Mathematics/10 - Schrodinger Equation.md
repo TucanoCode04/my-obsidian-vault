@@ -103,7 +103,18 @@ $$U(t) |\Psi_0 \rangle = \sum_{j=1}^n c_j(0) U(t) |\xi_j \rangle = \sum_{j=1}^n 
 	$$\langle e_1 | W|e_j \rangle = \langle_1 | \sum_{k=1}^{\infty} v_k |e_k \rangle = \sum_{k=1}^{\infty} v_k \langle e_1 | e_{2k} \rangle = 0, \quad \forall |v\rangle \in l^2 $$
 	On the other hand we can prove (iii) $\Rightarrow$ (i). If dim V = +$\infty$, one defines unitary operators as those that satisfy (iii). $U(t) = U(t)^{\dagger} U(t) = I$.
 	**Remark:** $U(t) U(t)^{\dagger} = U(t)^{\dagger} U(t) = I \Rightarrow [U(t), U(t)^{\dagger}] = 0$
-	For Schrodinger propagators, if $\{|\xi_1\rangle, |\xi_2 \rangle, \ldots, \xi_n \rangle \}$ is an orthonormal basis of eigenvectors of $\hat{H}$, then }
+	For Schrodinger propagators, if $\{|\xi_1\rangle, |\xi_2 \rangle, \ldots, \xi_n \rangle \}$ is an orthonormal basis of eigenvectors of $\hat{H}$, then it is made of eigenvectors of $e^{-i \hat{H} t}$ too.
+	$$\hat{H} = \begin{pmatrix}
+	\lambda_1 & 0 & \ldots & 0 \\
+	0 & \lambda_2 & \ldots & 0 \\
+	\vdots & \vdots & \ddots & \vdots \\
+	0 & 0 & \ldots & \lambda_n
+	\end{pmatrix} \quad \Rightarrow \quad e^{-\frac{i}{\hbar} \hat{H} t} = \begin{pmatrix}
+	e^{-\frac{i}{\hbar} \lambda_1 t} & 0 & \ldots & 0 \\
+	0 & e^{-\frac{i}{\hbar} \lambda_2 t} & \ldots & 0 \\
+	\vdots & \vdots & \ddots & \vdots \\
+	0 & 0 & \ldots & e^{-\frac{i}{\hbar} \lambda_n t}
+	\end{pmatrix}$$
 
 
 
