@@ -76,7 +76,19 @@ $$U(t) |\Psi_0 \rangle = \sum_{j=1}^n c_j(0) U(t) |\xi_j \rangle = \sum_{j=1}^n 
 	$$\langle v | w \rangle = \frac{1}{4} \left( || v + w ||^2 - || v - w ||^2 + i || v + i w ||^2 - i || v - i w ||^2 \right)$$
 	$$\langle U(t) v | U(t) w \rangle = \frac{1}{4} \left( || U(t) v + U(t) w ||^2 - || U(t) v - U(t) w ||^2 + i || U(t) v + i U(t) w ||^2 - i || U(t) v - i U(t) w ||^2 \right) = \langle v | w \rangle$$
 	(i) $\Rightarrow$ (iii) is immediate by definition of orthonormal basis.
-	
+	(iii) $\Rightarrow$ (i): Consider an orthonormal basis $\{ | \xi_1\rangle, | \xi_2 \rangle, \ldots, | \xi_n \rangle \}$. Then, $\{|\eta_1 \rangle = U(t) |\xi_1 \rangle, |\eta_2 \rangle, \ldots, |\eta_n \rangle \}$ is also an orthonormal basis. Where $|\eta_i\rangle = U(t) |\xi_i U(t) |\xi_i \rangle$. Then, for $v = \sum_{j=1}^n v_j |\xi_j \rangle$ and $w = \sum_{k=1}^n w_k |\xi_k \rangle$:
+	$$\langle U(t) v | U(t) w \rangle = \sum_{j,k=1}^n v_j^* w_k \langle U(t) \xi_j | U(t) \xi_k \rangle = \sum_{j,k=1}^n v_j^* w_k \delta_{jk} = \langle v | w \rangle$$
+	(i) $\Rightarrow$ (iv): By definition of adjoint map:
+	$$\langle U(t) v | U(t) w \rangle = \langle v| U(t)^{\dagger} U(t) w \rangle$$
+	Choose an orthonormal basis $\{ |e_1 \rangle, |e_2 \rangle, \ldots, |e_n \rangle \}$ and compute the matric that in the basis represents $U(t)^{\dagger} U(t)$. Let $M$ be this matrix. Then,
+	$$M_{ij} = \langle e_i | U(t)^{\dagger} U(t) | e_j \rangle = \langle e_i | e_j \rangle = \delta_{ij}$$
+	So, $M = I$ and thus $U(t)^{\dagger} U(t) = I$.
+	(iv) $\Rightarrow$ (i): By definition of adjoint map:
+	Assume that $U(t)^{\dagger} U(t) = I$. Let $|v \rangle, |w \rangle \in V$. Then,
+	$$\langle U(t) v | U(t) w \rangle = \langle v | U(t)^{\dagger} U(t) w \rangle = \langle v | w \rangle$$
+	(iv) $\Rightarrow$ (v): Taking the adjoint of both sides of $U(t)U(t)^{\dagger} = I$, we get:
+	$$U(t) U(t)^{\dagger} U(t) = U(t) \Rightarrow U(t) U(t)^{\dagger} U(t) - U(t) = 0 \Rightarrow U(t) (U(t)^{\dagger} U(t) - I) = 0$$
+	Let $|\xi_1\rangle, |\xi_2 \rangle, \ldots, |\xi_n \rangle$ be an be thonormal basis. $|\eta_j \rangle = U(t) |\xi_j \rangle$. 
 	 
 
 
