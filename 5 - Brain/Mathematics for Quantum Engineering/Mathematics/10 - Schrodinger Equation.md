@@ -88,8 +88,17 @@ $$U(t) |\Psi_0 \rangle = \sum_{j=1}^n c_j(0) U(t) |\xi_j \rangle = \sum_{j=1}^n 
 	$$\langle U(t) v | U(t) w \rangle = \langle v | U(t)^{\dagger} U(t) w \rangle = \langle v | w \rangle$$
 	(iv) $\Rightarrow$ (v): Taking the adjoint of both sides of $U(t)U(t)^{\dagger} = I$, we get:
 	$$U(t) U(t)^{\dagger} U(t) = U(t) \Rightarrow U(t) U(t)^{\dagger} U(t) - U(t) = 0 \Rightarrow U(t) (U(t)^{\dagger} U(t) - I) = 0$$
-	Let $|\xi_1\rangle, |\xi_2 \rangle, \ldots, |\xi_n \rangle$ be an be thonormal basis. $|\eta_j \rangle = U(t) |\xi_j \rangle$. 
-	 
+	Let $|\xi_1\rangle, |\xi_2 \rangle, \ldots, |\xi_n \rangle$ be an be orthonormal basis. $|\eta_j \rangle = U(t) |\xi_j \rangle$. Then,
+	$$U(t) (U(t)^{\dagger} U(t) - I) |\xi_j \rangle = U(t) (U(t)^{\dagger} |\eta_j \rangle - |\xi_j \rangle) = |\eta_j \rangle - |\eta_j \rangle = 0$$
+	Thus, $U(t)^{\dagger} U(t) = I$.
+	(v) $\Rightarrow$ (iv): The same as above.
+	 **Definition:** A linear map in finite dimension that satisfies the equivalent properties (i)-(v) is called a unitary operator.
+	 **Remark:** The Schrödinger propagators U(t) are unitary operators for all t.
+	 **Remark:** In infinite-dimension unitary is more delicate. Consider the space $l^2= \{ |e_1\rangle, |e_2\rangle, \ldots) \}$ dim $= +\infty$. $\langle e_j | e_k e_k \rangle = \delta_{jk}$. 
+	 $\forall|v\rangle \in l^2, \quad \exists c_j \in \mathbb{C}$ such that $$|v \rangle = \sum_{j=1}^{\infty} c_j |e_j \rangle, \quad \langle v | v \rangle = \sum_{j=1}^{\infty} |c_j|^2 < +\infty$$
+	 $$W: l^2 \to l^2, \quad W |e_j \rangle = |e_{2j} \rangle$$
+	 Then, 
+	$$\langle W u | W v \rangle = \sum_{j=1}^{\infty} u_j^* v_j = \langle u | v \rangle$$So, W preserves the Hermitian product. But for example (iii) is not true, because the image of the basis $\{ |e_1 \rangle, |e_2 \rangle, \ldots \}$ is $\{ |e_2 \rangle, |e_4 \rangle, \ldots \}$ which is not a basis of $l^2$.  
 
 
 
