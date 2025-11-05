@@ -68,7 +68,15 @@ $$U(t) |\Psi_0 \rangle = \sum_{j=1}^n c_j(0) U(t) |\xi_j \rangle = \sum_{j=1}^n 
 	 **Remark:** $\forall S,T : \mathbf{V} \to \mathbf{V}$ linear maps, we have:
 	 $(ST)^{\dagger} = S^{\dagger} T^{\dagger}$
 	 Indeed, $\langle v | ST w \rangle = \langle S^{\dagger} v | T w \rangle = \langle T^{\dagger} S^{\dagger} v | w \rangle$
-2. i). 	
+2. (i) Time evolution preserves the Hermitian product: $$\forall |\phi_0 \rangle, |\psi\rangle \in V \Rightarrow \langle U(t) \phi_0 | U(t) \psi_0 \rangle = \langle \phi_0 | \psi_0 \rangle$$ (ii) The norm is preserved: $$\forall |\psi_0 \rangle \in V \Rightarrow || U(t) \psi_0 || = || \psi_0 ||$$ (iii) $U(t)$ maps orthonormal bases into orthonormal bases.
+	(iv) $U(t)$ is a unitary operator: $$U(t)^{\dagger} U(t) = I$$ Where $I$ is the identity operator.
+	(v) $U(t)^{\dagger} U(t) = U(t) U(t)^{\dagger}$
+	**Proof:** (i) $\Rightarrow$ (ii) is immediate by definition of norm. 
+	(ii) $\Rightarrow$ (i): By polarization identity:
+	$$\langle v | w \rangle = \frac{1}{4} \left( || v + w ||^2 - || v - w ||^2 + i || v + i w ||^2 - i || v - i w ||^2 \right)$$
+	$$\langle U(t) v | U(t) w \rangle = \frac{1}{4} \left( || U(t) v + U(t) w ||^2 - || U(t) v - U(t) w ||^2 + i || U(t) v + i U(t) w ||^2 - i || U(t) v - i U(t) w ||^2 \right) = \langle v | w \rangle$$
+	(i) $\Rightarrow$ (iii) is immediate by definition of orthonormal basis.
+	
 	 
 
 
