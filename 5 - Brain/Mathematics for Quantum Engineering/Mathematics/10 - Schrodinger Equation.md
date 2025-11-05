@@ -46,7 +46,12 @@ We know that $\lambda_j^n |\xi_j \rangle = \hat{H}^n | \xi_j \rangle$ by definit
 Then by linearity,
 $$U(t) |\Psi_0 \rangle = \sum_{j=1}^n c_j(0) U(t) |\xi_j \rangle = \sum_{j=1}^n c_j(0) \sum_{n=0}^{\infty} \frac{1}{n!} \left( -\frac{i}{\hbar} \hat{H} t \right)^n |\xi_j \rangle = \sum_{j=1}^n \frac{1}{n!} \left( -{i}{\hat{H}} t\right)^n |\Psi_0 \rangle$$
 (Check it again).
-
+#### Propagator properties
+1. **Adjoint Map**: 
+	 Proposition: $\mathbf{V}$ vector space, dim $\mathbf{V} = N < +\infty$. $T: \mathbf{V} \to \mathbf{V}$ linear map. $\exists$ the hermitian product defined in $\mathbf{V}$. Then exists and is unique($\exists !$) the adjoint map $T^{\dagger}: \mathbf{V} \to \mathbf{V}$ is defined by: 
+	 $$\forall |v \rangle, |w \rangle \in \mathbf{V}, \quad \langle v | T w \rangle = \langle T^{\dagger} v | w \rangle$$
+	 Def: The map $T$ is called adjoint of $T$.
+	 Proof of the proposition: First we assume that such $T^{\dagger}$ exists and we prove its uniqueness. Let $|e_1 \rangle, |e_2 \rangle, \ldots, |e_N 
 
 
 
