@@ -18,5 +18,8 @@ Superconductor and perfect conductors both react to an external magnetic field b
 However, in a perfect conductor, if the magnetic field is applied before cooling below $T_C$, the magnetic flux remains trapped inside the material. So it will expel the magnetic field only if it is applied after cooling below $T_C$. 
 In contrast, a superconductor will expel the magnetic field regardless of whether it was applied before or after cooling below $T_C$. The only limit is given by the critical magnetic field ($H_C$), above which superconductivity is destroyed, and the material reverts to its normal state.
 Diamagnetism is perfect only for bulk superconductors, since the magnetic field can penetrate a thin surface layer of thickness called the London penetration depth ($\lambda$), which is typically on the order of tens to hundreds of nanometers. 
-A way to 
+A way to experimentally observe the Meissner effect is to cool a superconducting sample below its critical temperature in the presence of an external magnetic field and then measure the magnetic susceptibility(which quantifies the degree of magnetization in magnetization in response to an applied magnetic field) of the sample. 
+The Meissner effect shows that superconductors are not merely perfect conductors but exhibit a unique quantum state that expels magnetic fields.
+##### Critical Magnetic Field(s) and Critical Current Density
+
 ## References
