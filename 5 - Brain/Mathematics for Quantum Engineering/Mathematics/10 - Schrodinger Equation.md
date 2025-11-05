@@ -40,11 +40,13 @@ $$|\Psi_t \rangle = \sum_{j=1}^n c_j(0) e^{-\frac{i}{\hbar} \lambda_j t} | \xi_j
 Notation:
 $$|\Psi_t \rangle = e^{-\frac{i}{\hbar} \hat{H} t} |\Psi_0 \rangle = U(t) |\Psi_0 \rangle$$ Where $U(t)$ is called propagator or unitary group associated to the system.
 
-**Remark:** $e^{-\frac{i}{\hbar} \hat{H} t} = \sum_{n=0}^{\infty} \frac{1}{n!} \left( -\frac{i}{\hbar} \hat{H} t \right)^n$ is defined by the Taylor series.
-**Proof:** $U(t) |\xi_j \rangle = e^{-\frac{i}{\hbar} \lambda_j t} |\xi_j \rangle = \sum_{n=0}^{\infty} \frac{1}{n!} \left( -\frac{i}{\hbar} \hat{H} t \right)^n |\xi_j \rangle = \sum_{n=0}^{\infty} \frac{1}{n!} \left( -\frac{i}{\hbar} \lambda_j t \right)^n |\xi_j \rangle$.
+**Remark:** $e^{-\frac{i}{\hbar} \hat{H} t} = \sum_{n=0}^{\infty} \frac{1}{n!} \left( -\frac{i}{\hbar} \hat{H} t \right)^n$ is defined by the Taylor series. In infinite-dimensional spaces, the convergence of this series is not guaranteed for all operators $\hat{H}$. 
+**Proof:** $$U(t) |\xi_j \rangle = e^{-\frac{i}{\hbar} \lambda_j t} |\xi_j \rangle = \sum_{n=0}^{\infty} \frac{1}{n!} \left( -\frac{i}{\hbar} \hat{H} t \right)^n |\xi_j \rangle = \sum_{n=0}^{\infty} \frac{1}{n!} \left( -\frac{i}{\hbar} \lambda_j t \right)^n |\xi_j \rangle$$
 We know that $\lambda_j^n |\xi_j \rangle = \hat{H}^n | \xi_j \rangle$ by definition of eigenvalue.
 Then by linearity,
-$$U(t) |\Psi_0 \rangle = \sum_{j=1}^n c_j(0) U(t) |\xi_j \rangle = \sum_{j=1}^n c_j(0) 
+$$U(t) |\Psi_0 \rangle = \sum_{j=1}^n c_j(0) U(t) |\xi_j \rangle = \sum_{j=1}^n c_j(0) \sum_{n=0}^{\infty} \frac{1}{n!} \left( -\frac{i}{\hbar} \hat{H} t \right)^n |\xi_j \rangle = \sum_{j=1}^n \frac{1}{n!} \left( -{i}{\hat{H}} t\right)^n |\Psi_0 \rangle$$
+(Check it again).
+
 
 
 
