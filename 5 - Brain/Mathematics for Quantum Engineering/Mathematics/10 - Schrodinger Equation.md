@@ -57,10 +57,18 @@ $$U(t) |\Psi_0 \rangle = \sum_{j=1}^n c_j(0) U(t) |\xi_j \rangle = \sum_{j=1}^n 
 	 $$T^{\dagger} |e_j \rangle = \sum_{k=1}^N |e_k \rangle \langle e_k | T^{\dagger} e_j \rangle = \sum_{k=1}^N |e_k \rangle \langle T e_k | e_j \rangle$$
 	 This defines $T^{\dagger}$ uniquely on the basis. On the other hand, to prove the existence, we define $T^{\dagger}$ as above and we check that it satisfies the definition.
 	 $$\forall|v \rangle, |w \rangle \in \mathbf{V}, \quad \text{with} \quad |v \rangle = \sum_{j=1}^N v_j |e_j \rangle, \quad |w \rangle = \sum_{k=1}^N w_k |e_k \rangle$$
-	 $$\langle w| T v \rangle = \sum_{j,k=1}^N v_j w_k^* \langle e_k | T e_j \rangle $$
-	 Let us prove the equality:
-	 $$\langle e_k | T e_j \rangle = \langle T^{\dagger} e_k | e_j \rangle \quad \forall j,k$$
-	 $$\langle T^{\dagger} e_k | e_j \rangle = \left\langle \sum_{m=1}^N |e_m \rangle \langle T e_m | e_k \rangle | e_j \right\rangle = \sum_{m=1}^N \langle T e_m | e_k \rangle \langle e_m | e_j \rangle = \langle T e_j | e_k \rangle$$
+	 $$\langle v  | T w \rangle = \sum_{j,k=1}^N v_j^* w_k \langle e_j | T e_k \rangle $$
+	 Let us prove that:
+	 $$\langle e_j | T e_k \rangle = \langle T^{\dagger} e_j | e_k \rangle$$
+	 Indeed,
+	 $$\langle T^{\dagger} e_j | e_k \rangle = \left(\sum_{l=1}^N \langle e_l | \langle e_j | T e_l \rangle \right) | e_k \rangle = \sum_{l=1}^N \delta_{l k} \langle e_j | T e_l \rangle = \langle e_j | T e_k \rangle$$
+	 So,
+	 $$\langle v | T w \rangle = \sum_{j,k=1}^N v_j^* w_k \langle T^{\dagger} e_j | e_k \rangle = \sum_{j,k=1}^N v_j^* w_k \langle e_k | T^{\dagger} e_j \rangle^* = \langle T^{\dagger} v | w \rangle$$
+	 **Remark:** The logic of the proof is that if T† exists, it must act as defined on the basis. The map defined in this way fulfils the definition of adjoint.
+	 **Remark:** $\forall S,T : \mathbf{V} \to \mathbf{V}$ linear maps, we have:
+	 $(ST)^{\dagger} = S^{\dagger} T^{\dagger}$
+	 Indeed, $\langle v | ST w \rangle = \langle S^{\dagger} v | T w \rangle = \langle T^{\dagger} S^{\dagger} v | w \rangle$
+2. i). 	
 	 
 
 
