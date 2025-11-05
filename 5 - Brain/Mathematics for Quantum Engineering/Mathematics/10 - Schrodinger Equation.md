@@ -177,7 +177,24 @@ $$\left( U(1) - I \right) |v\rangle = 0 \Rightarrow \frac{1}{\sqrt{2}} \begin{pm
 \end{pmatrix} \begin{pmatrix}
 v_1 \\
 v_2
-
+\end{pmatrix} = 0$$
+$$\Rightarrow v_2 = 0, \quad v_1 \text{ free } \Rightarrow |v_1 \rangle = \begin{pmatrix}
+1 \\
+0
+\end{pmatrix}$$
+For $\lambda = -1$:
+$$\left( U(1) + I \right) |v\rangle = 0 \Rightarrow \frac{1}{\sqrt{2}} \begin{pmatrix}
+2 & 1 \\
+1 & 0
+\end{pmatrix} \begin{pmatrix}
+v_1 \\
+v_2
+\end{pmatrix} = 0$$
+$$\Rightarrow v_1 = 0, \quad v_2 \text{ free } \Rightarrow |v_2 \rangle = \begin{pmatrix}
+0 \\
+1
+\end{pmatrix}$$
+2. 
 	
 
 ## References
