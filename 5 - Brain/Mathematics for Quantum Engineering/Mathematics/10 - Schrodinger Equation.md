@@ -51,7 +51,17 @@ $$U(t) |\Psi_0 \rangle = \sum_{j=1}^n c_j(0) U(t) |\xi_j \rangle = \sum_{j=1}^n 
 	 Proposition: $\mathbf{V}$ vector space, dim $\mathbf{V} = N < +\infty$. $T: \mathbf{V} \to \mathbf{V}$ linear map. $\exists$ the hermitian product defined in $\mathbf{V}$. Then exists and is unique($\exists !$) the adjoint map $T^{\dagger}: \mathbf{V} \to \mathbf{V}$ is defined by: 
 	 $$\forall |v \rangle, |w \rangle \in \mathbf{V}, \quad \langle v | T w \rangle = \langle T^{\dagger} v | w \rangle$$
 	 Def: The map $T$ is called adjoint of $T$.
-	 Proof of the proposition: First we assume that such $T^{\dagger}$ exists and we prove its uniqueness. Let $|e_1 \rangle, |e_2 \rangle, \ldots, |e_N 
+	 Proof of the proposition: First we assume that such $T^{\dagger}$ exists and we prove its uniqueness. Let $|e_1 \rangle, |e_2 \rangle, \ldots, |e_N \rangle$ be an orthonormal basis of $\mathbf{V}$. Then, 
+	 $$\langle e_j| T_{ek} \rangle = \langle T^{\dagger} e_j | e_k \rangle = \langle  e_k | T^{\dagger} e_j \rangle^*$$
+	 We compute: 
+	 $$T^{\dagger} |e_j \rangle = \sum_{k=1}^N |e_k \rangle \langle e_k | T^{\dagger} e_j \rangle = \sum_{k=1}^N |e_k \rangle \langle T e_k | e_j \rangle$$
+	 This defines $T^{\dagger}$ uniquely on the basis. On the other hand, to prove the existence, we define $T^{\dagger}$ as above and we check that it satisfies the definition.
+	 $$\forall|v \rangle, |w \rangle \in \mathbf{V}, \quad \text{with} \quad |v \rangle = \sum_{j=1}^N v_j |e_j \rangle, \quad |w \rangle = \sum_{k=1}^N w_k |e_k \rangle$$
+	 $$\langle w| T v \rangle = \sum_{j,k=1}^N v_j w_k^* \langle e_k | T e_j \rangle $$
+	 Let us prove the equality:
+	 $$\langle e_k | T e_j \rangle = \langle T^{\dagger} e_k | e_j \rangle \quad \forall j,k$$
+	 $$\langle T^{\dagger} e_k | e_j \rangle = \left\langle \sum_{m=1}^N |e_m \rangle \langle T e_m | e_k \rangle | e_j \right\rangle = \sum_{m=1}^N \langle T e_m | e_k \rangle \langle e_m | e_j \rangle = \langle T e_j | e_k \rangle$$
+	 
 
 
 
