@@ -121,6 +121,21 @@ $$U(t) |\Psi_0 \rangle = \sum_{j=1}^n c_j(0) U(t) |\xi_j \rangle = \sum_{j=1}^n 
 	(iii) $U$ unitary $\Rightarrow$ $U(t)^{-1} = U(t)^{\dagger}$
 	(iv) $U(t)$ unitary $\Rightarrow$ $U(t)$ invertible.
 	(v) $\mu$ eigenvalue of $U(t) \Rightarrow$ $|\mu| = 1 \Rightarrow \mu = e^{i \alpha}, \quad \alpha \in \mathbb{R}$ Dove $e^{i \alpha}$ is called a phase factor.
-	(vi) The matrix that represents a unitary operator $U(t)$ in an orthonormal basis. Every column  
+	(vi) The matrix that represents a unitary operator $U(t)$ in an orthonormal basis. Every column hosts the coordinates of an orthonormal vector $U(t) |\xi_1 \rangle, U(t) |\xi_2 \rangle, \ldots, U(t) |\xi_n \rangle$. So, the columns form an orthonormal basis. Every row too, because $U(t)^{\dagger}$ is unitary.
+	(vii) $\hat{H}$ self adjoint $\Rightarrow$ $U(t) = e^{-\frac{i}{\hbar} \hat{H} t}$ is unitary. Vice versa, if $U(t)$ is unitary for all $t$, then $\hat{H} = -i \log U(t)$ is self adjoint.
+	When you diagonalize,
+	$$U(t) = \begin{pmatrix}
+	e^{i \alpha_1} & 0 & \ldots & 0 \\
+	0 & e^{i \alpha_2} & \ldots & 0 \\
+	\vdots & \vdots & \ddots & \vdots \\
+		0 & 0 & \ldots & e^{i \alpha_n}
+		\end{pmatrix} \quad \Rightarrow \quad \hat{H} = \begin{pmatrix}
+		\hbar \alpha_1 & 0 & \ldots & 0 \\
+		0 & \hbar \alpha_2 & \ldots & 0 \\
+		\vdots & \vdots & \ddots & \vdots \\
+		0 & 0 & \ldots & \hbar \alpha_n
+		\end{pmatrix}$$
+	Self adjoint. Natural 1 to 1 correspondence between unitary operators and self adjoint operators. 
+	We saw that $\hat{H}$ self adjoint $\Rightarrow$ $e^{-\frac{i}{\hbar} \hat{H} t}$ unitary for all $t$ and 
 
 ## References
