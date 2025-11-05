@@ -136,6 +136,48 @@ $$U(t) |\Psi_0 \rangle = \sum_{j=1}^n c_j(0) U(t) |\xi_j \rangle = \sum_{j=1}^n 
 		0 & 0 & \ldots & \hbar \alpha_n
 		\end{pmatrix}$$
 	Self adjoint. Natural 1 to 1 correspondence between unitary operators and self adjoint operators. 
-	We saw that $\hat{H}$ self adjoint $\Rightarrow$ $e^{-\frac{i}{\hbar} \hat{H} t}$ unitary for all $t$ and 
+	We saw that $\hat{H}$ self adjoint $\Rightarrow$ $e^{-\frac{i}{\hbar} \hat{H} t}$ unitary for all $t$ and is strongly continuous in $t$.
+	$$||e^{-\frac{i}{\hbar} \hat{H} t_1} |v\rangle - e^{-\frac{i}{\hbar} \hat{H} t_2} |v \rangle || \xrightarrow[t_1 \to t_2]{} 0$$
+	**Theorem (Stone's Theorem):** Let $U(t): \mathbf{V} \to \mathbf{V}$ be a strongly continuous unitary group. $U(0) = I$. Then, $\exists !$ self adjoint operator $\hat{H}: \mathbf{V} \to \mathbf{V}$ such that:
+	$$U(t) = e^{-\frac{i}{\hbar} \hat{H} t}$$
+##### Exam January 24, Exercise 1
+A qubit at $t=0$ is in the state $|0\rangle$. From time $t=0$ to time $t=1$ the evolution is represented by the unitary operator:
+$$U(1) = \frac{1}{\sqrt{2}} \begin{pmatrix}
+1 & 1 \\
+1 & -1
+\end{pmatrix}$$
+1. Verify that $U(1)$ is unitary and find its eigenvalues and eigenvectors.
+You first check that $U(1)^{\dagger} U(1) = I$:
+$$U(1)^{\dagger} = \frac{1}{\sqrt{2}} \begin{pmatrix}
+1 & 1 \\
+1 & -1
+\end{pmatrix}$$
+$$U(1)^{\dagger} U(1) = \frac{1}{2} \begin{pmatrix}
+1 & 1 \\
+1 & -1
+\end{pmatrix} \begin{pmatrix}
+1 & 1 \\
+1 & -1
+\end{pmatrix} = \frac{1}{2} \begin{pmatrix}
+2 & 0 \\
+0 & 2
+\end{pmatrix} = I$$
+So now we find the eigenvalues and eigenvectors. We solve the characteristic polynomial:
+$$\text{det}(U(1) - \lambda I) = 0$$
+$$\text{det} \left( \frac{1}{\sqrt{2}} \begin{pmatrix}
+1 - \sqrt{2} \lambda & 1 \\
+1 & -1 - \sqrt{2} \lambda
+\end{pmatrix} \right) = 0$$
+$$\Rightarrow \frac{1}{2} \left( -(1 - \sqrt{2} \lambda)(1 + \sqrt{2} \lambda) - 1 \right) = 0$$
+$$\Rightarrow \lambda^2 - 1 = 0 \Rightarrow \lambda = \pm 1$$
+For $\lambda = 1$:
+$$\left( U(1) - I \right) |v\rangle = 0 \Rightarrow \frac{1}{\sqrt{2}} \begin{pmatrix}
+0 & 1 \\
+1 & -2
+\end{pmatrix} \begin{pmatrix}
+v_1 \\
+v_2
+
+	
 
 ## References
