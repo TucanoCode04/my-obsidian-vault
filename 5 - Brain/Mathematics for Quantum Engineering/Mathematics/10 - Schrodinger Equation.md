@@ -115,7 +115,6 @@ $$U(t) |\Psi_0 \rangle = \sum_{j=1}^n c_j(0) U(t) |\xi_j \rangle = \sum_{j=1}^n 
 	\vdots & \vdots & \ddots & \vdots \\
 	0 & 0 & \ldots & e^{-\frac{i}{\hbar} \lambda_n t}
 	\end{pmatrix}$$
-
-
+	**Remark:** (i) U(t) unitary $\Rightarrow$ $U(t)^{\dagger}$ unitary. 
 
 ## References
