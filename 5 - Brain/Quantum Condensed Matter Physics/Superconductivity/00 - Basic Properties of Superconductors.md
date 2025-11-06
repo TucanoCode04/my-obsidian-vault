@@ -26,7 +26,14 @@ However, a superconducting material also expels magnetic fields from its interio
 
 In type-I superconductors, there is a single critical magnetic field $(H_C)$ above which superconductivity is completely destroyed, so the transition is abrupt. In type-II superconductors, there are two critical fields: the lower critical field $(H_{C1})$, where magnetic flux begins to penetrate the material in the form of vortices(vortex lattice), and the upper critical field $(H_{C2})$, above which superconductivity is destroyed entirely. Between these two fields, the material exists in a mixed state where both superconducting and normal regions coexist.
 The phase transition in zero magnetic field is of second order, meaning that the transition occurs smoothly without latent heat. However, when a magnetic field is applied, the transition can become first order, characterized by a discontinuous change in magnetization and the release or absorption of latent heat. This is particularly evident in type-I superconductors, where the transition from the superconducting to the normal state under an applied magnetic field involves a sudden change in properties.
-Since, from the thermodynamic standpoint, it exists a critical field that destroys superconductivity, it is possible to define a critical transport current density $(J_C)$, that will induce a magnetic field at the surface of the superconductor equal to the critical field $(H_C)$ destroying superconductivity. This is called Slisbee effect.
+Since, from the thermodynamic standpoint, it exists a critical field that destroys superconductivity, it is possible to define a critical transport current density $(J_C)$, that will induce a magnetic field at the surface of the superconductor equal to the critical field $(H_C)$ destroying superconductivity. This is called Silsbee's rule.
+At zero applied magnetic field, using Ampère's law, we can relate the critical current density to the critical magnetic field as follows:
+$$J_C = 2\pi R H_C$$
+where $R$ is the radius of a cylindrical superconductor like a uniform wire.
+The critical behavior of superconductors can be described in terms of a critical surface in a three-dimensional space defined by temperature (T), magnetic field (H), and current density (J). The critical surface separates the superconducting phase from the normal phase. 
+![[Pasted image 20251106183005.png]]
+#### Energy Gap
+In the superconducting state, an energy gap $(\Delta)$ forms at the Fermi level, separating the ground state of Cooper pairs from the excited states of unpaired electrons. This energy gap is a direct consequence of the attractive interaction between electrons that leads to the formation of Cooper pairs. The presence of this energy gap means that a finite amount of energy is required to break a Cooper pair and create quasiparticle excitations. This energy gap is temperature-dependent, decreasing as the temperature approaches the critical temperature $(T_C)$ and vanishing at $T_C$.
 
 
 ---
