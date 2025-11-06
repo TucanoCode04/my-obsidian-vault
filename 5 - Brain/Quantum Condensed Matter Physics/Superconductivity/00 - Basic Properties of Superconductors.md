@@ -21,6 +21,7 @@ Diamagnetism is perfect only for bulk superconductors, since the magnetic field 
 A way to experimentally observe the Meissner effect is to cool a superconducting sample below its critical temperature in the presence of an external magnetic field and then measure the magnetic susceptibility(which quantifies the degree of magnetization in magnetization in response to an applied magnetic field) of the sample. 
 The Meissner effect shows that superconductors are not merely perfect conductors but exhibit a unique quantum state that expels magnetic fields.
 ##### Critical Magnetic Field(s) and Critical Current Density
-
+The Meissner effect can be destroyed by applying a magnetic field stronger than a critical value ($H_C$), which is related to the concept of condensation energy. 
+When the magnetic field exceeds $H_C$, the energy cost of maintaining the superconducting state becomes greater than the energy gained from expelling the magnetic field, leading to a transition back to the normal state. Basically the 
 
 ## References
