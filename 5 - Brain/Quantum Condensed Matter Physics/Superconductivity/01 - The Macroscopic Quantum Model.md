@@ -15,7 +15,9 @@ This assumption doesn't explain the microscopic origin of superconductivity, but
 Like lasers that are described by a single electromagnetic wavefunction. 
 So we assume the existence of a great number of charge carriers, making it more useful to consider $\Psi (\vec{r}, t)$ as describing a fluid of superelectrons rather than individual particles.
 ##### Schrodinger Equation and Macroscopic Quantum Currents
-
+Let us consider the time-dependent Schrödinger equation for a charged particle in electric and magnetic fields:
+$$
+i \hbar \frac{\partial}{\partial t} \Psi (\vec{r}, t) = \frac{1}{2m} \left( -i \hbar \nabla - q \vec{A} (\vec{r}, t) \right)^2 \Psi (\vec{r}, t) 
 
 
 ## References
