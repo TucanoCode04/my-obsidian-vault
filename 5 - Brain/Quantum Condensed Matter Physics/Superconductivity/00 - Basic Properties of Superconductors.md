@@ -38,7 +38,16 @@ The disappearance of superconductivity above critical temperature and critical m
 The presence of the energy gap is experimentally observed:
 - Through a minimum excitation energy of of order $1.5 k_B T_C$, we observe an exponential decrease of the superconducting heat capacity at temperature $\propto -1.5 \frac{T_C}{T}$. 
 - The minimum photon energy required to break to break Cooper pairs lays somewhere around $2 \times 1.5 k_B T_C$, changing the electromagnetic absorption properties of the superconductor at frequencies corresponding to this energy.
-- Tunneling spectroscopy experiments measuring the local density of states, where electrons tunnel through an insulating barrier into a superconductor, reveal a gap in the density of states at the Fermi level. Requiring again 
+- Tunneling spectroscopy experiments measuring the local density of states, where electrons tunnel through an insulating barrier into a superconductor, reveal a gap in the density of states at the Fermi level. Requiring again an energy of approximately $2 \times 1.5 k_B T_C$ to break the superconducting state.
+Super charge carriers and supercurrents exist only below the energy gap, while normal charge carriers and normal currents exist above the energy gap.
+![[Pasted image 20251106184706.png]]
+##### Main Classes of Superconductors
+![[Pasted image 20251106184734.png]]
+Cuprates are ceramic materials that exhibit high-temperature superconductivity, but they are brittle and difficult to fabricate into wires or other practical forms. They also require complex cooling systems to maintain their superconducting state.
+Hydrides and Clathrates also exhibit an extremely high critical temperature, but they require extremely high pressures to become solid, comparable to those found in the Earth's core, making them impractical for most applications.
+##### Theories for describing Superconductivity
+![[Pasted image 20251106185433.png]]
+Do not skip it
 
 
 ---
