@@ -34,6 +34,11 @@ The critical behavior of superconductors can be described in terms of a critical
 ![[Pasted image 20251106183005.png]]
 #### Energy Gap
 In the superconducting state, an energy gap $(\Delta)$ forms at the Fermi level, separating the ground state of Cooper pairs from the excited states of unpaired electrons. This energy gap is a direct consequence of the attractive interaction between electrons that leads to the formation of Cooper pairs. The presence of this energy gap means that a finite amount of energy is required to break a Cooper pair and create quasiparticle excitations. This energy gap is temperature-dependent, decreasing as the temperature approaches the critical temperature $(T_C)$ and vanishing at $T_C$.
+The disappearance of superconductivity above critical temperature and critical magnetic field suggested the presence of an energy gap in the electronic density of states. But the moment you provide energy greater than the gap, you can excite electrons across it, breaking Cooper pairs and destroying superconductivity.
+The presence of the energy gap is experimentally observed:
+- Through a minimum excitation energy of of order $1.5 k_B T_C$, we observe an exponential decrease of the superconducting heat capacity at temperature $\propto -1.5 \frac{T_C}{T}$. 
+- The minimum photon energy required to break to break Cooper pairs lays somewhere around $2 \times 1.5 k_B T_C$, changing the electromagnetic absorption properties of the superconductor at frequencies corresponding to this energy.
+- Tunneling spectroscopy experiments measuring the local density of states, where electrons tunnel through an insulating barrier into a superconductor, reveal a gap in the density of states at the Fermi level. Requiring again 
 
 
 ---
