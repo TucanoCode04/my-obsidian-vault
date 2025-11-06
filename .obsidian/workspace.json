@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Quantum Devices/Laboratory/01 - Matlab Lab.md",
+                "file": "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/00 - Basic Properties of Superconductors.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 - Matlab Lab"
+              "title": "00 - Basic Properties of Superconductors"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -194,8 +193,8 @@
   },
   "active": "6ee9dd6f536438da",
   "lastOpenFiles": [
-    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/00 - Basic Properties of Superconductors.md",
     "5 - Brain/Quantum Devices/Laboratory/01 - Matlab Lab.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/00 - Basic Properties of Superconductors.md",
     "5 - Brain/Quantum Devices/Laboratory",
     "5 - Brain/Mathematics for Quantum Engineering/Mathematics/10 - Schrodinger Equation.md",
     "5 - Brain/Cybersecurity/Exercises/03 - Exercises.md",
