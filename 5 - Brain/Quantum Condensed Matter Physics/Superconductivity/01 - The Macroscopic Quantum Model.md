@@ -18,6 +18,11 @@ So we assume the existence of a great number of charge carriers, making it more 
 Let us consider the time-dependent Schrödinger equation for a charged particle in electric and magnetic fields:
 $$
 i \hbar \frac{\partial}{\partial t} \Psi (\vec{r}, t) = \frac{1}{2m} \left( -i \hbar \nabla - q \vec{A} (\vec{r}, t) \right)^2 \Psi (\vec{r}, t) + q \phi (\vec{r}, t) \Psi (\vec{r}, t) $$
+where $q$ is the charge of the particle, $m$ is its mass, $\vec{A} (\vec{r}, t)$ is the vector potential, and $\phi (\vec{r}, t)$ is the scalar potential. The vector potential and scalar potential are related to the magnetic field $\vec{B}$ and electric field $\vec{E}$ by:
+$$
+\vec{B} = \nabla \times \vec{A} $$
+$$
+\vec{E} = - \nabla \phi - \frac{\partial \vec{A}}{\partial t} $$
 
 
 ## References

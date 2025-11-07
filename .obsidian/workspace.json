@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/01 - The Macroscopic Quantum Model.md",
+                "file": "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/05 - Electrons in a Periodic Potential.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 - The Macroscopic Quantum Model"
+              "title": "05 - Electrons in a Periodic Potential"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -177,7 +176,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,8 +193,9 @@
   },
   "active": "6ee9dd6f536438da",
   "lastOpenFiles": [
-    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/00 - Basic Properties of Superconductors.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/08 - Photon exciting an Electron in a Semiconductor(or Insulator).md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/01 - The Macroscopic Quantum Model.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/00 - Basic Properties of Superconductors.md",
     "Pasted image 20251106185433.png",
     "Pasted image 20251106184734.png",
     "Pasted image 20251106184706.png",
@@ -209,7 +210,6 @@
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/09 - Color Centers.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/08 - Photon exciting an Electron in a Semiconductor(or Insulator).md",
     "5 - Brain/Qubito/Team Presentation.md",
     "5 - Brain/Qubito",
     "5 - Brain/Quantum Condensed Matter Physics/Untitled.md",
