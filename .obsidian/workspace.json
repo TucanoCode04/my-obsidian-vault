@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/03 - Reciprocal Bravais Lattice.md",
+                "file": "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/01 - The Macroscopic Quantum Model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03 - Reciprocal Bravais Lattice"
+              "title": "01 - The Macroscopic Quantum Model"
             }
           }
         ]
@@ -193,6 +193,7 @@
   },
   "active": "6ee9dd6f536438da",
   "lastOpenFiles": [
+    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/03 - Reciprocal Bravais Lattice.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/08 - Photon exciting an Electron in a Semiconductor(or Insulator).md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/07 - First Order Perturbation Theory.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/05 - Electrons in a Periodic Potential.md",
@@ -229,7 +230,6 @@
     "5 - Brain/Cybersecurity/Exercises/02 - Exercises.md",
     "5 - Brain/Cybersecurity/Cybersec/01 - Networking.md",
     "5 - Brain/Mathematics for Quantum Engineering/Exercises/Q3 - Simultaneous Diagonalization.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/03 - Reciprocal Bravais Lattice.md",
     "5 - Brain/Mathematics for Quantum Engineering/Mathematics/01 - Polarization of Light.md",
     "5 - Brain/Mathematics for Quantum Engineering/Exercises/Q2 - Entanglement.md",
     "5 - Brain/Mathematics for Quantum Engineering/Exercises",
