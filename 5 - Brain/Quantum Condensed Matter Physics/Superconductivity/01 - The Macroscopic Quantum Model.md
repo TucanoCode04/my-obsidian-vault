@@ -23,6 +23,11 @@ $$
 \vec{B} = \nabla \times \vec{A} $$
 $$
 \vec{E} = - \nabla \phi - \frac{\partial \vec{A}}{\partial t} $$
-
+We can express the macroscopic wave function $\Psi (\vec{r}, t)$ in terms of its modulus and phase:
+$$
+\Psi (\vec{r}, t) = \Psi_0 (\vec{r}, t) e^{i \theta (\vec{r}, t)} $$
+where $\Psi_0 (\vec{r}, t)$ is the real-valued modulus with $\Psi_0(\vec{r}, t)= n_s(\vec{r},t)$ and $\theta (\vec{r}, t)$ is the real-valued phase of the wave function. Dropping the explicit space and time dependence for simplicity, we can substitute this expression into the Schrödinger equation:
+$$
+i \hbar \frac{\partial \Psi_0}{\partial t} - \hbar \Psi_0 \frac{\partial \theta}{\partial t} = \frac{1}{2m} \left[- \hbar^2 \left(\nabla^2 \Psi_0 + 2 i \nabla \theta \cdot \nabla \Psi_0 + i 
 
 ## References
