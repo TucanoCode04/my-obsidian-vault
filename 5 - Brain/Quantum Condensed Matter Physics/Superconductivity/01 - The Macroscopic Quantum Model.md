@@ -49,7 +49,8 @@ This expression relates the macroscopic quantum current density $\vec{J}_s$ to t
 To better explain the physical meaning of this expression:
 - The term $\nabla \theta$ represents the spatial variation of the phase of the macroscopic wave function. A non-zero phase gradient indicates that there is a flow of superelectrons, leading to a current.
 - The term $-\frac{q}{\hbar} \vec{A}$ represents the influence of the magnetic vector potential on the current. The presence of a magnetic field can induce currents in the superconductor, even in the absence of a phase gradient. And the minus sign indicates that the vector potential opposes the phase gradient's contribution to the current, resulting in a net current that depends on the balance between these two effects. The Meissner effect can be explained by this term, as the superconductor generates currents(known as screening currents, represented by this term) that oppose and expel the applied magnetic field from its interior.
-- The 
+- The term $n_s$ is the density of superelectrons, which scales the current density. A higher density of superelectrons leads to a larger current for the same phase gradient and vector potential.
+- The prefactor $\frac{q \hbar}{m}$ relates the quantum mechanical properties of the superelectrons (charge $q$ and mass $m$) to the current density.
 **Note:** The same result can be obtained from the general expression of the macroscopic quantum current density:
 $$
 \vec{J}_s = q \mathrm{Re} \left\{ \Psi^* \left( \frac{\hbar}{i m} \nabla - \frac{q}{m} \vec{A} \right) \Psi \right\} $$
