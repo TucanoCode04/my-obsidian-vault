@@ -45,7 +45,7 @@ The probability current density $\vec{J}_p$ tells us how the probability density
 From here, we can define the macroscopic quantum current density $\vec{J}_s$ as:
 $$
 \vec{J}_s (\vec{r}, t) = q n_s (\vec{r}, t) \vec{J}_p (\vec{r}, t) = \frac{q \hbar}{m} n_s (\vec{r}, t) \left( \nabla \theta (\vec{r}, t) - \frac{q}{\hbar} \vec{A} (\vec{r}, t) \right) $$
-This expression relates the macroscopic quantum current density $\vec{J}_s$ to the phase gradient of the macroscopic wave and the vector potential. $\vec{J}_s$ and $n_s$ are measurable quantities in superconductors, while we can't separate the difference inside the parentheses, they are Gauge invariant up to a function, not a constant, so we have to be careful when choosing a gauge.
+This expression relates the macroscopic quantum current density $\vec{J}_s$ to the phase gradient of the macroscopic wave $\nabla \theta$ and the vector potential $\vec{A}$. $\vec{J}_s$ and $n_s$ are measurable quantities in superconductors, while we can't measure and separate the difference inside the parentheses.
 To better explain the physical meaning of this expression:
 - The term $\nabla \theta$ represents the spatial variation of the phase of the macroscopic wave function. A non-zero phase gradient indicates that there is a flow of superelectrons, leading to a current.
 - The term $-\frac{q}{\hbar} \vec{A}$ represents the influence of the magnetic vector potential on the current. The presence of a magnetic field can induce currents in the superconductor, even in the absence of a phase gradient. And the minus sign indicates that the vector potential opposes the phase gradient's contribution to the current, resulting in a net current that depends on the balance between these two effects. The Meissner effect can be explained by this term, as the superconductor generates currents(known as screening currents) that in a state of equilibrium ($\nabla \theta = 0$) oppose the applied magnetic field, leading to its expulsion from the superconductor's interior. 
@@ -54,7 +54,7 @@ To better explain the physical meaning of this expression:
 **Note:** The same result can be obtained from the general expression of the macroscopic quantum current density:
 $$
 \vec{J}_s = q \mathrm{Re} \left\{ \Psi^* \left( \frac{\hbar}{i m} \nabla - \frac{q}{m} \vec{A} \right) \Psi \right\} $$
-
+We said that the gradient of the phase and the vector potential can't be measured, while the current density is. So we need to ensure that the density equation is Gauge invariant so that the relation between $\nabla \theta$ and $\vec{A}$ is not arbitrary
 Now we explain more in details the Gauge invariance of the expression.
 Basically, a gauge transformation involves changing the scalar and vector potentials without altering the physical electromagnetic fields. This can be done by introducing a scalar function $\chi (\vec{r}, t)$ and transforming the potentials as follows:
 $$
