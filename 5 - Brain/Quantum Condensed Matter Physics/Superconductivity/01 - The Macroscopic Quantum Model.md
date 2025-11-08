@@ -55,10 +55,7 @@ To better explain the physical meaning of this expression:
 $$
 \vec{J}_s = q \mathrm{Re} \left\{ \Psi^* \left( \frac{\hbar}{i m} \nabla - \frac{q}{m} \vec{A} \right) \Psi \right\} $$
 
-The $J_s$ and $n_s$ are measurable quantities since we they alter the electromagnetic field which can be measured, while $\theta$ 
-
-
-
+The $J_s$ and $n_s$ are measurable quantities since we they alter the electromagnetic field which can be measured, while $\theta$ is only defined relatively and different $\vec{A}$ can produce the same magnetic field $\vec{B} = \nabla \times \vec{A}$. So we have to check that the expression for $\vec{J_s}$ is Gauge invariant, meaning that different choices of the potentials $\vec{A}$ and $\phi$ that yield the same physical electromagnetic fields $\vec{E}$ and $\vec{B}$ do not affect the value of $\vec{J_s}$.
 Now we explain more in details the Gauge invariance of the expression.
 Basically, a gauge transformation involves changing the scalar and vector potentials without altering the physical electromagnetic fields. This can be done by introducing a scalar function $\chi (\vec{r}, t)$ and transforming the potentials as follows:
 $$
@@ -81,6 +78,8 @@ $$
 The choice of $\theta'$ is obliged since:
 $$
 \vec{J_s'}= q n_s \frac{\hbar}{m} \left( \nabla \theta' - \frac{q}{\hbar} \vec{A}' \right) = q n_s \frac{\hbar}{m} \left( \nabla \theta + \frac{q}{\hbar} \nabla \chi - \frac{q}{\hbar} (\vec{A} + \nabla \chi) \right) = q n_s \frac{\hbar}{m} \left( \nabla \theta - \frac{q}{\hbar} \vec{A} \right) = \vec{J_s} $$
+So we have shown that under the same Gauge choice both $\vec{A}$ and $\theta$ transform in such a way that the macroscopic quantum current density $\vec{J_s}$ can be measured independently from the Gauge choice.
+
 
 
 
