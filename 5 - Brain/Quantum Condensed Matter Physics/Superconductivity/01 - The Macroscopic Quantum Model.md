@@ -54,7 +54,11 @@ To better explain the physical meaning of this expression:
 **Note:** The same result can be obtained from the general expression of the macroscopic quantum current density:
 $$
 \vec{J}_s = q \mathrm{Re} \left\{ \Psi^* \left( \frac{\hbar}{i m} \nabla - \frac{q}{m} \vec{A} \right) \Psi \right\} $$
-We said that the gradient of the phase and the vector potential can't be measured, while the current density is. So we need to ensure that the density equation is Gauge invariant so that the relation between $\nabla \theta$ and $\vec{A}$ is not arbitrarily affected by our choice of Gauge. 
+
+The $J_s$ and $n_s$ are measurable quantities since we they alter the electromagnetic field which can be measured, while $\theta$ 
+
+
+
 Now we explain more in details the Gauge invariance of the expression.
 Basically, a gauge transformation involves changing the scalar and vector potentials without altering the physical electromagnetic fields. This can be done by introducing a scalar function $\chi (\vec{r}, t)$ and transforming the potentials as follows:
 $$
@@ -71,7 +75,13 @@ Since the gradient and time derivative operators commute, meaning that the order
 Under this transformation, the macroscopic wave function $\Psi$ can be written so that the Gauge invariance holds in this way:
 $$
 \Psi' (\vec{r}, t) = \Psi_0 e^{i \theta'}$$
-We keep the modulus unchanged since the number of superelectrons must remain the same, and so it must hold that $
+We keep the modulus unchanged since the number of superelectrons must remain the same, and so it must hold that $\Psi'^*\Psi' = \Psi^* \Psi = n_s$. The phase transforms as:
+$$
+\vec{J_s'}= q n_s \frac{\hbar}{m} \left( \nabla \theta' - \frac{q}{\hbar} \vec{A}' \right) = q n_s \frac{\hbar}{m} \left( \nabla \theta - \frac{q}{\hbar} \vec{A} \right) = \vec{J_s} \Leftrightarrow \theta' = \theta + \frac{q}{\hbar} \chi $$
+The choice of $\theta'$ is obliged since:
+$$
+\vec{J_s'}= q n_s \frac{\hbar}{m} \left( \nabla \theta' - \frac{q}{\hbar} \vec{A}' \right) = q n_s \frac{\hbar}{m} \left( \nabla \theta + \frac{q}{\hbar} \nabla \chi - \frac{q}{\hbar} (\vec{A} + \nabla \chi) \right) = q n_s \frac{\hbar}{m} \left( \nabla \theta - \frac{q}{\hbar} \vec{A} \right) = \vec{J_s} $$
+
 
 
 
