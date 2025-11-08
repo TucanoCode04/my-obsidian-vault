@@ -37,7 +37,7 @@ $$
 \frac{\partial}{\partial t} (\Psi_0^2) + \nabla \cdot \left[ \frac{\hbar}{m} \Psi_0^2 \left( \nabla \theta - \frac{q}{\hbar} \vec{A} \right) \right] = 0 $$
 This equation describes the conservation of the superelectron density $\Psi_0^2 = n_s$. 
 Basically we are calculating how the density of superelectrons changes over time and space, this change is governed by the flow in or out of a given region, given by the divergence of the current density in that region.
-This assure us that the Cooper pairs density() is conserved in time, meaning that they are neither created nor destroyed within the superconductor.
+This assure us that the Cooper pairs density($n_s$) is conserved in time, meaning that they are neither created nor destroyed within the superconductor. This is the foundation for persistent currents in superconductors.
 This is a continuity equation for the quantum probability current density $\vec{J}_p$:
 $$
 \vec{J}_p = \frac{\hbar}{m} \left( \nabla \theta - \frac{q}{\hbar} \vec{A} \right) $$
