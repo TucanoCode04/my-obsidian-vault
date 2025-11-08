@@ -54,7 +54,7 @@ To better explain the physical meaning of this expression:
 **Note:** The same result can be obtained from the general expression of the macroscopic quantum current density:
 $$
 \vec{J}_s = q \mathrm{Re} \left\{ \Psi^* \left( \frac{\hbar}{i m} \nabla - \frac{q}{m} \vec{A} \right) \Psi \right\} $$
-We said that the gradient of the phase and the vector potential can't be measured, while the current density is. So we need to ensure that the density equation is Gauge invariant so that the relation between $\nabla \theta$ and $\vec{A}$ is not arbitrary
+We said that the gradient of the phase and the vector potential can't be measured, while the current density is. So we need to ensure that the density equation is Gauge invariant so that the relation between $\nabla \theta$ and $\vec{A}$ is not arbitrarily affected by our choice of Gauge. 
 Now we explain more in details the Gauge invariance of the expression.
 Basically, a gauge transformation involves changing the scalar and vector potentials without altering the physical electromagnetic fields. This can be done by introducing a scalar function $\chi (\vec{r}, t)$ and transforming the potentials as follows:
 $$
@@ -68,13 +68,10 @@ Since the curl of a gradient is always zero. Similarly, for the electric field:
 $$
 \vec{E}' = - \nabla \phi' - \frac{\partial \vec{A}'}{\partial t} = - \nabla \left( \phi - \frac{\partial \chi}{\partial t} \right) - \frac{\partial}{\partial t} (\vec{A} + \nabla \chi) = - \nabla \phi - \frac{\partial \vec{A}}{\partial t} = \vec{E} $$
 Since the gradient and time derivative operators commute, meaning that the order in which we apply them does not matter and the additional terms cancel out.
-Under this transformation, the macroscopic wave function $\Psi$ also transforms as:
+Under this transformation, the macroscopic wave function $\Psi$ can be written so that the Gauge invariance holds in this way:
 $$
-\Psi' = \Psi e^{i \frac{q}{\hbar} \chi} $$
-This transformation affects the phase of the wave function, leading to a new phase $\theta'$ given by:
-$$
-\theta' = \theta + \frac{q}{\hbar} \chi
-$$
+\Psi' (\vec{r}, t) = \Psi_0 e^{i \theta'}$$
+We keep the modulus unchanged since the number of superelectrons must remain the same, and so it must hold that $
 
 
 
