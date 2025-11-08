@@ -34,4 +34,5 @@ $$
 \hbar \frac{\partial \Psi_0}{\partial t} = - \frac{\hbar^2}{2m} \left[ \nabla^2 \theta \Psi_0 + 2 \nabla \theta \cdot \nabla \Psi_0 - \frac{q}{\hbar} \left(2 \vec{A} \cdot \nabla \Psi_0 + \nabla \cdot \vec{A} \Psi_0 \right) \right] $$
 
 
+
 ## References
