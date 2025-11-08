@@ -29,6 +29,7 @@ $$
 where $\Psi_0 (\vec{r}, t)$ is the real-valued modulus with $\Psi_0(\vec{r}, t)= n_s(\vec{r},t)$ and $\theta (\vec{r}, t)$ is the real-valued phase of the wave function. Dropping the explicit space and time dependence for simplicity, we can substitute this expression into the Schrödinger equation:
 $$
 i \hbar \frac{\partial \Psi_0}{\partial t} - \hbar \Psi_0 \frac{\partial \theta}{\partial t} = \frac{1}{2m} \left[- \hbar^2 \left(\nabla^2 \Psi_0 + 2 i \nabla \theta \cdot \nabla \Psi_0 + i \Psi_0 \nabla^2 \theta - \Psi_0 (\nabla \theta)^2 \right) + 2i \hbar q \vec{A} \cdot \nabla \Psi_0 - 2 \hbar q \Psi_0 \vec{A} \cdot \nabla \theta + q^2 \vec{A}^2 \Psi_0 \right] + q \phi \Psi_0 $$
+##### Macroscopic Quantum Current Density
 We now separate the real and imaginary parts of this equation. The imaginary part gives us:
 $$
 \hbar \frac{\partial \Psi_0}{\partial t} = - \frac{\hbar^2}{2m} \left[ \nabla^2 \theta \Psi_0 + 2 \nabla \theta \cdot \nabla \Psi_0 - \frac{q}{\hbar} \left(2 \vec{A} \cdot \nabla \Psi_0 + \nabla \cdot \vec{A} \Psi_0 \right) \right] $$
@@ -54,7 +55,7 @@ To better explain the physical meaning of this expression:
 **Note:** The same result can be obtained from the general expression of the macroscopic quantum current density:
 $$
 \vec{J}_s = q \mathrm{Re} \left\{ \Psi^* \left( \frac{\hbar}{i m} \nabla - \frac{q}{m} \vec{A} \right) \Psi \right\} $$
-
+##### Gauge Invariance
 The $J_s$ and $n_s$ are measurable quantities since we they alter the electromagnetic field which can be measured, while $\theta$ is only defined relatively and different $\vec{A}$ can produce the same magnetic field $\vec{B} = \nabla \times \vec{A}$. So we have to check that the expression for $\vec{J_s}$ is Gauge invariant, meaning that different choices of the potentials $\vec{A}$ and $\phi$ that yield the same physical electromagnetic fields $\vec{E}$ and $\vec{B}$ do not affect the value of $\vec{J_s}$.
 Now we explain more in details the Gauge invariance of the expression.
 Basically, a gauge transformation involves changing the scalar and vector potentials without altering the physical electromagnetic fields. This can be done by introducing a scalar function $\chi (\vec{r}, t)$ and transforming the potentials as follows:
@@ -79,6 +80,11 @@ The choice of $\theta'$ is obliged since:
 $$
 \vec{J_s'}= q n_s \frac{\hbar}{m} \left( \nabla \theta' - \frac{q}{\hbar} \vec{A}' \right) = q n_s \frac{\hbar}{m} \left( \nabla \theta + \frac{q}{\hbar} \nabla \chi - \frac{q}{\hbar} (\vec{A} + \nabla \chi) \right) = q n_s \frac{\hbar}{m} \left( \nabla \theta - \frac{q}{\hbar} \vec{A} \right) = \vec{J_s} $$
 So we have shown that under the same Gauge choice both $\vec{A}$ and $\theta$ transform in such a way that the macroscopic quantum current density $\vec{J_s}$ can be measured independently from the Gauge choice.
+#####
+The equation we have derived for the macroscopic quantum current density $\vec{J_s}$ is the most general form since it considers the possibility that the superelectron density $n_s$ may vary in space and time. In many practical situations, especially in uniform superconductors, $n_s$ can be treated as a constant, since matter tends towards charge neutrality and its fluctuations are minimal. Small deviations can be later considered as perturbations.
+Thus, in the case of a uniform superconductor with a constant superelectron density $n_s$, the expression for the macroscopic quantum current density simplifies to:
+$$
+\Lambda \vec{J_s} = \frac{\hbar}{q} \nabla \theta(\vec{r}, t) - \vec{A}(\vec{r}, t) $$ where $\Lambda = \frac{m}{q^2 n_s}$ is the isotropic London coefficient.
 
 
 
