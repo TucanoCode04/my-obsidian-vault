@@ -35,14 +35,17 @@ $$
 By multiplying both sides by $\Psi_0$ and exploiting the identity $\nabla \cdot (\gamma\vec{C})= \gamma \nabla \cdot \vec{C} + \vec{C} \cdot \nabla \gamma$, we can rewrite this equation as a continuity equation:
 $$
 \frac{\partial}{\partial t} (\Psi_0^2) + \nabla \cdot \left[ \frac{\hbar}{m} \Psi_0^2 \left( \nabla \theta - \frac{q}{\hbar} \vec{A} \right) \right] = 0 $$
-This equation describes the conservation of the superelectron density $\Psi_0^2 = n_s$. This is a continuity equation for the quantum probability current density $\vec{J}_p$:
+This equation describes the conservation of the superelectron density $\Psi_0^2 = n_s$. 
+Basically we are calculating how the density of superelectrons changes over time and space, this change is governed by the flow in or out of a given region, given by the divergence of the current density in that region.
+This assure us that the Cooper pairs density() is conserved in time, meaning that they are neither created nor destroyed within the superconductor.
+This is a continuity equation for the quantum probability current density $\vec{J}_p$:
 $$
 \vec{J}_p = \frac{\hbar}{m} \left( \nabla \theta - \frac{q}{\hbar} \vec{A} \right) $$
 The probability current density $\vec{J}_p$ tells us how the probability density of finding superelectrons flows in space and time.
-Form here, we can define the macroscopic quantum current density $\vec{J}_s$ as:
+From here, we can define the macroscopic quantum current density $\vec{J}_s$ as:
 $$
 \vec{J}_s (\vec{r}, t) = q n_s (\vec{r}, t) \vec{J}_p (\vec{r}, t) = \frac{q \hbar}{m} n_s (\vec{r}, t) \left( \nabla \theta (\vec{r}, t) - \frac{q}{\hbar} \vec{A} (\vec{r}, t) \right) $$
-This expression relates relates the macroscopic quantum current density $\vec{J}_s$ to the phase gradient of the macroscopic wave and the vector potential. $\vec{J}_s$ and $n_s$ are measurable quantities in superconductors, while we can't separate the difference inside the parentheses, they are Gauge invariant up to a function, not a constant, so we have to be careful when choosing a gauge.
+This expression relates the macroscopic quantum current density $\vec{J}_s$ to the phase gradient of the macroscopic wave and the vector potential. $\vec{J}_s$ and $n_s$ are measurable quantities in superconductors, while we can't separate the difference inside the parentheses, they are Gauge invariant up to a function, not a constant, so we have to be careful when choosing a gauge.
 **Note:** The same result can be obtained from the general expression of the macroscopic quantum current density:
 $$
 \vec{J}_s = q \mathrm{Re} \left\{ \Psi^* \left( \frac{\hbar}{i m} \nabla - \frac{q}{m} \vec{A} \right) \Psi \right\} $$
