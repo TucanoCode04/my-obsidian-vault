@@ -32,6 +32,16 @@ i \hbar \frac{\partial \Psi_0}{\partial t} - \hbar \Psi_0 \frac{\partial \theta}
 We now separate the real and imaginary parts of this equation. The imaginary part gives us:
 $$
 \hbar \frac{\partial \Psi_0}{\partial t} = - \frac{\hbar^2}{2m} \left[ \nabla^2 \theta \Psi_0 + 2 \nabla \theta \cdot \nabla \Psi_0 - \frac{q}{\hbar} \left(2 \vec{A} \cdot \nabla \Psi_0 + \nabla \cdot \vec{A} \Psi_0 \right) \right] $$
+By multiplying both sides by $\Psi_0$ and exploiting the identity $\nabla \cdot (\gamma\vec{C})= \gamma \nabla \cdot \vec{C} + \vec{C} \cdot \nabla \gamma$, we can rewrite this equation as a continuity equation:
+$$
+\frac{\partial}{\partial t} (\Psi_0^2) + \nabla \cdot \left[ \frac{\hbar}{m} \Psi_0^2 \left( \nabla \theta - \frac{q}{\hbar} \vec{A} \right) \right] = 0 $$
+This equation describes the conservation of the superelectron density $\Psi_0^2 = n_s$. This is a continuity equation for the macroscopic quantum probability current density $\vec{J}_p$:
+$$
+\vec{J}_p = \frac{\hbar}{m} \left( \nabla \theta - \frac{q}{\hbar} \vec{A} \right) $$
+The probability current density $\vec{J}_p$ tells us how the probability density of finding superelectrons flows in space and time.
+Form here, we can define the macroscopic quantum current density $\vec{J}_s$ as:
+$$
+\vec{J}_s (\vec{r}, t) = q n_s (\vec{r}, t) \vec{J}_p (\vec{r}, t) = \frac{q \hbar}{m} n_s (\vec{r}, t) \left( \nabla \theta (\vec{r}, t) - \frac{q}{\hbar} \vec{A} (\vec{r}, t) \right) $$
 
 
 
