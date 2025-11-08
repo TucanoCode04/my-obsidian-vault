@@ -31,6 +31,8 @@ $$\nabla \times (\nabla \cdot \phi) = 0$$
 This property is obvious, because the gradient of a scalar field points in the direction of the maximum rate of increase of the scalar field, and it does not have any rotational component, and the curl measures the rotational component of a vector field.
 So we can express the electric field as the gradient of a scalar potential:
 $$\vec{F} = -\nabla \phi$$ where $\phi$ is the electric potential, which represents the electric potential energy per unit charge at a given point in space. The negative sign indicates that the electric field points in the direction of decreasing electric potential, meaning that positive charges will naturally move towards regions of lower potential energy. The higher the potential, the steeper the field, the faster the charge will fall from the high potential to the low potential.
+$$\vec{F_{force}} = q\vec{F} = -q\nabla \phi$$
+So that means that if my charge is positive, it will move in the direction of decreasing potential, and if my charge is negative, it will move in the direction of increasing potential.
 
 Conservative means that:
 $$\int_{A_{path1}}^B \vec{F} d\vec{l} = \int_{A_{path2}}^B \vec{F} d\vec{l}$$
