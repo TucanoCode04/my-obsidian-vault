@@ -17,7 +17,11 @@ $$\oint_C \vec{A}(\vec{r}, t) \cdot d\vec{l} = \int_S (\nabla \times \vec{A}(\ve
 We can now link the integral of the phase gradient to that of the supercurrent density and the magnetic flux across the surface:
 $$\oint_C \Lambda \vec{J}_s(\vec{r}, t) \cdot d\vec{l} + \int_S \vec{B}(\vec{r}, t) \cdot d\vec{S} = \frac{\hbar}{q} \oint_C \nabla\theta(\vec{r}, t) \cdot d\vec{l}$$
 The line integral of the gradient of any scalar function is the difference between the same function evaluated at the endpoints of the path. Since our path is closed, the endpoints are the same, and thus the line integral must be zero unless the function is multivalued. The phase of a wavefunction is multivalued, since adding any integer multiple of $2\pi$ to the phase results in the same physical state. Therefore, we can write:
-$$\theta(\vec{r}, t) = \theta(\vec{r}, t) + 2\pi n, \quad n \in \mathbb{Z} \quad \Rightarrow \quad \frac{\hbar}{q} \oint_C \nabla\theta(\vec{r}, t)\cdot d\vec{l} = \de
+$$\theta(\vec{r}, t) = \theta(\vec{r}, t) + 2\pi n, \quad n \in \mathbb{Z} \quad \Rightarrow \quad \frac{\hbar}{q} \oint_C \nabla\theta(\vec{r}, t)\cdot d\vec{l} = \Delta \theta = 2\pi n $$
+The presence of $n$ indicates that the phase can wind around the closed path multiple times, meaning that the fluxoid is quantized. 
+The wavefunction is coherent over the entire superconductor(meaning that it is unique and described by the same phase in any point), so $n$ must be the same for any closed path within the superconductor.
+Therefore, we can rewrite the previous equation as:
+$$\oint_C \Lambda \vec{J}_s(\vec{r}, t) \cdot d\vec{l} + \int_S \vec{B}(\vec{r}, t) \cdot d\vec{S} = n \Phi_0$$ where $\Phi_0 = \frac{2\pi \hbar}{|q|} = \frac{h}{q}$ is the magnetic flux quantum.
 
 
 ## References
