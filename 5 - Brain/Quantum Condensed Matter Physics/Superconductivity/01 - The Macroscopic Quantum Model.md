@@ -80,11 +80,14 @@ The choice of $\theta'$ is obliged since:
 $$
 \vec{J_s'}= q n_s \frac{\hbar}{m} \left( \nabla \theta' - \frac{q}{\hbar} \vec{A}' \right) = q n_s \frac{\hbar}{m} \left( \nabla \theta + \frac{q}{\hbar} \nabla \chi - \frac{q}{\hbar} (\vec{A} + \nabla \chi) \right) = q n_s \frac{\hbar}{m} \left( \nabla \theta - \frac{q}{\hbar} \vec{A} \right) = \vec{J_s} $$
 So we have shown that under the same Gauge choice both $\vec{A}$ and $\theta$ transform in such a way that the macroscopic quantum current density $\vec{J_s}$ can be measured independently from the Gauge choice.
-#####
+##### Energy-Phase Relationship
 The equation we have derived for the macroscopic quantum current density $\vec{J_s}$ is the most general form since it considers the possibility that the superelectron density $n_s$ may vary in space and time. In many practical situations, especially in uniform superconductors, $n_s$ can be treated as a constant, since matter tends towards charge neutrality and its fluctuations are minimal. Small deviations can be later considered as perturbations.
 Thus, in the case of a uniform superconductor with a constant superelectron density $n_s$, the expression for the macroscopic quantum current density simplifies to:
 $$
 \Lambda \vec{J_s} = \frac{\hbar}{q} \nabla \theta(\vec{r}, t) - \vec{A}(\vec{r}, t) $$ where $\Lambda = \frac{m}{q^2 n_s}$ is the isotropic London coefficient.
+By taking the curl of the above equation, we can examine the response of the superconductor to magnetic fields:
+$$
+\nabla \times (\Lambda \vec{J_s(\vec{r}, t)}) = \frac{\hbar}{q} \nabla \times \nabla \theta(\vec{r}, t) - \nabla \times \vec{A}(\vec{r}, t) \quad \
 
 
 
