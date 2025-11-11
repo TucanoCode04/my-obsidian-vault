@@ -23,10 +23,10 @@ $$
 \vec{B} = \nabla \times \vec{A} $$
 $$
 \vec{E} = - \nabla \phi - \frac{\partial \vec{A}}{\partial t} $$
-We can express the macroscopic wave function $\Psi (\vec{r}, t)$ in terms of its modulus and phase:
+We can express the macroscopic wave function $\Psi (\vec{r}, t)$ in terms of its modulus and phase(polar form):
 $$
 \Psi (\vec{r}, t) = \Psi_0 (\vec{r}, t) e^{i \theta (\vec{r}, t)} $$
-where $\Psi_0 (\vec{r}, t)$ is the real-valued modulus with $\Psi_0(\vec{r}, t)= n_s(\vec{r},t)$ and $\theta (\vec{r}, t)$ is the real-valued phase of the wave function. Dropping the explicit space and time dependence for simplicity, we can substitute this expression into the Schrödinger equation:
+where $\Psi_0 (\vec{r}, t)$ is the real-valued modulus(amplitude related to the Cooper-pair density $n_s$) with $\Psi_0(\vec{r}, t)= n_s(\vec{r},t)$ and $\theta (\vec{r}, t)$ is the real-valued phase of the condensate wave function. Dropping the explicit space and time dependence for simplicity, we can substitute this expression into the Schrödinger equation:
 $$
 i \hbar \frac{\partial \Psi_0}{\partial t} - \hbar \Psi_0 \frac{\partial \theta}{\partial t} = \frac{1}{2m} \left[- \hbar^2 \left(\nabla^2 \Psi_0 + 2 i \nabla \theta \cdot \nabla \Psi_0 + i \Psi_0 \nabla^2 \theta - \Psi_0 (\nabla \theta)^2 \right) + 2i \hbar q \vec{A} \cdot \nabla \Psi_0 - 2 \hbar q \Psi_0 \vec{A} \cdot \nabla \theta + q^2 \vec{A}^2 \Psi_0 \right] + q \phi \Psi_0 $$
 ##### Macroscopic Quantum Current Density
@@ -80,7 +80,7 @@ The choice of $\theta'$ is obliged since:
 $$
 \vec{J_s'}= q n_s \frac{\hbar}{m} \left( \nabla \theta' - \frac{q}{\hbar} \vec{A}' \right) = q n_s \frac{\hbar}{m} \left( \nabla \theta + \frac{q}{\hbar} \nabla \chi - \frac{q}{\hbar} (\vec{A} + \nabla \chi) \right) = q n_s \frac{\hbar}{m} \left( \nabla \theta - \frac{q}{\hbar} \vec{A} \right) = \vec{J_s} $$
 So we have shown that under the same Gauge choice both $\vec{A}$ and $\theta$ transform in such a way that the macroscopic quantum current density $\vec{J_s}$ can be measured independently from the Gauge choice.
-##### Energy-Phase Relationship
+##### Energy-Phase Relationship and London Equations
 The equation we have derived for the macroscopic quantum current density $\vec{J_s}$ is the most general form since it considers the possibility that the superelectron density $n_s$ may vary in space and time. In many practical situations, especially in uniform superconductors, $n_s$ can be treated as a constant, since matter tends towards charge neutrality and its fluctuations are minimal. Small deviations can be later considered as perturbations.
 Thus, in the case of a uniform superconductor with a constant superelectron density $n_s$, the expression for the macroscopic quantum current density simplifies to:
 $$
@@ -107,7 +107,10 @@ $$
 This equation indicates that the supercurrent density $\vec{J_s}$ also decays exponentially over the same length scale $\lambda$ within the superconductor. 
 This 2 equations combined show that any magnetic field is exponentially screened by an induced supercurrent on the surface layer of thickness $\lambda$ of the superconductor, leading to the Meissner effect.
 ![[Pasted image 20251111122654.png]]
-
+Now we want to recover perfect conductivity, by using the Schrödinger equation:
+$$
+i\hbar \frac{\partial \Psi_0}{\partial t} - \hbar \Psi_0 \frac{\partial \theta}{\partial t} = \frac{1}{2m} \left[- \hbar^2 \left(\nabla^2 \Psi_0 + 2 i \nabla \theta \cdot \nabla \Psi_0 + i \Psi_0 \nabla^2 \theta - \Psi_0 (\nabla \theta)^2 \right) + 2i \hbar q \vec{A} \cdot \nabla \Psi_0 - 2 \hbar q \Psi_0 \vec{A} \cdot \nabla \theta + q^2 \vec{A}^2 \Psi_0 \right] + q \phi \Psi_0 $$
+We take the real part of the equation, the intuition behind this is that the real part contains information about the energy of the system, while the imaginary part relates to the probability current and conservation of probability.
 
 
 
