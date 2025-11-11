@@ -135,8 +135,12 @@ $$
 So we have:
 $$
 \frac{\partial}{\partial t} (\Lambda \vec{J_s}) = - \frac{1}{2qn_s} \nabla ( \Lambda J_s^2 ) - \vec{E} $$
-
-
+Rearranging we obtain the response of a superconductor to an applied electric field:
+$$
+\frac{\partial}{\partial t} \vec{J_s} = \frac{\vec{E}(\vec{r}, t)}{\Lambda} - \frac{1}{2qn_s} \nabla J_s^2 (\vec{r}, t) $$
+This is the **first London equation**, which describes not only the exponential increase of the supercurrent density $\vec{J_s}$ in response to an applied electric field $\vec{E}$ due to the absence of resistance, but also includes a term proportional to the gradient of the kinetic energy of the superelectrons. (This formula can be derived also from Lorentz's law combined with the second London equation).
+So in the end MQM unites together both London equations, which give a classical description of superconductors, with quantum mechanics by introducing the macroscopic wave function $\Psi (\vec{r}, t)$. 
+We are now going to show that MQM allows us to analyze superconducting phenomena without 
 
 
 
