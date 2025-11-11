@@ -90,6 +90,18 @@ $$
 \nabla \times (\Lambda \vec{J_s(\vec{r}, t)}) = \frac{\hbar}{q} \nabla \times \nabla \theta(\vec{r}, t) - \nabla \times \vec{A}(\vec{r}, t) \quad \Rightarrow \quad \nabla \times (\Lambda \vec{J_s(\vec{r}, t)}) = - \vec{B}(\vec{r}, t)$$
 The first term on the right side vanishes because the curl of a gradient is always zero, while the curl of the vector potential $\vec{A}$ gives us the magnetic field $\vec{B}$. This is the **second London equation** and it describes the perfect diamagnetic response of superconductors, leading to the expulsion of magnetic fields from their interior (the Meissner effect).
 Field expulsion can be explicitly seen by combining this equation with Maxwell's 4th equation when electric fields are varying slowly in time and by using the vector identity $\nabla \times (\nabla \times \vec{C}) = \nabla (\nabla \cdot \vec{C}) - \nabla^2 \vec{C}$:
+$$
+\nabla \times \vec{B} = \mu_0 \left( \vec{J_s} + \epsilon_0 \frac{\partial \vec{E}}{\partial t} \right) \approx \mu_0 \vec{J_s} $$
+This is the Ampere-Maxwell law, neglecting the displacement current term for slowly varying fields.
+By taking the curl of both sides and substituting the second London equation, we get:
+$$
+\nabla \times (\frac{\Lambda}{\mu_0} \nabla \times \vec{B}) = - \vec{B} \quad \Rightarrow \quad \frac{\Lambda}{\mu_0} \left( \nabla (\nabla \cdot \vec{B}) - \nabla^2 \vec{B} \right) = - \vec{B} $$
+The divergence of the magnetic field is zero ($\nabla \cdot \vec{B} = 0$), since the magnetic field is a solenoidal field, leading to:
+$$
+-\frac{\Lambda}{\mu_0} \nabla^2 \vec{B} = - \vec{B} \quad \Rightarrow \quad -\nabla^2 \vec{B} = -\frac{\vec{B}}{\lambda^2} $$
+where $\lambda = \sqrt{\frac{\Lambda}{\mu_0}}$ is the London penetration depth.
+This differential equation describes how the magnetic field decays exponentially over a length scale of the penetration depth $\lambda$ inside the superconductor. 
+By taking the curl of the expression for 
 
 
 
