@@ -87,8 +87,9 @@ $$
 \Lambda \vec{J_s} = \frac{\hbar}{q} \nabla \theta(\vec{r}, t) - \vec{A}(\vec{r}, t) $$ where $\Lambda = \frac{m}{q^2 n_s}$ is the isotropic London coefficient.
 By taking the curl of the above equation, we can examine the response of the superconductor to magnetic fields:
 $$
-\nabla \times (\Lambda \vec{J_s(\vec{r}, t)}) = \frac{\hbar}{q} \nabla \times \nabla \theta(\vec{r}, t) - \nabla \times \vec{A}(\vec{r}, t) \quad \
-
+\nabla \times (\Lambda \vec{J_s(\vec{r}, t)}) = \frac{\hbar}{q} \nabla \times \nabla \theta(\vec{r}, t) - \nabla \times \vec{A}(\vec{r}, t) \quad \Rightarrow \quad \nabla \times (\Lambda \vec{J_s(\vec{r}, t)}) = - \vec{B}(\vec{r}, t)$$
+The first term on the right side vanishes because the curl of a gradient is always zero, while the curl of the vector potential $\vec{A}$ gives us the magnetic field $\vec{B}$. This is the **second London equation** and it describes the perfect diamagnetic response of superconductors, leading to the expulsion of magnetic fields from their interior (the Meissner effect).
+Field expulsion can be explicitly seen by combining this equation with Maxwell's 4th equation when electric fields are varying slowly in time and by using the vector identity $\nabla \times (\nabla \times \vec{C}) = \nabla (\nabla \cdot \vec{C}) - \nabla^2 \vec{C}$:
 
 
 
