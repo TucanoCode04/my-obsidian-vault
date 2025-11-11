@@ -123,8 +123,19 @@ $$
 We can rewrite the equation as:
 $$
 - \hbar \frac{\partial}{\partial t} \theta (\vec{r}, t) = \frac{1}{2n_s} \Lambda J_s^2 (\vec{r}, t) + q \phi (\vec{r}, t) $$
-This equation yields the relationship between the time evolution of the phase  of the macroscopic wave function and the energy contributions from the supercurrent density and the electric potential(**energy-phase relationship**).
+This equation yields the relationship between the time evolution of the phase of the macroscopic wave function and the energy contributions from the supercurrent density and the electric potential(**energy-phase relationship**).
 The first term on the right side represents the kinetic energy per superelectron associated with the supercurrent density $\vec{J_s}$, while the second term represents the potential energy per superelectron due to the electric potential $\phi$.
+This relationship is crucial for understanding the dynamics of superconducting systems, as it connects the phase evolution of the macroscopic wave function to measurable quantities like current density and electric potential.
+If we insert this relation into the time derivative of the macroscopic quantum current density, we obtain:
+$$
+\frac{\partial}{\partial t} (\Lambda \vec{J_s}) = \frac{\hbar}{q} \nabla \left( \frac{\partial \theta}{\partial t} \right) - \frac{\partial \vec{A}}{\partial t} = \frac{1}{2qn_s} \nabla ( \Lambda J_s^2 ) - \nabla \phi - \frac{\partial \vec{A}}{\partial t} $$
+Time derivative and space gradient operators commute, meaning that the order in which we apply them does not matter. We can also see that the last two terms correspond to the electric field $\vec{E}$:
+$$
+\vec{E} = - \nabla \phi - \frac{\partial \vec{A}}{\partial t} $$
+So we have:
+$$
+\frac{\partial}{\partial t} (\Lambda \vec{J_s}) = - \frac{1}{2qn_s} \nabla ( \Lambda J_s^2 ) - \vec{E} $$
+
 
 
 
