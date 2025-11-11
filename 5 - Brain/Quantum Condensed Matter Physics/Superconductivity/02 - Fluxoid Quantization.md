@@ -21,6 +21,5 @@ $$\theta(\vec{r}, t) = \theta(\vec{r}, t) + 2\pi n, \quad n \in \mathbb{Z} \quad
 The presence of $n$ indicates that the phase can wind around the closed path multiple times, meaning that the fluxoid is quantized. 
 The wavefunction is coherent over the entire superconductor(meaning that it is unique and described by the same phase in any point), so $n$ must be the same for any closed path within the superconductor.
 Therefore, we can rewrite the previous equation as:
-$$\oint_C \Lambda \vec{J}_s(\vec{r}, t) \cdot d\vec{l} + \int_S \vec{B}(\vec{r}, t) \cdot d\vec{S} = n \Phi_0$$ where $\Phi_0 = \frac{2\pi \hbar}{|q|} = \frac{h}{q}$ is the magnetic flux quantum. The first part
-
+$$\oint_C \Lambda \vec{J}_s(\vec{r}, t) \cdot d\vec{l} + \int_S \vec{B}(\vec{r}, t) \cdot d\vec{S} = n \Phi_0$$ where $\Phi_0 = \frac{2\pi \hbar}{|q|} = \frac{h}{q}$ is the magnetic flux quantum. The first part of the left-hand side is called the supercurrent contribution to the fluxoid, while the second part is the magnetic flux through the surface. The sum of these two contributions is called the fluxoid $\Phi_f$ and is quantized in units of the flux quantum. By flux quantum we mean the smallest possible unit of magnetic flux that can exist in a superconductor, meaning that the fluxoid can only 
 ## References
