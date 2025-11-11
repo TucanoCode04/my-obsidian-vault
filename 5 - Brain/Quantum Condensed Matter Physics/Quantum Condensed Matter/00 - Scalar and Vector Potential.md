@@ -7,7 +7,7 @@ Tags: [[Electric Field]] [[Magnetic Field]] [[Schrodinger Equation]]
 
 # Scalar and Vector Potential
 ##### Divergence and Curl
-The divergence of a vector field $\vec{A}$  is a scalar field representing the rate of change of the vector field's magnitude in all directions in a infinitezimal volume around a point. It is defined as:
+The divergence of a vector field $\vec{A}$  is a scalar field representing the rate of change of the vector field's magnitude in all directions in a infinitesimal volume around a point. It is defined as:
 $$\nabla \cdot \vec{A} = \frac{\partial A_x}{\partial x} + \frac{\partial A_y}{\partial y} + \frac{\partial A_z}{\partial z}$$
 where $A_x$, $A_y$ and $A_z$ are the components of the vector field $\vec{A}$ in the x, y and z directions respectively.
 
