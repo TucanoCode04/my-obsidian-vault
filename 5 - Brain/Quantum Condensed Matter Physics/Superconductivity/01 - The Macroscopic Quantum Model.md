@@ -101,7 +101,13 @@ $$
 -\frac{\Lambda}{\mu_0} \nabla^2 \vec{B} = - \vec{B} \quad \Rightarrow \quad -\nabla^2 \vec{B} = -\frac{\vec{B}}{\lambda^2} $$
 where $\lambda = \sqrt{\frac{\Lambda}{\mu_0}}$ is the London penetration depth.
 This differential equation describes how the magnetic field decays exponentially over a length scale of the penetration depth $\lambda$ inside the superconductor. 
-By taking the curl of the expression for 
+By taking the curl of the expression $\nabla \times(\Lambda \vec{J_s(\vec{r}, t)})) = - \vec{B}(\vec{r}, t)$, we derive:
+$$
+-\nabla^2 \vec{J_s} = -\frac{\vec{J_s}}{\lambda^2} $$
+This equation indicates that the supercurrent density $\vec{J_s}$ also decays exponentially over the same length scale $\lambda$ within the superconductor. 
+This 2 equations combined show that any magnetic field is exponentially screened by an induced supercurrent on the surface layer of thickness $\lambda$ of the superconductor, leading to the Meissner effect.
+![[Pasted image 20251111122654.png]]
+
 
 
 
