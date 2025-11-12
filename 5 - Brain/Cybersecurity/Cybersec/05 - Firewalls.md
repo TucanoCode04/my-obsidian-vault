@@ -75,5 +75,14 @@ An HTTP reverse proxy is a server that acts as an intermediary for HTTP requests
 - compression of web content to reduce bandwidth usage and improve load times for external clients.
 - spoon feeding, meaning that the reverse proxy can send data to clients at a controlled rate, preventing overwhelming slow clients and improving overall performance.
 You can have possible configurations:
-- external fi
+- external network -> firewall(-> internal network) ->(DMZ) -> reverse proxy -> internal server
+- external network -> firewall(-> internal network) ->(DMZ) -> reverse proxy -> VPN -> internal server - > internal network
+##### Web Application Firewall(WAF)
+A Web Application Firewall (WAF) is a specialized firewall that protects web applications by filtering and monitoring HTTP/HTTPS traffic between a web application and the internet. It operates at the application layer and is designed to protect against common web application attacks. The WAF is a module that can be integrated into an existing firewall or deployed as a standalone solution. It is typically part of a reverse proxy but it can also be used for forward proxy.
+ModSecurity is an open-source WAF that can be deployed as a module for web servers like Apache, Nginx, and IIS. It provides protection against various web application attacks by inspecting HTTP/HTTPS traffic and applying a set of predefined rules.
+##### Packet Filter Architecture
+It can be implemented between the external and internal networks, but it is insecure since an attacker can bypass it by connecting directly to the internal network.
+(slide)
+To enhance security, it can be implemented on a dual-homed host, which has two network interfaces, one connected to the external network and the other to the internal network. It is used to check the content of the traffic between the two networks, with routing disabled to prevent direct communication.
+It's easy to implement an it masquerades internal IP addresses, but 
 ## References
