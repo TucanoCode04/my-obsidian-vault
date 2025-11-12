@@ -25,7 +25,23 @@ This practice requires modification of the applications to incorporate security 
 ##### Security External to Applications
 (slide)
 ##### Secure Channel Protocols
-The most widely used secure channel protocol is SSL/TLS, which 
+The most widely used secure channel protocol is SSL/TLS, which provides a robust framework for securing communications over networks. 
+Another protocol is SSH, which is primarily used for secure remote login and command execution.
+Microsoft also developed its own secure channel protocol called PCT (Private Communication Technology), although it was a fiasco and is now largely obsolete.
+##### TLS(once SSL- Secure Sockets Layer)
+TLS (Transport Layer Security) is the successor to SSL and is the most widely used protocol for securing internet communications. It provides:
+- Peer authentication through digital certificates, the server is usually authenticated, while client authentication is optional, because this is used in web browsing where clients are numerous and diverse, but you want to be sure that the server is legitimate.
+- Message confidentiality using encryption
+- Message authenticity and integrity through MACs (Message Authentication Codes)
+- Protection against replay and filtering attacks using sequence numbers and nonces.
+It is easily applicable to all protocols that run over TCP, such as HTTP, FTP, SMTP, and IMAP.
+Before it was SSL, now it is TLS, the current version is TLS 1.3, everything before TLS 1.2 is considered insecure.
+**Authentication and Integrity in TLS**
+(slide)
+**Confidentiality in TLS**
+(slide)
+
+
 
 
 
