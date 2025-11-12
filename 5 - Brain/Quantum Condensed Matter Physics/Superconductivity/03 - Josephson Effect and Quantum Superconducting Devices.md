@@ -8,5 +8,4 @@ Tags:
 # Josephson Effect and Quantum Superconducting Devices
 
 
-
 ## References
