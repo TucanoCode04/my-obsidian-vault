@@ -115,6 +115,19 @@ A Host-based Intrusion Detection System (HIDS) is a log analysis system that mon
 **NIDS**
 A Network-based Intrusion Detection System (NIDS) monitors network traffic for suspicious activity and potential security breaches. It analyzes network packets and looks for patterns or signatures that indicate malicious behavior, such as unauthorized access attempts, malware infections, or denial-of-service attacks.
 The components of NIDS are:
-- sensors: 
-
+- sensors: capture and analyze network traffic, looking for suspicious patterns or signatures;
+- director: collects and correlates data from multiple sensors, providing a centralized view of network security;
+- IDS message system: communication among the components, sending alerts and notifications about potential security incidents.
+Architecture:
+![[Pasted image 20251112120923.png]]
+- host sensor: monitors traffic to and from a specific host or device;
+- network sensor: monitors traffic on a specific network segment or subnet;
+- IDS director: collects and analyzes data from multiple sensors, providing a centralized view of network security.
+##### Intrusion Prevention System(IPS)
+An Intrusion Prevention System (IPS) is an IDS that is capable of taking proactive measures to prevent or mitigate detected threats. It can block or reject malicious traffic, terminate connections, or quarantine infected systems to prevent the spread of malware. It is composed of IDS plus some distributed dynamic firewalls that can be configured to block traffic based on the IPS's detections.
+It may take the wrong decision and block legitimate traffic, causing disruptions to normal network operations, so the human oversight is still important.
+##### Honey Pot/Net
+A honeypot is a decoy system or network that is intentionally designed to attract and deceive attackers. It is used to gather information about attack techniques, tools, and motivations, as well as to divert attackers away from valuable assets. The honey pot will be put in a decoy DMZ, isolated from the internal network.
+You can replicate the honeypot structure in the internal network, creating a honeynet. It consists of multiple honeypots that simulate a real network environment, allowing for more comprehensive monitoring and analysis of attacker behavior.
+![[Pasted image 20251112121553.png]]
 ## References
