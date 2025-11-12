@@ -17,4 +17,8 @@ More specifically Cooper-pairs in the superconductor cannot tunnel into the norm
 ![[Pasted image 20251112221522.png]]
 So figuratively, the valence band of the normal metal aligns with the conduction band of the superconductor when the voltage exceeds $\frac{\Delta}{e}$, allowing electrons to tunnel through the barrier. In the second figure we can appreciate how we see current flowing only after the voltage exceeds $\frac{\Delta}{e}$.
 ##### S-I-S(Superconductor-Insulator-Superconductor) Junction and the Josephson Effect
+![[Pasted image 20251112222939.png]]
+The S-I-S junction consists of two superconductors separated by a thin insulating barrier. In this case, Cooper pairs must be broken in both superconductors for normal electron tunneling to occur. It even requires double the energy compared to the S-I-N junction, to align the valence band of one superconductor with the conduction band of the other superconductor. Therefore, no current flows until the applied voltage V exceeds $\frac{2\Delta}{e}$.
+![[Pasted image 20251112223238.png]]
+However, 
 ## References
