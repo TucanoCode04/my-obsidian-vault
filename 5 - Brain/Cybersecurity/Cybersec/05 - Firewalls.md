@@ -57,7 +57,23 @@ It is secure against buffer overflow attacks and other application-level threats
 There are differences between forward and reverse proxies.
 - A forward proxy acts on behalf of clients, forwarding their requests to external servers. It is used to control and monitor outbound traffic from the internal network to the internet.
 - A reverse proxy acts on behalf of servers, receiving requests from external clients and forwarding them to the appropriate internal servers. It is used to protect and optimize inbound traffic to the internal network from the internet.
-The rules are more fine-grained compared to packet filters, as they can be based on:
-
-
+The rules are more fine-grained compared to packet filters. 
+The cons are that it is higher latency, reduced throughput, since each application needs a specific proxy, it's heavy on resources.
+It completely breaks the client-server model, since clients need to connect to the proxy first.
+But there are problems with pairing it with application-level security techniques like SSL/TLS, since the firewall cannot inspect encrypted traffic unless it performs SSL/TLS termination, which involves decrypting the traffic at the firewall and re-encrypting it before forwarding it to the destination server. This introduces additional complexity and potential security risks.
+**HTTP Forward Proxy**
+An HTTP forward proxy is a server that acts as an intermediary for HTTP requests from internal clients to external web servers. It's an egress firewall that filters and controls outbound HTTP traffic. The benefits include, beside the ACL(Access Control List) filtering:
+- a shared cache of external web content, reducing bandwidth usage and improving performance for frequently accessed resources, for all internal clients;
+- it requires authentication, so only authorized users can access external web resources;
+- you can implement content filtering, blocking access to certain websites or categories of content based on organizational policies.
+**HTTP Reverse Proxy**
+An HTTP reverse proxy is a server that acts as an intermediary for HTTP requests from external clients to internal web servers. It's an ingress firewall that filters and controls inbound HTTP traffic. It implements network ACL and content filtering, but also:
+- obfuscates the internal server structure, hiding the details of the internal network from external clients, enhancing security;
+- TLS acceleration, offloading the computationally intensive task of SSL/TLS encryption and decryption from the internal web servers, improving their performance;
+- load balancing, distributing incoming HTTP requests across multiple internal web servers to optimize resource utilization and improve availability.
+- web acceleration, caching frequently accessed web content to reduce latency and improve response times for external clients.
+- compression of web content to reduce bandwidth usage and improve load times for external clients.
+- spoon feeding, meaning that the reverse proxy can send data to clients at a controlled rate, preventing overwhelming slow clients and improving overall performance.
+You can have possible configurations:
+- external fi
 ## References
