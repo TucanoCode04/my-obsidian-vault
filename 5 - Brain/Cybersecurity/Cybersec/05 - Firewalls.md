@@ -84,5 +84,11 @@ ModSecurity is an open-source WAF that can be deployed as a module for web serve
 It can be implemented between the external and internal networks, but it is insecure since an attacker can bypass it by connecting directly to the internal network.
 (slide)
 To enhance security, it can be implemented on a dual-homed host, which has two network interfaces, one connected to the external network and the other to the internal network. It is used to check the content of the traffic between the two networks, with routing disabled to prevent direct communication.
-It's easy to implement an it masquerades internal IP addresses, but 
+It's easy to implement an it masquerades internal IP addresses, but it can become a bottleneck since all traffic must pass through it, more specifically the difference incoming and outgoing traffic.
+To improve performance, it can be implemented on a screened host architecture. The packet filter now is both connected to the external and internal networks, so if the traffic is trusted it can pass directly between the the two networks, otherwise it is sent to the dual-homed host for inspection. The problem is that if the packet filter is compromised, the internal network is exposed, creating a single point of failure.
+(slide)
+To further enhance security, a screened subnet architecture can be used. Here, a demilitarized zone(DMZ) is created between the external and internal networks, with two packet filters: one between the external network and the DMZ, and another between the DMZ and the internal network. The dual-homed host is placed in the DMZ to inspect traffic between the two networks. This setup provides an additional layer of security, as even if the DMZ is compromised, the internal network remains protected.
+The two packet filters should have different rulesets to prevent an attacker from exploiting the same vulnerability in both filters or even physically different to prevent the possibility of having the same vulnerability.
+You normally put on the DMZ public-facing services like web servers, email servers, DNS servers, FTP servers, etc., so that they can be accessed from the external network while still being isolated from the internal network, to prevent direct access in case they are compromised.
+In this architecture, the internal network 
 ## References
