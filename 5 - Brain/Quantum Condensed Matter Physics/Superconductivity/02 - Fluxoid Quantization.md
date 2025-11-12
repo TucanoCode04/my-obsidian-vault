@@ -51,5 +51,8 @@ Int he classical model any amount of magnetic flux could be trapped inside the h
 $$\oint_C \Lambda \vec{J}_s(\vec{r}, t) \cdot d\vec{l} + \int_S \vec{B}(\vec{r}, t) \cdot d\vec{S} = n \Phi_0 \quad \Rightarrow \quad \int_S \vec{B}(\vec{r}, t) \cdot d\vec{S} = n \Phi_0 $$
 This shows that the magnetic flux trapped inside the hollow core of the superconducting cylinder must be quantized in integer multiples of the flux quantum $\Phi_0$.
 
-
+An experiment from 1961 by Deaver and Fairbank provided direct evidence of flux quantization in superconducting rings. They measured the magnetic flux trapped in a superconducting ring cooled below its critical temperature in the presence of an external magnetic field. They observed that the trapped flux was quantized in units of $\Phi_0 = \frac{h}{2e}$, confirming the theoretical predictions of fluxoid quantization. 
+This was also the first experimental evidence that the charge carriers in a superconductor are Cooper pairs with charge $2e$. 
+![[Pasted image 20251112175607.png]]
+In the imagine we can appreciate the quantization of the magnetic flux trapped in the hollow core in function of the applied magnetic field before cooling the superconductor. As we increase the applied magnetic field, the trapped flux increases in discrete steps of size $\Phi_0$.
 ## References
