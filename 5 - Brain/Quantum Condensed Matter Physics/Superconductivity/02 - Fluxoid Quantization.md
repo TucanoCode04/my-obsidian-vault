@@ -43,6 +43,9 @@ This is true because the electric field $\vec{E}$ inside a superconductor is zer
 Shielding currents may flow in the walls of the superconductor, either the inner or outer surface, to ensure that the magnetic field inside the superconductor remains zero. 
 ![[Pasted image 20251112172938.png]]
 1. We start with the cylinder above the critical temperature $T_c$ so that it is in the normal state. We apply an external magnetic field $\vec{H_{app}}$, which will uniformly penetrate the cylinder and the hollow core.
-2. We cool down the cylinder below $T_c$ while keeping the external magnetic field constant. As the cylinder becomes superconducting, an outer wall current is induced, due to Meissner effect,  
+2. We cool down the cylinder below $T_c$ while keeping the external magnetic field constant. As the cylinder becomes superconducting, an outer wall current is induced, due to Meissner effect, to expel the magnetic field from the superconductor. To maintain the flux constant inside the hollow core, an inner wall inner wall current is is induced to keep the magnetic field inside the hollow core unchanged. This effects occurs because Faraday's law requires that any change in magnetic flux through a closed loop induces an electric field that opposes that change and hence a current. But since in the supercondutor no
+3. We turn off the external magnetic field $\vec{H_{app}} = 0$. The outer wall current will disappear since there is no external magnetic field to expel, but the inner wall current will persist to maintain the magnetic flux inside the hollow core constant.
+Since there are no losses in the superconductor, the inner wall current will persist indefinitely and the magnetic flux trapped inside the hollow core will remain constant.
+
 
 ## References
