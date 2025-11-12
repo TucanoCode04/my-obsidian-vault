@@ -40,6 +40,10 @@ Before it was SSL, now it is TLS, the current version is TLS 1.3, everything bef
 (slide)
 **Confidentiality in TLS**
 (slide)
+**TLS Handshake Protocol**
+![[Pasted image 20251112124016.png]]
+1. ...
+2. ...
 
 
 
