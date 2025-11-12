@@ -99,6 +99,22 @@ Differently for a network firewall it may limit the processes and applications p
 It's a firewall directly installed at the node to be protected, it is normally just a packet filter.
 It's important to limit the diffusion of malwares and trojans or to avoid configuration changes made by malicious software.
 In order to be effective, the firewall management must be separate from the system management, to prevent malware from disabling the firewall.
-Normally when you install a personal firewall, it asks you to define rules for allowing or denying traffic for specific applications, and it may also provide predefined rules for common applications and services.
+Normally when you install a personal firewall, it asks you to define rules for allowing or denying traffic for specific applications, and it may also provide predefined rules for common applications and services. 
+So it is possible to open some channels, when now need to monitor them to detect any anomalous behavior, this can be done through:
+- VPN
+- IDS/semantic firewalls
+- Application-level security
+##### Intrusion Detection System(IDS)
+An Intrusion Detection System (IDS) is a security solution that identifies actors using a network or system without authorization, or that are trying to compromise the security of a system. The behavior is analyzed to detect possible attacks.
+**Passive IDS**
+A passive IDS detects potential security breaches and alerts the system administrator, but it does not take any action to prevent or mitigate the attack. It is done through cryptographic checksums, pattern matching, statistical analysis, etc.
+**Active IDS**
+An active IDS learns statistical patterns of normal behavior, than monitors the system for deviations from this normal behavior, and takes action to prevent or mitigate the attack, such as blocking network traffic or terminating processes. The problem is obviously the statistical approach, since it may generate false positives or false negatives.
+**HIDS**
+A Host-based Intrusion Detection System (HIDS) is a log analysis system that monitors and analyzes the activities and events occurring on a specific host or device to detect potential security breaches or unauthorized activities. It focuses on monitoring system logs, file integrity, and user activities to identify suspicious behavior.
+**NIDS**
+A Network-based Intrusion Detection System (NIDS) monitors network traffic for suspicious activity and potential security breaches. It analyzes network packets and looks for patterns or signatures that indicate malicious behavior, such as unauthorized access attempts, malware infections, or denial-of-service attacks.
+The components of NIDS are:
+- sensors: 
 
 ## References
