@@ -20,5 +20,7 @@ So figuratively, the valence band of the normal metal aligns with the conduction
 ![[Pasted image 20251112222939.png]]
 The S-I-S junction consists of two superconductors separated by a thin insulating barrier. In this case, Cooper pairs must be broken in both superconductors for normal electron tunneling to occur. It even requires double the energy compared to the S-I-N junction, to align the valence band of one superconductor with the conduction band of the other superconductor. Therefore, no current flows until the applied voltage V exceeds $\frac{2\Delta}{e}$.
 ![[Pasted image 20251112223238.png]]
-However, 
+However, a small zero-bias(meaning no voltage applied) current was experimentally observed in S-I-S junctions, which was unexpected based on the probability of normal electron tunneling. This phenomenon is still very unlikely since it's the joint probability of two electrons tunneling simultaneously(direct tunneling of Cooper-pair).
+![[Pasted image 20251113105458.png]]
+Between the critical current $I_c$ and $-I_c$, the junction even at zero voltage can support a supercurrent. If you increase the voltage beyond $\frac{2\Delta}{e}$, we observe normal electron tunneling when over the the $I_c$ threshold.
 ## References
