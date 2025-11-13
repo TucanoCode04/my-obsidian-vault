@@ -22,5 +22,7 @@ The S-I-S junction consists of two superconductors separated by a thin insulatin
 ![[Pasted image 20251112223238.png]]
 However, a small zero-bias(meaning no voltage applied) current was experimentally observed in S-I-S junctions, which was unexpected based on the probability of normal electron tunneling. This phenomenon is still very unlikely since it's the joint probability of two electrons tunneling simultaneously(direct tunneling of Cooper-pair).
 ![[Pasted image 20251113105458.png]]
-Between the critical current $I_c$ and $-I_c$, the junction even at zero voltage can support a supercurrent. If you increase the voltage beyond $\frac{2\Delta}{e}$, we observe normal electron tunneling when over the the $I_c$ threshold.
+The upper part of the graph shows various regions:
+- $|I| < I_c$ and $V= 0$: This is the DC Josephson effect region, where a supercurrent flows without any voltage across the junction, due to the tunneling of Cooper pairs.
+- $|I| 
 ## References
