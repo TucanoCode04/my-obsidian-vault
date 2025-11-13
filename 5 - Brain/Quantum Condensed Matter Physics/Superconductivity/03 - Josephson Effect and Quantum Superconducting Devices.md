@@ -36,4 +36,5 @@ $$I = \frac{V}{R_N}$$
 	where $R_N$ is the normal state resistance of the junction. So the total current in this region is governed by the quasiparticle tunneling current, only a remnant of the supercurrent and the AC Josephson effect is present.
 4. $|I| > I_c$: When the current exceeds the critical current $I_c$, a voltage develops across the junction, leading to a resistive state. In this regime, both quasiparticle tunneling and dissipative processes occur, resulting in a finite voltage drop. The I-V curve shows a linear increase in voltage with increasing current. The phase is no longer stationary, and the junction behaves like a normal resistor with resistance $R_N$.
 
+Brian Josephson described this tunneling of Cooper pairs in 1962, 
 ## References
