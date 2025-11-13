@@ -67,5 +67,58 @@ $\Psi(\vec{r})$ is constant in each superconductor. The insulator can be modeled
 In the superconductors, the wavefunction satisfies the time-independent Schrödinger equation:
 $$-\frac{\hbar^2}{2m} \nabla^2 \Psi(x) = (\epsilon_0 - V(0)) \Psi(x)$$
 To explain each component:
-- $-\frac{\hbar^2}{2m} \nabla^2$ describes how the wavefunction bends or decays when it encounters a potential barrier, the decay in this case is exponential since 
+- Kinetic term
+$$  
+-\frac{\hbar^2}{2m},\nabla^2 \Psi(x)  
+$$
+This term describes how the macroscopic superconducting wavefunction $\Psi(x)$ **bends or decays** as it enters the insulating barrier of the Josephson junction.  
+It plays the same role as the kinetic-energy operator in the usual Schrödinger equation.
+
+Inside the barrier, because the Cooper pair kinetic energy $\epsilon_0$ is **smaller** than the barrier height $V_0$, the solution is an **evanescent (exponentially decaying) wave**:
+$$  
+\Psi(x) \propto e^{-\kappa x}, \qquad  
+\kappa = \sqrt{\frac{2m(V_0 - \epsilon_0)}{\hbar^2}}.  
+$$
+The decay of $\Psi(x)$ determines the **tunneling amplitude**, and thus the size of the Josephson current.
+- Effective mass of the Cooper pair
+$$  
+m = 2m_e  
+$$
+The mass entering the equation is the mass of a **Cooper pair**, since the tunneling object is the paired-electron condensate (a composite boson).  
+The mass controls how fast the wavefunction decays inside the barrier through the parameter $\kappa$.
+- Kinetic energy of the Cooper pairs
+$$  
+\epsilon_0 = \frac{1}{2} m v_s^2  
+$$
+Here ( \epsilon_0 ) is the kinetic energy associated with the flow of the supercurrent.  
+The superfluid velocity is related to the gradient of the condensate phase:
+
+$$  
+v_s = \frac{\hbar}{m}, \nabla \theta.  
+$$
+
+Thus the kinetic energy depends on the **phase gradient** across the junction.  
+Since typically ( \epsilon_0 \ll V_0 ), the Cooper pairs cannot propagate inside the barrier, leading to exponential decay.
+
+---
+
+## **• Barrier potential**
+
+$$  
+V(0) = V_0  
+$$
+
+This is the **effective potential energy** representing the energy cost for a Cooper pair to enter the insulating barrier.  
+The difference ( V_0 - \epsilon_0 ) determines how strongly the wavefunction decays:
+
+$$  
+\kappa = \sqrt{\frac{2m(V_0 - \epsilon_0)}{\hbar^2}}.  
+$$
+
+Larger ( V_0 ) → faster decay → smaller Josephson critical current.  
+Smaller or thinner ( V_0 ) → slower decay → larger critical current.
+
+---
+
+If you want, I can also format **the entire Josephson Schrödinger equation** in LaTeX with a full textual explanation underneath (textbook style).
 ## References
