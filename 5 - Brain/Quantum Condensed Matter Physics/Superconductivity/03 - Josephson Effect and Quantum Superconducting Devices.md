@@ -58,7 +58,7 @@ As we said $J_0$ is constant across the junction, so the gradient of the phase m
 So even the energy-phase relation:
 $$\frac{\partial}{\partial t} \theta(\pm a, t) = -\frac{1}{\hbar} \left[\frac{\Lambda}{2n_s}J_s^2(\pm a, t) + q\phi(\pm a, t)\right]$$
 Where $n_s$ is the density of superconducting electrons, and q is the charge of the Cooper pair(2e), becomes:
-$$\frac{\partial}{\partial t} \theta(\pm a, t) = -\frac{1}{\hbar} (\frac{\Lambda}{2n_s}J_0^2) = - \frac{\epsilon_0}{\hbar}$$ 
+$$\frac{\partial}{\partial t} \theta(\pm a, t) = -\frac{1}{\hbar} (\frac{\Lambda}{2n_s}J_0^2) = - \frac{\epsilon_0}{\hbar}$$  
 
 
 ## References
