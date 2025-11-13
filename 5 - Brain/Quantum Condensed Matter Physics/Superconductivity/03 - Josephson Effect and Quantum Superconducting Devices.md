@@ -23,8 +23,13 @@ The S-I-S junction consists of two superconductors separated by a thin insulatin
 However, a small zero-bias(meaning no voltage applied) current was experimentally observed in S-I-S junctions, which was unexpected based on the probability of normal electron tunneling. This phenomenon is still very unlikely since it's the joint probability of two electrons tunneling simultaneously(direct tunneling of Cooper-pair).
 ![[Pasted image 20251113105458.png]]
 The upper part of the graph shows various regions:
-- $|I| < I_c$ and $V= 0$: This is the DC Josephson effect region, where a supercurrent flows without any voltage across the junction, due to the tunneling of Cooper pairs.
-- $|I| \leq I_c$ and $0 < V < \frac{2\Delta}{e}$: This is the AC Josephson effect region, where a voltage is applied to the junctions causing the phase difference between the superconductors to change over time, resulting in an alternating supercurrent between the superconductors.
-- $|I| \leq I_c$ and $V \geq \frac{2\Delta}{e}$: The voltage is high enough to break Cooper pairs in both superconductors, allowing both normal electron tunneling and Cooper pair tunneling to occur.
-- $|I| > I_c$: The current exceeds the critical current, leading to a resistive state where normal electron tunneling dominates.
+1. $|I| < I_c$ and $V= 0$: A dissipationless supercurrent flows due to the tunneling of Cooper pairs. This is the DC Josephson effect. This current doesn't depend on voltage, on potential drop or on electron moving randomly, it just flows because of the phase difference between the two superconductors. So the current is described by:
+$$I = I_c \sin(\phi)$$
+	where $I_c$ is the critical current, the maximum supercurrent that can flow without voltage, and $\phi$ is the phase difference between the superconducting wavefunctions on either side of the junction.
+2. $0 < V < \frac{2\Delta}{e}$: No quasiparticle current flows since the voltage is below the threshold for breaking Cooper pairs. However, an AC supercurrent can flow due to the AC Josephson effect, cause the phase evolves over time when a voltage is applied following the Josephson relation:
+$$\frac{d\phi}{dt} = \frac{2eV}{\hbar}$$
+	This produces an AC supercurrent:
+$$I(t) = I_c \sin\left(\phi(t)\right) = I_c \sin\left(\phi(0) + \frac{2eV}{\hbar}t\right)$$
+	The instantaneous current oscillates between $-I_c$ and $I_c$, the average DC current results then to be zero. Due to the presence of the gap, no quasiparticle current flows in this region. This is why the I-V curve shows zero average current for voltages below $\frac{2\Delta}{e}$.
+3. $V \geq \frac{2\Delta}{e}$: Quasiparticle(normal) tunneling occurs as the voltage exceeds the threshold for breaking Cooper pairs. Electrons(important, not Cooper pairs) can now be excited above the superconducting gap of the other superconductor, resulting in a finite quasiparticle current. The I-V curve shows a sharp increase in current beyond this voltage, following the
 ## References
