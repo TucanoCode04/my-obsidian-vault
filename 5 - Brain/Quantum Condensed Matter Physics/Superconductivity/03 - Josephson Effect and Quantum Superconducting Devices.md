@@ -54,7 +54,11 @@ So that the supercurrent density:
 $$J_s(\pm a, t) = - \frac{1}{\Lambda} \left[\vec{A}(\pm a, t) + \frac{\Phi_0}{2\pi} \nabla \theta(\vec{r}, t)\right]$$
 Where $\Lambda$ is the London penetration depth, and $\Phi_0 = \frac{h}{2e}$ is the magnetic flux quantum, becomes:
 $$J_0  = - \frac{\Phi_0}{2\pi \Lambda} \nabla \theta(\pm a, t)$$
-As we said $J_0$ is constant across the junction, so t
+As we said $J_0$ is constant across the junction, so the gradient of the phase must also be constant.
+So even the energy-phase relation:
+$$\frac{\partial}{\partial t} \theta(\pm a, t) = -\frac{1}{\hbar} \left[\frac{\Lambda}{2n_s}J_s^2(\pm a, t) + q\phi(\pm a, t)\right]$$
+Where $n_s$ is the density of superconducting electrons, and q is the charge of the Cooper pair(2e), becomes:
+$$\frac{\partial}{\partial t} \theta(\pm a, t) = -\frac{1}{\hbar} (\frac{\Lambda}{2n_s}J_0^2) = - \frac{\epsilon_0}{\hbar}$$ 
 
 
 ## References
