@@ -24,5 +24,7 @@ However, a small zero-bias(meaning no voltage applied) current was experimentall
 ![[Pasted image 20251113105458.png]]
 The upper part of the graph shows various regions:
 - $|I| < I_c$ and $V= 0$: This is the DC Josephson effect region, where a supercurrent flows without any voltage across the junction, due to the tunneling of Cooper pairs.
-- $|I| 
+- $|I| \leq I_c$ and $0 < V < \frac{2\Delta}{e}$: This is the AC Josephson effect region, where a voltage is applied to the junctions causing the phase difference between the superconductors to change over time, resulting in an alternating supercurrent between the superconductors.
+- $|I| \leq I_c$ and $V \geq \frac{2\Delta}{e}$: The voltage is high enough to break Cooper pairs in both superconductors, allowing both normal electron tunneling and Cooper pair tunneling to occur.
+- $|I| > I_c$: The current exceeds the critical current, leading to a resistive state where normal electron tunneling dominates.
 ## References
