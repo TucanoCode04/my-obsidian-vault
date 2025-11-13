@@ -61,8 +61,11 @@ Where $n_s$ is the density of superconducting electrons, and q is the charge of 
 $$\frac{\partial}{\partial t} \theta(\pm a, t) = -\frac{1}{\hbar} (\frac{\Lambda}{2n_s}J_0^2) = - \frac{\epsilon_0}{\hbar}$$
 Where $\epsilon_0 = \frac{mv_s^2}{2}$ is the constant kinetic energy of the superconducting electrons, with $v_s$ being their velocity. Since the phase evolution is completely determined by the kinetic energy of the superconducting electrons, the wavefunction is simply:
 $$\Psi(\vec{r}, t) = \Psi(\vec{r})e^{-i \frac{\epsilon_0}{\hbar} t}$$
-Meaning that the phase evolves linearly with time, with a rate determined by the kinetic energy of the superconducting electrons. So we only need to determine the spatial dependence $\Psi(\vec{r})$.
+This is the polar representation of the wavefunction, where the amplitude $\Psi(\vec{r})$ is time-independent and all the time dependence is in the phase factor $e^{-i \frac{\epsilon_0}{\hbar} t}$, but since the change in phase is linear with time(since $\epsilon_0$ is constant) with a rate determined by the kinetic energy of the superconducting electrons, the only term that is now left to determine is the spatial dependence $\Psi(\vec{r})$.
 ![[Pasted image 20251113181241.png]]
-$\Psi(\vec{r})$ is cons
+$\Psi(\vec{r})$ is constant in each superconductor. The insulator can be modeled as a potential barrier of height $V_0 > \epsilon_0$ of width $2a$. From the simplifications we made earlier, we can consider a one-dimensional model along the x-axis, perpendicular to the junction $\Psi(x)$.
+In the superconductors, the wavefunction satisfies the time-independent Schrödinger equation:
+$$-\frac{\hbar^2}{2m} \nabla^2 \Psi(x) = (\epsilon_0 - V(0)) \Psi(x)$$
+
 
 ## References
