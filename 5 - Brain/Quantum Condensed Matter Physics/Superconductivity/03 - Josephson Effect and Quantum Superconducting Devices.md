@@ -58,7 +58,11 @@ As we said $J_0$ is constant across the junction, so the gradient of the phase m
 So even the energy-phase relation:
 $$\frac{\partial}{\partial t} \theta(\pm a, t) = -\frac{1}{\hbar} \left[\frac{\Lambda}{2n_s}J_s^2(\pm a, t) + q\phi(\pm a, t)\right]$$
 Where $n_s$ is the density of superconducting electrons, and q is the charge of the Cooper pair(2e), becomes:
-$$\frac{\partial}{\partial t} \theta(\pm a, t) = -\frac{1}{\hbar} (\frac{\Lambda}{2n_s}J_0^2) = - \frac{\epsilon_0}{\hbar}$$  
-
+$$\frac{\partial}{\partial t} \theta(\pm a, t) = -\frac{1}{\hbar} (\frac{\Lambda}{2n_s}J_0^2) = - \frac{\epsilon_0}{\hbar}$$
+Where $\epsilon_0 = \frac{mv_s^2}{2}$ is the constant kinetic energy of the superconducting electrons, with $v_s$ being their velocity. Since the phase evolution is completely determined by the kinetic energy of the superconducting electrons, the wavefunction is simply:
+$$\Psi(\vec{r}, t) = \Psi(\vec{r})e^{-i \frac{\epsilon_0}{\hbar} t}$$
+Meaning that the phase evolves linearly with time, with a rate determined by the kinetic energy of the superconducting electrons. So we only need to determine the spatial dependence $\Psi(\vec{r})$.
+![[Pasted image 20251113181241.png]]
+$\Psi(\vec{r})$ is cons
 
 ## References
