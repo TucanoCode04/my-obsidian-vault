@@ -66,6 +66,6 @@ This is the polar representation of the wavefunction, where the amplitude $\Psi(
 $\Psi(\vec{r})$ is constant in each superconductor. The insulator can be modeled as a potential barrier of height $V_0 > \epsilon_0$ of width $2a$. From the simplifications we made earlier, we can consider a one-dimensional model along the x-axis, perpendicular to the junction $\Psi(x)$.
 In the superconductors, the wavefunction satisfies the time-independent Schrödinger equation:
 $$-\frac{\hbar^2}{2m} \nabla^2 \Psi(x) = (\epsilon_0 - V(0)) \Psi(x)$$
-
-
+To explain each component:
+- $-\frac{\hbar^2}{2m} \nabla^2$ describes how the wavefunction bends or decays when it encounters a potential barrier, the decay in this case is exponential since 
 ## References
