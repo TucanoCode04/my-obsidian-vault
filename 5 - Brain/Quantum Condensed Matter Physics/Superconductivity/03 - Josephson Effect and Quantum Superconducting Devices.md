@@ -110,5 +110,7 @@ $$
 Larger $V_0$ → faster decay → smaller Josephson critical current.  
 Smaller or thinner $V_0$ → slower decay → larger critical current.
 
-The standard solution 
+The standard solution to this problem is given by>
+$$\Psi(x) = C_1 \cosh \frac{x}{\xi} + C_2 \sinh \frac{x}{\xi}$$
+where $\xi = \sqrt{\frac{\hbar^2}{2m(V_0 - \epsilon_0)}}$ is the decay length of the wavefunction inside the barrier. This is phenomenological parameter of the barrier only and must not be confused with the superconducting coherence length(that describes ....).
 ## References
