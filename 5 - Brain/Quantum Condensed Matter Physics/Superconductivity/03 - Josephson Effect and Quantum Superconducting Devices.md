@@ -41,6 +41,20 @@ This dissipationless current of Cooper pairs tunneling is limited by the critica
 
 ![[Pasted image 20251113140150.png]]
 We consider a current-driven Josephson junction, where a current I is applied across the junction. We want to link the supercurrent at the edges of the junction with the phase difference between the two edges, to calculate the current density distribution across the junction.
-The supercurrent density at the edges of the junction is given by:
+The supercurrent density at the edges of the junction is described as:
+$$J_0(\pm a, y, z, t)$$
+where $a$ is half the width of the insulating barrier, and y and z are the coordinates along the junction.
+The phase difference across the junction is given by the difference in the superconducting wavefunction phases on either side of the barrier:
+$$\theta_1 - \theta_2 = \theta(-a, y, z, t) - \theta(+a, y, z, t)$$
+Before writing the supercurrent density equation, we use two simplifications:
+- The are of the junction in the directions y and z is very small($wd$) meaning that the current density in those directions can be considered constant. $J_s(y,z) = J_0$
+- We assume the absence of electric and magnetic fields inside the junction, due to the thinness of the insulating barrier. $\vec{A}(x,y,z,t) = 0$, so the vector potential is zero.
+
+So that the supercurrent density:
+$$J_s(\pm a, t) = - \frac{1}{\Lambda} \left[\vec{A}(\pm a, t) + \frac{\Phi_0}{2\pi} \nabla \theta(\vec{r}, t)\right]$$
+Where $\Lambda$ is the London penetration depth, and $\Phi_0 = \frac{h}{2e}$ is the magnetic flux quantum, becomes:
+$$J_0  = - \frac{\Phi_0}{2\pi \Lambda} \nabla \theta(\pm a, t)$$
+As we said $J_0$ is constant across the junction, so t
+
 
 ## References
