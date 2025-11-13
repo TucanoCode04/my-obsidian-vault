@@ -39,6 +39,8 @@ $$I = \frac{V}{R_N}$$
 Brian Josephson described this tunneling of Cooper pairs in 1962, saying that the probability amplitude for a Cooper pair to tunnel is the same probability amplitude for a single electron to tunnel, due to the coherent(meaning all the electrons are in the same quantum state) nature of the superconducting state. Thus linking it with the Macroscopic Quantum Model of superconductivity, saying that it is the macroscopic wavefunction that tunnels through the barrier, not individual electrons.
 This dissipationless current of Cooper pairs tunneling is limited by the critical current $I_c$.
 
-
+![[Pasted image 20251113140150.png]]
+We consider a current-driven Josephson junction, where a current I is applied across the junction. We want to link the supercurrent at the edges of the junction with the phase difference between the two edges, to calculate the current density distribution across the junction.
+The supercurrent density at the edges of the junction is given by:
 
 ## References
