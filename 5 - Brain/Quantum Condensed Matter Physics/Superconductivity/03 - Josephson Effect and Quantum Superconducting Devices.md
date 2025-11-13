@@ -31,5 +31,9 @@ $$\frac{d\phi}{dt} = \frac{2eV}{\hbar}$$
 	This produces an AC supercurrent:
 $$I(t) = I_c \sin\left(\phi(t)\right) = I_c \sin\left(\phi(0) + \frac{2eV}{\hbar}t\right)$$
 	The instantaneous current oscillates between $-I_c$ and $I_c$, the average DC current results then to be zero. Due to the presence of the gap, no quasiparticle current flows in this region. This is why the I-V curve shows zero average current for voltages below $\frac{2\Delta}{e}$.
-3. $V \geq \frac{2\Delta}{e}$: Quasiparticle(normal) tunneling occurs as the voltage exceeds the threshold for breaking Cooper pairs. Electrons(important, not Cooper pairs) can now be excited above the superconducting gap of the other superconductor, resulting in a finite quasiparticle current. The I-V curve shows a sharp increase in current beyond this voltage, following the
+3. $V \geq \frac{2\Delta}{e}$: Quasiparticle(normal) tunneling occurs as the voltage exceeds the threshold for breaking Cooper pairs. Electrons(important, not Cooper pairs) can now be excited above the superconducting gap of the other superconductor, resulting in a finite quasiparticle current. The I-V curve shows a sharp increase in current beyond this voltage, following the characteristics of a normal resistor:
+$$I = \frac{V}{R_N}$$
+	where $R_N$ is the normal state resistance of the junction. So the total current in this region is governed by the quasiparticle tunneling current, only a remnant of the supercurrent and the AC Josephson effect is present.
+4. $|I| > I_c$: When the current exceeds the critical current $I_c$, a voltage develops across the junction, leading to a resistive state. In this regime, both quasiparticle tunneling and dissipative processes occur, resulting in a finite voltage drop. The I-V curve shows a linear increase in voltage with increasing current. The phase is no longer stationary, and the junction behaves like a normal resistor with resistance $R_N$.
+
 ## References
