@@ -112,5 +112,9 @@ Smaller or thinner $V_0$ → slower decay → larger critical current.
 
 The standard solution to this problem is given by>
 $$\Psi(x) = C_1 \cosh \frac{x}{\xi} + C_2 \sinh \frac{x}{\xi}$$
-where $\xi = \sqrt{\frac{\hbar^2}{2m(V_0 - \epsilon_0)}}$ is the decay length of the wavefunction inside the barrier. This is phenomenological parameter of the barrier only and must not be confused with the superconducting coherence length(that describes ....).
+where $\xi = \sqrt{\frac{\hbar^2}{2m(V_0 - \epsilon_0)}}$ is the decay length of the wavefunction inside the barrier. This is phenomenological parameter of the barrier and must not be confused with the superconducting coherence length(that describes the distance between the electrons in a Cooper pair/energy distance over which the electrons become correlated).
+Considering the definition of quantum current density:
+$$J_s = q \Re\left\{\Psi^* \left(\frac{\hbar}{im} \nabla - \frac{q}{m} \vec{A}\right) \Psi\right\}$$
+Where q is the charge of the Cooper pair(2e), and since we assumed $\vec{A} = 0$, we plug in the wavefunction solution to get:
+$$J_s ) = -\frac{q \hbar}{m \xi} \Im\{C_1^* C_2\}$$
 ## References
