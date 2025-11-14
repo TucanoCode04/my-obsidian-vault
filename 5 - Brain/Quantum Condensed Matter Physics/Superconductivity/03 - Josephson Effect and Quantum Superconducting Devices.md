@@ -117,4 +117,17 @@ Considering the definition of quantum current density:
 $$J_s = q \Re\left\{\Psi^* \left(\frac{\hbar}{im} \nabla - \frac{q}{m} \vec{A}\right) \Psi\right\}$$
 Where q is the charge of the Cooper pair(2e), and since we assumed $\vec{A} = 0$, we plug in the wavefunction solution to get:
 $$J_s ) = -\frac{q \hbar}{m \xi} \Im\{C_1^* C_2\}$$
+As expected, since the current density is constant as a function of x, it only depends on constants, including the coefficients $C_1$ and $C_2$.
+TO determine these coefficients, we apply the boundary conditions at the edges of the barrier:
+$$\Psi(-a) = \Psi_1 = \sqrt{n_{s1}} e^{i \theta_1} = C_1 \cosh \frac{-a}{\xi} + C_2 \sinh \frac{-a}{\xi} = C_1 \cosh \frac{a}{\xi} - C_2 \sinh \frac{a}{\xi}$$
+$$\Psi(+a) = \Psi_2 = \sqrt{n_{s2}} e^{i \ theta_2} = C_1 \cosh \frac{a}{\xi} + C_2 \sinh \frac{a}{\xi}$$
+Solving this system of equations for $C_1$ and $C_2$, we get:
+$$C_1 = \frac{\sqrt{n_{s1}} e^{i \theta_1} + \sqrt{n_{s2}} e^{i \theta_2}}{2 \cosh \frac{a}{\xi}}$$
+$$C_2 = \frac{\sqrt{n_{s2}} e^{i \ theta_2} - \sqrt{n_{s1}} e^{i \theta_1}}{2 \sinh \frac{a}{\xi}}$$
+Plugging these back into the expression for the supercurrent density, we find the supercurrent through the junction:
+$$J_s = J_c \sin(\theta_1 - \theta_2)$$ 
+Where the critical current density $J_c$ is given by:
+$$J_c = - \frac{q \hbar}{m \xi} \frac{\sqrt{n_{s1} n_{s2}}}{\sinh \frac{2a}{\xi}} = \frac{e \hbar}{2 m_e \xi} \frac{\sqrt{n_{e1} n_{e2}}}{\sinh \frac{2a}{\xi}}$$
+Where we used $q = 2e$ and $m = 2m_e$.
+This is the DC Josephson relation, showing that a supercurrent can flow across the junction without any voltage applied, driven solely by the phase difference between the two superconductors. The critical current density $J_c$ depends only on constants of the junction, including the barrier thickness and the superconducting electron densities on either side, in particular the term $\sqrt{n_{s1} n_{s2}}$ shows that increasing the density of superconducting electrons in either superconductor increases the critical current density, since more Cooper pairs are available to tunnel through the barrier.
 ## References
