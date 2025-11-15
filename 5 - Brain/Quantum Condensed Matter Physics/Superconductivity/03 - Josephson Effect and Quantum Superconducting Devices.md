@@ -147,4 +147,8 @@ $$\vec{J_s}(y,z,t) = J_c(y,z) \sin\left(\theta_1'(y,z,t) - \theta_2'(y,z,t)\righ
 	Where the term $-\frac{2\pi}{\Phi_0} (\chi_1(y,z,t) - \chi_2(y,z,t))$ accounts for the effect of any magnetic field present outside the junction, which modifies the phase difference across the junction via the vector potential. From the theory of calculus of the line integral of any scalar function and the gauge choice $\vec{A} + \nabla \chi = 0$, we can write:
 $$\chi_1(y,z,t) - \chi_2(y,z,t) = - \int_{1}^{2} \nabla \chi(\vec{r}, t) \cdot d\vec{l} = \int_{1}^{2} \vec{A}(\vec{r}, t) \cdot d\vec{l}$$
 	Where the line integral is calculated across the junction from superconductor 1 to superconductor 2.
+	So the supercurrent density finally becomes:
+$$\vec{J_s}(y,z,t) = J_c(y,z) \sin \psi(y,z,t)$$ Where:
+$$\psi(y,z,t) = \theta_1(y,z,t) - \theta_2(y,z,t) - \frac{2\pi}{\Phi_0} \int_{1}^{2} \vec{A}(\vec{r}, t) \cdot d\vec{l}$$
+Is the gauge-invariant phase relation term across the junction, which includes the effect of any magnetic field present outside the junction via the vector potential line integral.
 ## References
