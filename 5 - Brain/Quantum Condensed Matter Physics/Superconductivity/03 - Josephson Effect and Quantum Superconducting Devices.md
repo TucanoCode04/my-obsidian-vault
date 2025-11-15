@@ -134,5 +134,6 @@ In the equation for the $J_c$ the left part is for the Cooper pair, while the ri
 For typical Josephson junctions $a$ is in the order of few nanometers, while $\xi$ is in the order of tenths of nanometers, so $\frac{2a}{\xi} >> 1$, meaning that $\sinh \frac{2a}{\xi} \approx \frac{e^{\frac{2a}{\xi}}}{2}$, meaning that the critical current density decays exponentially with increasing barrier thickness.
 In the following we will focus on effects achieved by driving the Josephson junction with currents smaller than the critical current, so that no voltage develops across the junction and a dissipationless supercurrent flows(in general one cannot neglect the presence of small voltages, creating resistive losses, but for simplicity we will ignore them).
 
+Now we can relax the earlier simplifying assumptions 
 
 ## References
