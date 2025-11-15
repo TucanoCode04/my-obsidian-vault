@@ -145,6 +145,6 @@ In quantum circuit theory, instead, the driving quantity is the electric flux $\
 $$\int_{0}^{t} V(t) dt = \int_{0}^{t} \frac{\Phi_0}{2\pi} \frac{d\psi(t)}{dt} dt = \frac{\Phi_0}{2\pi} \left[\psi(t) - \psi(0)\right] \quad \Rightarrow \quad \psi(t) = \psi(0) + \frac{2\pi}{\Phi_0} \phi(t)$$
 So the gauge-invariant phase difference $\psi(t)$ across the junction can be expressed up to an irrelevant offset($\psi(0)$) in terms of the electric flux $\phi(t)$.
 This means that all Josephson junction relationships can be combined in a single non-linear equation between current flowing int he junction and different of electric flux across it:
-
-
+$$i(t) = I_c \sin\left(\frac{2\pi}{\Phi_0} \phi(t)\right) = I_c \sin\left(\frac{\phi(t)}{\phi_0}\right)$$
+Where $\phi_0 = \frac{\Phi_0}{2\pi}$ is the flux-phase relationship constant.
 ## References
