@@ -163,6 +163,9 @@ Again from basis calculus $\phi(-a, y, z, t) - \phi(+a, y, z, t) = - \int_{1}^{2
 $$\frac{\partial \psi(y,z,t)}{\partial t} = \frac{2\pi}{\Phi_0} \int_{1}^{2} \left[-\nabla \phi(\vec{r}, t) - \frac{\partial \vec{A}(\vec{r}, t)}{\partial t}\right] \cdot d\vec{l}$$
 Th term in the brackets is the electric field $\vec{E}(\vec{r}, t)$, so we finally get:
 $$\frac{\partial \psi(y,z,t)}{\partial t} = \frac{2\pi}{\Phi_0} \int_{1}^{2} \vec{E}(\vec{r}, t) \cdot d\vec{l}$$
-This equation shows that the time evolution of the gauge-invariant phase difference across the junction is directly proportional to the voltage drop across the junction, since the line integral of the electric field across the junction gives the voltage:
-$$\frac{\partial \psi(y,z,t)}{\partial t} = \frac{2\pi}{\Phi_0} V(y,z,t)$$
+This equation shows that the time evolution of the gauge-invariant phase difference across the junction is directly proportional to the voltage drop across the junction, since the line integral of the electric field across the junction gives the voltage. We derived the voltage-phase relation for a Josephson junction.
+(Ask chatgpt to review this part after we relaxed the simplifying assumptions)
+##### Summary
+![[Pasted image 20251115130135.png]]
+
 ## References
