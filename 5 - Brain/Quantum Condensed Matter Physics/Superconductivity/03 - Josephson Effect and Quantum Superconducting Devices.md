@@ -140,5 +140,11 @@ $$\vec{J_s}(y,z,t) = J_c(y,z) \sin(\theta_1(y,z,t) - \theta_2(y,z,t))$$
 	This covers the case of non-uniform junctions, non-homogeneous insulating barriers, so the critical current density $J_c(y,z)$ can vary across the junction area.
 - Our derivation relies on the vanishing of the magnetic field, a more general treatment to ensure $\vec{B} = 0$ inside the junction is to include the vector potential $\vec{A}(\vec{r}, t) = - \nabla \chi(\vec{r}, t) \neq 0$(which was our previous gauge choice, related to a time varying electric field. We can operate a **new** gauge choice:
 $$\vec{A'}(\vec{r}, t) = \vec{A}(\vec{r}, t) + \nabla \chi(\vec{r}, t) = 0$$
-
+	We chose this gauge to simplify the calculations inside the junction, in this new gauge the vector potential is zero, but the phase of the wavefunction transforms as:
+$$\theta'(\vec{r}, t) = \theta(\vec{r}, t) - \frac{2\pi}{\Phi_0} \chi(\vec{r}, t)$$
+	Still $J_c(y,z)$ holds, since it doesn't depend on the gauge choice, but the  equation for the supercurrent density becomes:
+$$\vec{J_s}(y,z,t) = J_c(y,z) \sin\left(\theta_1'(y,z,t) - \theta_2'(y,z,t)\right) = J_c(y,z) \sin\left(\theta_1(y,z,t) - \theta_2(y,z,t) - \frac{2\pi}{\Phi_0} (\chi_1(y,z,t) - \chi_2(y,z,t))\right)$$
+	Where the term $-\frac{2\pi}{\Phi_0} (\chi_1(y,z,t) - \chi_2(y,z,t))$ accounts for the effect of any magnetic field present outside the junction, which modifies the phase difference across the junction via the vector potential. From the theory of calculus of the line integral of any scalar function and the gauge choice $\vec{A} + \nabla \chi = 0$, we can write:
+$$\chi_1(y,z,t) - \chi_2(y,z,t) = - \int_{1}^{2} \nabla \chi(\vec{r}, t) \cdot d\vec{l} = \int_{1}^{2} \vec{A}(\vec{r}, t) \cdot d\vec{l}$$
+	Where the line integral is calculated across the junction from superconductor 1 to superconductor 2.
 ## References
