@@ -17,7 +17,12 @@ From the voltage-phase relationship we have that the voltage drop $V(t)$ across 
 $$\frac{d\psi(t)}{dt} = \frac{2\pi}{\Phi_0} \int_{1}^{2} \vec{E}(\vec{r},t) \cdot d\vec{l} \quad \Rightarrow \quad V(t) = \frac{\Phi_0}{2\pi} \frac{d\psi(t)}{dt}$$
 Where we have used that the voltage is the line integral of the electric field across the junction since there's no dependence on $y$ and $z$ coordinates in a lumped junction.(Look this up better)
 We will always only consider current restricted to be supercurrent, so less than the critical current $I_c$.
-
+##### Dynamics
+Let's now consider the dynamics of the lumped Josephson junction when driven by a current source.
+The source will slowly increase the current $i(t)$ flowing through the junction from zero to some steady state value.
+![[Pasted image 20251115172957.png]]
+The phase varies according to the current-phase relationship:
+$$i(t) = I_c \sin(\psi(t)) \quad \Rightarrow \quad \psi(t) = \arcsin\left(\frac{i(t)}{I_c}\right)$$
 
 The general form of the inductance of a Josephson junction, meaning the property that relates the voltage across the junction to the time derivative of the current through it, is given by:
 - rewriting the voltage-phase relationship $V(t) = \frac{\Phi_0}{2\pi} \frac{d\psi}{dt}$ as $\frac{d\psi}{dt} = \frac{2\pi}{\Phi_0} V(t)$
