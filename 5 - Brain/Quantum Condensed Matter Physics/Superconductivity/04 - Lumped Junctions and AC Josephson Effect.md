@@ -126,8 +126,17 @@ Can be approximated as:
 $$i(t) \approx I_c \sin\left(\psi(0) + \frac{2\pi}{\Phi_0} V_0 t\right) + I_c \frac{2\pi}{\Phi_0} \frac{V_S}{\omega_S} \sin(\omega_S t) \cos\left(\psi(0) + \frac{2\pi}{\Phi_0} V_0 t\right)$$
 If we average the supercurrent over time, the first term averages to zero since it's a pure sinusoidal oscillation(the average value of an odd function over a full period is zero). The second term, instead, for specific values of the DC voltage offset $V_0$, can have a non-zero average value.
 
-
-
+So we conclude that for very precise values of the DC component of the applied voltage, the junction can support a finite DC supercurrent even when driven by an AC voltage source(hence depending on the frequency and amplitude of the AC voltage):
+$$V_0 = n \frac{\Phi_0}{2\pi} \omega_S = n \frac{h}{2e} f_S$$
+Where $n$ is an integer.
+The numerical solution of the full current equation as the waveform of a sawtooth with a constant spacing $\delta V = \frac{h}{2e} f_S$ between the steps.
+For example if $f_S = 1 GHz$, a finite DC supercurrent will appear at $V_0 = 0$ and at integer multiples of $\delta V = 1 \mu V$.
+![[Pasted image 20251115194743.png]]
+If the junction is resistively shunted, meaning that a resistor is placed in parallel with the junction, then these steps in the DC current-voltage characteristic are called Shapiro steps.
+![[Pasted image 20251115195206.png]]
+$$\langle i \rangle = \langle i \rangle_{JJ} + \langle i \rangle_{R} = \langle i \rangle_{JJ} + \frac{V_0}{R}$$
+Where $\langle i \rangle_{JJ}$ is the average supercurrent flowing through the junction, while $\langle i \rangle_{R}$ is the average current flowing through the resistor, that is given by $\frac{V_0}{R}$ according to Ohm's law.
+This is again useful for voltage standards, 
 
 
 ## References
