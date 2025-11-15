@@ -62,6 +62,12 @@ $$L (\psi(t)) = \frac{L_{J}}{\cos(\psi(t))}$$
 - As $\psi(t)$ approaches $\pm \frac{\pi}{2}$, $\cos(\psi(t))$ approaches 0, causing $L(\psi(t))$ to increase towards infinity. This indicates that the junction becomes increasingly inductive as it approaches the critical current, making it harder to change the current.
 - When $\psi(t) = \pm \pi$, $\cos(\pm \pi) = -1$, so $L(\pm \pi) = -L_J$. This negative inductance indicates a phase inversion, where the junction can support a supercurrent in the opposite direction.
 
+The kinetic inductance of a Josephson junction enables it to store energy when a supercurrent flows through it, and this energy can be released when the current is changed. 
+We have seen that when a Josephson junction is driven by a time-varying current  there exist a finite time where both current and voltage are non-zero.
+The energy stored in the junction can be calculated by integrating the power(the product of voltage and current) over time:
+$$W_J = \int_0^{t_0} i(t) V(t) dt = \int_0^{t_0} I_c \sin(\psi(t)) \cdot \frac{\Phi_0}{2\pi} \frac{d\psi(t)}{dt} dt = \frac{\Phi_0 I_c}{2\pi} \int_0^{\psi} \sin(\psi) d\psi$$
+$$ \Rightarrow W_J = W_J(0)\left[1 - \cos \psi(t) \right] \quad \text{where} \quad W_J(0) = \frac{\Phi_0 I_c}{2\pi}$$
+This expression shows that the energy stored in the junction depends sinusoidally and is bond by the critical current $I_c$ and it lags 
 
 
 ## References
