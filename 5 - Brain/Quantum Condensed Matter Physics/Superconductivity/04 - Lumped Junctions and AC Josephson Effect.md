@@ -117,6 +117,16 @@ So the supercurrent oscillates in time following a composition between two oscil
 The current frequency become a superposition of the constant frequency $f_J = \frac{V_0}{\Phi_0}$, depending on the DC voltage offset, and a sinusoidal modulation at the driving frequency $f_S = \frac{\omega_S}{2\pi}$, depending on the AC voltage amplitude.
 The non-linearity of the current-phase relationship allows coupling different frequencies with single frequency sources. In simpler words, by applying a voltage that varies in time at a single frequency, we can generate supercurrents that oscillate at multiple frequencies simultaneously. Because non-linear means that the output is not directly proportional to the input, allowing for mixing and generation of new frequencies.
 
+We consider a small-signal model, where the AC voltage amplitude $V_S$ is much smaller than the DC voltage offset $V_0$.
+Remembering the Taylor expansion for $\delta x << 1$:
+$$\sin(x + \delta x) \approx \sin(x) + \delta x \cos(x)$$
+The the supercurrent:
+$$i(t) = I_c \sin\left(\psi(0) + \frac{2\pi}{\Phi_0} \left[V_0 t + \frac{V_S}{\omega_S} \sin(\omega_S t)\right]\right)$$
+Can be approximated as:
+$$i(t) \approx I_c \sin\left(\psi(0) + \frac{2\pi}{\Phi_0} V_0 t\right) + I_c \frac{2\pi}{\Phi_0} \frac{V_S}{\omega_S} \sin(\omega_S t) \cos\left(\psi(0) + \frac{2\pi}{\Phi_0} V_0 t\right)$$
+If we average the supercurrent over time, the first term averages to zero since it's a pure sinusoidal oscillation(the average value of an odd function over a full period is zero). The second term, instead, for specific values of the DC voltage offset $V_0$, can have a non-zero average value.
+
+
 
 
 
