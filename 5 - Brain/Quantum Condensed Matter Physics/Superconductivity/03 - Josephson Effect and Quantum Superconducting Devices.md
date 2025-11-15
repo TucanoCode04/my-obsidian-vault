@@ -150,4 +150,7 @@ $$\chi_1(y,z,t) - \chi_2(y,z,t) = - \int_{1}^{2} \nabla \chi(\vec{r}, t) \cdot d
 	So the supercurrent density finally becomes:$$\vec{J_s}(y,z,t) = J_c(y,z) \sin \psi(y,z,t)$$
 	Where:$$\psi(y,z,t) = \theta_1(y,z,t) - \theta_2(y,z,t) - \frac{2\pi}{\Phi_0} \int_{1}^{2} \vec{A}(\vec{r}, t) \cdot d\vec{l}$$
 	Is the gauge-invariant phase relation term across the junction, which includes the effect of any magnetic field present outside the junction via the vector potential line integral. This term is true only when $\vec{A}$ is caused by time-varying electric fields, however it can be proved that these equation holds even for finite magnetic fields.
+
+Now we want to analyze the dynamics of the gauge-invariant phase, by taking the time derivative of $\psi(y,z,t)$:
+$$\frac{\partial \psi(y,z,t)}{\partial t} = \frac{\partial \theta_1(y,z,t)}{\partial t} - \frac{\partial \theta_2(y,z,t)}{\partial t} 
 ## References
