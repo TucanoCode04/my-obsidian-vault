@@ -77,8 +77,17 @@ So again the crucial difference between a Josephson junction and a normal induct
 Now let's consider the dynamics of the lumped Josephson junction when driven by a voltage source.
 The source will apply a constant voltage $V(t) = V_0$ across the junction.
 ![[Pasted image 20251115183128.png]]
-From the voltage-phase relationship we have that the phase difference $\psi(t)$ across the junction evolves linearly in time:
+From the voltage-phase relationship we have that the phase difference $\psi(t)$ across the junction evolves linearly in time with a rate proportional to the applied voltage:
 $$\frac{d\psi(t)}{dt} = \frac{2\pi}{\Phi_0} V_0 \quad \Rightarrow \quad \psi(t) = \psi(0) + \frac{2\pi}{\Phi_0} V_0 t$$
+![[Pasted image 20251115183208.png]]
+From the current-phase relationship we have that the supercurrent $i(t)$ flowing through the junction oscillates sinusoidally in time with a frequency proportional to the applied voltage and the magnetic flux quantum(that is the smallest unit of magnetic flux(which is the surface integral of the magnetic field over an area) that can exist in a superconductor):
+$$i(t) = I_c \sin\left(\psi(0) + \frac{2\pi}{\Phi_0} V_0 t\right)$$
+![[Pasted image 20251115183406.png]]
+Resulting in an AC(since it oscillates in time) supercurrent flowing through the junction even though the applied voltage is constant in time. This is called the AC Josephson effect.
 
+The characteristic frequency of the oscillations can be obtained from the argument of the sine function:
+$$i(t) = I_c \sin\left(\psi(0) + \frac{2\pi}{\Phi_0} V_0 t\right) = I_c \sin\left(2\pi f_J t + \psi(0)\right)$$
+Where the Josephson frequency $f_J$ is given by:
+$$f_J = \frac{V_0}{\Phi_0} = \frac{2e}{h} V_0 = 483.6 \times 10^{12 
 
 ## References
