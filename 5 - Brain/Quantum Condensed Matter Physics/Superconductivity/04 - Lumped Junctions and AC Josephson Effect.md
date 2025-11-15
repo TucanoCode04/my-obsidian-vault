@@ -6,8 +6,16 @@ Status:
 Tags:
 
 # Lumped Junctions and AC Josephson Effect
-Many technical applications are based on Josephson junctions where both the gauge-invariant phase difference $\psi(t)$ across the junction and the current density $i(t)$ through the junction can be considered uniform over the junction area. These are called lumped junctions. 
-
+Many technical applications are based on Josephson junctions where both the gauge-invariant phase difference $\psi(t)$ across the junction and the current density $J_s(t)$ through the junction can be considered uniform over the junction area. These are called lumped junctions. 
+From the spatial integral of the current-phase relationship we obtain the total supercurrent $i(t)$ flowing through the junction:
+$$i(t) = \int_S J_s(t) dS = I_c \sin(\psi(t))$$
+We get this result because $J_s(t) = J_c \sin(\psi(t))$ is constant over the junction area $S$, so we can take it out of the integral, and the critical current $I_c = J_c S$(density multiplied by area) is the maximum supercurrent that can flow through the junction without voltage appearing across it.
+From the gauge-invariant phase relationship we have that the gauge-invariant phase difference $\psi(t)$ is:
+$$\psi(t) = \theta_1(t) - \theta_2(t) - \frac{2\pi}{\Phi_0} \int_{1}^{2} \vec{A}(t) \cdot d\vec{l}$$
+Where $\theta_1(t)$ and $\theta_2(t)$ are the phases of the superconducting order parameters in the two electrodes forming the junction, and the integral accounts for the effect of any magnetic field present in the junction region.
+From the voltage-phase relationship we have that the voltage drop $V(t)$ across the junction is related to the time derivative of the phase difference $\psi(t)$ by:
+$$\frac{d\psi(t)}{dt} = \frac{2\pi}{\Phi_0} \int_{1}^{2} \vec{E}(\vec{r},t) \cdot d\vec{l} \quad \Rightarrow \quad V(t) = \frac{\Phi_0}{2\pi} \frac{d\psi(t)}{dt}$$
+Where we have used that the voltage is the line integral of the electric field across the junction
 The general form of the inductance of a Josephson junction, meaning the property that relates the voltage across the junction to the time derivative of the current through it, is given by:
 - rewriting the voltage-phase relationship $V(t) = \frac{\Phi_0}{2\pi} \frac{d\psi}{dt}$ as $\frac{d\psi}{dt} = \frac{2\pi}{\Phi_0} V(t)$
 - substituting this into the time derivative of the current-phase relationship $i(t) = I_c \sin(\psi(t))$, yielding:
