@@ -6,6 +6,7 @@ Status:
 Tags:
 
 # Lumped Junctions and AC Josephson Effect
+Many technical applications are based on Josephson junctions where both the gauge-invariant phase difference $\psi(t)$ across the junction and the current density $i(t)$ through the junction can be considered uniform over the junction area. These are called lumped junctions. 
 
 The general form of the inductance of a Josephson junction, meaning the property that relates the voltage across the junction to the time derivative of the current through it, is given by:
 - rewriting the voltage-phase relationship $V(t) = \frac{\Phi_0}{2\pi} \frac{d\psi}{dt}$ as $\frac{d\psi}{dt} = \frac{2\pi}{\Phi_0} V(t)$
