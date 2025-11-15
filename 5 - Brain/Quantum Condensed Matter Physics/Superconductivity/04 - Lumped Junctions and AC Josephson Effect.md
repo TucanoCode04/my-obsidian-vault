@@ -74,7 +74,11 @@ So again the crucial difference between a Josephson junction and a normal induct
 - a magnetic-coil inductor stores energy in the magnetic field created around the conductor when current flows through it.
 - a Josephson junction stores energy in the kinetic energy of the Cooper pairs tunneling through the junction barrier when supercurrent flows through it, and no magnetic field is created around it.
 ##### Dynamics when driven by a voltage source
-
+Now let's consider the dynamics of the lumped Josephson junction when driven by a voltage source.
+The source will apply a constant voltage $V(t) = V_0$ across the junction.
+![[Pasted image 20251115183128.png]]
+From the voltage-phase relationship we have that the phase difference $\psi(t)$ across the junction evolves linearly in time:
+$$\frac{d\psi(t)}{dt} = \frac{2\pi}{\Phi_0} V_0 \quad \Rightarrow \quad \psi(t) = \psi(0) + \frac{2\pi}{\Phi_0} V_0 t$$
 
 
 ## References
