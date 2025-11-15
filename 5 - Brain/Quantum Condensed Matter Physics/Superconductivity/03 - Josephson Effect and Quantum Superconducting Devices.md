@@ -136,6 +136,9 @@ In the following we will focus on effects achieved by driving the Josephson junc
 
 Now we can relax the earlier simplifying assumptions:
 - The junction area in the y and z directions is no more negligible, so the current density can vary across the junction $J_s(y,z)$. Therefore the phase difference will no longer hold globally across the junction, but will still hold locally in any point $(y,z)$: 
-$$J_s(y,z,t) = J_c 
+$$\vec{J_s}(y,z,t) = J_c(y,z) \sin(\theta_1(y,z,t) - \theta_2(y,z,t))$$
+	This covers the case of non-uniform junctions, non-homogeneous insulating barriers, so the critical current density $J_c(y,z)$ can vary across the junction area.
+- Our derivation relies on the vanishing of the magnetic field, a more general treatment to ensure $\vec{B} = 0$ inside the junction is to include the vector potential $\vec{A}(\vec{r}, t) = - \nabla \chi(\vec{r}, t) \neq 0$(which was our previous gauge choice, related to a time varying electric field. We can operate a **new** gauge choice:
+$$\vec{A'}(\vec{r}, t) = \vec{A}(\vec{r}, t) + \nabla \chi(\vec{r}, t) = 0$$
 
 ## References
