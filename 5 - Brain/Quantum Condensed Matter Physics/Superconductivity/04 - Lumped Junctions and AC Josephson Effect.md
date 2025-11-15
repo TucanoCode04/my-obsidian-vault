@@ -85,9 +85,16 @@ $$i(t) = I_c \sin\left(\psi(0) + \frac{2\pi}{\Phi_0} V_0 t\right)$$
 ![[Pasted image 20251115183406.png]]
 Resulting in an AC(since it oscillates in time) supercurrent flowing through the junction even though the applied voltage is constant in time. This is called the AC Josephson effect.
 
-The characteristic frequency of the oscillations can be obtained from the argument of the sine function:
+The characteristic frequency(number of oscillations in a second, while the period is the time it takes for a single cycle) of the oscillations can be obtained from the argument of the sine function:
 $$i(t) = I_c \sin\left(\psi(0) + \frac{2\pi}{\Phi_0} V_0 t\right) = I_c \sin\left(2\pi f_J t + \psi(0)\right)$$
 Where the Josephson frequency $f_J$ is given by:
-$$f_J = \frac{V_0}{\Phi_0} = \frac{2e}{h} V_0 = 483.6 \times 10^{12 
+$$f_J = \frac{V_0}{\Phi_0} = \frac{2e}{h} V_0 = 483.6 \times 10^{12} V_0 \text{Hz}$$
+This means that for every microvolt of applied voltage across the junction, the supercurrent oscillates at a frequency of approximately 483.6 GHz.
+So the Josephson frequency depends on the applied voltage only through fundamental constants, making it a very precise and stable frequency standard.
+This implies that Josephson junctions are perfect voltage-to-frequency converters, which is exploited in applications such as voltage standards and superconducting qubits.
+The AC Josephson effect gives a direct path for high precision measurements of the $\frac{e}{h}$ ratio, which is important in quantum metrology.
+Since the typical driving voltages are in the order of 10 $\mu$V to 1 mV, the resulting Josephson frequencies are in the range of 5 GHz, hence microwave frequencies. 
+So circuits based on Josephson junctions must consider non-lumped effects, since the wavelengths of microwaves are comparable to the dimensions of typical circuits.
+
 
 ## References
