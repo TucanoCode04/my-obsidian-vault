@@ -136,7 +136,15 @@ If the junction is resistively shunted, meaning that a resistor is placed in par
 ![[Pasted image 20251115195206.png]]
 $$\langle i \rangle = \langle i \rangle_{JJ} + \langle i \rangle_{R} = \langle i \rangle_{JJ} + \frac{V_0}{R}$$
 Where $\langle i \rangle_{JJ}$ is the average supercurrent flowing through the junction, while $\langle i \rangle_{R}$ is the average current flowing through the resistor, that is given by $\frac{V_0}{R}$ according to Ohm's law.
-This is again useful for voltage standards, 
+This is again useful for voltage standards, since the voltage across the junction can be precisely set by choosing the frequency of the applied AC voltage source, and accurate $\frac{h}{2e}$ ratio measurements can be performed by measuring the voltage across the junction at known frequencies.
+##### Final Note
+Final Note on how lumped Josephson junctions are treated in quantum circuit theory.
+So far, we have always treated the superconducting phase as the driving quantity(current or voltage) that determines the state of the junction through the current-phase and voltage-phase relationships.
+$$i(t) = I_c \sin(\psi(t)) \quad , \quad V(t) = \frac{\Phi_0}{2\pi} \frac{d\psi(t)}{dt}$$
+In quantum circuit theory, instead, the driving quantity is the electric flux $\phi(t) = \int_{0}^{t} V(t) dt$, which is the time integral of the voltage across the junction(not the line integral of the electric field, which describes the voltage itself). We use the electric flux because in quantum mechanics, the flux is the canonical conjugate variable to the charge, meaning that they are related by the Heisenberg uncertainty principle and can be used to describe the quantum state of the system. (Look this up better)
+$$\int_{0}^{t} V(t) dt = \int_{0}^{t} \frac{\Phi_0}{2\pi} \frac{d\psi(t)}{dt} dt = \frac{\Phi_0}{2\pi} \left[\psi(t) - \psi(0)\right] \quad \Rightarrow \quad \psi(t) = \psi(0) + \frac{2\pi}{\Phi_0} \phi(t)$$
+So the gauge-invariant phase difference $\psi(t)$ across the junction can be expressed up to an irrelevant offset($\psi(0)$) in terms of the electric flux $\phi(t)$.
+This means that all Josephson junction relationships can be combined in a single non-linear equation between current flowing int he junction and different of electric flux across it:
 
 
 ## References
