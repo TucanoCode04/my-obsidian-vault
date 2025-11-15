@@ -100,6 +100,7 @@ The direct application of the AC Josephson effect is used in little applications
 ![[Pasted image 20251115185930.png]]
 But the inverse AC Josephson effect is widely used in voltage standards. When a Josephson junction is irradiated with microwave radiation of frequency $f$, the junction generates a DC voltage across it.
 ![[Pasted image 20251115190100.png]]
-The inverse AC Josephson effect is exploited in quantum metrology to create highly accurate and stable over time voltage standards 
+The inverse AC Josephson effect is exploited in quantum metrology to create highly accurate and stable over time primary voltage standards, by linking them to the primary standard of time(frequency) based on atomic clocks. 
+
 
 ## References
