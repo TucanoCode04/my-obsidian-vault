@@ -96,5 +96,10 @@ The AC Josephson effect gives a direct path for high precision measurements of t
 Since the typical driving voltages are in the order of 10 $\mu$V to 1 mV, the resulting Josephson frequencies are in the range of 5 GHz, hence microwave frequencies. 
 So circuits based on Josephson junctions must consider non-lumped effects, since the wavelengths of microwaves are comparable to the dimensions of typical circuits.
 
+The direct application of the AC Josephson effect is used in little applications, since the detection of microwave radiation emitted by a single junction is difficult due to its very low power, typically $1 \mu W$ or less and the mismatch between the junction impedance and free space(meaning the junction does not efficiently radiate into free space).
+![[Pasted image 20251115185930.png]]
+But the inverse AC Josephson effect is widely used in voltage standards. When a Josephson junction is irradiated with microwave radiation of frequency $f$, the junction generates a DC voltage across it.
+![[Pasted image 20251115190100.png]]
+The inverse AC Josephson effect is exploited in quantum metrology to create highly accurate and stable over time voltage standards 
 
 ## References
