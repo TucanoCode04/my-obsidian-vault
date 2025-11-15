@@ -105,6 +105,18 @@ The inverse AC Josephson effect is exploited in quantum metrology to create high
 The source applies a time-varying voltage $V(t)$ across the junction.
 $$V(t) = V_0 + V_S \cos(\omega_S t)$$
 $V_0$ is a constant DC voltage offset, while $V_S \cos(\omega_S t)$ is an AC voltage oscillating at frequency $\omega_S$ with amplitude $V_S$.
+![[Pasted image 20251115191207.png]]
+From the voltage-phase relationship we have that the phase difference $\psi(t)$ across the junction evolves according to:
+$$\frac{d\psi(t)}{dt} = \frac{2\pi}{\Phi_0} \left[V_0 + V_S \cos(\omega_S t)\right] \quad \Rightarrow \quad \psi(t) = \psi(0) + \frac{2\pi}{\Phi_0} \left[V_0 t + \frac{V_S}{\omega_S} \sin(\omega_S t)\right]$$
+So the phase difference has a linear time evolution modulated by an oscillating term.
+![[Pasted image 20251115191310.png]]
+From the current-phase relationship we have that the supercurrent $i(t)$ flowing through the junction is:
+$$i(t) = I_c \sin\left(\psi(0) + \frac{2\pi}{\Phi_0} \left[V_0 t + \frac{V_S}{\omega_S} \sin(\omega_S t)\right]\right)$$
+So the supercurrent oscillates in time following a composition between two oscillations: a linear oscillation at the Josephson frequency determined by the DC voltage offset $V_0$, and a modulation at the driving frequency $\omega_S$ determined by the AC voltage amplitude $V_S$.
+![[Pasted image 20251115191509.png]]
+The current frequency become a superposition of the constant frequency $f_J = \frac{V_0}{\Phi_0}$, depending on the DC voltage offset, and a sinusoidal modulation at the driving frequency $f_S = \frac{\omega_S}{2\pi}$, depending on the AC voltage amplitude.
+The non-linearity of the current-phase relationship allows coupling different frequencies with single frequency sources. In simpler words, by applying a voltage that varies in time at a single frequency, we can generate supercurrents that oscillate at multiple frequencies simultaneously. Because non-linear means that the output is not directly proportional to the input, allowing for mixing and generation of new frequencies.
+
 
 
 
