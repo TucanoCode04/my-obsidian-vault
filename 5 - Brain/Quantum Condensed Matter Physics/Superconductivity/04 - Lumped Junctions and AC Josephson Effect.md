@@ -17,7 +17,7 @@ From the voltage-phase relationship we have that the voltage drop $V(t)$ across 
 $$\frac{d\psi(t)}{dt} = \frac{2\pi}{\Phi_0} \int_{1}^{2} \vec{E}(\vec{r},t) \cdot d\vec{l} \quad \Rightarrow \quad V(t) = \frac{\Phi_0}{2\pi} \frac{d\psi(t)}{dt}$$
 Where we have used that the voltage is the line integral of the electric field across the junction since there's no dependence on $y$ and $z$ coordinates in a lumped junction.(Look this up better)
 We will always only consider current restricted to be supercurrent, so less than the critical current $I_c$.
-##### Dynamics
+##### Dynamics when driven by a current source
 Let's now consider the dynamics of the lumped Josephson junction when driven by a current source.
 The source will slowly increase the current $i(t)$ flowing through the junction from zero to some steady state value.
 ![[Pasted image 20251115172957.png]]
@@ -67,7 +67,14 @@ We have seen that when a Josephson junction is driven by a time-varying current 
 The energy stored in the junction can be calculated by integrating the power(the product of voltage and current) over time:
 $$W_J = \int_0^{t_0} i(t) V(t) dt = \int_0^{t_0} I_c \sin(\psi(t)) \cdot \frac{\Phi_0}{2\pi} \frac{d\psi(t)}{dt} dt = \frac{\Phi_0 I_c}{2\pi} \int_0^{\psi} \sin(\psi) d\psi$$
 $$ \Rightarrow W_J = W_J(0)\left[1 - \cos \psi(t) \right] \quad \text{where} \quad W_J(0) = \frac{\Phi_0 I_c}{2\pi}$$
-This expression shows that the energy stored in the junction depends sinusoidally and is bond by the critical current $I_c$ and it lags 
+This expression shows that the energy stored in the junction depends sinusoidally and is bond by the critical current $I_c$ and it lags behind the time evolution of the phase difference $\psi(t)$. In other words, the energy stored in the junction increases as the phase difference increases, reaching a maximum when the phase difference is $\pi$, and then decreases as the phase difference continues to increase.
+![[Pasted image 20251115180305.png]]
+The sinusoid dotted line shows the energy stored in the junction as a function of the phase difference $\psi(t)$, while the solid line shows the current as a function of the phase difference.(Look it up better)
+So again the crucial difference between a Josephson junction and a normal inductor is that:
+- a magnetic-coil inductor stores energy in the magnetic field created around the conductor when current flows through it.
+- a Josephson junction stores energy in the kinetic energy of the Cooper pairs tunneling through the junction barrier when supercurrent flows through it, and no magnetic field is created around it.
+##### Dynamics when driven by a voltage source
+
 
 
 ## References
