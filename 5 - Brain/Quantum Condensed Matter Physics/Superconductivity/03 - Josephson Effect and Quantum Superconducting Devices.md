@@ -152,5 +152,17 @@ $$\chi_1(y,z,t) - \chi_2(y,z,t) = - \int_{1}^{2} \nabla \chi(\vec{r}, t) \cdot d
 	Is the gauge-invariant phase relation term across the junction, which includes the effect of any magnetic field present outside the junction via the vector potential line integral. This term is true only when $\vec{A}$ is caused by time-varying electric fields, however it can be proved that these equation holds even for finite magnetic fields.
 
 Now we want to analyze the dynamics of the gauge-invariant phase, by taking the time derivative of $\psi(y,z,t)$:
-$$\frac{\partial \psi(y,z,t)}{\partial t} = \frac{\partial \theta_1(y,z,t)}{\partial t} - \frac{\partial \theta_2(y,z,t)}{\partial t} 
+$$\frac{\partial \psi(y,z,t)}{\partial t} = \frac{\partial \theta_1(y,z,t)}{\partial t} - \frac{\partial \theta_2(y,z,t)}{\partial t} - \frac{2\pi}{\Phi_0} \frac{\partial}{\partial t} \int_{1}^{2} \vec{A}(\vec{r}, t) \cdot d\vec{l}$$
+Using the energy-phase relation for each superconductor:
+$$\frac{\partial \theta(\vec{r}, t)}{\partial t} = -\frac{1}{\hbar} \left[\frac{\Lambda}{2n_s}J_s^2(\vec{r}, t) + q\phi(\vec{r}, t)\right]$$
+Where $\phi(\vec{r}, t)$ is the scalar electric potential, we evaluate it for $\theta_1 = \theta(-a, y, z, t)$ and $\theta_2 = \theta(+a, y, z, t)$:
+$$\frac{\partial \psi(y,z,t)}{\partial t} = -\frac{1}{\hbar} \left[\frac{\Lambda}{2n_{s1}}J_s^2(-a, y, z, t) + q\phi(-a, y, z, t)\right] + \frac{1}{\hbar} \left[\frac{\Lambda}{2n_{s2}}J_s^2(+a, y, z, t) + q\phi(+a, y, z, t)\right] - \frac{2\pi}{\Phi_0} \frac{\partial}{\partial t} \int_{2}^{2} \vec{A}(\vec{r}, t) \cdot d\vec{l}$$
+If we factorize the terms and we recall that $\vec{J_s}(-a, y, z, t) = \vec{J_s}(+a, y, z, t) = \vec{J_s}(y,z,t)$, since the current density is continuous across the junction so we can factor out the modulus of the current density:
+$$\frac{\partial \psi(y,z,t)}{\partial t} = \frac{2\pi}{\Phi_0} \left[\phi(-a, y, z, t) - \phi(+a, y, z, t) - \int_{1}^{2} \frac{\partial \vec{A}(\vec{r}, t)}{\partial t} \cdot d\vec{l}\right] $$
+Again from basis calculus $\phi(-a, y, z, t) - \phi(+a, y, z, t) = - \int_{1}^{2} \nabla \phi(\vec{r}, t) \cdot d\vec{l}$, so we can write:
+$$\frac{\partial \psi(y,z,t)}{\partial t} = \frac{2\pi}{\Phi_0} \int_{1}^{2} \left[-\nabla \phi(\vec{r}, t) - \frac{\partial \vec{A}(\vec{r}, t)}{\partial t}\right] \cdot d\vec{l}$$
+Th term in the brackets is the electric field $\vec{E}(\vec{r}, t)$, so we finally get:
+$$\frac{\partial \psi(y,z,t)}{\partial t} = \frac{2\pi}{\Phi_0} \int_{1}^{2} \vec{E}(\vec{r}, t) \cdot d\vec{l}$$
+This equation shows that the time evolution of the gauge-invariant phase difference across the junction is directly proportional to the voltage drop across the junction, since the line integral of the electric field across the junction gives the voltage:
+$$\frac{\partial \psi(y,z,t)}{\partial t} = \frac{2\pi}{\Phi_0} V(y,z,t)$$
 ## References
