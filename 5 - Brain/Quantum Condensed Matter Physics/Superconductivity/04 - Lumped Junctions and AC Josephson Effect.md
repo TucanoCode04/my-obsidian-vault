@@ -73,7 +73,7 @@ The sinusoid dotted line shows the energy stored in the junction as a function o
 So again the crucial difference between a Josephson junction and a normal inductor is that:
 - a magnetic-coil inductor stores energy in the magnetic field created around the conductor when current flows through it.
 - a Josephson junction stores energy in the kinetic energy of the Cooper pairs tunneling through the junction barrier when supercurrent flows through it, and no magnetic field is created around it.
-##### Dynamics when driven by a voltage source
+##### Dynamics when driven by a constant voltage source
 Now let's consider the dynamics of the lumped Josephson junction when driven by a voltage source.
 The source will apply a constant voltage $V(t) = V_0$ across the junction.
 ![[Pasted image 20251115183128.png]]
@@ -101,6 +101,11 @@ The direct application of the AC Josephson effect is used in little applications
 But the inverse AC Josephson effect is widely used in voltage standards. When a Josephson junction is irradiated with microwave radiation of frequency $f$, the junction generates a DC voltage across it.
 ![[Pasted image 20251115190100.png]]
 The inverse AC Josephson effect is exploited in quantum metrology to create highly accurate and stable over time primary voltage standards, by linking them to the primary standard of time(frequency) based on atomic clocks. 
+##### Dynamics when driven by a time-varying voltage source 
+The source applies a time-varying voltage $V(t)$ across the junction.
+$$V(t) = V_0 + V_S \cos(\omega_S t)$$
+$V_0$ is a constant DC voltage offset, while $V_S \cos(\omega_S t)$ is an AC voltage oscillating at frequency $\omega_S$ with amplitude $V_S$.
+
 
 
 ## References
