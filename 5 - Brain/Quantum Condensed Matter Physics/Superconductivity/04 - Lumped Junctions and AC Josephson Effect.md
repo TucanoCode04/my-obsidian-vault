@@ -23,7 +23,13 @@ The source will slowly increase the current $i(t)$ flowing through the junction 
 ![[Pasted image 20251115172957.png]]
 The phase varies according to the current-phase relationship:
 $$i(t) = I_c \sin(\psi(t)) \quad \Rightarrow \quad \psi(t) = \arcsin\left(\frac{i(t)}{I_c}\right)$$
-
+![[Pasted image 20251115173140.png]]
+The time-dependent phase creates a finite voltage across the junction according to the voltage-phase relationship:
+$$V(t) = \frac{\Phi_0}{2\pi} \frac{d\psi(t)}{dt} = \frac{\Phi_0}{2\pi} \frac{1}{\sqrt{1 - \left(\frac{i(t)}{I_c}\right)^2}} \frac{1}{I_c} \frac{di(t)}{dt}$$
+![[Pasted image 20251115173315.png]]
+As long as the current varies in time, then both current(so the phase) and voltage will be non-zero.
+The lumped Josephson junction behaves like a non-linear inductor, meaning that the voltage across the junction is proportional to the time derivative of the current through it, with a proportionality factor that depends on the current state of the junction.
+##### Kinetic Inductance of a Josephson Junction
 The general form of the inductance of a Josephson junction, meaning the property that relates the voltage across the junction to the time derivative of the current through it, is given by:
 - rewriting the voltage-phase relationship $V(t) = \frac{\Phi_0}{2\pi} \frac{d\psi}{dt}$ as $\frac{d\psi}{dt} = \frac{2\pi}{\Phi_0} V(t)$
 - substituting this into the time derivative of the current-phase relationship $i(t) = I_c \sin(\psi(t))$, yielding:
