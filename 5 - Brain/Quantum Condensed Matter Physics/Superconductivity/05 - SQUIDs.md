@@ -66,5 +66,9 @@ The circulating current and the threaded flux are related by the loop inductance
 $$\Phi_{int} = L I_{circ} = L \frac{(i_1 - i_2)}{2} = \frac{L I_c}{2} \left( \sin(\psi_1) - \sin(\psi_2) \right) = \frac{L I_c}{2} \sin\left( \frac{\psi_1 - \psi_2}{2} \right) \cdot \cos\left( \frac{\psi_1 + \psi_2}{2} \right)$$
 Meaning that the total flux threading the SQUID loop is:
 $$\Phi = \Phi_{ext} + \Phi_{int} = \Phi_{ext} + \frac{L I_c}{2} \sin\left( \frac{\psi_1 - \psi_2}{2} \right) \cdot \cos\left( \frac{\psi_1 + \psi_2}{2} \right)$$
-Exploiting the phase difference relation found before, we can rewrite the total flux as an implicit function of $\psi_1$ and $\phi_{ext}$:
+Exploiting the phase difference relation found before:
+$$\psi_2 - \psi_1 = 2\pi \left( n + \frac{\Phi}{\Phi_0} \right)$$
+We can rewrite the total flux as an implicit function of $\psi_1$ and $\Phi_{ext}$:
+$$\Phi = \Phi_{ext} - L I_c \sin\left( \pi \frac{\Phi}{\Phi_0} \right) \cdot \cos\left( \psi_1 + \pi \frac{\Phi}{\Phi_0} \right)$$
+
 ## References
