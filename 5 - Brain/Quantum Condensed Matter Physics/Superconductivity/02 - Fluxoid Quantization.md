@@ -6,6 +6,9 @@ Status:
 Tags:
 
 # Fluxoid Quantization
+The magnetic flux is defined as the variation of the magnetic field $\vec{B}$ through a surface $S$:
+$$\Phi = \int_S \vec{B}(\vec{r}, t) \cdot d\vec{S}$$
+So no variation of the magnetic field through the surface means no magnetic flux.
 Fluxoid quantization requires a full quantum mechanical treatment of the superconducting state. 
 If we consider the supercurrent of a homogeneous(so that the density of Cooper pairs $n_s$ is constant) isotropic(the effective mass of Cooper pairs $m^*$ is a scalar, and not a tensor since in each direction the effective mass is the same) superconductor, then the supercurrent density $\mathbf{J}_s$ is given by:
 $$\Lambda \vec{J}_s = \frac{\hbar}{q} \nabla\theta - \vec{A}$$

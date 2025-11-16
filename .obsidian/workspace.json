@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -193,8 +194,10 @@
   },
   "active": "54d93ebb7efaadf4",
   "lastOpenFiles": [
-    "Pasted image 20251116154316.png",
+    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/02 - Fluxoid Quantization.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/05 - SQUIDs.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/00 - Basic Properties of Superconductors.md",
+    "Pasted image 20251116154316.png",
     "Pasted image 20251116144005.png",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/04 - Lumped Junctions and AC Josephson Effect.md",
     "Pasted image 20251115195206.png",
@@ -205,7 +208,6 @@
     "Pasted image 20251115190100.png",
     "Pasted image 20251115185930.png",
     "Pasted image 20251115183406.png",
-    "Pasted image 20251115183208.png",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/03 - Josephson Effect and Quantum Superconducting Devices.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/10 - Semi-Classical Boltzmann Equation.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/09 - Color Centers.md",
@@ -215,12 +217,10 @@
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/04 - Sommerfeld Model.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/07 - First Order Perturbation Theory.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/02.5 - Summary.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/02 - Fluxoid Quantization.md",
     "5 - Brain/Cybersecurity/Cybersec/06 - Security of Network Applications.md",
     "5 - Brain/Cybersecurity/Cybersec/05 - Firewalls.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/00 - Scalar and Vector Potential.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/01 - The Macroscopic Quantum Model.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/00 - Basic Properties of Superconductors.md",
     "5 - Brain/00 - Glossary/Phase Theta.md",
     "5 - Brain/00 - Glossary",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/03 - Reciprocal Bravais Lattice.md",
