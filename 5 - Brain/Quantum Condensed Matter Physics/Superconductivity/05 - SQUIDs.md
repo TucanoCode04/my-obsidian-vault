@@ -13,9 +13,20 @@ where $I_c$ is the critical current of each junction, and $\psi_1$ and $\psi_2$ 
 By simple trigonometry, we can rewrite the total current as:
 $$i = 2 I_c \cos\left(\frac{\psi_1 - \psi_2}{2}\right) \sin\left(\frac{\psi_1 + \psi_2}{2}\right)$$
 The difference in the gauge-invariant phases can be obtained from the line integral of the phase gradient around the contour $C$ enclosing the SQUID loop:
-$$\o
-
-
+$$\oint_C \nabla \theta(\vec{r}, t) \cdot d\vec{l} = 2\pi n= (\theta_b - \theta_a) + (\theta_c - \theta_b) + (\theta_d - \theta_c) + (\theta_a - \theta_d)$$
+We can divide this terms into the contributions from the two junctions and the two superconducting leads:
+![[Pasted image 20251116144005.png]]
+$$\begin{cases}
+(\theta_b - \theta_a) \quad \text{(junction 1, red)} \\
+(\theta_c - \theta_b) \quad \text{(lead 1, green)} \\
+(\theta_d - \theta_c) \quad \text{(junction 2, red)} \\
+(\theta_a - \theta_d) \quad \text{(lead 2, green)}
+\end{cases}$$
+To describe the figure:
+- the magnetic field $\vec{B}$ is applied perpendicular to the SQUID loop so it's pointing out of the page
+- the green arrows represent the fact that we can just calculate the phase difference across the superconducting leads using the difference in phase of the superconducting wavefunction at the endpoints(near the junctions) since the phase gradient in the leads is negligible
+- the red ar
+We don't count the $\lambda$ surface currents, neglecting the screening effects.
 The phase differences across the Josephson junctions are obtained from the gauge-invariant phase difference formula:
 $$\psi(y, z, t) = \theta_1(y, z, t) - \theta_2(y, z, t) - \frac{2\pi}{\Phi_0} \int_{1}^{2} \vec{A}(\vec{r}, t) \cdot d\vec{l}$$
 where $\theta_1$ and $\theta_2$ are the phases of the superconducting wavefunctions on either side of the junction, $\vec{A}$ is the vector potential, and $\Phi_0$ is the magnetic flux quantum.
