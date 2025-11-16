@@ -96,7 +96,12 @@ In this calculation the area of the SQUID loop does not explicitly appear, but i
 $$\Phi_{ext} = B_{ext} \cdot A_{loop}$$
 where $A_{loop}$ is the area of the SQUID loop. Therefore, the sensitivity of the SQUID to changes in magnetic field depends on both the area of the loop and the periodicity of the maximum current modulation with respect to the external flux.
 
-
+Conversely, if the loop inductance is not negligible $(L \not\approx 0)$, the maximum current must be determined numerically.
+We observe that the total flux tends to become a step-like function of the external flux, because the circulating current generates an internal flux that opposes changes in the external flux, leading to flux quantization effects(look it up better). While, with a negligible inductance, the total flux follows the external flux linearly.
+![[Pasted image 20251116182741.png]]
+The modulation of the maximum current becomes less pronounced as the loop inductance increases, eventually leading to a nearly constant maximum current for very large inductances. This is because the circulating current can generate a significant internal flux that counteracts changes in the external flux, reducing the sensitivity of the SQUID to external magnetic fields. So the SQUID will resemble a single loop of superconductor wires.
+![[Pasted image 20251116183054.png]]
+We can see a 
 
 
 
