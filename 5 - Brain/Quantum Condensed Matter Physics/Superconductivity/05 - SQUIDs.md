@@ -87,5 +87,10 @@ $$\frac{\partial i}{\partial \psi_1} = 0 \quad \Rightarrow \quad \frac{\partial}
 This occurs when:
 $$\cos\left( \psi_1 + \pi \frac{\Phi_{ext}}{\Phi_0} \right) = 0$$
 Basically when the corresponding sine function, as we stated before, is equal to $\pm 1$.
+Thus the maximum current through the SQUID is simply find by taking the sine term so that the current is positive, so when the sine term is equal to 1:
+$$i_{max} = 2 I_c \left| \cos\left( \pi \frac{\Phi_{ext}}{\Phi_0} \right) \right|$$
+This result shows that the maximum current through the SQUID oscillates as a function of the external magnetic flux threading the loop, with a period equal to the flux quantum $\Phi_0$. The maximum current reaches its peak value of $2 I_c$ when the external flux is an integer multiple of the flux quantum $(\Phi_{ext} = n \Phi_0)$ and drops to zero when the external flux is a half-integer multiple of the flux quantum $(\Phi_{ext} = (n + \frac{1}{2}) \Phi_0)$. Resembling a fringe interference pattern.
+![[Pasted image 20251116181005.png]]
+Since the area enclosed by a SQUID loop is typically $\approx 2 cm^2$, this corresponds to a periodicity in the applied magnetic field of approximately $1 \times 10^{-11} TT$, 
 
 ## References
