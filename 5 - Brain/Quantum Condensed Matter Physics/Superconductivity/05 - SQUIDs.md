@@ -47,8 +47,10 @@ $$\oint_C \nabla \theta \cdot d\vec{l} = (\theta_b - \theta_a) + (\theta_c - \th
 $$ = \left( - \psi_1 - \frac{2\pi}{\Phi_0} \int_{a}^{b} \vec{A} \cdot d\vec{l} \right) + \left( - \frac{2\pi}{\Phi_0} \int_{b}^{c} \Lambda \vec{J}_s \cdot d\vec{l} - \frac{2\pi}{\Phi_0} \int_{b}^{c} \vec{A} \cdot d\vec{l} \right) + \left( + \psi_2 - \frac{2\pi}{\Phi_0} \int_{c}^{d} \vec{A} \cdot d\vec{l} \right) + \left( - \frac{2\pi}{\Phi_0} \int_{d}^{a} \Lambda \vec{J}_s \cdot d\vec{l} - \frac{2\pi}{\Phi_0} \int_{d}^{a} \vec{A} \cdot d\vec{l} \right)$$
 Rearranging:
 $$2\pi n = \psi_2 - \psi_1 - \frac{2\pi}{\Phi_0} \oint_C \vec{A} \cdot d\vec{l} - \frac{2\pi}{\Phi_0} \int_{b}^{c} \Lambda \vec{J}_s \cdot d\vec{l} - \frac{2\pi}{\Phi_0} \int_{d}^{a} \Lambda \vec{J}_s \cdot d\vec{l}$$
-If we have thick enough superconducting leads, thus we neglect the surface current, we can say that the supercurrent density in the two lead is symmetric, so the two integrals cancel out. Solving for the phase difference between the two junctions and remembering that the line integral of the vector potential around a closed loop is equal to the magnetic flux through the loop, we have:
+If we have thick enough superconducting leads, thus we neglect the surface current, we can say that the supercurrent density in the two lead is symmetric, so the two integrals cancel out, the total density of current is $\vec{J_s} \approx 0$. Solving for the phase difference between the two junctions and remembering that the line integral of the vector potential around a closed loop is equal to the magnetic flux through the loop $\oint_C \vec{A} \cdot d\vec{l} = \int_S \vec{B} \cdot d\vec{S} = \Phi$, we have:
 $$\psi_2 - \psi_1 = 2\pi n + \frac{2\pi}{\Phi_0} \Phi = 2\pi \left( n + \frac{\Phi}{\Phi_0} \right)$$
-
+The gauge-invariant phase difference between the two junctions depends on the total magnetic flux $\Phi$ threading the SQUID loop and is quantized in units of the flux quantum $\Phi_0$.
+Substituting this result back into the expression for the total current through the SQUID, we have:
+$$i = 2 I_c \cos\left( \frac{\psi_1 - \psi_2}{2} \right) \sin\left( \frac{\psi_1 + \psi_2}{2} \right) = 2 I_c \cos\left( - \frac{\psi_2 - \psi_1}{2} \right) \sin\left( \psi_1 + \frac{\psi_2 - \psi_1}{2} \right) = 2 I_c \cos\left( \pi \frac{\Phi}{\Phi_0} \right) \sin\left( \psi_1 + \pi \frac{\Phi}{\Phi_0} \right)$$
 
 ## References
