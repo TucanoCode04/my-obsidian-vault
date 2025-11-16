@@ -70,5 +70,8 @@ Exploiting the phase difference relation found before:
 $$\psi_2 - \psi_1 = 2\pi \left( n + \frac{\Phi}{\Phi_0} \right)$$
 We can rewrite the total flux as an implicit function of $\psi_1$ and $\Phi_{ext}$:
 $$\Phi = \Phi_{ext} - L I_c \sin\left( \pi \frac{\Phi}{\Phi_0} \right) \cdot \cos\left( \psi_1 + \pi \frac{\Phi}{\Phi_0} \right)$$
+This equation relates the total flux threading the SQUID loop to the external flux and the phase difference across one of the junctions. It shows that the total flux depends on both the applied external flux and the circulating current induced by any imbalance in the currents through the two junctions.
 
+In general both the equations for the total current and the total flux must be solved in a self-consistent cycle to determine the behavior of the SQUID for given values of external flux and input current. 
+One of the most important device parameters when designing a SQUID is the maximum driving current $i_{max}$ that can be applied before either of the two junctions exceeds its critical current $I_c$. 
 ## References
