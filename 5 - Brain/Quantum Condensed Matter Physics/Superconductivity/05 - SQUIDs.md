@@ -24,8 +24,9 @@ $$\begin{cases}
 \end{cases}$$
 To describe the figure:
 - the magnetic field $\vec{B}$ is applied perpendicular to the SQUID loop so it's pointing out of the page
-- the green arrows represent the fact that we can just calculate the phase difference across the superconducting leads using the difference in phase of the superconducting wavefunction at the endpoints(near the junctions) since the phase gradient in the leads is negligible
-- the red ar
+- the green arrows represent(the direction) the fact that we can just calculate the phase difference across the superconducting leads using the difference in phase of the superconducting wavefunction at the endpoints(near the junctions) since the phase gradient in the leads is negligible
+- the red arrows represent the direction of the phase difference across the Josephson junctions
+- the red dotted lines represents the leads of the loop where we are going to do the line integral to calculate the phase differences across the leads
 We don't count the $\lambda$ surface currents, neglecting the screening effects.
 The phase differences across the Josephson junctions are obtained from the gauge-invariant phase difference formula:
 $$\psi(y, z, t) = \theta_1(y, z, t) - \theta_2(y, z, t) - \frac{2\pi}{\Phi_0} \int_{1}^{2} \vec{A}(\vec{r}, t) \cdot d\vec{l}$$
@@ -35,6 +36,12 @@ $$\psi_1 = \theta_a - \theta_b - \frac{2\pi}{\Phi_0} \int_{a}^{b} \vec{A}(\vec{r
 $$\psi_2 = \theta_c - \theta_d - \frac{2\pi}{\Phi_0} \int_{c}^{d} \vec{A}(\vec{r}, t) \cdot d\vec{l}$$
 The 2 junctions are connected through superconducting leads, the phase differences across the leads are found by the line integral of the supercurrent density equation:
 $$\vec{J}_s(\vec{r}, t) = - \frac{1}{\Lambda} \left( \vec{A}(\vec{r}, t) + \frac{\Phi_0}{2\pi} \nabla \theta(\vec{r}, t) \right)$$
+Integrating along the leads, we have:
+$$\int_{b}^{c} \vec{J}_s(\vec{r}, t) \cdot d\vec{l} = - \frac{1}{\Lambda} \left( \int_{b}^{c} \vec{A}(\vec{r}, t) \cdot d\vec{l} + \frac{\Phi_0}{2\pi} \int_{b}^{c} \nabla \theta(\vec{r}, t) \cdot d\vec{l} \right)$$
+So we find:
+$$\theta_c - \theta_b = - \frac{2\pi}{\Phi_0} \left( \int_{b}^{c} \Lambda \vec{J}_s(\vec{r}, t) \cdot d\vec{l} + \int_{b}^{c} \vec{A}(\vec{r}, t) \cdot d\vec{l} \right)$$
+Similarly, for the other lead:
+$$\theta_a - \theta_d = - \frac{2\pi}{\Phi_0} \left( \int_{a}^{d} \Lambda \vec{J}_s(\vec{r}, t) \cdot d\vec{l} + \int_{a}^{d} \vec{A}(\vec{r}, t) \cdot d\vec{l} \right)$$
 
 
 
