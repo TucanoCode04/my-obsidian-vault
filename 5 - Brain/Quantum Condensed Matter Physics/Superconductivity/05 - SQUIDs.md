@@ -82,5 +82,10 @@ In this case the total flux threading the SQUID loop is approximately equal to t
 $$\Phi \approx \Phi_{ext}$$
 So the $i_{max}$ can be found by maximizing the total current expression with respect to the phase difference across one of the junctions:
 $$i = 2 I_c \cos\left( \pi \frac{\Phi_{ext}}{\Phi_0} \right) \sin\left( \psi_1 + \pi \frac{\Phi_{ext}}{\Phi_0} \right)$$
-To find the max
+To find the maximum current, we vary $\psi_1$ so that the sine term is equal to $\pm1$, because the sine function reaches its maximum value of 1 at $\frac{\pi}{2}$:
+$$\frac{\partial i}{\partial \psi_1} = 0 \quad \Rightarrow \quad \frac{\partial}{\partial \psi_1} \left( 2 I_c \cos\left( \pi \frac{\Phi_{ext}}{\Phi_0} \right) \sin\left( \psi_1 + \pi \frac{\Phi_{ext}}{\Phi_0} \right) \right) = 2 I_c \cos\left( \pi \frac{\Phi_{ext}}{\Phi_0} \right) \cos\left( \psi_1 + \pi \frac{\Phi_{ext}}{\Phi_0} \right) = 0$$
+This occurs when:
+$$\cos\left( \psi_1 + \pi \frac{\Phi_{ext}}{\Phi_0} \right) = 0$$
+Basically when the corresponding sine function, as we stated before, is equal to $\pm 1$.
+
 ## References
