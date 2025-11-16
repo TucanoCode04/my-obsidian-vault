@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "df23f3e38e3816e9",
+        "id": "fc2cd739050a98f3",
         "type": "tabs",
         "children": [
           {
-            "id": "6ee9dd6f536438da",
+            "id": "54d93ebb7efaadf4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -192,11 +191,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6ee9dd6f536438da",
+  "active": "54d93ebb7efaadf4",
   "lastOpenFiles": [
+    "Pasted image 20251116154316.png",
+    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/05 - SQUIDs.md",
     "Pasted image 20251116144005.png",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/04 - Lumped Junctions and AC Josephson Effect.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/05 - SQUIDs.md",
     "Pasted image 20251115195206.png",
     "Pasted image 20251115194743.png",
     "Pasted image 20251115191509.png",
@@ -206,7 +206,6 @@
     "Pasted image 20251115185930.png",
     "Pasted image 20251115183406.png",
     "Pasted image 20251115183208.png",
-    "Pasted image 20251115183128.png",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/03 - Josephson Effect and Quantum Superconducting Devices.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/10 - Semi-Classical Boltzmann Equation.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/09 - Color Centers.md",
