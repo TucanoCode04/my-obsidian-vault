@@ -44,6 +44,7 @@ When taking the limit $\Delta z \to 0$, we can express the spatial derivative of
 $$\frac{\partial \psi}{\partial z} =  \frac{2\pi}{\Phi_0} B_y h_{eff}$$
 $$\frac{\partial \psi}{\partial x} = 0$$
 $$\frac{\partial \psi}{\partial y} = - \frac{2\pi}{\Phi_0} B_z h_{eff}$$
-Analyzing these results, we can see that:
-
+**Clarification of the above results:**
+The equations above are general and valid for any orientation of the applied magnetic field, coming from the fact that the phase difference in a direction changes only if there is a magnetic field component perpendicular to that direction, because the phase difference is related to the magnetic flux threading the junction area perpendicular to that direction:$$\frac{\partial \psi}{\partial n} = \frac{2\pi}{\Phi_0} B_{\perp} h_{eff}$$ Where $n$ is the direction of interest and $B_{\perp}$ is the magnetic field component perpendicular to that direction. 
+T
 ## References
