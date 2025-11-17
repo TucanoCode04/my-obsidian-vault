@@ -38,7 +38,7 @@ $$h_{eff} = 2a + \lambda_1 + \lambda_2$$
 Thus, the flux is:
 $$\Phi = B_y \times h_{eff} \times \Delta z$$
 So that:
-$$\psi_c - \psi_b = \psi_d - \psi_a = - \frac{2\pi}{\Phi_0} B_y h_{eff} \Delta z$$
+$$\psi_c - \psi_b = \psi_d - \psi_a =  \frac{2\pi}{\Phi_0} B_y h_{eff} \Delta z$$
 The phase changes in a certain direction only if there is a magnetic field component perpendicular to that direction.
 When taking the limit $\Delta z \to 0$, we can express the spatial derivative of the phase along each direction:
 $$\frac{\partial \psi}{\partial z} =  \frac{2\pi}{\Phi_0} B_y h_{eff}$$
