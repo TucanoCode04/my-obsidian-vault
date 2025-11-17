@@ -13,8 +13,15 @@ Extended Josephson junctions can be further divided into two categories:
 - Long Josephson junctions, where the self-induced magnetic fields cannot be neglected, leading to nonlinear dynamics such as the spatial decay of field and currents away from vortices over characteristic length scales.
 ##### Short Josephson Junctions
 We consider the cross-section of a Josephson junction:
-- 
-
+- The 2 superconductors are each thicker than their London penetration depth, so that magnetic fields are expelled from the superconductors $$b_i >> \lambda_i$$
+- The junction lateral dimensions are much larger that the thickness of the insulating barrier so that edge effects can be neglected
+$$w,d >> 2a$$
+- The magnetic field is applied in-plane, along the y-axis and is uniform across the junction area.
+$$\vec{B} = B_0 \hat{y}$$
+We want to find the gauge-invariant phase across an infinitesimal distance $\Delta z$ along the junction length (z-axis):
+$$\psi_c - \psi_b = \psi_d - \psi_a$$
+![[Pasted image 20251117142732.png]]
+We realize that the line integral of the phase along the chosen contour is identical to the one studied for the DC SQUID, since 
 
 
 ## References
