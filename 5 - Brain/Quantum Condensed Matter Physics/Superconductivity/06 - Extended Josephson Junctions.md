@@ -33,6 +33,12 @@ The line integration of the current density can be neglected since:
 - when $dl || \hat{x}$, the two adjacent segments are very close to each other(since we are considering an infinitesimal $\Delta z$), so the supercurrent density is the same on both directions and opposite in sign, so the two integrals cancel out.
 Thus we get:
 $$\psi_c - \psi_b = \psi_d - \psi_a = - \frac{2\pi}{\Phi_0} \Phi$$
-
+We an easily express the magnetic flux threading the junction area in terms of the applied magnetic field, since again from the previous assumptions the applied field is exponentially screened from the superconductors, so the effective $x$ range where the field is non-zero is limited to the barrier thickness plus the London penetration depths of the 2 superconductors:
+$$h_{eff} = 2a + \lambda_1 + \lambda_2$$
+Thus, the flux is:
+$$\Phi = B_y \times h_{eff} \times \Delta z$$
+So that:
+$$\psi_c - \psi_b = \psi_d - \psi_a = - \frac{2\pi}{\Phi_0} B_y h_{eff} \Delta z$$
+The pase 
 
 ## References
