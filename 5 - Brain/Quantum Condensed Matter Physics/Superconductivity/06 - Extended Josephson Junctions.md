@@ -41,12 +41,11 @@ So that:
 $$\psi_c - \psi_b = \psi_d - \psi_a =  \frac{2\pi}{\Phi_0} B_y h_{eff} \Delta z$$
 The phase changes in a certain direction only if there is a magnetic field component perpendicular to that direction.
 When taking the limit $\Delta z \to 0$, we can express the spatial derivative of the phase along each direction:
-$$\frac{\partial \psi}{\partial z} =  \frac{2\pi}{\Phi_0} B_y h_{eff}$$
 $$\frac{\partial \psi}{\partial x} = 0$$
-$$\frac{\partial \psi}{\partial y} = - \frac{2\pi}{\Phi_0} B_z h_{eff} = 0$$
-**Clarification of the above results:**
-The equations above are general and valid for any orientation of the applied magnetic field, coming from the fact that the phase difference in a direction changes only if there is a magnetic field component perpendicular to that direction, because the phase difference is related to the magnetic flux threading the junction area perpendicular to that direction:$$\frac{\partial \psi}{\partial n} = \frac{2\pi}{\Phi_0} B_{\perp} h_{eff}$$ Where $n$ is the direction of interest and $B_{\perp}$ is the magnetic field component perpendicular to that direction. 
-The perpendicular to the $x$ direction is the $yz$ plane, so the relevant magnetic field component is $B_x$, which is zero in our case, leading to no phase variation along $x$.
-The perpendicular to the $y$ direction is the $xz$ plane, so the relevant magnetic field component is $B_y$, which is non-zero in our case, leading to a phase variation along $z$.
-The perpendicular to the $z$ direction is the $xy$ plane, so the relevant magnetic field component is $B_z$, which is zero in our case, leading to no phase variation along $y$.
+$$\frac{\partial \psi}{\partial y} = 0$$
+$$\frac{\partial \psi}{\partial z} =  \frac{2\pi}{\Phi_0} B_y h_{eff}$$
+This result can be generalized to arbitrary magnetic field orientations:
+$$\nabla \psi = \frac{2\pi}{\Phi_0} h_{eff} (\vec{B} \times \hat{n})$$
+where $\hat{n}$ is the unit vector normal to the junction plane. The normal is the direction along which the phase does not change. 
+Since w
 ## References
