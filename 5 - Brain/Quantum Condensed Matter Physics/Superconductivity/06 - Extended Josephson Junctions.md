@@ -28,6 +28,11 @@ So, from the relation above we get:
 $$\psi_c - \psi_b = \psi_d - \psi_a = - \frac{2\pi}{\Phi_0} \oint_C \vec{A} \cdot d\vec{l} + \frac{2\pi}{\Phi_0} \int_b^c \Lambda \vec{J_s} \cdot d\vec{l} + \frac{2\pi}{\Phi_0} \int_d^a \Lambda \vec{J_s} \cdot d\vec{l}$$
 As always the integral over a contour of the vector potential can be converted into a surface integral of the magnetic field, which is simply the magnetic flux threading the junction area:
 $$\oint_C \vec{A} \cdot d\vec{l} = \int_S \vec{B} \cdot d\vec{S} = \Phi$$
+The line integration of the current density can be neglected since:
+- when $dl || \hat{z}$, the contour is deep enough in the bulk so that any magnetic field-induced screening current is negligible and the supercurrent driving the junction is finite but oriented along $\hat{x}$, so it's perpendicular to the integration path(so the dot product is zero)
+- when $dl || \hat{x}$, the two adjacent segments are very close to each other(since we are considering an infinitesimal $\Delta z$), so the supercurrent density is the same on both directions and opposite in sign, so the two integrals cancel out.
+Thus we get:
+$$\psi_c - \psi_b = \psi_d - \psi_a = - \frac{2\pi}{\Phi_0} \Phi$$
 
 
 ## References
