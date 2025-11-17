@@ -13,7 +13,7 @@ Extended Josephson junctions can be further divided into two categories:
 - Long Josephson junctions, where the self-induced magnetic fields cannot be neglected, leading to nonlinear dynamics such as the spatial decay of field and currents away from vortices over characteristic length scales.
 ##### Short Josephson Junctions
 We consider the cross-section of a Josephson junction:
-- The 2 superconductors are each thicker than their London penetration depth, so that magnetic fields are expelled from the superconductors $$b_i >> \lambda_i$$
+- The 2 superconductors are each thicker than their London penetration depth, so that magnetic fields are expelled from the superconductors, basically avoiding border effects$$b_i >> \lambda_i$$
 - The junction lateral dimensions are much larger that the thickness of the insulating barrier so that edge effects can be neglected
 $$w,d >> 2a$$
 - The magnetic field is applied in-plane, along the y-axis and is uniform across the junction area.
@@ -21,7 +21,13 @@ $$\vec{B} = B_0 \hat{y}$$
 We want to find the gauge-invariant phase across an infinitesimal distance $\Delta z$ along the junction length (z-axis):
 $$\psi_c - \psi_b = \psi_d - \psi_a$$
 ![[Pasted image 20251117142732.png]]
-We realize that the line integral of the phase along the chosen contour is identical to the one studied for the DC SQUID, since 
+We realize that the line integral of the phase along the chosen contour is identical to the one studied for the DC SQUID, since from the previous assumptions it can be seen as a SQUID loop with 2 lumped junctions connected in parallel.
+We can exploit our previous results:
+$$\oint_C \nabla \theta \cdot d\vec{l} = \psi_c - \psi_b + \frac{2\pi}{\Phi_0} \oint_C \vec{A} \cdot d\vec{l} - \frac{2\pi}{\Phi_0} \int_b^c \Lambda \vec{J_s} \cdot d\vec{l} - \frac{2\pi}{\Phi_0} \int_d^a \Lambda \vec{J_s} \cdot d\vec{l}$$
+So, from the relation above we get:
+$$\psi_c - \psi_b = \psi_d - \psi_a = - \frac{2\pi}{\Phi_0} \oint_C \vec{A} \cdot d\vec{l} + \frac{2\pi}{\Phi_0} \int_b^c \Lambda \vec{J_s} \cdot d\vec{l} + \frac{2\pi}{\Phi_0} \int_d^a \Lambda \vec{J_s} \cdot d\vec{l}$$
+As always the integral over a contour of the vector potential can be converted into a surface integral of the magnetic field, which is simply the magnetic flux threading the junction area:
+$$\oint_C \vec{A} \cdot d\vec{l} = \int_S \vec{B} \cdot d\vec{S} = \Phi$$
 
 
 ## References
