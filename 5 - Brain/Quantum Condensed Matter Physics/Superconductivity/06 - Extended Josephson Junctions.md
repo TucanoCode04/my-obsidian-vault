@@ -48,6 +48,13 @@ This result can be generalized to arbitrary magnetic field orientations:
 $$\nabla \psi = \frac{2\pi}{\Phi_0} h_{eff} (\vec{B} \times \hat{n})$$
 where $\hat{n}$ is the unit vector normal to the junction plane. The normal is the direction along which the phase does not change. 
 **Since I didn't understand anything I will rewrite it:**
-- we apply a magnetic field in the junction plane $\vec{B} = B_0 \hat{y}$
-- inside the superconductors, so along the x direction, the field is screened, so the effective field is only non-zero in the barrier and a small region of thickness $h_{eff} = 2a + \lambda_1 + \lambda_2$ around it
+- we are considering a small surface element of the junction area, that basically spans between z and x axis
+- we are considering a magnetic field along y axis
+- our supercurrent is flowing along the x axis
+- we calculate the magnetic flux relative to this small surface element
+- we want to calculate the phase difference between the two extremities of the surface element along z axis and x axis
+- we find that the phase difference along x axis is zero, since there is no magnetic flux threading a surface element parallel to y-z plane
+- we find that the phase difference along z axis is proportional to the magnetic flux threading the small surface element we are considering
+- along the y axis there is no phase difference since our surface element has no extension along y axis
+- 
 ## References
