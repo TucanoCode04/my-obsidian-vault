@@ -130,6 +130,21 @@ The total supercurrent flowing through the junction is obtained by integrating t
 $$i = \int_{-w/2}^{w/2} \int_{-d/2}^{d/2} J_c(y,z) \sin(\psi(z,t)) dy dz$$
 If we assume that the critical current density is uniform across the junction area:
 $$i = I_c \frac{\sin \left( \pi \frac{\Phi_J}{\Phi_0} \right)}{\pi \frac{\Phi_J}{\Phi_0}} \sin(\psi(0,t))$$
+where:
+$$\Phi_J = B_y h_{eff} d$$ is the magnetic flux threading the short Josephson junction area.
+$$I_c = J_c w d$$ is the maximum supercurrent that can flow through the junction when no magnetic field is applied.
 
+Now let's look at the maximum supercurrent that can flow through the junction, this occurs when $\sin(\psi(0,t)) = \pm 1$:
+$$i_{max}= I_c \left| \frac{\sin \left( \pi \frac{\Phi_J}{\Phi_0} \right)}{\pi \frac{\Phi_J}{\Phi_0}} \right|$$
+This result shows that the maximum supercurrent that can flow through a short Josephson junction in the presence of an in-plane magnetic field follows a Fraunhofer diffraction pattern, similar to the one observed in a DC SQUID.
+![[Pasted image 20251118142734.png]]
+It shows a central lobe with maximum supercurrent at zero magnetic flux, followed by a series of smaller lobes with alternating signs, corresponding to the zeros of the sine function in the numerator. 
+On the y-axis we have the normalized maximum supercurrent, that is basically the critical current of the junction in the absence of magnetic field, while on the x-axis we have the magnetic flux threading the junction area normalized to the flux quantum.
 
+From a mathematical standpoint the single-junction interference pattern is analogous tot the single-slit diffraction pattern in optics.
+Similarly the pattern of a SQUID is analogous to the double-slit diffraction pattern, since in that case we have 2 junctions in parallel instead of one.
+![[Pasted image 20251118143333.png]]
+We took the graph from before and overlaid the SQUID interference pattern for comparison, which shows narrower lobes and higher sensitivity to magnetic flux changes around zero flux.
+
+The anal
 ## References
