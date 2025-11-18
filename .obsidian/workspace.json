@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/06 - Extended Josephson Junctions.md",
+                "file": "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/07 - Generalized Josephson Junction and DC SQUID.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06 - Extended Josephson Junctions"
+              "title": "07 - Generalized Josephson Junction and DC SQUID"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -193,6 +192,9 @@
   },
   "active": "54d93ebb7efaadf4",
   "lastOpenFiles": [
+    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/06 - Extended Josephson Junctions.md",
+    "Pasted image 20251118200445.png",
+    "Pasted image 20251118195850.png",
     "Pasted image 20251118195215.png",
     "Pasted image 20251118185847.png",
     "Pasted image 20251118185740.png",
@@ -201,11 +203,7 @@
     "Pasted image 20251118184923.png",
     "Pasted image 20251118184846.png",
     "Pasted image 20251118184723.png",
-    "Pasted image 20251118184451.png",
-    "Pasted image 20251118184338.png",
-    "Pasted image 20251118184318.png",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/07 - Generalized Josephson Junction and DC SQUID.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/06 - Extended Josephson Junctions.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/05 - SQUIDs.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/01 - The Macroscopic Quantum Model.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/02 - Fluxoid Quantization.md",
