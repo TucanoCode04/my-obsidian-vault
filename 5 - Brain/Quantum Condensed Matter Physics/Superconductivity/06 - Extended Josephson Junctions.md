@@ -146,5 +146,6 @@ Similarly the pattern of a SQUID is analogous to the double-slit diffraction pat
 ![[Pasted image 20251118143333.png]]
 We took the graph from before and overlaid the SQUID interference pattern for comparison, which shows narrower lobes and higher sensitivity to magnetic flux changes around zero flux.
 
-The anal
+The analogy stems from the fact that in both the magnetic flux through a Josephson junction and the light passing through a slit change the phase of a wavefunction, leading to interference effects when integrating over a spatially varying phase.
+
 ## References
