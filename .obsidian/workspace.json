@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/06 - Extended Josephson Junctions.md",
+                "file": "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/07 - Generalized Josephson Junction and DC SQUID.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06 - Extended Josephson Junctions"
+              "title": "07 - Generalized Josephson Junction and DC SQUID"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -193,9 +192,10 @@
   },
   "active": "54d93ebb7efaadf4",
   "lastOpenFiles": [
+    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/06 - Extended Josephson Junctions.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/07 - Generalized Josephson Junction and DC SQUID.md",
     "Pasted image 20251117142732.png",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/05 - SQUIDs.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/06 - Extended Josephson Junctions.md",
     "Pasted image 20251116183054.png",
     "Pasted image 20251116182741.png",
     "Pasted image 20251116181005.png",
@@ -209,7 +209,6 @@
     "Pasted image 20251115194743.png",
     "Pasted image 20251115191509.png",
     "Pasted image 20251115191310.png",
-    "Pasted image 20251115191207.png",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/03 - Josephson Effect and Quantum Superconducting Devices.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/10 - Semi-Classical Boltzmann Equation.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/09 - Color Centers.md",
