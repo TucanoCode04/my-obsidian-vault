@@ -152,11 +152,13 @@ The analogy stems from the fact that in both the magnetic flux through a Josephs
 We now analyze different influences on the relation between magnetic flux and phase in an extended Josephson junction.
 
 **Case 1: No External Flux:**
-As we can see from the previous derivation, if no external magnetic flux threads the junction area, the phase difference is uniform across the junction:
+As we can see from the previous derivation, if no external magnetic flux($\Phi_J = 0$) threads the junction area, the phase difference is uniform across the junction:
 $$\psi(z) = \psi(0) + \frac{2\pi}{\Phi_0} B_y h_{eff} z = \psi(0) + 2\pi \frac{\Phi_J}{\Phi_0} \frac{z}{d} = \psi(0)$$
 ![[Pasted image 20251118183825.png]]
 This means the current density is uniform across the junction area:
 $$J_s(z,t) = J_c \sin(\psi(z,t)) = J_c \sin(\psi(0,t))$$
+![[Pasted image 20251118183904.png]]
+As shown in the image, the applied magnetic field is uniform, so that no magnetic flux threads the junction area, leading to a uniform phase difference and current density across the junction, represented by the vertical lines.
 Thus the total supercurrent flowing through the junction is simply:
 $$i = \int_{-w/2}^{w/2} \int_{-d/2}^{d/2} J_c \sin(\psi(0,t)) dy dz = J_c w d \sin(\psi(0,t)) = I_c \sin(\psi(0,t))$$
 where $I_c$ is the critical current of the junction in the absence of magnetic field.
@@ -165,4 +167,18 @@ Where:
 - $\psi(0) \neq \frac{\pi}{2}$ gives a lower supercurrent $i < I_c$
 ![[Pasted image 20251118183811.png]]
 This basically resembles the lumped Josephson junction case, since in the lumped case the phase difference is uniform across the junction since we assume no magnetic flux threading the junction area.
+
+**Case 2: Flux increased to $\Phi_0/2$:**
+When the magnetic flux threading the junction area is increased to half a flux quantum($\Phi_J = \Phi_0/2$), the phase difference varies linearly from $\psi(0)$ at z=0 to $\psi(0) + \pi$ at z=d:
+$$\psi(z) = \psi(0) + 2\pi \frac{\Phi_J}{\Phi_0} \frac{z}{d} = \psi(0) + \pi \frac{z}{d}$$
+![[Pasted image 20251118184338.png]]
+So that in total the difference across the junction length is $\pi$.
+This means the current density varies sinusoidally across the junction area, going from $J_c \sin(\psi(0,t))$ at z=0 to $J_c \sin(\psi(0,t) + \pi) = - J_c \sin(\psi(0,t))$ at z=d:
+$$J_s(z,t) = J_c \sin(\psi(z,t)) = J_c \sin\left(\psi(0,t) + \pi \frac{z}{d}\right)$$
+![[Pasted image 20251118184451.png]]
+As shown in the image, the applied magnetic field is uniform, so that a magnetic flux of half a flux quantum threads the junction area, leading to a linearly varying phase difference and sinusoidally varying current density across the junction, represented by the vertical lines with a maximum at the center and minima at the edges.
+The total supercurrent decreases accordingly to the interference pattern derived before, since if I integrate the sinusoidal current density over the junction area I get a lower total supercurrent.
+![[Pasted image 20251118184723.png]]
+
+**
 ## References
