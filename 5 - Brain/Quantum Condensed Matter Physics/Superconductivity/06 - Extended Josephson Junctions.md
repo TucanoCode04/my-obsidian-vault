@@ -107,32 +107,18 @@ $$\frac{\partial\varphi}{\partial y} = -\frac{2\pi}{\Phi_0} B_z\, h_{\text{eff}}
     $$h_{\text{eff}} = \lambda_1 + 2a + \lambda_2$$
 5. **Along the y direction, the applied field does _not_ change the phase**, because $B_y$​ is _parallel_ to y.  
     The magnetic field must be _perpendicular_ to the direction for which you compute the phase gradient, so
-    $$B_y \perp z \quad \Rightarrow \quad \partial\varphi/\partial z \neq 0,$$$$B_y \parallel y \quad \Rightarrow \quad \partial\varphi/\partial y = 0.By​∥y⇒∂φ/∂y=0.
+    $$B_y \perp z \quad \Rightarrow \quad \partial\varphi/\partial z \neq 0,$$$$B_y \parallel y \quad \Rightarrow \quad \partial\varphi/\partial y = 0.$$
 6. **Along the z direction, the field _is_ perpendicular**, so it creates a phase gradient.  
-    The flux through a small surface element of area heff Δzh_{\text{eff}}\, \Delta zheff​Δz is
-    
-    Φ=By heff Δz.\Phi = B_y \, h_{\text{eff}}\, \Delta z.Φ=By​heff​Δz.
-    
+    The flux through a small surface element of area $h_{\text{eff}}\, \Delta z$ is
+    $$\Phi = B_y \, h_{\text{eff}}\, \Delta z$$
     Using the Josephson phase–flux relation:
-    
-    ∂φ∂z=2πΦ0By heff.\frac{\partial \varphi}{\partial z} = \frac{2\pi}{\Phi_0} B_y \, h_{\text{eff}}.∂z∂φ​=Φ0​2π​By​heff​.
-
----
-
-# ✔ **One-sentence summary**
-
-Because the magnetic field is applied along y, and the Josephson phase changes only when the field is perpendicular to the direction of variation, we get **no phase gradient in y** and **a finite phase gradient in z**, proportional to the flux penetrating the effective magnetic thickness of the junction.
-
----
-
-If you want, I can also produce a **visual ASCII diagram** showing the directions x–y–z, current, phase, and where the flux enters.
-
-  
-
-ChatGPT può commettere errori. Assicurati di verificare le inf
+    $$\frac{\partial \varphi}{\partial z} = \frac{2\pi}{\Phi_0} B_y \, h_{\text{eff}}.$$
 
 **Back to the original text:**
 
 Since we assumed that $\vec{B} = B_0 \hat{y}$, the only non-zero phase gradient is along the z direction, since in the y direction as we found the phase does not change because there is no magnetic field component perpendicular to it.
+
+
+
 
 ## References
