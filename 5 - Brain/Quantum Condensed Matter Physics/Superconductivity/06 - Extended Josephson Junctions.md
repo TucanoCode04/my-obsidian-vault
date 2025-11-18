@@ -149,5 +149,20 @@ We took the graph from before and overlaid the SQUID interference pattern for co
 The analogy stems from the fact that in both the magnetic flux through a Josephson junction and the light passing through a slit change the phase of a wavefunction, leading to interference effects when integrating over a spatially varying phase.
 
 ##### Relation Magnetic Flux to Phase
-We now analyze different influenc
+We now analyze different influences on the relation between magnetic flux and phase in an extended Josephson junction.
+
+**Case 1: No External Flux:**
+As we can see from the previous derivation, if no external magnetic flux threads the junction area, the phase difference is uniform across the junction:
+$$\psi(z) = \psi(0) + \frac{2\pi}{\Phi_0} B_y h_{eff} z = \psi(0) + 2\pi \frac{\Phi_J}{\Phi_0} \frac{z}{d} = \psi(0)$$
+![[Pasted image 20251118183825.png]]
+This means the current density is uniform across the junction area:
+$$J_s(z,t) = J_c \sin(\psi(z,t)) = J_c \sin(\psi(0,t))$$
+Thus the total supercurrent flowing through the junction is simply:
+$$i = \int_{-w/2}^{w/2} \int_{-d/2}^{d/2} J_c \sin(\psi(0,t)) dy dz = J_c w d \sin(\psi(0,t)) = I_c \sin(\psi(0,t))$$
+where $I_c$ is the critical current of the junction in the absence of magnetic field.
+Where:
+- $\psi(0) = \frac{\pi}{2}$ gives the maximum supercurrent $i_{max} = I_c$
+- $\psi(0) \neq \frac{\pi}{2}$ gives a lower supercurrent $i < I_c$
+![[Pasted image 20251118183811.png]]
+This basically resembles the lumped Josephson junction case, since in the lumped case the phase difference is uniform across the junction since we assume no magnetic flux threading the junction area.
 ## References
