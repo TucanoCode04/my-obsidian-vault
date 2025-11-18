@@ -50,6 +50,4 @@ where $\hat{n}$ is the unit vector normal to the junction plane. The normal is t
 **Since I didn't understand anything I will rewrite it:**
 - we apply a magnetic field in the junction plane $\vec{B} = B_0 \hat{y}$
 - inside the superconductors, so along the x direction, the field is screened, so the effective field is only non-zero in the barrier and a small region of thickness $h_{eff} = 2a + \lambda_1 + \lambda_2$ around it
-- along the z direction, the field is parallel to the current flow, so the phase does not change. Expanding this, the phase does not change along the direction of the applied field we can see it from the formula: $\nabla \psi = \frac{2\pi}{\Phi_0} h_{eff} (\vec{B} \times \hat{n})$, since the cross product of 2 parallel vectors is zero.
-- along the y direction, the field is perpendicular to the current flow, so the phase changes linearly with z, with the formula: $\frac{\partial \psi}{\partial z} =  \frac{2\pi}{\Phi_0} B_y h_{eff}$ 
 ## References
