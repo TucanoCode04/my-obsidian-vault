@@ -148,4 +148,6 @@ We took the graph from before and overlaid the SQUID interference pattern for co
 
 The analogy stems from the fact that in both the magnetic flux through a Josephson junction and the light passing through a slit change the phase of a wavefunction, leading to interference effects when integrating over a spatially varying phase.
 
+##### Relation Magnetic Flux to Phase
+We now analyze different influenc
 ## References
