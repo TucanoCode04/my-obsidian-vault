@@ -47,5 +47,5 @@ $$\frac{\partial \psi}{\partial z} =  \frac{2\pi}{\Phi_0} B_y h_{eff}$$
 This result can be generalized to arbitrary magnetic field orientations:
 $$\nabla \psi = \frac{2\pi}{\Phi_0} h_{eff} (\vec{B} \times \hat{n})$$
 where $\hat{n}$ is the unit vector normal to the junction plane. The normal is the direction along which the phase does not change. 
-Since w
+We assumed our magnetic field to only have the 
 ## References
