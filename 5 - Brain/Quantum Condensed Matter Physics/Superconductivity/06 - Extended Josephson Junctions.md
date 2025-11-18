@@ -117,8 +117,19 @@ $$\frac{\partial\varphi}{\partial y} = -\frac{2\pi}{\Phi_0} B_z\, h_{\text{eff}}
 **Back to the original text:**
 
 Since we assumed that $\vec{B} = B_0 \hat{y}$, the only non-zero phase gradient is along the z direction, since in the y direction as we found the phase does not change because there is no magnetic field component perpendicular to it.
-
-
+Thus the phase variation across the junction length is:
+$$\psi = \psi(z)$$
+By integrating the phase gradient along z we can find the phase difference at any point z along the junction length:
+$$int_0^z \frac{\partial \psi}{\partial z} dz= \int_0^z \frac{2\pi}{\Phi_0} B_y h_{eff} dz$$
+$$ \Rightarrow \psi(z) = \psi(0) + \frac{2\pi}{\Phi_0} B_y h_{eff} z$$
+where $\psi(0)$ is the phase difference at z=0, it's a constant phase which we cannot measure directly.
+If we insert this is the current-phase relation:
+$$J_s(\vec{r},t) = J_s(y,z,t) = J_c(y,z) \sin(\psi(z,t))$$
+There's no x dependence since we are considering a uniform junction along that direction.
+The total supercurrent flowing through the junction is obtained by integrating the current density over the junction area:
+$$i = \int_{-w/2}^{w/2} \int_{-d/2}^{d/2} J_c(y,z) \sin(\psi(z,t)) dy dz$$
+If we assume that the critical current density is uniform across the junction area:
+$$i = I_c \frac{\sin \left( \pi \frac{\Phi_J}{\Phi_0} \right)}{\pi \frac{\Phi_J}{\Phi_0}} \sin(\psi(0,t))$$
 
 
 ## References
