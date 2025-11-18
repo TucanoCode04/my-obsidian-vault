@@ -180,5 +180,26 @@ As shown in the image, the applied magnetic field is uniform, so that a magnetic
 The total supercurrent decreases accordingly to the interference pattern derived before, since if I integrate the sinusoidal current density over the junction area I get a lower total supercurrent.
 ![[Pasted image 20251118184723.png]]
 
-**
+**Case 3: Flux increased to $\Phi_0$:**
+When the magnetic flux threading the junction area is increased to one flux quantum($\Phi_J = \Phi_0$), the phase difference varies linearly from $\psi(0)$ at z=0 to $\psi(0) + 2\pi$ at z=d:
+$$\psi(z) = \psi(0) + 2\pi \frac{\Phi_J}{\Phi_0} \frac{z}{d} = \psi(0) + 2\pi \frac{z}{d}$$
+![[Pasted image 20251118184846.png]]
+So that in total the difference across the junction length is $2\pi$.
+This means the current density varies sinusoidally across the junction area, going from $J_c \sin(\psi(0,t))$ at z=0 to $J_c \sin(\psi(0,t) + 2\pi) = J_c \sin(\psi(0,t))$ at z=d:
+$$J_s(z,t) = J_c \sin(\psi(z,t)) = J_c \sin\left(\psi(0,t) + 2\pi \frac{z}{d}\right)$$
+![[Pasted image 20251118184923.png]]
+As shown in the image, the applied magnetic field is uniform, so that a magnetic flux of one flux quantum threads the junction area, leading to a linearly varying phase difference and sinusoidally varying current density across the junction, represented by two sets of vertical lines with minima in the center and at the edges and a maximum in between. The two sets of lines differ in direction meaning that the current density changes sign at the center of the junction.
+The total supercurrent goes to zero accordingly to the interference pattern derived before, since I will have the same amount of positive and negative current density contributions when integrating over the junction area.
+![[Pasted image 20251118185631.png]]
+
+**Case 4: Flux increased to $3\Phi_0/2$:**
+When the magnetic flux threading the junction area is increased to one and a half flux quantum($\Phi_J = 3\Phi_0/2$), the phase difference varies linearly from $\psi(0)$ at z=0 to $\psi(0) + 3\pi$ at z=d:
+$$\psi(z) = \psi(0) + 2\pi \frac{\Phi_J}{\Phi_0} \frac{z}{d} = \psi(0) + 3\pi \frac{z}{d}$$
+![[Pasted image 20251118185705.png]]
+So that in total the difference across the junction length is $3\pi$.
+This means the current density varies sinusoidally across the junction area, going from $J_c \sin(\psi(0,t))$ at z=0 to $J_c \sin(\psi(0,t) + 3\pi) = - J_c \sin(\psi(0,t))$ at z=d:
+$$J_s(z,t) = J_c \sin(\psi(z,t)) = J_c \sin\left(\psi(0,t) + 3\pi \frac{z}{d}\right)$$
+![[Pasted image 20251118185740.png]]
+As shown in the image, the applied magnetic field is uniform, so that a magnetic flux of one and a half flux quantum threads the junction area, leading to a linearly varying phase difference and sinusoidally varying current density across the junction, represented by three sets of vertical lines with maxima at the edges and center and minima in between. The three sets of lines differ in direction meaning that the current density changes sign twice across the junction length.
+The total supercurrent increases again accordingly to the interference pattern derived before, since when integrating over the junction area we have
 ## References
