@@ -204,5 +204,14 @@ As shown in the image, the applied magnetic field is uniform, so that a magnetic
 The total supercurrent increases again accordingly to the interference pattern derived before, since when integrating over the junction area we have 2 positive current density contributions and one negative, leading to a net positive supercurrent.
 ![[Pasted image 20251118185847.png]]
 
+##### Vortices
+How can the supercurrent density have a sinusoidal pattern, changing sign across the junction length while maintaining zero net driving current?
+![[Pasted image 20251118195215.png]]
+The supercurrent turns around in the two superconductors. This bending is allowed since $b >> \lambda$, so that the resulting current density 
+
+Increasing the applied magnetic flux further will lead to more vortices, the net current is zero whenever we have an integer number of flux quanta threading the junction area resulting in complete vortex patterns.
+This are called Josephson vortices or fluxons, they are localized 2$\pi$ phase twists that carry a quantum of magnetic flux $\Phi_0$ each. 
+They have no normal core like Abrikosov vortices, since the superconducting order parameter is not suppressed inside the junction barrier(normal core means metal region in the middle of the vortex where superconductivity is destroyed).
+
 
 ## References
