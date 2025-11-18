@@ -177,8 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,6 +193,7 @@
   },
   "active": "54d93ebb7efaadf4",
   "lastOpenFiles": [
+    "Pasted image 20251118185847.png",
     "Pasted image 20251118185740.png",
     "Pasted image 20251118185705.png",
     "Pasted image 20251118185631.png",
@@ -204,7 +204,6 @@
     "Pasted image 20251118184338.png",
     "Pasted image 20251118184318.png",
     "Pasted image 20251118183904.png",
-    "Pasted image 20251118183825.png",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/07 - Generalized Josephson Junction and DC SQUID.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/06 - Extended Josephson Junctions.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/05 - SQUIDs.md",

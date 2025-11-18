@@ -201,5 +201,8 @@ This means the current density varies sinusoidally across the junction area, goi
 $$J_s(z,t) = J_c \sin(\psi(z,t)) = J_c \sin\left(\psi(0,t) + 3\pi \frac{z}{d}\right)$$
 ![[Pasted image 20251118185740.png]]
 As shown in the image, the applied magnetic field is uniform, so that a magnetic flux of one and a half flux quantum threads the junction area, leading to a linearly varying phase difference and sinusoidally varying current density across the junction, represented by three sets of vertical lines with maxima at the edges and center and minima in between. The three sets of lines differ in direction meaning that the current density changes sign twice across the junction length.
-The total supercurrent increases again accordingly to the interference pattern derived before, since when integrating over the junction area we have
+The total supercurrent increases again accordingly to the interference pattern derived before, since when integrating over the junction area we have 2 positive current density contributions and one negative, leading to a net positive supercurrent.
+![[Pasted image 20251118185847.png]]
+
+
 ## References
