@@ -12,7 +12,8 @@ Again, the mechanisms that allow electric current to flow through a superconduct
 - **Capacitive**: Coupling between the two superconductor leads across the insulating barrier where $C = \epsilon \frac{wd}{2a}$. Relevant in AC regime.
 In a generalized Josephson junction, all three mechanisms are considered.
 
-
+We studied the coherent Josephson tunneling in basic Junctions to be: $$i = I_c \sin(\varphi)$$
+For an ideal tunnel junction the capacitive channel is simply that of 
 
 
 
