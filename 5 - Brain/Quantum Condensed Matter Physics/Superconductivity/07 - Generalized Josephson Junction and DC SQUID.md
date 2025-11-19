@@ -22,6 +22,20 @@ If we consider the normal junction to be driven by a DC voltage $V(t) = V$ const
 Thus, the junction conductance is: $$(R_n)^{-1} = \frac{i}{V} = \frac{2\pi I_c \tau_i}{\Phi_0} $$Where $R_n$ is the normal state resistance of the junction. This implies that:
 $$I_c R_n = \frac{\Phi_0}{2 \pi \tau_i} = \text{constant}$$
 
+We found that the normal state resistance $R_n$ is inversely proportional to the critical current $I_c$. One finds experimentally that:$$I_c R_n = \frac{\pi \Delta_0}{2 e} $$
+Where $\Delta_0$ is the superconducting gap at $T = 0K$. 
+The time dependent non linear resistive conductance is given by: 
+$$G(V) = \begin{cases}
+0 \quad \text{if} \quad |V| < 2\frac{\Delta}{e} \\
+\frac{1}{R_n} \quad \text{if} \quad |V| \geq 2\frac{\Delta}{e}
+\end{cases}$$
+![[Pasted image 20251119121732.png]]
+The graph show in the x-axis the microvolts representing the voltage across the junction and in the y-axis the current through the junction in microamperes. The different curves(for different temperatures) show the I-V characteristics, where the gap $2\frac{\Delta}{e}$ decreases with increasing temperature until it vanishes at $T_c = 1.250K$ for Aluminum. We can see the tunneling of Cooper pairs at low voltages and the onset of quasiparticle tunneling at voltages above the gap.
+
+The generalized Josephson junction can thus be modeled as the parallel combination the three channels.
+![[Pasted image 20251119122305.png]]
+The total current through the junction is given by: $$i = I_c \sin(\varphi) + V G(V) + C \frac{dV}{dt} $$
+
 
 
 ## References
