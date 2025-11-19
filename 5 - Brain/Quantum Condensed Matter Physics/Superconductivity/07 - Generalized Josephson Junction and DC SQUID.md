@@ -18,7 +18,9 @@ The resistive channel stems from the breaking of Cooper pairs into quasiparticle
 - Superconducting Junction: superelectrons do not scatter since they are in a collective ground state. The phase function is well defined since all superelectrons are in the same quantum state. $$\frac{di}{dt} = \frac{2\pi I_c}{\Phi_0} V(t) \cos(\varphi)$$Where $\frac{2\pi I_c}{\Phi_0}$ is the Josephson inductance(kinetic inductance) of the junction.
 - Normal Junction: normal electrons scatter off impurities and phonons, these collisions lead to an exchange of energy and momentum. Thus, the phase coherence is lost and we utilize a damping time $\tau_i$ to describe the average time between collisions. $$\frac{di}{dt} + \frac{i}{\tau_i} = \frac{2\pi I_c}{\Phi_0} V(t) $$Meaning that in case of no voltage we will have no current. The $\cos(\varphi) = 1$ since the phase is randomized due to scattering leaving and average value of zero $\langle \cos(\varphi) \rangle = 0$.(So $\cos(0) = 1$)
 
-
+If we consider the normal junction to be driven by a DC voltage $V(t) = V$ constant:$$\frac{di}{dt} + \frac{i}{\tau_i} = \frac{2\pi I_c}{\Phi_0} V(t) $$ The solution is: $$\frac{i}{\tau_i} = \frac{2\pi I_c}{\Phi_0} V $$
+Thus, the junction conductance is: $$(R_n)^{-1} = \frac{i}{V} = \frac{2\pi I_c \tau_i}{\Phi_0} $$Where $R_n$ is the normal state resistance of the junction. This implies that:
+$$I_c R_n = \frac{\Phi_0}{2 \pi \tau_i} = \text{constant}$$
 
 
 
