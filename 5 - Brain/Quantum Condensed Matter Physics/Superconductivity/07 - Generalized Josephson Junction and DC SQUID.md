@@ -13,7 +13,7 @@ Again, the mechanisms that allow electric current to flow through a superconduct
 In a generalized Josephson junction, all three mechanisms are considered.
 
 We studied the coherent Josephson tunneling in basic Junctions to be: $$i = I_c \sin(\varphi)$$
-For an ideal tunnel junction the capacitive channel is simply that of 
+For an ideal tunnel junction the capacitive channel is simply that of a capacitor: $i = C \frac{dV}{dt}$.
 
 
 
