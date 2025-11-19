@@ -47,8 +47,9 @@ The equation can be rewritten as:$$\frac{i}{I_c} = \sin(\varphi) + \frac{d\varph
 - $\tau = \frac{t}{\tau_J}$ is the normalized time with $\tau_J = \frac{\Phi_0}{2\pi I_c R} = \frac{L_J}{R} = f_J^{-1}$ being the Josephson time constant that depends on the Junction voltage.
 - $\beta_c = \frac{2\pi}{\Phi_0} R^2  C = \frac{R^2C}{L_J} = \frac{\tau_{RC}}{\tau_J}$ is the Stewart-McCumber parameter that describes the importance of the capacitive effects in the junction dynamics. Where $\tau_{RC} = R C$ is the RC time constant of the junction.
 
-Of particular interest is the overdamped junction..
+Of particular interest is the overdamped junction case where $\beta_c \ll 1$, meaning that the capacitive effects are negligible $\tau_{RC} \ll \tau_J$. In this case the equation simplifies to: $$\frac{i}{I_c} = \sin(\varphi) + \frac{d\varphi}{d\tau} $$
+This equation can be solved analytically. For a DC current bias $i > I_c$ the solution is: $$d \tau = \frac{d\varphi}{\frac{i}{I_c} - \sin(\varphi)} $$While for $i \leq I_c$ the solution is simply:$$i=I_c \sin(\varphi) $$
 
-
+//To finish
 
 ## References
