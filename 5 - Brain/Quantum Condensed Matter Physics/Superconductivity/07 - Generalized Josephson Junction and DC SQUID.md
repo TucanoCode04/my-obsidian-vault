@@ -13,7 +13,11 @@ Again, the mechanisms that allow electric current to flow through a superconduct
 In a generalized Josephson junction, all three mechanisms are considered.
 
 We studied the coherent Josephson tunneling in basic Junctions to be: $$i = I_c \sin(\varphi)$$
-For an ideal tunnel junction the capacitive channel is simply that of a capacitor: $i = C \frac{dV}{dt}$.
+For an ideal tunnel junction the capacitive channel is simply that of a capacitor: $$i = C \frac{dV}{dt}$$
+The resistive channel stems from the breaking of Cooper pairs into quasiparticles(normal electrons)(we need microscopic BCS theory to fully understand this process). To give a quantitative understanding:
+- Superconducting Junction: superelectrons do not scatter since they are in a collective ground state. The phase function is well defined since all superelectrons are in the same quantum state. $$\frac{di}{dt} = \frac{2\pi I_c}{\Phi_0} V(t) \cos(\varphi)$$
+	Where $\frac{2\pi I_c}{\Phi_0}$ is the Josephson inductance(kinetic inductance) of the junction.
+- 
 
 
 
