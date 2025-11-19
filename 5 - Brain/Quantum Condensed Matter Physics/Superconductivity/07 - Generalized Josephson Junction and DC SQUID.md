@@ -39,7 +39,15 @@ Exploiting the phase-voltage relation: $$i = I_c \sin(\varphi) + G(V) \frac{\Phi
 
 A simplified version RSCJ model replaces the non linear conductance $G(V)$ with a constant resistance $R$:
 ![[Pasted image 20251119123244.png]]
-The total current through the junction is given by: $$i = I_c \sin(\varphi) + \frac{\Phi_0}{2\pi R} \frac{d\varphi}{dt} + C \frac{\Phi_0}{2\pi} \frac{d^2 \varphi}{dt^2} $$This constant is e
+The total current through the junction is given by: $$i = I_c \sin(\varphi) + \frac{\Phi_0}{2\pi R} \frac{d\varphi}{dt} + C \frac{\Phi_0}{2\pi} \frac{d^2 \varphi}{dt^2} $$This constant is either:
+- an approximation of the non linear conductance $G(V)$ leading to $R \approx R_n$, meaning that the resistance is equal to the normal state resistance of the junction so the approximation that was made was valid for voltages above the gap.
+- a shunt resistance placed in parallel to the junction to modify its dynamics. This method is often used in practical applications for better control of the junction behavior.
+
+The equation can be rewritten as:$$\frac{i}{I_c} = \sin(\varphi) + \frac{d\varphi}{d\tau} + \beta_c\frac{d^2 \varphi}{d\tau^2} $$Where:
+- $\tau = \frac{t}{\tau_J}$ is the normalized time with $\tau_J = \frac{\Phi_0}{2\pi I_c R} = \frac{L_J}{R} = f_J^{-1}$ being the Josephson time constant that depends on the Junction voltage.
+- $\beta_c = \frac{2\pi}{\Phi_0} R^2  C = \frac{R^2C}{L_J} = \frac{\tau_{RC}}{\tau_J}$ is the Stewart-McCumber parameter that describes the importance of the capacitive effects in the junction dynamics. Where $\tau_{RC} = R C$ is the RC time constant of the junction.
+
+Of particular interest is the overdamped junction..
 
 
 
