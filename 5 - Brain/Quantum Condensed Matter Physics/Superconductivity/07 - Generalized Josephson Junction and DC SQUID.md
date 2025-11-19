@@ -35,6 +35,11 @@ The graph show in the x-axis the microvolts representing the voltage across the 
 The generalized Josephson junction can thus be modeled as the parallel combination the three channels.
 ![[Pasted image 20251119122305.png]]
 The total current through the junction is given by: $$i = I_c \sin(\varphi) + V G(V) + C \frac{dV}{dt} $$
+Exploiting the phase-voltage relation: $$i = I_c \sin(\varphi) + G(V) \frac{\Phi_0}{2\pi} \frac{d\varphi}{dt} + C \frac{\Phi_0}{2\pi} \frac{d^2 \varphi}{dt^2} $$This is a non linear equation of non linear coefficients(since $G(V)$ is non linear) that describes the dynamics of a generalized Josephson junction. Numerical solution are then required to study the behavior of the junction in different regimes.
+
+A simplified version RSCJ model replaces the non linear conductance $G(V)$ with a constant resistance $R$:
+![[Pasted image 20251119123244.png]]
+The total current through the junction is given by: $$i = I_c \sin(\varphi) + \frac{\Phi_0}{2\pi R} \frac{d\varphi}{dt} + C \frac{\Phi_0}{2\pi} \frac{d^2 \varphi}{dt^2} $$This constant is e
 
 
 
