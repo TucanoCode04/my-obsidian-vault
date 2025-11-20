@@ -14,6 +14,10 @@ Tags:
 4. Describe the crystal lattice and Bravais lattice(brief description of different types) with mathematical formulas. Define primitive cell, unit cell, and Wigner-Seitz cell. Ho is the crystal structure obtained from the Bravais lattice, fractional coordinates, use Silicon as an example.
 5. Amorphous structures and radial distribution function(RDF), define and describe both even the graph.
 6. Point defects in crystals, describe all types(even the one not in the notes but in the slides) and give examples, describe even their properties and effect. How do they change the conductivity, and how does it work. Describe color centers, f-centers, and point defects in diamond.
+##### 03 - Domande
+7. Define the reciprocal lattice from the direct lattice, derive the basis vectors of the reciprocal lattice from the basis vectors of the direct lattice. Define the first Brillouin zone and its volume. Calculate the basis vectors of the reciprocal lattice from a 2D direct lattice.
+8. Fourier series and reciprocal lattice, derive the relationship between the periodic observable and the reciprocal lattice.
+
 
 
 
