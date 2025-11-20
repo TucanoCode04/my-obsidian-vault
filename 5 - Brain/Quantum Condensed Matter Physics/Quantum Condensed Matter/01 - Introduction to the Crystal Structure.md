@@ -44,7 +44,7 @@ The basis is made of 2 atoms:
 - Atom 1: ($0, 0, 0)$
 - Atom 2: ($\frac{1}{4}$, $\frac{1}{4}$, $\frac{1}{4}$)
 
-Which are called fractional coordinates.
+Which are called fractional coordinates. When multiplied by the basis vectors, they give the actual position of the atoms in the crystal structure.
 
 In the cubic structure the basis vectors have all the same length $|\vec{a_i}| = 4.5 \text{Å}$ and they are orthogonal to each other $(\vec{a_i} \cdot \vec{a_j} = 0, i \neq j)$.
 ##### Amorphous Structures
