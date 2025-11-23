@@ -47,9 +47,9 @@ $$\psi (x, y, z) = \psi (x + L_x, y, z) = \psi (x, y + L_y, z) = \psi (x, y, z +
 Applying these conditions to the plane wave solutions, remembering that:
 $$ \vec{k} = (k_x, k_y, k_z) \quad \Rightarrow \quad \frac{1}{\sqrt{V}} e^{i (k_x x + k_y y + k_z z)} = \frac{1}{\sqrt{V}} e^{i (k_x (x + L_x) + k_y y + k_z z)} = \frac{1}{\sqrt{V}} e^{i (k_x x + k_y (y + L_y) + k_z z)} = \frac{1}{\sqrt{V}} e^{i (k_x x + k_y y + k_z (z + L_z))}$$
 From the first equality, we have:
-$$e^{i k_x x} = e^{i k_x (x + L_x)} \quad \Rightarrow \quad e^{i k_x L_x} = 1 \quad \Rightarrow \quad k_x L_x = 2 \pi n_x$$
-(I don't understand the result 1).
-Where  is an integer. Using a similar process for the second and third equalities, we find that the allowed wavevectors must satisfy:
+$$e^{i k_x x} = e^{i k_x (x + L_x)} = e^{i  k_x x} e^{ ik_x Lx}\quad \Rightarrow \quad e^{i k_x L_x} = 1 \quad \Rightarrow \quad k_x L_x = 2 \pi n_x$$
+An exponential is equal to 1 when its argument is an integer multiple of $2 \pi$.
+Where $n_x$ is an integer. Using a similar process for the second and third equalities, we find that the allowed wavevectors must satisfy:
 $$k_x = \frac{2 \pi n_x}{L_x}, \quad k_y = \frac{2 \pi n_y}{L_y}, \quad k_z = \frac{2 \pi n_z}{L_z}$$
 Where $n_x$, $n_y$, and $n_z$ are integers (positive, negative, or zero). This quantization of the wavevectors means that the electrons can only occupy discrete states in momentum space, which leads to a discrete energy spectrum(it's easy to see this from the energy relation we found earlier). 
 But, in this particular case, the spacing between these allowed wavevectors is very small because the dimensions of the metal are macroscopic (on the order of centimeters or larger). This means that the allowed wavevectors are very closely spaced, and we can treat them as a continuous distribution for practical purposes.
@@ -57,6 +57,7 @@ We can imagine it as a parabola, where each point on the parabola represents an 
 All the possible wavevectors represents the lattice points in k-space, where the limit of the lattice points is determined by the maximum energy of the electrons in the metal(easily found considering the Fermi energy, the highest occupied energy level at absolute zero temperature). They create a sphere after occupying all the possible energy states up to the Fermi energy, known as the Fermi sphere.
 In we consider the Hydrogen atom, the P-orbitals are an example of quantized energy levels due to the Coulomb potential. In that case, the electrons can only occupy 3 discrete energy levels corresponding to the three p-orbitals (px, py, pz). This happens because the energy levels corresponding to the p-orbitals are degenerate, meaning they have the same energy but different spatial orientations. 
 ##### What is $\vec{k}$?(Not important for the exam, but important for me)
+Momentum is a measure of how hors it is to stop a moving object, and it is defined as the product of an object's mass and velocity, meaning that if an object is huge or moves very fast, it will have a large momentum and will be harder to stop. In quantum mechanics, particles like electrons exhibit wave-like properties, and their momentum is related to the wavelength of their associated wavefunction. So a particle with a short wavelength has a high momentum, while a particle with a long wavelength has a low momentum.
 The wavevector $\vec{k}$ is a vector quantity that describes the spatial variation of the electron's wavefunction. It is related to the momentum of the electron by the relation:
 $$\vec{p} = \hbar \vec{k}$$
 Where $\vec{p}$ is the momentum of the electron. The magnitude of the wavevector $k$ is related to the wavelength $\lambda$ of the electron wave by the relation:
