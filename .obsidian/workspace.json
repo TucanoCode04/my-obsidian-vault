@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/04 - Sommerfeld Model.md",
+                "file": "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/05 - Electrons in a Periodic Potential.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04 - Sommerfeld Model"
+              "title": "05 - Electrons in a Periodic Potential"
             }
           }
         ]
@@ -199,7 +199,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,7 +214,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7b0a9b5fa50a6ed",
+  "active": "54d93ebb7efaadf4",
   "lastOpenFiles": [
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/04 - Sommerfeld Model.md",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/04 - 06 Domande.md",
