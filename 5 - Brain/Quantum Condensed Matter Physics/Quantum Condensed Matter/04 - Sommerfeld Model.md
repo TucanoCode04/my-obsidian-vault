@@ -44,6 +44,7 @@ Applying these conditions to the plane wave solutions, remembering that:
 $$ \vec{k} = (k_x, k_y, k_z) \quad \Rightarrow \quad \frac{1}{\sqrt{V}} e^{i (k_x x + k_y y + k_z z)} = \frac{1}{\sqrt{V}} e^{i (k_x (x + L_x) + k_y y + k_z z)} = \frac{1}{\sqrt{V}} e^{i (k_x x + k_y (y + L_y) + k_z z)} = \frac{1}{\sqrt{V}} e^{i (k_x x + k_y y + k_z (z + L_z))}$$
 From the first equality, we have:
 $$e^{i k_x x} = e^{i k_x (x + L_x)} \quad \Rightarrow \quad e^{i k_x L_x} = 1 \quad \Rightarrow \quad k_x L_x = 2 \pi n_x$$
+(I don't understand the result 1).
 Where  is an integer. Using a similar process for the second and third equalities, we find that the allowed wavevectors must satisfy:
 $$k_x = \frac{2 \pi n_x}{L_x}, \quad k_y = \frac{2 \pi n_y}{L_y}, \quad k_z = \frac{2 \pi n_z}{L_z}$$
 Where $n_x$, $n_y$, and $n_z$ are integers (positive, negative, or zero). This quantization of the wavevectors means that the electrons can only occupy discrete states in momentum space, which leads to a discrete energy spectrum(it's easy to see this from the energy relation we found earlier). 
