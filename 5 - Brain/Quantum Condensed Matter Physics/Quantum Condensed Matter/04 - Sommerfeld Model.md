@@ -27,9 +27,13 @@ $$\psi (x) = \frac{1}{\sqrt{L}} e^{i k x}$$
 Where $k$ is the wavevector in the x-direction. The wavevector is related to the wavelength $\lambda$ of the electron wave by the relation:
 $$k = \frac{2 \pi}{\lambda}$$
 We can see that the wavevector determines the wavelength of the electron wave, and thus its momentum and energy.  
+The momentum of the electron is related to the wavevector by the relation:
+$$p = \hbar k$$
+While the energy of the electron is given by:
+$$E = \frac{p^2}{2m} = \frac{\hbar^2 k^2}{2m}$$
 We can extract the energy of the electron from the Schrödinger equation:
 $$E = \frac{\hbar^2 k^2}{2m}$$This relation shows that the energy of the electron is proportional to the square of its wavevector, which means that higher wavevectors correspond to higher energies. 
-The plane wave are eigenfunctions of the momentum operator $\hat{p} = -i \hbar \nabla$, with eigenvalues given by:
+The plane waves are eigenfunctions of the momentum operator $\hat{p} = -i \hbar \nabla$, with eigenvalues given by:
 $$\hat{p} \psi (\vec{r}) = \hbar \vec{k} \psi (\vec{r})$$
 This means that the momentum of the electron is given by its wavevector, with a proportionality constant of $\hbar$. 
 In free particle, we can, then, easily find the momentum and energy of the electron from its wavevector. This is possible because we assumed that the electrons are free and non-interacting, so by excluding a spatially varying potential, the Hamiltonian commutes with the momentum operator, allowing us to use plane waves as eigenfunctions.
