@@ -11,5 +11,9 @@ Tags:
 2. Calculate the density of states (DOS) for free electrons and plot it. Then describe the Fermi-Dirac distribution with graphs and combine it with the DOS to obtain the number of electrons at a given energy and temperature.
 3. Describe the effects of an electric field in momentum space.
 ##### 05 - Domande
-
+4. Describe the potential of independent electrons in a periodic lattice. Then derive the Bloch theorem and its consequences for the wavefunctions and energy levels of electrons in a periodic potential.
+5. Derive the boundary conditions for electrons in a periodic lattice and the concept of the first Brillouin zone. Derive also the allowed k-vectors in this case.
+6. Describe the density of states for electrons in a periodic lattice and compare it with the DOS for free electrons.
+##### 06 - Domande
+7. Describe the concept of energy bands in solids. Explain the difference between a metal and a semiconductor in terms of their band structures. Describe the difference between direct and indirect band gaps with examples. Describe heavy hole bands and light hole bands.
 ## References
