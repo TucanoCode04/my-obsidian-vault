@@ -6,7 +6,7 @@
       {
         "id": "fc2cd739050a98f3",
         "type": "tabs",
-        "dimension": 48.44961240310077,
+        "dimension": 67.25206611570248,
         "children": [
           {
             "id": "54d93ebb7efaadf4",
@@ -27,7 +27,7 @@
       {
         "id": "ee8b50798d6b0a90",
         "type": "tabs",
-        "dimension": 51.55038759689923,
+        "dimension": 32.74793388429752,
         "children": [
           {
             "id": "e7b0a9b5fa50a6ed",
@@ -100,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -214,12 +213,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "54d93ebb7efaadf4",
+  "active": "e7b0a9b5fa50a6ed",
   "lastOpenFiles": [
+    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/05 - Electrons in a Periodic Potential.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/04 - Sommerfeld Model.md",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/04 - 06 Domande.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/06 - Energy Bands Slides.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/05 - Electrons in a Periodic Potential.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/01 - Introduction to the Crystal Structure.md",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/00 - 03 Domande.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/03 - Reciprocal Bravais Lattice.md",
