@@ -6,7 +6,8 @@ Status:
 Tags:
 
 # 07 - 09 Domande
-
+1. Describe the concept of Parabolic Band Approximation in semiconductor physics.
+2. 
 
 
 ## References
