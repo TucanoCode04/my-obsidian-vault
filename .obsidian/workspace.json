@@ -6,7 +6,7 @@
       {
         "id": "fc2cd739050a98f3",
         "type": "tabs",
-        "dimension": 48.37027379400261,
+        "dimension": 65.70545829042224,
         "children": [
           {
             "id": "54d93ebb7efaadf4",
@@ -27,7 +27,7 @@
       {
         "id": "ee8b50798d6b0a90",
         "type": "tabs",
-        "dimension": 51.62972620599739,
+        "dimension": 34.29454170957775,
         "children": [
           {
             "id": "e7b0a9b5fa50a6ed",
@@ -199,8 +199,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,9 +215,9 @@
   },
   "active": "54d93ebb7efaadf4",
   "lastOpenFiles": [
-    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/09 - Color Centers.md",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/07 - 09 Domande.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/08 - Photon exciting an Electron in a Semiconductor(or Insulator).md",
+    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/09 - Color Centers.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/07 - First Order Perturbation Theory.md",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/04 - 06 Domande.md",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/Untitled",
