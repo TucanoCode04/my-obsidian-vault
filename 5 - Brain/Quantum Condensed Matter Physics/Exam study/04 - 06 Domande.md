@@ -15,5 +15,6 @@ Tags:
 5. Derive the boundary conditions for electrons in a periodic lattice and the concept of the first Brillouin zone. Derive also the allowed k-vectors in this case.
 6. Describe the density of states for electrons in a periodic lattice and compare it with the DOS for free electrons.
 ##### 06 - Domande
-7. Describe the concept of energy bands in solids. Explain the difference between a metal and a semiconductor in terms of their band structures. Describe the difference between direct and indirect band gaps with examples. Describe heavy hole bands and light hole bands.
+7. Describe the concept of energy bands in solids. Explain the difference between a metal and a semiconductor in terms of their band structures. Describe the difference between direct and indirect band gaps with examples. Describe heavy hole bands and light hole bands and the split off band.
+8. Comment the density of state and occupation for metals, insulators and semiconductors.
 ## References
