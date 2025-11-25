@@ -199,8 +199,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,9 +215,9 @@
   },
   "active": "e7b0a9b5fa50a6ed",
   "lastOpenFiles": [
-    "Pasted image 20251125151212.png",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/10 Domande.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/10 - Semi-Classical Boltzmann Equation.md",
+    "Pasted image 20251125151212.png",
     "5 - Brain/Untitled 1.base",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/07 - 09 Domande.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/08 - Photon exciting an Electron in a Semiconductor(or Insulator).md",
@@ -246,7 +245,6 @@
     "Pasted image 20251118185847.png",
     "Pasted image 20251118185740.png",
     "Pasted image 20251118185705.png",
-    "Pasted image 20251118185631.png",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/05 - SQUIDs.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/01 - The Macroscopic Quantum Model.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/02 - Fluxoid Quantization.md",
