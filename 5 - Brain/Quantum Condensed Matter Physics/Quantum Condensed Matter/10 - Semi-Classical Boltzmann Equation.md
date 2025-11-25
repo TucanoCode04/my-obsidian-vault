@@ -59,7 +59,7 @@ It is hard to solve the BTE because the collision term is an integral over all p
 
 The scattering rate due to defects can be calculated using Fermi's Golden Rule, considering the perturbation introduced by the defects. 
 $$W_{\vec{k} \rightarrow \vec{k'}}^{defects} = \frac{2\pi}{\hbar} | \langle \vec{k'} | U_{defects} | \vec{k} \rangle |^2 \delta(E(\vec{k'}) - E(\vec{k}))$$
-where $U_{defects}$ is the potential due to defects, and the delta function ensures energy conservation during scattering. We now that the scattering is elastic because defects are static, so the energy before and after scattering is the same $E(\vec{k'}) = E(\vec{k})$, it only changes momentum.
+where $U_{defects}$ is the potential due to defects, and the delta function ensures energy conservation during scattering. We now that the scattering is elastic because defects are static, so the energy before and after scattering is the same $E(\vec{k'}) = E(\vec{k})$, it only changes momentum. The energy is the same because the defect does not absorb or emit energy since it is static, it would mov
 $U_{defects}$ can be modeled as an integral of localized perturbations due to defects:
 $$| \langle \vec{k'} | U_{defects} | \vec{k} \rangle = \int d\vec{r} \cdot \psi_{\vec{k'}}^*(\vec{r}) U_{defects}(\vec{r} - \vec{R}_i) \psi_{\vec{k}}(\vec{r})$$
 where $\psi_{\vec{k}}(\vec{r})$ are the Bloch wavefunctions of the electrons. $\vec{R}_i$ are the positions of the defects in the crystal lattice. 
