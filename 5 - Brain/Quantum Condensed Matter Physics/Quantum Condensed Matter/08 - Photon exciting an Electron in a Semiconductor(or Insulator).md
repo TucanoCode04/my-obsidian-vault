@@ -71,6 +71,11 @@ This expression gives the total transition rate from the initial state to all po
 The difference between the joint density of states and the density of states is that the former considers a difference in energy between initial and final states, while the latter considers the number of available states at a specific energy level. For example in the figure, if we have 10 photons with energy $\hbar \omega$, the joint density of states $g(\hbar \omega)$ counts how many pairs of initial and final states exist such that the energy difference between them equals $\hbar \omega$(4). The density of states $D(E)$ counts how many states are available at a specific available energy level $E$(1 at $E_2$).
 The absorption coefficient $\alpha \propto W_{i \to f}$ describes how much light is absorbed by the material per unit distance. We will see how it changes in direct and indirect bandgap semiconductors.
 Reminder: now we would use the Fermi-Dirac distribution to account for the occupation probabilities of the initial and final states.
+**Recap:**
+- the DOS describes the number of available states at a specific energy level.
+$$D(E) = \frac{1}{V} \frac{dN}{dE} = \frac{1}{2 \pi^2} (\frac{2 m^*}{\hbar^2})^{3/2} \sqrt{E} $$
+- the joint density of states describes the number of pairs of initial and final states with a specific energy difference.
+$$g(\hbar \omega) = \frac{1}{V} \frac{dN}{d(\Delta E)} = \frac{1}{(2\pi)^3} \int \delta(E_f - E_i - \hbar \omega) d^3k $$
 ##### Absorption in Direct Bandgap Semiconductors
 In direct bandgap semiconductors, the conduction band minimum and valence band maximum occur at the same momentum value in k-space. This means that an electron can directly transition from the valence band to the conduction band by absorbing a photon without any change in momentum.
 ![[Pasted image 20251027183635.png]]
