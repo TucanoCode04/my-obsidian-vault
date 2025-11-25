@@ -24,7 +24,7 @@ $$\vec{k'} = \vec{k} + \frac{\vec{F}}{\hbar} dt $$
 where $\vec{v}$ is the group velocity of the electrons, given by $\vec{v} = \frac{1}{\hbar} \nabla_{\vec{k}} E(\vec{k})$. So our system evolves as:
 $$f(\vec{r}, \vec{k}, t) \rightarrow f(\vec{r} + \vec{v} dt, \vec{k} + \frac{\vec{F}}{\hbar} dt, t + dt)$$
 We define the volume element as $d\Omega$ that evolves into $d\Omega'$ after time $dt$. 
-//GRAPH
+![[Pasted image 20251125151212.png]]
 The number of electrons in this volume element must be conserved if there are no scattering events, so:
 $$f(\vec{r}, \vec{k}, t) = f(\vec{r} + \vec{v} dt, \vec{k} + \frac{\vec{F}}{\hbar} dt, t + dt)$$
 If this was true the sphere would drift infinitely. Electrons in a periodic potential are represented by Bloch waves, which are delocalized states that extend throughout the crystal lattice, so they are not subject to localization due to scattering. However, in reality, scattering events occur due to impurities, phonons, and other electrons, which randomize the momentum of the electrons and prevent indefinite drift.
