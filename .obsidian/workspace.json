@@ -6,6 +6,7 @@
       {
         "id": "ee8b50798d6b0a90",
         "type": "tabs",
+        "dimension": 69.05005107252298,
         "children": [
           {
             "id": "e7b0a9b5fa50a6ed",
@@ -26,6 +27,7 @@
       {
         "id": "3f37beaea7c31267",
         "type": "tabs",
+        "dimension": 30.949948927477017,
         "children": [
           {
             "id": "be36f8e895648ca0",
@@ -197,7 +199,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,11 +214,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7b0a9b5fa50a6ed",
+  "active": "be36f8e895648ca0",
   "lastOpenFiles": [
+    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/10 - Semi-Classical Boltzmann Equation.md",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/10 Domande.md",
     "5 - Brain/Untitled 1.base",
-    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/10 - Semi-Classical Boltzmann Equation.md",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/07 - 09 Domande.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/08 - Photon exciting an Electron in a Semiconductor(or Insulator).md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/09 - Color Centers.md",
