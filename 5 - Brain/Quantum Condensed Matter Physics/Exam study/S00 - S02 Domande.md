@@ -17,10 +17,5 @@ Tags:
 ##### S02 Domande
 7. Explain what is a magnetic flux. Using the supercurrent density expression, derive the quantization of magnetic flux in a superconducting ring.
 8. Describe the experimental evidence of magnetic flux quantization in superconducting rings.
-##### S03 Domande
-9. Brief explanation about S-I-N tunnel junctions.
-10. Briefly describe the S-I-S, then describe the different areas of the I-V characteristic curve of a S-I-S tunnel junction.
-11. Describe the current driven Josephson junction, deriving the supercurrent and the phase change. Then by analyzing the potential write the Schrodinger equation and its solutions. 
-12. From the Schrodinger equation derive the current-phase relationship and 
 
 ## References
