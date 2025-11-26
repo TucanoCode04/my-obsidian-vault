@@ -6,7 +6,7 @@
       {
         "id": "ee8b50798d6b0a90",
         "type": "tabs",
-        "dimension": 69.05005107252298,
+        "dimension": 59.25531914893617,
         "children": [
           {
             "id": "e7b0a9b5fa50a6ed",
@@ -27,7 +27,7 @@
       {
         "id": "3f37beaea7c31267",
         "type": "tabs",
-        "dimension": 30.949948927477017,
+        "dimension": 40.74468085106383,
         "children": [
           {
             "id": "be36f8e895648ca0",
@@ -214,10 +214,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7b0a9b5fa50a6ed",
+  "active": "be36f8e895648ca0",
   "lastOpenFiles": [
-    "5 - Brain/Quantum Condensed Matter Physics/Exam study/S00 - S02 Domande.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/03 - Josephson Effect and Quantum Superconducting Devices.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Exam study/S00 - S02 Domande.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/04 - Lumped Junctions and AC Josephson Effect.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/05 - SQUIDs.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/02.5 - Summary.md",
