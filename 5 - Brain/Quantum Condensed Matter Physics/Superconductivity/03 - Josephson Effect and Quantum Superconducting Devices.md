@@ -110,26 +110,26 @@ $$
 Larger $V_0$ → faster decay → smaller Josephson critical current.  
 Smaller or thinner $V_0$ → slower decay → larger critical current.
 
-The standard solution to this problem is given by>
+The standard solution to this problem is given by:
 $$\Psi(x) = C_1 \cosh \frac{x}{\xi} + C_2 \sinh \frac{x}{\xi}$$
 where $\xi = \sqrt{\frac{\hbar^2}{2m(V_0 - \epsilon_0)}}$ is the decay length of the wavefunction inside the barrier. This is phenomenological parameter of the barrier and must not be confused with the superconducting coherence length(that describes the distance between the electrons in a Cooper pair/energy distance over which the electrons become correlated).
 Considering the definition of quantum current density:
 $$J_s = q \Re\left\{\Psi^* \left(\frac{\hbar}{im} \nabla - \frac{q}{m} \vec{A}\right) \Psi\right\}$$
 Where q is the charge of the Cooper pair(2e), and since we assumed $\vec{A} = 0$, we plug in the wavefunction solution to get:
-$$J_s ) = -\frac{q \hbar}{m \xi} \Im\{C_1^* C_2\}$$
+$$J_s  = -\frac{q \hbar}{m \xi} \Im\{C_1^* C_2\}$$
 As expected, since the current density is constant as a function of x, it only depends on constants, including the coefficients $C_1$ and $C_2$.
 TO determine these coefficients, we apply the boundary conditions at the edges of the barrier:
 $$\Psi(-a) = \Psi_1 = \sqrt{n_{s1}} e^{i \theta_1} = C_1 \cosh \frac{-a}{\xi} + C_2 \sinh \frac{-a}{\xi} = C_1 \cosh \frac{a}{\xi} - C_2 \sinh \frac{a}{\xi}$$
-$$\Psi(+a) = \Psi_2 = \sqrt{n_{s2}} e^{i \ theta_2} = C_1 \cosh \frac{a}{\xi} + C_2 \sinh \frac{a}{\xi}$$
+$$\Psi(+a) = \Psi_2 = \sqrt{n_{s2}} e^{i \theta_2} = C_1 \cosh \frac{a}{\xi} + C_2 \sinh \frac{a}{\xi}$$
 Solving this system of equations for $C_1$ and $C_2$, we get:
 $$C_1 = \frac{\sqrt{n_{s1}} e^{i \theta_1} + \sqrt{n_{s2}} e^{i \theta_2}}{2 \cosh \frac{a}{\xi}}$$
-$$C_2 = \frac{\sqrt{n_{s2}} e^{i \ theta_2} - \sqrt{n_{s1}} e^{i \theta_1}}{2 \sinh \frac{a}{\xi}}$$
+$$C_2 = \frac{\sqrt{n_{s2}} e^{i \theta_2} - \sqrt{n_{s1}} e^{i \theta_1}}{2 \sinh \frac{a}{\xi}}$$
 Plugging these back into the expression for the supercurrent density, we find the supercurrent through the junction:
 $$J_s = J_c \sin(\theta_1 - \theta_2)$$ 
 Where the critical current density $J_c$ is given by:
 $$J_c = - \frac{q \hbar}{m \xi} \frac{\sqrt{n_{s1} n_{s2}}}{\sinh \frac{2a}{\xi}} = \frac{e \hbar}{2 m_e \xi} \frac{\sqrt{n_{e1} n_{e2}}}{\sinh \frac{2a}{\xi}}$$
 Where we used $q = 2e$ and $m = 2m_e$.
-This is the Josephson current-phase relation, showing that a supercurrent can flow across the junction without any voltage applied(absence of electric field), driven solely sinusoidally by the phase difference between the two superconductors(DC Josephson effect). The critical current density $J_c$ depends only on constants of the junction, including the barrier thickness and the superconducting electron densities on either side, in particular the term $\sqrt{n_{s1} n_{s2}}$ shows that increasing the density of superconducting electrons in either superconductor increases the critical current density, since more Cooper pairs are available to tunnel through the barrier.
+This is the **Josephson current-phase relation**, showing that a supercurrent can flow across the junction without any voltage applied(absence of electric field), driven solely sinusoidally by the phase difference between the two superconductors(DC Josephson effect). The critical current density $J_c$ depends only on constants of the junction, including the barrier thickness and the superconducting electron densities on either side, in particular the term $\sqrt{n_{s1} n_{s2}}$ shows that increasing the density of superconducting electrons in either superconductor increases the critical current density, since more Cooper pairs are available to tunnel through the barrier.
 In the equation for the $J_c$ the left part is for the Cooper pair, while the right is for single electrons, showing the relation between the two tunneling processes(it's different from the critical current density of the material, because it's specific to the junction).
 For typical Josephson junctions $a$ is in the order of few nanometers, while $\xi$ is in the order of tenths of nanometers, so $\frac{2a}{\xi} >> 1$, meaning that $\sinh \frac{2a}{\xi} \approx \frac{e^{\frac{2a}{\xi}}}{2}$, meaning that the critical current density decays exponentially with increasing barrier thickness.
 In the following we will focus on effects achieved by driving the Josephson junction with currents smaller than the critical current, so that no voltage develops across the junction and a dissipationless supercurrent flows(in general one cannot neglect the presence of small voltages, creating resistive losses, but for simplicity we will ignore them).
