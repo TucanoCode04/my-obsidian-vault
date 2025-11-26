@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/01 - The Macroscopic Quantum Model.md",
+                "file": "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/02 - Fluxoid Quantization.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 - The Macroscopic Quantum Model"
+              "title": "02 - Fluxoid Quantization"
             }
           }
         ]
@@ -214,14 +214,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "be36f8e895648ca0",
+  "active": "e7b0a9b5fa50a6ed",
   "lastOpenFiles": [
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/01 - The Macroscopic Quantum Model.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Exam study/S00 - S02 Domande.md",
     "5 - Brain/00 - Glossary/Phase Theta.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/05 - SQUIDs.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/04 - Lumped Junctions and AC Josephson Effect.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/03 - Josephson Effect and Quantum Superconducting Devices.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Exam study/S00 - S02 Domande.md",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/10 Domande.md",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/07 - 09 Domande.md",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/04 - 06 Domande.md",
