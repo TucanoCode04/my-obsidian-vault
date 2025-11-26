@@ -12,7 +12,7 @@ Tags:
 3. Then by analyzing the potential write the Schrodinger equation and its solutions and derive the current-phase relationship.
 4. Derive the gauge-invariant phase and the voltage phase relationship.
 ##### S04 Domande
-
+5. Rewrite the 3 relations found before in case of a Lumped Junction and write the dynamics for a current source driven Josephson junction. 
 
 
 ## References
