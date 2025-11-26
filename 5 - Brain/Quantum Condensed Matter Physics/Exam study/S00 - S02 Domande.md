@@ -18,6 +18,7 @@ Tags:
 7. Explain what is a magnetic flux. Using the supercurrent density expression, derive the quantization of magnetic flux in a superconducting ring.
 8. Describe the experimental evidence of magnetic flux quantization in superconducting rings.
 ##### S03 Domande
-
+9. Brief explanation about S-I-N tunnel junctions.
+10. 
 
 ## References
