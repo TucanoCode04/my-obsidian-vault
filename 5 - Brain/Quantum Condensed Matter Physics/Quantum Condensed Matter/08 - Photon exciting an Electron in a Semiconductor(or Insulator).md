@@ -176,7 +176,7 @@ The radius of the exciton can be expressed as:
 $$ r_n = - \frac{m_0}{\mu} \epsilon_r n^2 a_H = n^2 a_X $$
 Where $a_H$ is the Bohr radius for hydrogen (approximately 0.59 Å), and $a_X = \frac{m_0 \epsilon_r}{\mu} a_H$ is the exciton Bohr radius, which is typically larger than $a_H$ due to the reduced mass and dielectric screening.
 So basically as $E_g$ increases, $R_X$ increases because the dielectric constant $\epsilon_r$ decreases. This means that in wide bandgap materials, excitons are more tightly bound and have higher binding energies. And $a_X$ decreases, meaning that the exciton is more localized.
-High dielectric constant means higher conductivity, so the Coulomb interaction is screened more effectively.
+High dielectric constant means higher conductivity, so the Coulomb interaction is screened more effectively, leading to lower exciton binding energies.
 ![[Pasted image 20251029181302.png]]
 So even after shining light with energy equal to the bandgap $E_g$, we can still have this pair of electron-hole bound states below the bandgap energy, leading to additional absorption peaks in the optical spectrum. To separate them we need energy greater than $\frac{R_X}{n^2}$.
 To excite an exciton we will need $\Delta E(n) = E_g - \frac{R_X}{n^2}$. So this states will be below the bandgap energy $E_g$, because of the binding energy.
