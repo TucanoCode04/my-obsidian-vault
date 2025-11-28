@@ -38,6 +38,7 @@ The periodicity of the observable implies that:
 $$f(\vec{r}) = f(\vec{r} + \vec{R_n}) \Rightarrow \sum_{\vec{k}} c_{\vec{k}} e^{i \vec{k} \cdot \vec{r}} = \sum_{\vec{k}} c_{\vec{k}} e^{i \vec{k} \cdot (\vec{r} + \vec{R_n})} = \sum_{\vec{k}} c_{\vec{k}} e^{i \vec{k} \cdot \vec{r}} e^{i \vec{k} \cdot \vec{R_n}}$$
 This implies that:
 $$e^{i \vec{k} \cdot \vec{R_n}} = 1 \Rightarrow \vec{k} \cdot \vec{R_n} = 2 \pi m, \quad m \in \mathbb{Z}$$
+Because $e^{i \theta} = 1$ when $\theta = 2 \pi m$.
 This is the same condition that defines the reciprocal lattice, so we can conclude that the wave vectors $\vec{k}$ must be vectors of the reciprocal lattice $\vec{G}$.
 ##### From Direct Lattice to Reciprocal Lattice
 If we start from a direct lattice, we can calculate the basis vectors of the reciprocal lattice using the formulas provided above. We can construct the direct lattice using these general basis vectors:
