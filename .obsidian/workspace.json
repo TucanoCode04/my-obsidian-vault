@@ -6,7 +6,7 @@
       {
         "id": "ee8b50798d6b0a90",
         "type": "tabs",
-        "dimension": 45.743034055727556,
+        "dimension": 70.4653937947494,
         "children": [
           {
             "id": "e7b0a9b5fa50a6ed",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/08 - Photon exciting an Electron in a Semiconductor(or Insulator).md",
+                "file": "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/10 - Semi-Classical Boltzmann Equation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "08 - Photon exciting an Electron in a Semiconductor(or Insulator)"
+              "title": "10 - Semi-Classical Boltzmann Equation"
             }
           }
         ]
@@ -27,7 +27,7 @@
       {
         "id": "3f37beaea7c31267",
         "type": "tabs",
-        "dimension": 54.25696594427245,
+        "dimension": 29.534606205250597,
         "children": [
           {
             "id": "be36f8e895648ca0",
@@ -100,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -214,11 +215,11 @@
   },
   "active": "e7b0a9b5fa50a6ed",
   "lastOpenFiles": [
-    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/09 - Color Centers.md",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/07 - 09 Domande.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/07 - First Order Perturbation Theory.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/10 - Semi-Classical Boltzmann Equation.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/08 - Photon exciting an Electron in a Semiconductor(or Insulator).md",
+    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/09 - Color Centers.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/07 - First Order Perturbation Theory.md",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/04 - 06 Domande.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/06 - Energy Bands Slides.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/05 - Electrons in a Periodic Potential.md",
