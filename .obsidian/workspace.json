@@ -6,7 +6,7 @@
       {
         "id": "ee8b50798d6b0a90",
         "type": "tabs",
-        "dimension": 55.88235294117647,
+        "dimension": 55.91054313099042,
         "children": [
           {
             "id": "e7b0a9b5fa50a6ed",
@@ -27,7 +27,7 @@
       {
         "id": "3f37beaea7c31267",
         "type": "tabs",
-        "dimension": 44.11764705882353,
+        "dimension": 44.08945686900959,
         "children": [
           {
             "id": "be36f8e895648ca0",
@@ -214,10 +214,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7b0a9b5fa50a6ed",
+  "active": "be36f8e895648ca0",
   "lastOpenFiles": [
-    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/02 - Fluxoid Quantization.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/01 - The Macroscopic Quantum Model.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/02 - Fluxoid Quantization.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/00 - Basic Properties of Superconductors.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/07 - Generalized Josephson Junction and DC SQUID.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/06 - Extended Josephson Junctions.md",
