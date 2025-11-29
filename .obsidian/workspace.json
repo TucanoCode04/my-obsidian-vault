@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/10 - Semi-Classical Boltzmann Equation.md",
+                "file": "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/00 - Basic Properties of Superconductors.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10 - Semi-Classical Boltzmann Equation"
+              "title": "00 - Basic Properties of Superconductors"
             }
           }
         ]
@@ -35,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Quantum Condensed Matter Physics/Exam study/10 Domande.md",
+                "file": "5 - Brain/Quantum Condensed Matter Physics/Exam study/S00 - S02 Domande.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10 Domande"
+              "title": "S00 - S02 Domande"
             }
           }
         ]
@@ -215,9 +215,11 @@
   },
   "active": "e7b0a9b5fa50a6ed",
   "lastOpenFiles": [
+    "5 - Brain/Quantum Condensed Matter Physics/Exam study/S00 - S02 Domande.md",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/10 Domande.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Exam study/07 - 09 Domande.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/00 - Basic Properties of Superconductors.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/10 - Semi-Classical Boltzmann Equation.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Exam study/07 - 09 Domande.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/08 - Photon exciting an Electron in a Semiconductor(or Insulator).md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/07 - First Order Perturbation Theory.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/09 - Color Centers.md",
@@ -235,12 +237,10 @@
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/04 - Lumped Junctions and AC Josephson Effect.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/07 - Generalized Josephson Junction and DC SQUID.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/03 - Josephson Effect and Quantum Superconducting Devices.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Exam study/S00 - S02 Domande.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/02.5 - Summary.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/02 - Fluxoid Quantization.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/01 - The Macroscopic Quantum Model.md",
     "5 - Brain/00 - Glossary/Phase Theta.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/00 - Basic Properties of Superconductors.md",
     "Pasted image 20251126115738.png",
     "Pasted image 20251126115727.png",
     "Pasted image 20251126115108.png",
