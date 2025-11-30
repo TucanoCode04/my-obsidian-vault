@@ -120,7 +120,7 @@ Since we assumed that $\vec{B} = B_0 \hat{y}$, the only non-zero phase gradient 
 Thus the phase variation across the junction length is:
 $$\psi = \psi(z)$$
 By integrating the phase gradient along z we can find the phase difference at any point z along the junction length:
-$$int_0^z \frac{\partial \psi}{\partial z} dz= \int_0^z \frac{2\pi}{\Phi_0} B_y h_{eff} dz$$
+$$\int_0^z \frac{\partial \psi}{\partial z} dz= \int_0^z \frac{2\pi}{\Phi_0} B_y h_{eff} dz$$
 $$ \Rightarrow \psi(z) = \psi(0) + \frac{2\pi}{\Phi_0} B_y h_{eff} z$$
 where $\psi(0)$ is the phase difference at z=0, it's a constant phase which we cannot measure directly.
 If we insert this is the current-phase relation:
