@@ -25,5 +25,12 @@ Some contamination induces problems are:
 In lithography processes, you can resolve the issue of particles by using a pellicle, which is a thin transparent film placed above the photomask. The particles will adhere to the pellicle instead of the photomask, and since the pellicle is out of focus during exposure, the particles won't affect the pattern.
 
 To reduce contamination, cleanrooms are used. Cleanrooms are controlled environments where particulate contamination, temperature, humidity and pressure are regulated to minimize the presence of contaminants, so that experiments and manufacturing processes can be repeated with high precision and reliability.
-Cleanrooms are classified according to the number and size of particles per volume of air. A cleanroom belong to a certain class if the 
+Cleanrooms are classified according to the number and size of particles per volume of air. A cleanroom belong to a certain class if the number of particles of a certain size is below a certain limit. For example to be in the class 100, the number of particles of size 0.5 µm or larger must be less than 100 particles per cubic foot of air.
+![[Pasted image 20251202151750.png]]
+Particulate concentration can be measured using filtering and counting methods, or exploiting optical scattering of laser beams. The latter works by shining a laser beam through a sample of air, and measuring the scattered light using photodetectors. The intensity and pattern of the scattered light can provide information about the size and concentration of particles in the air sample.
+
+##### Cleanroom Design
+![[Pasted image 20251202152054.png]]
+A flow of clean filtered air is introduced into the cleanroom, while the contaminated air is extracted. There are 2 main types of designs:
+- Raised Floor: the clean air is introduced from the ceiling vertically downwards, and the contaminated air is extracted from the floor. The floor is raised to create a plenum for air circulation. The air then goes from the raised floor to 
 ## References
