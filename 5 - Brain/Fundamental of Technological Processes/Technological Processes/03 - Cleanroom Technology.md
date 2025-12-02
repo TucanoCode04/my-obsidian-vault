@@ -35,6 +35,7 @@ A flow of clean filtered air is introduced into the cleanroom, while the contami
 - Raised Floor: the clean air is introduced from the ceiling vertically downwards, and the contaminated air is extracted from the floor. The floor is raised to create a plenum for air circulation. The air then goes from the raised floor to lateral return air plenums, where is filtered. Then as the last step the air is reintroduced from the ceiling, through HEPA filters, also called absolute filters. These filters can remove at least 99.97% of airborne particles of size 0.3 µm or larger. They work using a combination of diffusion, interception and inertial impaction to capture particles.
 - Low-wall return: the clean air is introduced from the ceiling vertically downwards, and the contaminated air is extracted from low wall vents. The air is filtered and reintroduced in a similar manner as the raised floor design. The main difference is that the air is extracted from low wall vents instead of the floor, which results in a non vertical airflow pattern, meaning that the middle of the room will have a less efficient air circulation so it will be more prone to contamination.
 
+In the raised floor design, we use a laminar airflow, which means that the air flows in parallel layers without creating turbulence. This is important because turbulence can cause particles to become suspended in the air, increasing the risk of contamination. Laminar airflow helps to ensure that particles are quickly removed from the cleanroom environment. To maintain the laminar flow, for example, tables are pass-through, to not hinder the airflow, and both the operators and equipment are placed in a way that doesn't obstruct the airflow, normally we use a minimal number of operators and equipment inside the cleanroom.
 ##### Cleanroom Classification
 To the previous classification, we add how much air changes per hour(ACH) are needed to maintain the cleanliness level. 
 We also added a standard for the variation of temperature and humidity allowed. The standard temperature is 20°C ± 2°C, while the standard humidity is 50% ± 5% RH.
@@ -48,5 +49,18 @@ Read the following classes:
 ![[Pasted image 20251202153834.png]]
 
 ##### Cleanroom Air Filters
-**High Efficiency Particulate Air (HEPA) Filters**: These filters are designed to capture at least 99.97% of airborne particles that are 0.3 micrometers in diameter. They are commonly used in cleanrooms to maintain air purity. They are mechanical filters made of a net of gla
+**High Efficiency Particulate Air (HEPA) Filters**: These filters are designed to capture at least 99.97% of airborne particles that are 0.3 micrometers in diameter. They are commonly used in cleanrooms to maintain air purity. They are mechanical filters made of a net of glass fibers in a paper-like structure. The fibers are arranged randomly, creating a maze that traps particles through diffusion, interception, and inertial impaction. It has high efficiency, low pressure drop, and good load capacity.
+**Ultra Low Penetration Air (ULPA) Filters**: These filters are even more efficient than HEPA filters, capturing at least 99.999% of airborne particles that are 0.12 micrometers in diameter. They are used in environments that require extremely high levels of cleanliness. They work similarly to HEPA filters but have a denser fiber arrangement, allowing them to capture smaller particles with higher efficiency. They are used in semiconductor manufacturing, pharmaceutical production, and other applications where contamination control is critical.
+
+The 2 main things that suggest a filter replacement are:
+- Increased Pressure Drop: As a filter captures particles, it becomes clogged, leading to an increase in pressure drop across the filter. Monitoring the pressure drop can indicate when a filter needs to be replaced.
+- Decreased Airflow: A clogged filter can reduce the airflow in the cleanroom, which can compromise the cleanliness level. Monitoring airflow rates can help determine when a filter replacement is necessary.
+
+##### Cleanroom Clothing 
+![[Pasted image 20251202155337.png]]
+Cleanroom clothing changes for every class, the higher the class the more complex and covering the clothing must be and the higher frequency of change.
+
+##### Deionized Water 
+Water is often used in cleanrooms for various processes, including rinsing, cleaning, and cooling. 
+
 ## References
