@@ -32,5 +32,14 @@ Particulate concentration can be measured using filtering and counting methods, 
 ##### Cleanroom Design
 ![[Pasted image 20251202152054.png]]
 A flow of clean filtered air is introduced into the cleanroom, while the contaminated air is extracted. There are 2 main types of designs:
-- Raised Floor: the clean air is introduced from the ceiling vertically downwards, and the contaminated air is extracted from the floor. The floor is raised to create a plenum for air circulation. The air then goes from the raised floor to 
+- Raised Floor: the clean air is introduced from the ceiling vertically downwards, and the contaminated air is extracted from the floor. The floor is raised to create a plenum for air circulation. The air then goes from the raised floor to lateral return air plenums, where is filtered. Then as the last step the air is reintroduced from the ceiling, through HEPA filters, also called absolute filters. These filters can remove at least 99.97% of airborne particles of size 0.3 µm or larger. They work using a combination of diffusion, interception and inertial impaction to capture particles.
+- Low-wall return: the clean air is introduced from the ceiling vertically downwards, and the contaminated air is extracted from low wall vents. The air is filtered and reintroduced in a similar manner as the raised floor design. The main difference is that the air is extracted from low wall vents instead of the floor, which results in a non vertical airflow pattern, meaning that the middle of the room will have a less efficient air circulation so it will be more prone to contamination.
+
+##### Cleanroom Classification
+To the previous classification, we add how much air changes per hour(ACH) are needed to maintain the cleanliness level. 
+We also added a standard for the variation of temperature and humidity allowed. The standard temperature is 20°C ± 2°C, while the standard humidity is 50% ± 5% RH.
+We also held a positive pressure inside the cleanroom compared to the outside, so particles in the room tend to go outside and particles from outside don't enter the cleanroom.(In contrast in chemical labs negative pressure is held to avoid leaks of dangerous chemicals outside the lab like viruses or toxic gases)
+![[Pasted image 20251202153642.png]]
+
+The federal 20
 ## References
