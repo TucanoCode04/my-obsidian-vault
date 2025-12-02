@@ -26,6 +26,14 @@ After every step, there is usually a baking step to harden the photoresist and i
 For the realization of a single device, multiple lithography steps are required, each corresponding to a different layer of the device, so we need a method to align the different layers accurately, this is called mask alignment.
 
 ##### Mask Generation
+Masks are usually made of quartz or soda lime glass, where quartz is preferred for its superior optical properties. Quartz has a transmission of over 90% even at short wavelengths (e.g., deep UV), making it ideal for high-resolution lithography processes. 
+The creation of masks is a fight against diffraction, because diffraction limits the minimum feature size that can be accurately transferred onto the wafer. To explain it briefly, when light passes through a small aperture (like the features on a mask), it spreads out due to diffraction, which can blur the edges of the features being projected onto the wafer.
+
+The masks are produced using slower and more precise lithography techniques, such as electron beam lithography (EBL) or laser writing, which can create very fine features with high accuracy. Normally the feature are created line by line, which is a slow process but allows for very high resolution. 
+
+Normally Chromium is used as the opaque material on the mask because it has good adhesion to quartz and can be patterned with high resolution. (Search it up better)
+
+##### Alignment Marks
 
 
 
