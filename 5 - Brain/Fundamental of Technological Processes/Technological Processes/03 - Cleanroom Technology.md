@@ -22,4 +22,8 @@ Some contamination induces problems are:
 - mobile ions in oxides: ions are extremely mobile and they can travel fast through electrical components, causing change in electric fields and voltages, leading to malfunction or destruction of components.
 - unintentional films between layers: the presence of unintentional films between thin layers can create unwanted mechanical stress, leading to cracks and delamination, or even cause short circuits or impede adhesion between moving parts.
 - particles: the most probable failure is contamination due to particles, which are undesired objects of size 0.06 µm to 100 µm. They are not chemically active like ions and are smaller than films. They adhere to surfaces thanks to Van der Waals forces, electrostatic forces and capillary forces. They can cause shadowing during lithography, producing defects in patterns, they can also cause short circuits and open circuits, or create mechanical interference in moving parts(jamming).
+In lithography processes, you can resolve the issue of particles by using a pellicle, which is a thin transparent film placed above the photomask. The particles will adhere to the pellicle instead of the photomask, and since the pellicle is out of focus during exposure, the particles won't affect the pattern.
+
+To reduce contamination, cleanrooms are used. Cleanrooms are controlled environments where particulate contamination, temperature, humidity and pressure are regulated to minimize the presence of contaminants, so that experiments and manufacturing processes can be repeated with high precision and reliability.
+Cleanrooms are classified according to the number and size of particles per volume of air. A cleanroom belong to a certain class if the 
 ## References
