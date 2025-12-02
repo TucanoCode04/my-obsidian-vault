@@ -41,5 +41,12 @@ We also added a standard for the variation of temperature and humidity allowed. 
 We also held a positive pressure inside the cleanroom compared to the outside, so particles in the room tend to go outside and particles from outside don't enter the cleanroom.(In contrast in chemical labs negative pressure is held to avoid leaks of dangerous chemicals outside the lab like viruses or toxic gases)
 ![[Pasted image 20251202153642.png]]
 
-The federal 20
+The federal 2009 standard is no more used, instead ISO is used to get rid of national differences(for example in unit measurements). 
+![[Pasted image 20251202153808.png]]
+
+Read the following classes:
+![[Pasted image 20251202153834.png]]
+
+##### Cleanroom Air Filters
+**High Efficiency Particulate Air (HEPA) Filters**: These filters are designed to capture at least 99.97% of airborne particles that are 0.3 micrometers in diameter. They are commonly used in cleanrooms to maintain air purity. They are mechanical filters made of a net of gla
 ## References
