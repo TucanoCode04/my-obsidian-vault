@@ -15,5 +15,11 @@ Most of contamination comes from the working humans themselves. Humans shed skin
 So humans should be protected with special clothing to reduce contamination.
 Another contamination source is the machinery and tools used in production. They are subject to aging and wear, abrasion, corrosion and outgassing. valves, pumps and filters are prone to lose particles into the environment. 
 The cleanroom equipment is in fact installed "through the wall", meaning that the clean and usable area in situated inside the cleanroom(white area), while the machinery is placed outside the cleanroom(grey area).
-Other sources of contamination are raw materials, in fact we tend to use extremely pure raw materials, like deionized water, ultra pure chemicals and high purity gases. 
+Other sources of contamination are raw materials, in fact we tend to use extremely pure raw materials, like deionized water, ultra pure chemicals and high purity gases. The processes themselves can also generate contamination, like chemical reactions, mechanical processes and thermal processes.
+A widely used gas is Nitrogen 5.0, which is 99.999% pure(the 5 indicates the number of nines in the purity percentage).
+
+Some contamination induces problems are:
+- mobile ions in oxides: ions are extremely mobile and they can travel fast through electrical components, causing change in electric fields and voltages, leading to malfunction or destruction of components.
+- unintentional films between layers: the presence of unintentional films between thin layers can create unwanted mechanical stress, leading to cracks and delamination, or even cause short circuits or impede adhesion between moving parts.
+- particles: the most probable failure is contamination due to particles, which are undesired objects of size 0.06 µm to 100 µm. They are not chemically active like ions and are smaller than films. They adhere to surfaces thanks to Van der Waals forces, electrostatic forces and capillary forces. They can cause shadowing during lithography, producing defects in patterns, they can also cause short circuits and open circuits, or create mechanical interference in moving parts(jamming).
 ## References
