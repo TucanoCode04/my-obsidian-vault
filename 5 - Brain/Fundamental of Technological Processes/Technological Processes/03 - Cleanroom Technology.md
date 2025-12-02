@@ -62,5 +62,11 @@ Cleanroom clothing changes for every class, the higher the class the more comple
 
 ##### Deionized Water 
 Water is often used in cleanrooms for various processes, including rinsing, cleaning, and cooling. 
+The production of deionized water involves several steps to remove impurities and contaminants:
+- Ion exchange resins: Water is passed through ion exchange resins, both cationic(substituting positive ions with H+) and anionic(substituting negative ions with OH-), finally salts are removed from the water.
+- Activated carbon filtration: This step removes organic compounds, not ionic contaminants, then water is filtered through absolute filters
+- Ultraviolet (UV) sterilization: UV light is used to kill bacteria and other microorganisms present in the water.
+
+An efficient way to calculate the purity of the water is to measure its resistivity. Pure water has a resistivity of 18 MΩ·cm. 
 
 ## References
