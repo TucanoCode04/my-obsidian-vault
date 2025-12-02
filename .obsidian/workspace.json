@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -193,6 +194,7 @@
   },
   "active": "e7b0a9b5fa50a6ed",
   "lastOpenFiles": [
+    "Pasted image 20251202174117.png",
     "5 - Brain/Fundamental of Technological Processes/Technological Processes/03 - Cleanroom Technology.md",
     "5 - Brain/Fundamental of Technological Processes/Technological Processes/04 - Lithography.md",
     "Pasted image 20251202155337.png",
@@ -224,7 +226,6 @@
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/04 - Sommerfeld Model.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/03 - Reciprocal Bravais Lattice.md",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/00 - 03 Domande.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/01 - Introduction to the Crystal Structure.md",
     "Pasted image 20251126115738.png",
     "Pasted image 20251126115727.png",
     "Pasted image 20251126115108.png",
