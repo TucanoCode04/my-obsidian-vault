@@ -121,6 +121,11 @@ We use different types of light sources for exposure, depending on the desired r
 - **Electron Beam Lithography (EBL)**: EBL uses a focused beam of electrons to directly write patterns onto the resist layer, direct writing means that we don't need a mask, which is useful for prototyping and small-scale production. Electrons possess a wavelength of 0.2-0.5 $\mathring{A}$. It uses vector scanning, which means that the beam is always on and moves to the desired locations to expose the resist, this leads to high resolution but low throughput. Diffraction is negligible because the wavelength is so small. The main limitation is proximity effects, where electrons scatter within the resist and substrate, causing unintended exposure of nearby areas. 
 ![[Pasted image 20251203174542.png]]
 ##### PMMA Resist
-PMMA (Polymethyl methacrylate) 
+PMMA (Polymethyl methacrylate) is a commonly used positive deep-UV and electron beam resist. It has high resolution capabilities, making it suitable for applications requiring fine feature sizes. It has low sensitivity, meaning it requires higher exposure doses compared to other resists, so some sensitizers are added to improve this. 
+![[Pasted image 20251203175509.png]]
+##### Exposure tools
+![[Pasted image 20251203175539.png]]
+**Contact**
+
 
 ## References
