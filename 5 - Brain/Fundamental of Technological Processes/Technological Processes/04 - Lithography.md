@@ -88,7 +88,8 @@ We decide on the type of photoresist based on the application, resolution requir
 The HD curve shows the relationship between the exposure dose and the remaining resist thickness after development. It helps us understand how the resist responds to different exposure levels.
 Basically at E0, we have no exposure, so the entire resist layer remains after development. We hit a threshold dose E1, where the exposed areas start to dissolve, leading to a decrease in remaining thickness. At dose ET, the exposed areas are completely removed, leaving only the unexposed regions intact.(For positive resist)
 ##### Sensitivity and Contrast
-Since the exposure source is constant in power $\frac{E}
+Since the exposure source is constant in power $\frac{E}{t}$, we can express the sensitivity in terms of exposure time instead of dose. A resist with high sensitivity requires a shorter exposure time to achieve the desired chemical change, which is beneficial for high throughput manufacturing.
+Contrast is a measure of how sharply the resist transitions from unexposed to fully developed. A high contrast resist will have a steep slope in the HD curve, meaning that small changes in exposure dose result in significant changes in remaining thickness. This is important for achieving precise patterning and minimizing feature blurring.
 
 
 
