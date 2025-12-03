@@ -47,6 +47,26 @@ So the wafer preparation steps are:
 Photoresists are commercialized as liquids that need to be applied to the wafer surface uniformly, because it's easy to do so, we use spin coating.
 We create a vacuum between the wafer and the chuck to hold the wafer in place, then we dispense a droplet of photoresist in the center of the wafer.
 We first spin the wafer at a low speed to spread the resist evenly through centrifugal force, then we increase the speed to thin the resist to the desired thickness.
+We will still have some edge bead, which is a thicker ring of resist around the edge of the wafer, this is usually removed later in the process. 
+This is a four stage process:
+- deposition
+- spin-up
+- spin-off
+- evaporation
+![[Pasted image 20251203105215.png]]
+The final thickness of the resist layer depends on the spin speed, viscosity of the resist, and the duration of spinning:$$t = K \cdot S \cdot \left( \frac{v}{\omega^2 \cdot R^2} \right)^{1/3}$$Where:
+- t = final thickness
+- K = constant depending on resist and solvent properties
+- S = fraction of solids in the resist
+- v = viscosity of the resist
+- ω = angular velocity (spin speed)
+- R = radius of the wafer
+Obviously, higher spin speeds lead to thinner resist layers.
+![[Pasted image 20251203105537.png]]
+We are normally presented with a datasheet that gives us the relationship between spin speed and resist thickness for a specific resist![[Pasted image 20251203105612.png]].
+##### Soft Bake
+After spin coating, the resist layer contains residual solvents that need to be removed to improve adhesion and stability. The solvent w
+We perform an hot plate bake at a temperature typically between 90-120°C for a duration of 30 seconds to 2 minutes, the problem is to maintain uniform temperature across the wafer to avoid stress and defects in the resist layer.
 
 
 
