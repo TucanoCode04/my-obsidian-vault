@@ -104,7 +104,8 @@ Since the exposure source is constant in power $\frac{E}{t}$, we can express the
 Contrast is a measure of how sharply the resist transitions from unexposed to fully developed. A high contrast resist will have a steep slope in the HD curve, meaning that small changes in exposure dose result in significant changes in remaining thickness. This is important for achieving precise patterning and minimizing feature blurring.
 ![[Pasted image 20251203162349.png]]
 ##### Photoresist Exposure
-
+We use different types of light sources for exposure, depending on the desired resolution and throughput:
+- **HG Lamps**: Mercury lamps are commonly used for general lithography applications. Electrons are accelerated and collide with mercury plasma, which emits light at specific wavelengths called lines. Obviously the shorter the wavelength, the higher the resolution we can achieve, since it will match the feature size better. 
 
 
 ## References
