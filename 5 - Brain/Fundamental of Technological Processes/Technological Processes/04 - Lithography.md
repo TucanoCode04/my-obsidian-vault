@@ -114,6 +114,6 @@ We use different types of light sources for exposure, depending on the desired r
 ![[Pasted image 20251203165620.png]]
 - **UV LEDs**: UV LEDs are becoming increasingly popular due to their energy efficiency, long lifespan, and ability to replicate specific wavelengths. They can be switched on and off quickly, allowing for rapid exposure cycles, compared to traditional lamps that require warm-up time. As always the problem is diffraction limits. 
 ![[Pasted image 20251203170059.png]]
-- **DUV Lasers:** 
+- **DUV Lasers:** Deep Ultraviolet (DUV) lasers emit light at wavelengths shorter than 300 nm, to increase resolution. Common DUV laser wavelengths include 248 nm which correspond to the KrF excimer laser, that is composed of a mixture of krypton and when 
 
 ## References
