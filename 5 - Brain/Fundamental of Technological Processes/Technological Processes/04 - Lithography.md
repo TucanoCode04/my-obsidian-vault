@@ -79,8 +79,16 @@ We decide on the type of photoresist based on the application, resolution requir
 	- Positive Resists: where the light exposed areas become soluble and will get etched away during development. It works on Chain Scission Mechanism. They are preferred for high resolution applications because they can achieve smaller feature sizes and have better process control.
 	- Negative Resists: where the light exposed areas become insoluble and remain after development. It works on Cross-Linking Mechanism. They are used when high aspect ratio structures are needed, as they tend to have better adhesion and durability.
 - Resolution: the minimum feature size that can be reliably produced.
-- 
+- Sensitivity: the amount of exposure energy required to achieve the desired chemical change, depending on positive(completely eliminated) or negative(fully cross-linked). 
+- Contrast: the ability to distinguish between exposed and unexposed areas during development. Slope of the curve($\gamma= \frac{\Delta E}{\Delta x}$ where E is exposure dose and x is the normalized remaining resist thickness).
 
+
+##### HD Curve
+![[Pasted image 20251203112949.png]]
+The HD curve shows the relationship between the exposure dose and the remaining resist thickness after development. It helps us understand how the resist responds to different exposure levels.
+Basically at E0, we have no exposure, so the entire resist layer remains after development. We hit a threshold dose E1, where the exposed areas start to dissolve, leading to a decrease in remaining thickness. At dose ET, the exposed areas are completely removed, leaving only the unexposed regions intact.(For positive resist)
+##### Sensitivity and Contrast
+Since the exposure source is constant in power $\frac{E}
 
 
 
