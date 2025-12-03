@@ -114,6 +114,8 @@ We use different types of light sources for exposure, depending on the desired r
 ![[Pasted image 20251203165620.png]]
 - **UV LEDs**: UV LEDs are becoming increasingly popular due to their energy efficiency, long lifespan, and ability to replicate specific wavelengths. They can be switched on and off quickly, allowing for rapid exposure cycles, compared to traditional lamps that require warm-up time. As always the problem is diffraction limits. 
 ![[Pasted image 20251203170059.png]]
-- **DUV Lasers:** Deep Ultraviolet (DUV) lasers emit light at wavelengths shorter than 300 nm, to increase resolution. Common DUV laser wavelengths include 248 nm which correspond to the KrF excimer laser, that is composed of a mixture of krypton and when 
+- **DUV Lasers:** Deep Ultraviolet (DUV) lasers emit light at wavelengths shorter than 300 nm, to increase resolution. Common DUV laser wavelengths include 248 nm which correspond to the KrF excimer laser, that is composed of a mixture of krypton and fluorine gases, that wouldn't naturally lase, but when provided with energy, it forms an excited dimer that emits DUV light when it returns to the ground state. Normally a pulsed excitation is used to replenish the excited states. $Kr + NF_3 \rightarrow KrF \rightarrow photon + Kr + F$. ArF excimer lasers emit at 193 nm and are used for even higher resolution applications and F2 lasers emit at 157 nm. These shorter wavelengths allow for finer feature sizes, but they also require specialized optics and photoresists that can handle the high energy photons. By reducing the wavelength you also reduce diffraction effects, but you would need to also change the whole lithography system and the next processes to be compatible with these shorter wavelengths.
+![[Pasted image 20251203171714.png]]
+- **
 
 ## References
