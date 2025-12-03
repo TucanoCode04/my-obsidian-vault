@@ -105,7 +105,15 @@ Contrast is a measure of how sharply the resist transitions from unexposed to fu
 ![[Pasted image 20251203162349.png]]
 ##### Photoresist Exposure
 We use different types of light sources for exposure, depending on the desired resolution and throughput:
-- **HG Lamps**: Mercury lamps are commonly used for general lithography applications. Electrons are accelerated and collide with mercury plasma, which emits light at specific wavelengths called lines. Obviously the shorter the wavelength, the higher the resolution we can achieve, since it will match the feature size better. 
-
+- **HG Lamps**: Mercury lamps are commonly used for general lithography applications. Electrons are accelerated and collide with mercury plasma, which emits light at specific wavelengths called lines. Obviously the shorter the wavelength, the higher the resolution we can achieve, since it will match the feature size better. The common lines are:
+	- I-line (365 nm): used for standard resolution applications.
+	- G-line (436 nm): used for lower resolution applications.
+	- H-line (405 nm): used for high-resolution applications.
+	You can either use the full spectrum to have higher exposure energy, so less exposure time and higher throughput, or you can use filters to select specific lines for better resolution. 
+	Different photoresists are formulated to be sensitive to specific wavelengths, so we choose the resist based on the light source and vice versa.
+![[Pasted image 20251203165620.png]]
+- **UV LEDs**: UV LEDs are becoming increasingly popular due to their energy efficiency, long lifespan, and ability to replicate specific wavelengths. They can be switched on and off quickly, allowing for rapid exposure cycles, compared to traditional lamps that require warm-up time. As always the problem is diffraction limits. 
+![[Pasted image 20251203170059.png]]
+- **DUV Lasers:** 
 
 ## References
