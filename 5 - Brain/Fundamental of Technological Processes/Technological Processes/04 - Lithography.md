@@ -129,8 +129,8 @@ PMMA (Polymethyl methacrylate) is a commonly used positive deep-UV and electron 
 	- $\lambda$ = wavelength of the exposure light
 	- z = resist thickness
 ![[Pasted image 20251203183721.png]]
-- **Proximity:** The mask is placed very close to the wafer, but not in direct contact, a tool is used to adjust the gap between the mask and wafer. This reduces the risk of mask damage and contamination, but diffraction effects become more pronounced, leading to reduced resolution and pattern fidelity, used for printing feature of few $\mu m$. The line/gap period for proximity is:$$2\cdot b_{min} = 3\cdot \sqrt{\lambda \cdot (s + \frac{z}{2})}$$Where:
+- **Proximity:** The mask is placed very close to the wafer, but not in direct contact, a tool is used to adjust the gap between the mask and wafer. This reduces the risk of mask damage and contamination, but diffraction effects become more pronounced, leading to reduced resolution and pattern fidelity, used for printing feature of few $\mu m$. The mask is again the same size of the wafer. The line/gap period for proximity is:$$2\cdot b_{min} = 3\cdot \sqrt{\lambda \cdot (s + \frac{z}{2})}$$Where:
 	- s = gap between mask and wafer
-
-
+![[Pasted image 20251203184201.png]]
+- **Projection:** 
 ## References
