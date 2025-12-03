@@ -44,6 +44,9 @@ So the wafer preparation steps are:
 - Dehydration bake
 - Primer Vapor Coating
 ##### Resist Spin-on
+Photoresists are commercialized as liquids that need to be applied to the wafer surface uniformly, because it's easy to do so, we use spin coating.
+We create a vacuum between the wafer and the chuck to hold the wafer in place, then we dispense a droplet of photoresist in the center of the wafer.
+We first spin the wafer at a low speed to spread the resist evenly through centrifugal force, then we increase the speed to thin the resist to the desired thickness.
 
 
 
