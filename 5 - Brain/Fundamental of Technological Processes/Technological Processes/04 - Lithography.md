@@ -65,8 +65,16 @@ Obviously, higher spin speeds lead to thinner resist layers.
 ![[Pasted image 20251203105537.png]]
 We are normally presented with a datasheet that gives us the relationship between spin speed and resist thickness for a specific resist![[Pasted image 20251203105612.png]].
 ##### Soft Bake
-After spin coating, the resist layer contains residual solvents that need to be removed to improve adhesion and stability. The solvent w
+After spin coating, the resist layer contains residual solvents that need to be removed to improve adhesion and stability. The solvent were used to make it liquid, but they can cause problems during exposure or the resist could fall off the wafer if not removed.
 We perform an hot plate bake at a temperature typically between 90-120°C for a duration of 30 seconds to 2 minutes, the problem is to maintain uniform temperature across the wafer to avoid stress and defects in the resist layer.
+The higher the temperature, the less residual solvent remains, but we have to be careful not to exceed the glass transition temperature of the resist, which could cause it to flow and lose pattern fidelity.
+##### Photoresists
+Photoresists are photosensitive organic mixtures which contains:
+- Inactive polymer resins: non sensitive to light, provide mechanical strength and adhesion to the substrate. For example to withstand etching processes HF, HNO2, HNO3
+- Photoactive compounds (PACs): they make the resist soluble after exposure to light.
+- Solvents: to make the resist liquid for spin coating.
+- Other Stuff: surfactants, leveling agents, sensitizers, dyes, etc.
+We decide on the type of photoresist based on the application, resolution requirements, and process compatibility. Depending on the properties of the resist:
 
 
 
