@@ -118,6 +118,9 @@ We use different types of light sources for exposure, depending on the desired r
 ![[Pasted image 20251203171714.png]]
 - **EUV Lithography**: Extreme Ultraviolet (EUV) lithography uses light with wavelengths around 13.5 nm. It works by heating up a tin droplet with a high-energy laser a first time to create a plasma, then a second laser pulse hits the plasma to generate EUV photons. These photons are then collected using mirrors, cause otherwise we would have a point source that would diffract a lot and if used directly on the mask it would heat the mask up and not pass through it well. The mirrors should be able to replicate 70% of the light, so we need multiple mirrors to focus the light on the wafer, to get in the end about 1-2% of the initial light. The roughness of the mirrors should be in the picometer range to avoid scattering the EUV light. It it operated in vacuum because EUV light is absorbed by air. 
 ![[Pasted image 20251203173520.png]]
-- **Electron Beam Lithography (EBL)**: EBL uses a focused beam of electrons to directly write patterns onto the resist layer, direct writing means that we don't need a mask, which is useful for prototyping and small-scale production. Electrons possess a wavelength of 0.2-0.5 $\mathring{A}$. It uses vector scanning, which means that the beam is alway
+- **Electron Beam Lithography (EBL)**: EBL uses a focused beam of electrons to directly write patterns onto the resist layer, direct writing means that we don't need a mask, which is useful for prototyping and small-scale production. Electrons possess a wavelength of 0.2-0.5 $\mathring{A}$. It uses vector scanning, which means that the beam is always on and moves to the desired locations to expose the resist, this leads to high resolution but low throughput. Diffraction is negligible because the wavelength is so small. The main limitation is proximity effects, where electrons scatter within the resist and substrate, causing unintended exposure of nearby areas. 
+![[Pasted image 20251203174542.png]]
+##### PMMA Resist
+PMMA (Polymethyl methacrylate) 
 
 ## References
