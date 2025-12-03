@@ -78,12 +78,23 @@ We decide on the type of photoresist based on the application, resolution requir
 - Polarity(positive or negative):
 	- Positive Resists: where the light exposed areas become soluble and will get etched away during development. It works on Chain Scission Mechanism. They are preferred for high resolution applications because they can achieve smaller feature sizes and have better process control.
 	- Negative Resists: where the light exposed areas become insoluble and remain after development. It works on Cross-Linking Mechanism. They are used when high aspect ratio structures are needed, as they tend to have better adhesion and durability.
-- Resolution: the minimum feature size that can be reliably produced.
+- Resolution: the minimum feature size that can be reliably produced. It's related to processes like source and development. Thinner layers generally yield higher resolution. Positive resists typically offer better resolution than negative resists, thanks to their smaller size of polymer fragments after exposure.
 - Sensitivity: the amount of exposure energy required to achieve the desired chemical change, depending on positive(completely eliminated) or negative(fully cross-linked). 
 - Contrast: the ability to distinguish between exposed and unexposed areas during development. Slope of the curve($\gamma= \frac{\Delta E}{\Delta x}$ where E is exposure dose and x is the normalized remaining resist thickness).
-- Viscosity
-
-
+- Viscosity: affects the thickness of the resist layer after spin coating.
+- Absorption Spectrum: the wavelength range over which the resist is sensitive to light.
+- Adhesion: how well the resist sticks to the substrate.
+- Etch Resistance: how well the resist can withstand etching processes without degrading.
+- Surface tension: affects the uniformity of the resist layer during spin coating.
+- Storage and Handling: resist stability over time and under different environmental conditions.
+##### Positive Resist 
+In positive resists, the photoactive compound (PAC) undergoes chain scission, basically breaking the long polymer chains into smaller fragments when exposed to light to make them more soluble in the developer solution.
+This is used to replicate the mask pattern onto the resist layer, where the exposed areas become soluble and are removed during development, leaving behind the unexposed areas.
+![[Pasted image 20251203161643.png]]
+##### Negative Resist
+In negative resists, the PAC undergoes cross-linking, where the polymer chains form bonds with each other upon exposure to light, creating a network that is less soluble in the developer solution.
+This means that the exposed areas remain after development, while the unexposed areas are washed away.
+![[Pasted image 20251203161728.png]]
 ##### HD Curve
 ![[Pasted image 20251203161248.png]]
 The HD curve shows the relationship between the exposure dose and the remaining resist thickness after development. It helps us understand how the resist responds to different exposure levels.
@@ -91,7 +102,7 @@ Basically at E0, we have no exposure, so the entire resist layer remains after d
 ##### Sensitivity and Contrast
 Since the exposure source is constant in power $\frac{E}{t}$, we can express the sensitivity in terms of exposure time instead of dose. A resist with high sensitivity requires a shorter exposure time to achieve the desired chemical change, which is beneficial for high throughput manufacturing.
 Contrast is a measure of how sharply the resist transitions from unexposed to fully developed. A high contrast resist will have a steep slope in the HD curve, meaning that small changes in exposure dose result in significant changes in remaining thickness. This is important for achieving precise patterning and minimizing feature blurring.
-![[Pasted image 20251203161305.png]]
+
 
 
 ## References
