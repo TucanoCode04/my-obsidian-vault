@@ -38,6 +38,12 @@ The alignment is a bottleneck for achieving smaller feature sizes, because as th
 ##### Lithographic Process Flow
 ![[Pasted image 20251202184543.png]]
 ##### Wafer Preparation
+Wafers will have a layer of native oxide on the surface, which is usually removed by baking at 130/200°C to dehydrate the surface, this way the adhesion of the photoresist to the wafer is improved. 
+We further improve the adhesion by applying an adhesion promoter, such as HMDS (Hexamethyldisilazane), which reacts with the hydroxyl groups on the silicon surface to create a hydrophobic surface that enhances the bonding of the photoresist.
+So the wafer preparation steps are:
+- Dehydration bake
+- Primer Vapor Coating
+##### Resist Spin-on
 
 
 
