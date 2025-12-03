@@ -124,8 +124,6 @@ We use different types of light sources for exposure, depending on the desired r
 PMMA (Polymethyl methacrylate) is a commonly used positive deep-UV and electron beam resist. It has high resolution capabilities, making it suitable for applications requiring fine feature sizes. It has low sensitivity, meaning it requires higher exposure doses compared to other resists, so some sensitizers are added to improve this. 
 ![[Pasted image 20251203175509.png]]
 ##### Exposure tools
-![[Pasted image 20251203175539.png]]
-**Contact**
-
+- **Contact:** The mask is placed in direct contact with the resist-coated wafer. The wafer is all exposed at once, and it's cheap and simple, but the mask can get damaged and particles can cause defects. The masks are usually the same size as the wafer. 
 
 ## References
