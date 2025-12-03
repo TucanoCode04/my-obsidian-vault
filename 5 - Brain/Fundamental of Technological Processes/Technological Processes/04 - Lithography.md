@@ -75,6 +75,11 @@ Photoresists are photosensitive organic mixtures which contains:
 - Solvents: to make the resist liquid for spin coating.
 - Other Stuff: surfactants, leveling agents, sensitizers, dyes, etc.
 We decide on the type of photoresist based on the application, resolution requirements, and process compatibility. Depending on the properties of the resist:
+- Polarity(positive or negative):
+	- Positive Resists: where the light exposed areas become soluble and will get etched away during development. It works on Chain Scission Mechanism. They are preferred for high resolution applications because they can achieve smaller feature sizes and have better process control.
+	- Negative Resists: where the light exposed areas become insoluble and remain after development. It works on Cross-Linking Mechanism. They are used when high aspect ratio structures are needed, as they tend to have better adhesion and durability.
+- Resolution: the minimum feature size that can be reliably produced.
+- 
 
 
 
