@@ -124,6 +124,13 @@ We use different types of light sources for exposure, depending on the desired r
 PMMA (Polymethyl methacrylate) is a commonly used positive deep-UV and electron beam resist. It has high resolution capabilities, making it suitable for applications requiring fine feature sizes. It has low sensitivity, meaning it requires higher exposure doses compared to other resists, so some sensitizers are added to improve this. 
 ![[Pasted image 20251203175509.png]]
 ##### Exposure tools
-- **Contact:** The mask is placed in direct contact with the resist-coated wafer. The wafer is all exposed at once, and it's cheap and simple, but the mask can get damaged and particles can cause defects. The masks are usually the same size as the wafer. 
+- **Contact:** The mask is placed in direct contact with the resist-coated wafer. The wafer is all exposed at once, and it's cheap and simple, but the mask can get damaged and particles can cause defects. There's no magnification, so the feature size on the mask is the same as on the wafer. The masks are usually the same size as the wafer, it's difficult to create very large masks, so the industry stopped at the 6 inch wafer masks and a defect on the mask would ruin all the wafers. Contact printing is not used in high volume manufacturing anymore due to these limitations, because it created unacceptable defect levels. The line/gap period is an empirical formula to calculate the magnitude of the resolution of the tool, the best resolution for contact is 0.5-1 $\mu m$:$$2\cdot b_{min} = 3 \cdot \sqrt{\frac{\lambda \cdot z}{2}}$$Where:
+	- $b_{min}$ = minimum line/gap width
+	- $\lambda$ = wavelength of the exposure light
+	- z = resist thickness
+![[Pasted image 20251203183721.png]]
+- **Proximity:** The mask is placed very close to the wafer, but not in direct contact, a tool is used to adjust the gap between the mask and wafer. This reduces the risk of mask damage and contamination, but diffraction effects become more pronounced, leading to reduced resolution and pattern fidelity, used for printing feature of few $\mu m$. The line/gap period for proximity is:$$2\cdot b_{min} = 3\cdot \sqrt{\lambda \cdot (s + \frac{z}{2})}$$Where:
+	- s = gap between mask and wafer
+
 
 ## References
