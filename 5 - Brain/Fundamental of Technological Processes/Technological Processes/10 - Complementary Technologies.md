@@ -26,6 +26,16 @@ It's normally a 3 step process:
 3. "Annealing": The wafers are heated to promote bonding. The temperature and duration depend on the materials being bonded and the specific bonding technique used. It's not used in all bonding methods.
 The first step is important because the quality of the bond often depends on the surface conditions, No Surface Topography Tolerant bonding methods require extremely flat and smooth surfaces to ensure good contact and adhesion between the wafers.
 ##### Fusion Bonding
+Fusion bonding is one of the first and most used wafer bonding techniques. It involves bringing two ultra-clean, flat, and smooth wafer surfaces into contact and applying heat and pressure to create a strong bond. 
+After a certain time due to the heat and external load, between the 2 wafers will be created a layer of SiO2 that will bond the two wafers together(since at some temperature silicon reacts with oxygen to form silicon dioxide) creating covalent bonds at the interface. 
+In the process we use some mechanical spacers to keep the wafers aligned during the bonding process, and they will slowly be removed during the annealing step.
+The bonding is so strong that if you try to cut the wafers apart you will end up breaking the silicon itself rather than the bond.
+This process is not surface topography tolerant.
+![[Pasted image 20251205165335.png]]
+##### Anodic Bonding
+Anodic bonding is a wafer bonding technique used to bond a silicon wafer to a glass wafer, to guarantee that one side is transparent.
+The process is not surface topography tolerant, the max allowed roughness is in the order of 0.1 $\mu$m.
+
 
 ##### Global Planarization - Chemical Mechanical Polishing
 To make the surface flat and smooth we use mechanical abrasion combined with chemical etching.
