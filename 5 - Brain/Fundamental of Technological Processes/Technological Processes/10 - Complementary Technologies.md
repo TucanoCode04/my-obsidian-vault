@@ -35,8 +35,13 @@ This process is not surface topography tolerant.
 ##### Anodic Bonding
 Anodic bonding is a wafer bonding technique used to bond a silicon wafer to a glass wafer, to guarantee that one side is transparent.
 The process is not surface topography tolerant, the max allowed roughness is in the order of 0.1 $\mu$m.
-
-
+You put the wafer on a hot plate (400-500 °C) with the Pyrex glass on top of the silicon wafer.
+The two materials have different coefficients of thermal expansion, so when you heat them up the glass expands more than the silicon, creating mechanical stress at the interface, that's why we compensate with an high dc voltage applying the negative electrode to the glass and the positive one to the silicon wafer.
+We use a special type of glass that it's the most similar in terms of thermal expansion to silicon (Pyrex 7740).
+The high temperature makes the sodium ions in the glass more mobile, and they migrate towards the negative electrode , leaving behind negatively charged oxygen ions at the interface, which produce an electrostatic force that, similarly to the mechanical stress, pushes the two wafers together, promoting bonding why the increasing of the temperature.
+![[Pasted image 20251205170459.png]]
+##### Glass Frit Bonding
+19-23 mi mancano
 ##### Global Planarization - Chemical Mechanical Polishing
 To make the surface flat and smooth we use mechanical abrasion combined with chemical etching.
 We attach the wafer upside down to a wafer carrier and use a polishing pad with slurry (abrasive particles suspended in a chemical solution) to polish the wafer surface. The two counter rotating motions and the pressure applied help to achieve a uniform planarization.
