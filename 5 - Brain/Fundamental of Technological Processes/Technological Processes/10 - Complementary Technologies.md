@@ -6,7 +6,10 @@ Status:
 Tags:
 
 # 10 - Complementary Technologies
-Da slide 14
+##### Bulk Micromachining
+Bulk micromachining is a technique used to create microstructures by selectively etching away portions of a silicon wafer. 
+It's a less versatile, since we are limited to the thickness of the wafer, and with less resolution, since the etching is isotropic, but it's cheaper and faster than surface micromachining.
+**Frontside Bul
 #### Wafer Bonding
 Wafer bonding is a process used to join two or more wafers together to create a single, unified structure. It can be used to bond two silicon wafers or two different materials, such as silicon and glass. 
 It's used in various applications:
