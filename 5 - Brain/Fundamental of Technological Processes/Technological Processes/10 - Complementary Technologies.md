@@ -53,6 +53,13 @@ There are 3 main types of polymeric materials:
 - Thermosetting Polymers: These polymers undergo a curing process that makes them rigid and inflexible. They are often used in applications requiring high mechanical strength and thermal stability.
 - Elastomers: These polymers have elastic properties, allowing them to stretch and return to their original shape. They are used in applications requiring flexibility and resilience.
 ##### Microinjection Molding
+This process uses mainly thermoplastic polymers. Some raw pellets of polymer are stored into an hopper and then they are fed into a heated barrel where they are melted by heaters and a rotating screw. The molten polymer is then injected into a mold cavity under high pressure, where it cools and solidifies to take the shape of the master mold. 
+At the end the mold opens and the part is ejected.
+![[Pasted image 20251206134016.png]]
+##### Hot Embossing
+This process is similar to microinjection molding, but instead of injecting molten polymer into a mold, a heated master mold is pressed into a thermoplastic polymer substrate. The polymer is heated allowing the molecules to become more mobile and slide past each other, then the mold is pressed into the polymer, creating the desired microstructure. After cooling, you de-emboss the polymer from the mold.
+This technique produces parts with high resolution $\approx$ 0.2$\mu$m, but it's slower and more expensive than microinjection molding.
+##### In-Situ Casting
 
 ##### Global Planarization - Chemical Mechanical Polishing
 To make the surface flat and smooth we use mechanical abrasion combined with chemical etching.
