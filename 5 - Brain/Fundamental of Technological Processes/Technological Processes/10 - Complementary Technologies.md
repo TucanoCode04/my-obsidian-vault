@@ -41,8 +41,14 @@ You attach a potentiostat to the wafer, applying a positive voltage to the n-typ
 If the voltage is not applied the etchant will etch anisotropically the silicon wafer, but when when the voltage is applied, the p-n junction becomes reverse biased, creating a depletion region. Near the junction an anodic oxide layer is formed through silicon passivation, which prevents further etching of the silicon in that region.(Write this better)
 ![[Pasted image 20251206144457.png]]
 ##### Surface Micromachining 
-
-
+In surface micromachining, microstructures are created by depositing and patterning thin films on the surface of a substrate, typically a silicon wafer. This technique allows for the creation of complex(multi-layered and multi-material) microstructures with high precision and resolution. The higher surface exploitation allows for more complex geometries and functionalities.
+Surface micromachining involves two types of layers:
+- Structural Layers: These layers form the actual microstructures and are typically made of materials such as polysilicon, silicon nitride, or metals. They provide the mechanical properties needed for the microstructures to function.
+- Sacrificial Layers: These layers are temporarily deposited between structural layers and are later removed to create gaps or cavities. Common sacrificial materials include silicon dioxide (SiO2) or photoresist.
+An example of a product created using surface micromachining is a micromirror array used in digital light processing (DLP) technology for projectors and displays. Each micromirror can be individually tilted to reflect light, allowing for high-resolution image projection.
+A good design rule is to introduce holes in the structural layers to allow the etchant to reach and remove the sacrificial layers more effectively, speeding up the release process.
+![[Pasted image 20251206164010.png]]
+##### Criteria for selectin
 #### Wafer Bonding
 Wafer bonding is a process used to join two or more wafers together to create a single, unified structure. It can be used to bond two silicon wafers or two different materials, such as silicon and glass. 
 It's used in various applications:
