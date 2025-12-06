@@ -14,8 +14,10 @@ In frontside bulk micromachining, the etching is performed from the front side o
 ![[Pasted image 20251206141717.png]]
 A cantilever is a common structure created using frontside bulk micromachining, it's a beam anchored at one end and free at the other end, used in various applications such as sensors, actuators, and microelectromechanical systems (MEMS).
 Normally through thermal oxidation we create a SiO2 layer that will act as an hard mask for the etching process.
+![[Pasted image 20251206142640.png]]
 To create a cantilever we first pattern the SiO2 layer using photolithography to define the shape of the cantilever. Then we create concave corners that will stop being etched at the 111 planes of the silicon crystal, paired with some convex corners that having a 100 plane will be etched faster, creating an underetch that will help in releasing the cantilever.
 The underetch is important to make sure that the cantilever is fully released from the substrate, allowing it to move freely.
+![[Pasted image 20251206142623.png]]
 **Backside Bulk Micromachining**
 In backside bulk micromachining, the etching is performed from the back side of the wafer, opposite to where the microstructures are defined. This technique is often used to create through-wafer structures or to thin down specific areas of the wafer.
 A lot of times the two techniques are combined together to create complex microstructures.
@@ -26,7 +28,10 @@ The techniques used for etching are:
 - Vapor Etching
 - Dry Etching
 We have seen them used for thin layer etching, but in bulk micromachining we use them to etch deep into the silicon substrate.
-
+#### Etch Stop Techniques
+##### P++ Etch Stop
+P++ etch stop is is a technique used in bulk micromachining to create precise and controlled etching of silicon wafers. 
+If a portion of the Silicon wafer is doped with a concentration of boron atoms higher than $10^{19}$, the etching rate of that region will be significantly reduced when using certain etchants, such as potassium hydroxide (KOH). 
 #### Wafer Bonding
 Wafer bonding is a process used to join two or more wafers together to create a single, unified structure. It can be used to bond two silicon wafers or two different materials, such as silicon and glass. 
 It's used in various applications:
