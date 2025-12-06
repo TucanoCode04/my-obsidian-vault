@@ -60,7 +60,11 @@ At the end the mold opens and the part is ejected.
 This process is similar to microinjection molding, but instead of injecting molten polymer into a mold, a heated master mold is pressed into a thermoplastic polymer substrate. The polymer is heated allowing the molecules to become more mobile and slide past each other, then the mold is pressed into the polymer, creating the desired microstructure. After cooling, you de-emboss the polymer from the mold.
 This technique produces parts with high resolution $\approx$ 0.2$\mu$m, but it's slower and more expensive than microinjection molding.
 ##### In-Situ Casting
-
+In-situ casting is a technique used to create microstructures out of elastomeric polymers, such as PDMS (Polydimethylsiloxane). The process is cheap and used for disposable devices.
+You pre weight the two parts of the PDMS (the olygomer base and the curing agent) 
+**PDMS**
+PDMS is a silicone-based elastomer that is sold as a two-part liquid mixture: an olygomer base that is made of short polymer chains and a curing agent that cross-links the polymer chains when mixed together. By changing the ratio between the two parts you can change the mechanical and adhesive properties of the final cured PDMS, for example increasing the amount of curing agent will make the PDMS stiffer.
+PDMS is gas permeable, optically transparent, biocompatible and chemically inert, making it suitable for biological and chemical applications.
 ##### Global Planarization - Chemical Mechanical Polishing
 To make the surface flat and smooth we use mechanical abrasion combined with chemical etching.
 We attach the wafer upside down to a wafer carrier and use a polishing pad with slurry (abrasive particles suspended in a chemical solution) to polish the wafer surface. The two counter rotating motions and the pressure applied help to achieve a uniform planarization.
