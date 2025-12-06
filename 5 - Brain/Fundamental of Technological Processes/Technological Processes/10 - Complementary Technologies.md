@@ -9,7 +9,24 @@ Tags:
 ##### Bulk Micromachining
 Bulk micromachining is a technique used to create microstructures by selectively etching away portions of a silicon wafer. 
 It's a less versatile, since we are limited to the thickness of the wafer, and with less resolution, since the etching is isotropic, but it's cheaper and faster than surface micromachining.
-**Frontside Bul
+**Frontside Bulk Micromachining**
+In frontside bulk micromachining, the etching is performed from the front side of the wafer, where the microstructures are defined. So a suspended structure is created by etching away the silicon beneath it.
+![[Pasted image 20251206141717.png]]
+A cantilever is a common structure created using frontside bulk micromachining, it's a beam anchored at one end and free at the other end, used in various applications such as sensors, actuators, and microelectromechanical systems (MEMS).
+Normally through thermal oxidation we create a SiO2 layer that will act as an hard mask for the etching process.
+To create a cantilever we first pattern the SiO2 layer using photolithography to define the shape of the cantilever. Then we create concave corners that will stop being etched at the 111 planes of the silicon crystal, paired with some convex corners that having a 100 plane will be etched faster, creating an underetch that will help in releasing the cantilever.
+The underetch is important to make sure that the cantilever is fully released from the substrate, allowing it to move freely.
+**Backside Bulk Micromachining**
+In backside bulk micromachining, the etching is performed from the back side of the wafer, opposite to where the microstructures are defined. This technique is often used to create through-wafer structures or to thin down specific areas of the wafer.
+A lot of times the two techniques are combined together to create complex microstructures.
+![[Pasted image 20251206141815.png]]
+
+The techniques used for etching are:
+- Wet Etching
+- Vapor Etching
+- Dry Etching
+We have seen them used for thin layer etching, but in bulk micromachining we use them to etch deep into the silicon substrate.
+
 #### Wafer Bonding
 Wafer bonding is a process used to join two or more wafers together to create a single, unified structure. It can be used to bond two silicon wafers or two different materials, such as silicon and glass. 
 It's used in various applications:
