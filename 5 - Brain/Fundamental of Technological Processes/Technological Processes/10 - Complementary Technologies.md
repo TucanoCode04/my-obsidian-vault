@@ -32,6 +32,16 @@ We have seen them used for thin layer etching, but in bulk micromachining we use
 ##### P++ Etch Stop
 P++ etch stop is is a technique used in bulk micromachining to create precise and controlled etching of silicon wafers. 
 If a portion of the Silicon wafer is doped with a concentration of boron atoms higher than $10^{19}$, the etching rate of that region will be significantly reduced when using certain etchants, such as potassium hydroxide (KOH). 
+This property allows us to use the heavily doped region as an etch stop layer, enabling us to create well-defined microstructures with precise dimensions.
+![[Pasted image 20251206143636.png]]
+##### Electrochemical Etch Stop
+Electrochemical etch stop is a technique used in bulk micromachining to create precise and controlled etching of silicon wafers using an electrochemical process.
+In this technique, a p-n junction is created within the silicon wafer, which is immersed in an electrolyte solution of a Silicon etchant, such as KOH. 
+You attach a potentiostat to the wafer, applying a positive voltage to the n-type region and a negative voltage through the electrolyte solution to the p-type region. 
+If the voltage is not applied the etchant will etch anisotropically the silicon wafer, but when when the voltage is applied, the p-n junction becomes reverse biased, creating a depletion region. Near the junction an anodic oxide layer is formed through silicon passivation, which prevents further etching of the silicon in that region.(Write this better)
+![[Pasted image 20251206144457.png]]
+##### Surface Micromachining 
+
 #### Wafer Bonding
 Wafer bonding is a process used to join two or more wafers together to create a single, unified structure. It can be used to bond two silicon wafers or two different materials, such as silicon and glass. 
 It's used in various applications:
