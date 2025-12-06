@@ -61,14 +61,14 @@ This process is similar to microinjection molding, but instead of injecting molt
 This technique produces parts with high resolution $\approx$ 0.2$\mu$m, but it's slower and more expensive than microinjection molding.
 ##### In-Situ Casting
 In-situ casting is a technique used to create microstructures out of elastomeric polymers, such as PDMS (Polydimethylsiloxane). The process is cheap and used for disposable devices.
-You pre weight the two parts of the PDMS (the olygomer base and the curing agent) 
+You pre weight the two parts of the PDMS (the olygomer base and the curing agent) and mix them together. Then you degas the mixture in a vacuum chamber to remove any air bubbles that could have formed during the mixing process. 
+The degassed PDMS mixture is then poured over a master mold, which contains the negative pattern of the desired microstructure. The PDMS is allowed to cure at room temperature or slightly elevated temperatures for a few hours, during which it solidifies and takes the shape of the mold.
+After curing, the PDMS microstructure is peeled off from the master mold, resulting in a flexible and durable microstructure.
+![[Pasted image 20251206135716.png]]
 **PDMS**
 PDMS is a silicone-based elastomer that is sold as a two-part liquid mixture: an olygomer base that is made of short polymer chains and a curing agent that cross-links the polymer chains when mixed together. By changing the ratio between the two parts you can change the mechanical and adhesive properties of the final cured PDMS, for example increasing the amount of curing agent will make the PDMS stiffer.
 PDMS is gas permeable, optically transparent, biocompatible and chemically inert, making it suitable for biological and chemical applications.
 ##### Global Planarization - Chemical Mechanical Polishing
 To make the surface flat and smooth we use mechanical abrasion combined with chemical etching.
 We attach the wafer upside down to a wafer carrier and use a polishing pad with slurry (abrasive particles suspended in a chemical solution) to polish the wafer surface. The two counter rotating motions and the pressure applied help to achieve a uniform planarization.
-
-
-
 ## References
