@@ -48,7 +48,17 @@ Surface micromachining involves two types of layers:
 An example of a product created using surface micromachining is a micromirror array used in digital light processing (DLP) technology for projectors and displays. Each micromirror can be individually tilted to reflect light, allowing for high-resolution image projection.
 A good design rule is to introduce holes in the structural layers to allow the etchant to reach and remove the sacrificial layers more effectively, speeding up the release process.
 ![[Pasted image 20251206164010.png]]
-##### Criteria for selectin
+##### Criteria for selecting Sacrificial and Structural Materials 
+When selecting materials for sacrificial and structural layers in surface micromachining, several criteria must be considered to ensure compatibility, performance, and manufacturability:
+- Etch Selectivity: The sacrificial material should have a high etch selectivity relative to the structural material. This means that the etchant used to remove the sacrificial layer should effectively etch the sacrificial material while minimally affecting the structural material.
+- Etch Rate: The etch rate of the sacrificial material should be sufficiently high to allow for efficient removal during the release process, reducing fabrication time. As always there is a trade-off with this first 2 properties.
+- Deposition Temperature: The deposition temperature of different materials should be compatible to prevent damage or deformation of previously deposited layers.
+- Intrinsic Stress: There are 2 main types of intrinsic stress: tensile and compressive. Tensile stress can cause the structural layers to crack or delaminate, while compressive stress can lead to buckling or warping. The materials chosen should have compatible stress profiles to minimize these issues.
+- Surface Smoothness: The surface roughness of both sacrificial and structural materials should be minimized to ensure good adhesion and to prevent defects in the microstructures.
+##### Stiction Problem
+Stiction is a common problem in surface micromachining that occurs when microstructures adhere to the substrate or to each other during the release process. This can lead to device failure or reduced performance.
+The liquid-gas transition is harsh at a micro scale, the capillary forces generated during drying can pull the microstructures down onto the substrate, causing them to stick. 
+That'
 #### Wafer Bonding
 Wafer bonding is a process used to join two or more wafers together to create a single, unified structure. It can be used to bond two silicon wafers or two different materials, such as silicon and glass. 
 It's used in various applications:
