@@ -41,7 +41,8 @@ We use a special type of glass that it's the most similar in terms of thermal ex
 The high temperature makes the sodium ions in the glass more mobile, and they migrate towards the negative electrode , leaving behind negatively charged oxygen ions at the interface, which produce an electrostatic force that, similarly to the mechanical stress, pushes the two wafers together, promoting bonding why the increasing of the temperature.
 ![[Pasted image 20251205170459.png]]
 ##### Glass Frit Bonding
-19-23 mi mancano
+Glass frit bonding is a wafer bonding technique that uses a low melting point glass(as low as 160°) material (glass frit) to bond two wafers together. This technique allows from the bonding of materials that would not withstand high temperatures, such as certain metals or polymers.
+This process is surface topography tolerant, thanks to the usage of a intermediate layer. The trade.off for the low 
 ##### Global Planarization - Chemical Mechanical Polishing
 To make the surface flat and smooth we use mechanical abrasion combined with chemical etching.
 We attach the wafer upside down to a wafer carrier and use a polishing pad with slurry (abrasive particles suspended in a chemical solution) to polish the wafer surface. The two counter rotating motions and the pressure applied help to achieve a uniform planarization.
