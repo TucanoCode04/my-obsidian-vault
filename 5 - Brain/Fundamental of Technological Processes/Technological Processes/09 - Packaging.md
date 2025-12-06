@@ -34,6 +34,16 @@ The functionality depends on the package type and design, for example in quantum
 - Ball Grid Array (BGA): A package with an array of solder balls on the bottom, used for high pin count and better thermal and electrical performance. The package size is still significantly larger than the chip.
 ![[Pasted image 20251206173713.png]]
 ##### Flip-Chip Bonding
-
+Flip-chip bonding is an advanced packaging technique where the die is flipped upside down and directly connected to the substrate using solder bumps. This method allows for shorter electrical paths, improved performance, and better heat dissipation compared to traditional wire bonding methods. This way you reduce resistance and inductance, allowing for higher frequency operation, the footprint of the package is also reduced since you don't need the wire bonds.
+![[Pasted image 20251206174552.png]]
+##### Multi-Chip Modules (MCM)
+Multi-chip modules (MCM) are advanced packaging solutions that integrate multiple dies within a single package. MCMs improve the efficiency of space, this model defines a lower bound for efficiency of 30%. Efficiency is defined as the ratio of the total die area to the total package area(circuit board area). (Maybe look up something more)
+##### 3D Packaging
+3D packaging involves stacking multiple dies vertically within a single package, connected through vertical interconnects such as through-silicon vias (TSVs). The only problem with this technique are:
+- Thermal Management: Stacked dies can generate more heat, making it challenging to dissipate effectively.
+- Electrical Connections: two different approaches:
+	 - TSVs: Vertical interconnects that pass through the silicon substrate, providing direct electrical connections between stacked dies. They are usually made using deep reactive ion etching (DRIE) to ensure low inductance and resistance, and electroplating for the deposition of conductive material to ensure low resistance.
+	 - Wire Bonds: Traditional wire bonding techniques can be adapted for 3D packaging, but they may introduce additional complexity and potential reliability issues.
+	 
 
 ## References
