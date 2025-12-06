@@ -58,7 +58,16 @@ When selecting materials for sacrificial and structural layers in surface microm
 ##### Stiction Problem
 Stiction is a common problem in surface micromachining that occurs when microstructures adhere to the substrate or to each other during the release process. This can lead to device failure or reduced performance.
 The liquid-gas transition is harsh at a micro scale, the capillary forces generated during drying can pull the microstructures down onto the substrate, causing them to stick. 
-That'
+That's exactly what happens during the drying phase after the sacrificial layer has been etched away using a wet etching process. A water meniscus forms between the microstructures and the substrate, generating capillary forces(Van der Waals forces) that can cause the microstructures to stick to the substrate.
+![[Pasted image 20251206165454.png]]
+To prevent this issue, one of the best solution is the usage of low surface tension liquids during the rinsing and drying phases, such as Methanol or Isopropanol, that will generate lower capillary forces.
+Other strategies to mitigate stiction include:
+- Reducing Adhesion Area: creating dimples or patterns on the substrate to create one point contact instead of a full surface contact.
+![[Pasted image 20251206165639.png]]
+- Creation of Anchor Points: designing the microstructures with anchor points that help to keep them elevated above the substrate, that are removed after the drying phase.
+- Sublimation Drying: you avoid the liquid-gas transition by freezing the rinsing liquid and then sublimating it under vacuum, going directly from solid to gas phase. You can-t use water since it expands when it freezes, so you have to use other liquids with low freezing points.
+- CO2 Supercritical Drying: you bring the liquid above its critical point(dependent on temperature and pressure) where there is no distinction between liquid and gas phase, so there are no surface tension forces acting on the microstructures. The critical point of CO2 is at relatively low temperature and pressure (31°C and 70 bar), making it suitable for delicate microstructures.
+- Vapor Phase Etching: instead of using a liquid etchant to remove the sacrificial layer, you can use a vapor phase etchant, such as HF vapor for SiO2 sacrificial layers. This eliminates the need for rinsing and drying, thereby avoiding stiction altogether. The only problem with this solution is that we need an isotropic etchant, so we can't use it for all the materials.
 #### Wafer Bonding
 Wafer bonding is a process used to join two or more wafers together to create a single, unified structure. It can be used to bond two silicon wafers or two different materials, such as silicon and glass. 
 It's used in various applications:
