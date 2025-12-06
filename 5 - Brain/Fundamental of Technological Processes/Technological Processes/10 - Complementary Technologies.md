@@ -42,7 +42,18 @@ The high temperature makes the sodium ions in the glass more mobile, and they mi
 ![[Pasted image 20251205170459.png]]
 ##### Glass Frit Bonding
 Glass frit bonding is a wafer bonding technique that uses a low melting point glass(as low as 160°) material (glass frit) to bond two wafers together. This technique allows from the bonding of materials that would not withstand high temperatures, such as certain metals or polymers.
-This process is surface topography tolerant, thanks to the usage of a intermediate layer. The trade.off for the low 
+This process is surface topography tolerant, thanks to the usage of a intermediate layer. The trade-off for the low temperature is a lower bond strength.
+The layer is patterned with lithography and then the wafers are aligned and brought into contact for an hermetic seal. 
+The presence of an intermediate layer helps for the roughness of the surfaces or the bending of the wafers.
+![[Pasted image 20251206132757.png]]
+#### Polymeric Replication
+Polymeric replication is a technique used to create microstructures on a substrate by using a polymer material as a mold or template. This technique is used to mass-produce microstructures with high precision and accuracy.
+There are 3 main types of polymeric materials:
+- Thermoplastics: These polymers can be melted and reshaped multiple times. They are commonly used in injection molding and hot embossing processes.
+- Thermosetting Polymers: These polymers undergo a curing process that makes them rigid and inflexible. They are often used in applications requiring high mechanical strength and thermal stability.
+- Elastomers: These polymers have elastic properties, allowing them to stretch and return to their original shape. They are used in applications requiring flexibility and resilience.
+##### Microinjection Molding
+
 ##### Global Planarization - Chemical Mechanical Polishing
 To make the surface flat and smooth we use mechanical abrasion combined with chemical etching.
 We attach the wafer upside down to a wafer carrier and use a polishing pad with slurry (abrasive particles suspended in a chemical solution) to polish the wafer surface. The two counter rotating motions and the pressure applied help to achieve a uniform planarization.
