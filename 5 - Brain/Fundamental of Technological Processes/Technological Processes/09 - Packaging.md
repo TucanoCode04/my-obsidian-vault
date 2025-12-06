@@ -44,6 +44,4 @@ Multi-chip modules (MCM) are advanced packaging solutions that integrate multipl
 - Electrical Connections: two different approaches:
 	 - TSVs: Vertical interconnects that pass through the silicon substrate, providing direct electrical connections between stacked dies. They are usually made using deep reactive ion etching (DRIE) to ensure low inductance and resistance, and electroplating for the deposition of conductive material to ensure low resistance.
 	 - Wire Bonds: Traditional wire bonding techniques can be adapted for 3D packaging, but they may introduce additional complexity and potential reliability issues.
-	 
-
 ## References
