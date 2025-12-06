@@ -42,6 +42,7 @@ If the voltage is not applied the etchant will etch anisotropically the silicon 
 ![[Pasted image 20251206144457.png]]
 ##### Surface Micromachining 
 
+
 #### Wafer Bonding
 Wafer bonding is a process used to join two or more wafers together to create a single, unified structure. It can be used to bond two silicon wafers or two different materials, such as silicon and glass. 
 It's used in various applications:
