@@ -21,6 +21,10 @@ This procedure is usually used to etch really small features, where anisotropy i
 The aspect ratio is defined as the ratio between the height of the feature and its width. It's used both for etching and deposition processes.
 ![[Pasted image 20251206181938.png]]
 ##### Deep Reactive Ion Etching (DRIE)
-
+It's a time multiplexed process used to achieve to achieve very high aspect ratio features. It alternates between two steps:
+1. **Etching step:** A plasma of SF6 with a substrate bias of 5-30 V is used so that the cations bombard the surface and create anisotropic etching. The SF6 plasma creates F radicals that chemically etch Si.
+2. **Passivation step:** A mixture of C4F8 and Argon is used to deposit a Teflon-like polymer(polymerized CF2) on the sidewalls and bottom of the etched features approximately 50 nm thick. This protects the sidewalls from being etched in the next step. The C to F ratio in the plasma is critical to achieve good passivation without excessive deposition.
+3. **Repeat:** The two steps are repeated multiple times to achieve deep etching with high aspect ratios.
+![[Pasted image 20251206183306.png]]
 
 ## References
