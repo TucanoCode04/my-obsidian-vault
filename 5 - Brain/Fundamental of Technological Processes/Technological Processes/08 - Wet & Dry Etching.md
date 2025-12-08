@@ -28,6 +28,11 @@ We can easily see that the 111 planes etch almost one order of magnitude slower 
 The etch rate of SiO2 in KOH is two orders of magnitude lower than that of Si, so we can even use thin SiO2 layers as masking layers for KOH etching of Si.
 We have a trade-off between etch rate and selectivity, higher temperatures increase the etch rate of Si, but decrease the selectivity of Si vs SiO2.
 ##### Hydrofluoric Acid (HF) for SiO2 Etching
+At room temperature, HF etches SiO2 but not Si. For this reason, HF is widely used to etch SiO2 layers especially to remove the native oxide from silicon wafers created by exposure to air at room temperature. One of the problems is that it also attacks Aluminum, so it can't be used in processes where Al is present.
+The etch rate depends strongly on the concentration, with a maximum etch rate of $\approx 2 \mu m/min$ at 49% concentration. Diluted HF solutions are used to have better control over the etch rate, $\approx 0.1 \mu m/min$ at 5 to 50:1 dilution.
+It's super dangerous to handle, since it can penetrate the skin and react with calcium in the bones, causing serious health issues.
+It's normally used in buffered solutions (BOE - Buffered Oxide Etch) with ammonium fluoride (NH4F) to control the pH and the etch rate, since normally the HF molecules would rarify quickly in water losing the control of the etch rate.
+#### Dry Etching
 
 
 ##### Dry Etch Chemistries
