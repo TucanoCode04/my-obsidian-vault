@@ -132,5 +132,10 @@ PMMA (Polymethyl methacrylate) is a commonly used positive deep-UV and electron 
 - **Proximity:** The mask is placed very close to the wafer, but not in direct contact, a tool is used to adjust the gap between the mask and wafer. This reduces the risk of mask damage and contamination, but diffraction effects become more pronounced, leading to reduced resolution and pattern fidelity, used for printing feature of few $\mu m$. The mask is again the same size of the wafer. The line/gap period for proximity is:$$2\cdot b_{min} = 3\cdot \sqrt{\lambda \cdot (s + \frac{z}{2})}$$Where:
 	- s = gap between mask and wafer
 ![[Pasted image 20251203184201.png]]
-- **Projection:** 
+- **Projection:** The mask is projected onto the wafer using a system of lenses or mirrors, allowing for high-resolution patterning without direct contact. This method minimizes mask wear and contamination risks, and magnification can be used to reduce the feature size on the wafer compared to the mask without reducing resolution. So even if the mask is placed far away from the wafer, diffraction effects are minimized. The only disadvantages of this method are the high cost and complexity of the projection optics, and the fact that each die on the wafer is exposed sequentially cause of the de-magnification, resulting in lower throughput compared to contact or proximity methods. 
+![[Pasted image 20251208233355.png]]
+##### Exposure Tools: Projection Steppers and Scanners
+Projection lithography systems can be classified into two main types: steppers and scanners.
+- **Steppers:** In a stepper system, the entire mask pattern is projected onto the wafer in a single exposure. The wafer is then "stepped" to the next position for subsequent exposures. Steppers are suitable for applications where high resolution and precision are required, but they may have lower throughput compared to scanners due to the need to expose each die individually. The number of steps grows exponentially with the de-magnification factor.(I didn't understand this part well)
+- 
 ## References
