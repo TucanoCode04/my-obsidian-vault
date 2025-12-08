@@ -42,7 +42,17 @@ $$Si + 2XeF_2 \rightarrow SiF_4 + 2Xe$$One problem is his high reactivity with w
 
 Another example is the use of HF vapor to etch SiO2. The process requires a chamber where the HF is vaporized from a liquid source at low pressure. 
 It's used since the rinsing and drying steps of wet etching can damage small features, while vapor HF can reach small features without causing damage.
-##### RF PLa
+##### RF Plasma Based Dry Etching
+A plasma is created by applying a high frequency (13.56 MHz) RF voltage between two electrodes.
+An etchant gas is introduced into the chamber at low pressure (10-100 mTorr), the voltage is than applied to the electrodes, creating an electric field that ionizes the gas and creates a plasma.
+The plasma contains electrons, that are accelerated by the electric field and collide with the gas molecules, creating ions and radicals. The ions are too heavy to be accelerated much by the electric field, so they slowly drift towards the cathode on which the substrate is placed.
+The ions and the radicals then react with the substrate surface, etching it.(This is the difference with PECVD, where the radicals react with the surface to deposit material).
+The etching process is isotropic since the radicals have no directionality since they are neutral, and the ions are too massive to be accelerated much by the electric field, so they drift slowly towards the cathode, the plasma also contains some other neutral species that can contribute to the etching process, but as stated before they will not provide directionality. So it's basically a chemical etching process.
+![[Pasted image 20251208195249.png]]
+##### Types of Dry Etching
+![[Pasted image 20251208195347.png]]
+##### Reactive Ion Etching (RIE)
+In RIE, we use th
 
 
 
