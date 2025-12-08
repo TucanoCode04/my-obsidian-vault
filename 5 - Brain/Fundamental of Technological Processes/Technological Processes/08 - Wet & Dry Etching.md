@@ -13,9 +13,21 @@ Water or Acetic acid is used to dilute the solution and control the etch rate as
 ![[Pasted image 20251208185640.png]]
 ##### Anisotropically wet etching of Si
 The most famous anisotropic wet etchant for silicon are:
-- KOH (Potassium Hydroxide): it etches Si at different rates depending on the crystal orientation. It etches quickly the Silicon(so you can't use it to etch few nanometers), but is not compatible with microelectronic processes since it contains potassium ions that can contaminate the devices moving through the fab. If dissolved in water it produces H2 gas. The only masking layers that can be used with KOH are SiO2 and Si3N4. It is used putting it in a Pyrex glass becker and heating it to 80-90°C to increase the etch rate. The avaregage etch rates at 80°C is $\approx 1 \mu m/min$, but it depends strongly on the crystal orientation, the solution concentration, and the temperature. 
+- KOH (Potassium Hydroxide): it etches Si at different rates depending on the crystal orientation. It etches quickly the Silicon(so you can't use it to etch few nanometers), but is not compatible with microelectronic processes since it contains potassium ions that can contaminate the devices moving through the fab. If dissolved in water it produces H2 gas that can create bubbles on the surface acting as a masking layer, creating hillocks and roughness. The only masking layers that can be used with KOH are SiO2 and Si3N4. It is used putting it in a Pyrex glass becker and heating it to 80-90°C to increase the etch rate. The average etch rates at 80°C is $\approx 1 \mu m/min$, but it depends strongly on the crystal orientation, the solution concentration, and the temperature. 
 - EDP (Ethylene Diamine Pyrocatechol): it is compatible with microelectronic processes, but is more dangerous to handle.
 - TMAH (Tetramethyl Ammonium Hydroxide): most recent
+##### Etch Rate of Si in KOH based on Crystal Orientation
+![[Pasted image 20251208190921.png]]
+We can easily see that the 111 planes etch almost one order of magnitude slower than the 100 and 110 planes. This is due to the atomic density of the planes, the 111 plane has the highest atomic density, so it is more difficult for the etchant to break the bonds and remove atoms from that plane.
+##### Etch Rate of Si in KOH based on Temperature and Concentration
+![[Pasted image 20251208191104.png]]
+ Increasing the temperature increases the etch rates of all planes exponentially, but the ratio between the etch rates of different planes remains almost constant. 
+ Increasing the concentration of KOH increases the etch rates up to a certain point, after which the etch rates start to decrease. This is because at high concentrations the solution becomes more viscous, reducing the diffusion of the etchant to the surface and the removal of reaction products from the surface.
+ ##### Etch Rate of SiO2 in KOH, Selectivity of Si vs SiO2
+![[Pasted image 20251208191241.png]]
+The etch rate of SiO2 in KOH is two orders of magnitude lower than that of Si, so we can even use thin SiO2 layers as masking layers for KOH etching of Si.
+We have a trade-off between etch rate and selectivity, higher temperatures increase the etch rate of Si, but decrease the selectivity of Si vs SiO2.
+##### Hydrofluoric Acid (HF) for SiO2 Etching
 
 
 ##### Dry Etch Chemistries
