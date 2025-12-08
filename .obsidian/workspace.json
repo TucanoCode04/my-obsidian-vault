@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Fundamental of Technological Processes/Technological Processes/04 - Lithography.md",
+                "file": "5 - Brain/Fundamental of Technological Processes/Technological Processes/05 - Silicon Oxidation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04 - Lithography"
+              "title": "05 - Silicon Oxidation"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -193,6 +192,8 @@
   },
   "active": "e7b0a9b5fa50a6ed",
   "lastOpenFiles": [
+    "5 - Brain/Fundamental of Technological Processes/Technological Processes/04 - Lithography.md",
+    "5 - Brain/Fundamental of Technological Processes/Technological Processes/05 - Silicon Oxidation.md",
     "Pasted image 20251209001722.png",
     "Pasted image 20251209001247.png",
     "Pasted image 20251209000549.png",
@@ -203,11 +204,9 @@
     "Pasted image 20251208235326.png",
     "Pasted image 20251208234814.png",
     "Pasted image 20251208234258.png",
-    "Pasted image 20251208233355.png",
     "5 - Brain/Fundamental of Technological Processes/Technological Processes/08 - Wet & Dry Etching.md",
     "5 - Brain/Fundamental of Technological Processes/Technological Processes/09 - Packaging.md",
     "5 - Brain/Fundamental of Technological Processes/Technological Processes/10 - Complementary Technologies.md",
-    "5 - Brain/Fundamental of Technological Processes/Technological Processes/04 - Lithography.md",
     "5 - Brain/Cybersecurity/Cybersec/08 - Quantum.md",
     "5 - Brain/Fundamental of Technological Processes/Technological Processes/03 - Cleanroom Technology.md",
     "5 - Brain/Fundamental of Technological Processes/Technological Processes/02 - Crystallography and Crystalline Defects.md",
