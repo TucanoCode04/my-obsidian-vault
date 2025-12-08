@@ -147,5 +147,13 @@ In front-backside alignment, we need to align features on the front side of the 
 For example in the Piezoresistive Pressure Sensor, we need to align the cavity etched on the backside with the piezoresistive elements on the front side, so that the pressure applied to the diaphragm correctly translates to stress on the piezoresistors. This requires precise alignment techniques to ensure that the features on both sides are properly registered.
 ![[Pasted image 20251208234814.png]]
 **Infrared Alignment**
-
+Infrared (IR) alignment is a technique used to align features on the front and back sides of a wafer using infrared light. Silicon is transparent to infrared light, allowing us to see through the wafer and align features on both sides simultaneously.
+In this method, infrared light is shone through the wafer, and cameras or sensors detect the alignment marks on both sides. The system then adjusts the position of the wafer or mask to achieve proper alignment based on the detected marks.
+![[Pasted image 20251208235326.png]]
+**Mask Alignment**
+If a sample is not infrared transparent, we can use mask alignment techniques to align features on both sides of the wafer. This involves using a focusing and storage system to capture images of the alignment marks on the mask and then adjust the wafer position accordingly.
+![[Pasted image 20251208235633.png]]
+##### Reflection and Standing Waves 
+When light passes through the photoresist and reaches the substrate, some of it gets reflected back into the resist layer. Depending on the materials used and their refractive indices, this reflected light can be out of phase with the incoming light, leading to interference effects. These interference effects can create standing waves within the resist layer, resulting in variations in exposure intensity at different depths. This can lead to uneven development of the resist. 
+So there can be an alternation of high intensity, so faster d
 ## References
