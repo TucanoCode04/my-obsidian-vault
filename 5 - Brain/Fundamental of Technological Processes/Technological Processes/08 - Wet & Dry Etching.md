@@ -11,7 +11,16 @@ Etching a subtractive process used to remove material from the surface of a subs
 Normally it's paired with a patterning process like photolithography to create patterns on the substrate surface. The masking layer created by the patterning process protects the areas that we don't want to etch, while the exposed areas are etched away.
 Normally hard masks are used since they can withstand the etching process without being damaged. 
 #### Wet Etching
+Wet etching is a process where the substrate is immersed in a chemical solution that reacts with the material to be etched, removing it from the surface.
+Normally the chemicals used are strong acids or strong alkalis. 
+The process is normally isotropic, in particular for amorphous and polycrystalline materials, since the etchant attacks the material uniformly in all directions. This can create undercutting of the masking layer, reducing the resolution of the patterning process.
+In monocrystalline materials, the etch rate can depend on the crystal orientation, creating anisotropic etching. For example in Silicon, the 100 plane will etch with the famous angle of 54.74° with respect to the 111 plane(the angle in created in the intersect between the 2 planes), and the 110 plane will etch with the angle of 90° with respect to the 111 plane. The 111 plane has the lowest etch rate, so it will create the sidewalls of the etched features. Anisotropic wet etching exists only in monocrystalline materials.
 
+The wet etching process can be divided into 3 steps:
+1. **Immersion:** The etchant molecules diffuse through the solution to reach the substrate surface. This step can be enhanced by stirring the solution or by increasing the temperature. The etchant molecules react with the substrate surface, breaking the bonds between the atoms and forming soluble products that diffuse away from the surface.
+2. **Rinsing:** After the desired etch depth is reached, the substrate is removed from the etchant solution and rinsed with deionized water to abruptly stop the etching process and remove any residual etchant from the surface.
+3. **Drying:** The substrate is dried using nitrogen blow or spin drying to remove any remaining water from the surface.
+##### Etchant Pr
 ##### Wet Etching Silicon("HNA")
 A common wet etchant for silicon is a mixture of Hydrofluoric acid (HF), Nitric acid (HNO3), and Acetic acid (CH3COOH), known as HNA. 
 The wet etching is an isotropic process that normally works better only on polycrystalline silicon or amorphous silicon. But we use a trick, adding Nitric acid to the mixture, which oxidizes the silicon surface to create an amorphous SiO2 layer, which is then etched by the HF in the solution. This way we can etch single crystal silicon as well.
