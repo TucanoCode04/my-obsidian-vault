@@ -167,5 +167,19 @@ After exposure, the photoresist needs to be developed to remove the soluble area
 Another developing method is spray development, where the developer solution is sprayed onto the wafer surface using nozzles. This allows for more precise control over the development process and can help achieve better uniformity across the wafer.
 ![[Pasted image 20251209000549.png]]
 ##### Hard Bake
-After development, a a hard bake is performed to further harden the remaining photoresist, evaporate any residual solvents, and improve adhesion to the substrate. This step enhances the resist's resistance to subsequent processing steps, such as etching or deposition. It can also fi
+After development, a a hard bake is performed to further harden the remaining photoresist, evaporate any residual solvents, and improve adhesion to the substrate. This step enhances the resist's resistance to subsequent processing steps, such as etching or deposition. It can also fill in pinholes or defects in the resist layer. The hard bake is typically done at the same temperature as the soft bake, but for a longer duration, usually around 2-5 minutes.
+#### Etching vs Lift-off
+In microfabrication, both etching and lift-off are techniques used to create patterns on a substrate, but they operate in fundamentally different ways.
+- **Etching:** In etching, we start with a substrate that has a layer of material (like metal or oxide) deposited on it. We then apply a photoresist layer and pattern it using lithography. The exposed areas of the substrate are then removed using either wet chemical etching or dry plasma etching, leaving behind the desired pattern. Etching is typically used when we want to create features by removing material from the substrate.
+- **Lift-off:** In lift-off, we first pattern the photoresist layer using lithography, creating openings where we want to deposit material. We then deposit the desired material (like metal) over the entire surface, including on top of the photoresist. After deposition, we immerse the wafer in a solvent that dissolves the photoresist, lifting off the unwanted material and leaving behind the desired pattern on the substrate. Lift-off is typically used when we want to create features by adding material to the substrate.
+![[Pasted image 20251209001247.png]]
+
+If we want to create a multilayer structure, maybe we can't find the etchants that selectively etch only one layer without affecting the others, so we would use lift-off instead. But lift-off has limitations in terms of feature size and aspect ratio, since the deposited material can create overhangs that make it difficult to achieve very small features, resulting in a broken pattern.
+A way to improve lift-off is to use image reversal resists, which create an undercut profile in the resist layer after development. This undercut helps to prevent the deposited material from bridging over the resist sidewalls, making it easier to achieve clean lift-off and better-defined patterns.
+This type of resist is different from normal positive or negative resists, because it goes through multiple steps:
+![[Pasted image 20251209001722.png]]
+(this slide is important )
+##### Models and Simulations
+To optimize the lithography process and predict the outcome of different parameters, various models and simulations are used.
+
 ## References
