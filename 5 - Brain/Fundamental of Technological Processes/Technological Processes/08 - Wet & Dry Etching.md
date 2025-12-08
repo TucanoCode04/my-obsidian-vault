@@ -33,7 +33,14 @@ The etch rate depends strongly on the concentration, with a maximum etch rate of
 It's super dangerous to handle, since it can penetrate the skin and react with calcium in the bones, causing serious health issues.
 It's normally used in buffered solutions (BOE - Buffered Oxide Etch) with ammonium fluoride (NH4F) to control the pH and the etch rate, since normally the HF molecules would rarify quickly in water losing the control of the etch rate.
 #### Dry Etching
+Dry etching is either plasma based or non-plasma based. The non-plasma based dry etching is basically using wet etchants in vapor phase.
+Plasma is used since it can provide directionality to the etching process, creating anisotropic etching and since it has high versatility in terms of parameters that can be tuned to optimize the etching process.
+##### Vapor Etching
+Some wet etchants can be used in vapor phase to etch materials. For example, XeF2 can be used to etch Si in vapor phase. The process is isotropic and has a high selectivity of Si vs SiO2, Al, and photoresists. It's useful but it produces a rough surface.
+The process consists of sublimating solid XeF2 into XeF2 gas at pressure 1 tor, which is then introduced into the etching chamber where it reacts with the Si surface to form SiF4 gas and Xe gas, which are then pumped out of the chamber.
+$$Si + 2XeF_2 \rightarrow SiF_4 + 2Xe$$One problem is his high reactivity with water, that can produce HF that will attack other materials in the chamber, so the chamber has to be kept dry.
 
+Another example is the use of HF vapor to etch SiO2. The process requires a chamber where the HF is vaporized fr
 
 ##### Dry Etch Chemistries
 - For Si, SiO2, and Si3N4, we use fluorine-based chemistries like CF4, SF6, CHF3, C4F8.
