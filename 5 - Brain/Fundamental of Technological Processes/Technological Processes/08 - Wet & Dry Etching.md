@@ -40,7 +40,19 @@ Some wet etchants can be used in vapor phase to etch materials. For example, XeF
 The process consists of sublimating solid XeF2 into XeF2 gas at pressure 1 tor, which is then introduced into the etching chamber where it reacts with the Si surface to form SiF4 gas and Xe gas, which are then pumped out of the chamber.
 $$Si + 2XeF_2 \rightarrow SiF_4 + 2Xe$$One problem is his high reactivity with water, that can produce HF that will attack other materials in the chamber, so the chamber has to be kept dry.
 
-Another example is the use of HF vapor to etch SiO2. The process requires a chamber where the HF is vaporized fr
+Another example is the use of HF vapor to etch SiO2. The process requires a chamber where the HF is vaporized from a liquid source at low pressure. 
+It's used since the rinsing and drying steps of wet etching can damage small features, while vapor HF can reach small features without causing damage.
+##### RF PLa
+
+
+
+
+
+
+
+
+
+
 
 ##### Dry Etch Chemistries
 - For Si, SiO2, and Si3N4, we use fluorine-based chemistries like CF4, SF6, CHF3, C4F8.
