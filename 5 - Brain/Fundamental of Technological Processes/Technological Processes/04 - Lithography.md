@@ -180,6 +180,7 @@ This type of resist is different from normal positive or negative resists, becau
 ![[Pasted image 20251209001722.png]]
 (this slide is important )
 ##### Models and Simulations
-To optimize the lithography process and predict the outcome of different parameters, various models and simulations are used.
-
+To optimize the lithography process and predict the outcome of different parameters, various models and simulations are used. 
+In slide 44 we can even see the standing wave effects in the resist layer, where the intensity of exposure varies with depth due to interference between incident and reflected light.
+Look up the slides for more details on the models.
 ## References
