@@ -136,6 +136,16 @@ PMMA (Polymethyl methacrylate) is a commonly used positive deep-UV and electron 
 ![[Pasted image 20251208233355.png]]
 ##### Exposure Tools: Projection Steppers and Scanners
 Projection lithography systems can be classified into two main types: steppers and scanners.
-- **Steppers:** In a stepper system, the entire mask pattern is projected onto the wafer in a single exposure. The wafer is then "stepped" to the next position for subsequent exposures. Steppers are suitable for applications where high resolution and precision are required, but they may have lower throughput compared to scanners due to the need to expose each die individually. The number of steps grows exponentially with the de-magnification factor.(I didn't understand this part well)
-- 
+- **Steppers:** In a stepper system, the entire mask pattern is projected onto the wafer in a single exposure. The wafer is then "stepped" to the next position for subsequent exposures. Steppers are suitable for applications where high resolution and precision are required, but they may have lower throughput compared to scanners due to the need to expose each die individually. The number of steps grows exponentially with the de-magnification factor.(I didn't understand this part well) It takes approximately 6 seconds to expose a wafer die.
+- **Scanners:** In a scanner system, the mask and wafer move simultaneously during exposure. The mask is scanned across the wafer while the projection optics continuously expose the resist. This allows for higher throughput compared to steppers, as multiple dies can be exposed in a single pass. Scanners are commonly used in high-volume manufacturing where speed is critical. The scanner can use smaller lenses compared to steppers, because the exposure area is smaller at any given time. It takes approximately 6 seconds to expose a wafer die.
+![[Pasted image 20251208234258.png]]
+(I didn't understand well )
+Water has a diffractive index of 1.44 at 193 nm, so by placing a thin layer of water between the final lens and the wafer, we can effectively reduce the wavelength of the light in the resist to about 134 nm, allowing for smaller feature sizes to be printed. While air has a a refractive index of 1, so the wavelength remains 193 nm. 
+So an higher refractive index medium allows for better resolution, because it reduces diffraction effects.
+##### Front-Backside Alignment
+In front-backside alignment, we need to align features on the front side of the wafer with those on the back side. This is typically done using alignment marks that are visible from both sides of the wafer.
+For example in the Piezoresistive Pressure Sensor, we need to align the cavity etched on the backside with the piezoresistive elements on the front side, so that the pressure applied to the diaphragm correctly translates to stress on the piezoresistors. This requires precise alignment techniques to ensure that the features on both sides are properly registered.
+![[Pasted image 20251208234814.png]]
+**Infrared Alignment**
+
 ## References
