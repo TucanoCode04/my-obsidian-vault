@@ -52,7 +52,11 @@ The etching process is isotropic since the radicals have no directionality since
 ##### Types of Dry Etching
 ![[Pasted image 20251208195347.png]]
 ##### Reactive Ion Etching (RIE)
-In RIE, we use th
+In RIE, we use the same trick used in sputtering, the cathode that holds the substrate is several times smaller than the anode, applying the RF voltage creates a DC bias on the cathode, that accelerates the ions towards the substrate, creating ion bombardment that enhances the etching process and provides directionality to it(anisotropic).(write it better)
+So now the process is both chemical and physical etching.
+![[Pasted image 20251208195836.png]]
+##### Inductively Coupled Plasma (ICP) Etching
+
 
 
 
