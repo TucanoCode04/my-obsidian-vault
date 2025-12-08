@@ -9,6 +9,14 @@ Tags:
 ##### Wet Etching Silicon("HNA")
 A common wet etchant for silicon is a mixture of Hydrofluoric acid (HF), Nitric acid (HNO3), and Acetic acid (CH3COOH), known as HNA. 
 The wet etching is an isotropic process that normally works better only on polycrystalline silicon or amorphous silicon. But we use a trick, adding Nitric acid to the mixture, which oxidizes the silicon surface to create an amorphous SiO2 layer, which is then etched by the HF in the solution. This way we can etch single crystal silicon as well.
+Water or Acetic acid is used to dilute the solution and control the etch rate as shown in the graph in function of the percentage of H2O or CH3COOH, HF, and HNO3. Basically in the graph the points were the 3 concentrations add up to 100%.
+![[Pasted image 20251208185640.png]]
+##### Anisotropically wet etching of Si
+The most famous anisotropic wet etchant for silicon are:
+- KOH (Potassium Hydroxide): it etches Si at different rates depending on the crystal orientation. It etches quickly the Silicon(so you can't use it to etch few nanometers), but is not compatible with microelectronic processes since it contains potassium ions that can contaminate the devices moving through the fab. If dissolved in water it produces H2 gas. The only masking layers that can be used with KOH are SiO2 and Si3N4. It is used putting it in a Pyrex glass becker and heating it to 80-90°C to increase the etch rate. The avaregage etch rates at 80°C is $\approx 1 \mu m/min$, but it depends strongly on the crystal orientation, the solution concentration, and the temperature. 
+- EDP (Ethylene Diamine Pyrocatechol): it is compatible with microelectronic processes, but is more dangerous to handle.
+- TMAH (Tetramethyl Ammonium Hydroxide): most recent
+
 
 ##### Dry Etch Chemistries
 - For Si, SiO2, and Si3N4, we use fluorine-based chemistries like CF4, SF6, CHF3, C4F8.
