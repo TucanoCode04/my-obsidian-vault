@@ -56,18 +56,10 @@ In RIE, we use the same trick used in sputtering, the cathode that holds the sub
 So now the process is both chemical and physical etching.
 ![[Pasted image 20251208195836.png]]
 ##### Inductively Coupled Plasma (ICP) Etching
-
-
-
-
-
-
-
-
-
-
-
-
+In ICP etching, we use an inductively coupled plasma source to create a high density plasma. A coil is placed around the chamber and an RF current is passed through it, creating a magnetic field that induces an electric field in the chamber, ionizing the gas and creating a plasma. 
+The substrate is placed on a cathode that is biased with a separate RF power supply, creating a DC bias that accelerates the ions towards the substrate, creating ion bombardment that enhances the etching process and provides directionality to it.
+In RIE, we used the same RF source to create the plasma and to bias the cathode, while in ICP we use separate RF sources for the plasma and for the cathode bias. This allows us to independently control the plasma density and the ion energy, providing more flexibility in tuning the etching process. In RIE the generator created a trade-off between plasma density and ion energy, while in ICP we can optimize both independently.
+![[Pasted image 20251208200932.png]]
 ##### Dry Etch Chemistries
 - For Si, SiO2, and Si3N4, we use fluorine-based chemistries like CF4, SF6, CHF3, C4F8.
 - For Al and other metals, we use chlorine-based chemistries like Cl2, BCl3, SiCl4. Chlorine also partially erodes the chamber walls, which can lead to contamination, so normally the chamber will undergo  maintenance and cleaning and will be only used for metal etching.
