@@ -155,5 +155,17 @@ If a sample is not infrared transparent, we can use mask alignment techniques to
 ![[Pasted image 20251208235633.png]]
 ##### Reflection and Standing Waves 
 When light passes through the photoresist and reaches the substrate, some of it gets reflected back into the resist layer. Depending on the materials used and their refractive indices, this reflected light can be out of phase with the incoming light, leading to interference effects. These interference effects can create standing waves within the resist layer, resulting in variations in exposure intensity at different depths. This can lead to uneven development of the resist. 
-So there can be an alternation of high intensity, so faster d
+So there can be an alternation of high intensity, so faster development, and low intensity, so slower development, regions within the resist layer.
+![[Pasted image 20251209000016.png]]
+![[Pasted image 20251209000025.png]]
+To mitigate these effects, there are 2 main strategies:
+- depositing a top anti-reflective coating (TARC) on top of the resist layer for a specific wavelength, so that the wavelength is absorbed and not reflected back.
+- allowing the formation of standing waves, and after exposure, performing a post-exposure bake (PEB) to smooth out the variations in exposure intensity by promoting diffusion of the photoactive compounds within the resist layer. This helps to even out the chemical changes induced by the standing waves, leading to more uniform development. It's normally done at 110-130°C for 1-2 minutes.
+![[Pasted image 20251209000337.png]]
+##### Develop Photoresist
+After exposure, the photoresist needs to be developed to remove the soluble areas and reveal the underlying substrate. The development process involves immersing the wafer in a chemical developer solution that selectively dissolves the exposed or unexposed areas of the resist, depending on whether a positive or negative resist is used. The timing is important to neither under-develop nor erode too much of the resist.
+Another developing method is spray development, where the developer solution is sprayed onto the wafer surface using nozzles. This allows for more precise control over the development process and can help achieve better uniformity across the wafer.
+![[Pasted image 20251209000549.png]]
+##### Hard Bake
+After development, a a hard bake is performed to further harden the remaining photoresist, evaporate any residual solvents, and improve adhesion to the substrate. This step enhances the resist's resistance to subsequent processing steps, such as etching or deposition. It can also fi
 ## References
