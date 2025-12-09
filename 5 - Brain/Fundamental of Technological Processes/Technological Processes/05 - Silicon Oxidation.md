@@ -33,6 +33,21 @@ Its atomic density is half that of silicon, which means that when silicon oxidiz
 
 Silicon can also be crystalline in the form of quartz, which is used as a digital frequency reference due to its piezoelectric properties(digital clocks).
 ##### Silicon Oxidation 
+We need the 3 main conditions mentioned above to have silicon oxidation. The process can be done in 2 different ways:
+1. Dry Oxidation: $Si + O_2 \rightarrow SiO_2$
+2. Wet Oxidation: $Si + 2H_2O \rightarrow SiO_2 + 2H_2$
 
+Silicon is consumed during the process, this is not a deposition process. 
+![[Pasted image 20251209182514.png]]
+The oxide layer will be formed at the Si/SiO2 interface, meaning that as water or oxygen molecules diffuse through the already formed oxide layer, they will react with silicon at the interface to form more SiO2, so that the oxide layer grows thicker from within.
+This is also why the process slows down as the oxide layer gets thicker, since the diffusion of oxidizing species through the oxide layer becomes more difficult.
+![[Pasted image 20251209182525.png]]
+The Silicon Oxide will then be almost 50% inside the original silicon wafer and 50% above it, this is because of the molecular densities of Si and SiO2(to explain it better, since the ratio between the 2 molecular density is of 0.44, for every 1 nm of Si consumed, 2.27 nm of SiO2 will be formed, so 1 nm will be inside the original Si wafer and 1.27 nm will be above it).
+
+The equipment used for thermal oxidation is a quartz tube furnace, where silicon wafers are placed inside a quartz boat and inserted into the furnace tube. The furnace is then heated to the desired temperature, and the oxidizing ambient (dry O2 or steam) is introduced into the tube to initiate the oxidation process through some inlets.
+The first and last wafers in the boat may experience different oxidation rates due to variations in gas flow and temperature distribution, so they are used as dummy wafers and not for actual device fabrication.
+![[Pasted image 20251209182753.png]]
+
+The oxidation rate can vary depending on the crystallographic orientation of the silicon wafer. For example, 111 oriented wafers tend to oxidize faster since they have more atoms on the surface so more dangling bonds are available to react with the oxidizing species.
 
 ## References
