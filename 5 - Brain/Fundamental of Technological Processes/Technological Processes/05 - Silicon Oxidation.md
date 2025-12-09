@@ -48,6 +48,8 @@ The equipment used for thermal oxidation is a quartz tube furnace, where silicon
 The first and last wafers in the boat may experience different oxidation rates due to variations in gas flow and temperature distribution, so they are used as dummy wafers and not for actual device fabrication.
 ![[Pasted image 20251209182753.png]]
 
-The oxidation rate can vary depending on the crystallographic orientation of the silicon wafer. For example, 111 oriented wafers tend to oxidize faster since they have more atoms on the surface so more dangling bonds are available to react with the oxidizing species.
+The oxidation rate can vary depending on the crystallographic orientation of the silicon wafer. For example, 111 oriented wafers tend to oxidize faster since they have more atoms on the surface so more dangling bonds are available to react with the oxidizing species(1.7 times faster than 100 oriented wafers).
+Even the average grain size in polycrystalline silicon can affect the oxidation rate, with smaller grains leading to faster oxidation due to the increased number of grain boundaries that can act as diffusion paths for oxidizing species.
+
 
 ## References
