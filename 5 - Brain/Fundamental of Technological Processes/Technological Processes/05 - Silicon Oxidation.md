@@ -51,5 +51,17 @@ The first and last wafers in the boat may experience different oxidation rates d
 The oxidation rate can vary depending on the crystallographic orientation of the silicon wafer. For example, 111 oriented wafers tend to oxidize faster since they have more atoms on the surface so more dangling bonds are available to react with the oxidizing species(1.7 times faster than 100 oriented wafers).
 Even the average grain size in polycrystalline silicon can affect the oxidation rate, with smaller grains leading to faster oxidation due to the increased number of grain boundaries that can act as diffusion paths for oxidizing species.
 
+**Some key variables in Oxidation**
+![[Pasted image 20251209193520.png]]
+##### Thermal Oxidation Model
+The Deal-Grove model is the most widely used model to describe the kinetics of silicon oxidation. It provides a mathematical framework to predict the oxidation rate over time and the final oxide thickness based on process parameters.
+$$\frac{\partial x_{ox}(t)}{\partial t} , \quad x_{ox}(t) = \text{oxide thickness at time t}$$
+As we stated before thermal oxidation is a diffusion limited problem, so the growth rate of the oxide layer is determined by the diffusion of oxidizing species through the existing oxide layer to the silicon interface.
+The model describes 3 fluxes:
+1. Flux of oxidizing species from the ambient to the oxide surface: $F_1$
+2. Flux of oxidizing species through the oxide layer to the Si/SiO2 interface: $F_2$
+3. Flux of oxidizing species reacting at the Si/SiO2 interface: $F_3$
+At steady state, these fluxes are equal: $F_1 = F_2 = F_3$, meaning that the rate of oxidizing species reaching the oxide surface, diffusing through the oxide layer, and reacting at the interface are all the same.
+Each flux is calculated as: $
 
 ## References
