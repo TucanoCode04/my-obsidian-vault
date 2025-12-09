@@ -61,7 +61,21 @@ The model describes 3 fluxes:
 1. Flux of oxidizing species from the ambient to the oxide surface: $F_1$
 2. Flux of oxidizing species through the oxide layer to the Si/SiO2 interface: $F_2$
 3. Flux of oxidizing species reacting at the Si/SiO2 interface: $F_3$
-At steady state, these fluxes are equal: $F_1 = F_2 = F_3$, meaning that the rate of oxidizing species reaching the oxide surface, diffusing through the oxide layer, and reacting at the interface are all the same.
-Each flux is calculated as: $
+At steady state, these fluxes are equal: $F_1 = F_2 = F_3$, meaning that the rate of oxidizing species reaching the oxide surface, diffusing through the oxide layer, and reacting at the interface are all the same. This condition is not valid as soon as you turn on the oven, but after a short transient time.
+Each flux is calculated as: $F = \frac{\text{number of particles}}{\text{area} \cdot \text{time}}$
+The gradient of concentration is negative from the surface to the interface, from $N_0$ to $N_i$(concentration at the surface and interface respectively).
+![[Pasted image 20251209194437.png]]
+From the statements above we derive Fick's first law of diffusion:$$J = F_2 = -D -D \frac{\partial N}{\partial x} = D \frac{N_0 - N_i}{x_{ox}(t)}$$Where:
+- $N_0$: concentration of oxidizing species at the oxide surface, which is $5.2 \times 10^{16} \text{ molecules/cm}^3$ for dry oxidation at 1000 °C and 1 atm pressure and $3 \times10^{19} \text{ molecules/cm}^3$ for wet oxidation at 1000 °C and 1 atm pressure.
+- $D$: diffusion coefficient of the oxidizing species in the oxide layer $\frac{cm^2}{s}$
+
+If we combine Fick's law with the reaction rate at the Si/SiO2 interface>
+$$J = F_3 = k_s N_i$$
+Where:
+- $k_s$: reaction rate constant at the Si/SiO2 interface $\frac{cm}{s}$
+
+And considering that at steady state $F_2 = F_3$, we can derive>
+$$J = \frac{D N_0}{x_{ox}(t) + \frac{D}{k_s}}$$
+
 
 ## References
