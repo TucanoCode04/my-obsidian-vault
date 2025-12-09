@@ -65,17 +65,31 @@ At steady state, these fluxes are equal: $F_1 = F_2 = F_3$, meaning that the rat
 Each flux is calculated as: $F = \frac{\text{number of particles}}{\text{area} \cdot \text{time}}$
 The gradient of concentration is negative from the surface to the interface, from $N_0$ to $N_i$(concentration at the surface and interface respectively).
 ![[Pasted image 20251209194437.png]]
-From the statements above we derive Fick's first law of diffusion:$$J = F_2 = -D -D \frac{\partial N}{\partial x} = D \frac{N_0 - N_i}{x_{ox}(t)}$$Where:
+From the statements above we derive Fick's first law of diffusion:$$J = F_2 = -D \frac{\partial N}{\partial x} = D \frac{N_0 - N_i}{x_{ox}(t)}$$Where:
 - $N_0$: concentration of oxidizing species at the oxide surface, which is $5.2 \times 10^{16} \text{ molecules/cm}^3$ for dry oxidation at 1000 °C and 1 atm pressure and $3 \times10^{19} \text{ molecules/cm}^3$ for wet oxidation at 1000 °C and 1 atm pressure.
-- $D$: diffusion coefficient of the oxidizing species in the oxide layer $\frac{cm^2}{s}$
+- $D$: diffusion coefficient of the oxidizing species in the oxide layer $\frac{cm^2}{s}$, which is a constant of proportionality between the flux and the concentration gradient. 
 
-If we combine Fick's law with the reaction rate at the Si/SiO2 interface>
+If we combine Fick's law with the reaction rate at the Si/SiO2 interface:
 $$J = F_3 = k_s N_i$$
 Where:
 - $k_s$: reaction rate constant at the Si/SiO2 interface $\frac{cm}{s}$
 
-And considering that at steady state $F_2 = F_3$, we can derive>
+And considering that at steady state $F_2 = F_3$, and substituting $N_i$ from the second equation into the first one, we get:
 $$J = \frac{D N_0}{x_{ox}(t) + \frac{D}{k_s}}$$
 
+The constant $k_s$ represents the reaction speed at the Si/SiO2 interface, so it accounts for a lot of other factors such as:
+- Temperature
+- Silicon Solid State(crystalline or amorphous)
+- Crystallographic orientation
+- Oxidant molecules
+- Surface contamination
+- Doping
 
+We introduce the term $N_{ox}$, which is the number of oxidant molecules required to form a unit volume of SiO2, which is>
+- $2.2 \times 10^{22} \text{ molecules/cm}^3$ for dry oxidation, since each SiO2 molecule requires 1 O2 molecule
+- $4.4 \times 10^{22} \text{ molecules/cm}^3$ for wet oxidation, since each SiO2 molecule requires 2 H2O molecules
+
+The growth rate of the oxide layer can be expressed as:
+$$\frac{\partial x_{ox}(t)}{\partial t} = \frac{J}{N_{ox}} = \frac{D N_0}{N_{ox} \left( x_{ox}(t) + \frac{D}{k_s} \right)}$$
+Which describes the number of available oxidizing concentration of
 ## References
