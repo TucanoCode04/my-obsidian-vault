@@ -116,8 +116,11 @@ Wet Oxidation is typically faster than Dry Oxidation, but the quality of the oxi
 This graph demonstrates accounting for $\tau$, for example by following the first process we end up with a thickness of 190 nm, so the second process will start from that thickness, keeping in mind the temperature and type of oxidation used. So we go basically to the gray dot following the line, till the new red dot.
 ##### Growth Rate Regimes
 At short times:
-$(t + \tau) << \frac{A^2}{4B} \Rightarrow x_{ox}(t) 
-
+$(t + \tau) << \frac{A^2}{4B} \Rightarrow x_{ox}(t) \approx \frac{B}{A} (t + \tau)$
+This means that the oxide thickness grows linearly with time, where $\frac{B}{A} = k_s \frac{N_0}{N_{ox}}$ is the initial growth rate, and as we can see there is no dependence on the diffusion coefficient D, meaning that the bottleneck is the reaction rate at the Si/SiO2 interface. Intuitively you reach the surface so fast that the diffusion through the oxide layer is not limiting the process.
+At long times:
+$(t + \tau) >> \frac{A^2}{4B} \Rightarrow x_{ox}(t) \approx \sqrt{B (t + \tau)}$
+This means that the oxide thickness grows parabolically with time, where $B = \frac{2 D N_0}{N_{ox}}$ is is the parabolic rate constant, and as we can see there is no dependence on the reaction rate constant $k_s$, meaning that the bottleneck is the diffusion of oxidizing species through the oxide layer. Intuitively you have a thick oxide layer so you don't care about the reaction rate at the interface, since the diffusion through the oxide layer is limiting the process.
 ##### Rapid Thermal Oxidation (RTO)
 It is used to grow thin oxide layers with high dielectric quality in a short time and with low thermal budget. 
 It involves the usage of thermally active processing equipment that can rapidly heat assisted by photon induced heating involving monoatomic oxygen sources.
