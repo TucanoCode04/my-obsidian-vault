@@ -115,8 +115,12 @@ Wet Oxidation is typically faster than Dry Oxidation, but the quality of the oxi
 ![[Pasted image 20251209201756.png]]
 This graph demonstrates accounting for $\tau$, for example by following the first process we end up with a thickness of 190 nm, so the second process will start from that thickness, keeping in mind the temperature and type of oxidation used. So we go basically to the gray dot following the line, till the new red dot.
 ##### Growth Rate Regimes
-
+At short times:
+$(t + \tau) << \frac{A^2}{4B} \Rightarrow x_{ox}(t) 
 
 ##### Rapid Thermal Oxidation (RTO)
-It is use
+It is used to grow thin oxide layers with high dielectric quality in a short time and with low thermal budget. 
+It involves the usage of thermally active processing equipment that can rapidly heat assisted by photon induced heating involving monoatomic oxygen sources.
+Basically we use ultraviolet (UV) lamps to create two oxygen atoms from an O2 molecule, which are more reactive and can oxidize silicon faster at lower temperatures (700-900 °C) compared to traditional thermal oxidation methods.
+It's a dry oxidation process, since we use O2 molecules, and it's useless for thick oxide layers since the process is optimized for thin layers (10-100 nm).
 ## References
