@@ -32,6 +32,7 @@ Silicon Oxide is an amorphous material with a short range order of tetrahedral S
 Its atomic density is half that of silicon, which means that when silicon oxidizes, the resulting SiO2 layer is thicker than the original silicon consumed. Specifically, for every unit thickness of silicon consumed, approximately 2.17 units of SiO2 are formed. This expansion must be considered during device fabrication to ensure proper dimensions and functionality.
 
 Silicon can also be crystalline in the form of quartz, which is used as a digital frequency reference due to its piezoelectric properties(digital clocks).
+##### Silicon Oxidation 
 
 
 ## References
