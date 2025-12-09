@@ -91,5 +91,16 @@ We introduce the term $N_{ox}$, which is the number of oxidant molecules require
 
 The growth rate of the oxide layer can be expressed as:
 $$\frac{\partial x_{ox}(t)}{\partial t} = \frac{J}{N_{ox}} = \frac{D N_0}{N_{ox} \left( x_{ox}(t) + \frac{D}{k_s} \right)}$$
-Which describes the number of available oxidizing concentration of
+Which describes the ratio between the available oxidizing species flux at the interface and the number of oxidizing species required to form a unit volume of SiO2. Flux/concentration gives us a velocity, which is the growth rate of the oxide layer.
+It's a differential first order equation in time, so we can just force an initial condition for the oxide thickness at time t=0:
+$$x_{ox}(0) = x_i$$Where $x_i$ is the initial oxide thickness, which can be 0 if we start from bare silicon or a small value if we have a native oxide layer.
+So the general relation for silicon oxidation is:
+$$\frac{x_{ox}(t)^2}{B} + \frac{x_{ox}(t)}{\frac{B}{A}} - (\tau + t) = 0$$Where:
+- $B = \frac{2 D N_0}{N_{ox}}$: parabolic rate constant $\frac{cm^2}{s}$
+- $A = \frac{2 D}{k_s}$: linear rate constant $cm/s$
+- $\tau = \frac{x_i^2}{B} + \frac{x_i}{\frac{B}{A}}$: time correction factor $s$ to account for initial oxide thickness
+- t: oxidation time $s$
+
+The final solution is given by:
+$$x_{ox}(t) = \frac{1}{2} A\left[\left(\sqrt{1 + \frac{4 \cdot B}{A^2} (t + \tau)}\right) - 1\right]$$
 ## References
