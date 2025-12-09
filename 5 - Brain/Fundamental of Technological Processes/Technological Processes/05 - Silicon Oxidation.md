@@ -103,4 +103,20 @@ $$\frac{x_{ox}(t)^2}{B} + \frac{x_{ox}(t)}{\frac{B}{A}} - (\tau + t) = 0$$Where:
 
 The final solution is given by:
 $$x_{ox}(t) = \frac{1}{2} A\left[\left(\sqrt{1 + \frac{4 \cdot B}{A^2} (t + \tau)}\right) - 1\right]$$
+
+Wet Oxidation is typically faster than Dry Oxidation, but the quality of the oxide layer produced is lower, since Hydrogen can get trapped or create holes in the oxide layer. For this reason, we normally use a 3 step process:
+1. Dry Oxidation to create a thin, high-quality oxide layer 
+2. Wet Oxidation to quickly grow the oxide layer to the desired thickness
+3. Dry Oxidation again to create a high-quality surface layer
+
+![[Pasted image 20251209201549.png]]
+111 oriented wafers oxidize faster than 100 oriented wafers, we can see it from the graph since it starts from a higher thickness at the same time.
+
+![[Pasted image 20251209201756.png]]
+This graph demonstrates accounting for $\tau$, for example by following the first process we end up with a thickness of 190 nm, so the second process will start from that thickness, keeping in mind the temperature and type of oxidation used. So we go basically to the gray dot following the line, till the new red dot.
+##### Growth Rate Regimes
+
+
+##### Rapid Thermal Oxidation (RTO)
+It is use
 ## References
