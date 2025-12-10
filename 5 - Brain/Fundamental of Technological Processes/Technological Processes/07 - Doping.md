@@ -69,7 +69,15 @@ $$C(x) = \frac{Q}{\sqrt{2 \pi} \sigma_p} e^{-\frac{(x - R_p)^2}{2 \sigma_p^2}}$$
 Different ion species behave differently during implantation, due to their mass and energy. Heavier ions tend to have shallower penetration depths and smaller straggles compared to lighter ions at the same energy. This is because heavier ions experience more collisions with the Silicon atoms, losing energy more rapidly and scattering less.
 Obviously, increasing the implantation energy results in deeper penetration and larger straggles for all ion species, as they have more kinetic energy to overcome collisions with the Silicon atoms.
 ![[Pasted image 20251210161648.png]]
-
+##### Implantation Control Parameters
+The main parameters that can be controlled during the implantation process are:
+- Implantation Energy ($E$): This determines the depth and spread of the dopant distribution. Higher energies result in deeper penetration and larger straggles. It also accounts for the amount of damage caused to the Silicon lattice, that needs to be repaired during annealing.
+- Dose ($Q$): This is the total number of dopant atoms introduced per unit area. It directly affects the device's electrical properties, such as threshold voltage and drive current.
+- Ion Species: Different dopant elements have different electrical characteristics and solid solubilities in Silicon. The choice of ion species affects the device performance and reliability, and also changes the implantation profile due to differences in mass and charge state.
+- Mask Shape: The geometry of the mask used during implantation determines where the dopants are introduced into the substrate. The thickness and material of the mask also influence the implantation profile by attenuating the ion beam.
+- Annealing Technique: The annealing temperature and duration affect the diffusion of dopants and the final device characteristics.
+##### Junction Depth
+The junction depth ($x_j$) is defined as the depth at which the dopant concentration equals the background concentration of the substrate ($C_b$). 
 
 ##### Sheet Resistance
 The sheet or square resistance is a measure of resistance of a portion of material that has a uniform thickness. It's commonly used in semiconductor and thin film applications to characterize the electrical properties of thin layers.
