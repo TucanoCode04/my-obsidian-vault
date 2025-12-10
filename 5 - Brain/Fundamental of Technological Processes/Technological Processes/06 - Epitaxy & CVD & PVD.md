@@ -14,7 +14,13 @@ Tags:
 #### Physical Vapor Deposition (PVD)
 The type of bonding is no more chemical, but physical (Van der Waals forces, electrostatic forces, etc). The atoms or molecules are deposited by physical means, such as evaporation or sputtering. The process is mostly used for metals and alloys.
 ##### Thermal Evaporation
-A high vacuum chamber(since low pressure is needed to avoid collisions between the evaporated atoms and gas molecules, of $10^{-5} Pa$) is used  
+![[Pasted image 20251210185712.png]]
+A high vacuum chamber(since low pressure is needed to avoid collisions between the evaporated atoms and gas molecules, of $10^{-5} Pa$) is used to increase the mean free path of the evaporated atoms(the mean free path is the average distance traveled by a moving particle between successive collisions). This allows for a line of sight deposition, meaning that starting from the source, the atoms will travel in straight lines to the substrate without colliding with gas molecules. The downside is that it promotes non conformal coverage due to shadowing effects.
+![[Pasted image 20251210185726.png]]
+In CVD the source material is heated promoting the diffusion of atoms or molecules on the surface, resulting in a less topography dependent deposition. While in PVD the source material is cold, so no migration happens, resulting in a more topography dependent deposition.
+The wafers are placed upside down to lower the contamination from particles falling from the source.
+A shutter is implemented to avoid deposition during the heating phase.
+You can only deposit material with lower melting point than the heating element.
 
 
 
