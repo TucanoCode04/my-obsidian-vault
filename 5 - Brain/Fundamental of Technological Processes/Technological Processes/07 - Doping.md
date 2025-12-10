@@ -6,7 +6,15 @@ Status:
 Tags:
 
 # 07 - Doping
-#### SIlicon Doping
+#### Silicon Doping
+Doping is the intentional introduction of external atoms (impurities) into a semiconductor lattice to modify its electrical properties, either to increase conductivity or to increase resistivity. The resistivity of Silicon can be modified up to 8 orders of magnitude through doping, basically going from an insulator to a good conductor.
+There are two types of dopants:
+- n-type dopants: These are elements from group V of the periodic table, such as Phosphorus (P), Arsenic (As), and Antimony (Sb). They have five valence electrons, one more than Silicon. When introduced into the Silicon lattice, they donate an extra electron, which becomes a free charge carrier in the conduction band, increasing the material's conductivity. They are called donor dopants.
+- p-type dopants: These are elements from group III of the periodic table, such as Boron (B), Aluminum (Al), and Gallium (Ga). They have three valence electrons, one less than Silicon. When introduced into the Silicon lattice, they create "holes" (missing electrons) in the valence band, which act as positive charge carriers, also increasing the material's conductivity. They are called acceptor dopants.
+
+When you introduce dopants into Silicon, they first become interstitial, not forming bonds with the Silicon atoms, but after some time or after a thermal annealing process, they move to substitutional sites, replacing Silicon atoms in the lattice and forming bonds with the surrounding Silicon atoms.
+Silicon has 5.2 $\times 10^{22}$ atoms/cm$^3$, so the normal concentration of dopants is much lower than that, typically in the range of 10$^{13}$ to 10$^{20}$ atoms/cm$^3$.
+The elements mentioned before are good dopants because they have greater solid solubility in Silicon, meaning they can be introduced in higher concentrations without forming precipitates or secondary phases that could degrade the material's properties.
 
 
 
