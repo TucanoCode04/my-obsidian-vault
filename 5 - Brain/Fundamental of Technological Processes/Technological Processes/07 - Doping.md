@@ -20,6 +20,12 @@ Other than electrical properties, doping also affects other properties of Silico
 - Chemical properties: Doping can influence the chemical reactivity and corrosion resistance of Silicon. For example, heavily Boron doped Silicon can be more resistant to oxidation.
 - Piezoelectric properties: Doping can induce piezoelectric effects in Silicon, which can be utilized in sensors and actuators.(look this fucking piezoresistor up)
 
+For a doping process to be effective we need to define 3 main parameters:
+- Dopant Distribution: $N(x)$ or $C(x)$, which describes how the concentration of dopants varies with depth $x$ in the Silicon substrate.
+- Total Dose: $Q$, which is the total number of dopant atoms introduced per unit area (atoms/cm$^2$). It's calculated by integrating the dopant distribution over depth: $Q = \int_{0}^{\infty} N(x) dx$
+- Junction Depth: $x_j$, which is the depth at which the dopant concentration equals the background concentration of the substrate. Basically telling us how deep the dopants have penetrated into the substrate, so the result of our doping process.(The background concentration is the concentration of dopants already present in the substrate before any doping process is applied, usually very low)
+##### Ion Implantation
+
 
 
 ##### Sheet Resistance
