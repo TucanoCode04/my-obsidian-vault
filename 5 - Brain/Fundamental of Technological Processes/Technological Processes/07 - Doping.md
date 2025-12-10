@@ -71,6 +71,17 @@ So that we maximize the argument of the error function, which will minimize the 
 We now show a graph of the minimum mask thickness in function of the implantation energy for different materials.
 ![[Pasted image 20251210113316.png]]
 ##### Silicon on Insulator (SOI) wafers
+The CMOS inverters are subject to parasitic capacitances that slow down the switching speed and increase power consumption.
+An inverter is made by connecting a pMOS and an nMOS transistor in series with a Field Oxide in between them. The pMOS transistor has the p sites immersed in an n-well.
+The main parasitic capacitances in a CMOS inverter are:
+- NPN junction capacitance: between the n-well and the p-type substrate
+- PNP junction capacitance: between the p-type source/drain regions and the n-well
+They are parasitic because they are not intentional, but they are a consequence of the device structure and operation, and they affect the performance of the inverter by slowing down the switching speed and increasing power consumption.
+![[Pasted image 20251210114201.png]]
+To reduce these parasitic capacitances, we can use Silicon on Insulator (SOI) or Silicon on Sapphire (SOS) wafers.
+SOI wafers consist of a thin layer of silicon on top of a buried oxide layer, which is on top of a silicon substrate.
+This structure effectively isolates the active silicon layer from the bulk substrate, significantly reducing the parasitic capacitances.
+![[Pasted image 20251210114257.png]]
 
 
 ## References
