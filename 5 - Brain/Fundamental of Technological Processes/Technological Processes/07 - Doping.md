@@ -79,9 +79,13 @@ The main parasitic capacitances in a CMOS inverter are:
 They are parasitic because they are not intentional, but they are a consequence of the device structure and operation, and they affect the performance of the inverter by slowing down the switching speed and increasing power consumption.
 ![[Pasted image 20251210114201.png]]
 To reduce these parasitic capacitances, we can use Silicon on Insulator (SOI) or Silicon on Sapphire (SOS) wafers.
-SOI wafers consist of a thin layer of silicon on top of a buried oxide layer, which is on top of a silicon substrate.
+SOI wafers consist of a thin layer of silicon(2 to 100 $\mu m$) on top of a buried oxide layer, which is on top of a silicon substrate.
 This structure effectively isolates the active silicon layer from the bulk substrate, significantly reducing the parasitic capacitances.
 ![[Pasted image 20251210114257.png]]
+The buried oxide is typically made of silicon dioxide (SiO2), through thermal oxidation so its thickness ca vary between 0.5 to 2 $\mu m$.
 
-
+But how do we obtain the monocrystalline silicon layer on top of the buried oxide? There are 3 main methods:
+- Separation by IMplantation of OXygen (SIMOX): In this method, a gaussian profile of oxygen ions is implanted into a silicon wafer at high energy. The wafer is then annealed, not to repair the damage caused by the implantation, but to cause the implanted oxygen atoms to react and form a buried oxide layer. The silicon above the buried oxide remains monocrystalline, while the silicon below becomes polycrystalline due to the implantation damage.
+![[Pasted image 20251210115537.png]]
+- Bond and Etch Back SOI (BESOI): This method involves bonding two silicon wafers together using fusion bonding. One or both wafers have a thin oxide layer on their surfaces. After bonding, one of the wafers is thinned down by grinding and chemical etching to achieve the desired thickness of the top silicon layer.
 ## References
