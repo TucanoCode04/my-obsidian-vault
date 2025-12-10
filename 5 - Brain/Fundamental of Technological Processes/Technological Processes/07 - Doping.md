@@ -78,6 +78,19 @@ The main parameters that can be controlled during the implantation process are:
 - Annealing Technique: The annealing temperature and duration affect the diffusion of dopants and the final device characteristics.
 ##### Junction Depth
 The junction depth ($x_j$) is defined as the depth at which the dopant concentration equals the background concentration of the substrate ($C_b$). 
+$$C(x_j) = C_b$$
+Using the Gaussian approximation for $C(x)$, we can solve for $x_j$:
+$$x_j = R_p + \sigma_p \sqrt{2} \cdot \sqrt{ln\left(\frac{C_p}{C_b}\right)}$$Where:
+- $C_p$ is the peak concentration of dopants, calculated as $C_p = \frac{Q}{\sqrt{2 \pi} \sigma_p}$
+![[Pasted image 20251210170444.png]]
+From the graph and the formula we can see that:
+- Increasing the implantation energy ($E$) increases both $R_p$ and $\sigma_p$, resulting in a deeper junction depth ($x_j$).
+- Increasing the dose ($Q$) increases the peak concentration ($C_p$), which also increases the junction depth ($x_j$).
+- Higher background concentrations ($C_b$) result in shallower junction depths, as the dopant concentration reaches the background level sooner.
+- $R_p$ is closer to the surface when implanting heavier ions at the same energy, resulting in shallower junction depths compared to lighter ions. Or when using lower implantation energies.
+- Lighter ions penetrate deeper into the substrate at the same energy, resulting in deeper junction depths compared to heavier ions.
+- Lighter ions have larger straggles ($\sigma_p$) at the same energy, leading to a more spread-out dopant distribution and potentially deeper junction depths.
+##### Annealing
 
 ##### Sheet Resistance
 The sheet or square resistance is a measure of resistance of a portion of material that has a uniform thickness. It's commonly used in semiconductor and thin film applications to characterize the electrical properties of thin layers.
