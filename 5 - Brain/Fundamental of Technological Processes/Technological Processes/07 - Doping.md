@@ -49,6 +49,13 @@ $$R_s = \frac{1}{q \int_{x_{j1}}^{x_{j2}} \mu(x) (N_{A,D}(x) - N_b) dx}$$Where:
 - $N_b$ is the background concentration of the substrate
 (check N_b and C_b better)
 ##### Implanting Through a Mask
-
+The implantation process can be controlled using a mask, to basically decide where the peak concentration of dopants, depicted by the gaussian curve, will be located.
+![[Pasted image 20251210112049.png]]
+We can calculate the fraction transmitted through the mask:$$FT= \frac{\int_{d}^{\infty} N(x) dx}{\int_{0}^{\infty} N(x) dx}$$Where:
+- $d$ is the thickness of the mask
+- $N(x)$ is the dopant concentration at depth $x$, following a gaussian distribution
+$$N(x) = N_p e^{-\left(\frac{x - R_p}{\Delta R_p \sqrt{2}}\right)^2}$$Where:
+- $N_p$ is the peak concentration of dopants
+- 
 
 ## References
