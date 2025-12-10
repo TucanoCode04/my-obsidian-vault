@@ -12,7 +12,9 @@ Tags:
 
 
 #### Physical Vapor Deposition (PVD)
-
+The type of bonding is no more chemical, but physical (Van der Waals forces, electrostatic forces, etc). The atoms or molecules are deposited by physical means, such as evaporation or sputtering. The process is mostly used for metals and alloys.
+##### Thermal Evaporation
+A high vacuum chamber(since low pressure is needed to avoid collisions between the evaporated atoms and gas molecules, of $10^{-5} Pa$) is used  
 
 
 
