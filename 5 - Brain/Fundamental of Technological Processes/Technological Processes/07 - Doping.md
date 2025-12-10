@@ -57,7 +57,18 @@ The main components of an ion implanter are:
 	- $q$ is the elementary charge
 	- $A$ is the area of the wafer being implanted
 	- $Q$ is the total dose
+##### Gaussian Approximation 
+Implantation is basically a random process, since the ions collide with the Silicon atoms in a stochastic manner, they will slow down and scatter in different directions, resulting in a dopant distribution that can be approximated by a Gaussian profile.
+$$C(x) = \frac{Q}{\sqrt{2 \pi} \sigma_p} e^{-\frac{(x - R_p)^2}{2 \sigma_p^2}}$$Where:
+- $C(x)$ is the dopant concentration at depth $x$ ($N(x)$)
+- $Q$ is the the total dose calculated as before
+- $R_p$ is the range of implantation, the average of the gaussian distribution, meaning the depth at which the peak concentration occurs. $R_p = \frac{\sum (x_i)}{N}$Where $x_i$ is the depth of each implanted ion and $N$ is the total number of implanted ions.
+- $\sigma_p$ is the standard deviation of the implantation range, indicating how spread out the dopant distribution is around the peak, also called straggle. $\sigma_p = \sqrt{\frac{\sum (x_i - R_p)^2}{N}}$
+- $x$ is the depth in the Silicon substrate
 
+Different ion species behave differently during implantation, due to their mass and energy. Heavier ions tend to have shallower penetration depths and smaller straggles compared to lighter ions at the same energy. This is because heavier ions experience more collisions with the Silicon atoms, losing energy more rapidly and scattering less.
+Obviously, increasing the implantation energy results in deeper penetration and larger straggles for all ion species, as they have more kinetic energy to overcome collisions with the Silicon atoms.
+![[Pasted image 20251210161648.png]]
 
 
 ##### Sheet Resistance
