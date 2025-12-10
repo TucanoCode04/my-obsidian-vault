@@ -107,6 +107,18 @@ The main annealing techniques used in semiconductor manufacturing are:
 	- Electron beam Annealing: The wafer is exposed to a focused electron beam that rapidly heats the surface to high temperatures for a very short duration (milliseconds). This method allows for precise control of the annealing process and minimizes dopant diffusion.
 	- Laser Annealing: A high-energy laser beam is used to rapidly heat the surface of the wafer to high temperatures for an extremely short duration (nanoseconds to microseconds). This method provides localized heating and minimizes dopant diffusion, making it suitable for shallow junctions.
 
+![[Pasted image 20251210172337.png]]
+As we said laser techniques provide a very localized heating, so the doping profile remembers the gaussian shape, while furnace annealing causes significant dopant diffusion, resulting in a more box-like profile.
+##### Channeling
+Channeling is a phenomenon that occurs during ion implantation when ions travel along specific crystallographic directions in a crystalline substrate, such as Silicon. In these directions, the ions experience fewer collisions with the lattice atoms, allowing them to penetrate deeper into the substrate than expected.
+In Silicon the most common channeling directions is the 110 direction, since in this direction the atoms are more spaced out, creating open channels for the ions to travel through with minimal collisions.
+![[Pasted image 20251210172716.png]]
+
+Channeled dopants are useless so to prevent this effects, several strategies can be employed:
+- Implantation into a Damaged Target: By pre-damaging the Silicon surface through a low-energy and large-dose implantation of neutral atoms (like Silicon or Argon), the crystal structure is disrupted, reducing channeling effects during the subsequent dopant implantation.
+- Implantation through an Amorphous Layer: By depositing a thin amorphous layer (like silicon dioxide or silicon nitride) on the Silicon surface before implantation, the ions lose their directional preference, minimizing channeling effects.
+- Tilted Implantation: By tilting the wafer at an angle (typically 7 to 10 degrees) relative to the ion beam, the ions are less likely to align with the crystallographic channels, reducing channeling effects. The only side effect is that you add a shadowing effect on the mask, so you need to consider that during mask design.
+![[Pasted image 20251210173142.png]]
 ##### Sheet Resistance
 The sheet or square resistance is a measure of resistance of a portion of material that has a uniform thickness. It's commonly used in semiconductor and thin film applications to characterize the electrical properties of thin layers.
 To calculate the sheet resistance we can start with Ohm's law:
