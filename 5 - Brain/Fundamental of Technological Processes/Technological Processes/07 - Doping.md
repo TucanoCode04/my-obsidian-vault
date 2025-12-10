@@ -15,7 +15,10 @@ There are two types of dopants:
 When you introduce dopants into Silicon, they first become interstitial, not forming bonds with the Silicon atoms, but after some time or after a thermal annealing process, they move to substitutional sites, replacing Silicon atoms in the lattice and forming bonds with the surrounding Silicon atoms.
 Silicon has 5.2 $\times 10^{22}$ atoms/cm$^3$, so the normal concentration of dopants is much lower than that, typically in the range of 10$^{13}$ to 10$^{20}$ atoms/cm$^3$.
 The elements mentioned before are good dopants because they have greater solid solubility in Silicon, meaning they can be introduced in higher concentrations without forming precipitates or secondary phases that could degrade the material's properties.
-
+Other than electrical properties, doping also affects other properties of Silicon, such as:
+- Optical properties: Doping can change the absorption and emission spectra of Silicon, which is important for optoelectronic devices. You can introduce Chromium to create a Ruby laser.
+- Chemical properties: Doping can influence the chemical reactivity and corrosion resistance of Silicon. For example, heavily Boron doped Silicon can be more resistant to oxidation.
+- Piezoelectric properties: Doping can induce piezoelectric effects in Silicon, which can be utilized in sensors and actuators.(look this fucking piezoresistor up)
 
 
 
