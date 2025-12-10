@@ -22,6 +22,17 @@ The wafers are placed upside down to lower the contamination from particles fall
 A shutter is implemented to avoid deposition during the heating phase.
 You can only deposit material with lower melting point than the heating element.
 
+The source material(the one to be deposited) is placed in a crucible, which is heated by resistive heating, thanks to the Joule effect. When the material reaches its evaporation temperature, atoms or molecules leave the surface and travel to the substrate, where they condense forming a thin film.
+You can use it both for sublimating materials(solid to gas transition) and for materials that melt first(liquid phase).
+![[Pasted image 20251210190901.png]]
+There's a table to help choosing the crucible material based on the source material, since:
+- some materials can react with the crucible
+- the crucible melting point must be higher than the source material melting point
+- cross contamination with the wire used for resistive heating must be avoided(ex: W wire can contaminate with W atoms the deposited film)
+Not every material can be thermally evaporated, for example materials with very high melting points like Ta, W, Mo are not suitable.
+##### Electron Beam Evaporation
+Slide 34
+
 
 
 
