@@ -90,7 +90,22 @@ From the graph and the formula we can see that:
 - $R_p$ is closer to the surface when implanting heavier ions at the same energy, resulting in shallower junction depths compared to lighter ions. Or when using lower implantation energies.
 - Lighter ions penetrate deeper into the substrate at the same energy, resulting in deeper junction depths compared to heavier ions.
 - Lighter ions have larger straggles ($\sigma_p$) at the same energy, leading to a more spread-out dopant distribution and potentially deeper junction depths.
-##### Annealing
+#### Annealing
+The effect of annealing are:
+- Electrical Activation: During implantation, many dopant atoms occupy interstitial sites in the Silicon lattice, where they do not contribute to electrical conductivity. Annealing allows these atoms to move to substitutional sites, replacing Silicon atoms in the lattice and becoming electrically active.
+- Reorganization of the Lattice: The implantation process damages the Silicon crystal structure, creating defects and dislocations. Annealing repairs this damage by allowing the Silicon atoms to rearrange into a more ordered structure, improving the material's electrical properties.
+
+There are even some side effects of annealing:
+- Dopant Diffusion: During annealing, dopant atoms can diffuse deeper into the substrate, potentially altering the intended dopant profile and junction depth. At certain temperatures the gaussian profile is lost and the profile becomes more box-like.
+![[Pasted image 20251210171653.png]]
+##### Annealing Techniques
+The main annealing techniques used in semiconductor manufacturing are:
+- Isothermal Annealing: The whole silicon wafer is heated to maintain thermal equilibrium at all instants. There are two types of isothermal annealing:
+	- Furnace Annealing: The wafer is placed in a furnace and heated to the desired temperature for a specific duration. This method provides uniform heating but has slower ramp-up and cool-down times.
+	- Rapid Thermal Annealing (RTA): The wafer is rapidly heated using high-intensity lamps to the desired temperature for a short duration (seconds to minutes) and then quickly cooled down. This method minimizes dopant diffusion while still achieving electrical activation, by creating a gradient temperature profile through the wafer thickness.
+- Adiabatic Annealing: The wafer is heated rapidly to the desired temperature and then allowed to cool down naturally without maintaining thermal equilibrium. This method is typically faster than isothermal annealing but may result in non-uniform heating. 
+	- Electron beam Annealing: The wafer is exposed to a focused electron beam that rapidly heats the surface to high temperatures for a very short duration (milliseconds). This method allows for precise control of the annealing process and minimizes dopant diffusion.
+	- Laser Annealing: A high-energy laser beam is used to rapidly heat the surface of the wafer to high temperatures for an extremely short duration (nanoseconds to microseconds). This method provides localized heating and minimizes dopant diffusion, making it suitable for shallow junctions.
 
 ##### Sheet Resistance
 The sheet or square resistance is a measure of resistance of a portion of material that has a uniform thickness. It's commonly used in semiconductor and thin film applications to characterize the electrical properties of thin layers.
