@@ -25,7 +25,17 @@ For a doping process to be effective we need to define 3 main parameters:
 - Total Dose: $Q$, which is the total number of dopant atoms introduced per unit area (atoms/cm$^2$). It's calculated by integrating the dopant distribution over depth: $Q = \int_{0}^{\infty} N(x) dx$
 - Junction Depth: $x_j$, which is the depth at which the dopant concentration equals the background concentration of the substrate. Basically telling us how deep the dopants have penetrated into the substrate, so the result of our doping process.(The background concentration is the concentration of dopants already present in the substrate before any doping process is applied, usually very low)
 ##### Ion Implantation
+To introduce dopants into Silicon we can use different methods, the most common and precise one is Ion Implantation. Using an ion implanter, we can ionize the dopant atoms and accelerate them using an electric field to high energies(3keV to 3MeV), then we direct the ion beam towards the Silicon substrate. 
+The ionic beam scans the wafer surface vertically and horizontally to ensure uniform doping across the entire wafer. When the high-energy ions collide with the Silicon atoms, where there's no mask, they penetrate the surface and come to rest at a certain depth, creating a dopant distribution profile.
+The depth at which the ions come to rest depends on the implantation energy, the mass of the ions, and the angle of incidence. Higher energies result in deeper penetration, while heavier ions tend to have shallower penetration due to increased collisions with the Silicon atoms.
+Just a small side note on different energies:
+- deposition energies, low, few keV
+- sputtering energies, medium, tens to hundreds of keV
+- implantation energies, high, hundreds of keV to MeV
 
+This process can be done at room temperature, so we can use polymeric photoresist masks without worrying about thermal degradation.
+So the process is fast: from lithography to create the mask, to implantation, directly. Instead of etching another material before implantation.
+Other characteris
 
 
 ##### Sheet Resistance
