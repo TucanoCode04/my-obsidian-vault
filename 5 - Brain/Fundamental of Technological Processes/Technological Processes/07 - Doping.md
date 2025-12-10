@@ -47,7 +47,17 @@ The only cons is that the implantation process damages the Silicon crystal struc
 The main components of an ion implanter are:
 - Ion Source: This is where the dopant atoms are ionized by electron cascading from tungsten filaments, creating a plasma of ions.
 - Extraction region: Here, an electric field is applied to extract the ions from the plasma and accelerate them using a negative potential.
-- Mass Analyzer: 
+- Mass Analyzer: This component uses magnetic and electric fields to separate ions based on their mass-to-charge ratio, allowing only the desired dopant ions to pass through. In this point you can separate into different ion beams different elements, for example Boron from Arsenic extracted from the same ion source.
+- Accelerator: Through an high dc voltage in vacuum, the ions are further accelerated to the desired implantation energy. The vacuum is necessary to prevent collisions with air molecules that could scatter the ions and reduce implantation precision.
+- Deflector Plate: A neutral beam trap is used to remove neutral particles from the ion beam, using electrostatic deflection to separate them from the charged ions. This neutral atoms can be created through collisions in the ion source or during acceleration, they are not bad per se, but we can't measure their dose so to have a precise control of the implantation process we need to remove them.
+- X and Y axis scanners: These components move the ion beam across the wafer surface in both horizontal and vertical directions to ensure uniform doping.
+- Integrator: The ionic current is measured, to alt the process parameters in real time and achieve the desired dose. It's literally an integration of the ionic current over time: $Q = \int_{0}^{t} \frac{I\cdot dt}{n\cdot q\cdot A}$Where: 
+	- $I$ is the ionic current
+	- $n$ is the number of charges, since ions can have 2 charges(meaning they lost 2 electrons)
+	- $q$ is the elementary charge
+	- $A$ is the area of the wafer being implanted
+	- $Q$ is the total dose
+
 
 
 ##### Sheet Resistance
