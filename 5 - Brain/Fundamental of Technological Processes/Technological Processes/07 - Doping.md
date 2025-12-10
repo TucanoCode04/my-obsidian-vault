@@ -56,6 +56,21 @@ We can calculate the fraction transmitted through the mask:$$FT= \frac{\int_{d}^
 - $N(x)$ is the dopant concentration at depth $x$, following a gaussian distribution
 $$N(x) = N_p e^{-\left(\frac{x - R_p}{\Delta R_p \sqrt{2}}\right)^2}$$Where:
 - $N_p$ is the peak concentration of dopants
-- 
+- $R_p$ is the range of implantation, meaning the depth at which the peak concentration occurs
+- $\Delta R_p$ is the standard deviation of the implantation range, indicating how spread out the dopant distribution is around the peak, also called straggle
+Resulting in:$$FT = \frac{1}{2} erfc\left(\frac{d - R_p}{\Delta R_p \sqrt{2}}\right)$$Where erfc is the complementary error function.
+Let's deeply analyze this equation:
+- When $d << R_p$: The mask is much thinner than the implantation range, meaning most of the dopants will penetrate through the mask. In this case, $FT \approx 1$, indicating nearly all dopants pass through.
+- When $d \approx R_p$: The mask thickness is approximately equal to the implantation range. Here, $FT \approx 0.5$, meaning about half of the dopants penetrate through the mask.
+![[Pasted image 20251210113419.png]]
+- When $d >> R_p$: The mask is much thicker than the implantation range, resulting in most dopants being blocked. In this scenario, $FT \approx 0$, indicating that very few dopants pass through the mask.
+
+Suppose that we want to minimize the fraction transmitted through the mask, we can increase the thickness of the mask $d$, or we can choose choose an implantation energy $E$ that results in a smaller range of implantation $R_p$, or even reduce the straggle $\Delta R_p$ by selecting an appropriate ion species or implantation conditions.
+So the degrees of freedom are the thickness of the mask $d$ and the material properties that influence $R_p$ and $\Delta R_p$.(Since they are the depending on the mask material and not on silicon)
+So that we maximize the argument of the error function, which will minimize the fraction transmitted through the mask.
+We now show a graph of the minimum mask thickness in function of the implantation energy for different materials.
+![[Pasted image 20251210113316.png]]
+##### Silicon on Insulator (SOI) wafers
+
 
 ## References
