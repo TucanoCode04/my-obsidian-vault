@@ -35,7 +35,19 @@ Just a small side note on different energies:
 
 This process can be done at room temperature, so we can use polymeric photoresist masks without worrying about thermal degradation.
 So the process is fast: from lithography to create the mask, to implantation, directly. Instead of etching another material before implantation.
-Other characteris
+Other characteristics of ion implantation:
+- instant off and instant on control of dopant dose
+- precision control through monitoring in situ
+- ability to increase implant energy to penetrate thin films
+- the peak concentration of dopants is always buried below the surface, reducing surface damage
+- a mass separator is used to select the desired ion species, allowing each implanter to handle multiple dopant types
+
+The only cons is that the implantation process damages the Silicon crystal structure, creating defects and dislocations that can affect the electrical properties of the material. To repair this damage, a thermal annealing step is typically performed after implantation, which allows the Silicon lattice to recrystallize and the dopant atoms to move to substitutional sites(dopant activation).
+##### Implanter Components
+The main components of an ion implanter are:
+- Ion Source: This is where the dopant atoms are ionized by electron cascading from tungsten filaments, creating a plasma of ions.
+- Extraction region: Here, an electric field is applied to extract the ions from the plasma and accelerate them using a negative potential.
+- Mass Analyzer: 
 
 
 ##### Sheet Resistance
