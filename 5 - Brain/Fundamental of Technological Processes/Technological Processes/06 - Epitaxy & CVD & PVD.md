@@ -31,8 +31,10 @@ There's a table to help choosing the crucible material based on the source mater
 - cross contamination with the wire used for resistive heating must be avoided(ex: W wire can contaminate with W atoms the deposited film)
 Not every material can be thermally evaporated, for example materials with very high melting points like Ta, W, Mo are not suitable.
 ##### Electron Beam Evaporation
-
-
+![[Pasted image 20251211164338.png]]
+A filament is heated to emit electrons, which are accelerated through a negative voltage and directed using a magnetic field perpendicular to the electron beam path, towards the liner containing the source material. The kinetic energy of the electrons is converted into thermal energy when they hit the source material, causing its evaporation.
+The liner is pre-cooled to avoid cross contamination between the liner material and the source material, and from the liner to the deposited film.
+Normally a carousel with multiple liners is used to deposit different materials without breaking the vacuum and exploiting a single electron gun. This way you can also deposit multiple l
 
 
 
