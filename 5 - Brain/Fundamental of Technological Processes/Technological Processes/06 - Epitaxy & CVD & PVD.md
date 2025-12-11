@@ -34,7 +34,14 @@ Not every material can be thermally evaporated, for example materials with very 
 If we want an higher throughput(deposition rate), we can use a planetary substrate holder, where we place source in the center and substrates on rotating holders tangentially to the sphere surface to guarantee a uniform deposition on all substrates. We rotate the substrates to average out non uniformities in the deposition rate due to the geometry of the system and the whole holder to have a more uniform distance from the source, that's why it's called planetary.
 ![[Pasted image 20251211165953.png]]
 #### Sputtering
-
+![[Pasted image 20251211174630.png]]
+Sputtering is a physical vapor deposition technique. Starting from a chamber with a pressure of a few mTorr(10-100 mTorr) to decrease the possibility of collisions between the sputtered atoms and to avoid contamination from the atmosphere, an Argon gas is introduced in the chamber. A high voltage is applied between the target(the source material to be deposited, positioned on a cathode) and the substrate(anode), creating a plasma. Argon is used since it's a noble gas and won't react with the target material. The high energy ions created in the plasma are accelerated towards the target, where they hit the surface and transfer their kinetic energy to the atoms of the target material. If the transferred energy is higher than the binding energy of the atoms in the target, they will be ejected from the surface(thus sputtered) and travel to the substrate, where they condense forming a thin film.
+You can deposit almost any material with sputtering, even those with high melting points like Ta, W, Mo. The only downside is that is more expensive.
+Through sputtering you can achieve a better adhesion between the deposited film and the substrate, since the high energy of the sputtered atoms promotes intermixing at the interface.
+We can have both DC and RF sputtering.
+![[Pasted image 20251211175315.png]]
+You place a DC voltage on the cathode(target) and ground the anode(substrate). The plasma is created and the ions are accelerated towards the target, sputtering atoms that will deposit on the substrate. You have one inlet for the Argon gas and one outlet for the vacuum pump.
+Since the substrate is cold there's no migration of atoms on the surface, so the deposition is topography dependent. But it's a little bit better than El
 
 
 
