@@ -60,6 +60,11 @@ Basically the magnetic field make it so the now curved paths of the electrons an
 The two main disadvantages are the higher cost and the non uniform erosion of the target, since the magnetic field is not uniform across the target surface, causing uneven sputtering and reducing the target utilization efficiency.
 ##### Reactive Sputtering
 ![[Pasted image 20251211181938.png]]
+Reactive sputtering is a variation of sputtering that involves introducing a reactive gas, such as oxygen or nitrogen, into the sputtering chamber along with the inert sputtering gas(Argon). The reactive gas reacts with the sputtered atoms from the target to form a compound film on the substrate.
+This way we can use DC sputtering even for insulating materials, since the compound film is formed on the substrate and not on the target, because the silicon is doped to be conductive enough to avoid charge build up on the target surface.
+For example to deposit SiO2 we can use a Si target and introduce O2 gas in the chamber, the sputtered Si atoms will react with O2 to form SiO2 on the substrate.
+So the main difference between reactive and non reactive sputtering is that in reactive sputtering the deposited film is a compound formed by the reaction between the sputtered atoms and the reactive gas, while in non reactive sputtering the deposited film is made of the same material as the target.
+##### Ionized Sputtering or HDP Sputtering
 
 
 
