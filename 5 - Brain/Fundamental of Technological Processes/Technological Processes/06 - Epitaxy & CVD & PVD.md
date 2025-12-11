@@ -51,10 +51,15 @@ The bottlenecks of DC sputtering  are the power to create and sustain the plasma
 RF sputtering is used for insulating target materials, since in DC sputtering the target needs to be conductive to avoid charge build up on the surface that would stop the sputtering process.
 An AC voltage at radio frequency(typically 13.56 MHz) is applied to the target, creating a plasma. The oscillating electric field causes the ions to accelerate towards the target during the negative half cycle, sputtering atoms. During the positive half cycle, electrons are accelerated towards the target, neutralizing the charge build up on the surface, and we allow the deposition on the substrate.(write it better)
 Basically when the electric field points upwards the target is negative and ions are accelerated towards it, while when it points downwards the target is positive and electrons are accelerated towards it and deposition will happen on the substrate.
+So the RF sputtering is slower than DC sputtering by half, since only the negative half cycle contributes to sputtering.
 The top electrode, the one connected to the RF power supply, the target, is now smaller than the grounded electrode, the substrate holder. This causes a self biasing effect, where the target develops a negative DC bias with respect to the plasma potential, increasing the energy of the ions hitting the target and thus the sputtering rate.
 ##### Magnetron Sputtering
 ![[Pasted image 20251211181404.png]]
-Magnetron sputtering is a variation of sputtering that uses magnetic fields to confine the plasma close to the target surface. This increases the number of 
+Magnetron sputtering is a variation of sputtering that uses magnetic fields perpendicular to the electric field to confine the plasma close to the target surface, by forcing the ions and electrons to follow helical paths around the magnetic field lines. This increases the ionization efficiency and the sputtering rate, allowing for higher deposition rates at lower pressures and lower energy consumption.
+Basically the magnetic field make it so the now curved paths of the electrons and ions increase the probability of collisions between them, thus increasing the plasma density close to the target surface. The magnetic fields are normally placed behind the target.
+The two main disadvantages are the higher cost and the non uniform erosion of the target, since the magnetic field is not uniform across the target surface, causing uneven sputtering and reducing the target utilization efficiency.
+##### Reactive Sputtering
+![[Pasted image 20251211181938.png]]
 
 
 
