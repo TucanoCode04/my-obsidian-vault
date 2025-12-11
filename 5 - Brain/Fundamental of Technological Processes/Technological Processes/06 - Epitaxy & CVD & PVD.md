@@ -31,7 +31,10 @@ There's a table to help choosing the crucible material based on the source mater
 - cross contamination with the wire used for resistive heating must be avoided(ex: W wire can contaminate with W atoms the deposited film)
 Not every material can be thermally evaporated, for example materials with very high melting points like Ta, W, Mo are not suitable.
 
-If we want an higher throughput(deposition rate), we can use a planetary substrate holder, where we place source in the center and substrates on rotating holders tangentially to the sphere surface to guarantee a uniform deposition on all substrates. We rotate the 
+If we want an higher throughput(deposition rate), we can use a planetary substrate holder, where we place source in the center and substrates on rotating holders tangentially to the sphere surface to guarantee a uniform deposition on all substrates. We rotate the substrates to average out non uniformities in the deposition rate due to the geometry of the system and the whole holder to have a more uniform distance from the source, that's why it's called planetary.
+![[Pasted image 20251211165953.png]]
+#### Sputtering
+
 ##### Electron Beam Evaporation
 ![[Pasted image 20251211164338.png]]
 A filament is heated to emit electrons, which are accelerated through a negative voltage and directed using a magnetic field perpendicular to the electron beam path, towards the liner containing the source material. The kinetic energy of the electrons is converted into thermal energy when they hit the source material, causing its evaporation.
