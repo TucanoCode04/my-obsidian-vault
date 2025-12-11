@@ -33,6 +33,16 @@ Not every material can be thermally evaporated, for example materials with very 
 
 If we want an higher throughput(deposition rate), we can use a planetary substrate holder, where we place source in the center and substrates on rotating holders tangentially to the sphere surface to guarantee a uniform deposition on all substrates. We rotate the substrates to average out non uniformities in the deposition rate due to the geometry of the system and the whole holder to have a more uniform distance from the source, that's why it's called planetary.
 ![[Pasted image 20251211165953.png]]
+##### Electron Beam Evaporation
+![[Pasted image 20251211164338.png]]
+A filament is heated to emit electrons, which are accelerated through a negative voltage and directed using a magnetic field perpendicular to the electron beam path, towards the liner containing the source material. The kinetic energy of the electrons is converted into thermal energy when they hit the source material, causing its evaporation.
+The liner is pre-cooled to avoid cross contamination between the liner material and the source material, and from the liner to the deposited film.
+Normally a carousel with multiple liners is used to deposit different materials without breaking the vacuum and exploiting a single electron gun. This way you can also deposit multiple layers in sequence.
+We deposit multiple metallic layers to avoid delamination due to poor adhesion between some metals and Silicon, for example Ti is used as an adhesion layer between Si and Au, and also to avoid oxidation we can add a passivation layer like Au on top of Cu.
+For example to create a Ti/Al/Au Ohmic contact we deposit an adhesion layer of Ti to avoid delamination and to compensate for Al poor adhesion on Si, then an Al layer for the Ohmic contact, and finally a Au layer to avoid oxidation of Al.
+We use a single deposition technique to deposit multiple layers in sequence to accelerate the process and to have greater throughput, also to maintain the vacuum and avoid contamination.
+![[Pasted image 20251211165600.png]]
+
 #### Sputtering
 ![[Pasted image 20251211174630.png]]
 Sputtering is a physical vapor deposition technique. Starting from a chamber with a pressure of a few mTorr(10-100 mTorr) to decrease the possibility of collisions between the sputtered atoms and to avoid contamination from the atmosphere, an Argon gas is introduced in the chamber. A high voltage is applied between the target(the source material to be deposited, positioned on a cathode) and the substrate(anode), creating a plasma. Argon is used since it's a noble gas and won't react with the target material. The high energy ions created in the plasma are accelerated towards the target, where they hit the surface and transfer their kinetic energy to the atoms of the target material. If the transferred energy is higher than the binding energy of the atoms in the target, they will be ejected from the surface(thus sputtered) and travel to the substrate, where they condense forming a thin film.
@@ -65,25 +75,10 @@ This way we can use DC sputtering even for insulating materials, since the compo
 For example to deposit SiO2 we can use a Si target and introduce O2 gas in the chamber, the sputtered Si atoms will react with O2 to form SiO2 on the substrate.
 So the main difference between reactive and non reactive sputtering is that in reactive sputtering the deposited film is a compound formed by the reaction between the sputtered atoms and the reactive gas, while in non reactive sputtering the deposited film is made of the same material as the target.
 ##### Ionized Sputtering or HDP Sputtering
-
-
-
-
-
-
-##### Electron Beam Evaporation
-![[Pasted image 20251211164338.png]]
-A filament is heated to emit electrons, which are accelerated through a negative voltage and directed using a magnetic field perpendicular to the electron beam path, towards the liner containing the source material. The kinetic energy of the electrons is converted into thermal energy when they hit the source material, causing its evaporation.
-The liner is pre-cooled to avoid cross contamination between the liner material and the source material, and from the liner to the deposited film.
-Normally a carousel with multiple liners is used to deposit different materials without breaking the vacuum and exploiting a single electron gun. This way you can also deposit multiple layers in sequence.
-We deposit multiple metallic layers to avoid delamination due to poor adhesion between some metals and Silicon, for example Ti is used as an adhesion layer between Si and Au, and also to avoid oxidation we can add a passivation layer like Au on top of Cu.
-For example to create a Ti/Al/Au Ohmic contact we deposit an adhesion layer of Ti to avoid delamination and to compensate for Al poor adhesion on Si, then an Al layer for the Ohmic contact, and finally a Au layer to avoid oxidation of Al.
-We use a single deposition technique to deposit multiple layers in sequence to accelerate the process and to have greater throughput, also to maintain the vacuum and avoid contamination.
-![[Pasted image 20251211165600.png]]
-
-
-
-
+As we said previously the conformality of sputtered films is not great, since the sputtered atoms are neutral and travel in straight lines from the target to the substrate, causing shadowing effects. To improve the conformality we can ionize the sputtered atoms using an RF coil placed between the target and the substrate. The ionized atoms can then be directed towards the substrate using electric fields, allowing for better step coverage and conformality, especially in high aspect ratio features.
+This technique is also called High Density Plasma(HDP) sputtering, since the ionization of the sputtered atoms increases the plasma density in the chamber.
+For example we can use this technique to create vertical interconnection between different metal layers in a multilayer structure, called vias, with good step coverage and conformality.
+![[Pasted image 20251211183939.png]]
 #### Electroplating - Electrodeposition - Galvanic Deposition
 One of the oldest deposition techniques, the most basic form of electroplating involves:
 - a bath: a solution containing metal ions to be deposited
