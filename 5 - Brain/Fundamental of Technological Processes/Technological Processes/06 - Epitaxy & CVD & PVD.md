@@ -39,9 +39,16 @@ Sputtering is a physical vapor deposition technique. Starting from a chamber wit
 You can deposit almost any material with sputtering, even those with high melting points like Ta, W, Mo. The only downside is that is more expensive.
 Through sputtering you can achieve a better adhesion between the deposited film and the substrate, since the high energy of the sputtered atoms promotes intermixing at the interface.
 We can have both DC and RF sputtering.
+##### DC Sputtering
 ![[Pasted image 20251211175315.png]]
 You place a DC voltage on the cathode(target) and ground the anode(substrate). The plasma is created and the ions are accelerated towards the target, sputtering atoms that will deposit on the substrate. You have one inlet for the Argon gas and one outlet for the vacuum pump.
-Since the substrate is cold there's no migration of atoms on the surface, so the deposition is topography dependent. But it's a little bit better than El
+Since the substrate is cold there's no migration of atoms on the surface, so the deposition is topography dependent. But it's a little bit better than Electron Beam Evaporation since the source points are multiple, basically every sputtered atom is a source point, so shadowing effects are reduced, while in Electron Beam Evaporation there's a single source point.
+So the conformality of DC sputtering(step coverage) is better than Electron Beam Evaporation, but still not great, and it gets worse with higher aspect ratio features and as the deposition thickness increases because shadowing effects increase. So the top areas get more deposition than the bottom of the trenches.
+![[Pasted image 20251211175832.png]]
+The bottlenecks of DC sputtering  are the power to create and sustain the plasma, and the target material may be loss due to sputtering.
+##### RF Sputtering
+
+
 
 
 
