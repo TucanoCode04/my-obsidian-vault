@@ -47,7 +47,14 @@ So the conformality of DC sputtering(step coverage) is better than Electron Beam
 ![[Pasted image 20251211175832.png]]
 The bottlenecks of DC sputtering  are the power to create and sustain the plasma, and the target material may be loss due to sputtering.
 ##### RF Sputtering
-
+![[Pasted image 20251211180451.png]]
+RF sputtering is used for insulating target materials, since in DC sputtering the target needs to be conductive to avoid charge build up on the surface that would stop the sputtering process.
+An AC voltage at radio frequency(typically 13.56 MHz) is applied to the target, creating a plasma. The oscillating electric field causes the ions to accelerate towards the target during the negative half cycle, sputtering atoms. During the positive half cycle, electrons are accelerated towards the target, neutralizing the charge build up on the surface, and we allow the deposition on the substrate.(write it better)
+Basically when the electric field points upwards the target is negative and ions are accelerated towards it, while when it points downwards the target is positive and electrons are accelerated towards it and deposition will happen on the substrate.
+The top electrode, the one connected to the RF power supply, the target, is now smaller than the grounded electrode, the substrate holder. This causes a self biasing effect, where the target develops a negative DC bias with respect to the plasma potential, increasing the energy of the ions hitting the target and thus the sputtering rate.
+##### Magnetron Sputtering
+![[Pasted image 20251211181404.png]]
+Magnetron sputtering is a variation of sputtering that uses magnetic fields to confine the plasma close to the target surface. This increases the number of 
 
 
 
