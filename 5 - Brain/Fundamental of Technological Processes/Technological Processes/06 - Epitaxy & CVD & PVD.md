@@ -35,6 +35,11 @@ If we want an higher throughput(deposition rate), we can use a planetary substra
 ![[Pasted image 20251211165953.png]]
 #### Sputtering
 
+
+
+
+
+
 ##### Electron Beam Evaporation
 ![[Pasted image 20251211164338.png]]
 A filament is heated to emit electrons, which are accelerated through a negative voltage and directed using a magnetic field perpendicular to the electron beam path, towards the liner containing the source material. The kinetic energy of the electrons is converted into thermal energy when they hit the source material, causing its evaporation.
