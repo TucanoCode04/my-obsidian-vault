@@ -30,11 +30,18 @@ There's a table to help choosing the crucible material based on the source mater
 - the crucible melting point must be higher than the source material melting point
 - cross contamination with the wire used for resistive heating must be avoided(ex: W wire can contaminate with W atoms the deposited film)
 Not every material can be thermally evaporated, for example materials with very high melting points like Ta, W, Mo are not suitable.
+
+If we want an higher throughput(deposition rate), we can use a planetary substrate holder, where we place source in the center and substrates on rotating holders tangentially to the sphere surface to guarantee a uniform deposition on all substrates. We rotate the 
 ##### Electron Beam Evaporation
 ![[Pasted image 20251211164338.png]]
 A filament is heated to emit electrons, which are accelerated through a negative voltage and directed using a magnetic field perpendicular to the electron beam path, towards the liner containing the source material. The kinetic energy of the electrons is converted into thermal energy when they hit the source material, causing its evaporation.
 The liner is pre-cooled to avoid cross contamination between the liner material and the source material, and from the liner to the deposited film.
-Normally a carousel with multiple liners is used to deposit different materials without breaking the vacuum and exploiting a single electron gun. This way you can also deposit multiple l
+Normally a carousel with multiple liners is used to deposit different materials without breaking the vacuum and exploiting a single electron gun. This way you can also deposit multiple layers in sequence.
+We deposit multiple metallic layers to avoid delamination due to poor adhesion between some metals and Silicon, for example Ti is used as an adhesion layer between Si and Au, and also to avoid oxidation we can add a passivation layer like Au on top of Cu.
+For example to create a Ti/Al/Au Ohmic contact we deposit an adhesion layer of Ti to avoid delamination and to compensate for Al poor adhesion on Si, then an Al layer for the Ohmic contact, and finally a Au layer to avoid oxidation of Al.
+We use a single deposition technique to deposit multiple layers in sequence to accelerate the process and to have greater throughput, also to maintain the vacuum and avoid contamination.
+![[Pasted image 20251211165600.png]]
+
 
 
 
