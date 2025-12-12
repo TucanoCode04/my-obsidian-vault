@@ -21,7 +21,13 @@ Epitaxial techniques can be further divide according to the characteristics of t
 
 Why do we use epitaxy?
 - to add a lightly doped layer on top of a heavily doped substrate to increase the breakdown voltage(meaning the maximum voltage that can be applied before the material becomes conductive), this is inversely proportional to the doping concentration since higher doping means more free carriers that can conduct current. For example in power devices like diodes and transistors, we want a high breakdown voltage to handle high voltages without failure.
-- to create layers with opposite doping types on a substrate, for example a pn jun
+- to create layers with opposite doping types on a substrate, for example a pn junction is a conductive diode when negative voltage is applied to the n side and positive to the p side, allowing current flow, and non conductive when the voltage is reversed. 
+- to create buried doped layers in a substrate, by growing an epitaxial layer on top of a doped substrate, we can create a buried layer with specific electrical properties.
+- to create a low roughness(mirrorlike, few nm) surface for subsequent processing steps, since epitaxial layers can have very low surface roughness, which is important for high-quality device fabrication. So you can grow an epitaxial layer of the same material as the substrate to create a smooth surface.
+- to create heterostructures with specific electrical and optical properties, by growing layers of different materials on a substrate, we can engineer the band structure and other properties of the resulting heterostructure for applications in optoelectronics and high-speed electronics. As we know the doping distribution has a gaussian profile, but with epitaxy we can create abrupt junctions with sharp doping transitions, step like profiles.
+- to create strained layers to modify the material properties, by growing a layer with a different lattice constant than the substrate, we can induce strain in the epitaxial layer, which can alter its electronic and optical properties.
+![[Pasted image 20251212121909.png]]
+This graph shows additionally to the requirements listed before to achieve epitaxial growth, the grow rate in function of the temperature(in this case the high temperature is on the left side). )
 
 
 
