@@ -75,6 +75,14 @@ When the substrate is cold, the precursor gases don't have enough energy to migr
 When the substrate is heated, the precursor gases gain enough energy to migrate on the surface before depositing. This allows them to reach areas that are not directly exposed to the gas flux, improving conformality and resulting in a more uniform coating of high aspect ratio features.
 ![[Pasted image 20251212173931.png]]
 We describe conformality based on how well the deposited film replicates the underlying surface topography. High conformality means that the film closely follows the contours of the substrate, while low conformality indicates that the film does not adequately cover features such as trenches or vias.
+Some examples of bad conformality are key holes(leading to bad step coverage) and seams(leading to voids).
+PVD is non conformal, while CVD is conformal. Obviously the conformality depends on the temperature of the substrate, higher temperature means higher conformality.
+##### Atmospheric Pressure CVD (APCVD) and Low Pressure CVD (LPCVD)
+We have two different techniques to break the gaseous precursor molecules:
+- Atmospheric Pressure CVD (APCVD): the process is carried out at atmospheric pressure(1 atm). The high pressure promotes collisions between gas molecules, leading to a higher reaction rate and faster deposition. However, it can also result in non-uniform film thickness and lower conformality due to limited gas diffusion into high aspect ratio features. You have a reaction chamber with gas inlets and outlets curtains to maintain the pressure and keep control of the contamination, and you have a conveyor belt to move the wafers through the chamber for continuous processing.
+![[Pasted image 20251212174625.png]]
+- Low Pressure CVD (LPCVD): the process is carried out at reduced pressure(typically 5 orders of magnitude lower than atmospheric pressure, around $0.1-1 Torr$). The low pressure reduces collisions between gas molecules, allowing for better gas diffusion into high aspect ratio features and improved conformality. However, the reaction rate may be slower compared to APCVD, requiring longer deposition times. 
+#### Plasma Enhanced CVD (PECVD)
 
 
 
