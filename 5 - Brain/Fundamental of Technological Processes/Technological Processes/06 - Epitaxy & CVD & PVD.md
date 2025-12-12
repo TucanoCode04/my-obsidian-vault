@@ -115,7 +115,9 @@ The pros and cons of PECVD are:
 	- More expensive due to the need for plasma generation equipment.
 	- Film quality may be lower compared to traditional CVD processes, with higher levels of impurities and defects.
 #### Atomic Layer Deposition (ALD)
-
+ALD is a thin film deposition technique that allows for precise control of film thickness and composition at the atomic scale. It is based on sequential, self-limiting surface saturation reactions between precursor gases and the substrate surface, meaning that each precursor gas reacts with the surface until all available reactive sites are occupied, preventing further reaction until the next precursor is introduced.
+One cycle is a 4 step process, we give an example of depositing Al2O3 using TMA(trimethylaluminum, C3H) and H2O as precursors:
+1. Elimination of hydrogen atoms bound to oxygen at the substrate surface: The methyl groups(CH3) from TMA react with hydrogen atoms bound to oxygen on the substrate surface, forming methane(CH4) and leaving behind Al atoms bonded to the oxygen atoms on the surface, till all the reactive sites are occupied.
 
 
 
