@@ -99,9 +99,23 @@ The electrons are forced to follow the oscillating electric field, gaining energ
 A steady state plasma is achieved when the rate of ionization balances the rate of recombination and loss processes in the plasma.
 ##### Plasma Enhanced CVD (PECVD) Process
 ![[Pasted image 20251212184149.png]]
-In PECVD, the plasma generated in the reaction chamber provides additional energy to the precursor gases, promoting chemical reactions on the substrate surface at lower temperatures compared to traditional CVD processes. This allows for the deposition of high-quality films on temperature-sensitive substrates and improves conformality in high aspect ratio features.
+In PECVD, the plasma generated in the reaction chamber provides additional energy to the precursor gases, promoting chemical reactions on the substrate surface at lower temperatures compared to traditional CVD processes. 
 It forces reaction that wouldn't happen at low temperatures, allowing for lower temperature deposition. The main disadvantage is that the plasma can damage sensitive substrates due to the presence of radicals that contain molecules that contaminate the film.
 The main advantages as states before are the we can deposit on temperature sensitive substrates and in general in our process flow we want to start with high temperature processes and then move to lower temperature ones to avoid damaging previously deposited layers, so PECVD is useful for later deposition steps(near end processing).
+So in the end, even if it doesn't ensure high quality films like traditional CVD, it's useful for low temperature depositions.
+![[Pasted image 20251212184602.png]]
+##### PECVD Process Control Parameters
+![[Pasted image 20251212184647.png]]
+The pros and cons of PECVD are:
+- Pros: 
+	- Lower deposition temperatures compared to traditional CVD processes, making it suitable for temperature-sensitive substrates.
+	- High deposition rates due to acceleration of ionized species in the plasma toward the substrate.
+- Cons:
+	- More complex equipment and process control compared to traditional CVD.
+	- More expensive due to the need for plasma generation equipment.
+	- Film quality may be lower compared to traditional CVD processes, with higher levels of impurities and defects.
+#### Atomic Layer Deposition (ALD)
+
 
 
 
