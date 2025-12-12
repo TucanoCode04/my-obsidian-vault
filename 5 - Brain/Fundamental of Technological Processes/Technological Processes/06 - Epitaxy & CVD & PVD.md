@@ -52,7 +52,16 @@ There are different types of reactors used in VPE, the most common are:
 #### Liquid Phase Epitaxy (LPE)
 ![[Pasted image 20251212170526.png]]
 LPE is a technique where the precursor materials are in the liquid phase, typically as molten materials, it is used when you can't vaporize the material easily. 
-In this process you exploit the principle of supersaturation, meaning that the liquid solution contains 
+In this process you exploit the principle of supersaturation, meaning that the liquid solution contains more dissolved material than it can normally hold at a given temperature. When the solution is cooled or when the substrate is introduced, the excess material precipitates out of the solution and deposits onto the substrate, forming an epitaxial layer.
+It is used for III-V semiconductors, SiC or multilayer structures, since it's difficult to vaporize them.
+The solvent in this case is the low melting point metal component of the compound, for example in GaAs the solvent is Ga, while As is the solute or in InP the solvent is In and P is the solute.
+The high temperature present a trade-off between the solubility of the solute in the solvent(higher temperature means higher solubility) and the thermal degradation of the substrate and the deposited layer(lower temperature means less degradation).
+![[Pasted image 20251212171429.png]]
+The reaction chamber is is made of a crucible containing the molten solution, heated by resistive heating elements. The droplets are placed in a well and the substrate is positioned on a sliding holder below the molten solution. As you reach the desired growth temperature, you slide the substrate up into contact with the molten solution. The solution cools down near the substrate surface, causing supersaturation and deposition of the epitaxial layer. After the desired thickness is achieved, you slide the substrate back down into the well to stop the growth.
+You use a flow of purified H2 gas to create an inert atmosphere and avoid contamination from the air, you can't use oxygen since it would oxidize the molten solution.
+#### Molecular Beam Epitaxy (MBE)
+![[Pasted image 20251212171846.png]]
+
 
 #### Physical Vapor Deposition (PVD)
 The type of bonding is no more chemical, but physical (Van der Waals forces, electrostatic forces, etc). The atoms or molecules are deposited by physical means, such as evaporation or sputtering. The process is mostly used for metals and alloys.
