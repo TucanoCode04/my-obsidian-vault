@@ -6,6 +6,13 @@ Status:
 Tags:
 
 # 06 - Epitaxy & CVD & PVD
+#####  Epitaxy
+Epitaxy is a deposition technique used to grow a monocrystalline layer on a monocrystalline substrate, where the deposited layer follows the crystallographic orientation of the substrate. The requirements for epitaxial growth are:
+- the substrate must be monocrystalline to act as a seed for the growth of the epitaxial layer
+- the crystallographic structure and lattice parameters of the substrate and the deposited layer must be similar to minimize lattice mismatch and defects(maximum mismatch of 2-3%)
+Epitaxy can be classified into two main types:
+- Homoepitaxy: the deposited layer is made of the same material as the substrate(ex: Si on Si)
+- Heteroepitaxy: the deposited layer is made of a different material than the substrate(ex: GaAs on Si, they are both cubic but have different lattice constants)
 
 
 
