@@ -30,7 +30,9 @@ Why do we use epitaxy?
 This graph shows additionally to the requirements listed before to achieve epitaxial growth, the grow rate in function of the temperature(in this case the high temperature is on the left side). If we stay above the line we have polycrystalline growth, while below it we have monocrystalline growth, so if we want the latter we need to moderate the temperature and the growth rate.
 #### Vapor Phase Epitaxy (VPE)
 ![[Pasted image 20251212122240.png]]
-
+VPE is a technique where the precursor materials are in the vapor phase, typically as gases or vaporized liquids, made using bubbler systems. The process is carried out in a quartz reactor with a wafer holder made of graphite or silicon carbide(SiC) to withstand high temperatures(up to 1200°C) and RF induction coils that heat the reactor and the wafers.
+Thanks to the high temperatures, the precursor gases molecules decompose on the wafer surface, where they migrate to the position where they minimize their energy, forming a monocrystalline layer that follows the crystallographic orientation of the substrate(for example they find a vacancy in the lattice and fill it). 
+We use different precursors for different uses, the reaction chamber can be even used for doping by introducing dopant gases in the chamber.
 
 
 #### Physical Vapor Deposition (PVD)
