@@ -125,39 +125,18 @@ One cycle is a 4 step process, we give an example of depositing Al2O3 using TMA(
 This way we have deposited exactly one monolayer of Al2O3 per cycle, and we can repeat the cycle since the surface is ready with -OH groups again. It's called atomic layer deposition since we deposit one atomic layer per cycle.
 This process is perfectly conformal, since the precursor gases can reach all areas of the substrate surface, even high aspect ratio features like trenches or vias, due to the self-limiting nature of the surface reactions.
 #### Deposited Materials
+##### Silicon Dioxide (SiO2)
 Silicon Dioxide (SiO2) can be created through oxidation, but we can deposit it, with worse quality, using CVD, for different applications:
 - undoped oxide: used as physical separator or insulator between different layers of metal(where you can't use thermal oxidation since it would oxidize the metal) or as masking layer for ion implantation and diffusion processes, or just to increase the thickness of a thermally grown oxide layer. For example in transistors we superimpose 17 layers of metals and to sustain them and insulate them we use undoped oxide layers deposited with CVD.
 - doped oxide: used for passivation layers to protect the underlying layers from contamination and damage, or as last layer to protect the device.
 
 ![[Pasted image 20251212193247.png]]
 In the table we can see the different deposition techniques for SiO2, from right to left we see: lower temperature, worse contamination, worse thermal stability, worse dielectric strength, worse mechanical stress, worse conformality. So it's a trade-off between temperature and quality.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+##### Polysilicon
+Polysilicon is a material made up of small silicon crystals, or grains, that are randomly oriented. 
+The grain size depends on the deposition temperature, higher temperature means larger grains, leading to monocrystalline-like properties, while lower temperature means smaller grains, leading to more grain boundaries and defects. 
+High temperature is mandatory to create monocrystalline silicon, but it's not sufficient, since we also need a seed crystal to grow on, otherwise we would create polycrystalline silicon.
+Polysilicon is used for example to create gate electrodes in MOSFETs, since it can be heavily doped to achieve high conductivity, and it can withstand high temperatures during subsequent processing steps.
 #### Physical Vapor Deposition (PVD)
 The type of bonding is no more chemical, but physical (Van der Waals forces, electrostatic forces, etc). The atoms or molecules are deposited by physical means, such as evaporation or sputtering. The process is mostly used for metals and alloys.
 ##### Thermal Evaporation
