@@ -115,9 +115,18 @@ The pros and cons of PECVD are:
 	- More expensive due to the need for plasma generation equipment.
 	- Film quality may be lower compared to traditional CVD processes, with higher levels of impurities and defects.
 #### Atomic Layer Deposition (ALD)
+![[Pasted image 20251212192427.png]]
 ALD is a thin film deposition technique that allows for precise control of film thickness and composition at the atomic scale. It is based on sequential, self-limiting surface saturation reactions between precursor gases and the substrate surface, meaning that each precursor gas reacts with the surface until all available reactive sites are occupied, preventing further reaction until the next precursor is introduced.
-One cycle is a 4 step process, we give an example of depositing Al2O3 using TMA(trimethylaluminum, C3H) and H2O as precursors:
-1. Elimination of hydrogen atoms bound to oxygen at the substrate surface: The methyl groups(CH3) from TMA react with hydrogen atoms bound to oxygen on the substrate surface, forming methane(CH4) and leaving behind Al atoms bonded to the oxygen atoms on the surface, till all the reactive sites are occupied.
+One cycle is a 4 step process, we give an example of depositing Al2O3 using TMA(trimethylaluminum, C3H9Al) and H2O as precursors:
+1. Elimination of hydrogen atoms bound to oxygen at the substrate surface: The methyl groups(CH3) from TMA react with hydrogen atoms bound to oxygen on the substrate surface, forming methane(CH4) and leaving behind Al atoms bonded to the oxygen atoms on the surface, till all the reactive sites are occupied. So basically we start on the surface with -OH groups, we lose an -H from the -OH that bounds with a CH3 from TMA, forming CH4 and leaving an -O-Al- group on the surface with still attached -CH3 groups.
+2. Purge: An inert gas, such as nitrogen or argon, is introduced into the chamber to remove any unreacted TMA and byproducts from the previous step.
+3. Reaction with water: Water molecules react with the Al atoms bonded to the oxygen atoms on the surface, forming Al-OH groups and releasing methane(CH4) as a byproduct, till all the reactive sites are occupied. So now we have -O-Al- groups with still attached -CH3 groups on the surface, the H2O reacts with the -CH3 groups, forming CH4 and leaving -O-Al-OH groups on the surface. Ready for the next cycle.
+4. Purge: Another inert gas purge is performed to remove any unreacted water and byproducts from the previous step.
+This way we have deposited exactly one monolayer of Al2O3 per cycle, and we can repeat the cycle since the surface is ready with -OH groups again. It's called atomic layer deposition since we deposit one atomic layer per cycle.
+This process is perfectly conformal, since the precursor gases can reach all areas of the substrate surface, even high aspect ratio features like trenches or vias, due to the self-limiting nature of the surface reactions.
+#### Deposited Materials
+
+
 
 
 
