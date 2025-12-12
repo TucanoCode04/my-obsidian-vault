@@ -93,7 +93,15 @@ There are 4 main collision processes that can occur in the plasma:
 - excitation: $e^- + A \rightarrow e^- + A^*$, where the atom or molecule has an electron in an higher excited state that will return to the ground state releasing a photon green, blue or purple
 - relaxation: $Ar^* \rightarrow Ar + h\nu$, where an excited atom or molecule returns to its ground state releasing a photon, this gives the plasma its characteristic glow, the color of the glow depends on the gas used
 ##### Generating Plasma(RF Voltage, Alternator)
-
+![[Pasted image 20251212183538.png]]
+In RF plasma generation, an alternating current(AC) voltage at radio frequency(typically 13.56 MHz) is applied between two electrodes in a low pressure chamber filled with a process gas(typically Argon). The oscillating electric field causes the electrons to accelerate back and forth between the electrodes, colliding with gas molecules and ionizing them, thus sustaining the plasma.
+The electrons are forced to follow the oscillating electric field, gaining energy during each half cycle and colliding with gas molecules, while the heavier ions respond more slowly to the changing electric field, resulting in a plasma that is primarily sustained by electron collisions.
+A steady state plasma is achieved when the rate of ionization balances the rate of recombination and loss processes in the plasma.
+##### Plasma Enhanced CVD (PECVD) Process
+![[Pasted image 20251212184149.png]]
+In PECVD, the plasma generated in the reaction chamber provides additional energy to the precursor gases, promoting chemical reactions on the substrate surface at lower temperatures compared to traditional CVD processes. This allows for the deposition of high-quality films on temperature-sensitive substrates and improves conformality in high aspect ratio features.
+It forces reaction that wouldn't happen at low temperatures, allowing for lower temperature deposition. The main disadvantage is that the plasma can damage sensitive substrates due to the presence of radicals that contain molecules that contaminate the film.
+The main advantages as states before are the we can deposit on temperature sensitive substrates and in general in our process flow we want to start with high temperature processes and then move to lower temperature ones to avoid damaging previously deposited layers, so PECVD is useful for later deposition steps(near end processing).
 
 
 
