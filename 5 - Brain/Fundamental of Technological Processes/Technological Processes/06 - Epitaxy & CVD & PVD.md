@@ -61,6 +61,38 @@ The reaction chamber is is made of a crucible containing the molten solution, he
 You use a flow of purified H2 gas to create an inert atmosphere and avoid contamination from the air, you can't use oxygen since it would oxidize the molten solution.
 #### Molecular Beam Epitaxy (MBE)
 ![[Pasted image 20251212171846.png]]
+MBE is a technique where the precursor materials are in the vapor phase, but the growth occurs in ultra-high vacuum conditions(pressure of $10^{-10} Torr$). 
+As always the molecules or atoms are rarified enough that their mean free path is very long, so that collisions between them are negligible. This allows for precise control over the growth process and the ability to create complex structures with atomic layer precision, but it's expensive and slow.
+The molecules or atoms to be deposited are kept in Knudsen cells, which are heated crucibles that evaporate the source materials, creating molecular beams that travel through the vacuum chamber and deposit onto the substrate. The sliding shutter allows for precise control of the deposition time and thickness. The substrate rotates to ensure uniform deposition across its surface.
+The presence of a load-lock chamber allows for the introduction and removal of substrates without breaking the ultra-high vacuum conditions in the main growth chamber, preserving the purity of the environment. The wafer is loaded in this chamber where the pressure gets pumped down to ultra-high vacuum levels before transferring it to the main chamber for epitaxial growth, thus avoiding contamination and increasing the throughput, since you don't need to wait for the main chamber to reach ultra-high vacuum levels every time you load a new wafer.
+#### Chemical Vapor Deposition (CVD)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #### Physical Vapor Deposition (PVD)
