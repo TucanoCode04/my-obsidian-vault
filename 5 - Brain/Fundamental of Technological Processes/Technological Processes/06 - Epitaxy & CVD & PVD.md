@@ -66,8 +66,15 @@ As always the molecules or atoms are rarified enough that their mean free path i
 The molecules or atoms to be deposited are kept in Knudsen cells, which are heated crucibles that evaporate the source materials, creating molecular beams that travel through the vacuum chamber and deposit onto the substrate. The sliding shutter allows for precise control of the deposition time and thickness. The substrate rotates to ensure uniform deposition across its surface.
 The presence of a load-lock chamber allows for the introduction and removal of substrates without breaking the ultra-high vacuum conditions in the main growth chamber, preserving the purity of the environment. The wafer is loaded in this chamber where the pressure gets pumped down to ultra-high vacuum levels before transferring it to the main chamber for epitaxial growth, thus avoiding contamination and increasing the throughput, since you don't need to wait for the main chamber to reach ultra-high vacuum levels every time you load a new wafer.
 #### Chemical Vapor Deposition (CVD)
-
-
+CVD is a deposition technique where precursor gases react chemically on the heated substrate surface to form a solid material that deposits as a thin film. 
+CVD is not strictly monocrystalline, otherwise it would be VPE, but it can be polycrystalline or amorphous depending on the process conditions and the materials used. But LPE is not CVD since the precursor materials are in liquid phase.
+##### Acceptance Angle and Conformality
+![[Pasted image 20251212173551.png]]
+The growth of the film depends on the flux of precursor gases incident on the substrate surface. The acceptance angle is the maximum angle at which precursor gases can effectively reach and deposit on the substrate surface. 
+When the substrate is cold, the precursor gases don't have enough energy to migrate on the surface, so they deposit where they land, resulting in an acceptance angle dependency on the surface topography. This leads to poor conformality, meaning that high aspect ratio features like trenches or vias may not be fully coated, since the precursor gases can't reach the bottom of these features due to shadowing effects. 
+When the substrate is heated, the precursor gases gain enough energy to migrate on the surface before depositing. This allows them to reach areas that are not directly exposed to the gas flux, improving conformality and resulting in a more uniform coating of high aspect ratio features.
+![[Pasted image 20251212173931.png]]
+We describe conformality based on how well the deposited film replicates the underlying surface topography. High conformality means that the film closely follows the contours of the substrate, while low conformality indicates that the film does not adequately cover features such as trenches or vias.
 
 
 
