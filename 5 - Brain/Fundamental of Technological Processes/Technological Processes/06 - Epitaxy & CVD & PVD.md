@@ -13,8 +13,15 @@ Epitaxy is a deposition technique used to grow a monocrystalline layer on a mono
 Epitaxy can be classified into two main types:
 - Homoepitaxy: the deposited layer is made of the same material as the substrate(ex: Si on Si)
 - Heteroepitaxy: the deposited layer is made of a different material than the substrate(ex: GaAs on Si, they are both cubic but have different lattice constants)
+![[Pasted image 20251212120122.png]]
+Epitaxial techniques can be further divide according to the characteristics of the Mother Phase, the reactor in which the epitaxial growth takes place:
+- Vapor Phase Epitaxy (VPE): the precursor materials are in the vapor phase(gas or vaporized liquids). It's a simple technique and it's the most used for Si epitaxy, it can't be used for all materials since not all materials can be vaporized easily.
+- Liquid Phase Epitaxy (LPE): the precursor materials are in the liquid phase(molten). It allows for high growth rates and good crystal quality, but it's limited to materials that can be melted without decomposition.
+- Molecular Beam Epitaxy (MBE): the precursor materials are again gas phase, but the growth occurs in ultra-high vacuum conditions. The molecules or atoms are so rarified that their mean free path is very long, so that collisions between them are negligible. It allows for precise control over the growth process and the ability to create complex structures with atomic layer precision, but it's expensive and slow.
 
-
+Why do we use epitaxy?
+- to add a lightly doped layer on top of a heavily doped substrate to increase the breakdown voltage(meaning the maximum voltage that can be applied before the material becomes conductive), this is inversely proportional to the doping concentration since higher doping means more free carriers that can conduct current. For example in power devices like diodes and transistors, we want a high breakdown voltage to handle high voltages without failure.
+- to create layers with opposite doping types on a substrate, for example a pn jun
 
 
 
