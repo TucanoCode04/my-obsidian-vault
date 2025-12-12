@@ -27,7 +27,9 @@ Why do we use epitaxy?
 - to create heterostructures with specific electrical and optical properties, by growing layers of different materials on a substrate, we can engineer the band structure and other properties of the resulting heterostructure for applications in optoelectronics and high-speed electronics. As we know the doping distribution has a gaussian profile, but with epitaxy we can create abrupt junctions with sharp doping transitions, step like profiles.
 - to create strained layers to modify the material properties, by growing a layer with a different lattice constant than the substrate, we can induce strain in the epitaxial layer, which can alter its electronic and optical properties.
 ![[Pasted image 20251212121909.png]]
-This graph shows additionally to the requirements listed before to achieve epitaxial growth, the grow rate in function of the temperature(in this case the high temperature is on the left side). )
+This graph shows additionally to the requirements listed before to achieve epitaxial growth, the grow rate in function of the temperature(in this case the high temperature is on the left side). If we stay above the line we have polycrystalline growth, while below it we have monocrystalline growth, so if we want the latter we need to moderate the temperature and the growth rate.
+#### Vapor Phase Epitaxy (VPE)
+![[Pasted image 20251212122240.png]]
 
 
 
