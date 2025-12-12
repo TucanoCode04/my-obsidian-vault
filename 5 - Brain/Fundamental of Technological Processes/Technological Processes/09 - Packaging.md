@@ -16,7 +16,7 @@ An overview of the packaging steps contains several key stages:
 ##### Packaging Steps
 - Wafer Sawing: The wafer is cut into individual dies mechanically using a diamond saw or laser. The mechanical saw is used for thicker and irregular wafers
 - Dies bonding: The good dies are picked and placed onto a substrate 
-- Wire Bonding: Connecting the die to the package electrical leads using fine wires  made of gold, aluminum, or copper. Basically there's a machine that splashes the gold onto the die and package leads to create electrical connections
+- Wire Bonding: Connecting the die to the package electrical leads using fine wires made of gold, aluminum, or copper. Basically there's a machine that splashes the gold onto the die and package leads to create electrical connections
 - Package Sealing: The die and wire bonds are encapsulated in a protective package using molding or sealing techniques to protect against environmental factors
 - Inspection and Testing: The packaged devices undergo final electrical testing and visual inspection to ensure quality and functionality
 ![[Pasted image 20251206172658.png]]

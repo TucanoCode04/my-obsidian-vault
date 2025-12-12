@@ -33,7 +33,26 @@ This graph shows additionally to the requirements listed before to achieve epita
 VPE is a technique where the precursor materials are in the vapor phase, typically as gases or vaporized liquids, made using bubbler systems. The process is carried out in a quartz reactor with a wafer holder made of graphite or silicon carbide(SiC) to withstand high temperatures(up to 1200°C) and RF induction coils that heat the reactor and the wafers.
 Thanks to the high temperatures, the precursor gases molecules decompose on the wafer surface, where they migrate to the position where they minimize their energy, forming a monocrystalline layer that follows the crystallographic orientation of the substrate(for example they find a vacancy in the lattice and fill it). 
 We use different precursors for different uses, the reaction chamber can be even used for doping by introducing dopant gases in the chamber.
+The chamber's walls are maintained at a lower temperature than the wafers to avoid unwanted deposition on the walls that could contaminate subsequent processes.
 
+To list some properties of the gases used in epitaxy: 
+- corrosive to the equipment
+- toxic
+- flammable
+- explosive
+- some are pyrophoric(ignite spontaneously in air)
+
+There are different types of reactors used in VPE, the most common are:
+- Horizontal reactors: the wafers are placed horizontally in a quartz tube, and the gases flow horizontally over the wafer surfaces. This design allows for easy loading and unloading of wafers, but it can lead to non-uniform gas distribution and temperature gradients across the wafers.
+- Vertical reactors: the wafers are placed vertically in a quartz tube, and the gases flow vertically over the wafer surfaces. This design provides better gas distribution and temperature uniformity across the wafers, but it can be more challenging to load and unload wafers.
+- Rotating Disk Reactors: the wafers are mounted on a rotating disk that spins within the quartz tube. This rotation helps to improve gas distribution and temperature uniformity across the wafer surfaces, leading to more consistent epitaxial growth.
+- Barrel Reactors: the wafers are placed in a cylindrical chamber, and the gases flow radially over the wafer surfaces. This design allows for high throughput and uniform gas distribution, making it suitable for large-scale epitaxial growth.
+- Pancake Reactors: the wafers are arranged in a horizontal stack, resembling a stack of pancakes. The gases flow vertically over the wafer surfaces, providing good gas distribution and temperature uniformity. This design is often used for batch processing of multiple wafers simultaneously.
+![[Pasted image 20251212170331.png]]
+#### Liquid Phase Epitaxy (LPE)
+![[Pasted image 20251212170526.png]]
+LPE is a technique where the precursor materials are in the liquid phase, typically as molten materials, it is used when you can't vaporize the material easily. 
+In this process you exploit the principle of supersaturation, meaning that the liquid solution contains 
 
 #### Physical Vapor Deposition (PVD)
 The type of bonding is no more chemical, but physical (Van der Waals forces, electrostatic forces, etc). The atoms or molecules are deposited by physical means, such as evaporation or sputtering. The process is mostly used for metals and alloys.
