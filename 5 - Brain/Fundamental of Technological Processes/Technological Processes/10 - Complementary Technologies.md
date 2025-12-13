@@ -120,6 +120,7 @@ At the end the mold opens and the part is ejected.
 ##### Hot Embossing
 This process is similar to microinjection molding, but instead of injecting molten polymer into a mold, a heated master mold is pressed into a thermoplastic polymer substrate. The polymer is heated allowing the molecules to become more mobile and slide past each other, then the mold is pressed into the polymer, creating the desired microstructure. After cooling, you de-emboss the polymer from the mold.
 This technique produces parts with high resolution $\approx$ 0.2$\mu$m, but it's slower and more expensive than microinjection molding.
+![[Pasted image 20251213170624.png]]
 ##### In-Situ Casting
 In-situ casting is a technique used to create microstructures out of elastomeric polymers, such as PDMS (Polydimethylsiloxane). The process is cheap and used for disposable devices.
 You pre weight the two parts of the PDMS (the olygomer base and the curing agent) and mix them together. Then you degas the mixture in a vacuum chamber to remove any air bubbles that could have formed during the mixing process. 
