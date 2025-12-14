@@ -28,7 +28,7 @@ Fractioned distillation is a method that exploits the different boiling points o
 Fractional distillation is the separation of a mixture into its component parts, or fractions, based on differences in boiling points using a distillation column.
 
 Now we have TCS, which is purified, but we need to convert it back to Silicon. The purified TCS is reduced with hydrogen(H2) to obtain electronic grade silicon(EGS). 
-This process is called the Siemens process and the reaction is: $SiHCl_3 (gas) + H_2 (gas) \rightarrow Si (solid) + 3HCl (gas) \space @ 1100^\circ C$.
+This process is called the **Siemens process** and the reaction is: $SiHCl_3 (gas) + H_2 (gas) \rightarrow Si (solid) + 3HCl (gas) \space @ 1100^\circ C$.
 The technique used is chemical vapor deposition(CVD), that is why we use H2 as the carrier to generate bubbles of SiHCl3(like blowing bubbles in a soda bottle). Then the bubbles are sent into a reaction chamber containing a heated silicon rod, where the reaction happens and the silicon deposits on the rod. After a few days the result is ana extremely pure polycrystalline silicon, which will be the raw material for the next step.
 
 ### Czochralski Process
