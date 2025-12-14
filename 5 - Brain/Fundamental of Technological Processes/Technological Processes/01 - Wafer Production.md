@@ -67,6 +67,7 @@ The all chamber is also externally pressurized(?).
 7. Wafer Lapping and Grinding: the thickness and section varies after sawing, you could get a tapered or a bowed wafer. In order to improve the surface quality the slices are polished. The end result of this phase is a wafer mechanically flat on both sides(like the opaque side of the final wafer). To get it optically flat you need to proceed to the next phase
 8. Wafer Polishing: the final result of this phase will be a mirror-like wafer with a roughness of 1-2nm. It is a procedure similar to lapping, but the polishing solution is less aggressive with a mixture containing smaller grains of alumina or diamond(use in lapping as well). So after the mechanical abrasion we use some chemicals. On the market there are mainly two types of wafers: SSP(Single Sided Polished) and DSP(Double Sided Polished). The mirror-like feature is necessary cause, for example, in lithography(basically light is projected through a mask on the wafer to create a quantum device) we need the precision of nanometers, or else we couldn't create or have the wanted effects for our quantum devices. (Mics are made using DSP wafers)
 9. Wafer Cleaning: the edge can't be used to fabricate quantum devices cause it contains defects(I think). Larger wafers are obviously better cause of productions costs.
+10. Laser Marking for ID
 
 If you break the wafer it will follow the crystallographic orientation, super cool.
 
