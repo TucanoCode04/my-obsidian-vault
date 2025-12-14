@@ -47,7 +47,7 @@ We can easily see that the 111 planes etch almost one order of magnitude slower 
 ![[Pasted image 20251208191104.png]]
  Increasing the temperature increases the etch rates of all planes exponentially, but the ratio between the etch rates of different planes remains almost constant. 
  Increasing the concentration of KOH increases the etch rates up to a certain point, after which the etch rates start to decrease. This is because at high concentrations the solution becomes more viscous, reducing the diffusion of the etchant to the surface and the removal of reaction products from the surface.
- ##### Etch Rate of SiO2 in KOH, Selectivity of Si vs SiO2
+#####  Etch Rate of SiO2 in KOH, Selectivity of Si vs SiO2
 ![[Pasted image 20251208191241.png]]
 The etch rate of SiO2 in KOH is two orders of magnitude lower than that of Si, so we can even use thin SiO2 layers as masking layers for KOH etching of Si.
 We have a trade-off between etch rate and selectivity, higher temperatures increase the etch rate of Si, but decrease the selectivity of Si vs SiO2.
