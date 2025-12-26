@@ -84,8 +84,16 @@ As we said before, we focus on a single subband with offset energy equal to zero
 $$D(E) = \frac{1}{A} \frac{dN}{dE}$$ where $A = L_x L_y$ is the area of the system and $N$ is the number of states from 0 to a given energy $E$.
 For a bulk 3D system, we calculated the number of states in the reciprocal space as points inside a sphere of radius $k$, but now we have a 2D system, so the states will be points inside a circle of radius $k$ in the $k_x-k_y$ plane.
 ![[Pasted image 20251226161847.png]]
-As we said $k_x = \frac{2 \pi n_x}{L_x}$ and $k_y = \frac{2 \pi n_y}{L_y}$, so we calculate the area of the circle in the $n_x-n_y$ plane:
-
-
+As we said $k_x = \frac{2 \pi n_x}{L_x}$ and $k_y = \frac{2 \pi n_y}{L_y}$, so we calculate $N$ as:
+$$N = 2 \cdot \frac{\text{Area of circle in k-space}}{\text{Area per state}} = 2 \cdot \frac{\pi k^2}{\frac{(2 \pi)^2}{L_x \cdot L_y}} = \frac{A k^2}{2 \pi}$$ The factor of 2 is due to spin degeneracy.
+We need to substitute $k$ as a function of energy, from the energy expression we have:
+$$E = \frac{\hbar^2}{2m} (k_x^2 + k_y^2) \quad \Rightarrow \quad k = \sqrt{\frac{2mE}{\hbar^2}}$$ Substituting in the expression for $N$ we get:
+$$N = \frac{A}{2 \pi} \cdot \frac{2mE}{\hbar^2} = \frac{A m E}{\pi \hbar^2}$$ Now we can calculate the density of states:
+$$D(E) = \frac{1}{A} \frac{dN}{dE} = \frac{1}{A} \cdot \frac{A m}{\pi \hbar^2} = \frac{m}{\pi \hbar^2}$$ We can see that the density of states in 2D is constant for a given subband, it does not depend on energy.
+To get the total density of states we need to sum the contributions from all the subbands, it is done by multiplying the single subband density of states by a step function that "activates" each subband at its corresponding energy:
+$$D_{2D}(E) = \frac{m}{\pi \hbar^2} \sum_i \mu(E - E_i)$$ where $E_i$ are the vertices of the paraboloids, so the offset energies of each subband.
+![[Pasted image 20251226162700.png]]
+Every time we enter a new paraboloid, we add a step in the density of states, each step is separated equidistantly by $\frac{m}{\pi \hbar^2}$ in the y-axis and the distance in energy between steps depends on the structure of the well(so for example in the harmonic oscillator potential the steps will be evenly spaced, while in the infinite well they will get further apart at higher energies).
+#### Quantum Wires - 1D Nanostructures
 
 ## References
