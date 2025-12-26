@@ -109,8 +109,19 @@ E_y = \frac{\hbar^2 n_y^2 }{8m L_y^2} \quad n_y = 1, 2, 3, ...
 \end{cases}$$
 So the total energy will be:
 $$E = E_z + E_x + E_y = \frac{\hbar^2 k_z^2}{2m} + \frac{\hbar^2 n_x^2 }{8m L_x^2} + \frac{\hbar^2 n_y^2 }{8m L_y^2}$$ We can see that the energy spectrum consists of a series of parabolas in the $k_z$ direction, each one corresponding to a different quantized energy level given by the two confined directions(ex: $E_{11}, E_{12}, E_{21}, ...$, when $L_x = L_y$ some levels will be degenerate, otherwise depending on their sizes there will be $E_{12}$ before $E_{21}$ or viceversa). In fact to each pair of values of $n_x$ and $n_y$ corresponds infinite number of parabolas shifted in energy by the quantized term.
-#### Density of States in 1D
 ![[Pasted image 20251226163646.png]]
+#### Density of States in 1D
 
+![[Pasted image 20251226164257.png]]
+The number of states now is further reduced, since we have only one free direction, so we calculate $N$ as points inside a line segment of length $2k$ in the $k_z$ direction, with distance $\frac{2 \pi}{L_z}$ between each state.
+So the number of states is:
+$$N = 2 \cdot \frac{\text{Length of line segment in k-space}}{\text{Length per state}} = 2 \cdot \frac{2k}{\frac{2 \pi}{L_z}} = \frac{2 L_z k}{\pi}$$ Again the factor of 2 is due to spin degeneracy.
+
+
+
+
+
+#### Nanostructure types
+![[Pasted image 20251226164423.png]]
 
 ## References
