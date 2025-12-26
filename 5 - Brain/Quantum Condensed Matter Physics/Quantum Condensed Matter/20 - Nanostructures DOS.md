@@ -82,6 +82,10 @@ So we can calculate the density of states for a single subband, putting the offs
 ![[Pasted image 20251226160755.png]]
 As we said before, we focus on a single subband with offset energy equal to zero, the density of states is defined as:
 $$D(E) = \frac{1}{A} \frac{dN}{dE}$$ where $A = L_x L_y$ is the area of the system and $N$ is the number of states from 0 to a given energy $E$.
+For a bulk 3D system, we calculated the number of states in the reciprocal space as points inside a sphere of radius $k$, but now we have a 2D system, so the states will be points inside a circle of radius $k$ in the $k_x-k_y$ plane.
+![[Pasted image 20251226161847.png]]
+As we said $k_x = \frac{2 \pi n_x}{L_x}$ and $k_y = \frac{2 \pi n_y}{L_y}$, so we calculate the area of the circle in the $n_x-n_y$ plane:
+
 
 
 ## References
