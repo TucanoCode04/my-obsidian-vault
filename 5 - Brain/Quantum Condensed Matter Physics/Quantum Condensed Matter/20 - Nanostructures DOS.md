@@ -95,5 +95,22 @@ $$D_{2D}(E) = \frac{m}{\pi \hbar^2} \sum_i \mu(E - E_i)$$ where $E_i$ are the ve
 ![[Pasted image 20251226162700.png]]
 Every time we enter a new paraboloid, we add a step in the density of states, each step is separated equidistantly by $\frac{m}{\pi \hbar^2}$ in the y-axis and the distance in energy between steps depends on the structure of the well(so for example in the harmonic oscillator potential the steps will be evenly spaced, while in the infinite well they will get further apart at higher energies).
 #### Quantum Wires - 1D Nanostructures
+![[Pasted image 20251226163044.png]]
+This time we use a structure that is confined in two dimensions $y$ and $x$, that describes basically 2 boxes, while in the other direction $x$ the particle is free in a macroscopic region of size $L_z$.
+Again the 3 equations can be seen as independent, so we can see them as plane waves in the free direction and particles in a box in the two confined directions.
+In the free direction we have:
+$$\theta(z) = \frac{1}{\sqrt{L_z}} e^{i k_z z} \quad \Rightarrow \quad E_z = \frac{\hbar^2 k_z^2}{2m}$$
+And following the periodic boundary conditions we get:
+$$\theta(z + L_z) = \theta(z) \quad \Rightarrow \quad k_z = \frac{2 \pi n_z}{L_z}, \quad n_z \in \mathbb{Z}$$
+In the two confined directions we have:
+$$\begin{cases}
+E_x = \frac{\hbar^2 n_x^2 }{8m L_x^2} \quad n_x = 1, 2, 3, ... \\
+E_y = \frac{\hbar^2 n_y^2 }{8m L_y^2} \quad n_y = 1, 2, 3, ...
+\end{cases}$$
+So the total energy will be:
+$$E = E_z + E_x + E_y = \frac{\hbar^2 k_z^2}{2m} + \frac{\hbar^2 n_x^2 }{8m L_x^2} + \frac{\hbar^2 n_y^2 }{8m L_y^2}$$ We can see that the energy spectrum consists of a series of parabolas in the $k_z$ direction, each one corresponding to a different quantized energy level given by the two confined directions(ex: $E_{11}, E_{12}, E_{21}, ...$, when $L_x = L_y$ some levels will be degenerate, otherwise depending on their sizes there will be $E_{12}$ before $E_{21}$ or viceversa). In fact to each pair of values of $n_x$ and $n_y$ corresponds infinite number of parabolas shifted in energy by the quantized term.
+#### Density of States in 1D
+![[Pasted image 20251226163646.png]]
+
 
 ## References
