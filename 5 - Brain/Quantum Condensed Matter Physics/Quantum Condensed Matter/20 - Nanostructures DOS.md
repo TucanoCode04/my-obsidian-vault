@@ -69,6 +69,16 @@ We can also see that for $n_z = 1$, the the wavefunction has no nodes inside the
 Now we can combine both results to get the total energy of the particle in the quantum well:
 $$E = E_{xy} + E_z = \frac{\hbar^2}{2m} (k_x^2 + k_y^2) + \frac{\hbar^2 n_z^2 }{8m L_z^2}$$ We can see that the energy spectrum consists of a series of paraboloids in the $k_x-k_y$ plane, each one corresponding to a different quantized energy level $E_z$ associated with the confinement in the $z$ direction. In fact to each value of $n_z$ corresponds infinite number of paraboloids shifted in energy by the quantized term.
 ![[Pasted image 20251226152858.png]]
+The quantization of levels depends on the structure of the well:
+- the harmonic oscillator potential gives evenly spaced levels
+- the triangular well gives levels that get closer together at higher energies
+- the infinite potential well gives levels that get further apart at higher energies
+
+But the subband structure remains the paraboloids in the $k_x-k_y$ plane shifted in energy by the quantized term. So the only difference is the specific energy values of each subband and the distance between them.
+
+If we look back at the total energy expression we see that each paraboloid is the same, so they all have the same density of states, what differs is the offset in energy given by the quantized term $\frac{\hbar^2 n_z^2 }{8m L_z^2}$.
+So we can calculate the density of states for a single subband, putting the offset energy to zero.
+##### Density of States in 2D
 
 
 ## References
