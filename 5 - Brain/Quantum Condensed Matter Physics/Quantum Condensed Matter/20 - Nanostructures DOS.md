@@ -131,11 +131,14 @@ We see from the figures that the density of states in 1D resembles the bottom pa
 In this case the structure is confined in all three dimensions $x$, $y$ and $z$, so we have three boxes. The potential is 0 inside the box and infinite outside.
 The total energy will be:
 $$E = E_x + E_y + E_z = \frac{\hbar^2 n_x^2 }{8m L_x^2} + \frac{\hbar^2 n_y^2 }{8m L_y^2} + \frac{\hbar^2 n_z^2 }{8m L_z^2}$$ Where $n_x, n_y, n_z = 1, 2, 3, ...$ and $L_x, L_y, L_z$ are microscopic.
-
-
-
-
+We have no $k$ directions anymore, meaning that the energy spectrum consists of discrete energy levels, each one corresponding to a different combination of quantum numbers $(n_x, n_y, n_z)$.
+It resembles the atomic energy levels, so quantum dots are often referred to as "artificial atoms".
+![[Pasted image 20251226192915.png]]
+As before if $L_x = L_y = L_z$ some levels will be degenerate, otherwise depending on their sizes the order of levels will change.
+#### Density of States in 0D
+Since the degeneracy depends on the specific sizes of $L_x, L_y, L_z$, we can just say that each energy level contributes a delta function to the density of states at its corresponding energy:
+$$D_{0D}(E) = \sum_{n_x, n_y, n_z} \delta(E - E_{n_x n_y n_z})$$ Where $E_{n_x n_y n_z}$ are the discrete energy levels of the quantum dot.
+![[Pasted image 20251226193042.png]]
 #### Nanostructure types
 ![[Pasted image 20251226164423.png]]
-
 ## References
