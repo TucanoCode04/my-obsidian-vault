@@ -115,8 +115,22 @@ $$E = E_z + E_x + E_y = \frac{\hbar^2 k_z^2}{2m} + \frac{\hbar^2 n_x^2 }{8m L_x^
 ![[Pasted image 20251226164257.png]]
 The number of states now is further reduced, since we have only one free direction, so we calculate $N$ as points inside a line segment of length $2k$ in the $k_z$ direction, with distance $\frac{2 \pi}{L_z}$ between each state.
 So the number of states is:
-$$N = 2 \cdot \frac{\text{Length of line segment in k-space}}{\text{Length per state}} = 2 \cdot \frac{2k}{\frac{2 \pi}{L_z}} = \frac{2 L_z k}{\pi}$$ Again the factor of 2 is due to spin degeneracy.
-
+$$N = 2 \cdot \frac{\text{Length of line segment in k-space}}{\text{Length per state}} = 2 \cdot \frac{2k}{\frac{2 \pi}{L_z}} = \frac{2 L_z k}{\pi}$$ Again the factor of 2 is due to spin degeneracy. The length is $2k$ because we consider both positive and negative $k$ values.
+Substituting $k$ as a function of energy, from the energy expression we have:
+$$E_z = \frac{\hbar^2 k_z^2}{2m} \quad \Rightarrow \quad k = \sqrt{\frac{2mE_z}{\hbar^2}}$$ Substituting in the expression for $N$ we get:
+$$N = \frac{2 L_z}{\pi} \cdot \sqrt{\frac{2mE_z}{\hbar^2}}$$ Now we can calculate the density of states:
+$$D(E) = \frac{1}{L_z} \frac{dN}{dE} = \frac{1}{L_z} \cdot \frac{2 L_z}{\pi} \cdot \frac{1}{2} \sqrt{\frac{2m}{\hbar^2}} \cdot \frac{1}{\sqrt{E}} = \frac{1}{\pi} \sqrt{\frac{2m}{\hbar^2}} \cdot \frac{1}{\sqrt{E}}$$ We can see that the density of states in 1D diverges as $E$ approaches zero, meaning that there are a lot of states available at low energies.
+We can see how it works for the first subband:
+$$D(E)= \frac{1}{\pi} \sqrt{\frac{2m}{\hbar^2}} \cdot \frac{1}{\sqrt{E - E_{11}}} \cdot \mu(E - E_{11})$$ Where $\mu = \begin{cases} 1 & E > E_{11} \\ 0 & E < E_{11} \end{cases}$ , so the density of states is zero below the energy of the first subband and diverges as we approach it from above. 
+Now to get the total density of states we need to sum the contributions from all the subbands, it is done by summing the single subband density of states for each subband:
+$$D_{1D}(E) = \frac{1}{\pi} \sqrt{\frac{2m}{\hbar^2}} \sum_{n_x, n_y} \frac{1}{\sqrt{E - E_{n_x n_y}}} \cdot \mu(E - E_{n_x n_y})$$ where $E_{n_x n_y}$ are the vertices of the parabolas, so the offset energies of each subband.
+![[Pasted image 20251226192446.png]]
+We see from the figures that the density of states in 1D resembles the bottom part of a lot of parabolas, each one diverging at its vertex energy. Every time we enter a new parabola, we add a new diverging term to the density of states.
+#### Quantum Dots - 0D Nanostructures
+![[Pasted image 20251226192730.png]]
+In this case the structure is confined in all three dimensions $x$, $y$ and $z$, so we have three boxes. The potential is 0 inside the box and infinite outside.
+The total energy will be:
+$$E = E_x + E_y + E_z = \frac{\hbar^2 n_x^2 }{8m L_x^2} + \frac{\hbar^2 n_y^2 }{8m L_y^2} + \frac{\hbar^2 n_z^2 }{8m L_z^2}$$ Where $n_x, n_y, n_z = 1, 2, 3, ...$ and $L_x, L_y, L_z$ are microscopic.
 
 
 
