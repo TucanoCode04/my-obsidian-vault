@@ -47,6 +47,12 @@ k_x = \frac{2 \pi n_x}{L_x}, \quad n_x \in \mathbb{Z} \\
 k_y = \frac{2 \pi n_y}{L_y}, \quad n_y \in \mathbb{Z}
 \end{cases}$$ Since $L_x$ and $L_y$ are macroscopic, the allowed values of $k_x$ and $k_y$ are very close together, and we can approximate them as continuous variables.
 
+The second equation depends on the specific form of the potential $V(z)$. We can have for example a potential well with infinite barriers. In this case the potential is:
+$$\begin{cases}
+V(z) = 0 & -\frac{L_z}{2} < z < \frac{L_z}{2} \\
+V(z) = \infty & \text{elsewhere}
+\end{cases}$$ Where in this case $L_z$ is microscopic. Other well-known cases are the triangular well and the harmonic oscillator potential.
+![[Pasted image 20251226145517.png]]
 
 
 ## References
