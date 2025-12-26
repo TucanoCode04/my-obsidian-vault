@@ -61,6 +61,14 @@ $$\begin{cases}
 \theta (z) = \sqrt{\frac{2}{L_z}} \cos\left( n_z \frac{\pi}{L_z} \cdot z\right) & n_z = \text{odd}
 \end{cases}$$ with energy levels:
 $$E_z = \frac{\hbar^2 n_z^2 }{8m L_z^2} \quad n_z = 1, 2, 3, ...$$ Where $n_z$ is the quantum number associated with the confinement in the $z$ direction. This time we can't say that the allowed values of $n_z$ are continuous, since $L_z$ is microscopic, so the energy levels are quantized.
+![[Pasted image 20251226152145.png]]
+The distance between energy levels increases for higher energy levels, since it goes as $n_z^2$. 
+In the figure above we can see that for odd $n_z$ the wavefunction has a maximum at the center of the well, meaning it's more likely to find the particle there and it's an even function. For even $n_z$ the wavefunction has a node at the center of the well, meaning it's less likely to find the particle there and it's an odd function.
+We can also see that for $n_z = 1$, the the wavefunction has no nodes inside the well, and the number of nodes increases with $n_z$, at a certain point we will have an infinite number of nodes resulting in a continuous energy spectrum, which is the case of a free particle.
+
+Now we can combine both results to get the total energy of the particle in the quantum well:
+$$E = E_{xy} + E_z = \frac{\hbar^2}{2m} (k_x^2 + k_y^2) + \frac{\hbar^2 n_z^2 }{8m L_z^2}$$ We can see that the energy spectrum consists of a series of paraboloids in the $k_x-k_y$ plane, each one corresponding to a different quantized energy level $E_z$ associated with the confinement in the $z$ direction. In fact to each value of $n_z$ corresponds infinite number of paraboloids shifted in energy by the quantized term.
+![[Pasted image 20251226152858.png]]
 
 
 ## References
