@@ -26,7 +26,26 @@ The Schrödinger equation will be:
 $$-\frac{\hbar^2}{2m} \nabla^2 \psi(x,y,z) + V(z) \psi(x,y,z) = E \psi(x,y,z)$$ We can factorize the solutions:
 $$\psi(x,y,z) = \theta(z) \cdot \varphi(x,y)$$ Thus we get:
 $$-\frac{\hbar^2}{2m} \theta(z) \left( \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2} \right) \varphi(x,y) - \frac{\hbar^2}{2m} \varphi(x,y) \frac{d^2}{dz^2} \theta(z) + V(z) \theta(z) \varphi(x,y) = E \theta(z) \varphi(x,y)$$ Dividing by $\theta(z) \varphi(x,y)$ we get:
-$$-\frac{\hbar^2}{2m} \frac{1}{\varphi(x,y)} \left( \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2} \right) \varphi(x,y) - \frac{\hbar^2}{2m} \frac{1}{\theta(z)} \frac{d^2}{dz^2} \theta(z) + V(z) = E$$ Since the left side depends on different variables, each term must be equal to a constant $
+$$-\frac{\hbar^2}{2m} \frac{1}{\varphi(x,y)} \left( \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2} \right) \varphi(x,y) - \frac{\hbar^2}{2m} \frac{1}{\theta(z)} \frac{d^2}{dz^2} \theta(z) + V(z) = E$$ Since the left side depends on different variables, each term must be equal to a constant $E_{xy}$ and $E_z$ such that:
+$$\begin{cases}
+-\frac{\hbar^2}{2m} \frac{1}{\varphi(x,y)} \left( \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2} \right) \varphi(x,y) = E_{xy} \\
+-\frac{\hbar^2}{2m} \frac{1}{\theta(z)} \frac{d^2}{dz^2} \theta(z) + V(z) = E_z \\
+E = E_{xy} + E_z
+\end{cases} \quad \Rightarrow \quad \begin{cases}
+-\frac{\hbar^2}{2m} \left( \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2} \right) \varphi(x,y) = E_{xy} \varphi(x,y) \\
+-\frac{\hbar^2}{2m} \frac{d^2}{dz^2} \theta(z) + V(z) \theta(z) = E_z \theta(z) \\
+E = E_{xy} + E_z
+\end{cases}$$ The first equation describes a free particle in two dimensions, while the second equation describes a particle in a potential well in one dimension.
+The solutions for the free particle in 2D are plane waves:
+$$\varphi(x,y) = \frac{1}{\sqrt{L_x L_y}} e^{i(k_x x + k_y y)}$$ with energy:
+$$E_{xy} = \frac{\hbar^2}{2m} (k_x^2 + k_y^2)$$ The solutions must satisfy periodic boundary conditions:
+$$\begin{cases}
+\varphi(x + L_x, y) = \varphi(x,y) \\
+\varphi(x, y + L_y) = \varphi(x,y)
+\end{cases} \quad \Rightarrow \quad \begin{cases}
+k_x = \frac{2 \pi n_x}{L_x}, \quad n_x \in \mathbb{Z} \\
+k_y = \frac{2 \pi n_y}{L_y}, \quad n_y \in \mathbb{Z}
+\end{cases}$$ Since $L_x$ and $L_y$ are macroscopic, the allowed values of $k_x$ and $k_y$ are very close together, and we can approximate them as continuous variables.
 
 
 
