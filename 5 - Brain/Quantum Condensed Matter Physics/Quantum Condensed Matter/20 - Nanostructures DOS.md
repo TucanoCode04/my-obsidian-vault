@@ -54,5 +54,13 @@ V(z) = \infty & \text{elsewhere}
 \end{cases}$$ Where in this case $L_z$ is microscopic. Other well-known cases are the triangular well and the harmonic oscillator potential.
 ![[Pasted image 20251226145517.png]]
 
+We can further analyze the case of a particle in a box, the Schrödinger equation inside the well is:
+$$-\frac{\hbar^2}{2m} \frac{d^2}{dz^2} \theta(z) = E_z \theta(z)$$ The boundary conditions impose that the wavefunction must be continuous and go to zero at the edges of the well, so the solutions are:
+$$\begin{cases}
+\theta (z) = \sqrt{\frac{2}{L_z}} \sin\left( n_z \frac{\pi}{L_z} \cdot z\right) & n_z = \text{even} \\
+\theta (z) = \sqrt{\frac{2}{L_z}} \cos\left( n_z \frac{\pi}{L_z} \cdot z\right) & n_z = \text{odd}
+\end{cases}$$ with energy levels:
+$$E_z = \frac{\hbar^2 n_z^2 }{8m L_z^2} \quad n_z = 1, 2, 3, ...$$ Where $n_z$ is the quantum number associated with the confinement in the $z$ direction. This time we can't say that the allowed values of $n_z$ are continuous, since $L_z$ is microscopic, so the energy levels are quantized.
+
 
 ## References
