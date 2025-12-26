@@ -17,7 +17,16 @@ $$\lambda = \frac{h}{p} = \frac{h}{\sqrt{2mE}}$$ If we consider the thermal ener
 $$\lambda \approx \frac{h}{\sqrt{mk_B T}}$$ When the size of the system becomes comparable to this wavelength, quantum confinement effects will become relevant, leading to discrete energy levels and altered electronic properties.
 #### Quantum Wells - 2D Nanostructures
 ![[Pasted image 20251226143039.png]]
-
+We consider a structure that is confined in one dimension $z$, so that the Schrödinger equation will describe a potential $V(z)$ in that direction, while in the other two directions $x$ and $y$ the particle is free in a macroscopic region of size $L_x$ and $L_y$. 
+$$\begin{cases} 
+V(x,y) = 0 & 0 < x < L_x, \quad 0 < y < L_y \\
+V(z) = \text{some confining potential} & 0 < z < L_z \\
+\end{cases}$$
+The Schrödinger equation will be:
+$$-\frac{\hbar^2}{2m} \nabla^2 \psi(x,y,z) + V(z) \psi(x,y,z) = E \psi(x,y,z)$$ We can factorize the solutions:
+$$\psi(x,y,z) = \theta(z) \cdot \varphi(x,y)$$ Thus we get:
+$$-\frac{\hbar^2}{2m} \theta(z) \left( \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2} \right) \varphi(x,y) - \frac{\hbar^2}{2m} \varphi(x,y) \frac{d^2}{dz^2} \theta(z) + V(z) \theta(z) \varphi(x,y) = E \theta(z) \varphi(x,y)$$ Dividing by $\theta(z) \varphi(x,y)$ we get:
+$$-\frac{\hbar^2}{2m} \frac{1}{\varphi(x,y)} \left( \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2} \right) \varphi(x,y) - \frac{\hbar^2}{2m} \frac{1}{\theta(z)} \frac{d^2}{dz^2} \theta(z) + V(z) = E$$ Since the left side depends on different variables, each term must be equal to a constant $
 
 
 
