@@ -79,6 +79,9 @@ But the subband structure remains the paraboloids in the $k_x-k_y$ plane shifted
 If we look back at the total energy expression we see that each paraboloid is the same, so they all have the same density of states, what differs is the offset in energy given by the quantized term $\frac{\hbar^2 n_z^2 }{8m L_z^2}$.
 So we can calculate the density of states for a single subband, putting the offset energy to zero.
 ##### Density of States in 2D
+![[Pasted image 20251226160755.png]]
+As we said before, we focus on a single subband with offset energy equal to zero, the density of states is defined as:
+$$D(E) = \frac{1}{A} \frac{dN}{dE}$$ where $A = L_x L_y$ is the area of the system and $N$ is the number of states from 0 to a given energy $E$.
 
 
 ## References
