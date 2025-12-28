@@ -82,7 +82,7 @@ $$\hat{S}_y = \frac{\hbar}{2} \sigma_y$$
 $$\hat{S}_z = \frac{\hbar}{2} \sigma_z$$
 Where $\sigma_x$, $\sigma_y$, and $\sigma_z$ are the Pauli matrices.
 ##### Particle in a magnetic field
-
+A spin-1/2 particle, such as an electron, possesses a magnetic moment $\vec{\mu}$ due to its spin. 
 
 
 
