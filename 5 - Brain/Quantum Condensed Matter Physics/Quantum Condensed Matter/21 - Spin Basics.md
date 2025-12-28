@@ -34,7 +34,13 @@ $$\hat{L}^2 f = \lambda f$$
 $$\hat{L}_z f = \mu f$$
 The eigenvalues are given by:
 $$\lambda = \hbar^2 l (l + 1)$$
-$$\mu = \hbar m_l$$ Where $l$ is the azimuthal quantum 
+$$\mu = \hbar m_l$$ Where $l$ is the azimuthal quantum number (non-negative integer) ranging from $0$ to $n-1$ and $m_l$ is the magnetic quantum number (integer) ranging from $-l$ to $+l$. $n$ is the principal quantum number.
+So these values are quantized, meaning they can only take specific discrete values.
+The function $f$ depends on the two quantum numbers $l$ and $m_l$ and is called the spherical harmonic function $Y_{l}^{m_l}(\theta, \phi)$, where $\theta$ and $\phi$ are the polar and azimuthal angles in spherical coordinates.
+
+From here we can derive the orbital angular momentum of an electron in an atom, which is quantized and can take only specific discrete values determined by the quantum numbers $l$ and $m_l$.
+![[Pasted image 20251228175041.png]]
+
 
 
 
