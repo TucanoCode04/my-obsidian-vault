@@ -40,6 +40,10 @@ The function $f$ depends on the two quantum numbers $l$ and $m_l$ and is called 
 
 From here we can derive the orbital angular momentum of an electron in an atom, which is quantized and can take only specific discrete values determined by the quantum numbers $l$ and $m_l$.
 ![[Pasted image 20251228175041.png]]
+Basically the quantum number $n$ determines the energy level of the electron, where higher $n$ means higher energy. The quantum number $l$ determines the shape of the orbital, with higher $l$ values corresponding to more complex shapes. The quantum number $m_l$ determines the orientation of the orbital in space.
+We can analyze for example the case of $n=3$, which means the electron is in the third energy level. The possible values of $l$ are $0$, $1$, and $2$, as shown in the picture above. We focus on the case where $l=2$, which corresponds to the "d" orbitals. For $l=2$, the possible values of $m_l$ are $-2$, $-1$, $0$, $+1$, and $+2$. Each of these values corresponds to a different orientation of the "d" orbital in space, as shown in the picture above.
+$$L^2 = \hbar^2 l (l + 1) = \hbar^2 2 (2 + 1) = 6 \hbar^2$$
+
 
 
 
