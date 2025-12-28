@@ -58,6 +58,30 @@ $$[\hat{S}_y, \hat{S}_z] = i \hbar \hat{S}_x$$
 $$[\hat{S}_z, \hat{S}_x] = i \hbar \hat{S}_y$$
 The main difference between spin and angular momentum is that the spin quantum number $s$ can take half-integer values (e.g., $1/2$, $3/2$, etc.) in addition to integer values (e.g., $0$, $1$, $2$, etc.). For example, electrons, protons, and neutrons all have a spin quantum number of $s = 1/2$, resulting in two possible spin states: "spin-up" ($m_s = +1/2$) and "spin-down" ($m_s = -1/2$).
 So for the system $|\frac{1}{2}, m_s \rangle$ we have:
+$$|\frac{1}{2}, +\frac{1}{2} \rangle = |\uparrow \rangle = \begin{pmatrix} 1 \\ 0 \end{pmatrix}$$
+$$|\frac{1}{2}, -\frac{1}{2} \rangle = |\downarrow \rangle = \begin{pmatrix} 0 \\ 1 \end{pmatrix}$$
+So that:
+$$S^2 |\uparrow \rangle = \hbar^2 \frac{1}{2} \left( \frac{1}{2} + 1 \right) |\uparrow \rangle = \frac{3}{4} \hbar^2 |\uparrow \rangle$$
+$$S^2 |\downarrow \rangle = \hbar^2 \frac{1}{2} \left( \frac{1}{2} + 1 \right) |\downarrow \rangle = \frac{3}{4} \hbar^2 |\downarrow \rangle$$
+$$S_z |\uparrow \rangle = \hbar \left( +\frac{1}{2} \right) |\uparrow \rangle = +\frac{\hbar}{2} |\uparrow \rangle$$
+$$S_z |\downarrow \rangle = \hbar \left( -\frac{1}{2} \right) |\downarrow \rangle = -\frac{\hbar}{2} |\downarrow \rangle$$
+A generic state, called a spinor, can be expressed as a linear combination of the two basis states:
+$$|\chi \rangle = a |\uparrow \rangle + b |\downarrow \rangle = \begin{pmatrix} a \\ b \end{pmatrix}$$
+Where $a$ and $b$ are complex coefficients satisfying the normalization condition:
+$$|a|^2 + |b|^2 = 1$$
+Example for $\hat{S}^2$ operator:
+$$\hat{S}^2 = \begin{pmatrix} \langle \uparrow | \hat{S}^2 | \uparrow \rangle & \langle \uparrow | \hat{S}^2 | \downarrow \rangle \\ \langle \downarrow | \hat{S}^2 | \uparrow \rangle & \langle \downarrow | \hat{S}^2 | \downarrow \rangle \end{pmatrix} = \begin{pmatrix} \frac{3}{4} \hbar^2 & 0 \\ 0 & \frac{3}{4} \hbar^2 \end{pmatrix} = \frac{3}{4} \hbar^2 I$$
+Where $I$ is the identity matrix.
+Likewise for the other operators:
+$$\hat{S}_x = \frac{\hbar}{2} \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$$
+$$\hat{S}_y = \frac{\hbar}{2} \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}$$
+$$\hat{S}_z = \frac{\hbar}{2} \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$$
+Where the matrices above are known as the Pauli matrices, which are fundamental in describing spin-1/2 particles in quantum mechanics. So that:
+$$\hat{S}_x = \frac{\hbar}{2} \sigma_x$$
+$$\hat{S}_y = \frac{\hbar}{2} \sigma_y$$
+$$\hat{S}_z = \frac{\hbar}{2} \sigma_z$$
+Where $\sigma_x$, $\sigma_y$, and $\sigma_z$ are the Pauli matrices.
+##### Particle in a magnetic field
 
 
 
