@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/20 - Nanostructures DOS.md",
+                "file": "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/21 - Spin Basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20 - Nanostructures DOS"
+              "title": "21 - Spin Basics"
             }
           },
           {
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -187,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,6 +203,8 @@
   },
   "active": "e7b0a9b5fa50a6ed",
   "lastOpenFiles": [
+    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/20 - Nanostructures DOS.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/21 - Spin Basics.md",
     "Pasted image 20251226193042.png",
     "Pasted image 20251226192915.png",
     "Pasted image 20251226192730.png",
@@ -214,10 +216,8 @@
     "Pasted image 20251226162700.png",
     "Pasted image 20251226161847.png",
     "5 - Brain/Fundamental of Technological Processes/Technological Processes/06 - Epitaxy & CVD & PVD.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/20 - Nanostructures DOS.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/01 - Introduction to the Crystal Structure.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/00 - Scalar and Vector Potential.md",
-    "Pasted image 20251226160755.png",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/07 - 09 Domande.md",
     "5 - Brain/Quantum Condensed Matter Physics/Untitled",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/04 - 06 Domande.md",
