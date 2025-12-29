@@ -83,6 +83,12 @@ $$\hat{S}_z = \frac{\hbar}{2} \sigma_z$$
 Where $\sigma_x$, $\sigma_y$, and $\sigma_z$ are the Pauli matrices.
 ##### Particle in a magnetic field
 A spin-1/2 particle, such as an electron, possesses a magnetic moment $\vec{\mu}$ due to its spin. 
+Classically this is:$$\vec{\mu}_s= \gamma \vec{S}$$ Where $\gamma$ is the gyromagnetic ratio. 
+For electrons the gyromagnetic ratio is given by:
+$$\gamma = -g_e \frac{\mu_B}{\hbar}$$ Where $g_e \approx 2.002319$ is the electron g-factor and $\mu_B = \frac{e \hbar}{2 m_e}$ is the Bohr magneton, which represents the natural unit of the magnetic moment for an electron.
+In quantum mechanics, the magnetic moment operator $\hat{\mu}$ is related to the spin operator $\hat{S}$ by:
+$$\hat{\mu} = -g_e \frac{\mu_B}{\hbar} \hat{S} = -\frac{l}{m} \hat{S}$$
+![[Pasted image 20251229164141.png]]
 
 
 
