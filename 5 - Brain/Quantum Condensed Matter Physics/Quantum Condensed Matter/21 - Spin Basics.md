@@ -126,8 +126,16 @@ $$\Psi_S(\vec{r}_1, \vec{r}_2) = \frac{1}{\sqrt{2}} \left( \psi_a(\vec{r}_1) \ps
 $$\Psi_A(\vec{r}_1, \vec{r}_2) = \frac{1}{\sqrt{2}} \left( \psi_a(\vec{r}_1) \psi_b(\vec{r}_2) - \psi_b(\vec{r}_1) \psi_a(\vec{r}_2) \right)$$
 The Pauli exclusion principle states that no two identical fermions can occupy the same quantum state simultaneously. To demonstrate it, let's assume that the electron is only described by the spatial part of the wavefunction, if both electrons are in the same state, meaning $\psi_a = \psi_b$, then the symmetric wavefunction becomes:
 $$\Psi_S(\vec{r}_1, \vec{r}_2) = \frac{1}{\sqrt{2}} \left( \psi_a(\vec{r}_1) \psi_a(\vec{r}_2) + \psi_a(\vec{r}_1) \psi_a(\vec{r}_2) \right) = \sqrt{2} \psi_a(\vec{r}_1) \psi_a(\vec{r}_2) \neq  0$$
-Meaning that two electrons can occupy the same quantum state, that is not allowed for fermions. So we conclu
-
-
+Meaning that two electrons can occupy the same quantum state, that is not allowed for fermions. So we conclude that the spatial part of the wavefunction for two identical fermions must be antisymmetric:
+$$\Psi_A(\vec{r}_1, \vec{r}_2) = \frac{1}{\sqrt{2}} \left( \psi_a(\vec{r}_1) \psi_a(\vec{r}_2) - \psi_a(\vec{r}_1) \psi_a(\vec{r}_2) \right) = 0$$
+Hence, two identical fermions cannot occupy the same quantum state simultaneously. However, electrons also have spin, so the total wavefunction must include both spatial and spin parts, that permits two electrons to occupy the same spatial state if their spin states are antisymmetric (one spin-up and one spin-down).
+$$\Psi \text{ antisymmetric} = \Psi {\text{ spatial symmetric}} \cdot \xi {\text{ spin antisymmetric}}$$
+Or:
+$$\Psi \text{ antisymmetric} = \Psi {\text{ spatial antisymmetric}} \cdot \xi {\text{ spin symmetric}}$$
+##### Addition of spins
+When dealing with systems of multiple particles, we often need to combine their individual spin states to obtain the total spin state of the system. This process is known as the addition of angular momenta, and it follows specific rules based on the quantum numbers of the individual spins.
+If there are 2 electrons, there are 4 possible combinations of their spin states:
+$$|\uparrow \uparrow \rangle \quad |\uparrow \downarrow \rangle \quad |\downarrow \uparrow \rangle \quad |\downarrow \downarrow \rangle$$
+Eqach electron 
 
 ## References
