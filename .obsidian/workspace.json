@@ -186,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,8 +203,9 @@
   },
   "active": "e7b0a9b5fa50a6ed",
   "lastOpenFiles": [
-    "5 - Brain/Quantum Condensed Matter Physics/Qubits/00 - Spin Basics.md",
+    "Pasted image 20251229174124.png",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/11 - Nanostructures DOS.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Qubits/00 - Spin Basics.md",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/01 - Quantum Dots as Qubits.md",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits",
     "Pasted image 20251229173421.png",
@@ -240,7 +242,6 @@
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/05 - Electrons in a Periodic Potential.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/07 - Generalized Josephson Junction and DC SQUID.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/06 - Extended Josephson Junctions.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/05 - SQUIDs.md",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/Untitled",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study",
     "5 - Brain/00 - Glossary",
