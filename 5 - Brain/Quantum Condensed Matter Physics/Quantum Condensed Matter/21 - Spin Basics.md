@@ -106,7 +106,27 @@ Basically we observe the Zeeman effect, which is the splitting of energy levels 
 ![[Pasted image 20251229165606.png]]
 For $B_z = 0$ the two energy levels are degenerate, meaning they have the same energy. When we apply a magnetic field ($B_z > 0$), the degeneracy is lifted, and the energy levels split into two distinct levels corresponding to the spin-up and spin-down states.
 #### Wavefunction of two identical spin-1/2 particles 
-The wavefunction of a system of two identical 
+The wavefunction of a system of two identical spin-1/2 particles can be written as:
+$$\Psi(\vec{r}_1, \vec{r}_2) $$
+The probability density of finding particle 1 in a volume element $d^3 r_1$ around position $\vec{r}_1$ and particle 2 in a volume element $d^3 r_2$ around position $\vec{r}_2$ is given by:
+$$\int |\Psi(\vec{r}_1, \vec{r}_2)|^2 d^3 r_1 d^3 r_2 = 1$$
+We suppose particle 1 to be in the state $|\psi_a \rangle$ and particle 2 in the state $|\psi_b \rangle$, so that:
+$$\Psi(\vec{r}_1, \vec{r}_2) = \psi_a(\vec{r}_1) \psi_b(\vec{r}_2)$$
+However, since the particles are identical, we cannot distinguish between them, particle 1 being in state $|\psi_a \rangle$ and particle 2 in state $|\psi_b \rangle$ is physically indistinguishable from particle 1 being in state $|\psi_b \rangle$ and particle 2 in state $|\psi_a \rangle$. Let's introduce the exchange operator $\hat{P}$, which swaps the states of the two particles:
+$$\hat{P} \Psi(\vec{r}_1, \vec{r}_2) = \Psi(\vec{r}_2, \vec{r}_1)$$
+By applying the exchange operator twice, we should return to the original state:
+$$\hat{P}^2 \Psi(\vec{r}_1, \vec{r}_2) = \Psi(\vec{r}_1, \vec{r}_2)$$
+This implies that the eigenvalues of the exchange operator $\hat{P}$ can only be $\pm 1$:
+$$\hat{P} \Psi(\vec{r}_1, \vec{r}_2) = \pm \Psi(\vec{r}_1, \vec{r}_2)$$
+The wavefunction can be either symmetric or antisymmetric under the exchange of the two particles. 
+So the total wavefunction of a system of indistinguishable can be written in 2 ways:
+1. Symmetric wavefunction (for bosons):
+$$\Psi_S(\vec{r}_1, \vec{r}_2) = \frac{1}{\sqrt{2}} \left( \psi_a(\vec{r}_1) \psi_b(\vec{r}_2) + \psi_b(\vec{r}_1) \psi_a(\vec{r}_2) \right)$$
+2. Antisymmetric wavefunction (for fermions):
+$$\Psi_A(\vec{r}_1, \vec{r}_2) = \frac{1}{\sqrt{2}} \left( \psi_a(\vec{r}_1) \psi_b(\vec{r}_2) - \psi_b(\vec{r}_1) \psi_a(\vec{r}_2) \right)$$
+The Pauli exclusion principle states that no two identical fermions can occupy the same quantum state simultaneously. To demonstrate it, let's assume that the electron is only described by the spatial part of the wavefunction, if both electrons are in the same state, meaning $\psi_a = \psi_b$, then the symmetric wavefunction becomes:
+$$\Psi_S(\vec{r}_1, \vec{r}_2) = \frac{1}{\sqrt{2}} \left( \psi_a(\vec{r}_1) \psi_a(\vec{r}_2) + \psi_a(\vec{r}_1) \psi_a(\vec{r}_2) \right) = \sqrt{2} \psi_a(\vec{r}_1) \psi_a(\vec{r}_2) \neq  0$$
+Meaning that two electrons can occupy the same quantum state, that is not allowed for fermions. So we conclu
 
 
 
