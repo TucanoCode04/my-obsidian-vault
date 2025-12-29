@@ -165,5 +165,12 @@ $$|1, -1 \rangle = |\frac{1}{2}, \frac{1}{2}; -\frac{1}{2}, -\frac{1}{2} \rangle
 ![[Pasted image 20251229173105.png]]
 The triplet states are symmetric with respect to the exchange of the two electrons, meaning that swapping the two electrons does not change the sign of the wavefunction.
 
-We can include also the spatial part of the 
+We can include also the spatial part of the wavefunction, so that the total wavefunction for the two-electron system is given by:
+$$\Psi \text{ antisymmetric} = \Psi {\text{ spatial symmetric}} \cdot \xi {\text{ spin antisymmetric, singlet}}$$
+This means that if their spin state is a singlet (antisymmetric), then they can occupy the same spatial state (symmetric). 
+![[Pasted image 20251229173353.png]]
+Alternatively:
+$$\Psi \text{ antisymmetric} = \Psi {\text{ spatial antisymmetric}} \cdot \xi {\text{ spin symmetric, triplet}}$$
+This means that if their spin state is a triplet (symmetric), then they must occupy different spatial states (antisymmetric).
+![[Pasted image 20251229173421.png]]
 ## References
