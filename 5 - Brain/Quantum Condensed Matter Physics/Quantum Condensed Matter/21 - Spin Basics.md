@@ -97,4 +97,17 @@ The latter part is for the case of an electron.
 
 Assuming that the magnetic field is oriented along the z-axis:
 $$\hat{H} = \frac{e B_z}{m} \hat{S}_z$$
+We know that the two operators $\hat{H}$ and $\hat{S}_z$ commute, so the solutions are the same as before:
+$$\hat{S}_z \chi = \hbar m_s \chi$$
+So we can easily find the energy eigenvalues to be:
+$$\begin{cases} |\downarrow \rangle : E_{\downarrow} = \frac{e B_z}{m} \left( -\frac{\hbar}{2} \right) \\ |\uparrow \rangle : E_{\uparrow} = \frac{e B_z}{m} \left( +\frac{\hbar}{2} \right) \end{cases}$$
+So the energy contributions due to the interaction between the magnetic moment and the magnetic field are quantized, and they depend on the orientation of the spin relative to the magnetic field, resulting in two distinct energy levels for the spin-1/2 particle in the magnetic field.
+Basically we observe the Zeeman effect, which is the splitting of energy levels in the presence of a magnetic field.
+![[Pasted image 20251229165606.png]]
+For $B_z = 0$ the two energy levels are degenerate, meaning they have the same energy. When we apply a magnetic field ($B_z > 0$), the degeneracy is lifted, and the energy levels split into two distinct levels corresponding to the spin-up and spin-down states.
+#### Wavefunction of two identical spin-1/2 particles 
+The wavefunction of a system of two identical 
+
+
+
 ## References
