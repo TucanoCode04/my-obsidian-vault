@@ -136,6 +136,34 @@ $$\Psi \text{ antisymmetric} = \Psi {\text{ spatial antisymmetric}} \cdot \xi {\
 When dealing with systems of multiple particles, we often need to combine their individual spin states to obtain the total spin state of the system. This process is known as the addition of angular momenta, and it follows specific rules based on the quantum numbers of the individual spins.
 If there are 2 electrons, there are 4 possible combinations of their spin states:
 $$|\uparrow \uparrow \rangle \quad |\uparrow \downarrow \rangle \quad |\downarrow \uparrow \rangle \quad |\downarrow \downarrow \rangle$$
-Eqach electron 
+Each electron is characterized by its own quantum numbers $s_1 = s_2 = \frac{1}{2}$ and $m_{s1}, m_{s2} = \pm \frac{1}{2}$. We can rewrite the 4 states formally by introducing an overall spin wavefunction:
+$$\xi = |s_1, s_2; m_{s1}, m_{s2} \rangle$$
+Where $s_1$ and $s_2$ are the spin quantum numbers of the individual electrons, and $m_{s1}$ and $m_{s2}$ are their respective magnetic quantum numbers. So that:
+$$|\uparrow \uparrow \rangle = \left| \frac{1}{2}, \frac{1}{2}; +\frac{1}{2}, +\frac{1}{2} \right\rangle$$
+$$|\uparrow \downarrow \rangle = \left| \frac{1}{2}, \frac{1}{2}; +\frac{1}{2}, -\frac{1}{2} \right\rangle$$
+$$|\downarrow \uparrow \rangle = \left| \frac{1}{2}, \frac{1}{2}; -\frac{1}{2}, +\frac{1}{2} \right\rangle$$
+$$|\downarrow \downarrow \rangle = \left| \frac{1}{2}, \frac{1}{2}; -\frac{1}{2}, -\frac{1}{2} \right\rangle$$
+The total angular momentum of the system is given by:
+$$\vec{S} = \vec{S}_1 + \vec{S}_2$$
+The operators used to describe the total spin angular momentum are:
+$$\hat{S}^2 = (\hat{S}_1 + \hat{S}_2)^2 = \hat{S}_1^2 + \hat{S}_2^2 + 2 \hat{S}_1 \cdot \hat{S}_2$$
+$$\hat{S}_z = \hat{S}_{1z} + \hat{S}_{2z}$$
+The related quantum numbers are:
+$$S = s_1 + s_2, s_1 + s_2 - 1, ..., |s_1 - s_2| = 1, 0$$
+$$M_S = m_{s1} + m_{s2} = S, S - 1, ..., -S$$
+In the case of electrons. So we can describe states $|S, M_S \rangle$ as linear combinations of the individual spin states $|s_1, s_2; m_{s1}, m_{s2} \rangle$. The possible total spin states for the two-electron system are:
+1. Singlet state ($S = 0$), then $M_S = 0$:
+$$|0, 0 \rangle = \frac{1}{\sqrt{2}} \left( |\frac{1}{2}, \frac{1}{2}; +\frac{1}{2}, -\frac{1}{2} \rangle - |\frac{1}{2}, \frac{1}{2}; -\frac{1}{2}, +\frac{1}{2} \rangle \right) = \frac{1}{\sqrt{2}} \left( |\uparrow \downarrow \rangle - |\downarrow \uparrow \rangle \right)$$
+![[Pasted image 20251229173025.png]]
+The singlet state is antisymmetric with respect to the exchange of the two electrons, meaning that swapping the two electrons changes the sign of the wavefunction.
+2. Triplet states ($S = 1$), then $M_S = 1, 0, -1$:
+$$|1, +1 \rangle = |\frac{1}{2}, \frac{1}{2}; +\frac{1}{2}, +\frac{1}{2} \rangle = |\uparrow \uparrow \rangle$$
+![[Pasted image 20251229173042.png]]
+$$|1, 0 \rangle = \frac{1}{\sqrt{2}} \left( |\frac{1}{2}, \frac{1}{2}; +\frac{1}{2}, -\frac{1}{2} \rangle + |\frac{1}{2}, \frac{1}{2}; -\frac{1}{2}, +\frac{1}{2} \rangle \right) = \frac{1}{\sqrt{2}} \left( |\uparrow \downarrow \rangle + |\downarrow \uparrow \rangle \right)$$
+![[Pasted image 20251229173053.png]]
+$$|1, -1 \rangle = |\frac{1}{2}, \frac{1}{2}; -\frac{1}{2}, -\frac{1}{2} \rangle = |\downarrow \downarrow \rangle$$
+![[Pasted image 20251229173105.png]]
+The triplet states are symmetric with respect to the exchange of the two electrons, meaning that swapping the two electrons does not change the sign of the wavefunction.
 
+We can include also the spatial part of the 
 ## References
