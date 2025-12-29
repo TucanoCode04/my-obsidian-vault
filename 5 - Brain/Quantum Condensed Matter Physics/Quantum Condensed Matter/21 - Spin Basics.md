@@ -85,11 +85,16 @@ Where $\sigma_x$, $\sigma_y$, and $\sigma_z$ are the Pauli matrices.
 A spin-1/2 particle, such as an electron, possesses a magnetic moment $\vec{\mu}$ due to its spin. 
 Classically this is:$$\vec{\mu}_s= \gamma \vec{S}$$ Where $\gamma$ is the gyromagnetic ratio. 
 For electrons the gyromagnetic ratio is given by:
-$$\gamma = -g_e \frac{\mu_B}{\hbar}$$ Where $g_e \approx 2.002319$ is the electron g-factor and $\mu_B = \frac{e \hbar}{2 m_e}$ is the Bohr magneton, which represents the natural unit of the magnetic moment for an electron.
+$$\gamma = -g_e e \frac{\mu_B}{\hbar}$$ Where $g_e \approx 2.002319$ is the electron g-factor and $\mu_B = \frac{e \hbar}{2 m_e}$ is the Bohr magneton, which represents the natural unit of the magnetic moment for an electron.
 In quantum mechanics, the magnetic moment operator $\hat{\mu}$ is related to the spin operator $\hat{S}$ by:
-$$\hat{\mu} = -g_e \frac{\mu_B}{\hbar} \hat{S} = -\frac{l}{m} \hat{S}$$
+$$\hat{\mu}_s = -g_e e \frac{\mu_B}{\hbar} \hat{S} = -\frac{e}{m} \hat{S}$$
 ![[Pasted image 20251229164141.png]]
+If we place the spin-1/2 particle in a uniform magnetic field $\vec{B}$, the classical potential energy that arises from the interaction between the magnetic moment and the magnetic field is given by:S$$E = -\vec{\mu} \cdot \vec{B} = - |\vec{\mu}| |\vec{B}| \cos \theta$$ Where $\theta$ is the angle between the magnetic moment and the magnetic field, meaning that if they are aligned ($\theta = 0$), the energy is minimized, while if they are anti-aligned ($\theta = \pi$), the energy is maximized.
+![[Pasted image 20251229164602.png]]
+In quantum mechanics, this interaction is described by the Hamiltonian operator $\hat{H}$:
+$$\hat{H} = -\hat{\mu}_s \cdot \vec{B} = \frac{e}{m} \hat{S} \cdot \vec{B}$$
+The latter part is for the case of an electron. 
 
-
-
+Assuming that the magnetic field is oriented along the z-axis:
+$$\hat{H} = \frac{e B_z}{m} \hat{S}_z$$
 ## References
