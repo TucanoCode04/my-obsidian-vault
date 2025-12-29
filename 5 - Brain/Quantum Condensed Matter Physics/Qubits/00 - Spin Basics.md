@@ -5,7 +5,7 @@ Status:
 
 Tags:
 
-# 21 - Spin Basics
+# 00 - Spin Basics
 #### Angular Momentum
 The angular momentum of a particle is a measure of its rotational motion. It is a vector quantity, meaning it has both magnitude and direction. The angular momentum $\vec{L}$ of a particle is given by the cross product of its position vector $\vec{r}$ and its linear momentum $\vec{p}$:
 $$\vec{L} = \vec{r} \times \vec{p}$$
