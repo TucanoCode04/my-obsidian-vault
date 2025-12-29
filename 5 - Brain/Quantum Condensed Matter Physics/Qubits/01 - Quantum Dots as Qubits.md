@@ -6,14 +6,8 @@ Status:
 Tags:
 
 # Quantum Dots as Qubits
-
-
-
-
-
-
-
-
+A note on the energy diagrams
+![[Pasted image 20251229185454.png]]
 ##### Quantum Dot Charging
 ![[Pasted image 20251229174124.png]]
 Quantum Dots are easily controllable through electrical gating(external voltages). By adjusting these voltages, we can precisely control the number of electrons in a quantum dot. This is crucial for initializing and manipulating qubit states.
