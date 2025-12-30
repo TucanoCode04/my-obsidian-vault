@@ -108,6 +108,19 @@ At constant pressure ($dp = 0$) and considering that the only work done is of ex
 $$dH = \partial Q$$
 If $dH < 0$ the process is exothermic, meaning that the system releases heat to the surroundings, while if $dH > 0$ the process is endothermic, meaning that the system absorbs heat from the surroundings.
 
+For a reversible transformation, we can also express the variation of enthalpy in terms of entropy and temperature:
+$$dH = TdS + Vdp$$
+where:
+- T is the absolute temperature of the system,
+- S is the entropy of the system.
+- V is the volume of the system,
+- p is the pressure of the system.
+
+This is called a potential function, since it expresses the variation of enthalpy in terms of other state functions (S, T, p, V), by differentiating it we can obtain useful relations between the thermodynamic properties of the system.
+$$\frac{\partial H}{\partial S}\bigg|_p = T \quad ; \quad \frac{\partial H}{\partial p}\bigg|_S = V$$
+##### Comparison of Internal Energy and Enthalpy for Hydrostatic Systems
+![[Pasted image 20251230121205.png]]
+![[Pasted image 20251230121215.png]]
 
 
 ## References
