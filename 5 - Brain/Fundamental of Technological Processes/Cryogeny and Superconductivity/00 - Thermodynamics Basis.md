@@ -90,7 +90,23 @@ $$S = k_B \ln \Gamma$$
 where:
 - S is the entropy of the system,
 - $k_B$ is the Boltzmann constant, approximately equal to $1.38 \times 10^{-23}$ J/K,
-- 
+- $\Gamma$ is the number of microstates corresponding to the macroscopic state of the system.
+#### Enthalpy
+Enthalpy (H) is a thermodynamic state function defined as:
+$$H = U + pV$$
+where:
+- H is the enthalpy of the system,
+- U is the internal energy of the system,
+- p is the pressure of the system,
+- V is the volume of the system.
+
+Being a state function the variation of enthalpy depends only on the initial and final states of the system, not on the path taken between them.
+Enthalpy is particularly useful in processes that occur when pressure can be controlled, such as chemical reactions and phase changes, because it allows us to account for the work done by or on the system due to volume changes at constant pressure.
+For example we can easily show that the variation of enthalpy at constant pressure is equal to the heat exchanged by the system with the surroundings:
+$$dH = dU + pdV + Vdp$$
+At constant pressure ($dp = 0$) and considering that the only work done is of expansion/compression type ($\partial W = pdV$), we have from the first law of thermodynamics ($dU = \partial Q - \partial W$):
+$$dH = \partial Q$$
+If $dH < 0$ the process is exothermic, meaning that the system releases heat to the surroundings, while if $dH > 0$ the process is endothermic, meaning that the system absorbs heat from the surroundings.
 
 
 
