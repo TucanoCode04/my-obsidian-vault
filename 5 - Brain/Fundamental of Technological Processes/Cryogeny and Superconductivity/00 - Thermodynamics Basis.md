@@ -45,9 +45,20 @@ The first law of thermodynamics, also known as the law of energy conservation, s
 Mathematically, the first law can be expressed as:
 $$\Delta U = Q - W$$
 where:
-- $\Delta U$ is the change in internal energy of the system, which is the sum of the kinetic a
-- Q is the heat added to the system,
-- W is the work done by the system.
+- $\Delta U$ is the change in internal energy of the system, which is the sum of the kinetic and interaction energies of the particles that compose the system,
+- Q is the heat exchanged between the system and the surroundings, positive when supplied to the system,
+- W is the work done by the system, positive when done by the system.
+- the minus sign before W indicates that when the system does work on the surroundings, it loses energy.
+##### Second Law of Thermodynamics
+The second law of thermodynamics states that there are limitations on the conversion of heat into work. There are two main formulations of the second law:
+1. Kelvin-Planck statement: it is impossible to construct a heat engine that operates in a cycle and converts all the heat absorbed from a high-temperature reservoir into work without any other effect on the surroundings. In other words, no heat engine can have 100% efficiency. 
+2. Clausius statement: it is impossible to construct a refrigerator that operates in a cycle and transfers heat from a low-temperature reservoir to a high-temperature reservoir without any external work input. In other words, heat cannot spontaneously flow from a colder body to a hotter body.
+
+They basically mean that every time we convert heat into work, some energy is lost to the surroundings as waste heat, which cannot be used to perform useful work. This waste heat increases the entropy of the surroundings, which is a measure of the disorder or randomness of a system.
+##### Third Law of Thermodynamics
+The third law of thermodynamics states that as the temperature of a system approaches absolute zero (0 Kelvin or -273.15 degrees Celsius), the entropy of a perfect crystalline substance approaches zero. In other words, it is impossible to reach absolute zero through any finite number of processes.
+#### Entropy
+Entropy is introduced with the second law of thermodynamics as a state function that quantifies the irreversibility of natural processes and the degree of disorder or randomness in a system. I
 
 
 ## References
