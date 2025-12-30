@@ -58,7 +58,17 @@ They basically mean that every time we convert heat into work, some energy is lo
 ##### Third Law of Thermodynamics
 The third law of thermodynamics states that as the temperature of a system approaches absolute zero (0 Kelvin or -273.15 degrees Celsius), the entropy of a perfect crystalline substance approaches zero. In other words, it is impossible to reach absolute zero through any finite number of processes.
 #### Entropy
-Entropy is introduced with the second law of thermodynamics as a state function that quantifies the irreversibility of natural processes and the degree of disorder or randomness in a system. I
+Entropy is introduced with the second law of thermodynamics as a state function that quantifies the irreversibility of natural processes and the degree of disorder or randomness in a system. In the International System of Units (SI), entropy is measured in joules per kelvin (J/K).
+It was observed that transformations occurred in one direction only, for example, heat flows spontaneously from a hotter body to a colder body, but not the other way around, that is the direction of maximum disorder.
+So time acquires a direction, called the arrow of time, because natural processes tend to move towards a state of greater disorder or randomness.
+Obviously, disorder, so entropy are concepts relative to a reference state, for example vapor has more entropy than liquid water at the same temperature and pressure, but both have more entropy than ice.
+Isolated systems or systems plus surroundings experiencing irreversible processes tend to increase their total entropy over time, reaching a maximum value at equilibrium.
+##### Thermodynamic Definition of Entropy
+The thermodynamic definition of entropy change for a reversible process is given by the equation:
+$$dS = \frac{\partial Q_{rev}}{T} \equiv \Delta S = \int_{rev} \frac{\partial Q}{T}$$
+where:
+- dS is the infinitesimal change in entropy,
+- 
 
 
 ## References
