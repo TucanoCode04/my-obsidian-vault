@@ -81,7 +81,16 @@ where:
 This means that in any natural process, the total entropy of the universe either increases (for irreversible processes) or remains constant (for reversible processes). 
 So it not only implies that energy cannot be created or destroyed (first law), but neither that it can be converted entirely from one form to another without losses (second law) in the form of heat.
 ##### Mathematical Description
-The mathematical description treats entropy as a state function of temperature. As a continuous and monotonic increasing function of temperature, admit
+The mathematical description treats entropy as a state function of temperature. As a continuous and monotonic increasing function of temperature, admitting absolute minimum and maximum values, according to Weierstrass theorem, to which the universe converges continuously.
+##### Entropy and the Universe
+The concept of entropy has profound implications for the fate of the universe. According to the first and second laws of thermodynamics, the total energy of the universe remains constant, but the total entropy of the universe tends to increase over time. The initial state of the universe was one of low entropy, since entropy doesn't depends on or gives information about the path taken to reach a certain state we can't calculate a final entropy state but we can infer that the universe will eventually reach a state of maximum entropy. This state is often referred to as the "heat death" of the universe, where all energy is evenly distributed, and no useful work can be extracted from any system. In this scenario, all processes that increase entropy will have ceased, and the universe will be in a state of thermodynamic equilibrium, since we have finite mass and energy in the universe but infinite time.
+##### Statistical Definition
+In statistical mechanics, entropy is the mean to obtain macroscopic properties from microscopic states. A certain macroscopic state can be realized by many different microscopic configurations of the particles that compose the system. The statistical definition of entropy is given by the Boltzmann equation, where microstates are definied in the phase space:
+$$S = k_B \ln \Gamma$$
+where:
+- S is the entropy of the system,
+- $k_B$ is the Boltzmann constant, approximately equal to $1.38 \times 10^{-23}$ J/K,
+- 
 
 
 
