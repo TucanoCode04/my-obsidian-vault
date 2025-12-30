@@ -68,7 +68,21 @@ The thermodynamic definition of entropy change for a reversible process is given
 $$dS = \frac{\partial Q_{rev}}{T} \equiv \Delta S = \int_{rev} \frac{\partial Q}{T}$$
 where:
 - dS is the infinitesimal change in entropy,
-- 
+- $\partial Q_{rev}$ is the infinitesimal amount of heat exchanged in a reversible process, it is not an exact differential,
+- T is the absolute temperature at which the heat exchange occurs.
+
+**Note:** exact differentials are those that depend only on the initial and final states of a system, while inexact differentials depend on the path taken between the two states. For example, dS is an exact differential only if the second law of thermodynamics is satisfied, while $\partial Q$ is an inexact differential because the heat exchanged depends on the specific process undergone by the system, but dividing it by T makes it an exact differential.
+##### Increase in Entropy
+The second law of thermodynamics can be expressed in terms of entropy as follows:
+$$\Delta S_{universe} \geq 0$$
+where:
+- $\Delta S_{universe}$ is the total change in entropy of the universe, which is the sum of the changes in entropy of the system and its surroundings.
+- the $>$ sign applies to irreversible processes, while the $=$ sign applies to reversible processes.
+This means that in any natural process, the total entropy of the universe either increases (for irreversible processes) or remains constant (for reversible processes). 
+So it not only implies that energy cannot be created or destroyed (first law), but neither that it can be converted entirely from one form to another without losses (second law) in the form of heat.
+##### Mathematical Description
+The mathematical description treats entropy as a state function of temperature. As a continuous and monotonic increasing function of temperature, admit
+
 
 
 ## References
