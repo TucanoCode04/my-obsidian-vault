@@ -6,7 +6,7 @@ Status:
 Tags:
 
 # Thermodynamics Basis
-
+The aim of classical thermodynamics is 
 
 
 ## References
