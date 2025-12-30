@@ -36,5 +36,18 @@ The efficiency of the energy exchange between two systems determines the specifi
 
 Heat is defined as a form of energy that can be converted into mechanical work and stored in the form of internal energy, but it is not a material substance. Heat is transferred between systems due to a temperature difference, flowing from the system at higher temperature to the system at lower temperature until thermal equilibrium is reached.
 
+**Work:** work is defined as the energy transfer that occurs when a force is applied to a system, causing it to move or change its configuration. Work can be done on or by a system, and it is a way of transferring energy between systems.
+**Heat:** heat is defined as the energy transfer that occurs due to a temperature difference between two systems. 
+
+It is experimentally proven that heat and work have a correspondence: each calorie of heat equals 4.186 joules of work.
+##### First Law of Thermodynamics
+The first law of thermodynamics, also known as the law of energy conservation, states that energy cannot be created or destroyed in an isolated system. There can be no machine that produces work without consuming an equivalent amount of energy from another source, if it existed it would produce perpetual motion of the first kind.
+Mathematically, the first law can be expressed as:
+$$\Delta U = Q - W$$
+where:
+- $\Delta U$ is the change in internal energy of the system, which is the sum of the kinetic a
+- Q is the heat added to the system,
+- W is the work done by the system.
+
 
 ## References
