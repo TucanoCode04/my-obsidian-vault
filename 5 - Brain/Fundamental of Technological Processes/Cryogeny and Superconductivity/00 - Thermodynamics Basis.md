@@ -27,6 +27,14 @@ One can distinguish three fundamental laws of thermodynamics that govern the beh
 ##### Zeroth Law of Thermodynamics
 We start by defining what the equilibrium state is and what thermal equilibrium between two systems means: 
 - Equilibrium state: a system is in an equilibrium state when its coordinates (thermodynamic properties) remain constant as long as the external conditions do not change.
-- 
+- Thermal equilibrium: two systems are in thermal equilibrium when they are in contact through a diathermic boundary and no heat exchange occurs between them. It is characterized by restricted values of their coordinates(instead, two system separated by and adiabatic boundary can have any values of their coordinates, since they do not exchange heat).
+
+The zeroth law of thermodynamics states that if two systems are each in thermal equilibrium with a third system, then they are in thermal equilibrium with each other. This law establishes the basis for the concept of temperature and the use of thermometers to measure it. 
+So we can define temperature as the property that determines whether two systems are in thermal equilibrium when they are in contact through a diathermic boundary.
+This laws explains the fact that two bodies in thermal contact reach the same temperature after some time. In the kinetic formulation of thermodynamics, the zeroth law explains the tendency to reach the same average kinetic energy of the particles of the bodies between which heat exchange occurs, resulting in the same temperature(temperature is proportional to the average kinetic energy of the particles of a system).
+The efficiency of the energy exchange between two systems determines the specific heats of the materials composing them.
+
+Heat is defined as a form of energy that can be converted into mechanical work and stored in the form of internal energy, but it is not a material substance. Heat is transferred between systems due to a temperature difference, flowing from the system at higher temperature to the system at lower temperature until thermal equilibrium is reached.
+
 
 ## References
