@@ -11,13 +11,14 @@
             "id": "e7b0a9b5fa50a6ed",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "5 - Brain/Untitled.base",
-                "viewName": "Table"
+                "file": "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/00 - Thermodynamics Basis.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "00 - Thermodynamics Basis"
             }
           },
           {
@@ -201,6 +202,8 @@
   },
   "active": "e7b0a9b5fa50a6ed",
   "lastOpenFiles": [
+    "5 - Brain/Untitled.base",
+    "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/00 - Thermodynamics Basis.md",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/01 - Quantum Dots as Qubits.md",
     "Pasted image 20251229185454.png",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/10 - Semi-Classical Boltzmann Equation.md",
@@ -224,7 +227,6 @@
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/04 - 06 Domande.md",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/00 - 03 Domande.md",
     "5 - Brain/Untitled 1.base",
-    "5 - Brain/Untitled.base",
     "5 - Brain/Fundamental of Technological Processes/Technological Processes/10 - Complementary Technologies.md",
     "5 - Brain/Fundamental of Technological Processes/Technological Processes/Untitled.md",
     "5 - Brain/Fundamental of Technological Processes/Technological Processes/07 - Doping.md",
@@ -238,7 +240,6 @@
     "5 - Brain/Cybersecurity/Cybersec/08 - Quantum.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/01 - The Macroscopic Quantum Model.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/05 - Electrons in a Periodic Potential.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/07 - Generalized Josephson Junction and DC SQUID.md",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/Untitled",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study",
     "5 - Brain/00 - Glossary",
