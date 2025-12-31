@@ -123,5 +123,25 @@ The Collins Helium Liquefier is a cryogenic system that uses the Joule-Thomson e
 ![[Pasted image 20251231131703.png]]
 It combines the two methods: Helium expands adiabatically in a piston-cylinder system to reach low temperatures, and then it expands isenthalpically through a Joule-Thomson valve to reach the liquefaction point.(I don't know if I should search it up more)
 ##### Cooling using Turboexpanders
+![[Pasted image 20251231132341.png]]
+It was proposed to use a turboexpander instead of a throttling valve to improve the efficiency of the cooling process.
+So now gas expands from high pressure to low pressure through a turbine, the process is more efficient since the expansion work is recovered through the turbine, and the gas cools down more than in a throttling process, but is more complex to implement.
+Kapitza developed radial turboexpanders that can operate at very low temperatures and Linde designed to produce helium liquefiers at 100 l/h using this method.
+##### Countercurrent Heat Exchangers
+A countercurrent heat exchanger is a device that allows two fluids at different temperatures to exchange heat while flowing in opposite directions.
+For maximum efficiency:
+- the maximum amount of heat must be exchanged between the incoming hot fluid and the outgoing cold fluid,
+- the pressure drop must be minimized to reduce the work done by the pumps or compressors.
+
+**Calculation of pressure gradient**
+![[Pasted image 20251231132715.png]]
+**Calculation of heat exchanged**
+![[Pasted image 20251231132732.png]]
+**Calculation of required length**
+![[Pasted image 20251231132753.png]]
+**Example**
+![[Pasted image 20251231132813.png]]
+**Methods of construction**
+
 
 ## References
