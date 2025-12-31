@@ -54,8 +54,23 @@ Single-stage GM cryocoolers are mainly used for communication electronics and cr
 ![[Pasted image 20251231174721.png]]
 Two-stage and three-stage GM cryocoolers are used for cooling microwave amplifiers and precooling before Joule-Thomson expansion stages.
 ##### Pulse Tube Refrigerators
-The pulse tube refrigerator is a closed-cycle (meaning no gas is lost) regenerative refrigerator with no moving parts in the cold region (no displacer)
+The pulse tube refrigerator is a closed-cycle (meaning no gas is lost) regenerative refrigerator with no moving parts in the cold region (no displacer), thus reducing vibrations and improving lifetime. 
+The process is based on the expansion of a gas undergoing pressure oscillations in a tube, the average pressure is between 10-25 bar. 
+To obtain low temperature, below 20K, the systems are operated at 1-5 Hz.
+There are two main ways to generate pressure oscillations:
+- GM-type PTR: A compressor produces continuous high and low pressures and a valve system switches between the two pressures to create oscillations.
+- Stirling-type PTR: A piston driven by a linear motor creates pressure oscillations directly.
+![[Pasted image 20251231175658.png]]
 
+The theory behind the pulse tube refrigerator is similar to the Stirling Refrigerators, with the main difference being the volume displacement mechanism (the displacer) is replaced by the orifice/buffer volume system. The combination of the orifice and buffer volume creates a phase shift between gas flow in the tube and the pressure oscillations, mimicking the effect of a displacer.
+![[Pasted image 20251231175946.png]]
+
+**GM-type PTR**
+
+
+
+
+**Regen
 
 
 
