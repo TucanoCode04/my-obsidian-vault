@@ -38,6 +38,13 @@ Split cycle coolers are a variation of the Stirling cryocooler where the compres
 - Special Cryocoolers for Space: single or two-stage Stirling coolers designed for space environments and mostly maintenance-free operation over long durations. They are used to cool infrared detectors, heat shields, to observe climate changes, etc. No degradation in their performance is observed after years of operation in space. Typical cooling powers are in the range of a few watts at temperatures between 5-80 K. They use a dual opposed piston design to minimize vibrations.
 ![[Pasted image 20251231171222.png]]
 ##### Gifford-McMahon (GM) Cryocoolers
+The Gifford-McMahon cryocooler is another type of regenerative refrigerator but here the flow from the compressor is controlled by inlet and outlet valves. The compressor can be separated from the cold head, to reduce vibrations at the cold tip, but this way we have presence of moving parts (valves) at the cold head which introduce noise.
+![[Pasted image 20251231173714.png]]
+The cycle consists of:
+1. Pressurization Phase: The compressor pushes high-pressure helium gas into the warm end volume $W$ through the inlet valve $V_I$, while the exhaust valve $V_E$ is closed. 
+![[Pasted image 20251231173907.png]]
+2. Input Phase: The input valve $V_I$ remains open and the displacer $D$ moves up, forcing the gas to flow through the regenerator $R$ and enhancing the cold end volume $C$. The gas cools down as it passes through the regenerator, absorbing heat from it.
+![[Pasted image 20251231174102.png]]
 
 
 
