@@ -97,7 +97,11 @@ $$\mu = \frac{1}{C_p} \left[ T \left( \frac{\partial V}{\partial T} \right)_p - 
 Where $C_p$ is the molar heat capacity at constant pressure, $V$ is the molar volume. This is the equation for real gases, for ideal gases $\mu = 0$ since $V = RT/p$ (meaning that ideal gases don't change temperature during a throttling process).
 Cooling by throttling is possible only for real gases, because the temperature change is due to the change in energy of the gas molecules when the average distance between them changes during the expansion (internal work is done by the intermolecular forces).
 
-To have the cooling effect during the Joule-Thomson expansion, the initial $T$ must be below the inversion temperature of the gas. For many gases like air and nitrogen the inversion temperature is above room temperature, so they cool down during the expansion at room temperature. For other gases like hydrogen and helium the inversion temperature is below room temperature ($T_i < 200 K$ )
-
+To have the cooling effect during the Joule-Thomson expansion, the initial $T$ must be below the inversion temperature of the gas. For many gases like air and nitrogen the inversion temperature is above room temperature, so they cool down during the expansion at room temperature. For other gases like hydrogen and helium the inversion temperature is below room temperature ($T_i < 200 K$ for hydrogen and $T_i < 40 K$ for helium), so they heat up during the expansion at room temperature and must be precooled using liquid nitrogen or hydrogen before performing the Joule-Thomson expansion to reach lower temperatures.
+Once the gas ha been precooled below its inversion temperature, the optimal pressure for the expansion can be determined by analyzing the isenthalpic curves of the gas.
+Normally a counter-current heat exchanger is used to pre-cool the gas before the expansion valve, using the cold gas exiting the low-pressure side to cool the high-pressure gas entering the expansion valve, improving the efficiency of the cooling process. For the heat exchanger to work properly, the opposing stream temperatures must be within the cooling region of the isenthalpic curves, meaning that both streams must have $\mu > 0$ during the heat exchange. The stream must be long and well insulated to have a sufficient speed to cause turbulent flow, improving the heat exchange between the two streams, and they need to be in good thermal contact through a high-conductivity material.
+![[Pasted image 20251231130638.png]]
+When a steady state is reached, liquid is formed at a constant rate, and the liquid fraction can be calculated from the enthalpy balance of the process:
+$$H_i = y H_L + (1 - y) H_f \quad \Rightarrow \quad y = \frac{H_f - - H_i}{H_f - H_L}$$ 
 
 ## References
