@@ -49,6 +49,18 @@ The work done on the system is $W = Q_H - Q_C$, where $Q_H$ is the heat removed 
 This process can also be explained through a V-P diagram.
 ![[Pasted image 20251231111245.png]]
 - State 1: saturated liquid at high pressure $p_1$ and temperature $\theta_H$.
-- State 2: 
+- State 2: after the expansion valve (throttling process) at low pressure $p_2$ and temperature $\theta_C$, with partial vaporization of the fluid.
+- State 3: saturated vapor at low pressure $p_2$ and temperature $\theta_C$ after isothermal and isobaric vaporization in the evaporator. In this state we have more volume for the same mass of fluid, so the specific volume $v_3$ is higher than $v_2$.
+- State 4: after the compressor (adiabatic compression) at high pressure $p_1$ and temperature $\theta_H$. 
+
+We go back to state 1 after the isothermal and isobaric condensation in the condenser. Where the volume decreases for the same mass of fluid, so the specific volume $v_1$ is lower than $v_4$.
+![[Pasted image 20251231112500.png]]
+
+We can calculate the Coefficient of Performance (COP) of the refrigerator as:
+$$COP = \frac{Q_C}{W} = \frac{Q_C}{Q_H - Q_C}$$
+Which basically measures how much heat $Q_C$ is absorbed from the material or chamber to be cooled for each unit of work $W$ done on the system. A typical value for a domestic refrigerator ranges from 2 to 7.
+From this we can see that is convenient to heat a house by cooling the outside air rather than using resistive heating elements, since if for example we have $COP = 5$, for each joule of work done on the system we get 5 joules of heat removed from the house, while with resistive heating elements we would get only 1 joule of heat for each joule of work done.
+
+
 
 ## References
