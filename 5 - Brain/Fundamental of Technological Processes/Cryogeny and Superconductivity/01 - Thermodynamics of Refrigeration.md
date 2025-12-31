@@ -142,6 +142,9 @@ For maximum efficiency:
 **Example**
 ![[Pasted image 20251231132813.png]]
 **Methods of construction**
-
-
+- Linde Exchanger: uses a series of concentric tubes or multi tubes to maximize the surface area for heat exchange. The inner tubes carry and high pressure fluid while the anular space between the tubes carries the low pressure fluid. The main disadvantage is the high pressure drop of the low pressure fluid due to the outer walls of the tubes.
+![[Pasted image 20251231133348.png]]
+- Microversion of Linde Exchanger: uses glass plates etched through photolithography to create microchannels for the fluids to flow through. The plates are bonded together to create a compact heat exchanger with high surface area and low pressure drop.
+![[Pasted image 20251231133356.png]]
+- Hampson Exchanger: by shortening the length of the low pressure return channel it achieves a lower pressure drop and lower flow resistance for the low pressure fluid. The main disadvantage are the calculation and construction complexity. Generally, the high-pressure fluid flows through a long spiral 
 ## References
