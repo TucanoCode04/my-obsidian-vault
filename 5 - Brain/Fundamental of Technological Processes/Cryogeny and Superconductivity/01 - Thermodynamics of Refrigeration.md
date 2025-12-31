@@ -37,9 +37,9 @@ We can explain this process through an example of an electric refrigerator for d
 The main components of a refrigerator are:
 - Liquid Tank: contains the refrigerant fluid in liquid state at temperature $T_H > T_{ambient}$ and pressure $p_H > p_{ambient}$ (saturated liquid).
 - Expansion Valve: a throttling valve that uses adiabatic expansion (Joule-Thomson expansion) to cool the refrigerant fluid at $T_C < T_H$ and there's a partial vaporization of the fluid.
-- Evaporator: a heat exchanger that provides latent heat $Q_L$ to the refrigerant fluid from the material or chamber to be cooled, bringing the fluid to saturated vapor state.
+- Evaporator: a heat exchanger that provides latent heat $Q_L$ to the refrigerant fluid from the material or chamber to be cooled (cool reservoir), bringing the fluid to saturated vapor state.
 - Compressor: compresses the refrigerant fluid, so that is returned to $T_H > T_{ambient}$ and $p_H > p_{ambient}$, 
-- Condenser: a heat exchanger that removes latent heat $Q_H$ from the refrigerant fluid to the ambient (air or water), bringing the fluid to saturated liquid state.
+- Condenser: a heat exchanger that removes latent heat $Q_H$ from the refrigerant fluid to the ambient (air or water)(hot reservoir), bringing the fluid to saturated liquid state.
 
 The minimum temperature reachable with this type of refrigerator is of the order of $-30 ^\circ C$.
 The refrigerant fluid can be any fluid that can perform the thermodynamic cycle described.
