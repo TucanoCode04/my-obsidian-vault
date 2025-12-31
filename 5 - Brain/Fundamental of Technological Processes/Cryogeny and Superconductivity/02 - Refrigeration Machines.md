@@ -35,7 +35,10 @@ Split cycle coolers are a variation of the Stirling cryocooler where the compres
 ![[Pasted image 20251231170018.png]]
 - Two Stage Stirling Coolers: These coolers can achieve temperatures as low as 15-60 K. Mostly used to remotely cool an application by flowing helium gas through a transfer line to the cold head. To circulate the Helium gas, integrated cryo-fans are often used, they help to improve the heat transfer without the need for a separate cryostat.
 ![[Pasted image 20251231170912.png]]
-- Special Cryocoolers for Space: single or two-stage Stirling coolers designed for space environments and mostly maintenance-free operation over long durations. They are used to cool infrared detectors, heat shields
+- Special Cryocoolers for Space: single or two-stage Stirling coolers designed for space environments and mostly maintenance-free operation over long durations. They are used to cool infrared detectors, heat shields, to observe climate changes, etc. No degradation in their performance is observed after years of operation in space. Typical cooling powers are in the range of a few watts at temperatures between 5-80 K. They use a dual opposed piston design to minimize vibrations.
+![[Pasted image 20251231171222.png]]
+##### Gifford-McMahon (GM) Cryocoolers
+
 
 
 
