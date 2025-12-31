@@ -77,6 +77,11 @@ Both pistons are moved at different speeds to the right so that we mantain an hi
 The gases pass through the porous wall from the left chamber to the right chamber, in the middle of the process the gas finds itself in a dissipative non-equilibrium state, and finally reaches the final equilibrium state in the right chamber. 
 The friction of the chamber walls and of the porous wall causes internal mechanical irreversibilities.
 
+![[Pasted image 20251231122201.png]]
+We can easily calculate the throttling process to be isenthalpic, meaning that the enthalpy before and after the process is the same ($H_i = H_f$).
+The process is adiabatic, so $Q = 0$, so the only remaining energy exchange is the work done by the system. Bu we can easily see that the sum of the internal energy of the initial system plus the work done by the system is equal to the internal energy of the final system plus the work done on the system.
+Even though the initial and final enthalpy are the same, the process is not strictly isenthalpic, since the system passes through a non-equilibrium state in an irreversible process.
+A continuous throttling process can be achieved 
 
 
 ## References

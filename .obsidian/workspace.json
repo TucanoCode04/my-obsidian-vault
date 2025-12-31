@@ -187,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,23 +204,22 @@
   },
   "active": "e7b0a9b5fa50a6ed",
   "lastOpenFiles": [
+    "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/00 - Thermodynamics Basis.md",
+    "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/01 - Thermodynamics of Refrigeration.md",
+    "Pasted image 20251231122201.png",
     "Pasted image 20251231114153.png",
     "Pasted image 20251231112943.png",
     "Pasted image 20251231112500.png",
     "Pasted image 20251231111245.png",
     "Pasted image 20251231111144.png",
     "Pasted image 20251231105651.png",
-    "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/00 - Thermodynamics Basis.md",
-    "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/01 - Thermodynamics of Refrigeration.md",
     "Pasted image 20251231104019.png",
     "Pasted image 20251230121215.png",
     "Pasted image 20251230121205.png",
     "5 - Brain/Untitled.base",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/01 - Quantum Dots as Qubits.md",
-    "Pasted image 20251229185454.png",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/10 - Semi-Classical Boltzmann Equation.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/08 - Photon exciting an Electron in a Semiconductor(or Insulator).md",
-    "Pasted image 20251229174124.png",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/11 - Nanostructures DOS.md",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/00 - Spin Basics.md",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits",
