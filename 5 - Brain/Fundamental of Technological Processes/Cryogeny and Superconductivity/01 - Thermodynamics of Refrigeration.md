@@ -70,6 +70,12 @@ The history of refrigerants can be divided into three main generations:
 2. Second Generation: used chlorofluorocarbons (CFCs) commercially called Freons, which were non-toxic and non-flammable, but being heavy molecules they caused depletion of the oxygen leading to possible asphyxiation, and also damaged the ozone layer.
 3. Third Generation: used hydrofluorocarbons (HFCs) like R-134a, which don't damage the ozone layer, but are powerful greenhouse gases with high global warming potential (GWP) by remaining in the atmosphere for a long time.
 ##### Throttling Process
+The throttling process makes use of a porous wall, which permits the fluid to pass from a chamber to another chamber while controlling the pressure, unlike free expansion.
+The process is adiabatic, so no heat exchange occurs with the environment, and it is irreversible due to the presence of friction.
+![[Pasted image 20251231114153.png]]
+Both pistons are moved at different speeds to the right so that we mantain an higher pressure on the left chamber ($p_i$, where $i $ stands for initial) and a lower pressure on the right chamber ($p_f$, where $f$ stands for final).
+The gases pass through the porous wall from the left chamber to the right chamber, in the middle of the process the gas finds itself in a dissipative non-equilibrium state, and finally reaches the final equilibrium state in the right chamber. 
+The friction of the chamber walls and of the porous wall causes internal mechanical irreversibilities.
 
 
 
