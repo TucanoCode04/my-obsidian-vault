@@ -102,6 +102,26 @@ Once the gas ha been precooled below its inversion temperature, the optimal pres
 Normally a counter-current heat exchanger is used to pre-cool the gas before the expansion valve, using the cold gas exiting the low-pressure side to cool the high-pressure gas entering the expansion valve, improving the efficiency of the cooling process. For the heat exchanger to work properly, the opposing stream temperatures must be within the cooling region of the isenthalpic curves, meaning that both streams must have $\mu > 0$ during the heat exchange. The stream must be long and well insulated to have a sufficient speed to cause turbulent flow, improving the heat exchange between the two streams, and they need to be in good thermal contact through a high-conductivity material.
 ![[Pasted image 20251231130638.png]]
 When a steady state is reached, liquid is formed at a constant rate, and the liquid fraction can be calculated from the enthalpy balance of the process:
-$$H_i = y H_L + (1 - y) H_f \quad \Rightarrow \quad y = \frac{H_f - - H_i}{H_f - H_L}$$ 
+$$H_i = y H_L + (1 - y) H_f \quad \Rightarrow \quad y = \frac{H_f  - H_i}{H_f - H_L}$$
+Where: 
+- $y$ is the liquid fraction, so it depends only on the initial (since the other are constants for a given final pressure) molar enthalpy which depends on the initial pressure once the temperature is set,
+- $H_i$ (constant) is the molar enthalpy of the initial state, 
+- $H_f$ (constant) is the molar enthalpy of the final state after expansion and it depends on the pressure drop in the tube and on the temperature of the surroundings,
+- $H_L$ is the molar enthalpy of the saturated liquid at the final pressure, and it depends only on the final pressure of the liquid.
+
+We can easily calculate that the maximum liquid fraction is obtained when ($T_i$, $p_i$) is on the inversion curve maximum (where $\mu = 0$).
+
+The advantage of the Joule-Thomson expansion are:
+- no low temperatures moving parts are required,
+- the lower the temperature reached, the higher the $\Delta T$ that can be obtained, resulting in higher efficiency at low temperatures,
+
+The most important disadvantage is:
+- it requires strong preliminary cooling to reach temperatures below the inversion temperature of the gas.
+
+**Example: Collins Helium Liquefier**
+The Collins Helium Liquefier is a cryogenic system that uses the Joule-Thomson expansion to liquefy helium gas.
+![[Pasted image 20251231131703.png]]
+It combines the two methods: Helium expands adiabatically in a piston-cylinder system to reach low temperatures, and then it expands isenthalpically through a Joule-Thomson valve to reach the liquefaction point.(I don't know if I should search it up more)
+##### Cooling using Turboexpanders
 
 ## References
