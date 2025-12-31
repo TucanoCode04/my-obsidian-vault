@@ -30,7 +30,10 @@ The isentropic cooling process consists in:
 Using this process it is possible to reach very low temperatures, depending on the properties of the material used, but always above the absolute zero for the Third Law of Thermodynamics (which states that it is impossible to reach the absolute zero through a finite number of processes).
 
 This process highlights the syntactic equivalence: cooling $\Leftrightarrow$ ordering $\Leftrightarrow$ entropy reduction.
-##### Is
-
-
+##### Isenthalpic Cooling
+Isenthalpic cooling is a throttling process, meaning that it occurs at constant enthalpy $H$.
+We can explain this process through an example of an electric refrigerator for domestic use.
+![[Pasted image 20251231105651.png]]
+The main components of a refrigerator are:
+- Liquid Tank: contains the refrigerant fluid 
 ## References
