@@ -45,8 +45,24 @@ The cycle consists of:
 ![[Pasted image 20251231173907.png]]
 2. Input Phase: The input valve $V_I$ remains open and the displacer $D$ moves up, forcing the gas to flow through the regenerator $R$ and enhancing the cold end volume $C$. The gas cools down as it passes through the regenerator, absorbing heat from it.
 ![[Pasted image 20251231174102.png]]
+3. Depressurization Phase: The exhaust valve $V_E$ opens slowly and the input valve $V_I$ closes. The high-pressure gas in the cold end volume $C$ expands, cooling down further and absorbing heat $Q_C$ from the load.
+![[Pasted image 20251231174148.png]]
+4. Exhaust Phase: The exhaust valve $V_E$ remains open and the displacer $D$ moves down, forcing the gas to flow back through the regenerator $R$. The gas warms up as it passes through the regenerator, releasing heat to it, and finally exits through the exhaust valve. The exhaust valve is closed again to start a new cycle.
+![[Pasted image 20251231174414.png]]
+
+Single-stage GM cryocoolers are mainly used for communication electronics and cryogen free magnets. 
+![[Pasted image 20251231174721.png]]
+Two-stage and three-stage GM cryocoolers are used for cooling microwave amplifiers and precooling before Joule-Thomson expansion stages.
+##### Pulse Tube Refrigerators
+The pulse tube refrigerator is a closed-cycle (meaning no gas is lost) regenerative refrigerator with no moving parts in the cold region (no displacer)
 
 
+
+
+
+
+
+![[Pasted image 20251231174811.png]]
 
 
 ## References
