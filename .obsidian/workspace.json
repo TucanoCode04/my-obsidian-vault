@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/01 - Thermodynamics of Refrigeration.md",
+                "file": "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/02 - Refrigeration Machines.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 - Thermodynamics of Refrigeration"
+              "title": "02 - Refrigeration Machines"
             }
           },
           {
@@ -187,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,6 +204,8 @@
   },
   "active": "e7b0a9b5fa50a6ed",
   "lastOpenFiles": [
+    "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/01 - Thermodynamics of Refrigeration.md",
+    "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/02 - Refrigeration Machines.md",
     "Pasted image 20251231134029.png",
     "Pasted image 20251231133356.png",
     "Pasted image 20251231133348.png",
@@ -213,9 +216,7 @@
     "Pasted image 20251231132341.png",
     "Pasted image 20251231131703.png",
     "Pasted image 20251231130638.png",
-    "Pasted image 20251231125411.png",
     "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/00 - Thermodynamics Basis.md",
-    "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/01 - Thermodynamics of Refrigeration.md",
     "5 - Brain/Untitled.base",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/01 - Quantum Dots as Qubits.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/10 - Semi-Classical Boltzmann Equation.md",
