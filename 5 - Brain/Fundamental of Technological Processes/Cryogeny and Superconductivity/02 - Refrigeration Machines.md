@@ -33,7 +33,9 @@ Split cycle coolers are a variation of the Stirling cryocooler where the compres
 **Special Cryocoolers**
 - Single Stage Stirling Coolers: They provide cooling power in the range of a few watts at temperatures around 40-160 K. They are used to produce liquid nitrogen for various applications.
 ![[Pasted image 20251231170018.png]]
-- 
+- Two Stage Stirling Coolers: These coolers can achieve temperatures as low as 15-60 K. Mostly used to remotely cool an application by flowing helium gas through a transfer line to the cold head. To circulate the Helium gas, integrated cryo-fans are often used, they help to improve the heat transfer without the need for a separate cryostat.
+![[Pasted image 20251231170912.png]]
+- Special Cryocoolers for Space: single or two-stage Stirling coolers designed for space environments and mostly maintenance-free operation over long durations. They are used to cool infrared detectors, heat shields
 
 
 
