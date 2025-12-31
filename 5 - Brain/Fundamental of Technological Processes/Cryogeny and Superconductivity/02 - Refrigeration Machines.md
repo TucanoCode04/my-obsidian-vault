@@ -66,17 +66,15 @@ The theory behind the pulse tube refrigerator is similar to the Stirling Refrige
 ![[Pasted image 20251231175946.png]]
 
 **GM-type PTR**
+![[Pasted image 20251231180627.png]]
 
+**Regenerator Issues**
+The PTRs provide cooling power of a few watts at temperatures around 4 to 40 K. However, the material of the regenerator must have a high specific heat to provide effective heat storage. Below 20 K, the specific heat of most materials drops significantly, whereas the heat capacity of the working gas (helium) increases to a maximum of 10 K. 
+To address this issue, rare-earth materials such as erbium or cerium alloys are used in the coldest part of the regenerator, these materials have a magnetic phase transition below 15 K which provides a high specific heat capacity.
+It's still difficult to achieve efficient regeneration below 4 K.
+![[Pasted image 20251231180537.png]]
 
-
-
-**Regen
-
-
-
-
-
-
+**Different Types of PTRs**
 ![[Pasted image 20251231174811.png]]
 
 
