@@ -24,7 +24,16 @@ The working gas is compressed in one chamber, then transferred to another chambe
 1. Compression in space $D$ by the piston $B$, the heat generated is removed by water cooling.
 2. Transfer of the gas through the regenerator $G$ to the cold side $E$ using a displacer piston $C$. The gas cools down as it passes through the regenerator since it gives up heat to the regenerator material.
 3. Expansion and further cooling of the gas in space $E$. The cold gas can now be used to cool the load (the load is important to avoid temperature oscillations).
-4. Transfer of the gas back through the regenerator $G$ to the hot side $D$ using the displacer piston $C$. 
+4. Transfer of the gas back through the regenerator $G$ to the hot side $D$ using the displacer piston $C$. The gas warms up as it passes back through the regenerator since it absorbs heat from the regenerator material and the regenerator is cooled down for the next cycle.
+
+**Split Cycle Coolers**
+Split cycle coolers are a variation of the Stirling cryocooler where the compressor and the expander (cold head) are separated. The working gas is compressed in a remote compressor and then transferred to the cold head through a transfer line. The cold head contains the displacer/regenerator assembly and the expansion space. This design allows for more flexibility in the placement of the cold head and reduces vibrations at the cold tip.
+![[Pasted image 20251231165723.png]]
+![[Pasted image 20251231165807.png]]
+**Special Cryocoolers**
+- Single Stage Stirling Coolers: They provide cooling power in the range of a few watts at temperatures around 40-160 K. They are used to produce liquid nitrogen for various applications.
+![[Pasted image 20251231170018.png]]
+- 
 
 
 
