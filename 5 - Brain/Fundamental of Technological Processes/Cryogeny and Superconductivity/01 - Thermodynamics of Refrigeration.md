@@ -17,7 +17,7 @@ A small list of important low temperatures is:
 - Electronic Magnetic Refrigeration: 3 mK
 - Nuclear Magnetic Refrigeration: 100 $\mu$K
 
-##### Isentropic Cooling
+#### Isentropic Cooling
 Isentropic cooling is a thermodynamic process that can be explained through a S-T diagram. In our case $S = S(T, X)$, where $X$ is an external parameter that can be changed to modify the entropy of the system, for example the pressure or the magnetic field.
 ![[Pasted image 20251231104019.png]]
 The entropy of a system at constant volume or pressure generally monotonically increases with temperature.
@@ -30,7 +30,7 @@ The isentropic cooling process consists in:
 Using this process it is possible to reach very low temperatures, depending on the properties of the material used, but always above the absolute zero for the Third Law of Thermodynamics (which states that it is impossible to reach the absolute zero through a finite number of processes).
 
 This process highlights the syntactic equivalence: cooling $\Leftrightarrow$ ordering $\Leftrightarrow$ entropy reduction.
-##### Isenthalpic Cooling
+#### Isenthalpic Cooling
 Isenthalpic cooling is a throttling process, meaning that it occurs at constant enthalpy $H$.
 We can explain this process through an example of an electric refrigerator for domestic use.
 ![[Pasted image 20251231105651.png]]
@@ -60,6 +60,16 @@ We can calculate the Coefficient of Performance (COP) of the refrigerator as:
 $$COP = \frac{Q_C}{W} = \frac{Q_C}{Q_H - Q_C}$$
 Which basically measures how much heat $Q_C$ is absorbed from the material or chamber to be cooled for each unit of work $W$ done on the system. A typical value for a domestic refrigerator ranges from 2 to 7.
 From this we can see that is convenient to heat a house by cooling the outside air rather than using resistive heating elements, since if for example we have $COP = 5$, for each joule of work done on the system we get 5 joules of heat removed from the house, while with resistive heating elements we would get only 1 joule of heat for each joule of work done.
+
+By reversing the valve, the thermal cycle can be used as a heat pump to heat a house, with the same COP.
+![[Pasted image 20251231112943.png]]
+##### Refrigerants
+Its is important to choose the right refrigerant fluid to adjust the temperature of the cold body and that of the hot reservoir.
+The history of refrigerants can be divided into three main generations:
+1. First Generation: used toxic and flammable substances like ammonia ($NH_3$), it was very efficient since it had high latent heat of vaporization, but dangerous for human health.
+2. Second Generation: used chlorofluorocarbons (CFCs) commercially called Freons, which were non-toxic and non-flammable, but being heavy molecules they caused depletion of the oxygen leading to possible asphyxiation, and also damaged the ozone layer.
+3. Third Generation: used hydrofluorocarbons (HFCs) like R-134a, which don't damage the ozone layer, but are powerful greenhouse gases with high global warming potential (GWP) by remaining in the atmosphere for a long time.
+##### Throttling Process
 
 
 
