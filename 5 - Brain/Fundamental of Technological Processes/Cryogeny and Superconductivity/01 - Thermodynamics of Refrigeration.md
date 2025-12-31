@@ -36,7 +36,7 @@ We can explain this process through an example of an electric refrigerator for d
 ![[Pasted image 20251231105651.png]]
 The main components of a refrigerator are:
 - Liquid Tank: contains the refrigerant fluid in liquid state at temperature $T_H > T_{ambient}$ and pressure $p_H > p_{ambient}$ (saturated liquid).
-- Expansion Valve: a throttling valve that uses adiabatic expansion to cool the refrigerant fluid at $T_C < T_H$ and there's a partial vaporization of the fluid.
+- Expansion Valve: a throttling valve that uses adiabatic expansion (Joule-Thomson expansion) to cool the refrigerant fluid at $T_C < T_H$ and there's a partial vaporization of the fluid.
 - Evaporator: a heat exchanger that provides latent heat $Q_L$ to the refrigerant fluid from the material or chamber to be cooled, bringing the fluid to saturated vapor state.
 - Compressor: compresses the refrigerant fluid, so that is returned to $T_H > T_{ambient}$ and $p_H > p_{ambient}$, 
 - Condenser: a heat exchanger that removes latent heat $Q_H$ from the refrigerant fluid to the ambient (air or water), bringing the fluid to saturated liquid state.
@@ -81,7 +81,10 @@ The friction of the chamber walls and of the porous wall causes internal mechani
 We can easily calculate the throttling process to be isenthalpic, meaning that the enthalpy before and after the process is the same ($H_i = H_f$).
 The process is adiabatic, so $Q = 0$, so the only remaining energy exchange is the work done by the system. Bu we can easily see that the sum of the internal energy of the initial system plus the work done by the system is equal to the internal energy of the final system plus the work done on the system.
 Even though the initial and final enthalpy are the same, the process is not strictly isenthalpic, since the system passes through a non-equilibrium state in an irreversible process.
-A continuous throttling process can be achieved 
+A continuous throttling process can be achieved by a pump that maintains a constant pressure difference across a porous plug, allowing the fluid to pass from the high-pressure side to the low-pressure side.
+##### Joule-Thomson Expansion
+
+
 
 
 ## References
