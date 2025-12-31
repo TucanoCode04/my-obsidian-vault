@@ -42,5 +42,13 @@ The main components of a refrigerator are:
 - Condenser: a heat exchanger that removes latent heat $Q_H$ from the refrigerant fluid to the ambient (air or water), bringing the fluid to saturated liquid state.
 
 The minimum temperature reachable with this type of refrigerator is of the order of $-30 ^\circ C$.
+The refrigerant fluid can be any fluid that can perform the thermodynamic cycle described.
+The work done on the system is $W = Q_H - Q_C$, where $Q_H$ is the heat removed from the refrigerant fluid to the ambient and $Q_C$ is the heat absorbed by the refrigerant fluid from the material or chamber to be cooled.
+![[Pasted image 20251231111144.png]]
+
+This process can also be explained through a V-P diagram.
+![[Pasted image 20251231111245.png]]
+- State 1: saturated liquid at high pressure $p_1$ and temperature $\theta_H$.
+- State 2: 
 
 ## References
