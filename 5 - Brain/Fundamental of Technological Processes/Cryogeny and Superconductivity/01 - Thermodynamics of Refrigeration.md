@@ -83,7 +83,16 @@ The process is adiabatic, so $Q = 0$, so the only remaining energy exchange is t
 Even though the initial and final enthalpy are the same, the process is not strictly isenthalpic, since the system passes through a non-equilibrium state in an irreversible process.
 A continuous throttling process can be achieved by a pump that maintains a constant pressure difference across a porous plug, allowing the fluid to pass from the high-pressure side to the low-pressure side.
 ##### Joule-Thomson Expansion
-
+The Joule-Thomson expansion is a particular case of throttling process, where a real gas expands from a high-pressure region to a low-pressure region through a porous plug or valve, it is normally used to liquefy gases and in refrigeration cycles.
+The gas undergoes a continuous throttling process, it flows in radial direction through the porous plug from the high-pressure side to the low-pressure side. The throttling valve and the surrounding walls are thermally insulated, so the process is adiabatic.
+The process starts from an initial state with pressure $p_i$ and temperature $T_i$, and ends in a final state with pressure $p_f$ and temperature $T_f$. The high-pressure side is chosen arbitrarily while the low-pressure side is set to any desired value $< p_i$. $T_f$ is calculated and can be seen on the isenthalpic curves of the gas.
+![[Pasted image 20251231124414.png]]
+We can see that lower pressures doesn't always lead to lower temperatures, depending on the initial state of the gas. The isenthalpic curve represents all equilibrium states that can be reached from the initial state through a throttling process.
+Starting from different initial states ($p_i$, $T_i$) different isenthalpic curves are obtained. The slope of the isenthalpic curves an any point indicates whether the gas cools down or heats up during the expansion and is called the Joule-Thomson coefficient $\mu$:
+$$\mu = \left( \frac{\partial T}{\partial p} \right)_H$$
+If $\mu > 0$ the gas cools down during the expansion, if $\mu < 0$ the gas heats up during the expansion. Where $\mu = 0$ indicates the inversion curve, which separates the cooling region from the heating region.
+A thermodynamic equation can be obtained starting from the difference in molar enthalpy between the initial and final state:
+$$\mu = 
 
 
 
