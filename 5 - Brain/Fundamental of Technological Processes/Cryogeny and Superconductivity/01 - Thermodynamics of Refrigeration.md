@@ -88,12 +88,16 @@ The gas undergoes a continuous throttling process, it flows in radial direction 
 The process starts from an initial state with pressure $p_i$ and temperature $T_i$, and ends in a final state with pressure $p_f$ and temperature $T_f$. The high-pressure side is chosen arbitrarily while the low-pressure side is set to any desired value $< p_i$. $T_f$ is calculated and can be seen on the isenthalpic curves of the gas.
 ![[Pasted image 20251231124414.png]]
 We can see that lower pressures doesn't always lead to lower temperatures, depending on the initial state of the gas. The isenthalpic curve represents all equilibrium states that can be reached from the initial state through a throttling process.
+![[Pasted image 20251231125411.png]]
 Starting from different initial states ($p_i$, $T_i$) different isenthalpic curves are obtained. The slope of the isenthalpic curves an any point indicates whether the gas cools down or heats up during the expansion and is called the Joule-Thomson coefficient $\mu$:
 $$\mu = \left( \frac{\partial T}{\partial p} \right)_H$$
 If $\mu > 0$ the gas cools down during the expansion, if $\mu < 0$ the gas heats up during the expansion. Where $\mu = 0$ indicates the inversion curve, which separates the cooling region from the heating region.
 A thermodynamic equation can be obtained starting from the difference in molar enthalpy between the initial and final state:
-$$\mu = 
+$$\mu = \frac{1}{C_p} \left[ T \left( \frac{\partial V}{\partial T} \right)_p - V \right]$$
+Where $C_p$ is the molar heat capacity at constant pressure, $V$ is the molar volume. This is the equation for real gases, for ideal gases $\mu = 0$ since $V = RT/p$ (meaning that ideal gases don't change temperature during a throttling process).
+Cooling by throttling is possible only for real gases, because the temperature change is due to the change in energy of the gas molecules when the average distance between them changes during the expansion (internal work is done by the intermolecular forces).
 
+To have the cooling effect during the Joule-Thomson expansion, the initial $T$ must be below the inversion temperature of the gas. For many gases like air and nitrogen the inversion temperature is above room temperature, so they cool down during the expansion at room temperature. For other gases like hydrogen and helium the inversion temperature is below room temperature ($T_i < 200 K$ )
 
 
 ## References
