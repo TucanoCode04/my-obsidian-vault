@@ -18,7 +18,19 @@ A small list of important low temperatures is:
 - Nuclear Magnetic Refrigeration: 100 $\mu$K
 
 ##### Isentropic Cooling
+Isentropic cooling is a thermodynamic process that can be explained through a S-T diagram. In our case $S = S(T, X)$, where $X$ is an external parameter that can be changed to modify the entropy of the system, for example the pressure or the magnetic field.
+![[Pasted image 20251231104019.png]]
+The entropy of a system at constant volume or pressure generally monotonically increases with temperature.
+The isentropic cooling process consists in:
+1. Starting from an initial state $A$ at temperature $T_B$ on the external parameter $X_1$.
+2. Through isothermal compression (magnetization in case of magnetic refrigeration, where the external parameter is the magnetic field) bring the system to state $B$ at temperature $T_B$ on the external parameter $X_2$.
+3. Through adiabatic expansion (demagnetization in case of magnetic refrigeration) bring the system to state $C$ at temperature $T_C < T_B$ on the external parameter $X_1$.
+4. Repeat the cycle starting from state $C$, to get to even lower temperatures.
 
+Using this process it is possible to reach very low temperatures, depending on the properties of the material used, but always above the absolute zero for the Third Law of Thermodynamics (which states that it is impossible to reach the absolute zero through a finite number of processes).
+
+This process highlights the syntactic equivalence: cooling $\Leftrightarrow$ ordering $\Leftrightarrow$ entropy reduction.
+##### Is
 
 
 ## References
