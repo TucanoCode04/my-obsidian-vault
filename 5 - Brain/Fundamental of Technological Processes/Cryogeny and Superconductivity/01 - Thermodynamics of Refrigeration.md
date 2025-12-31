@@ -146,5 +146,6 @@ For maximum efficiency:
 ![[Pasted image 20251231133348.png]]
 - Microversion of Linde Exchanger: uses glass plates etched through photolithography to create microchannels for the fluids to flow through. The plates are bonded together to create a compact heat exchanger with high surface area and low pressure drop.
 ![[Pasted image 20251231133356.png]]
-- Hampson Exchanger: by shortening the length of the low pressure return channel it achieves a lower pressure drop and lower flow resistance for the low pressure fluid. The main disadvantage are the calculation and construction complexity. Generally, the high-pressure fluid flows through a long spiral 
+- Hampson Exchanger: by shortening the length of the low pressure return channel it achieves a lower pressure drop and lower flow resistance for the low pressure fluid. The main disadvantage are the calculation and construction complexity. Generally, the high-pressure fluid flows around a long spiral channel containing the low-pressure fluid. They are made by winding a finned capillary tube on a mandrel and enclosing it in the anular space between two concentric cylinders.
+![[Pasted image 20251231134029.png]]
 ## References
