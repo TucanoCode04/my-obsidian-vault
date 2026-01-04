@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/03 - Properties of Cryogenic Fluids.md",
+                "file": "5 - Brain/Cybersecurity/Cybersec/06 - Security of Network Applications.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03 - Properties of Cryogenic Fluids"
+              "title": "06 - Security of Network Applications"
             }
           },
           {
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -203,9 +202,11 @@
   },
   "active": "e7b0a9b5fa50a6ed",
   "lastOpenFiles": [
+    "5 - Brain/Cybersecurity/Cybersec/05 - Firewalls.md",
+    "5 - Brain/Cybersecurity/Cybersec/01 - Networking.md",
+    "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/03 - Properties of Cryogenic Fluids.md",
     "Pasted image 20260104124530.png",
     "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/02 - Refrigeration Machines.md",
-    "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/03 - Properties of Cryogenic Fluids.md",
     "Pasted image 20251231180627.png",
     "Pasted image 20251231180537.png",
     "Pasted image 20251231175946.png",
@@ -215,7 +216,6 @@
     "Pasted image 20251231174414.png",
     "Pasted image 20251231174148.png",
     "Pasted image 20251231174102.png",
-    "Pasted image 20251231173907.png",
     "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/01 - Thermodynamics of Refrigeration.md",
     "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/00 - Thermodynamics Basis.md",
     "5 - Brain/Untitled.base",
@@ -241,7 +241,6 @@
     "5 - Brain/Fundamental of Technological Processes/Technological Processes/01 - Wafer Production.md",
     "5 - Brain/Fundamental of Technological Processes/Technological Processes/08 - Wet & Dry Etching.md",
     "5 - Brain/Fundamental of Technological Processes/Technological Processes/09 - Packaging.md",
-    "5 - Brain/Fundamental of Technological Processes/Technological Processes/05 - Silicon Oxidation.md",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/Untitled",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study",
     "5 - Brain/00 - Glossary",
