@@ -77,7 +77,14 @@ Both properties result in the temperature of any experiment following the temper
 ![[Pasted image 20260104190250.png]]
 
 The specific heat of $^4He$ shows a sharp peak at the lambda point (2.17K), where helium transitions from normal fluid (He I) to superfluid (He II), called the lambda transition. This peak decreases with increasing pressure, shifting to $T_\lambda  = 1.77K$ at the melting line.
-Above the lambda point, $^4He$ behaves like a normal liquid, almost like a classical gas due to its low density, 
+Above the lambda point, $^4He$ behaves like a normal liquid, almost like a classical gas due to its low density, with specific heat decreasing with temperature. Below the lambda point, in the superfluid phase, the specific heat and entropy decrease rapidly with temperature, due to its condensation in momentum space (Bose-Einstein condensation).
+Between 1 and 2K, the specific heat has a strong temperature dependence, due to the roton excitations in the superfluid phase (which are quantized vortices in the fluid). Below 0.5K, the specific heat follows a $T^3$ dependence, characteristic of phonon excitations in the superfluid, as for an insulating Debye solid.
+![[Pasted image 20260104190829.png]]
 
+The other isotope, $^3He$, being a fermion, must obey Fermi-Dirac statistics. It has has many properties in common with conducting electrons in metals, such as specific heat proportional to temperature at low temperatures, due to the Pauli exclusion principle limiting the number of accessible states for excitations near the Fermi surface.
+Since they are Fermi particles they cannot condense into a single quantum state like bosons, since no two fermions can occupy the same quantum state simultaneously (as we know two fermions have half-integer spins, resulting in antisymmetric wavefunctions under particle exchange, which leads to the Pauli exclusion principle that forbids multiple fermions from occupying the same quantum state). However, at very low temperatures (below 2.4 mK for $P= P_{melting}$), $^3He$ undergoes a transition to a superfluid phase through the formation of Cooper pairs, similar to the mechanism in superconductors. In this phase, pairs of $^3He$ atoms behave like bosons and can condense into a single quantum state, resulting in superfluidity with unique properties such as zero viscosity and quantized vortices.
+![[Pasted image 20260104191308.png]]
+
+##### Transport Properties of Liquid $^4He$
 
 ## References
