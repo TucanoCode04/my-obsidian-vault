@@ -88,6 +88,13 @@ Since they are Fermi particles they cannot condense into a single quantum state 
 ##### Transport Properties of Liquid $^4He$
 Liquid $^4He$ above the lambda point (He I) behaves like a normal fluid, it exhibits low thermal conductivity and viscosity, similar to other liquids. Due to its low thermal conductivity, there will be non uniform temperature distributions in He I, so the boiling process will be less efficient and it will create temperature gradients in the liquid, producing bubbles and turbulence.
 ![[Pasted image 20260104193535.png]]
-Below the lambda point (He II), under ideal condition of heat flow $
+![[Pasted image 20260104194006.png]]
+Below the lambda point (He II), under ideal condition of heat flow $Q \to 0$, the liquid exhibits infinite thermal conductivity and zero viscosity, characteristic of superfluidity. The very high thermal conductivity allows for efficient heat transfer, resulting in uniform temperature distributions and effective cooling. If pumped or heated, He II does not boil since no temperature gradient is formed, it will happen only if the heat flux exceeds a critical value, leading to the destruction of the superfluid state and the formation of turbulence.
+Because of high $\kappa$ (thermal conductivity), temperature waves or entropy waves, called second sound, can propagate through He II. Unlike ordinary sound waves (first sound), which are pressure waves, second sound involves oscillations in temperature and entropy, allowing for efficient heat transport without mass flow (look it up for more details).
+##### Transport Properties of Liquid $^4He$-II
+He-II has a vanishing viscosity $\eta_s = 0$, for flow through narrow channels. It is indeed a superfluid when the flow velocity is below a critical velocity $v_c$, like the supercurrent in superconductors. This also allows for the phenomenon of persistent currents, where a superfluid can flow indefinitely without losing energy due to friction, again similar to superconductors.
+It is used to check small cracks in materials, since it can flow through tiny openings that normal fluids cannot penetrate, revealing defects in the material.
+![[Pasted image 20260104194441.png]]
 
+The superfluid film flow, also known as Rollin film, is a thin layer of superfluid helium that can climb the walls of a container coated 
 ## References
