@@ -22,6 +22,7 @@ In liquid hydrogen ($LH_2$), the pair of atoms in each molecule have strong cova
 Hydrogen becomes dangerous in exothermic reactions (meaning they release energy) with oxygen, forming water. This reaction needs more than 4% hydrogen in air to become explosive, so it is used in a closed system with proper ventilation.
 It is not widely used since the temperature range between the boiling point of nitrogen(77K) and helium(4.2K) is now accessible with closed-cycle cryocoolers. However, it could return to favor in the future with the emerging hydrogen energy technology.
 One of the most important properties of liquid hydrogen is the ortho-para hydrogen conversion. 
-
-
+The proton $^1H$ has a spin of $l =\frac{1}{2}$, so the two protons in the hydrogen molecule can have their spins aligned (ortho-hydrogen, total nuclear spin $I=1$, with degeneracy of $2I+1=3$, so triplet state) or anti-aligned (para-hydrogen, total nuclear spin $I=0$, singlet state). The lowest energy state of the hydrogen molecule is para-hydrogen, with a difference of 172K, if exposed in temperature, with respect to ortho-hydrogen, so at room temperature, all the states are equally populated, resulting in 75% ortho-hydrogen and 25% para-hydrogen. 
+At temperature below 172K, lower energy states are favored, so there is a gradual conversion from ortho to para-hydrogen. This conversion is exothermic, releasing rather large quantities of heat, which can cause significant problems at low or ultra low temperatures>
+- If the liquid consists mainly of ortho-hydrogen, it will evaporate rapidly as it converts to para-hydrogen even
 ## References
