@@ -48,7 +48,18 @@ They are called quantum fluids.
 ![[Pasted image 20260104171732.png]]
 ##### Latent Heat and Vapor Pressure
 Latent heat of vaporization and vapor pressure are important properties for cryogenic fluids used in cooling applications.
-Due to Zero-point energy effects, helium has a a relatively low latent heat of vaporization compared to other cryogenic fluids. This effect is more pronounced in $^3He$ due to its larger zero-point energy. The small $L$ values limit the efficiency of helium as a cryogenic coolant, because 
+Due to Zero-point energy effects, helium has a a relatively low latent heat of vaporization compared to other cryogenic fluids. This effect is more pronounced in $^3He$ due to its larger zero-point energy. The small $L$ values limit the efficiency of helium as a cryogenic coolant, because it is very easy to vaporize it, so they require shielding against heat introduction from the environment.
+![[Pasted image 20260104174314.png]]
+In the latent heat diagram of $^4He$, there is a sharp peak at the lambda point (2.17K), which is the temperature at which helium transitions from normal fluid (He I) to superfluid (He II). This peak is due to the unique thermodynamic properties of superfluid helium, which has extremely high heat capacity and thermal conductivity.
+
+The vapor pressure can be derived from the Clausius-Clapeyron equation:
+$$\left(\frac{dP}{dT} \right)_{vap}= \frac{S_{gas} - S_{liq}}{V_{m, gas} - V_{m, liq}} $$
+Where $S$ is the entropy the entropy and $V_m$ is the molar volume. Since the molar volume of the gas is much larger than that of the liquid so $V_{m, gas} >> V_{m, liq}$,, that $\Delta S_{gas, liq} = \frac{L}{T}$ and that for for Helium $V_{m, gas} = \frac{R T}{P}$, we can approximate the equation as:
+$$\left(\frac{dP}{dT} \right)_{vap}= \frac{L P}{R T^2} \quad \Rightarrow \quad P_{vap} \propto e^{-\frac{L}{R T}} $$
+If we further approximate $L$ as constant over small temperature ranges, we can see that the vapor pressure increases exponentially with temperature, which implies that even small increases in temperature can lead to significant increases in vapor pressure. This is particularly important for helium, as its low latent heat of vaporization means that it can vaporize easily, leading to rapid pressure increases in cryogenic systems if not properly managed.
+![[Pasted image 20260104175034.png]]
+
+One can pump on the vapor phase of liquid helium to 
 
 
 
