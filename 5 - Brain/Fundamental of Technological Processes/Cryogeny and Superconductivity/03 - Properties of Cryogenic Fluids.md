@@ -71,7 +71,13 @@ Other advantages of the temperature dependence of vapor pressure are:
 - vapor-pressure thermometers: using the known relationship between vapor pressure and temperature to measure low temperatures accurately. The helium vapor pressure curve is often used as a standard for low-temperature measurements.
 ![[Pasted image 20260104185346.png]]
 ##### Specific Heat
-The specific heat 
+The specific heat of liquid helium is large compared to other cryogenic fluids, meaning that it can absorb a significant amount of heat with only a small increase in temperature. This property is particularly important in applications where temperature stability is crucial, in fact in low temperature apparatus, the thermal behavior is often dominated by the properties of liquid helium rather than the solid materials used in the construction.
+Moreover, the latent heat of vaporization of helium is large compared to the specific heat of other materials at low temperatures, making it an efficient coolant for removing heat from systems operating at cryogenic temperatures.
+Both properties result in the temperature of any experiment following the temperature of the liquid helium bath very closely, providing a stable and uniform thermal environment.
+![[Pasted image 20260104190250.png]]
+
+The specific heat of $^4He$ shows a sharp peak at the lambda point (2.17K), where helium transitions from normal fluid (He I) to superfluid (He II), called the lambda transition. This peak decreases with increasing pressure, shifting to $T_\lambda  = 1.77K$ at the melting line.
+Above the lambda point, $^4He$ behaves like a normal liquid, almost like a classical gas due to its low density, 
 
 
 ## References
