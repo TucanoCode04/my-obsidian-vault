@@ -63,8 +63,15 @@ One can pump on the vapor phase of liquid helium to lower its pressure and thus 
 For a pumped-on helium bath, the cooling power $\dot{Q}$ can be calculated as:
 $$ \dot{Q} = \dot{n} L $$ Where $\dot{n}$ is the particle per second being removed from the liquid phase to the vapor phase, and $L$ is the latent heat of vaporization at the reduced pressure.
 With a pump with constant volumetric flow rate $\dot{V}$, the particle flow rate is proportional to the vapor pressure $P_{vap}$ and inversely proportional to the temperature $T$, giving a cooling power of:
-$$ \dot{Q} \propto P_{vap} L 
-
+$$ \dot{Q} \propto P_{vap} L \propto e^{-\frac{1}{T}} $$
+As the temperature decreases, the vapor pressure drops exponentially so pumping becomes less effective at lower temperatures, limiting the minimum achievable temperature through this method alone. 
+Eventually, there's a practical limit to how low the temperature can be reduced by pumping on the vapor phase, due to the absence of vapor. This is reached when the refrigeration power $\dot{Q}$ equals the heat leak into the system from the environment. At this point, further pumping will not lower the temperature any further, as the heat being removed by vaporization is balanced by the heat entering the system.
+Other advantages of the temperature dependence of vapor pressure are:
+- cryopumping: the ability to trap gases on cold surfaces, useful in vacuum systems.
+- vapor-pressure thermometers: using the known relationship between vapor pressure and temperature to measure low temperatures accurately. The helium vapor pressure curve is often used as a standard for low-temperature measurements.
+![[Pasted image 20260104185346.png]]
+##### Specific Heat
+The specific heat 
 
 
 ## References
