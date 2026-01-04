@@ -20,6 +20,7 @@ The most important properties of cryogenic fluids are:
 ##### Liquid Hydrogen 
 In liquid hydrogen ($LH_2$), the pair of atoms in each molecule have strong covalent bonds, but the intermolecular forces between the molecules are weak(Van der Waals forces). This, and the large zero-point motion energy of the light hydrogen molecules, results in a very low boiling and melting points.
 Hydrogen becomes dangerous in exothermic reactions (meaning they release energy) with oxygen, forming water. This reaction needs more than 4% hydrogen in air to become explosive, so it is used in a closed system with proper ventilation.
+It is not widely used since the temperature range between the boiling point of nitrogen(77K) and helium(4.2K) is now accessible with closed-cycle cryocoolers. However, it could return to favor in the future with the emerging hydrogen energy technology.
 
 
 
