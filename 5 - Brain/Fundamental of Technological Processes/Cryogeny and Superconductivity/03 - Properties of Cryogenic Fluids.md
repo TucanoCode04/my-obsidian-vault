@@ -59,7 +59,8 @@ $$\left(\frac{dP}{dT} \right)_{vap}= \frac{L P}{R T^2} \quad \Rightarrow \quad P
 If we further approximate $L$ as constant over small temperature ranges, we can see that the vapor pressure increases exponentially with temperature, which implies that even small increases in temperature can lead to significant increases in vapor pressure. This is particularly important for helium, as its low latent heat of vaporization means that it can vaporize easily, leading to rapid pressure increases in cryogenic systems if not properly managed.
 ![[Pasted image 20260104175034.png]]
 
-One can pump on the vapor phase of liquid helium to 
+One can pump on the vapor phase of liquid helium to lower its pressure and thus its boiling point. By pumping away atoms from the vapor phase, the most energetic atoms will replenish the vapor phase, lowering the average energy of the liquid phase, thus lowering its temperature. This technique is commonly used to achieve temperatures below the normal boiling point of helium (4.2K at 1 atm). By reducing the pressure above the liquid helium, one can reach temperatures as low as 1K or even lower with additional cooling methods.
+
 
 
 
