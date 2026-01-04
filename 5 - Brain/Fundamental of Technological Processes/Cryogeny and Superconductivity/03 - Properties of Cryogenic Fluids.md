@@ -95,6 +95,11 @@ Because of high $\kappa$ (thermal conductivity), temperature waves or entropy wa
 He-II has a vanishing viscosity $\eta_s = 0$, for flow through narrow channels. It is indeed a superfluid when the flow velocity is below a critical velocity $v_c$, like the supercurrent in superconductors. This also allows for the phenomenon of persistent currents, where a superfluid can flow indefinitely without losing energy due to friction, again similar to superconductors.
 It is used to check small cracks in materials, since it can flow through tiny openings that normal fluids cannot penetrate, revealing defects in the material.
 ![[Pasted image 20260104194441.png]]
+The superfluid film flow, also known as Rollin film, is a thin layer of superfluid helium that can climb the walls of a container coated with helium via the absorption of helium atoms in the vapor phase. This phenomenon occurs due to the unique properties of superfluid helium, which allows it to flow without viscosity and overcome gravitational forces. The film can spread over surfaces and even climb against gravity, demonstrating the remarkable behavior of superfluids.
 
-The superfluid film flow, also known as Rollin film, is a thin layer of superfluid helium that can climb the walls of a container coated 
+**Superfluid film flow**
+![[Pasted image 20260104194816.png]]
+If two containers are partially filled with He-II to different heights, their liquid levels will equalize due to the superfluid film flow, as the superfluid climbs the walls of the containers and redistributes itself to balance the levels, due to differences in gravitational potential energy.
+If you were to elevate one container, the superfluid film would continue to flow forming a droplet on the bottom of the elevated container and dripping in the reservoir below, until all the helium is depleted. This occurs because the superfluid film can flow without viscosity, allowing it to overcome gravitational forces and move from one container to another, even against gravity.
+This superfluid film flow leads to enhanced evaporation rates, since the film flow migrates to hotter regions and evaporates there, increasing the overall evaporation rate of the helium. 
 ## References
