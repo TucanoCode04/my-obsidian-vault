@@ -86,5 +86,8 @@ Since they are Fermi particles they cannot condense into a single quantum state 
 ![[Pasted image 20260104191308.png]]
 
 ##### Transport Properties of Liquid $^4He$
+Liquid $^4He$ above the lambda point (He I) behaves like a normal fluid, it exhibits low thermal conductivity and viscosity, similar to other liquids. Due to its low thermal conductivity, there will be non uniform temperature distributions in He I, so the boiling process will be less efficient and it will create temperature gradients in the liquid, producing bubbles and turbulence.
+![[Pasted image 20260104193535.png]]
+Below the lambda point (He II), under ideal condition of heat flow $
 
 ## References
