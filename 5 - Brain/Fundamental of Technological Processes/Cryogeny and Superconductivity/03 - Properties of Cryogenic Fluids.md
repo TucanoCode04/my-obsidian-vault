@@ -16,7 +16,11 @@ The most important properties of cryogenic fluids are:
 ##### Some Common Cryogenic Fluids
 - **Liquid Oxygen (LOX)**: is not commonly used for cooling applications due to its reactive nature, when in contact with organic materials, it can cause combustion.
 - **Liquid Air**: is a mixture of nitrogen, oxygen, and other gases. It is not commonly used because nitrogen evaporates first(lower boiling point), leaving behind a higher concentration of oxygen, which can be hazardous. For these reasons, air is liquefied and separated into its components before use in cryogenic applications.
-- **Liquid Nitrogen ($LN_2$)**: is 
+- **Liquid Nitrogen ($LN_2$)**: is low cost and so widely used for cooling applications down to 60K. Evaporating oxygen can cause asphyxiation if it displaces the usual 20% of oxygen in the air, so room ventilation is important when using $LN_2$.
+##### Liquid Hydrogen 
+In liquid hydrogen ($LH_2$), the pair of atoms in each molecule have strong covalent bonds, but the intermolecular forces between the molecules are weak(Van der Waals forces). This, and the large zero-point motion energy of the light hydrogen molecules, results in a very low boiling and melting points.
+Hydrogen becomes dangerous in exothermic reactions (meaning they release energy) with oxygen, forming water. This reaction needs more than 4% hydrogen in air to become explosive, so it is used in a closed system with proper ventilation.
+
 
 
 ## References
