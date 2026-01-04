@@ -35,10 +35,19 @@ The most common stable isotope of helium is $^4He$, which has two protons and tw
 ##### Other Peculiarities of $^4He$ and $^3He$
 They have very weak intermolecular forces, since they are noble gases with closed electron s-shells, resulting in absence of static dipole moments. This leads to smallest atomic polarizability among all elements, the dielectric constants are $\epsilon_r = 1.057$ for $^4He$ and $\epsilon_r = 1.042$ for $^3He$ at their boiling points. This also results in very low boiling and melting points.
 
-Due to their small atomic mass, they have large zero-point motion energies, $E_0= \frac{\hbar^2}{8 m a^2}$, where $a$ is the radius of the potential well created by the intermolecular forces, $a = \frac{V_m}{N_A}^{1/3}$, with $V_m$ the molar volume and $N_A$ Avogadro's number. The large energy gives rise to a zero-point vibration amplitude which is about $\frac{1}{3}$ of the interatomic distance, preventing solidification at atmospheric pressure, even at absolute zero temperature. To solidify helium, one needs to apply pressure of at least 25 bar for $^4He$ and 30 bar for $^3He$.
+Due to their small atomic mass, they have large zero-point motion energies, $E_0= \frac{\hbar^2}{8 m a^2}$, where $a$ is the radius of the potential well created by the intermolecular forces, $a = \frac{V_m}{N_A}^{1/3}$, with $V_m$ the molar volume and $N_A$ Avogadro's number. The large energy gives rise to a zero-point vibration amplitude which is about $\frac{1}{3}$ of the interatomic distance, preventing solidification at his own vapor pressure, even at absolute zero. To solidify helium, an external pressure of at least 25 bar for $^4He$ and 30 bar for $^3He$ is required at low temperatures.
+![[Pasted image 20260104172553.png]]
+The first graph shows the total energy as the sum of the potential energy due to intermolecular forces and the the zero-point energy due to quantum effects. 
+The second graph shows the total energy in function of volume, the minimum corresponds to the equilibrium molar volume. The large zero-point energy for the liquid phase results in a larger equilibrium volume for the liquid than for the solid, leading to the unusual property of helium expanding upon solidification.
+
+Due to its smaller mass, $^3He$ has a larger zero-point energy than $^4He$, resulting in lower density, smaller boiling and melting points, and larger vapor pressure at a given temperature.
+
+They are called quantum fluids.
 
 **Phase Diagrams of $^4He$ and $^3He$**
 ![[Pasted image 20260104171732.png]]
+
+
 
 
 ## References
