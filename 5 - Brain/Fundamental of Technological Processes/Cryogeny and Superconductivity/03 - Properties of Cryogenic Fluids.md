@@ -46,7 +46,9 @@ They are called quantum fluids.
 
 **Phase Diagrams of $^4He$ and $^3He$**
 ![[Pasted image 20260104171732.png]]
-
+##### Latent Heat and Vapor Pressure
+Latent heat of vaporization and vapor pressure are important properties for cryogenic fluids used in cooling applications.
+Due to Zero-point energy effects, helium has a a relatively low latent heat of vaporization compared to other cryogenic fluids. This effect is more pronounced in $^3He$ due to its larger zero-point energy. The small $L$ values limit the efficiency of helium as a cryogenic coolant, because 
 
 
 
