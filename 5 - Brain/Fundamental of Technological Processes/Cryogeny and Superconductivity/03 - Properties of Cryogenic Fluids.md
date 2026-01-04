@@ -60,7 +60,10 @@ If we further approximate $L$ as constant over small temperature ranges, we can 
 ![[Pasted image 20260104175034.png]]
 
 One can pump on the vapor phase of liquid helium to lower its pressure and thus its boiling point. By pumping away atoms from the vapor phase, the most energetic atoms will replenish the vapor phase, lowering the average energy of the liquid phase, thus lowering its temperature. This technique is commonly used to achieve temperatures below the normal boiling point of helium (4.2K at 1 atm). By reducing the pressure above the liquid helium, one can reach temperatures as low as 1K or even lower with additional cooling methods.
-
+For a pumped-on helium bath, the cooling power $\dot{Q}$ can be calculated as:
+$$ \dot{Q} = \dot{n} L $$ Where $\dot{n}$ is the particle per second being removed from the liquid phase to the vapor phase, and $L$ is the latent heat of vaporization at the reduced pressure.
+With a pump with constant volumetric flow rate $\dot{V}$, the particle flow rate is proportional to the vapor pressure $P_{vap}$ and inversely proportional to the temperature $T$, giving a cooling power of:
+$$ \dot{Q} \propto P_{vap} L 
 
 
 
