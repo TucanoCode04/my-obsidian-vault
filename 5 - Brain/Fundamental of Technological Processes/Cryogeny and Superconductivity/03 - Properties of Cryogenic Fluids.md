@@ -17,7 +17,7 @@ The most important properties of cryogenic fluids are:
 - **Liquid Oxygen (LOX)**: is not commonly used for cooling applications due to its reactive nature, when in contact with organic materials, it can cause combustion.
 - **Liquid Air**: is a mixture of nitrogen, oxygen, and other gases. It is not commonly used because nitrogen evaporates first(lower boiling point), leaving behind a higher concentration of oxygen, which can be hazardous. For these reasons, air is liquefied and separated into its components before use in cryogenic applications.
 - **Liquid Nitrogen ($LN_2$)**: is low cost and so widely used for cooling applications down to 60K. Evaporating oxygen can cause asphyxiation if it displaces the usual 20% of oxygen in the air, so room ventilation is important when using $LN_2$.
-##### Liquid Hydrogen 
+#### Liquid Hydrogen 
 In liquid hydrogen ($LH_2$), the pair of atoms in each molecule have strong covalent bonds, but the intermolecular forces between the molecules are weak(Van der Waals forces). This, and the large zero-point motion energy of the light hydrogen molecules, results in a very low boiling and melting points.
 Hydrogen becomes dangerous in exothermic reactions (meaning they release energy) with oxygen, forming water. This reaction needs more than 4% hydrogen in air to become explosive, so it is used in a closed system with proper ventilation.
 It is not widely used since the temperature range between the boiling point of nitrogen(77K) and helium(4.2K) is now accessible with closed-cycle cryocoolers. However, it could return to favor in the future with the emerging hydrogen energy technology.
@@ -27,8 +27,18 @@ The proton $^1H$ has a spin of $l =\frac{1}{2}$, so the two protons in the hydro
 At temperature below 172K, lower energy states are favored, so there is a gradual conversion from ortho to para-hydrogen. This conversion is exothermic, releasing rather large quantities of heat, which can cause significant problems at low or ultra low temperatures>
 - If the liquid consists mainly of ortho-hydrogen, it will evaporate rapidly as it converts to para-hydrogen even without any external heat input. To avoid this, one needs to pre-convert the hydrogen to para-hydrogen before cooling, by passing it over a catalyst at low temperatures, like iron oxide or ferric hydroxide.
 - Many metals, such as Cu, Ag, and Pt, may contain bubbles of dissolved hydrogen of diameter around $0.1 \mu m$, produced during purification processes. The conversion from ortho to para-hydrogen in these bubbles can then give rise to heat release limiting refrigeration at very low temperatures. 
-##### Liquid Helium
+#### Liquid Helium
 The most common stable isotope of helium is $^4He$, which has two protons and two neutrons, each with antiparallel spins, resulting in a total nuclear spin of $l=0$, making it a boson. There is also a rare isotope, $^3He$, which has two protons and one neutron, resulting in a total nuclear spin of $l=\frac{1}{2} + \frac{1}{2} - \frac{1}{2} = \frac{1}{2}$, making it a fermion. Their different characteristics lead to different physical properties, especially at low temperatures. $^3He$ is much more expensive because it is a by-product of the decay of tritium, used in nuclear weapons.
 ##### Important Properties of the Two Isotopes
 ![[Pasted image 20260104171216.png]]
+
+##### Other Peculiarities of $^4He$ and $^3He$
+They have very weak intermolecular forces, since they are noble gases with closed electron s-shells, resulting in absence of static dipole moments. This leads to smallest atomic polarizability among all elements, the dielectric constants are $\epsilon_r = 1.057$ for $^4He$ and $\epsilon_r = 1.042$ for $^3He$ at their boiling points. This also results in very low boiling and melting points.
+
+Due to their small atomic mass, they have large zero-point motion energies, $E_0= \frac{\hbar^2}{8 m a^2}$, where $a$ is the radius of the potential well created by the intermolecular forces, $a = \frac{V_m}{N_A}^{1/3}$, with $V_m$ the molar volume and $N_A$ Avogadro's number. The large energy gives rise to a zero-point vibration amplitude which is about $\frac{1}{3}$ of the interatomic distance, preventing solidification at atmospheric pressure, even at absolute zero temperature. To solidify helium, one needs to apply pressure of at least 25 bar for $^4He$ and 30 bar for $^3He$.
+
+**Phase Diagrams of $^4He$ and $^3He$**
+![[Pasted image 20260104171732.png]]
+
+
 ## References
