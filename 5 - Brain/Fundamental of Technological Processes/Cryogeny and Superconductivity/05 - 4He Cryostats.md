@@ -59,17 +59,13 @@ This system uses the enthalpy of the helium gas to cool down the insert and ther
 One other advantage is that it can be easily inserted into a storage dewar without the need for complex vacuum seals or insulation.
 ##### Cryostats with Variable Temperatures for $1.3K < T < 4.2K$
 ![[Pasted image 20260105214306.png]]
-
-
-
-
-
-
-
+![[Pasted image 20260105215656.png]]
 ##### Auxiliary Equipment
 ![[Pasted image 20260105215018.png]]
 - Storage Vessels: used to store liquid helium and nitrogen, they are transported into these vessels from the supplier and then used to fill the cryostats. Their typical volumes are between 30 to 100 L. The vacuum insulated storage vessels contain superinsulation instead of a radiation shield. These vessels are made of aluminum or stainless steel to keep the weight low. Their evaporation rate is about 1% per day. They have safety valves to prevent overpressure.
 ![[Pasted image 20260105215354.png]]
-- Transfer Tubes: used to transfer liquid helium from the storage vessel to 
-
+- Transfer Tubes: used to transfer liquid helium from the storage vessel to the cryostat. They are double walled and vacuum insulated to minimize heat transfer during the transfer process. 
+![[Pasted image 20260105215441.png]]
+- Three Types of Level Detectors
+![[Pasted image 20260105215711.png]]
 ## References

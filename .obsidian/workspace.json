@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -187,8 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,6 +202,9 @@
   },
   "active": "e7b0a9b5fa50a6ed",
   "lastOpenFiles": [
+    "Pasted image 20260105215711.png",
+    "Pasted image 20260105215656.png",
+    "Pasted image 20260105215441.png",
     "Pasted image 20260105215354.png",
     "Pasted image 20260105215018.png",
     "Pasted image 20260105214306.png",
@@ -212,12 +213,9 @@
     "Pasted image 20260105211822.png",
     "Pasted image 20260105211536.png",
     "Pasted image 20260105210056.png",
-    "Pasted image 20260105205715.png",
-    "Pasted image 20260105204103.png",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/01 - Quantum Dots as Qubits.md",
     "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/05 - 4He Cryostats.md",
     "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/04 - Thermal Contact and Thermal Isolation.md",
-    "Pasted image 20260105175032.png",
     "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/03 - Properties of Cryogenic Fluids.md",
     "5 - Brain/Cybersecurity/Cybersec/06 - Security of Network Applications.md",
     "5 - Brain/Cybersecurity/Cybersec/05 - Firewalls.md",
