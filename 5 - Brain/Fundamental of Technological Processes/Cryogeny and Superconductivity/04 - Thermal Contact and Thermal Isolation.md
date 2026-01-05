@@ -99,8 +99,19 @@ For metals, the actual contact area is much smaller than the apparent contact ar
 ![[Pasted image 20260105174022.png]]
 
 The boundary or Kapitza resistance can be kept small if the surfaces are clean, gold-plated, and pressed together with high force, so that we have an overlap of the electronic wave functions across the interface, allowing efficient electron transport, and so electrical and thermal flow.
-We achieve extremely low thermal boundary resistance between gold-plated Cu surfaces bolted together with stainless steel bolts (the contact resistance is inversely proportional to the tightening force))
+We achieve extremely low thermal boundary resistance between gold-plated Cu surfaces bolted together with stainless steel bolts (the contact resistance is inversely proportional to the tightening torque of the bolts), in the range of $0.1 - 10 \mu \Omega$ at 4K.
+The addition of Indium foil or Apiezon N grease can further reduce the thermal boundary resistance by filling in microscopic gaps and improving contact area.
+Mechanical and electrical contact is usually achieved by soldering, but unfortunately the most used solders become superconducting at low temperatures, which are good for electrical contact, but bad for thermal contact, since the thermal conductivity drops significantly in the superconducting state.
+![[Pasted image 20260105174615.png]]
 
+##### Boundary Resistance Between Liquid Helium and Solids
+Between dielectrics and Helium, the energy transfer occurs only via phonons, since there are no free electrons in dielectrics. A temperature discontinuity arises at the interface due to the mismatch in acoustic properties between the two materials, leading to a Kapitza resistance.
+For helium/solid interfaces, the acoustic mismatch is of three orders of magnitude, $\rho_s v_s\approx 10^6 g cm^{-2} s^{-1}$ for solids, and $\rho_{He} v_{He} \approx 10^3 g cm^{-2} s^{-1}$ for liquid helium, where ρ is the density and v is the velocity of phonons in the material.
+![[Pasted image 20260105175032.png]]
 
+Hence the acoustic mismatch and a small critical angle for phonon transmission at the interface lead limits the energy exchange between liquid helium and solids at low temperatures.
+It's Kapitza resistance scales as:
+$$R_K \propto (T^3 A)^{-1}$$
+where A is the contact area. 
 
 ## References
