@@ -44,6 +44,15 @@ For practical cryogenic design, the effective heat conductance of a solid bar wi
 $$\overline{\kappa} = \frac{1}{T_2 - T_1} \int_{T_1}^{T_2} \kappa(T) dT$$
 ![[Pasted image 20260105161850.png]]
 ##### Radiation
+A perfect black body is defined as an object that absorbs all incident radiation, regardless of frequency or angle of incidence. Its absorptivity (α), emissivity (ε), and reflectivity (ρ) satisfy the relation:
+$$\alpha + \epsilon + \rho = 1$$
+At temperature T, a black body emits radiation according to the Stefan-Boltzmann law:
+$$E_b = \sigma T^4$$
+where σ is the Stefan-Boltzmann constant, approximately equal to 5.67 x 10^-8 W/m^2K^4. Such energy is emitted over a spectrum of wavelengths, with the peak wavelength determined by Wien's displacement law:
+$$\lambda_{max} T = b$$
+where b is Wien's displacement constant, approximately equal to 2.898 x 10^-3 mK.
+![[Pasted image 20260105163106.png]]
 
+Most non-metallic surfaces have high emissivity values (0.8 to 0.9), so they can be approximated as black bodies. Metals, however, tend to have lower emissivity values (0.02 to 0.2), depending on the wavelength of the incident radiation and the physical condition of the surface (e.g., polished vs. oxidized). For example, Cu oxid has an emissivity of about 0.
 
 ## References
