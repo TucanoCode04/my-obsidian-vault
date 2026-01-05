@@ -112,6 +112,12 @@ For helium/solid interfaces, the acoustic mismatch is of three orders of magnitu
 Hence the acoustic mismatch and a small critical angle for phonon transmission at the interface lead limits the energy exchange between liquid helium and solids at low temperatures.
 It's Kapitza resistance scales as:
 $$R_K \propto (T^3 A)^{-1}$$
-where A is the contact area. 
+where A is the contact area. Most experimental data for 0.02K < T < 0.2K typical values are $AR_K T^3 \approx 10^{-2} m^2 K^4 W^{-1}$ for liquid He in contact with Cu or Ag.
+The most efficient way to reduce Kapitza resistance at these interfaces is to increase the contact area using sintered metal powders.
+
+So basically the Kapitza resistance problem can be divided into three regimes:
+1. At temperatures above 1 K, the Kapitza resistance is the same for liquid and solid $^4$He and $^3$He, orders of magnitude smaller than predicted, we don't know why.
+2. Between 20 mK and 200 mK, the Kapitza resistance follows the expected T^-3 dependence, and the values are consistent with the acoustic mismatch model.
+3. Below 20 mK, the Kapitza resistance approaches $T^{-2}$ or even $T^{-1}$ dependence, possibly due to magnetic dipole coupling between the $^3$He nuclear moments and electrons in the solid, together with a coupling of helium phonon modes to soft vibrational modes in the solid. 
 
 ## References
