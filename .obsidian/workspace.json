@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -203,6 +204,7 @@
   },
   "active": "e7b0a9b5fa50a6ed",
   "lastOpenFiles": [
+    "Pasted image 20260105204103.png",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/01 - Quantum Dots as Qubits.md",
     "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/05 - 4He Cryostats.md",
     "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/04 - Thermal Contact and Thermal Isolation.md",
@@ -241,7 +243,6 @@
     "5 - Brain/Fundamental of Technological Processes/Technological Processes/07 - Doping.md",
     "5 - Brain/Fundamental of Technological Processes/Technological Processes/04 - Lithography.md",
     "5 - Brain/Fundamental of Technological Processes/Technological Processes/02 - Crystallography and Crystalline Defects.md",
-    "5 - Brain/Fundamental of Technological Processes/Technological Processes/03 - Cleanroom Technology.md",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/Untitled",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study",
     "5 - Brain/00 - Glossary",
