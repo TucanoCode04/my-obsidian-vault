@@ -66,6 +66,14 @@ Radiation shields are commonly used in cryogenic systems to reduce radiative hea
 To reduce heat inflow we introduced even thermal radiation baffles, which are structures placed between two surfaces to block direct line-of-sight radiation. These baffles can be made of highly reflective materials and are often cooled to intermediate temperatures to further reduce heat transfer.
 ![[Pasted image 20260105164038.png]]
 ##### Other Causes of Heat Transfer
-Other sources of heat transfer in cryogenic systems include:
-- 
+![[Pasted image 20260105164306.png]]
+
+##### Example of Heat Transfer Calculation
+![[Pasted image 20260105164338.png]]
+
+##### Material Selection with Appropriate Cryogenic Thermal Conductivity
+
+
+
+
 ## References
