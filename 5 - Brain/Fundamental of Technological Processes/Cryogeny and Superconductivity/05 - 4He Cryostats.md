@@ -43,7 +43,22 @@ For further insulation, a metallic radiation shield is often placed between the 
 A good helium dewar design should have an evaporation rate of less than 0.1 L/h.
 ##### He gas-flow Cryostats
 ![[Pasted image 20260105213218.png]]
-For measurements at $T> 4.2K$, it is inefficient to use liquid helium baths, since the evaporation rate would be too high. In this case we can use a helium gas-flow cryostat evaporating liquid helium to cool helium gas, and take andvantage of the enthalpy of the cold gas to cool down the sample space.
+For measurements at $T> 4.2K$, it is inefficient to use liquid helium baths, since the evaporation rate would be too high. In this case we can use a helium gas-flow cryostat evaporating liquid helium to cool helium gas, and take advantage of the enthalpy of the cold gas to cool down the sample space. In this way the storage vessel of liquid helium is separated from the sample space, and we can control the temperature of the sample space by adjusting the helium gas flow rate, this is done using a needle valve.
+The advantages of this design are:
+- lower helium consumption
+- temperature range variable from 4.2 K to 300 K
+- the apparatus can be cooled down and warmed up faster
+
+##### Dipper Probes
+![[Pasted image 20260105213622.png]]
+Again, for measurements at $T> 4.2K$, we can use a dipper probe, which is a simpler and cheaper solution than a full cryostat. It consists of a long tube that can be dipped into a liquid helium dewar, with a small chamber at the bottom where the sample is placed. 
+It has a variable temperature insert that allows us to control the temperature of the sample chamber by adjusting the helium gas flow rate. 
+Basically by varying the height of the probe above the liquid helium level, the temperature of the sample chamber can be adjusted due to the temperature stratification that occurs naturally in the vapor space above the liquid helium, from 4.2 K at the liquid surface to room temperature at the top of the dewar.
+The temperature gradient is normally really long so it can be calibrated easily, by carefully moving up and down the insert we can set the desired temperature.
+This system uses the enthalpy of the helium gas to cool down the insert and therefore the helium consumption is really low. It's one of the simplest and most cost-effective cryostat designs for experiments that require temperatures above 4.2 K.
+One other advantage is that it can be easily inserted into a storage dewar without the need for complex vacuum seals or insulation.
+##### Cryostats with Variable Temperatures for $1.3K < T < 4.2K$
+![[Pasted image 20260105214306.png]]
 
 
 ## References
