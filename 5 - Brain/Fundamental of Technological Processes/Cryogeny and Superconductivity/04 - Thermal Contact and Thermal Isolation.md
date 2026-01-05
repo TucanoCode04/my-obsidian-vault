@@ -82,7 +82,14 @@ Even low pressures of gas can significantly increase thermal conductivity, but t
 For $^4$He the superfluid film flow contributes to heat transfer too.
 ##### Mechanical Heat Switches
 Thermal contact is achieved by physically bringing two components into contact and pressing them together using a mechanical mechanism. The disadvantages are that these systems require large forces to achieve good thermal contact, and the heat generated during the switching process can be significant.
-
+They are adequate for temperatures above 1 K.
+![[Pasted image 20260105172449.png]]
+##### Superconducting Heat Switches
+The thermal conductivity of a superconductor drops exponentially with temperature below its critical temperature (Tc) due to the formation of Cooper pairs, which do not contribute to heat conduction, and the number of quasiparticle excitations decreases significantly. It can be of several orders of magnitude lower than that of its normal state.
+Some material can be easily switched between superconducting and normal states by applying a magnetic field or heating. This allows for a thermal switch that can be controlled without mechanical movement, they are used for temperatures below 1 K.
+One of the main advantages is that the heat flow in the open state is very low, since the thermal conductivity in the superconducting state is extremely low, so they are easy to switch off. The switching ratio $\frac{\kappa_{normal}}{\kappa_{superconducting}}$ can be very high for $T << T_c$. In fact $\kappa_{normal} \propto T$ while $\kappa_{superconducting} \propto e^{-\frac{\Delta}{k_B T}}$ where Δ is the superconducting energy gap, for T > Tc/10. While for T < Tc/10 the thermal conductivity is dominated by phonons and follows a T^3 dependence.
+Al is a good candidate for superconducting heat switches, since it has high $\kappa_{normal}$ and large $\theta_D$ (Debye temperature), and it is extremely pure, and has a convenient critical field of about 10 mT. It also has good durability and it's easy to handle, the only problem is the surface oxide layer that can increase thermal contact resistance.
+There can be prob
 
 
 
