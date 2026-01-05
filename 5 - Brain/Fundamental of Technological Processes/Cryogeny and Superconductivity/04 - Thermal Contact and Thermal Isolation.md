@@ -53,6 +53,19 @@ $$\lambda_{max} T = b$$
 where b is Wien's displacement constant, approximately equal to 2.898 x 10^-3 mK.
 ![[Pasted image 20260105163106.png]]
 
-Most non-metallic surfaces have high emissivity values (0.8 to 0.9), so they can be approximated as black bodies. Metals, however, tend to have lower emissivity values (0.02 to 0.2), depending on the wavelength of the incident radiation and the physical condition of the surface (e.g., polished vs. oxidized). For example, Cu oxid has an emissivity of about 0.
+Most non-metallic surfaces have high emissivity values (0.8 to 0.9), so they can be approximated as black bodies. Metals, however, tend to have lower emissivity values (0.02 to 0.2), depending on the wavelength of the incident radiation and the physical condition of the surface (e.g., polished vs. oxidized). For example, Cu oxid has an emissivity of about 0.6, for wavelengths around 10 μm, while polished for the same wavelength has an emissivity of about 0.02.
+![[Pasted image 20260105163349.png]]
 
+For two planes parallel to each other, with area A, at temperatures T1 and T2, and with emissivities ε1 and ε2, the heat transfer per unit time due to radiation is given by:
+$$\dot{Q} = \sigma A (T_1^4 - T_2^4) \frac{\epsilon_1 \epsilon_2}{\epsilon_1 + \epsilon_2 - \epsilon_1 \epsilon_2}$$Hence, if they have equal emissivities ε and it are much less than 1, the equation simplifies to:
+$$\dot{Q} = \sigma A (T_1^4 - T_2^4) \frac{\epsilon}{2}$$
+
+Radiation shields are commonly used in cryogenic systems to reduce radiative heat transfer. These shields are typically made of polished metal, like copper, kept at temperature between the environmental temperature and the cryogenic bath, or multilayers, like aluminized Mylar, inserted in vacuum spaces to reflect radiation.
+![[Pasted image 20260105163849.png]]
+
+To reduce heat inflow we introduced even thermal radiation baffles, which are structures placed between two surfaces to block direct line-of-sight radiation. These baffles can be made of highly reflective materials and are often cooled to intermediate temperatures to further reduce heat transfer.
+![[Pasted image 20260105164038.png]]
+##### Other Causes of Heat Transfer
+Other sources of heat transfer in cryogenic systems include:
+- 
 ## References
