@@ -61,4 +61,15 @@ One other advantage is that it can be easily inserted into a storage dewar witho
 ![[Pasted image 20260105214306.png]]
 
 
+
+
+
+
+
+##### Auxiliary Equipment
+![[Pasted image 20260105215018.png]]
+- Storage Vessels: used to store liquid helium and nitrogen, they are transported into these vessels from the supplier and then used to fill the cryostats. Their typical volumes are between 30 to 100 L. The vacuum insulated storage vessels contain superinsulation instead of a radiation shield. These vessels are made of aluminum or stainless steel to keep the weight low. Their evaporation rate is about 1% per day. They have safety valves to prevent overpressure.
+![[Pasted image 20260105215354.png]]
+- Transfer Tubes: used to transfer liquid helium from the storage vessel to 
+
 ## References
