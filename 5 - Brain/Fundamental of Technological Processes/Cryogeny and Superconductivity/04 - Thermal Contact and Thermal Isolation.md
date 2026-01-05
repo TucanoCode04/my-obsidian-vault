@@ -36,5 +36,14 @@ As a result we find a maximum in thermal conductivity at some intermediate tempe
 
 ![[Pasted image 20260105160923.png]]
 At very low temperatures(T < 1 K), thermal conductivity is linearly proportional to T, very high for pure metals, like copper, to about 7 orders of magnitude lower for graphite and teflon.
-As we said before $\kappa$ depends on purity and defect density. In literature, thermal conductivity data is often reported for different RRR values (Residual Resistivity Ratio), which is the ratio of electrical resistivity at room temperature to that at 4 K. It is used since t
+As we said before $\kappa$ depends on purity and defect density. In literature, thermal conductivity data is often reported for different RRR values (Residual Resistivity Ratio), which is the ratio of electrical resistivity at room temperature to that at 4 K. It is used since the correct measurement of thermal conductivity at cryogenic temperatures is challenging, while electrical resistivity is easier to measure. Higher RRR values indicate higher purity and lower defect density, leading to higher thermal conductivity at low temperatures.
+In a metal both conductivities are related by the Wiedemann-Franz law, since they are determined by the flow of electrons and their scattering mechanisms are similar.
+$$\frac{\kappa}{\sigma}= L \cdot T$$
+where L is the Lorenz number, approximately equal to 2.44 x 10^-8 WΩK^-2. Thus, by measuring electrical resistivity, we can estimate thermal conductivity using this relationship.
+For practical cryogenic design, the effective heat conductance of a solid bar with certain end temperatures T1 and T2 can be calculated using:
+$$\overline{\kappa} = \frac{1}{T_2 - T_1} \int_{T_1}^{T_2} \kappa(T) dT$$
+![[Pasted image 20260105161850.png]]
+##### Radiation
+
+
 ## References
