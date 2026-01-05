@@ -23,14 +23,23 @@ In addition, if we precool with nitrogen from room temperature to 77 K, we can s
 ![[Pasted image 20260105205715.png]]
 
 ##### Double Walled Glass Dewars
-![[Pasted image 20260105210056.png]]
+![[Pasted image 20260105211536.png]]
 The main advantages of glass dewars are:
 - low costs
 - low thermal conductivity of glass
 - transparent to see the liquid level
 The main disadvantages are:
-- fragile, the glass can break easily due to small leaks to the vacuum space
+- fragile, the glass can break easily due to small leaks to the vacuum space. Air may enter and condensate on the cold surfaces, on warming the system the condensed air will evaporate, and if it cannot escape fast enough, the pressure will rise and the glass may shatter.
 
+At room temperature helium diffuses through the glass walls, so the vacuum space must be periodically pumped with helium gas from the inner volume after warming up the dewar to maintain good vacuum insulation.
+Normally we use nitrogen to precool the system, before inserting liquid helium we need to make sure to remove all nitrogen from the inner volume, otherwise since it has a rather large specific heat capacity, it would take much more liquid helium to cool down the system.
+##### Metal Dewars
+![[Pasted image 20260105211822.png]]
+Metal dewars are more robust than glass dewars, they can withstand higher pressures and mechanical shocks. They can also be manufactured in more complex shapes to accommodate different experimental setups. It obviously doesn't have the diffusion problem of glass dewars.
+One of the main disadvantages is the price, since its made of stainless steel or aluminum, and also it doesn't have two vacuum spaces like glass dewars, so the thermal insulation is not as good.
+Nowadays most cryostats don't use liquid nitrogen for precooling, since they cause vibrations during the constant boiling of nitrogen, which can be detrimental for sensitive experiments, so in this case a superinsulation layer is used.
+Superinsulation is a thin plastic film coated with a reflective material like aluminum (through evaporation) to give an emissivity of about 0.06. Multiple layers of this film are wrapped around the liquid Helium vessel to act as radiation shields, reducing radiative heat transfer from the outer ones to the inner ones.
+For further insulation, 
 
 
 ## References
