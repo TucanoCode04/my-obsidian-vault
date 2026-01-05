@@ -39,7 +39,11 @@ Metal dewars are more robust than glass dewars, they can withstand higher pressu
 One of the main disadvantages is the price, since its made of stainless steel or aluminum, and also it doesn't have two vacuum spaces like glass dewars, so the thermal insulation is not as good.
 Nowadays most cryostats don't use liquid nitrogen for precooling, since they cause vibrations during the constant boiling of nitrogen, which can be detrimental for sensitive experiments, so in this case a superinsulation layer is used.
 Superinsulation is a thin plastic film coated with a reflective material like aluminum (through evaporation) to give an emissivity of about 0.06. Multiple layers of this film are wrapped around the liquid Helium vessel to act as radiation shields, reducing radiative heat transfer from the outer ones to the inner ones.
-For further insulation, 
+For further insulation, a metallic radiation shield is often placed between the outer wall and the helium vessel, which is cooled by the evaporated helium gas before it exits the cryostat. 
+A good helium dewar design should have an evaporation rate of less than 0.1 L/h.
+##### He gas-flow Cryostats
+![[Pasted image 20260105213218.png]]
+For measurements at $T> 4.2K$, it is inefficient to use liquid helium baths, since the evaporation rate would be too high. In this case we can use a helium gas-flow cryostat evaporating liquid helium to cool helium gas, and take andvantage of the enthalpy of the cold gas to cool down the sample space.
 
 
 ## References
