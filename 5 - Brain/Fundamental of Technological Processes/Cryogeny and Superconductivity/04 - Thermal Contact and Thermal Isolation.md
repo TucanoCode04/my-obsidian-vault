@@ -25,7 +25,16 @@ $$\dot{Q} = \frac{A}{L} \int_{T_1}^{T_2} \kappa(T) dT$$
 where L is the length of the solid through which heat is conducted.
 ![[Pasted image 20260105155940.png]]
 
-Dielectric materials, metals, alloys, glasses and polymers are subject to  phononic and electronic mechanisms of heat conduction. Heat in 
+Dielectric materials, metals, alloys, glasses and polymers are subject to  phononic and electronic mechanisms of heat conduction. Heat, in fact, can be carried by lattice vibrations (phonons) and free electrons. 
+These carriers do not move ballistically from the hotter to the colder side, but rather scatter with each other and with defects in the material. To capture this behavior, we use transport theory, where we see electrons and phonons as a kinetic gas diffusing through the material. The thermal conductivity can then be expressed as:
+$$\kappa \approx c \cdot v \cdot \lambda$$ Where c is the specific heat per unit volume of the carriers, meaning what amount of energy is transported per unit volume per degree of temperature change, v is the average velocity of the carriers performing the transport, and λ is the mean free path between scattering events, meaning how far the carriers can travel before being scattered.
+The main scattering events are:
+- at low T: scattering from defects and impurities, constant with T
+- at intermediate T: scattering from thermally excited phonons, increasing with T
+As a result we find a maximum in thermal conductivity at some intermediate temperature, which depends on the material purity and defect density.
+![[Pasted image 20260105160832.png]]
 
-
+![[Pasted image 20260105160923.png]]
+At very low temperatures(T < 1 K), thermal conductivity is linearly proportional to T, very high for pure metals, like copper, to about 7 orders of magnitude lower for graphite and teflon.
+As we said before $\kappa$ depends on purity and defect density. In literature, thermal conductivity data is often reported for different RRR values (Residual Resistivity Ratio), which is the ratio of electrical resistivity at room temperature to that at 4 K. It is used since t
 ## References
