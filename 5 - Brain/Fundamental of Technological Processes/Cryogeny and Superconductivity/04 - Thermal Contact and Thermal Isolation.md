@@ -72,6 +72,11 @@ To reduce heat inflow we introduced even thermal radiation baffles, which are st
 ![[Pasted image 20260105164338.png]]
 
 ##### Material Selection with Appropriate Cryogenic Thermal Conductivity
+![[Pasted image 20260105170418.png]]
+
+#### Heat Switches
+Heat switches are devices used to connect and disconnect thermal paths in cryogenic systems. 
+##### Gaseous Heat Switches
 
 
 
