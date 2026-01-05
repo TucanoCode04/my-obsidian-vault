@@ -77,6 +77,11 @@ To reduce heat inflow we introduced even thermal radiation baffles, which are st
 #### Heat Switches
 Heat switches are devices used to connect and disconnect thermal paths in cryogenic systems. 
 ##### Gaseous Heat Switches
+Gaseous heat switches are used to thermally couple components by introducing a gas into a vacuum space. When the gas is present, it increases thermal conductivity, allowing heat transfer. When the gas is evacuated by pumping, the thermal conductivity drops significantly, effectively isolating the components. This method is often used in pre-cooling stages of cryogenic systems.
+Even low pressures of gas can significantly increase thermal conductivity, but they will require longer pump-down times to achieve high vacuum levels, which can be a drawback because of the time dependent heat leaks due to a continuous desorption and condensation of gases on cold surfaces.
+For $^4$He the superfluid film flow contributes to heat transfer too.
+##### Mechanical Heat Switches
+Thermal contact is achieved by physically bringing two components into contact and pressing them together using a mechanical mechanism. The disadvantages are that these systems require large forces to achieve good thermal contact, and the heat generated during the switching process can be significant.
 
 
 
