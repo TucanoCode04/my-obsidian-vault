@@ -29,7 +29,7 @@ The main advantages of glass dewars are:
 - low thermal conductivity of glass
 - transparent to see the liquid level
 The main disadvantages are:
-- fragile
+- fragile, the glass can break easily due to small leaks to the vacuum space
 
 
 
