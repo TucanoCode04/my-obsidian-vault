@@ -18,7 +18,9 @@ The main reasons for using $^3$He are:
 - In this range it is not a superfluid, so there are no issues with film creep.
 
 The disadvantages of using $^3$He are:
-- 
+- The latent heat of vaporization is smaller than that of $^4$He, so more liquid has to be evaporated to achieve the same cooling power.
+![[Pasted image 20260106153006.png]]
+- It is very expensive and in short supply, so systems must be designed to minimize losses.
 
 
 
