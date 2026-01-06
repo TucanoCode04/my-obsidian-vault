@@ -28,7 +28,11 @@ All the parts refrigerated by $^3$He are surrounded by shields cooled by the $^4
 ![[Pasted image 20260106192511.png]]
 When all the $^3$He has condensed in the pot, the external pump is turned on to lower the pressure above the liquid $^3$He, causing it to evaporate and cool to about 0.3 K. 
 The refrigerator is run in a continuous mode by the recondensing tube, basically the $^3$He gas evaporated from the pot will leave the room temperature pump, it gets pre-cooled by the $^4$He bath and then recondensed back to liquid in the condenser, and then it will flow back to the $^3$He pot.
-The capillaries used as impedance to control the flow of $^3$He gas between the different parts of the system can be easily blocked 
+The capillaries used as impedance to control the flow of $^3$He gas between the different parts of the system can be easily blocked by impurities in the gas, so we place a liquid nitrogen trap in the gas handling system to condense out contaminants before they reach the capillaries.
+To avoid gas leaks, it used a vacuum-tight closed system with a sealed pump.
+We try to minimize the room temperature volume so that the amount of $^3$He gas that remains uncondensed at room temperature is minimized.
+![[Pasted image 20260106193840.png]]
+
 
 
 ##### In the Lab
