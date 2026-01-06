@@ -22,7 +22,13 @@ The disadvantages of using $^3$He are:
 ![[Pasted image 20260106153006.png]]
 - It is very expensive and in short supply, so systems must be designed to minimize losses.
 
-$^3$He needs to be used in a closed gas handling system to recover and purify the gas after it has evaporate. $^3$He is transformed from ga
+$^3$He needs to be used in a closed gas handling system to recover and purify the gas after it has evaporate. $^3$He is transformed from gas to liquid in the cryostat, and then it will be used to cool by contact the $^4$He bath or a sample stage.
+All the parts refrigerated by $^3$He are surrounded by shields cooled by the $^4$He bath, and additionally all the tubing and wiring are heat sunk at the $^4$He bath, so that the heat coming from outside can be absorbed by the $^4$He bath before reaching the $^3$He parts, the $^4$He bath has substantially larger volume and heat capacity than the $^3$He parts.
+##### With External Pumps
+![[Pasted image 20260106192511.png]]
+When all the $^3$He has condensed in the pot, the external pump is turned on to lower the pressure above the liquid $^3$He, causing it to evaporate and cool to about 0.3 K. 
+The refrigerator is run in a continuous mode by the recondensing tube, basically the $^3$He gas evaporated from the pot will leave the room temperature pump, it gets pre-cooled by the $^4$He bath and then recondensed back to liquid in the condenser, and then it will flow back to the $^3$He pot.
+The capillaries used as impedance to control the flow of $^3$He gas between the different parts of the system can be easily blocked 
 
 
 ##### In the Lab
