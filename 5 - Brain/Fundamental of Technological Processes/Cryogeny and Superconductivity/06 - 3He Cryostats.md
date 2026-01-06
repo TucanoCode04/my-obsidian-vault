@@ -34,9 +34,7 @@ We try to minimize the room temperature volume so that the amount of $^3$He gas 
 ![[Pasted image 20260106193840.png]]
 ##### With Internal Adsorption Pump
 ![[Pasted image 20260106193903.png]]
-
-
-
+![[Pasted image 20260106200632.png]]
 ##### In the Lab
 ![[Pasted image 20260106143045.png]]
 ![[Pasted image 20260106143051.png]]
