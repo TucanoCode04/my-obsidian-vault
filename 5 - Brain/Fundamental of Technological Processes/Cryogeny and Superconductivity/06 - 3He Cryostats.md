@@ -22,7 +22,7 @@ The disadvantages of using $^3$He are:
 ![[Pasted image 20260106153006.png]]
 - It is very expensive and in short supply, so systems must be designed to minimize losses.
 
-
+$^3$He needs to be used in a closed gas handling system to recover and purify the gas after it has evaporate. 
 
 
 ##### In the Lab
