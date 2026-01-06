@@ -32,6 +32,8 @@ The capillaries used as impedance to control the flow of $^3$He gas between the 
 To avoid gas leaks, it used a vacuum-tight closed system with a sealed pump.
 We try to minimize the room temperature volume so that the amount of $^3$He gas that remains uncondensed at room temperature is minimized.
 ![[Pasted image 20260106193840.png]]
+##### With Internal Adsorption Pump
+![[Pasted image 20260106193903.png]]
 
 
 
