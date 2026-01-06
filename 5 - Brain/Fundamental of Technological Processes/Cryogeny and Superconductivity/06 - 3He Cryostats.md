@@ -13,8 +13,12 @@ The temperature range can be extended down to about 0.3 K by using a helium-3 cr
 The main reasons for using $^3$He are:
 - It has a larger vapor pressure at a given temperature compared to $^4$He, allowing for lower temperatures to be achieved through pumping.
 ![[Pasted image 20260106151732.png]]
-- 
+- Its specific heat is larger and varies less at temperatures between 0.5K and 2K, than that of $^4$He, resulting in a larger heat capacity to be used as a reservoir. So one has to only evaporate 20% of the liquid $^3$He to cool the liquid from 2K to 0.5K, by using its latent heat of vaporization.
+![[Pasted image 20260106152016.png]]
+- In this range it is not a superfluid, so there are no issues with film creep.
 
+The disadvantages of using $^3$He are:
+- 
 
 
 
