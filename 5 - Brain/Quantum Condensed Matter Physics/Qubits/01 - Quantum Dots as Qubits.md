@@ -106,5 +106,21 @@ As seen from the image, there are two important things to consider:
 - If I lower the bias window enough, I can reach a point where only the ground state transition $0 \rightarrow \uparrow$ is allowed. This is useful for initializing the qubit in a known spin state. Imagine cutting the graph with an horizontal line at low bias voltage.
 - Over a certain gate voltage, even though the transition $0 \rightarrow \downarrow$ is energetically allowed, there no current flow because the electron in the excited state can relax to the ground state before it has a chance to tunnel out of the dot. This phenomenon is known as spin blockade and is crucial for spin qubit readout(double check this).
 
-If we add a second electron to the dot, there are many different possible configurations 
+If we add a second electron to the dot, there are many different possible configurations:
+1. Both electrons occupy the spin-up and spin-down states of the lowest orbital, forming a singlet state (S). $E_{tot} = E_{\uparrow, 0} + E_{\downarrow, 0} + E_C$ (where $E_C$ is the energy due to electron-electron repulsion). $|S\rangle = \frac{1}{\sqrt{2}}(|\uparrow\downarrow\rangle - |\downarrow\uparrow\rangle)$ 
+![[Pasted image 20260107170235.png]]
+2. One electron occupies the lowest orbital, while the other occupies the first excited orbital. When they have different spins, they form the triple state ($T_0$). $E_{tot} = E_{\uparrow, 0} + E_{\downarrow, 1} + E_C = E_{\uparrow, 1} + E_{\downarrow, 0} + E_C$. $|T_0\rangle = \frac{1}{\sqrt{2}}(|\uparrow\downarrow\rangle + |\downarrow\uparrow\rangle)$ 
+![[Pasted image 20260107170455.png]]
+3. Both electrons occupy the $\uparrow$ states of the lowest and first excited orbitals, forming the triple state ($T_+$). $E_{tot} = E_{\uparrow, 0} + E_{\uparrow, 1} + E_C$. $|T_+\rangle = |\uparrow\uparrow\rangle$ 
+![[Pasted image 20260107170555.png]]
+4. Both electrons occupy the $\downarrow$ states of the lowest and first excited orbitals, forming the triple state ($T_-$). $E_{tot} = E_{\downarrow, 0} + E_{\downarrow, 1} + E_C$. $|T_-\rangle = |\downarrow\downarrow\rangle$
+![[Pasted image 20260107170606.png]]
+
+This is the charging of the quantum dot with two electrons, showing the different possible spin and orbital configurations.
+![[Pasted image 20260107170633.png]]
+
+#### Digression of Bloch Sphere
+
+#### Single Spin Qubit
+
 ## References
