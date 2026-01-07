@@ -137,7 +137,16 @@ The Quantum Dot is the optimal system for a qubit, since we have:
 - easy initialization (by controlling the gate voltage)
 - whose state can be measured electrically, basically whenever there's tunneling we can measure the current with an electrometer.
 
-A qubit is generally represented with the Bloch Sphere, with a general state $|\psi\rangle = cos \frac{\theta}{2} |0\rangle + e^{i\phi} sin \frac{\theta}{2} |1\rangle$, 
+A qubit is generally represented with the Bloch Sphere, with a general state $|\psi\rangle = cos \frac{\theta}{2} |0\rangle + e^{i\phi} sin \frac{\theta}{2} |1\rangle$, where $|0\rangle = |\uparrow\rangle$ and $|1\rangle = |\downarrow\rangle$.
+![[Pasted image 20260107185629.png]]
+
+There are then 2 main types of operations that can be performed on the single spin qubit:
+1. Horizontal Rotation ($\phi$ rotation): Induced by applying an oscillating magnetic field (microwave frequency) perpendicular to the static magnetic field. This causes the spin to precess around the axis defined by the oscillating field, allowing for precise control of the qubit state. It keeps the same relative probability between the two states but changes the phase of the wavefunction. It's achieved through Larmor precession.
+![[Pasted image 20260107185914.png]]
+2. Vertical Rotation ($\theta$ rotation): Achieved by applying resonant magnetic field pulses that cause transitions between the spin-up and spin-down states. This changes the relative probabilities of measuring the qubit in either state. It's achieved through Rabi oscillations.
+![[Pasted image 20260107190127.png]]
+
+##### Physics of a Spin Particle in a Uniform Magnetic Field
 
 
 ## References
