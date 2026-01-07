@@ -61,5 +61,18 @@ So it's not enough for $\mu_{source}$ to be greater than $\mu(N)$ to have an ele
 Int he low bias regime, at most one level of the quantum dot lies within the bias window defined by the source and drain potentials. Whereas in the high bias regime, multiple levels can lie within this window.
 
 **Low Bias Regime**
+In the low bias regime, the bias voltage $V_{SD}$ applied between the source and drain is small enough that only one energy level of the quantum dot falls within the bias window. This means that only one electron can tunnel through the dot at a time, leading to discrete conductance peaks as the gate voltage is varied. Each peak corresponds to the alignment of the electrochemical potential of the dot with the source and drain potentials, allowing an electron to tunnel through.
+Basically, when $\mu_{N}$ is within the bias window, an electron can tunnel from the source to the dot, obviously tunneling is a probabilistic process, so there's a certain rate at which electrons tunnel in and out of the dot. So the number of electrons in the dot fluctuates between N-1 and N.
+![[Pasted image 20260107161344.png]]
+The current can also flow if we operate on $V_{SD}$
+![[Pasted image 20260107161424.png]]
+![[Pasted image 20260107161452.png]]
+This two graphs show basically the bias windows as a function of $V_G$ and $V_{SD}$. The diamond-shaped regions correspond to Coulomb Blockade, where no current flows through the dot. 
+The example from before is represented by the horizontal line cut at low bias voltage $V_{SD}$. 
+![[Pasted image 20260107161709.png]]
+![[Pasted image 20260107161828.png]]
+In the latter example we identify 3 different situations, in which all of them allow current flow.
+
+**High Bias Regime**
 
 ## References
