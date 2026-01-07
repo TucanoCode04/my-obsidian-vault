@@ -49,5 +49,17 @@ Where $\epsilon_i^{(0)}$ are the single-particle energy levels of the electrons 
 
 The electrochemical potential tells us the energy required to add one more electron to the dot:
 $$\mu(N) = \frac{\partial E(N)}{\partial N} = E(N) - E(N-1) = \frac{e^2 N -\frac{1}{2}}{C_{dot}} + \frac{e}{C_{dot}}(C_S V_S + C_D V_D + C_G V_G) + \epsilon_N^{(0)}$$
-To manipulate the number of electrons in the dot, we adjust the gate voltage $V_G$, because if we were to change the source or drain voltages, we would create a current flow through the dot, which is not desired when we want to control the electron number precisely. The effect of 
+To manipulate the number of electrons in the dot, we adjust the gate voltage $V_G$, because if we were to change the source or drain voltages, we would create a current flow through the dot, which is not desired when we want to control the electron number precisely. The effect of the gate voltage is to shift the electrochemical potential of the dot up or down.
+![[Pasted image 20260107155947.png]]
+##### Coulomb Blockade 
+![[Pasted image 20260107160338.png]]
+Basically, Coulomb Blockade is a phenomenon observed in quantum dots and other nanoscale systems where the addition of a single electron to the system is energetically unfavorable due to strong electron-electron interactions. This leads to a suppression of electrical conductance at low temperatures and small bias voltages.
+When an electron tries to enter the quantum dot, it experiences a repulsive force from the electrons already present in the dot. This repulsion creates an energy barrier that must be overcome for the electron to successfully tunnel into the dot. If the energy provided by the external voltage (bias voltage) is less than this barrier, the electron cannot enter the dot, resulting in a blockade of current flow.
+So it's not enough for $\mu_{source}$ to be greater than $\mu(N)$ to have an electron tunnel into the dot, we also need to make sure that $\mu_{drain}$ is less than $\mu(N)$ to allow the electron to leave the dot. If either of these conditions is not met, the electron will be "stuck" in the dot, leading to Coulomb Blockade. To unblock the flow of electrons, we need to adjust the gate voltage $V_G$ such that the electrochemical potential of the dot $\mu(N)$ lies between the source and drain potentials.
+##### Low and High Bias Regimes
+![[Pasted image 20260107160624.png]]
+Int he low bias regime, at most one level of the quantum dot lies within the bias window defined by the source and drain potentials. Whereas in the high bias regime, multiple levels can lie within this window.
+
+**Low Bias Regime**
+
 ## References
