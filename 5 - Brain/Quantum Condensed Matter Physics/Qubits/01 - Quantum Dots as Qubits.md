@@ -74,5 +74,6 @@ The example from before is represented by the horizontal line cut at low bias vo
 In the latter example we identify 3 different situations, in which all of them allow current flow.
 
 **High Bias Regime**
+The energy levels seen so far were all ground states (GS). However, quantum dots also have excited states (ES) that can participate in transport when the bias voltage is sufficiently high. They can arise from various sources, for example if a magnetic field is applied, the spin degeneracy of the energy levels is lifted, leading to spin-split excited states, Zeeman splitting.
 
 ## References
