@@ -43,5 +43,11 @@ The integration limits reflect that adding electrons to the dot decreases its to
 $Q_{dot} = -|e|N$, where N is the total number of electrons in the dot.
 $N_{add} = N - N_0$, where $N_0$ is the number of electrons in the dot when no voltages are applied.
 Again the first term represents the electron-electron interaction energy, while the second term captures the effect of the external voltages on the energy of the dot.
+The electrostatic energy is summed to the single-particle energy levels of the electrons in the dot to get the total energy of the system:
+$$E (N) = E_{elstatic}(N) + \sum_{i=1}^{N} \epsilon_i^{(0)}$$
+Where $\epsilon_i^{(0)}$ are the single-particle energy levels of the electrons in the dot, basically obtained from solving the Schrödinger equation for the confined electrons (particle in a box). The $^{(0)}$ indicates that these levels are calculated without considering electron-electron interactions. We write $N$ instead of $N_{add}$ because we assume that we start from an empty dot ($N_0 = 0$).
 
+The electrochemical potential tells us the energy required to add one more electron to the dot:
+$$\mu(N) = \frac{\partial E(N)}{\partial N} = E(N) - E(N-1) = \frac{e^2 N -\frac{1}{2}}{C_{dot}} + \frac{e}{C_{dot}}(C_S V_S + C_D V_D + C_G V_G) + \epsilon_N^{(0)}$$
+To manipulate the number of electrons in the dot, we adjust the gate voltage $V_G$, because if we were to change the source or drain voltages, we would create a current flow through the dot, which is not desired when we want to control the electron number precisely. The effect of 
 ## References
