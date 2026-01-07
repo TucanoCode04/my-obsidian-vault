@@ -88,4 +88,15 @@ We can describe again the bias windows as a function of $V_G$ and $V_{SD}$, but 
 ![[Pasted image 20260107163816.png]]
 ![[Pasted image 20260107163824.png]]
 In the dotted lines there would be enough energy to allow tunneling, but it is not enough to overcome the Coulomb Blockade.
+
+#### Spin in Single Quantum Dots
+By applying a magnetic field, we can lift the spin degeneracy of the energy levels in the quantum dot through the Zeeman effect. This results in two distinct energy levels for each orbital state: one for spin-up electrons and another for spin-down electrons. 
+![[Pasted image 20260107164539.png]]
+
+In the case in which the quantum dot is occupied by a single electron, the lowest orbital can be occupied in two ways: 
+1. The electron can occupy the spin-up state ($\uparrow$), or ground state. $E_{tot} = E_{\uparrow, 0}$
+2. The electron can occupy the spin-down state ($\downarrow$), or excited state. $E_{tot} = E_{\downarrow, 0} = E_{\uparrow, 0} + \Delta E_Z$
+![[Pasted image 20260107164915.png]]
+
+
 ## References
