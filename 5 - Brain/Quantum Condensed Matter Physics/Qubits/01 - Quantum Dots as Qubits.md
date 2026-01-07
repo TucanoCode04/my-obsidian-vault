@@ -127,9 +127,17 @@ The qubit is functioning when there are either 0 or 1 electron in the dot.
 ![[Pasted image 20260107184246.png]]
 
 The operation of the single spin qubit involves several key steps:
-1. **I
 
+1.**Initialization**: After the quantum dot is emptied, the gate voltage is adjusted so that only the ground state transition $0 \rightarrow \uparrow$ is energetically allowed. An electron tunnels into the dot occupying the spin-up ground state, thus initializing the qubit in a known state $|\uparrow\rangle$.
+![[Pasted image 20260107184719.png]]
 
+The Quantum Dot is the optimal system for a qubit, since we have:
+- a two-level system (spin up and spin down)
+- a confined environment (the dot), with no perturbations from external atoms
+- easy initialization (by controlling the gate voltage)
+- whose state can be measured electrically, basically whenever there's tunneling we can measure the current with an electrometer.
+
+A qubit is generally represented with the Bloch Sphere, with a general state $|\psi\rangle = cos \frac{\theta}{2} |0\rangle + e^{i\phi} sin \frac{\theta}{2} |1\rangle$, 
 
 
 ## References
