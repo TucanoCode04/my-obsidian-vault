@@ -122,9 +122,12 @@ This is the charging of the quantum dot with two electrons, showing the differen
 #### Digression of Bloch Sphere
 
 #### Single Spin Qubit
+The single spin qubit is the simplest implementation of a quantum bit using the spin degree of freedom of an electron confined in a quantum dot. A quantum dot is connected to a gate and a reservoir of electrons, a large static magnetic field is applied to lift the spin degeneracy through the Zeeman effect.
+The qubit is functioning when there are either 0 or 1 electron in the dot.
+![[Pasted image 20260107184246.png]]
 
-
-
+The operation of the single spin qubit involves several key steps:
+1. **I
 
 
 
