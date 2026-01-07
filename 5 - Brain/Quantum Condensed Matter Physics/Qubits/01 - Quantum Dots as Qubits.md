@@ -98,5 +98,13 @@ In the case in which the quantum dot is occupied by a single electron, the lowes
 2. The electron can occupy the spin-down state ($\downarrow$), or excited state. $E_{tot} = E_{\downarrow, 0} = E_{\uparrow, 0} + \Delta E_Z$
 ![[Pasted image 20260107164915.png]]
 
+In the high bias regime the single dot qubit can be charged with one electron through two different transitions:
+1. $0 \rightarrow \uparrow$: The dot is initially empty, and an electron tunnels into the dot occupying the spin-up ground state.
+2. $0 \rightarrow \downarrow$: The dot is initially empty, and an electron tunnels into the dot occupying the spin-down excited state.
+![[Pasted image 20260107165134.png]]
+As seen from the image, there are two important things to consider:
+- If I lower the bias window enough, I can reach a point where only the ground state transition $0 \rightarrow \uparrow$ is allowed. This is useful for initializing the qubit in a known spin state. Imagine cutting the graph with an horizontal line at low bias voltage.
+- Over a certain gate voltage, even though the transition $0 \rightarrow \downarrow$ is energetically allowed, there no current flow because the electron in the excited state can relax to the ground state before it has a chance to tunnel out of the dot. This phenomenon is known as spin blockade and is crucial for spin qubit readout(double check this).
 
+If we add a second electron to the dot, there are many different possible configurations 
 ## References
