@@ -37,5 +37,11 @@ So now can simply see that there are 2 contributions to the charge on the dot:
 We want to extract the electrostatic potential of the isolated quantum dot, $V_{dot}$:
 $$V_{dot}(Q_{dot}) = \frac{Q_{dot} - Q_{dot,0}}{C_{dot}} - \frac{C_S V_S + C_D V_D + C_G V_G}{C_{dot}}$$
 The first term represents the potential due to the charge on the dot itself so it-s basically an electron-electron interaction term. The second term represents the influence of the external voltages on the dot's potential.
+The potential is function of the total charge on the dot, we use this to calculate the electrostatic energy variation when adding $N_{add}$ electrons to the dot:
+$$E_{elstatic}(N_{add}) = \int_{Q_{dot,0}}^{Q_{dot,0} - |e|N_{add}} V_{dot}(Q_{dot}) dQ_{dot} = \frac{e^2N_{add}^2}{2C_{dot}} + \frac{eN_{add}}{C_{dot}}(C_S V_S + C_D V_D + C_G V_G)$$
+The integration limits reflect that adding electrons to the dot decreases its total charge (since electrons carry negative charge).
+$Q_{dot} = -|e|N$, where N is the total number of electrons in the dot.
+$N_{add} = N - N_0$, where $N_0$ is the number of electrons in the dot when no voltages are applied.
+Again the first term represents the electron-electron interaction energy, while the second term captures the effect of the external voltages on the energy of the dot.
 
 ## References
