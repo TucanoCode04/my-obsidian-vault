@@ -25,6 +25,17 @@ We want to calculate the charge on the dot as a function of the applied voltages
 - $V_S$, $V_D$, and $V_G$ are the voltages applied to the source, drain, and gate, respectively.
 - $V_{dot}$ is the potential of the quantum dot.
 
-We define the total capacitance of the dot as: $$C_{dot} =-( C_S + C_D + C_G)$$
+We define the total capacitance of the dot as: $$C_{dot} =-( C_S + C_D + C_G)$$We use the negative sign to better express the accumulation of negative charge on the dot when positive voltages are applied to the surrounding electrodes.
+By rearranging the equation:
+$$Q_{dot} = Q_{dot,0} +(V_{dot}C_{dot} + C_SV_S + C_DV_D + C_GV_G)$$
+So now can simply see that there are 2 contributions to the charge on the dot:
+1. The intrinsic charge $Q_{dot,0}$, when no voltages are applied.
+2. The charge induced by the applied voltages on the surrounding electrodes.
+
+**Note:** Remember that $C=\frac{Q}{V}$
+
+We want to extract the electrostatic potential of the isolated quantum dot, $V_{dot}$:
+$$V_{dot}(Q_{dot}) = \frac{Q_{dot} - Q_{dot,0}}{C_{dot}} - \frac{C_S V_S + C_D V_D + C_G V_G}{C_{dot}}$$
+The first term represents the potential due to the charge on the dot itself so it-s basically an electron-electron interaction term. The second term represents the influence of the external voltages on the dot's potential.
 
 ## References
