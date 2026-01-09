@@ -180,8 +180,17 @@ $$|\psi(t)\rangle = a e^{-i \frac{E_{\uparrow}}{\hbar} t} |\uparrow\rangle + b e
 We can factor out a global phase $e^{-i \frac{E_{\uparrow}}{\hbar} t}$, which doesn't affect the physical properties of the state:
 $$|\psi(t)\rangle = e^{-i \frac{eB_Z}{2m} t} \left( a |\uparrow\rangle + b e^{i \frac{e B_Z}{m} t} |\downarrow\rangle \right) = a|\uparrow\rangle + b e^{i \frac{ e B_Z}{m} t} |\downarrow\rangle$$
 The relative phase between the two spin states evolves over time, leading to a precession of the spin state around the z-axis.
-IF we see it on the 
+IF we see it on the Bloch Sphere:
+$$|\psi(t)\rangle = cos \frac{\theta}{2} |0\rangle + e^{i(\frac{e B_Z}{m} t)} sin \frac{\theta}{2} |1\rangle$$
+Larmor precession leads to an horizontal rotation around the z-axis of the Bloch Sphere, so we a constant magnetic field is applied along the z-axis, the state will naturally move around the equator of the Bloch Sphere.
+![[Pasted image 20260109113503.png]]
+To complete the full cycle:
+$$\frac{e B_Z}{m} t = 2 \pi$$
+Which gives us the Larmor Frequency:
+$$\omega_0 = \frac{2 \pi}{T} = \frac{e B_Z}{m}$$
+The Larmor rotation direction depends on the sign of the magnetic field applied and the precession speed is proportional to the magnetic field strength.
 
+##### Spin Resonance 
 
 
 ## References
