@@ -191,6 +191,18 @@ $$\omega_0 = \frac{2 \pi}{T} = \frac{e B_Z}{m}$$
 The Larmor rotation direction depends on the sign of the magnetic field applied and the precession speed is proportional to the magnetic field strength.
 
 ##### Spin Resonance 
-
+To achieve vertical rotations on the Bloch Sphere, we need to induce transitions between the spin-up and spin-down states. This can be accomplished by applying an oscillating magnetic field perpendicular to the static magnetic field (DC):
+$$\vec{B}_{AC} = B_1 cos(\omega_0 t) \hat{x}$$
+Where $B_1$ is the amplitude of the oscillating field and $\omega_0$ is its angular frequency, which must match the Larmor frequency, which is the energy difference between the two spin energy levels, to achieve resonance.
+The magnetic field will then become:
+$$\vec{B} = = B_Z \hat{z} + B_1 cos(\omega_0 t) \hat{x}$$
+The Hamiltonian describing the interaction of the spin with this combined magnetic field is given by:
+$$\hat{H} = \frac{e}{m} \hat{S}_Z B_Z + \frac{e}{m} \hat{S}_X B_1 cos(\omega_0 t)$$
+Where $\hat{S}_X$ is the x-component of the spin operator:
+$$\hat{S}_X = \frac{\hbar}{2} \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$$
+By summing the two terms, we get:
+$$\hat{H} = \frac{e \hbar}{2m} \begin{pmatrix} B_Z & B_1 cos(\omega_0 t) \\ B_1 cos(\omega_0 t) & -B_Z \end{pmatrix}$$
+By remembering that the solution of the time-dependent Schrödinger equation is given by:
+$$i \hbar \frac{d}{dt} |\psi(t)\rangle = \hat{H} |\psi(t)\rangle \quad \Rightarrow \quad |\psi(t)\rangle = a |0\rangle + b |1\rangle = \
 
 ## References
