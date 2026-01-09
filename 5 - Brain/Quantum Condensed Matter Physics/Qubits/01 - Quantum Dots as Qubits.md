@@ -231,6 +231,7 @@ So now we succeeded in describing both types of rotations on the Bloch Sphere:
 2. Rabi Oscillations (vertical rotation around y-axis) induced by a resonant oscillating magnetic field along x.
 
 ##### Single Spin Qubit Manipulation
-
+We start from our two-level system, with the spin-up and spin-down states split by the Zeeman energy due to the static magnetic field $B_Z$. We change $V_G$ so that there's no possibility for the electron to escape the dot regardless of its spin state.
+Then we apply a resonant oscillating magnetic field $B_{AC}$ perpendicular to $B_Z$, and we wait exactly the time needed to achieve the desired rotation on the Bloch Sphere.
 
 ## References
