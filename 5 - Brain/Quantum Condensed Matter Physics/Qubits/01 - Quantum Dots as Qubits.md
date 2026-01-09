@@ -246,5 +246,31 @@ To read out the state of the single spin qubit, we adjust the gate voltage $V_G$
 If the electron is in the spin-down state, it can tunnel out of the dot and another electron from the reservoir can tunnel into the dot occupying the spin-up ground state. This results in a measurable current flow, indicating that the qubit was in the spin-down state.
 ![[Pasted image 20260109123217.png]]
 
-##### Pros and 
+##### Pros and Cons of Single Spin Qubits
+![[Pasted image 20260109123405.png]]
+
+#### Double Quantum Dot Qubit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## References
