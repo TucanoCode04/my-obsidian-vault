@@ -150,8 +150,23 @@ There are then 2 main types of operations that can be performed on the single sp
 ![[Pasted image 20260109105528.png]]
 When a static magnetic field is applied, for example along the z-axis, the particles with spin (like electrons) experience a torque that causes their magnetic moments to precess around the direction of the magnetic field. This phenomenon is known as Larmor precession.
 It basically happens because the magnetic moment $\vec{\mu}$ of the particle interacts with the external magnetic field $\vec{B}$, leading to a torque $\vec{\tau}$ given by:
-$$\vec{\tau} = \vec{\mu} \times \vec{B}$$
+$$\vec{\tau} = \vec{\mu}_S \times \vec{B}$$
 This torque causes the magnetic moment to precess around the direction of the magnetic field at a frequency called the Larmor frequency. There's not enough energy to flip the spin, so it just precesses, cause the particle's spin is trying to align with the magnetic field.
 
+An energy is associated with this interaction, given by the Hamiltonian:
+$$\hat{H} = -\hat{\mu}_S \cdot \vec{B}$$Where $\hat{\mu}_S$ is the magnetic moment operator of the spin. For an electron, the magnetic moment is related to its spin operator $\hat{S}$ by:
+$$\hat{\mu}_S = -\frac{e}{m} \hat{S}$$So, if we substitute this into the Hamiltonian and we consider a magnetic field applied along the z-axis ($\vec{B} = B_Z \hat{z}$), we get:
+$$\hat{H} = \frac{e}{m} \hat{S}_Z B_Z$$
+Where $\hat{S}_Z$ is the z-component of the spin operator:
+$$\hat{S}_Z = \frac{\hbar}{2} \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$$
+![[Pasted image 20260109110606.png]]
+In the graph we see the precession angle $\theta$ as a function of the applied magnetic field $B_Z$. 
 
+The eigenstates of $\hat{H}$ are just the ones of of $\hat{S}_Z$, which are the spin-up $|\uparrow\rangle$ and spin-down $|\downarrow\rangle$ states, so the general solution would be:
+$$|\psi(t = 0)\rangle = a |0\rangle + b |1\rangle$$ 
+Where $|0\rangle = |\uparrow\rangle$ and $|1\rangle = |\downarrow\rangle$. But, because of the presence of the magnetic field, their energy will no longer be degenerate:
+$$E_{\uparrow} = \frac{e \hbar}{2m} B_Z$$
+$$E_{\downarrow} = -\frac{e \hbar}{2m} B_Z$$
+![[Pasted image 20260109111050.png]]
+In the graph $B_Z$ is along the z-axis but is negative, so the spin-up state has lower energy. 
 ## References
