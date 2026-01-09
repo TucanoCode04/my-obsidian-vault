@@ -216,7 +216,21 @@ By solving the system of equations, we get:
 $$\begin{pmatrix} a(t) \\ b(t) \end{pmatrix} = \begin{pmatrix} e^{-i \frac{\omega_0}{2} t} cos(\frac{\omega_1}{2} t) \\ -i e^{i \frac{\omega_0}{2} t} sin(\frac{\omega_1}{2} t) \end{pmatrix}$$
 On the Bloch Sphere representation, this solution describes a rotation of the spin state around an axis in the x-y plane at a frequency determined by the Rabi frequency $\omega_1$.
 $$|\psi(t)\rangle = cos(\frac{\omega_1}{2} t) |0\rangle - i e^{i \omega_0 t} sin(\frac{\omega_1}{2} t) |1\rangle$$
-As before we 
+As before we look only at the phase difference. The term $-i$ represents a phase shift of $\frac{\pi}{2}$, which corresponds to a rotation around the y-axis of the Bloch Sphere. This is because $1 = e^{2\pi i } \Rightarrow -i = e^{-\frac{\pi}{2} i}$, so:
+$$|\psi(t)\rangle = cos(\frac{\omega_1}{2} t) |0\rangle + e^{i (\omega_0 t - \frac{\pi}{2})} sin(\frac{\omega_1}{2} t) |1\rangle$$
+![[Pasted image 20260109120504.png]]
+
+By taking the modulus squared of the coefficients, we can find the probabilities of measuring the spin in either state at time t:
+$$P_{\uparrow}(t) = |a(t)|^2 = cos^2(\frac{\omega_1}{2} t)$$
+$$P_{\downarrow}(t) = |b(t)|^2 = sin^2(\frac{\omega_1}{2} t)$$
+These probabilities oscillate over time, demonstrating Rabi oscillations between the spin-up and spin-down states induced by the resonant oscillating magnetic field, the frequency of these oscillations is determined by the Rabi frequency $\omega_1 =  \frac{e B_1}{2m}$.
+![[Pasted image 20260109120735.png]]
+
+So now we succeeded in describing both types of rotations on the Bloch Sphere:
+1. Larmor Precession (horizontal rotation around z-axis) induced by a static magnetic field along z.
+2. Rabi Oscillations (vertical rotation around y-axis) induced by a resonant oscillating magnetic field along x.
+
+##### Single Spin Qubit Manipulation
 
 
 ## References
