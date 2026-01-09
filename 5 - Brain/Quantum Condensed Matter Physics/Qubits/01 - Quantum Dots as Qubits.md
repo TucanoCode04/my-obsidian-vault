@@ -203,6 +203,20 @@ $$\hat{S}_X = \frac{\hbar}{2} \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$$
 By summing the two terms, we get:
 $$\hat{H} = \frac{e \hbar}{2m} \begin{pmatrix} B_Z & B_1 cos(\omega_0 t) \\ B_1 cos(\omega_0 t) & -B_Z \end{pmatrix}$$
 By remembering that the solution of the time-dependent Schrödinger equation is given by:
-$$i \hbar \frac{d}{dt} |\psi(t)\rangle = \hat{H} |\psi(t)\rangle \quad \Rightarrow \quad |\psi(t)\rangle = a |0\rangle + b |1\rangle = \
+$$ \hat{H} |\psi(t)\rangle =i \hbar \frac{\partial}{\partial t} |\psi(t)\rangle   \quad \Rightarrow \quad |\psi(t)\rangle = a |0\rangle + b |1\rangle = \sqrt{2} \begin{pmatrix} a(t) \\ b(t) \end{pmatrix}$$
+We can insert the Hamiltonian in the equation:
+$$\frac{ e \hbar}{2m} \begin{pmatrix} B_Z & B_1 cos(\omega_0 t) \\ B_1 cos(\omega_0 t) & -B_Z \end{pmatrix} \begin{pmatrix} a(t) \\ b(t) \end{pmatrix} = i \hbar \frac{\partial}{\partial t} \begin{pmatrix} a(t) \\ b(t) \end{pmatrix}$$
+This gives us a system of coupled differential equations for the coefficients a(t) and b(t):
+$$\frac{e B_Z}{2m} a(t) + \frac{e B_1}{2m} cos(\omega_0 t) b(t) = i \frac{\partial a(t)}{\partial t}$$
+$$\frac{e B_1}{2m} cos(\omega_0 t) a(t) - \frac{e B_Z}{2m} b(t) = i \frac{\partial b(t)}{\partial t}$$
+We can identify that the terms $\frac{e B_Z}{2m}$ represent the energy difference between the two spin states, and we labelled it as $\omega_0$ being the Larmor frequency. The terms $\frac{e B_1}{2m}$ represent the coupling strength between the spin states induced by the oscillating magnetic field, and we labelled it as $\omega_1$ being the Rabi frequency.
+$$\omega_0 a(t) + \omega_1 cos(\omega_0 t) b(t) = i \frac{\partial a(t)}{\partial t}$$
+$$\omega_1 cos(\omega_0 t) a(t) - \omega_0 b(t) = i \frac{\partial b(t)}{\partial t}$$
+By solving the system of equations, we get:
+$$\begin{pmatrix} a(t) \\ b(t) \end{pmatrix} = \begin{pmatrix} e^{-i \frac{\omega_0}{2} t} cos(\frac{\omega_1}{2} t) \\ -i e^{i \frac{\omega_0}{2} t} sin(\frac{\omega_1}{2} t) \end{pmatrix}$$
+On the Bloch Sphere representation, this solution describes a rotation of the spin state around an axis in the x-y plane at a frequency determined by the Rabi frequency $\omega_1$.
+$$|\psi(t)\rangle = cos(\frac{\omega_1}{2} t) |0\rangle - i e^{i \omega_0 t} sin(\frac{\omega_1}{2} t) |1\rangle$$
+As before we 
+
 
 ## References
