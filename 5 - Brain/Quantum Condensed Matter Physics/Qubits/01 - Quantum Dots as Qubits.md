@@ -173,5 +173,15 @@ In the graph $B_Z$ is along the z-axis but is negative, so the spin-up state has
 ##### Digression on Time Evolution of Stationary States
 
 ##### Larmor Precession
+The time evolution of stationary states is given by:
+$$|\psi(t)\rangle = e^{-i \frac{\hat{H}}{\hbar} t} |\psi(0)\rangle$$
+So if we insert it in our general solution found before:
+$$|\psi(t)\rangle = a e^{-i \frac{E_{\uparrow}}{\hbar} t} |\uparrow\rangle + b e^{-i \frac{E_{\downarrow}}{\hbar} t} |\downarrow\rangle = a e^{-i \frac{e B_Z}{2m} t} |\uparrow\rangle + b e^{i \frac{e B_Z}{2m} t} |\downarrow\rangle$$
+We can factor out a global phase $e^{-i \frac{E_{\uparrow}}{\hbar} t}$, which doesn't affect the physical properties of the state:
+$$|\psi(t)\rangle = e^{-i \frac{eB_Z}{2m} t} \left( a |\uparrow\rangle + b e^{i \frac{e B_Z}{m} t} |\downarrow\rangle \right) = a|\uparrow\rangle + b e^{i \frac{ e B_Z}{m} t} |\downarrow\rangle$$
+The relative phase between the two spin states evolves over time, leading to a precession of the spin state around the z-axis.
+IF we see it on the 
+
+
 
 ## References
