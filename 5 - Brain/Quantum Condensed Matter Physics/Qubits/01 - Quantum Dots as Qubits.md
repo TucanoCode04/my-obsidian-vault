@@ -147,6 +147,11 @@ There are then 2 main types of operations that can be performed on the single sp
 ![[Pasted image 20260107190127.png]]
 
 ##### Physics of a Spin Particle in a Uniform Magnetic Field
+![[Pasted image 20260109105528.png]]
+When a static magnetic field is applied, for example along the z-axis, the particles with spin (like electrons) experience a torque that causes their magnetic moments to precess around the direction of the magnetic field. This phenomenon is known as Larmor precession.
+It basically happens because the magnetic moment $\vec{\mu}$ of the particle interacts with the external magnetic field $\vec{B}$, leading to a torque $\vec{\tau}$ given by:
+$$\vec{\tau} = \vec{\mu} \times \vec{B}$$
+This torque causes the magnetic moment to precess around the direction of the magnetic field at a frequency called the Larmor frequency. There's not enough energy to flip the spin, so it just precesses, cause the particle's spin is trying to align with the magnetic field.
 
 
 ## References
