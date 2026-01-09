@@ -219,6 +219,7 @@ $$|\psi(t)\rangle = cos(\frac{\omega_1}{2} t) |0\rangle - i e^{i \omega_0 t} sin
 As before we look only at the phase difference. The term $-i$ represents a phase shift of $\frac{\pi}{2}$, which corresponds to a rotation around the y-axis of the Bloch Sphere. This is because $1 = e^{2\pi i } \Rightarrow -i = e^{-\frac{\pi}{2} i}$, so:
 $$|\psi(t)\rangle = cos(\frac{\omega_1}{2} t) |0\rangle + e^{i (\omega_0 t - \frac{\pi}{2})} sin(\frac{\omega_1}{2} t) |1\rangle$$
 ![[Pasted image 20260109120504.png]]
+![[Pasted image 20260109122329.png]]
 
 By taking the modulus squared of the coefficients, we can find the probabilities of measuring the spin in either state at time t:
 $$P_{\uparrow}(t) = |a(t)|^2 = cos^2(\frac{\omega_1}{2} t)$$
@@ -233,5 +234,17 @@ So now we succeeded in describing both types of rotations on the Bloch Sphere:
 ##### Single Spin Qubit Manipulation
 We start from our two-level system, with the spin-up and spin-down states split by the Zeeman energy due to the static magnetic field $B_Z$. We change $V_G$ so that there's no possibility for the electron to escape the dot regardless of its spin state.
 Then we apply a resonant oscillating magnetic field $B_{AC}$ perpendicular to $B_Z$, and we wait exactly the time needed to achieve the desired rotation on the Bloch Sphere.
+![[Pasted image 20260109122240.png]]
 
+![[Pasted image 20260109122843.png]]
+As we can see from this experimental data, as time goes on the information about the initial spin state is lost due to interactions with the environment, leading to decoherence. The oscillations in the probability of measuring the spin-up state decay over time, indicating that the qubit is losing its coherence and eventually reaches a mixed state where both spin states are equally probable.
+
+##### Single Spin Qubit Readout
+To read out the state of the single spin qubit, we adjust the gate voltage $V_G$ such that only the transition corresponding to the spin-down state ($0 \rightarrow \downarrow$) is energetically allowed within the bias window. If the electron is in the spin-up state, it cannot tunnel out of the dot, and we don't measure any current.
+![[Pasted image 20260109123143.png]]
+
+If the electron is in the spin-down state, it can tunnel out of the dot and another electron from the reservoir can tunnel into the dot occupying the spin-up ground state. This results in a measurable current flow, indicating that the qubit was in the spin-down state.
+![[Pasted image 20260109123217.png]]
+
+##### Pros and 
 ## References
