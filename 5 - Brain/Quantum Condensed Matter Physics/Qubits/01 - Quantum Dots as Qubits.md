@@ -119,7 +119,7 @@ If we add a second electron to the dot, there are many different possible config
 This is the charging of the quantum dot with two electrons, showing the different possible spin and orbital configurations.
 ![[Pasted image 20260107170633.png]]
 
-#### Digression of Bloch Sphere
+#### Digression on Bloch Sphere
 
 #### Single Spin Qubit
 The single spin qubit is the simplest implementation of a quantum bit using the spin degree of freedom of an electron confined in a quantum dot. A quantum dot is connected to a gate and a reservoir of electrons, a large static magnetic field is applied to lift the spin degeneracy through the Zeeman effect.
@@ -168,5 +168,10 @@ Where $|0\rangle = |\uparrow\rangle$ and $|1\rangle = |\downarrow\rangle$. But, 
 $$E_{\uparrow} = \frac{e \hbar}{2m} B_Z$$
 $$E_{\downarrow} = -\frac{e \hbar}{2m} B_Z$$
 ![[Pasted image 20260109111050.png]]
-In the graph $B_Z$ is along the z-axis but is negative, so the spin-up state has lower energy. 
+In the graph $B_Z$ is along the z-axis but is negative, so the spin-up state has lower energy, since the magnetic moment of the electron is opposite to its spin (meaning that when the spin is up, the magnetic moment is down and viceversa). And if the magnetic moment is aligned with the magnetic field, the energy is minimized. 
+
+##### Digression on Time Evolution of Stationary States
+
+##### Larmor Precession
+
 ## References
