@@ -278,11 +278,17 @@ $$\psi_A = \alpha \phi_1 - \beta \phi_2 \quad \text{with energy} \quad +|t_C|$$
 Where $t_C$ is the tunnel coupling strength between the dots, and $\alpha$ and $\beta$ are coefficients that depend on the specific system parameters.
 We call detuning $\epsilon$ the the energy difference between the individual dot levels, and it measure the degree of mixing between the two dot states. 
 ![[Pasted image 20260110153548.png]]
+The solution of the system will start bending when we change the detuning, which can be controlled through the gate voltages. 
+![[Pasted image 20260110153827.png]]
+We can visualize the detuning as a line in the stability diagram, representing the energy difference between the two dots as we vary the gate voltages. As we can see the effect of detuning is that it modifies the energy levels of the coupled quantum dot system, leading to the formation of bonding and antibonding states, which allow for coherent electron tunneling between the dots even before and after the two triple points.
 
+![[Pasted image 20260110154141.png]]
 
+![[Pasted image 20260110154007.png]]
 
+I didn't understand this graphs
 
-
+##### Spin States in Double Quantum Dots
 
 
 

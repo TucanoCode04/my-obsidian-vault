@@ -187,8 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,8 +201,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7b0a9b5fa50a6ed",
+  "active": "0d9bc37f9ef97e25",
   "lastOpenFiles": [
+    "Pasted image 20260110154141.png",
+    "Pasted image 20260110154007.png",
+    "Pasted image 20260110153827.png",
     "Pasted image 20260110153548.png",
     "Pasted image 20260110150458.png",
     "Pasted image 20260110150352.png",
@@ -212,9 +214,6 @@
     "Pasted image 20260110145825.png",
     "Pasted image 20260110142745.png",
     "Pasted image 20260109123405.png",
-    "Pasted image 20260109123217.png",
-    "Pasted image 20260109123143.png",
-    "Pasted image 20260109122843.png",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/01 - Quantum Dots as Qubits.md",
     "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/07 - Dilution Refrigerator.md",
     "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/06 - 3He Cryostats.md",
