@@ -22,8 +22,13 @@ $$D(\hat{X}) = \{\psi \in L^2(\mathbb{R}) | \int_{-\infty}^{\infty} |x \psi(x)|^
 **Momentum operator $\hat{p}$:**$$(\hat{P}\psi)(x) = -i \hbar \frac{d}{dx} \psi(x)$$Which is also not bounded, since:
 $$\|\hat{P}\psi\|^2 = \int_{-\infty}^{\infty} \left| -i \hbar \frac{d}{dx} \psi(x) \right|^2 dx = \hbar^2 \int_{-\infty}^{\infty} \left| \frac{d}{dx} \psi(x) \right|^2 dx$$
 It's defined on the domain:
-$$D(\hat{P}) = \{\psi \in L^2(\mathbb{R}) | \frac{d}{dx} \psi(x) \in L^2(\mathbb{R})\}$$
+$$D(\hat{P}) = \{\psi \in L^2(\mathbb{R}) | \int_{-\infty}^{\infty} \left| \frac{d}{dx} \psi(x) \right|^2 dx < \infty\}$$
 **Kinetic energy operator $\hat{T}$:**$$(\hat{T}\psi)(x) = -\frac{\hbar^2}{2m} \frac{d^2}{dx^2} \psi(x)$$Which is also not bounded, since:
-	
+$$\|\hat{T}\psi\|^2 = \int_{-\infty}^{\infty} \left| -\frac{\hbar^2}{2m} \frac{d^2}{dx^2} \psi(x) \right|^2 dx = \left(\frac{\hbar^2}{2m}\right)^2 \int_{-\infty}^{\infty} \left| \frac{d^2}{dx^2} \psi(x) \right|^2 dx$$
+It's defined on the domain:
+$$D(\hat{T}) = \{\psi \in L^2(\mathbb{R}) | \int_{-\infty}^{\infty} \left| \frac{d^2}{dx^2} \psi(x) \right|^2 dx < \infty\}$$
+
+(Forse togli il fat
+
 ## References
 
