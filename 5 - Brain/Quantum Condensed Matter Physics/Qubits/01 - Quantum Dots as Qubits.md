@@ -250,6 +250,12 @@ If the electron is in the spin-down state, it can tunnel out of the dot and anot
 ![[Pasted image 20260109123405.png]]
 
 #### Double Quantum Dot Qubit
+![[Pasted image 20260110142745.png]]
+Individual quantum dots can be coupled together to form double quantum dot systems, which can be used to implement two-qubit gates and more complex quantum operations. In a double quantum dot system, we need to consider two coupling contributions:
+1. **Capacitive Coupling**: Each dot has its own capacitance to the surrounding electrodes (source, drain, gate), as well as a mutual capacitance between the two dots. This mutual capacitance allows for electrostatic interactions between the dots, enabling control over their charge states through gate voltages.
+2. **Tunnel Coupling**: Electrons can tunnel between the two dots if they are close enough and the potential barrier between them is sufficiently low. This tunneling process allows for coherent exchange of electrons between the dots, which is essential for implementing two-qubit gates.
+
+##### Capacitive Coupling
 
 
 
