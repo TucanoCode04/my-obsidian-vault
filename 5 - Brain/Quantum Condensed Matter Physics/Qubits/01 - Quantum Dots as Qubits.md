@@ -256,13 +256,19 @@ Individual quantum dots can be coupled together to form double quantum dot syste
 2. **Tunnel Coupling**: Electrons can tunnel between the two dots if they are close enough and the potential barrier between them is sufficiently low. This tunneling process allows for coherent exchange of electrons between the dots, which is essential for implementing two-qubit gates.
 
 ##### Capacitive Coupling
+Modelled by a capacitance term $C_m$ between the two dots. 
+For a large distance between the dots, $C_m = 0$, and the dots behave independently.
+![[Pasted image 20260110145825.png]]
+As we can understand from the graph, the two gate voltages $V_{G1}$ and $V_{G2}$ can be used to control the charge states of each dot independently when they are far apart (no mutual capacitance). Resulting in a table-like stability diagram.
 
+When the dots are brought closer together, the mutual capacitance $C_m$ becomes significant, leading to electrostatic interactions between the dots. This interaction modifies the stability diagram, resulting in a honeycomb pattern.
+![[Pasted image 20260110145956.png]]
+Now each cross point in the honeycomb is split into two triple points, where three charge configurations are degenerate. Only these points allow for current flow from source to drain. The distance between the triple points is proportional to the mutual capacitance $C_m$, which quantifies the strength of the capacitive coupling between the dots.
+![[Pasted image 20260110150458.png]]
+The distance between the triple points in also proportional to the inter-dot Coulomb interaction energy $E_{Cm}$, which represents the energy cost of adding an electron to one dot while the other dot is occupied. 
 
-
-
-
-
-
+![[Pasted image 20260110150352.png]]
+This image shows that if we increase the bias window enough, we can have multiple energy levels within the bias window, allowing for more complex transport phenomena between the dots.
 
 
 
