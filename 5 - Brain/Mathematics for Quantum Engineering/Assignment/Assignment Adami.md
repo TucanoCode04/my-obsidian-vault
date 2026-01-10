@@ -28,7 +28,12 @@ $$\|\hat{T}\psi\|^2 = \int_{-\infty}^{\infty} \left| -\frac{\hbar^2}{2m} \frac{d
 It's defined on the domain:
 $$D(\hat{T}) = \{\psi \in L^2(\mathbb{R}) | \int_{-\infty}^{\infty} \left| \frac{d^2}{dx^2} \psi(x) \right|^2 dx < \infty\}$$
 
-(Forse togli il fat
+(Forse togli il fatto del bounded o no)
+### Exercise 2
+
+
+
+
 
 ## References
 
