@@ -271,7 +271,13 @@ The distance between the triple points in also proportional to the inter-dot Cou
 This image shows that if we increase the bias window enough, we can have multiple energy levels within the bias window, allowing for more complex transport phenomena between the dots.
 
 ##### Tunneling Coupling 
-
+When the two quantum dots are brought very close together, electrons can tunnel between them, leading to coherent coupling. This configuration resembles that of molecular orbitals in diatomic molecules, where the individual atomic orbitals combine to form bonding and antibonding states.
+So basically from the individual energy levels of each dot $\phi_1$ and $\phi_2$, we get the formation of new hybridized energy levels: bonding $\psi_B$ and antibonding $\psi_A$ states:
+$$\psi_B = \alpha \phi_1 + \beta \phi_2 \quad \text{with energy} \quad -|t_C|$$
+$$\psi_A = \alpha \phi_1 - \beta \phi_2 \quad \text{with energy} \quad +|t_C|$$
+Where $t_C$ is the tunnel coupling strength between the dots, and $\alpha$ and $\beta$ are coefficients that depend on the specific system parameters.
+We call detuning $\epsilon$ the the energy difference between the individual dot levels, and it measure the degree of mixing between the two dot states. 
+![[Pasted image 20260110153548.png]]
 
 
 
