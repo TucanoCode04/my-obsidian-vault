@@ -270,6 +270,7 @@ The distance between the triple points in also proportional to the inter-dot Cou
 ![[Pasted image 20260110150352.png]]
 This image shows that if we increase the bias window enough, we can have multiple energy levels within the bias window, allowing for more complex transport phenomena between the dots.
 
+##### Tunneling Coupling 
 
 
 
