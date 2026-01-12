@@ -361,5 +361,22 @@ So basically the system is oscillating between the singlet and triplet states at
 ![[Pasted image 20260112115547.png]]
 ![[Pasted image 20260112115602.png]]
 ##### Increasing the Detuning
-
+The detuning $\epsilon$ is increased so that the energy difference $J$ between the singlet and triplet states becomes significant again. On the contrary, in this regime the difference in Zeeman splitting between the two dots $\Delta E_{Z1}- \Delta E_{Z2}$ becomes negligible.
+So now the eigenstates of the system are again $|S\rangle$ and $|T_0\rangle$,
+![[Pasted image 20260112115834.png]]
+![[Pasted image 20260112115846.png]]
+![[Pasted image 20260112115908.png]]
+##### Exchange
+![[Pasted image 20260112115936.png]]
+In this step, we wait a time $\tau_{E}$ at high detuning, allowing the system to evolve under the influence of the exchange interaction $J$ between the two electrons.
+Now the final state of the system after the exchange interaction can be expressed as:
+$$|\psi(t)\rangle = e^{-i \frac{J}{\hbar} t} |\psi(t = \tau_S)\rangle$$
+Where $|\psi(t = \tau_S)\rangle$ is the state of the system after the dephasing step. The free oscillation results in a phase accumulation between the singlet and triplet states. So with a combination of the dephasing and exchange steps, we can achieve arbitrary rotations on the Bloch Sphere of the singlet-triplet qubit.
+![[Pasted image 20260112120308.png]]
+![[Pasted image 20260112120333.png]]
+##### Readout
+![[Pasted image 20260112120410.png]]
+The detuning $\epsilon$ is significantly increased so that we find our system wither in the $S(0,2)$ or $T_0(1,1)$ configuration.
+![[Pasted image 20260112120552.png]]
+If the state of the qubit is $S(0,2)$, one electron of the right dot can tunnel to the righ)
 ## References
