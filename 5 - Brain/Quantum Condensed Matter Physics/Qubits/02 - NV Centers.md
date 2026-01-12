@@ -98,6 +98,9 @@ The only problem is that it is exposed to surrounding magnetic fields induced by
 Quantum sensing refers to the use of quantum systems, such as NV centers in diamond, to measure physical quantities with high sensitivity and precision. 
 ##### DC Magnetic Field
 ![[Pasted image 20260112161531.png]]
+The NV center can be used to sense DC magnetic fields by measuring the Zeeman splitting of the $m_s=\pm1$ states. By applying a known microwave frequency with laser excitation, we can determine the magnetic field strength based on the resonance condition.
+Basically, starting from $|m_S=0\rangle$, we apply microwaves at a specific frequency and measure the fluorescence intensity. When the microwave frequency matches the energy difference between $|m_S=0\rangle$ and $|m_S=-1\rangle$, we observe a dip in fluorescence due to increased population in the $|m_S=-1\rangle$ state, which relaxes non-radiatively. We do the same for $|m_S=+1\rangle$. By measuring the frequencies at which these dips occur, we can calculate the magnetic field strength using the Zeeman splitting formula.
+##### AC Magnetic Field
 
 
 
