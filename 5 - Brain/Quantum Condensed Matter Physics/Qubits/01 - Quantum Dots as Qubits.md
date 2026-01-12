@@ -311,7 +311,18 @@ We have four possible spin configurations:
 
 ##### Comparing $N(0,2)$ and $N(1,1)$ Configurations in Terms of Total Energy
 ![[Pasted image 20260112111450.png]]
-(I'm not understanding why with the increase of detuning )
+In the energy-detuning diagram, we can compare the total energies of the singlet and triplet states in both the (0,2) and (1,1) charge configurations as a function of detuning $\epsilon$.
+As the detuning $\epsilon$ increases, we start from a $N(2,0)$ configuration where both electrons are in dot 1, then we move to a $N(1,1)$ configuration where each dot has one electron, and finally we reach a $N(0,2)$ configuration where both electrons are in dot 2. 
+This happens because by increasing the detuning, we are effectively lowering the energy levels of dot 2 relative to dot 1, making it energetically favorable for both electrons to occupy dot 2 at high detuning values.
+As we introduce a magnetic field, the states start to hybridize, meaning that they mix together due to the tunnel coupling between the dots. 
+![[Pasted image 20260112112251.png]]
+Only the singlets hybridize with the singlet, and the triplets with the triplet, since they have different spin magnetic moments.
+![[Pasted image 20260112112502.png]]
+The energy difference $J$ increases with detuning, because as we move towards the (0,2) configuration, the electrons are forced to occupy the same dot, leading to a stronger exchange interaction between their spins. This results in a larger energy splitting between the singlet and triplet states.
+![[Pasted image 20260112112602.png]]
+In this last slide we focus on the zone where the next qubit (singlet-triplet qubit) will operate.
+
+#### Singlet-Triplet Q
 
 
 
