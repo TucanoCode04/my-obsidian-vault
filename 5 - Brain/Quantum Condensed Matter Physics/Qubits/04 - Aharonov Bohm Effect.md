@@ -46,4 +46,5 @@ Since $A$ and $B$ do not depend on time, we can use the time independent Schröd
 $$-\frac{\hbar^2}{2m} \nabla^2 \psi' = E \psi'$$
 We recognize that the total phase of a wavefunction is given by:$$\psi (\vec{r}) = |\psi'(\vec{r})| e^{i \phi^{(0)}(\vec{r})} e^{i \frac{q}{\hbar} \int_{\vec{r}_0}^{\vec{r}} \vec{A}(\vec{r}') \cdot d\vec{r}'}$$ Where $\phi^{(0)}$ is the phase in the absence of the vector potential.
 
+We treat the ring as a barrier problem with propagating, reflected and transmitted waves. 
 ## References
