@@ -91,7 +91,12 @@ Corresponding to a NOT gate.
 So by applying microwaves at the resonance frequency, we can perform arbitrary single qubit rotations on the NV center qubit. Unlike the spin qubit, the Rabi oscillations here are constant, so we don't lose information over time. For a full rotation on the Bloch Sphere we need 7 ns which is several times smaller than the coherence time of 1.8 ms.
 ![[Pasted image 20260112144609.png]]
 
-The only problem is that it is exposed to surrounding magnetic fields induced by magnetic elements in the diamond lattice with non-zero nuclear spin
+The only problem is that it is exposed to surrounding magnetic fields induced by magnetic elements in the diamond lattice with non-zero nuclear spins, which can cause decoherence.
+![[Pasted image 20260112144743.png]]
+
+#### Quantum Sensing
+##### DC Magnetic Field
+
 
 
 

@@ -177,8 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,6 +193,7 @@
   },
   "active": "c8947bcfac3bb783",
   "lastOpenFiles": [
+    "Pasted image 20260112144743.png",
     "Pasted image 20260112144609.png",
     "Pasted image 20260112144316.png",
     "Pasted image 20260112144259.png",
@@ -204,7 +204,6 @@
     "Pasted image 20260112141743.png",
     "Pasted image 20260112141306.png",
     "Pasted image 20260112141139.png",
-    "Pasted image 20260112141120.png",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/01 - Quantum Dots as Qubits.md",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/02 - NV Centers.md",
     "5 - Brain/Mathematics for Quantum Engineering/Assignment/Assignment Adami.md",
