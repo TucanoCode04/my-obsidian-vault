@@ -77,11 +77,21 @@ The main difference with the single spin qubit is that in the single spin qubit 
 ![[Pasted image 20260112143523.png]]
 The difference in the $|0\rangle$ is that in the single spin qubit it correspond to a net spin of 1/2, while here it correspond to a total spin of 0.
 
+##### Operations
+**$\frac{\pi}{2}$ Pulse:**
+If a magnetic field is applied for $\omega_1 t=\frac{\pi}{2}$, the state will evolve:
+$$|\psi\rangle = |0\rangle \rightarrow \frac{1}{\sqrt{2}}(|0\rangle +|1\rangle)$$
+![[Pasted image 20260112144259.png]]
+**$\pi$ Pulse:**
+If a magnetic field is applied for $\omega_1 t=\pi$, the state will evolve:
+$$|\psi\rangle = |0\rangle \rightarrow |1\rangle$$
+![[Pasted image 20260112144316.png]]
+Corresponding to a NOT gate.
 
+So by applying microwaves at the resonance frequency, we can perform arbitrary single qubit rotations on the NV center qubit. Unlike the spin qubit, the Rabi oscillations here are constant, so we don't lose information over time. For a full rotation on the Bloch Sphere we need 7 ns which is several times smaller than the coherence time of 1.8 ms.
+![[Pasted image 20260112144609.png]]
 
-
-
-
+The only problem is that it is exposed to surrounding magnetic fields induced by magnetic elements in the diamond lattice with non-zero nuclear spin
 
 
 
