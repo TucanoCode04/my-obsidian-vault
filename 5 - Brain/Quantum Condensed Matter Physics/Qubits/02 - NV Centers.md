@@ -15,5 +15,13 @@ We normally use a mask of 60nm thick resist, to get a shallow implantation, resu
 Advantages of NV Centers:
 ![[Pasted image 20260112132453.png]]
 ##### NV Centers Ground State
+The nitrogen atom and the 3 carbon atoms surrounding the vacancy contribute 5 electrons, then an extra electron is captured to form the NV- state, giving a total of 6 electrons.
+From the hybridization of the atomic orbitals, we get 4 molecular orbitals: 2 $a_1$ orbitals and 2 degenerate $e_x$ and $e_y$ orbitals.
+The 2 $a_1$ orbitals are lower in energy, and fully occupied with 4 electrons, while the $e_x$ and $e_y$ orbitals are higher in energy and occupied by 2 electrons, this 2 states form a triplet state, depending on their alignment.
+![[Pasted image 20260112133343.png]]
+The ground state is a spin triplet state, with a zero field splitting of $D=2.87GHz$ between the $m_s=0$ and $m_s=\pm1$ states, due to spin-spin interactions. This configuration is different from the singlet-triplet qubit in quantum dots, where the singlet state is lower in energy than the triplet state.
+The $m_s=0$ state is not the singlet state, but rather the state where 
+
+
 
 ## References
