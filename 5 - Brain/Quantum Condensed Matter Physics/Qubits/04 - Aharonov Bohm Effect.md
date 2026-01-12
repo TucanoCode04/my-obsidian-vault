@@ -22,7 +22,19 @@ $$\begin{cases}
 \end{cases}$$
 Where $a$ is the radius of the solenoid.
 ![[Pasted image 20260112174833.png]]
-If we plot $A(r)$, we see that 
+If we plot $A(r)$, we see that electron moving outside the solenoid (where $B=0$) still experiences a non-zero vector potential $A$.
+![[Pasted image 20260112175013.png]]
+We start from the general Schrödinger equation with a vector potential:
+$$\left[ \frac{1}{2m} \left[ \hat{p} - q \vec{A}(\vec{r},t) + q \phi(\vec{r},t) \right]^2 \right] \psi(\vec{r},t) = i \hbar \frac{\partial}{\partial t} \psi(\vec{r},t)$$
+In our case, we have a static situation with $\phi = 0$. It is possible to simplify the equation by transforming the wavefunction(instead of substituting $A$ directly):
+$$\psi = e^{i g} \psi', \quad \text{with} \quad g(\vec{r}) = \frac{q}{\hbar} \int_{\vec{r}_0}^{\vec{r}} \vec{A}(\vec{r}') \cdot d\vec{r}'$$
+![[Pasted image 20260112175436.png]]
+By knowing:
+$$\nabla \psi = e^{i g} \left( i \nabla g \psi' + \nabla \psi' \right)$$
+And:
+$$\nabla g = \frac{q}{\hbar} \vec{A}$$
+We can substitute in the kinetic term:
+$$\left( \hat{p} - q \vec{A} \right) \psi = \left( \frac{\hbar}{i} \nabla - q \vec{A} \right) \psi = -i \hbar e^{i g} \nabla \psi'$$
 
 
 ## References
