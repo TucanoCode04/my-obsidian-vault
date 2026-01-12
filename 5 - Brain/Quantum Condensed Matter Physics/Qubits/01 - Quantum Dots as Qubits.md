@@ -299,8 +299,19 @@ We have four possible spin configurations:
 	![[Pasted image 20260112110409.png]]
 2. **Triplet State with Zero Spin Projection (T0)**: The two electrons have opposite spins, resulting in a total spin of 1 but with zero spin projection along the quantization axis $S_Z = 0$, the state is symmetric in spin and antisymmetric in space:
 	 $$|T_0\rangle = \frac{1}{\sqrt{2}}(|\uparrow_1\downarrow_2\rangle + |\downarrow_1\uparrow_2\rangle)$$
-	Unlike the $N(0,2)$ configuration, in the $T_0(1,1)$ configuration the electrons are in different dots, so the 
+	Unlike the $N(0,2)$ configuration, in the $T_0(1,1)$ configuration the electrons are in different dots, so the Pauli exclusion principle doesn't prevent the electrons from staying in the same orbital state, they are already spatially separated. This results in a not so marked energy difference between the singlet and triplet state $T_0$ in the (1,1) configuration. But this difference $J$ highly depends on the detuning between the two dots.
+	![[Pasted image 20260112110819.png]]
+	![[Pasted image 20260112110826.png]]
+3. **Triplet State with Positive Spin Projection(T+)**: Both electrons have spin-up, resulting in a total spin of 1 with a spin projection of -1 along the quantization axis $S_Z = -1$, since both electrons lie in the ground state orbital of their respective dots, this state is lower in energy than the triplet and singlet states where one electron occupies an excited orbital:
+	 $$|T_+\rangle = |\uparrow_1\uparrow_2\rangle$$
+	![[Pasted image 20260112111041.png]]
+4. **Triplet State with Negative Spin Projection(T-)**: Both electrons have spin-down, resulting in a total spin of 1 with a spin projection of +1 along the quantization axis $S_Z = +1$, since both electrons lie in the excited state orbital of their respective dots, this state is higher in energy than the triplet and singlet states where one electron occupies the ground orbital:
+	 $$|T_-\rangle = |\downarrow_1\downarrow_2\rangle$$
+	![[Pasted image 20260112111123.png]]
 
+##### Comparing $N(0,2)$ and $N(1,1)$ Configurations in Terms of Total Energy
+![[Pasted image 20260112111450.png]]
+(I'm not understanding why with the increase of detuning )
 
 
 
