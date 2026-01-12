@@ -376,7 +376,11 @@ Where $|\psi(t = \tau_S)\rangle$ is the state of the system after the dephasing 
 ![[Pasted image 20260112120333.png]]
 ##### Readout
 ![[Pasted image 20260112120410.png]]
-The detuning $\epsilon$ is significantly increased so that we find our system wither in the $S(0,2)$ or $T_0(1,1)$ configuration.
+The detuning $\epsilon$ is significantly increased so that we find our system wither in the $S(0,2)$ or $T_0(1,1)$ configuration. The right reservoir chemical potential is lowered, so that only the transition from (0,2) to (0,1) is energetically allowed within the bias window.
 ![[Pasted image 20260112120552.png]]
-If the state of the qubit is $S(0,2)$, one electron of the right dot can tunnel to the righ)
+If the state of the qubit is $S(0,2)$, one electron of the right dot can tunnel to the right reservoir, so that a current can be measured.
+![[Pasted image 20260112120720.png]]
+If the state of the qubit is $T_0(1,1)$, since the other triplet states $T_+(1,1)$ and $T_-(1,1)$ are higher in energy, there's no possibility for an electron to tunnel to the other dot, and so from the right dot to the reservoir, so no current is measured. And the triplet to singlet transition is forbidden by the Pauli exclusion principle.
+![[Pasted image 20260112120742.png]]
+![[Pasted image 20260112120954.png]]
 ## References
