@@ -39,7 +39,23 @@ Basically, the absorption spectrum is shifted to higher energies (shorter wavele
 ![[Pasted image 20260112140536.png]]
 ![[Pasted image 20260112140530.png]]
 The first graph shows that inside the energy levels we have vibrational levels, and a shift $q_0$ between the equilibrium positions of the ground and excited states, leading to vibronic transitions.
-So the absorption 
+So the absorption (blue) is shifted to higher vibrational levels in the excited state, while the emission (green) occurs from the excited state to lower vibrational levels in the ground state.
+In the second graph we see the absorption and emission spectra of the NV center, with a minimal overlap in the 0-0 transition.
+##### Relaxation (Non-Radiative Path)
+The relaxation is again spin dependent. From the $m_s=\pm1$ excited state, is more likely that recombination occurs instead of photon emission. This non-radiative recombination occurs through 2 intermediate singlet states.
+The final state of this non-radiative path is the $m_s=0$ ground state, meaning that the non-radiative relaxation is spin flipping.
+![[Pasted image 20260112141120.png]]
+##### State Measurement
+If we excite the NV center with a green laser, if the electron is in the $m_s=0$ state, it will emit red photons through the radiative path, while if it is in the $m_s=\pm1$ states, it will likely relax through the non-radiative path, emitting fewer photons.
+![[Pasted image 20260112141139.png]]
+##### State Initialization
+We can ensure that the electron is in the $m_s=0$ state by continuously exciting it with a green laser. If it starts in the $m_s=\pm1$ states, it will relax through the non-radiative path to the $m_s=0$ ground state. Once in the $m_s=0$ state, it will keep cycling between the ground and excited states through the radiative path, effectively initializing the spin state to $m_s=0$.
+![[Pasted image 20260112141306.png]]
+##### Zeeman Splitting on NV Centers 
+By applying an external magnetic field along the NV axis, we can lift the degeneracy of the $m_s=\pm1$ states through the Zeeman effect. 
+$|m_s=+1\rangle$ is antialigned with the magnetic field, so its energy increases, while $|m_s=-1\rangle$ is aligned with the magnetic field, so its energy decreases.
+Since $m_s=0$ doesn't have a projection along the magnetic field, its energy remains unchanged.
+So now we can define a 2 level system using the $m_s=0$ as $|0\rangle$ and $m_s=-1$ as $|1\rangle$, which can be manipulated by shining green light an
 
 
 
