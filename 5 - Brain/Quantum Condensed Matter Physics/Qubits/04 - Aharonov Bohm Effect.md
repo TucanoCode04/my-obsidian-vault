@@ -47,5 +47,21 @@ $$-\frac{\hbar^2}{2m} \nabla^2 \psi' = E \psi'$$
 We recognize that the total phase of a wavefunction is given by:$$\psi (\vec{r}) = |\psi'(\vec{r})| e^{i \phi^{(0)}(\vec{r})} e^{i \frac{q}{\hbar} \int_{\vec{r}_0}^{\vec{r}} \vec{A}(\vec{r}') \cdot d\vec{r}'}$$ Where $\phi^{(0)}$ is the phase in the absence of the vector potential.
 
 We treat the ring as a barrier problem with propagating, reflected and transmitted waves. 
-
+![[Pasted image 20260112184659.png]]
+The wavefunction in the left lead is given by:
+$$\psi (\vec{r}) = e^{i \vec{k} \cdot \vec{r}} + r e^{-i \vec{k} \cdot \vec{r}}$$
+Where the first term is the incident wave and the second term is the reflected wave with reflection coefficient $r$.
+The wavefunction in the right lead is given by:
+$$\psi (\vec{r}) = t e^{i \vec{k} \cdot \vec{r}}$$
+Where $t$ is the transmission coefficient, which is given by:
+$$t = t_1 + t_2 \quad \text{with} \quad t_1 = |t_1| e^{i \phi_1}, \quad t_2 = |t_2| e^{i \phi_2}$$
+Where $t_1$ and $t_2$ are the transmission coefficients for the upper and lower arms of the ring respectively, and $\phi_1$ and $\phi_2$ are the corresponding phases, since there are 2 possible paths.
+The transition probability is given by:
+$$T = |t|^2 = |t_1|^2 + |t_2|^2 + 2 |t_1| |t_2| \cos(\phi_1 - \phi_2)$$
+Where the first two terms are classical probabilities and the last term is the interference term, phase dependent, so quantum mechanical.
+Depending on the path taken, the electron wave vector $\vec{k}$ and $\vec{A}$ will be either parallel or anti-parallel, since they are in opposite directions in the lower arm.
+We use the previous definition of phase that includes the vector potential, with a reference point $\vec{r}_0$ at the entrance of the ring and $\vec{r}$ at the exit of the ring:
+$$\phi_1 = \phi^{(0)}_1 + \frac{e}{\hbar} \int_{\text{upper arm}} \vec{A}(\vec{r}') \cdot d\vec{r}'$$
+$$\phi_2 = \phi^{(0)}_2 - \frac{e}{\hbar} \int_{\text{lower arm}} \vec{A}(\vec{r}') \cdot d\vec{r}'$$
+The sum of the 2
 ## References
