@@ -61,7 +61,19 @@ $$T = |t|^2 = |t_1|^2 + |t_2|^2 + 2 |t_1| |t_2| \cos(\phi_1 - \phi_2)$$
 Where the first two terms are classical probabilities and the last term is the interference term, phase dependent, so quantum mechanical.
 Depending on the path taken, the electron wave vector $\vec{k}$ and $\vec{A}$ will be either parallel or anti-parallel, since they are in opposite directions in the lower arm.
 We use the previous definition of phase that includes the vector potential, with a reference point $\vec{r}_0$ at the entrance of the ring and $\vec{r}$ at the exit of the ring:
-$$\phi_1 = \phi^{(0)}_1 + \frac{e}{\hbar} \int_{\text{upper arm}} \vec{A}(\vec{r}') \cdot d\vec{r}'$$
-$$\phi_2 = \phi^{(0)}_2 - \frac{e}{\hbar} \int_{\text{lower arm}} \vec{A}(\vec{r}') \cdot d\vec{r}'$$
-The sum of the 2
+$$\phi_1 = \phi^{(0)}_1 + \frac{e}{\hbar} \int_{\text{upper arm, $r_0$}}^{r} \vec{A}(\vec{r}') \cdot d\vec{r}'$$
+$$\phi_2 = \phi^{(0)}_2 - \frac{e}{\hbar} \int_{\text{lower arm, $r_0$}}^{r} \vec{A}(\vec{r}') \cdot d\vec{r}'$$
+The sum of the 2 integrals gives the total flux:
+$$- \int_{\text{upper arm}}^{r} \vec{A}(\vec{r}') \cdot d\vec{r}' + \int_{\text{lower arm}}^{r} \vec{A}(\vec{r}') \cdot d\vec{r}' = \oint \vec{A}(\vec{r}') \cdot d\vec{r}' = \Phi_M$$
+The minus sign is due to the opposite direction of integration in the lower arm. So we can rewrite the phase difference as:
+$$\phi_1 - \phi_2 = \left( \phi^{(0)}_1 - \phi^{(0)}_2 \right) + \frac{e}{\hbar} \Phi_M$$
+Where $\phi^{(0)}_1 - \phi^{(0)}_2$ is the phase difference in absence of the vector potential.
+Finally, the transmission probability becomes:
+$$T = |t_1|^2 + |t_2|^2 + 2 |t_1| |t_2| \cos \left( \left( \phi^{(0)}_1 - \phi^{(0)}_2 \right) + \frac{e}{\hbar} \Phi_M \right)$$
+(This formula in not in the slides)
+
+The phase difference is then modulated by the magnetic flux $\Phi_M$, even though the electrons never pass through a region with a magnetic field. Depending on the intensity of the magnetic flux, the interference between the two paths can be constructive or destructive, leading to oscillations in the transmission probability as a function of $\Phi_M$.
+The Aharonov-Bohm effect has been experimentally observed and can be used to build interferometers. 
+So by changing the magnetic field one can alter the phase difference between electrons in the two arms of the ring, leading to observable changes in the interference pattern and thus in the transmission probability through the ring.
+![[Pasted image 20260112185806.png]]
 ## References
