@@ -322,7 +322,16 @@ The energy difference $J$ increases with detuning, because as we move towards th
 ![[Pasted image 20260112112602.png]]
 In this last slide we focus on the zone where the next qubit (singlet-triplet qubit) will operate.
 
-#### Singlet-Triplet Q
+#### Singlet-Triplet ($S-T_0$) Qubit
+![[Pasted image 20260112113035.png]]
+The singlet-triplet qubit is a type of quantum bit that utilizes the spin states of two electrons confined in a double quantum dot system. They are coupled both capacitively and through tunneling, allowing for coherent manipulation of their spin states.
+The static magnetic field $B_Z$ is applied to lift the spin degeneracy through the Zeeman effect, but the effect of the magnetic field is not the same on both dots, since they can experience slightly different magnetic fields due to different locations or local magnetic field gradients. So $B_{Z1} \neq B_{Z2}$.
+We will now describe different steps for the operation of the $S-T_0$ qubit.
+##### Initialization
+![[Pasted image 20260112113322.png]]
+The double dot is initialized in the (0,2) charge configuration, where both electrons occupy dot 2. By adjusting the gate voltages, we ensure that only the singlet state $S(0,2)$ is energetically allowed within the bias window. 
+![[Pasted image 20260112113523.png]]
+If we want to see the logic behind the states of the qubit we can use the Bloch Sphere representation, where the north pole represents the singlet state $|S\rangle$ and the south pole and the south pole represents the triplet state $|T_0\rangle$.  
 
 
 
