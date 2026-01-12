@@ -8,27 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7b0a9b5fa50a6ed",
+            "id": "c8947bcfac3bb783",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Mathematics for Quantum Engineering/Assignment/Assignment Adami.md",
+                "file": "5 - Brain/Quantum Condensed Matter Physics/Qubits/01 - Quantum Dots as Qubits.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Assignment Adami"
-            }
-          },
-          {
-            "id": "c8947bcfac3bb783",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "title": "01 - Quantum Dots as Qubits"
             }
           }
         ]
@@ -88,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -202,11 +191,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7b0a9b5fa50a6ed",
+  "active": "c8947bcfac3bb783",
   "lastOpenFiles": [
+    "5 - Brain/Mathematics for Quantum Engineering/Assignment/Assignment Adami.md",
     "Pasted image 20260110162940.png",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/01 - Quantum Dots as Qubits.md",
-    "5 - Brain/Mathematics for Quantum Engineering/Assignment/Assignment Adami.md",
     "5 - Brain/Mathematics for Quantum Engineering/Assignment",
     "Pasted image 20260110154141.png",
     "Pasted image 20260110154007.png",
@@ -217,7 +206,6 @@
     "Pasted image 20260110150147.png",
     "Pasted image 20260110145956.png",
     "Pasted image 20260110145825.png",
-    "Pasted image 20260110142745.png",
     "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/07 - Dilution Refrigerator.md",
     "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/06 - 3He Cryostats.md",
     "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/05 - 4He Cryostats.md",
