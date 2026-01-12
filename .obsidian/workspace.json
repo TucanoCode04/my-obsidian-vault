@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -176,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,6 +194,9 @@
   },
   "active": "c8947bcfac3bb783",
   "lastOpenFiles": [
+    "Pasted image 20260112132453.png",
+    "Pasted image 20260112132424.png",
+    "Pasted image 20260112132311.png",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/01 - Quantum Dots as Qubits.md",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/02 - NV Centers.md",
     "Pasted image 20260112120954.png",
@@ -202,8 +207,6 @@
     "Pasted image 20260112120333.png",
     "Pasted image 20260112120308.png",
     "Pasted image 20260112115936.png",
-    "Pasted image 20260112115908.png",
-    "Pasted image 20260112115846.png",
     "5 - Brain/Mathematics for Quantum Engineering/Assignment/Assignment Adami.md",
     "5 - Brain/Mathematics for Quantum Engineering/Assignment",
     "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/07 - Dilution Refrigerator.md",
@@ -231,7 +234,6 @@
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/00 - 03 Domande.md",
     "5 - Brain/Untitled 1.base",
     "5 - Brain/Fundamental of Technological Processes/Technological Processes/10 - Complementary Technologies.md",
-    "5 - Brain/Fundamental of Technological Processes/Technological Processes/Untitled.md",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/Untitled",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study",
     "5 - Brain/00 - Glossary",
