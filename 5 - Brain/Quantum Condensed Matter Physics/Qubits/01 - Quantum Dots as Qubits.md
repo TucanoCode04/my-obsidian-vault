@@ -332,7 +332,22 @@ We will now describe different steps for the operation of the $S-T_0$ qubit.
 The double dot is initialized in the (0,2) charge configuration, where both electrons occupy dot 2. By adjusting the gate voltages, we ensure that only the singlet state $S(0,2)$ is energetically allowed within the bias window. 
 ![[Pasted image 20260112113523.png]]
 If we want to see the logic behind the states of the qubit we can use the Bloch Sphere representation, where the north pole represents the singlet state $|S\rangle$ and the south pole and the south pole represents the triplet state $|T_0\rangle$.  
-
+![[Pasted image 20260112113719.png]]
+##### Lowering the Detuning
+![[Pasted image 20260112113803.png]]
+After initialization, we lower the detuning $\epsilon$ by adjusting the gate voltages, transitioning the system from the (0,2) charge configuration to the (1,1) configuration. This allows each dot to host one electron, enabling coherent manipulation of their spin states.
+By lowering the detuning, the energy difference $J$ between the singlet and triplet states decreases, allowing for coherent superpositions of these states to be formed.
+![[Pasted image 20260112113911.png]]
+![[Pasted image 20260112113940.png]]
+On the contrary, the difference in Zeeman splitting between the two dots $\Delta E_{Z1}- \Delta E_{Z2}$ becomes more significant, so that $|\uparrow\downarrow\rangle$ and $|\downarrow\uparrow\rangle$ are no longer degenerate, so that:
+$\psi(R,t)= \psi(R,0) e^{-i \frac{(\Delta E_{Z1}- \Delta E_{Z2})}{\hbar} t}$
+This results in a relative phase accumulation between the singlet and triplet states over time, leading to coherent oscillations between these states.
+In this step $|S\rangle$ and $|T_0\rangle$ are no longer eigenstates of the system, $|\uparrow\downarrow\rangle$ and $|\downarrow\uparrow\rangle$ are the new basis of the system.
+![[Pasted image 20260112114435.png]]
+![[Pasted image 20260112114440.png]]
+##### Dephasing
+![[Pasted image 20260112114519.png]]
+A time $\tau_{S}$ is waited at low detuning, allowing the system to evolve from $S(1,1)$ in time, accumulating a relative phase between the singlet and triplet states due to the difference in Zeeman splitting between the two dots.
 
 
 ## References
