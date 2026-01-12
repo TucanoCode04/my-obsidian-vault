@@ -292,10 +292,14 @@ I didn't understand this graphs
 If only one of the dots is occupied by a single electron, the situation is similar to that of a single quantum dot qubit, with spin-up and spin-down states split by the Zeeman energy.
 ![[Pasted image 20260112104549.png]]
 
-
-
-
-
+If both dots are occupied by one one electron each, the combined spin states of the two electrons can form either a singlet state or one of three triplet states, but it is a little more complicated than the single dot case, since the energy ladder now strongly depends on the detuning between the two dots.
+We have four possible spin configurations:
+1. **Singlet State (S)**: The two electrons have opposite spins, resulting in a total spin of 0. The singlet state is symmetric in space and antisymmetric in spin:
+	 $$|S\rangle = \frac{1}{\sqrt{2}}(|\uparrow_1\downarrow_2\rangle - |\downarrow_1\uparrow_2\rangle)$$
+	![[Pasted image 20260112110409.png]]
+2. **Triplet State with Zero Spin Projection (T0)**: The two electrons have opposite spins, resulting in a total spin of 1 but with zero spin projection along the quantization axis $S_Z = 0$, the state is symmetric in spin and antisymmetric in space:
+	 $$|T_0\rangle = \frac{1}{\sqrt{2}}(|\uparrow_1\downarrow_2\rangle + |\downarrow_1\uparrow_2\rangle)$$
+	Unlike the $N(0,2)$ configuration, in the $T_0(1,1)$ configuration the electrons are in different dots, so the 
 
 
 
