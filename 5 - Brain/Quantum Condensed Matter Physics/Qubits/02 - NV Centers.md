@@ -95,7 +95,10 @@ The only problem is that it is exposed to surrounding magnetic fields induced by
 ![[Pasted image 20260112144743.png]]
 
 #### Quantum Sensing
+Quantum sensing refers to the use of quantum systems, such as NV centers in diamond, to measure physical quantities with high sensitivity and precision. 
 ##### DC Magnetic Field
+![[Pasted image 20260112161531.png]]
+
 
 
 
