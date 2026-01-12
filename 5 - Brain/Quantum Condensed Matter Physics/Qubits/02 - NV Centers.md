@@ -33,6 +33,32 @@ The relaxation path is spin dependent. From the $m_s=0$ excited state, the elect
 Radiative emission can be optically detected, allowing for optical readout of the spin state. One practical reason for using green excitation is to avoid overlap between the excitation and emission wavelengths, facilitating easier detection of the emitted photons.
 ![[Pasted image 20260112135519.png]]
 ##### Vibronic Transitions
+The simultaneous excitation of electronic and vibrational states leads to vibronic transitions, which broaden (separate) the absorption and emission spectra. 
+This occurs because electronic transitions are faster than nuclear motions (Franck-Condon principle). During absorption, the nuclei are in their ground vibrational state, but upon excitation, the equilibrium positions of the nuclei change, leading to transitions to higher vibrational states in the excited electronic state. Instead, during emission, the nuclei relax to lower vibrational states in the ground electronic state.
+Basically, the absorption spectrum is shifted to higher energies (shorter wavelengths) compared to the emission spectrum. The Fermi Golden Rule gives the probability of these transitions, which depend on the overlap between the vibrational wavefunctions of the initial and final states. As we can see from the graph below, the 0-0 transition (no change in vibrational state) is minimal since it shifts to higher vibrational levels.
+![[Pasted image 20260112140536.png]]
+![[Pasted image 20260112140530.png]]
+The first graph shows that inside the energy levels we have vibrational levels, and a shift $q_0$ between the equilibrium positions of the ground and excited states, leading to vibronic transitions.
+So the absorption 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## References
