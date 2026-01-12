@@ -26,6 +26,13 @@ The applied magnetic field is zero, but we have a local magnetic field due to th
 ##### NV Centers Excited State 
 When we excite the NV center with a green laser (532nm), an electron is promoted from the $a_1$ orbital to the $e$ orbital, creating an excited triplet state.
 ![[Pasted image 20260112134106.png]]
-It is really important to note 
+It is really important to note that the optical transitions between the ground and excited states are spin-conserving, meaning that an electron in the $m_s=0$ ground state will only transition to the $m_s=0$ excited state, and similarly for the $m_s=\pm1$ states. This property is crucial for spin initialization and readout.
+The excitation is non-resonant, meaning that the laser energy is higher than the energy difference between the ground and excited states, so it takes advantage of vibronic transitions to complete the excitation.
+##### Relaxation (Radiative Path)
+The relaxation path is spin dependent. From the $m_s=0$ excited state, the electron can relax directly back to the $m_s=0$ ground state by emitting a photon in the red region (637nm).
+Radiative emission can be optically detected, allowing for optical readout of the spin state. One practical reason for using green excitation is to avoid overlap between the excitation and emission wavelengths, facilitating easier detection of the emitted photons.
+![[Pasted image 20260112135519.png]]
+##### Vibronic Transitions
+
 
 ## References
