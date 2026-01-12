@@ -55,7 +55,20 @@ We can ensure that the electron is in the $m_s=0$ state by continuously exciting
 By applying an external magnetic field along the NV axis, we can lift the degeneracy of the $m_s=\pm1$ states through the Zeeman effect. 
 $|m_s=+1\rangle$ is antialigned with the magnetic field, so its energy increases, while $|m_s=-1\rangle$ is aligned with the magnetic field, so its energy decreases.
 Since $m_s=0$ doesn't have a projection along the magnetic field, its energy remains unchanged.
-So now we can define a 2 level system using the $m_s=0$ as $|0\rangle$ and $m_s=-1$ as $|1\rangle$, which can be manipulated by shining green light an
+So now we can define a 2 level system using the $m_s=0$ as $|0\rangle$ and $m_s=-1$ as $|1\rangle$, which can be manipulated by shining green light and waiting for the relaxation to initialize.
+![[Pasted image 20260112141743.png]]
+
+The difference with the previous types of qubit are that now the measurement is optical, and no more electrical.
+
+##### Operations on NV Centers
+We want again to be able to perform single qubit operations.
+**Horizontal Motion:**
+![[Pasted image 20260112141934.png]]
+**Vertical Motion:**
+![[Pasted image 20260112142005.png]]
+Now the difference is that the vertical manipulation can only be done with optical means. Microwaves have a magnetic component.
+
+
 
 
 
