@@ -289,6 +289,8 @@ We can visualize the detuning as a line in the stability diagram, representing t
 I didn't understand this graphs
 
 ##### Spin States in Double Quantum Dots
+If only one of the dots is occupied by a single electron, the situation is similar to that of a single quantum dot qubit, with spin-up and spin-down states split by the Zeeman energy.
+![[Pasted image 20260112104549.png]]
 
 
 
