@@ -117,20 +117,12 @@ In the real world, due to decoherence, the final state will not be exactly $|0\r
 ![[Pasted image 20260112163438.png]]
 ![[Pasted image 20260112163416.png]]
 
-In case of AC magnetic field, if the time $\tau$ matches exactly h
+In case of AC magnetic field, if the time $\tau$ matches exactly half the period of the AC field, after the $\pi$ pulse, the precession direction will be reversed. Therefore, the accumulated phase during the second evolution period will add constructively to the phase accumulated during the first period, instead of canceling out. By sweeping the precession time $\tau$, we can detect the frequency of the AC magnetic field.
+We can measure the fluorescence intensity after the final pulse as a function of $\tau$. When $\tau$ matches half the period of the AC magnetic field, we will observe a maximum in fluorescence intensity, indicating constructive interference of the accumulated phases.
+The detection range is limited by the coherence time of the NV center, as longer evolution times lead to increased decoherence and reduced sensitivity.
+![[Pasted image 20260112163958.png]]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#### Hyperfine Structure
+The NV center's electron spin interacts with nearby nuclear spins, this interaction is called hyperfine interaction, and it leads to additional splitting of the energy levels.
+![[Pasted image 20260112164140.png]]
 ## References
