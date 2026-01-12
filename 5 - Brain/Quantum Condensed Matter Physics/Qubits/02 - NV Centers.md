@@ -101,8 +101,23 @@ Quantum sensing refers to the use of quantum systems, such as NV centers in diam
 The NV center can be used to sense DC magnetic fields by measuring the Zeeman splitting of the $m_s=\pm1$ states. By applying a known microwave frequency with laser excitation, we can determine the magnetic field strength based on the resonance condition.
 Basically, starting from $|m_S=0\rangle$, we apply microwaves at a specific frequency and measure the fluorescence intensity. When the microwave frequency matches the energy difference between $|m_S=0\rangle$ and $|m_S=-1\rangle$, we observe a dip in fluorescence due to increased population in the $|m_S=-1\rangle$ state, which relaxes non-radiatively. We do the same for $|m_S=+1\rangle$. By measuring the frequencies at which these dips occur, we can calculate the magnetic field strength using the Zeeman splitting formula.
 ##### AC Magnetic Field
+To understand the AC magnetic field sensing, we use the method we'll be using, but applied to the DC field.
+![[Pasted image 20260112162718.png]]
+- The system is initialized to the $|0\rangle$ state using a green laser pulse, i.e. $|m_S=0\rangle$.
+- A $\frac{\pi}{2}$ microwave pulse is applied, creating a superposition state $\frac{1}{\sqrt{2}}(|0\rangle +|1\rangle)$.
+- The system is allowed to evolve freely for a time $\tau$ in the presence of the AC magnetic field. During this time, the system will start precessing, Larmor Precession, accumulating a phase $\phi$ that depends on the magnetic field strength.
+- A $\pi$ microwave pulse is applied, effectively flipping the state on the Bloch sphere. It doesn't change the accumulated phase.
+- The system is then allowed to precess again for the same time $\tau$, so that the dephasing should be reabsorbed.
+- A final $\frac{\pi}{2}$ microwave pulse is applied to flip the state back to $|0\rangle$ 
 
+In the ideal world the system is perfectly isolated, so no decoherence , so after the last pulse the system should be back to $|0\rangle$.
+![[Pasted image 20260112163428.png]]
 
+In the real world, due to decoherence, the final state will not be exactly $|0\rangle$. In particular, for longer evolution times $\tau$, the system will lose coherence, leading to a reduced probability of finding the system in the $|0\rangle$ state after the final pulse. 
+![[Pasted image 20260112163438.png]]
+![[Pasted image 20260112163416.png]]
+
+In case of AC magnetic field, if the time $\tau$ matches exactly h
 
 
 
