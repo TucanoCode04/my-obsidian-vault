@@ -326,7 +326,7 @@ In this last slide we focus on the zone where the next qubit (singlet-triplet qu
 ![[Pasted image 20260112113035.png]]
 The singlet-triplet qubit is a type of quantum bit that utilizes the spin states of two electrons confined in a double quantum dot system. They are coupled both capacitively and through tunneling, allowing for coherent manipulation of their spin states.
 The static magnetic field $B_Z$ is applied to lift the spin degeneracy through the Zeeman effect, but the effect of the magnetic field is not the same on both dots, since they can experience slightly different magnetic fields due to different locations or local magnetic field gradients. So $B_{Z1} \neq B_{Z2}$.
-We will now describe different steps for the operation of the $S-T_0$ qubit.
+We will now describe different manipulations that can be performed on the singlet-triplet qubit, focusing on the key steps involved in its operation.
 ##### Initialization
 ![[Pasted image 20260112113322.png]]
 The double dot is initialized in the (0,2) charge configuration, where both electrons occupy dot 2. By adjusting the gate voltages, we ensure that only the singlet state $S(0,2)$ is energetically allowed within the bias window. 
@@ -348,6 +348,18 @@ In this step $|S\rangle$ and $|T_0\rangle$ are no longer eigenstates of the syst
 ##### Dephasing
 ![[Pasted image 20260112114519.png]]
 A time $\tau_{S}$ is waited at low detuning, allowing the system to evolve from $S(1,1)$ in time, accumulating a relative phase between the singlet and triplet states due to the difference in Zeeman splitting between the two dots.
-
+The initial state $|S\rangle$ in which the system is when the detuning is lowered, can be written in the new basis as:
+$$\psi(t=0) = |S\rangle = \frac{1}{\sqrt{2}} (|\uparrow\downarrow\rangle - |\downarrow\uparrow\rangle)$$
+This system evolves in time. Because the two new stationary states differ in energy by $\Delta E_{\uparrow\downarrow - \downarrow\uparrow} = \Delta E_{Z1}- \Delta E_{Z2}$, the time dependent wavefunction solution will be:
+$$|\psi(t)\rangle = \frac{1}{\sqrt{2}} \left( e^{i \frac{\Delta E_{\uparrow\downarrow - \downarrow\uparrow}}{2 \hbar} t} |\uparrow\downarrow\rangle - e^{-i \frac{\Delta E_{\uparrow\downarrow - \downarrow\uparrow}}{2 \hbar} t} |\downarrow\uparrow\rangle \right)$$
+We call $a=\frac{\Delta E_{\uparrow\downarrow - \downarrow\uparrow}}{2 \hbar}t$, and we remember that:
+$$e^{i a} = cos a + i sin a$$
+$$e^{-i a} = cos a - i sin a$$
+So we can rewrite the wavefunction as a state of the qubit, so $|S\rangle$ and $|T_0\rangle$ basis:
+$$|\psi(t)\rangle = cos (a)|S\rangle + i sin (a) |T_0\rangle$$
+So basically the system is oscillating between the singlet and triplet states at a frequency determined by the energy difference between the two states, which is controlled by the difference in Zeeman splitting between the dots (very important). By waiting a time $\tau_S$, we can control the final state.
+![[Pasted image 20260112115547.png]]
+![[Pasted image 20260112115602.png]]
+##### Increasing the Detuning
 
 ## References
