@@ -51,6 +51,19 @@ Where:
 The potential is additive, so the motion along $z$ is separable from the motion in the $x$-$y$ plane and is not influenced by the magnetic field. So, we will solve the equation for the $x$-$y$ plane only and our final wavefunction will be multiplied by the wavefunction along $z$. 
 The vector potential does not depend on $y$, which suggests that the wavefunction can be expressed as a plane wave along $y$ with some unknown function along $x$: 
 $$ \psi(\vec{R}) = u(x) e^{ik_y y} $$
+Substituting this expression in the Schrödinger equation, we have:
+$$ \left[ -\frac{\hbar^2}{2m} \left( \frac{\partial^2}{\partial x^2} - k_y^2 \right) + \frac{e\hbar Bx k_y}{m} + \frac{(eBx)^2}{2m} \right] u(x) e^{ik_y y} = E u(x) e^{ik_y y} $$
+Dividing both sides by $e^{ik_y y}$, we have:
+$$ \left[ -\frac{\hbar^2}{2m} \frac{d^2}{dx^2} + \frac{1}{2} m \omega_C^2 \left( x + \frac{\hbar k_y}{eB} \right)^2 \right] u(x) = E  u(x) $$
+where we have completed the square and recognized the cyclotron frequency $\omega_C = \frac{eB}{m}$. We can see that this equation is equivalent to the quantum harmonic oscillator centered at $x_0 = -\frac{\hbar k_y}{eB}$ with energy eigenvalues given by:
+$$ E_n = \hbar \omega_C \left( n + \frac{1}{2} \right) $$
+where $n = 0, 1, 2, ...$ is the Landau level index. The corresponding wavefunctions are given by:
+$$ u_n(x) = \frac{1}{\sqrt{2^n n!}} \left( \frac{m \omega_C}{\pi \hbar} \right)^{1/4} e^{-\frac{m \omega_C}{2\hbar} (x - x_0)^2} H_n \left( \sqrt{\frac{m \omega_C}{\hbar}} (x - x_0) \right) $$
+where $H_n$ are the Hermite polynomials. 
+![[Pasted image 20260113164843.png]]
+From the energies is a digression.
+
+
 
 
 
