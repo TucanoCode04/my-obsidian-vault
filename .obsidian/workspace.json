@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Quantum Condensed Matter Physics/Qubits/03 - Quantum Hall Effect.md",
+                "file": "5 - Brain/Cybersecurity/Cybersec/06 - Security of Network Applications.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03 - Quantum Hall Effect"
+              "title": "06 - Security of Network Applications"
             }
           }
         ]
@@ -190,8 +190,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0d9bc37f9ef97e25",
+  "active": "c8947bcfac3bb783",
   "lastOpenFiles": [
+    "5 - Brain/Cybersecurity/Cybersec/08 - Quantum.md",
+    "5 - Brain/Cybersecurity/Cybersec/06 - Security of Network Applications.md",
+    "5 - Brain/Cybersecurity/Cybersec/05 - Firewalls.md",
+    "5 - Brain/Cybersecurity/Cybersec/01 - Networking.md",
+    "5 - Brain/Cybersecurity/Cybersec/00 - Introduction to Cybersecurity.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Qubits/03 - Quantum Hall Effect.md",
     "Pasted image 20260113184044.png",
     "Pasted image 20260113184036.png",
     "Pasted image 20260113184027.png",
@@ -202,9 +208,7 @@
     "Pasted image 20260113182417.png",
     "Pasted image 20260113182012.png",
     "Pasted image 20260113181212.png",
-    "Pasted image 20260113180941.png",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/05 - Flying Electron Qubit.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Qubits/03 - Quantum Hall Effect.md",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/04 - Aharonov Bohm Effect.md",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/02 - NV Centers.md",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/01 - Quantum Dots as Qubits.md",
@@ -215,9 +219,6 @@
     "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/05 - 4He Cryostats.md",
     "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/04 - Thermal Contact and Thermal Isolation.md",
     "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/03 - Properties of Cryogenic Fluids.md",
-    "5 - Brain/Cybersecurity/Cybersec/06 - Security of Network Applications.md",
-    "5 - Brain/Cybersecurity/Cybersec/05 - Firewalls.md",
-    "5 - Brain/Cybersecurity/Cybersec/01 - Networking.md",
     "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/02 - Refrigeration Machines.md",
     "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/01 - Thermodynamics of Refrigeration.md",
     "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/00 - Thermodynamics Basis.md",
@@ -230,7 +231,6 @@
     "5 - Brain/Fundamental of Technological Processes/Technological Processes/06 - Epitaxy & CVD & PVD.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/01 - Introduction to the Crystal Structure.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/00 - Scalar and Vector Potential.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Exam study/07 - 09 Domande.md",
     "5 - Brain/Untitled 1.base",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/Untitled",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study",
