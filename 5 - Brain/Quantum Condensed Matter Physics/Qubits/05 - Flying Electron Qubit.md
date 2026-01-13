@@ -43,6 +43,16 @@ While the rotation speed $\omega = \frac{\Delta E}{2\hbar}$ depends on the tunne
 
 To completely control the state, we need a rotation around the azimuthal axis as well, so a rotation by an additional angle $\phi$ around the $Z$ axis of the Bloch sphere is needed, which can be viewed as a phase shift between the two states $|0\rangle$ and $|1\rangle$. This phase shift can be achieved by introducing a magnetic field. Due to the Ahronov-Bohm effect, the phase shift $\phi$ is proportional to the intensity of the magnetic field introduced (magnetic flux)
  and the surface area enclosed by the two waveguides in the interaction region.
-
+ $$ \phi_{up} = \int_{up- path} \vec{k}_F \cdot d\vec{l} - \int_{up -path} \frac{e}{\hbar} \vec{A} \cdot d\vec{l} $$
+ $$ \phi_{down} = \int_{down - path} \vec{k}_F \cdot d\vec{l} - \int_{down - path} \frac{e}{\hbar} \vec{A} \cdot d\vec{l} $$
+ Where $\vec{k}_F$ is the wavevector at the Fermi energy, $\vec{A}$ is the vector potential associated with the magnetic field $\vec{B} = \nabla \times \vec{A}$.
+ ![[Pasted image 20260113114133.png]]
+ $$ \phi = \oint \vec{k}_F \cdot d\vec{l} - \frac{e}{\hbar} \oint \vec{A} \cdot d\vec{l}$$
+ $$ \phi = \oint \vec{k}_F \cdot d\vec{l} - \frac{e}{\hbar} \int_{\Sigma} \nabla \times \vec{A} \cdot d\vec{S} $$
+ $$ \phi = \oint \vec{k}_F \cdot d\vec{l} - \frac{e}{\hbar} \int_{\Sigma} \vec{B} \cdot d\vec{S} $$
+ So the phase difference between the two paths is proportional to the magnetic flux $\Phi = \int_{\Sigma} \vec{B} \cdot d\vec{S}$ enclosed by the two waveguides in the interaction region.
+ 
+##### Summary of Flying Electron Qubit Control
+![[Pasted image 20260113114537.png]]
 
 ## References
