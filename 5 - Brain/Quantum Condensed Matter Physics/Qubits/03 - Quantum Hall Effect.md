@@ -109,7 +109,19 @@ In the same setup used to observe the SdH effect, if we measure the Hall resista
 To understand the origin of the plateaus, we have to consider the effect of the edges on the energy of the states in the Landau levels. At the edge the electron orbits are distorted, the frequency of oscillation increases (shorter orbits), because the electron cannot go beyond the edge, leading to an increase in energy of the states at the edge of the sample (since frequency and energy are proportional, the closer the state is to the edge, the higher its energy). 
 ![[Pasted image 20260113182012.png]]
 Starting from the Schrödinger equation:
+$$\left[ \frac{1}{2m} \left[- \hbar^2 \frac{\partial^2}{\partial x^2} + \left(-i\hbar \frac{\partial}{\partial y} - eBx \right)^2 - \hbar^2 \frac{\partial^2}{\partial z^2} \right] + + V(z) \right] \psi(\vec{R}) = E \psi(\vec{R}) $$
+We introduce a confining potential $V(x)$ along the $x$ direction to account for the edges of the sample:
+$$\begin{cases} V(x) = 0 & \text{for } |x| < \frac{L_x}{2} \\ V(x) = \infty & \text{for } |x| \geq \frac{L_x}{2} \end{cases} $$
+![[Pasted image 20260113182417.png]]
+The Schrödinger equation is not analytically solvable, computations show that states in the middle of the sample (associated with $k_y$ values such that $|x_k| \ll \frac{L_x}{2}$) have energies close to the Landau levels solutions found before, while states close to the edges (associated with $k_y$ values such that $|x_k| \sim \frac{L_x}{2}$) are squeezed in less space and their energy increases significantly.
+![[Pasted image 20260113182733.png]]
+By watching the energy of different levels of the harmonic oscillator as a function of $x$ one can see that the energy increases near the edges.
+![[Pasted image 20260113182821.png]]
 
+Whenever the Fermi level is between two Landau levels, the bulk of the 2DEG is insulating since there are no available states at the Fermi energy. However, at the edges of the sample, there are states with energies that cross the Fermi level due to the edge effects. These edge states are localized at the boundaries of the sample and can carry current without dissipation. As a result, when the Fermi level lies between Landau levels, the conduction occurs primarily through these edge states, leading to quantized Hall conductance and the observation of plateaus in the Hall resistance.
+![[Pasted image 20260113182947.png]]
+Each state carries half a quantum of conductance $\frac{G_0}{2} = \frac{e^2}{h}$ , resulting in a Quantum Hall resistance given by:
+$$ R_{xy} = \frac{1}{G} = \frac{1}{\nu \frac{e^2}{h}} = \frac{h}{\nu e^2} $$ 
 
 
 ## References
