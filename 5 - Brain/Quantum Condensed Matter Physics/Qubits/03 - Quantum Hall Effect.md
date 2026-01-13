@@ -76,7 +76,7 @@ The height of each Landau level is then given by:
 $$ n_B = \frac{N_B}{L_x L_y} = \frac{eB}{2\pi \hbar} $$
 ![[Pasted image 20260113173918.png]]
 
-##### Flux Quantum View
+##### Flux Quantum View (Semiclassical Picture)
 Introducing the concept of quantum of flux, which is given by:
 $$ \phi_0 = \frac{2\pi \hbar}{e} $$
 As the flux carried by a single state in a Landau level, we can rewrite the number of states per Landau level as: 
@@ -104,7 +104,12 @@ Where $n_{2D}$ is the electron density of the 2DEG. As the magnetic field increa
 ![[Pasted image 20260113180941.png]]
 
 #### Quantum Hall Effect
-In the same setup used to observe the SdH effect, if we measure the Hall resistance $R_{xy}$ instead of the longitudinal resistance $R_{xx}$, we observe the Quantum Hall Effect (QHE). The Hall resistance exhibits quantized plateaus at specific values given by:
+In the same setup used to observe the SdH effect, if we measure the Hall resistance $R_{xy}$ instead of the longitudinal resistance $R_{xx}$, we observe the Quantum Hall Effect (QHE). The Hall resistance exhibits quantized plateaus at specific distances proportional to $\frac{h}{e^2}$.
+![[Pasted image 20260113181212.png]]
+To understand the origin of the plateaus, we have to consider the effect of the edges on the energy of the states in the Landau levels. At the edge the electron orbits are distorted, the frequency of oscillation increases (shorter orbits), because the electron cannot go beyond the edge, leading to an increase in energy of the states at the edge of the sample (since frequency and energy are proportional, the closer the state is to the edge, the higher its energy). 
+![[Pasted image 20260113182012.png]]
+Starting from the Schrödinger equation:
+
 
 
 ## References
