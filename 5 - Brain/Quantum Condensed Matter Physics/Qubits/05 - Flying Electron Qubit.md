@@ -23,6 +23,16 @@ Now $|B\rangle$ and $|A\rangle$ are the eigenstates of the system, with an energ
 ![[Pasted image 20260113111855.png]]
 ![[Pasted image 20260113111902.png]]
 
+##### Bloch Sphere for Flying Electron Qubit
+The state of the flying electron qubit can be represented on on a Bloch sphere, where the north pole represents the state $|0\rangle$ (upper waveguide) and the south pole represents the state $|1\rangle$ (lower waveguide). While the bonding and antibonding states lie on the equator of the sphere. Any point on the surface of the sphere represents a superposition of the two states.
+![[Pasted image 20260113112042.png]]
+##### Free Oscillation of the Electron
+The initial state $|0\rangle$ (electron in the upper waveguide) can be expressed as a superposition of the bonding and antibonding states:
+$$|\psi(t=0)\rangle = |0\rangle = \frac{1}{\sqrt{2}} (|B\rangle + |A\rangle)$$
+By remembering that the time evolution of an eigenstate (stationary state) is given by:
+$$|\psi(R,t)\rangle = \psi(R)e^{-i E t / \hbar} $$
+We can write the time evolution of the initial state as:
+$$|\psi(t)\rangle = \frac{1}{\sqrt{2}} (|B\rangle e^{-i \frac{\Delta E}{2\hbar} t} + |A\rangle e^{i \frac{\Delta E}{2\hbar} t})$$
 
 
 
