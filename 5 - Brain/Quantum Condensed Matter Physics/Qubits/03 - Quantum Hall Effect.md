@@ -39,7 +39,18 @@ $$ \left[ \frac{1}{2m} (\vec{p} - q\vec{A(\vec{R})})^2 + V(z) \right] \psi(\vec{
 where $V(z)$ is the confining potential in the $z$ direction, we substituted this potential to account for the 2DEG. We can express the momentum operator as:
 $$ \vec{p} = -i\hbar \nabla = -i\hbar \left( \frac{\partial}{\partial x} \hat{u}_x + \frac{\partial}{\partial y} \hat{u}_y + \frac{\partial}{\partial z} \hat{u}_z \right) $$
 Substituting the expressions for $\vec{p}$ and $\vec{A}$ in the Schrödinger equation, we have:
-$$ \left[ \frac{1}{2m} \left( -\hbar^2 \frac{\partial^2}{\partial x^2} 
+$$ \left[ \frac{1}{2m} \left( -\hbar^2 \frac{\partial^2}{\partial x^2} \hat{u}_x + (-i\hbar \frac{\partial}{\partial y} - eBx)^2 \hat{u}_y - \hbar^2 \frac{\partial^2}{\partial z^2} \hat{u}_z \right) + V(z) \right] \psi(\vec{R}) = E \psi(\vec{R}) $$
+By doing some algebraic manipulation, we can rewrite the equation as:
+$$ \left[ -\frac{\hbar^2}{2m} \nabla^2 - \frac{ie\hbar Bx}{m} \frac{\partial}{\partial y} + \frac{(eBx)^2}{2m} + V(z) \right] \psi(\vec{R}) = E \psi(\vec{R}) $$
+Where:
+- The first term is the kinetic energy operator.
+- The second term couples the $x$ and $y$ motion, and is reminiscent of the Lorentz force.
+- The third term is a paraboloidal potential confining the electron in the $x$ direction, recalling the harmonic oscillator potential.
+- The last term is the confining potential in the $z$ direction, depends on the specific system.
+
+The potential is additive, so the motion along $z$ is separable from the motion in the $x$-$y$ plane and is not influenced by the magnetic field. So, we will solve the equation for the $x$-$y$ plane only and our final wavefunction will be multiplied by the wavefunction along $z$. 
+The vector potential does not depend on $y$, which suggests that the wavefunction can be expressed as a plane wave along $y$ with some unknown function along $x$: 
+$$ \psi(\vec{R}) = u(x) e^{ik_y y} $$
 
 
 
