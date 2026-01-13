@@ -76,9 +76,21 @@ The height of each Landau level is then given by:
 $$ n_B = \frac{N_B}{L_x L_y} = \frac{eB}{2\pi \hbar} $$
 ![[Pasted image 20260113173918.png]]
 
+##### Flux Quantum View
+Introducing the concept of quantum of flux, which is given by:
+$$ \phi_0 = \frac{2\pi \hbar}{e} $$
+As the flux carried by a single state in a Landau level, we can rewrite the number of states per Landau level as: 
+$$ N_B = \frac{\text{Flux through the sample } BL_x L_y}{\text{Flux quantum }} = \frac{eB}{2\pi \hbar} L_x L_y = \frac{BL_x L_y}{\phi_0} $$
+The sample can then be seen as $N_B$ electrons following circular orbits in the $x$-$y$ plane each enclosing a quantum of flux $\phi_0$.
+![[Pasted image 20260113175533.png]]
 
+##### Effect of Impurities
+In a real system, impurities and defects are always present, which can affect the Landau levels. The presence of impurities can lead to the broadening of the delta-like Landau levels into Gaussian-like peaks characterized by a full width at half maximum $\Gamma =\frac{\hbar}{\tau}$, where $\tau$ is the scattering time due to impurities, also called lifetime of the electrons. The density of states in the presence of impurities can be viewed as:
+![[Pasted image 20260113175827.png]]
+We want to work with a material and at a temperature such that the Landau levels are distinguishable, but not with an extremely pure material (later we will see why). 
 
-
+##### Dependance on Magnetic Field
+As we increase the magnetic field $B$, the cyclotron frequency $\omega_C = \frac{eB}{m}$ increases, leading to an increase in the energy separation between Landau levels, given by $\Delta E = \hbar \omega_C$. This results in a larger gap between the Landau levels in the density of states. Additionally, as $B$ increases, the number of states per Landau level $n_B = \frac{eB}{2\pi \hbar}$ also increases, so the degeneracy of 
 
 
 ## References
