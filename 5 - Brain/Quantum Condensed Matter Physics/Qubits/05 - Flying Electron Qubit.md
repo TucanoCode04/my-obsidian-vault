@@ -33,8 +33,16 @@ By remembering that the time evolution of an eigenstate (stationary state) is gi
 $$|\psi(R,t)\rangle = \psi(R)e^{-i E t / \hbar} $$
 We can write the time evolution of the initial state as:
 $$|\psi(t)\rangle = \frac{1}{\sqrt{2}} (|B\rangle e^{-i \frac{\Delta E}{2\hbar} t} + |A\rangle e^{i \frac{\Delta E}{2\hbar} t})$$
+By substituting the expressions for $|B\rangle$ and $|A\rangle$, we get:
+$$|\psi(t)\rangle = \cos\left(\frac{\Delta E}{2\hbar} t\right) |0\rangle + i \sin\left(\frac{\Delta E}{2\hbar} t\right) |1\rangle$$
+This gives the evolution of the electron state during travel in the interaction region. We can see that the electron oscillates between the two waveguides $|0\rangle$ and $|1\rangle$ with a frequency determined by the the energy splitting $\Delta E$, without any change in the phase between the two states.
+![[Pasted image 20260113113155.png]]
+At the end of the interaction region the state will depend on the travel time $\tau$ (which can be substituted with $t$ in the previous equation), which depends on the length of the interaction region $L_C$ and the velocity of the electron at the Fermi energy $v_F$:
+$$\tau = \frac{L_C}{v_F}$$
+While the rotation speed $\omega = \frac{\Delta E}{2\hbar}$ depends on the tunneling coupling $t_C$, which can be tuned with the applied gate voltage ($\Delta E = 2|t_C(V_{ext})|$). By changing $V_{ext}$ we can change the rotation speed $\omega$ and thus the final state of the electron at the end of the interaction region.
 
-
+To completely control the state, we need a rotation around the azimuthal axis as well, so a rotation by an additional angle $\phi$ around the $Z$ axis of the Bloch sphere is needed, which can be viewed as a phase shift between the two states $|0\rangle$ and $|1\rangle$. This phase shift can be achieved by introducing a magnetic field. Due to the Ahronov-Bohm effect, the phase shift $\phi$ is proportional to the intensity of the magnetic field introduced (magnetic flux)
+ and the surface area enclosed by the two waveguides in the interaction region.
 
 
 ## References
