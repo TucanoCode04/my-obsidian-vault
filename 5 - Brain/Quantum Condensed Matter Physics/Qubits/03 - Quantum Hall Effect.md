@@ -55,14 +55,14 @@ Substituting this expression in the Schrödinger equation, we have:
 $$ \left[ -\frac{\hbar^2}{2m} \left( \frac{\partial^2}{\partial x^2} - k_y^2 \right) + \frac{e\hbar Bx k_y}{m} + \frac{(eBx)^2}{2m} \right] u(x) e^{ik_y y} = E u(x) e^{ik_y y} $$
 Dividing both sides by $e^{ik_y y}$, we have:
 $$ \left[ -\frac{\hbar^2}{2m} \frac{d^2}{dx^2} + \frac{1}{2} m \omega_C^2 \left( x + \frac{\hbar k_y}{eB} \right)^2 \right] u(x) = E  u(x) $$
-where we have completed the square and recognized the cyclotron frequency $\omega_C = \frac{eB}{m}$. We can see that this equation is equivalent to the quantum harmonic oscillator centered at $x_0 = -\frac{\hbar k_y}{eB}$ with energy eigenvalues given by:
+where we have completed the square and recognized the cyclotron frequency $\omega_C = \frac{eB}{m}$. We can see that this equation is equivalent to the quantum harmonic oscillator centered at $x_k = -\frac{\hbar k_y}{eB}$ with energy eigenvalues given by:
 $$ E_n = \hbar \omega_C \left( n + \frac{1}{2} \right) $$
 where $n = 0, 1, 2, ...$ is the Landau level index. The corresponding wavefunctions are given by:
-$$ u_n(x) = \frac{1}{\sqrt{2^n n!}} \left( \frac{m \omega_C}{\pi \hbar} \right)^{1/4} e^{-\frac{m \omega_C}{2\hbar} (x - x_0)^2} H_n \left( \sqrt{\frac{m \omega_C}{\hbar}} (x - x_0) \right) $$
-where $H_n$ are the Hermite polynomials. 
+$$ \phi_{nk} (x,y) \propto H_{n-1} \left( \frac{x - x_k}{l_B} \right) e^{-\frac{(x - x_k)^2}{2l_B^2}} e^{ik_y y} $$
+where $H_n$ are the Hermite polynomials and $l_B = \sqrt{\frac{\hbar}{eB}}$ is the extension of the wavefunction in the $x$ direction, also known as the magnetic length. The wavefunctions are plane waves along the $y$ direction and localized Gaussians along the $x$ direction, centered at $x_k$. The magnetic length gives us an idea of how spread out the wavefunction is in the $x$ direction, and it decreases with increasing magnetic field strength.
 ![[Pasted image 20260113164843.png]]
-From the energies is a digression.
-
+$x_k$ can be rewritten as $ x_k = -k_y l_B^2$
+![[Pasted image 20260113170018.png]]
 
 
 
