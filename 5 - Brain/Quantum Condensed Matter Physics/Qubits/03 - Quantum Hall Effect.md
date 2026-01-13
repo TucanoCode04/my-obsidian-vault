@@ -64,8 +64,7 @@ where $H_n$ are the Hermite polynomials and $l_B = \sqrt{\frac{\hbar}{eB}}$ is t
 ![[Pasted image 20260113170018.png]]
 There isn't only one oscillator, since $x_k$ depends on the wavevector $k_y$, which can take multiple values. To find the allowed values of $k_y$, we consider a finite sample of length $L_y$ along the $y$ direction with periodic boundary conditions. The allowed values of $k_y$ are given by:
 $$ k_y = \frac{2\pi}{L_y} n_{k_y}$$
-where $n_{k_y}$ is an integer. $k_y$ is discrete with a spacing of $\Delta k_y = \frac{2\pi}{L_y}$. The 
-
+where $n_{k_y}$ is an integer. $k_y$ is discrete with a spacing of $\Delta k_y = \frac{2\pi}{L_y}$. To find the upper boundary for $k_y$, we consider that $k_y$ sets the location of the harmonic oscillators along the $x$ direction through the relation $x_k = -k_y l_B^2$. 
 
 
 
