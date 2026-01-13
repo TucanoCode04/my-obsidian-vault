@@ -59,11 +59,12 @@ where we have completed the square and recognized the cyclotron frequency $\omeg
 $$ E_n = \hbar \omega_C \left( n + \frac{1}{2} \right) $$
 where $n = 0, 1, 2, ...$ is the Landau level index. The corresponding wavefunctions are given by:
 $$ \phi_{nk} (x,y) \propto H_{n-1} \left( \frac{x - x_k}{l_B} \right) e^{-\frac{(x - x_k)^2}{2l_B^2}} e^{ik_y y} $$
-where $H_n$ are the Hermite polynomials and $l_B = \sqrt{\frac{\hbar}{eB}}$ is the extension of the wavefunction in the $x$ direction, also known as the magnetic length. The wavefunctions are plane waves along the $y$ direction and localized Gaussians along the $x$ direction, centered at $x_k$. The magnetic length gives us an idea of how spread out the wavefunction is in the $x$ direction, and it decreases with increasing magnetic field strength.
+where $H_n$ are the Hermite polynomials and $l_B = \sqrt{\frac{\hbar}{eB}}$ is the extension of the wavefunction in the $x$ direction, also known as the magnetic length, $x_k$ can be rewritten as $x_k = -k_y l_B^2$. The wavefunctions are plane waves along the $y$ direction and localized Gaussians along the $x$ direction, centered at $x_k$. The magnetic length gives us an idea of how spread out the wavefunction is in the $x$ direction, and it decreases with increasing magnetic field strength.
 ![[Pasted image 20260113164843.png]]
-$x_k$ can be rewritten as $ x_k = -k_y l_B^2$
 ![[Pasted image 20260113170018.png]]
-
+There isn't only one oscillator, since $x_k$ depends on the wavevector $k_y$, which can take multiple values. To find the allowed values of $k_y$, we consider a finite sample of length $L_y$ along the $y$ direction with periodic boundary conditions. The allowed values of $k_y$ are given by:
+$$ k_y = \frac{2\pi}{L_y} n_{k_y}$$
+where $n_{k_y}$ is an integer. $k_y$ is discrete with a spacing of $\Delta k_y = \frac{2\pi}{L_y}$. The 
 
 
 
