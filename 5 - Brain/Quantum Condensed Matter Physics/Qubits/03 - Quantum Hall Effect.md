@@ -121,7 +121,14 @@ By watching the energy of different levels of the harmonic oscillator as a funct
 Whenever the Fermi level is between two Landau levels, the bulk of the 2DEG is insulating since there are no available states at the Fermi energy. However, at the edges of the sample, there are states with energies that cross the Fermi level due to the edge effects. These edge states are localized at the boundaries of the sample and can carry current without dissipation. As a result, when the Fermi level lies between Landau levels, the conduction occurs primarily through these edge states, leading to quantized Hall conductance and the observation of plateaus in the Hall resistance.
 ![[Pasted image 20260113182947.png]]
 Each state carries half a quantum of conductance $\frac{G_0}{2} = \frac{e^2}{h}$ , resulting in a Quantum Hall resistance given by:
-$$ R_{xy} = \frac{1}{G} = \frac{1}{\nu \frac{e^2}{h}} = \frac{h}{\nu e^2} $$ 
+$$ R_{xy} = \frac{1}{G} = \frac{1}{\nu \frac{e^2}{h}} = \frac{h}{\nu e^2} $$ where $\nu$ is the filling factor that contains the flux quantum. The longitudinal resistance $R_{xx}$ goes to zero at the plateaus, since the bulk of the 2DEG is insulating and conduction occurs only through the edge states without dissipation.
+
+![[Pasted image 20260113183245.png]]
+
+##### Quantum Hall Effect at the Device Level
+![[Pasted image 20260113184027.png]]
+![[Pasted image 20260113184036.png]]
+![[Pasted image 20260113184044.png]]
 
 
 ## References
