@@ -90,7 +90,21 @@ In a real system, impurities and defects are always present, which can affect th
 We want to work with a material and at a temperature such that the Landau levels are distinguishable, but not with an extremely pure material (later we will see why). 
 
 ##### Dependance on Magnetic Field
-As we increase the magnetic field $B$, the cyclotron frequency $\omega_C = \frac{eB}{m}$ increases, leading to an increase in the energy separation between Landau levels, given by $\Delta E = \hbar \omega_C$. This results in a larger gap between the Landau levels in the density of states. Additionally, as $B$ increases, the number of states per Landau level $n_B = \frac{eB}{2\pi \hbar}$ also increases, so the degeneracy of 
+As we increase the magnetic field $B$, the cyclotron frequency $\omega_C = \frac{eB}{m}$ increases, leading to an increase in the energy separation between Landau levels, given by $\Delta E = \hbar \omega_C$. This results in a larger gap between the Landau levels in the density of states. Additionally, as $B$ increases, the number of states per Landau level $n_B = \frac{eB}{2\pi \hbar}$ also increases, meaning that each Landau level can accommodate more electrons. This leads to a higher density of states at each Landau level as the magnetic field strength increases, so more degenerate states are available at each energy level.
+![[Pasted image 20260113180202.png]]
+
+##### Shubnikov–de Haas Effect 
+The Shubnikov–de Haas (SdH) effect is a quantum oscillatory phenomenon observed in the electrical resistivity of a material when subjected to a strong magnetic field at low temperatures. It arises due to the quantization of electron energy levels into Landau levels in the presence of a magnetic field. As the magnetic field strength varies, the Landau levels move through the Fermi energy, leading to periodic variations in the density of states at the Fermi level. This results in oscillations in the electrical resistivity of the material as a function of the magnetic field strength.
+![[Pasted image 20260113180921.png]]
+The measured resistivity oscillations can be understood in terms of the filling of Landau levels.
+When the Fermi energy lies between two Landau levels, the density of states at the Fermi level is low, so when the filling factor is an integer the bulk of the 2DEG does not contribute to conduction, leading to a minimum in resistivity. Conversely, when the Fermi energy coincides with a Landau level, the density of states at the Fermi level is high, resulting in increased scattering and higher resistivity. This leads to oscillations in resistivity as the magnetic field is varied, known as SdH oscillations.
+The electron density of the 2DEG is kept constant, while the magnetic field is varied, leading to changes in the filling factor $\nu$, defined as:
+$$ \nu = \frac{n_{2D}}{n_B} = \frac{n_{2D} \phi_0}{B} $$
+Where $n_{2D}$ is the electron density of the 2DEG. As the magnetic field increases, the filling factor decreases, leading to oscillations in resistivity as Landau levels move through the Fermi energy. The SdH effect provides valuable insights into the electronic properties of materials, such as effective mass, scattering mechanisms, and Fermi surface characteristics.
+![[Pasted image 20260113180941.png]]
+
+#### Quantum Hall Effect
+In the same setup used to observe the SdH effect, if we measure the Hall resistance $R_{xy}$ instead of the longitudinal resistance $R_{xx}$, we observe the Quantum Hall Effect (QHE). The Hall resistance exhibits quantized plateaus at specific values given by:
 
 
 ## References
