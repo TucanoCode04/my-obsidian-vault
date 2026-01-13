@@ -64,7 +64,19 @@ where $H_n$ are the Hermite polynomials and $l_B = \sqrt{\frac{\hbar}{eB}}$ is t
 ![[Pasted image 20260113170018.png]]
 There isn't only one oscillator, since $x_k$ depends on the wavevector $k_y$, which can take multiple values. To find the allowed values of $k_y$, we consider a finite sample of length $L_y$ along the $y$ direction with periodic boundary conditions. The allowed values of $k_y$ are given by:
 $$ k_y = \frac{2\pi}{L_y} n_{k_y}$$
-where $n_{k_y}$ is an integer. $k_y$ is discrete with a spacing of $\Delta k_y = \frac{2\pi}{L_y}$. To find the upper boundary for $k_y$, we consider that $k_y$ sets the location of the harmonic oscillators along the $x$ direction through the relation $x_k = -k_y l_B^2$. 
+where $n_{k_y}$ is an integer. $k_y$ is discrete with a spacing of $\Delta k_y = \frac{2\pi}{L_y}$. To find the upper boundary for $k_y$, we consider that $k_y$ sets the location of the harmonic oscillators along the $x$ direction through the relation $x_k = -k_y l_B^2 = -\frac{\hbar}{eB} \frac{2\pi}{L_y}$. The harmonic oscillators can only be located within the sample, so we have the condition:
+$$ 0 < x_k < L_x \quad \Rightarrow \quad 0 < -\frac{\hbar k_y}{eB} < L_x $$
+So the available states in the $y$ direction are given by:
+$$ -\frac{eB L_x}{\hbar} < k_y < 0 $$
+So there are oscillators in the $x$ direction spaced by $-\frac{\hbar}{eB} \frac{2\pi}{L_y}$, determined by the allowed values of $k_y$, all sharing the same energy eigenvalue for a given Landau level $n$, $E_n = \hbar \omega_C (n + \frac{1}{2})$. 
+![[Pasted image 20260113173641.png]]
+The total number of allowed states sharing the same energy within a Landau level (which is equal to the number of harmonic oscillators that can fit within the sample) is given by:
+$$ N_B = \frac{\text{range of variation of } k_y}{\text{spacing between allowed } k_y} = \frac{\frac{eB L_x}{\hbar}}{\frac{2\pi}{L_y}} = \frac{eB}{h} L_x L_y $$
+The height of each Landau level is then given by:
+$$ n_B = \frac{N_B}{L_x L_y} = \frac{eB}{2\pi \hbar} $$
+![[Pasted image 20260113173918.png]]
+
+
 
 
 
