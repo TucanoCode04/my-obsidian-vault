@@ -66,8 +66,7 @@ So it basically adds up to the bandgap, for example if we had Ga with $E_g = 1.4
 
 ##### Fermi Golden Rule
 We now want to have some light of frequency higher than the band gap to be absorbed, we want to see how the absorption changes in function of the incident light frequency.
-
-
+The optical absorption coefficient is determined by the transition rate $W_{i\rightarrow f}$ from an initial state $\psi_i$ to a final state $\psi_f$ }
 
 
 
