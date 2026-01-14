@@ -62,7 +62,10 @@ Where $m^*$ is the effective mass of the particle (depending on whether it's ele
 In a quantum well the absorption edge is shifted to higher energies due to the confinement energies of electrons and holes. 
 $$\Delta E = \hbar \omega = E_g + \frac{\hbar^2 n^2}{8 m^*_{e} d^2} + \frac{\hbar^2 k^2}{2 m^*_{e}} + \frac{\hbar^2 n'^2}{8 m^*_{h} d^2} + \frac{\hbar^2 k'^2}{2 m^*_{h}} $$
 Where n and n' are the quantum numbers for electrons and holes respectively. All this for $n=n'=1$ for the first absorption peak, and $k=k'=0$ for normal incidence.
+So it basically adds up to the bandgap, for example if we had Ga with $E_g = 1.42 eV$, we create some quantum dimensions and we can shift the absorption edge to higher energies, in particular by changing the well width d.
 
+##### Fermi Golden Rule
+We now want to have some light of frequency higher than the band gap to be absorbed, we want to see how the absorption changes in function of the incident light frequency.
 
 
 
