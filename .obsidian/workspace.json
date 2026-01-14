@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/13 - Quantum Wells.md",
+                "file": "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/00 - Thermodynamics Basis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "13 - Quantum Wells"
+              "title": "00 - Thermodynamics Basis"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -193,6 +192,9 @@
   },
   "active": "c8947bcfac3bb783",
   "lastOpenFiles": [
+    "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/01 - Thermodynamics of Refrigeration.md",
+    "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/02 - Refrigeration Machines.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/13 - Quantum Wells.md",
     "Pasted image 20260114194627.png",
     "Pasted image 20260114194549.png",
     "Pasted image 20260114194539.png",
@@ -203,9 +205,7 @@
     "Pasted image 20260114173322.png",
     "Pasted image 20260114173006.png",
     "Pasted image 20260114171844.png",
-    "Pasted image 20260114171143.png",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/12 - Nanowires.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/13 - Quantum Wells.md",
     "5 - Brain/Cybersecurity/Cybersec/06 - Security of Network Applications.md",
     "5 - Brain/Cybersecurity/Cybersec/08 - Quantum.md",
     "5 - Brain/Cybersecurity/Cybersec/05 - Firewalls.md",
@@ -223,8 +223,6 @@
     "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/05 - 4He Cryostats.md",
     "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/04 - Thermal Contact and Thermal Isolation.md",
     "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/03 - Properties of Cryogenic Fluids.md",
-    "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/02 - Refrigeration Machines.md",
-    "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/01 - Thermodynamics of Refrigeration.md",
     "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/00 - Thermodynamics Basis.md",
     "5 - Brain/Untitled.base",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/10 - Semi-Classical Boltzmann Equation.md",
