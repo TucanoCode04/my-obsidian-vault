@@ -66,8 +66,9 @@ So it basically adds up to the bandgap, for example if we had Ga with $E_g = 1.4
 
 ##### Fermi Golden Rule
 We now want to have some light of frequency higher than the band gap to be absorbed, we want to see how the absorption changes in function of the incident light frequency.
-The optical absorption coefficient is determined by the transition rate $W_{i\rightarrow f}$ from an initial state $\psi_i$ to a final state $\psi_f$ }
-
+The optical absorption coefficient is determined by the transition rate $W_{i\rightarrow f}$ from an initial state $\psi_i$ to a final state $\psi_f$ induced by absorption of a photon of angular frequency $\omega$. According to Fermi's Golden Rule:$$W_{i\rightarrow f} = \frac{2 \pi}{\hbar} |<\psi_f | \hat{H'} | \psi_i>|^2 g(\Delta E)$$Where $H'$ is the perturbation Hamiltonian due to the interaction with the electromagnetic field, and $g(\Delta E)$ is the joint density of final states at the energy difference $\Delta E = E_f - E_i = \hbar \omega$.)
+We specify that the light wavevector has only a component in the z direction, so $k = (0,0,k_z)$ $$\hat{H'} = -e \vec{r}\cdot \vec{E_0}e^{i k_z z}$$Where $\vec{E_0}$ is the electric field amplitude of the incident light, so it has only x and y components.
+The matrix element can be separated:$$M_{fi} = <\psi_f | \hat{H'} | \psi_i> = <\phi_f |-e\vec{r}\cdot \vec{E_0}e^{i k_z z} | \phi_i> = - <\phi_f |e x E_{0x} e^{i k_z z} |\phi_i> - <\phi_f |e y E_{0y} e^{i k_z z} | \phi_i> $$If isotropic then x and y will be the same, so we focus on the term x:$$-<\phi_f |e x E_{0x} e^{i k_z z} |\phi_i> = - \int \theta
 
 
 
