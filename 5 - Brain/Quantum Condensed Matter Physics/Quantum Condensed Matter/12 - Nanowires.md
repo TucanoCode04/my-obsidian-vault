@@ -17,8 +17,10 @@ We will use a model that consists on a 1D channel that connects two contacts (so
 - The channel is ballistic, meaning that electrons can travel through it without scattering.
 - Electrons entering the contacts from the channel instantly thermalize to the local Fermi level reaching equilibrium.
 - The contacts are reflectionless, meaning that electrons entering the contacts do not reflect back into the channel.
+So the transport in the wire happens because electrons with negative momentum (moving from right to left) are injected from the right contact with Fermi level $E_{FR}$, and electrons with positive momentum (moving from left to right) are injected from the left contact with Fermi level $E_{FL}$. The net current is then given by the difference between the currents contributed by electrons from each contact(maybe it's the contrary, check).
 
-
+The dispersion relation is the sum of the kinetic energy along the wire and the quantized energy levels due to confinement:$$E_{n,k_x} = \frac{\hbar^2 k_x^2}{2m^*} + E_n$$Where $E_n = \frac{\hbar^2 n^2 }{8mL^2}$ represents the quantized energy levels due to confinement in the transverse directions and is called cut-off energy.
+We will consider the c
 
 
 
