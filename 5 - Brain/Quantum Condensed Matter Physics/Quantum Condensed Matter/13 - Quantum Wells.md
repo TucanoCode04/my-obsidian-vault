@@ -100,7 +100,7 @@ In the GaAs region, we will have a triangular potential well at the interface, c
 The 2D electron gas is characterized by high mobility, higher than metals, $\approx 10^6 cm^2/Vs$, because the electrons are confined in a region with low impurity scattering, since the dopants are far away in the AlAs layer.
 To each energy level in the triangular well corresponds a paraboloid in k-space, so we have subbands in the z direction and free particle behavior in the x-y plane.
 
-
+(there are other things in the slides)
 
 
 
