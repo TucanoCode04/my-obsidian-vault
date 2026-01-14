@@ -6,9 +6,10 @@ Status:
 Tags:
 
 # Nanowires
+(Maybe read the first part of the professor notes)
 Let's start with a review on the band structure of nanowires.
 The total energy of a nanowire can be expressed as:$$E = \frac{\hbar^2 k_z^2}{2m^*} + \frac{\hbar^2 n_x^2 }{8mL_x^2} + \frac{\hbar^2 n_y^2 }{8mL_y^2}$$ Where the first term corresponds to the kinetic energy along the wire axis (z-axis), and the second and third terms correspond to the quantized energy levels due to confinement in the transverse directions (x and y axes). Here, $n_x$ and $n_y$ are quantum numbers associated with the transverse modes, and $L_x$ and $L_y$ are the dimensions of the nanowire cross-section.
-To have a more compact way to write we assume $L_x = L_y$ and $n_x = n_y = n$, then we can rewrite the energy as:$$E = \frac{\hbar^2 k_z^2}{2m^*} + \frac{\hbar^2 n^2 }{8mL^2}$$The density of states (DOS) for a nanowire is given by:$$D(E) = \sum_n \left(\frac{2m^*}{\hbar^2}\right)^{1/2} \frac{1}{\pi \sqrt{E - E_n}}$$Where $E_n = \frac{\hbar^2 n^2 }{8mL^2}$ represents the quantized energy levels due to confinement in the transverse directions and it also determines the vertices of the parabolic subbands in the nanowire band structure.
+To have a more compact way to write we assume $L_x = L_y$ and $n_x = n_y = n$, then we can rewrite the energy as:$$E = \frac{\hbar^2 k_z^2}{2m^*} + \frac{\hbar^2 n^2 }{8mL^2}$$The density of states (DOS) for a nanowire is given by:$$D(E) = \sum_n \left(\frac{2m^*}{\hbar^2}\right)^{1/2} \frac{1}{\pi \sqrt{E - E_n}} \theta(E - E_n)$$Where $E_n = \frac{\hbar^2 n^2 }{8mL^2}$ represents the quantized energy levels due to confinement in the transverse directions and it also determines the vertices of the parabolic subbands in the nanowire band structure.
 ![[Pasted image 20260114142444.png]]
 By focusing of a single subband (fixed n), the DOS becomes:$$D(E) = \begin{cases} \left(\frac{2m^*}{\hbar^2}\right)^{1/2} \frac{1}{\pi \sqrt{E - E_n}} & \text{for } E > E_n \\ 0 & \text{for } E \leq E_n \end{cases}$$This expression shows that the DOS diverges as the energy approaches the subband edge $E_n$ from above, indicating a high density of available states near the subband minima. 
 #### Current Calculation
@@ -24,9 +25,10 @@ We will consider the contribution of each separate subband n to the total curren
 ![[Pasted image 20260114145839.png]]
 
 Let's consider a nanowire whose length is less than the electron mean free path $\lambda = v_F \tau$, where $v_F$ is the Fermi velocity and $\tau$ is the relaxation time. In this ballistic regime, electrons can traverse the nanowire without scattering, the wavefunction will then retain its phase coherence throughout the length of the wire. In semiconductor based nanowires, this regime can be achieved at low temperatures with lengths of thousands of nanometers, compared to the transverse dimensions of few nanometers.
-As we have shown the 1D DOS takes the form of $$D(E) = \begin{cases} \left(\frac{2m^*}{\hbar^2}\right)^{1/2} \frac{1}{\pi \sqrt{E - E_n}} & \text{for } E > E_n \\ 0 & \text{for } E \leq E_n \end{cases}$$which
+As we have shown the 1D DOS takes the form of $$D(E) = \sum_n \left(\frac{2m^*}{\hbar^2}\right)^{1/2} \frac{1}{\pi \sqrt{E - E_n}} \theta(E - E_n)$$which we rename $\gamma^{1D} (E) \propto \sum_n \frac{1}{\sqrt{E - E_n}} \theta(E - E_n)$, where $\theta$ is the Heaviside step function.
 If the nanowire is in the x direction, the 3D wavefunction and energies can be expressed as:$$\psi_{n,k_x}(x,y,z) = \frac{1}{\sqrt{L_x}} e^{ik_x x} \chi_n(y,z)$$$$E_{n,k_x} = \frac{\hbar^2 k_x^2}{2m^*} + E_n$$Where $\chi_n(y,z) \propto \sin\left(\frac{n_y \pi y}{L_y}\right)\sin\left(\frac{n_z \pi z}{L_z}\right)$ represents the transverse wavefunction and $E_n = \frac{\hbar^2 \pi^2}{2m^*}\left(\frac{n_y^2}{L_y^2} + \frac{n_z^2}{L_z^2}\right)$ is the quantized energy levels due to confinement in the transverse directions (y and z).
-
+When a voltage $V$ is applied between the two contacts, the potential energy profile along the nanowire can be approximated as a linear drop between the 2 Fermi levels:$$E_{FL} - E_{FR} = -eV$$Let's calculate the contribution to the negative electron current from the right contact, carried by the electrons with positive momentum (moving from left to right) belonging to the n-th subband:
+$$I_{n}^{L} = J_{n}^{L} \cdot 
 
 
 
