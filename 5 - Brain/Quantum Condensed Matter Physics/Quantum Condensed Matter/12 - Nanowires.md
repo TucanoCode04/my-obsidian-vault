@@ -41,8 +41,12 @@ Since $E_{FR} < E_{FL}$, at low temperature when the Fermi-Dirac distribution ca
 Now, we have seen that $M(E)$ is a staircase function of constant intervals $M=1,2,3,\ldots$. If we consider a nanometric range and assume that both $E_{FR}$ and $E_{FL}$ fall within the same plateau.
 ![[Pasted image 20260114155426.png]]
 In this case the total current is just:$$I = -\frac{2e}{h} \int_{E_{FR}}^{E_{FL}} M(E) dE = -\frac{2e}{h} M (E_{FL} - E_{FR}) $$Since the first term is zero below $E_{FR}$ and the last term is zero above $E_{FL}$. If $E_{FL}>E_{FR}$, then $\Delta V = V_{L} - V_{R} = \frac{E_{FL} - E_{FR}}{-e} <0$, thus we can write:$$I = \frac{2e^2}{h} M \Delta V$$An Ohmic behavior is expected from the ballistic electrons, so a positive conductance is obtained:$$G = \frac{I}{\Delta V} = \frac{2e^2}{h} M$$Which is called the Quantized Landauer Conductance. In this case the conductance is completely independent on both geometry and material properties of the nanowire, it only depends on a fundamental constant $\frac{2e^2}{h}$ and the number of occupied subbands $M$.
-In the real case dissipation mainly occurs at the contacts, where electrons thermalize to the local Fermi 
-
+In the real case dissipation mainly occurs at the contacts, where electrons thermalize to the local Fermi level. Inside the channel, the electrons travel ballistically without scattering, thus no energy is dissipated within the channel itself. 
+In conclusion, in the ideal case the conductance quanta is:$$G_0 = \frac{2e^2}{h} \approx 7.75 \times 10^{-5} S$$While the resistance quanta:$$R_0 = \frac{h}{2e^2} \approx 12.9 k\Omega$$
+![[Pasted image 20260114160953.png]]
+![[Pasted image 20260114161003.png]]
+![[Pasted image 20260114161010.png]]
+At higher temperatures we lose quantization, so the steps in conductance smooth out due to thermal broadening of the electron distribution around the Fermi level becoming less sharp.
 
 
 
