@@ -83,6 +83,18 @@ The $\downarrow$ indicates points where the selection rule is broken, due to imp
 After a while the steps will smooth out, becoming similar to $\sqrt{E}$ dependence of bulk materials, because at higher energies the confinement effects become less pronounced, and the density of states approaches that of a three-dimensional system.
 ![[Pasted image 20260114194326.png]]
 
+##### Optical Emission
+We also have emission, after thermalization of the carriers in the subbands, we have recombination and emission of photons. The emission spectrum will also show peaks corresponding to transitions between subbands with the same quantum number n, following the same selection rule as absorption.
+The emission coefficient depends again on $L_z$, the well width, because it determines the confinement energies and thus the energies of the emitted photons.
+![[Pasted image 20260114194539.png]]
+![[Pasted image 20260114194549.png]]
+
+##### Laser Diodes
+![[Pasted image 20260114194627.png]]
+You inject current into the quantum well region, creating a population inversion between the electron and hole subbands. When the population inversion is achieved, stimulated emission occurs, leading to coherent light output from the laser diode.
+In this device, other than electrical confinement, we have optical confinement as well, because the refractive index of the quantum well region is higher than that of the surrounding barrier layers, creating a waveguide structure that confines the light within the active region.
+
+
 
 
 
