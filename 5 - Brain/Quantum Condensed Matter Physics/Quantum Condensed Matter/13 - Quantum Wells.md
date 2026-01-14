@@ -28,6 +28,14 @@ They basically create a potential well for both electrons and holes, confining t
 ##### Multiple Quantum Wells and Superlattices
 ![[Pasted image 20260114171030.png]]
 To have a multi quantum well structure, we just need to repeat the single quantum well structure multiple times and have $b << d$ so that the wells are independent of each other.
+![[Pasted image 20260114171126.png]]
+![[Pasted image 20260114171135.png]]
+![[Pasted image 20260114171143.png]]
+
+##### Eigenvalues and Eigenfunctions in Quantum Wells
+![[Pasted image 20260114171844.png]]
+The energy bands will be paraboiloids in k-space, coming from the fact that we have free particles in the x-y plane and confined particles in the z direction.
+$$\psi
 
 
 
