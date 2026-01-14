@@ -28,7 +28,10 @@ Let's consider a nanowire whose length is less than the electron mean free path 
 As we have shown the 1D DOS takes the form of $$D(E) = \sum_n \left(\frac{2m^*}{\hbar^2}\right)^{1/2} \frac{1}{\pi \sqrt{E - E_n}} \theta(E - E_n)$$which we rename $\gamma^{1D} (E) \propto \sum_n \frac{1}{\sqrt{E - E_n}} \theta(E - E_n)$, where $\theta$ is the Heaviside step function.
 If the nanowire is in the x direction, the 3D wavefunction and energies can be expressed as:$$\psi_{n,k_x}(x,y,z) = \frac{1}{\sqrt{L_x}} e^{ik_x x} \chi_n(y,z)$$$$E_{n,k_x} = \frac{\hbar^2 k_x^2}{2m^*} + E_n$$Where $\chi_n(y,z) \propto \sin\left(\frac{n_y \pi y}{L_y}\right)\sin\left(\frac{n_z \pi z}{L_z}\right)$ represents the transverse wavefunction and $E_n = \frac{\hbar^2 \pi^2}{2m^*}\left(\frac{n_y^2}{L_y^2} + \frac{n_z^2}{L_z^2}\right)$ is the quantized energy levels due to confinement in the transverse directions (y and z).
 When a voltage $V$ is applied between the two contacts, the potential energy profile along the nanowire can be approximated as a linear drop between the 2 Fermi levels:$$E_{FL} - E_{FR} = -eV$$Let's calculate the contribution to the negative electron current from the right contact, carried by the electrons with positive momentum (moving from left to right) belonging to the n-th subband:
-$$I_{n}^{L} = J_{n}^{L} \cdot 
+$$I_{n}^{L} = J_{n}^{L} \cdot S$$Where $S = L_y L_z = L^2$ is the cross-sectional area of the nanowire. The injection happens belows the Fermi level of the left contact.
+Classically, the current density can be expressed as:$$J_{n}^{L} = -n e V$$Where $n$ is the electron density and $V$ is the average velocity of the electrons. But, we need to consider different velocities depending on the energy states in each subband. So we integrate over all occupied states, each state will carry a number of electrons given by the product of the DOS and the Fermi-Dirac distribution function and all multiplied by $L_x$ (the length of the nanowire) to get the total number of electrons in the nanowire:
+$$J_n = -\frac{e}{V} \int_0^{\infty} V(E) f(E-E_{FL}) \frac{\gamma_n^{1D} (E)}{2} \cdot L_x dE$$Where the factor $\frac{1}{2}$ is because we are only considering the positive momentum states. 
+Before, we found
 
 
 
