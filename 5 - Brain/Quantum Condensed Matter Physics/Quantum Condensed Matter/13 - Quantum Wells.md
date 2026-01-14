@@ -35,9 +35,18 @@ To have a multi quantum well structure, we just need to repeat the single quantu
 ##### Eigenvalues and Eigenfunctions in Quantum Wells
 ![[Pasted image 20260114171844.png]]
 The energy bands will be paraboiloids in k-space, coming from the fact that we have free particles in the x-y plane and confined particles in the z direction.
-$$\psi
-
-
+$$\psi_e (x,y,z) = \phi_e(x,y) \theta_e(z)$$Where $\phi_e(x,y)$ are bloch functions in the x-y plane and $\theta_e(z)$ are the confined wavefunctions in the z direction.
+$$\theta_n(z) = \begin{cases} \sqrt{\frac{2}{L_z}} sin(\frac{n \pi z}{L_z}) & n \text{ even}\\ \sqrt{\frac{2}{L_z}} cos(\frac{n \pi z}{L_z}) & n \text{ odd} \end{cases}$$
+With energy eigenvalues:
+$$E_n(k_z) = \frac{\hbar^2 n^2}{8 m^* L_z^2} $$
+While in the x-y plane, we have free particle like behavior:
+$$\phi (x,y) = \frac{1}{\sqrt{A}} e^{i(k_x x + k_y y)} \mu(x,y)$$With energy eigenvalues:
+$$E(k_x, k_y) = \frac{\hbar^2 (k_x^2 + k_y^2)}{2 m^*} $$
+So the total energy eigenvalues are:
+$$E_{n,k} = E_n + E(k_x, k_y) =  \frac{\hbar^2 n^2}{8 m^* L_z^2} + \frac{\hbar^2 (k_x^2 + k_y^2)}{2 m^*} $$
+In our case $L_z = d$, the width of the quantum well. 
+The confinement energy is inversely proportional to the square of the well width, so thinner wells lead to higher confinement energies. To note also that the confinement energy is also inversely proportional to the effective mass of the particle, so lighter particles experience higher confinement energies. So even light and heavy holes will have different confinement energies in the same quantum well.
+![[Pasted image 20260114173006.png]]
 
 
 
