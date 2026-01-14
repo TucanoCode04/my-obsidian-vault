@@ -73,7 +73,7 @@ The matrix element can be separated:$$M_{fi} = <\psi_f | \hat{H'} | \psi_i> = <\
 (Remember to look at the slides, because there are things that are not here!!!!!!!!)
 
 
-
+As we go to higher frequencies, we can couple states with higher quantum numbers n, since they are parallel to each other, we will have absorption peaks at energies corresponding to transitions between these sub-bands.
 
 
 
