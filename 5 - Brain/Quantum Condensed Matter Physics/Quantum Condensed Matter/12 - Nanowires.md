@@ -13,7 +13,10 @@ To have a more compact way to write we assume $L_x = L_y$ and $n_x = n_y = n$, t
 By focusing of a single subband (fixed n), the DOS becomes:$$D(E) = \begin{cases} \left(\frac{2m^*}{\hbar^2}\right)^{1/2} \frac{1}{\pi \sqrt{E - E_n}} & \text{for } E > E_n \\ 0 & \text{for } E \leq E_n \end{cases}$$This expression shows that the DOS diverges as the energy approaches the subband edge $E_n$ from above, indicating a high density of available states near the subband minima. 
 #### Current Calculation
 ![[Pasted image 20260114142858.png]]
-We will use a model that consists on a 1D channel that connects 
+We will use a model that consists on a 1D channel that connects two contacts (source and drain) as shown in the figure above. The two contacts have different Fermi levels, such that $E_{FL} > E_{FR}$, which creates a bias voltage across the channel. We further assume that:
+- The channel is ballistic, meaning that electrons can travel through it without scattering.
+- Electrons entering the contacts from the channel instantly thermalize to the local Fermi level reaching equilibrium.
+- The contacts are reflectionless, meaning that electrons entering the contacts do not reflect back into the channel.
 
 
 
