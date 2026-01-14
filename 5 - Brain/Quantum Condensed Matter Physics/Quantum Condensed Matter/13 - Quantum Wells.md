@@ -73,7 +73,16 @@ The matrix element can be separated:$$M_{fi} = <\psi_f | \hat{H'} | \psi_i> = <\
 (Remember to look at the slides, because there are things that are not here!!!!!!!!)
 
 
-As we go to higher frequencies, we can couple states with higher quantum numbers n, since they are parallel to each other, we will have absorption peaks at energies corresponding to transitions between these sub-bands.
+As we go to higher frequencies, we can couple states with higher quantum numbers n, since they are parallel to each other, we will have absorption peaks at energies corresponding to transitions between these sub-bands. This can be seen by analyzing the joint density of states for the quantum well structure.$$\Delta E = Eg + E_{e,1} + E_{h,1} + \frac{\hbar^2 k_{xy}^2}{2 \mu} $$Where $\mu$ is the reduced mass of the electron-hole pair in the x-y plane.
+Considering a subband in valence band with quantum number n' and a subband in conduction band with quantum number n, the joint density of states for transitions between these subbands is given by:$$g_{n n'}(\Delta E) = \frac{\mu}{\pi \hbar^2 }$$Resulting in a step-like increase in the absorption coefficient with the height of each step corresponding to the joint density of states for that particular transition $\frac{\mu}{\pi \hbar^2 }$ and the distance between the steps determined by the confinement energies of the respective subbands $E_g + E_{e,n} + E_{h,n'}$.
+The steps are given because we still have, for example at $n = n' = 2$, the excitations given by $n=n'=1$ are still possible, so we have a step increase in absorption at that energy.
+![[Pasted image 20260114194031.png]]
+
+We can see heavy holes and light holes contributions separately, because they have different effective masses, so they will give different step heights in the absorption spectrum.
+The $\downarrow$ indicates points where the selection rule is broken, due to imperfections in the quantum well structure, allowing transitions between subbands with different quantum numbers n and n'. For example, after $n=n'=2$, is broken, we assumed an infinite potential well, but in reality the potential is finite, so there is some tunneling of the wavefunctions into the barrier region, which can lead to mixing of states with different quantum numbers. 
+After a while the steps will smooth out, becoming similar to $\sqrt{E}$ dependence of bulk materials, because at higher energies the confinement effects become less pronounced, and the density of states approaches that of a three-dimensional system.
+![[Pasted image 20260114194326.png]]
+
 
 
 
