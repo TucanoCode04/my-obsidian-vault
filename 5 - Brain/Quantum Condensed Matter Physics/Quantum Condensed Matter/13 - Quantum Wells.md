@@ -43,12 +43,25 @@ While in the x-y plane, we have free particle like behavior:
 $$\phi (x,y) = \frac{1}{\sqrt{A}} e^{i(k_x x + k_y y)} \mu(x,y)$$With energy eigenvalues:
 $$E(k_x, k_y) = \frac{\hbar^2 (k_x^2 + k_y^2)}{2 m^*} $$
 So the total energy eigenvalues are:
-$$E_{n,k} = E_n + E(k_x, k_y) =  \frac{\hbar^2 n^2}{8 m^* L_z^2} + \frac{\hbar^2 (k_x^2 + k_y^2)}{2 m^*} $$
+$$E_{e,(n,k)} = E_n + E(k_x, k_y) =  \frac{\hbar^2 n^2}{8 m^* L_z^2} + \frac{\hbar^2 (k_x^2 + k_y^2)}{2 m^*} $$
 In our case $L_z = d$, the width of the quantum well. 
 The confinement energy is inversely proportional to the square of the well width, so thinner wells lead to higher confinement energies. To note also that the confinement energy is also inversely proportional to the effective mass of the particle, so lighter particles experience higher confinement energies. So even light and heavy holes will have different confinement energies in the same quantum well.
 ![[Pasted image 20260114173006.png]]
+This all calculation was for the electrons, but we can do the same for holes. The total energy for the holes will be:
+$$E_{h,(n,k)} = E_n + E(k_x, k_y) =  \frac{\hbar^2 n^2}{8 m^*_{h} d^2} + \frac{\hbar^2 (k_x^2 + k_y^2)}{2 m^*_{h}} $$
+Where $m^*_{hh}$ is the effective mass of the heavy holes.
 
+The DOS for a given paraboloid band structure is given by:
+$$D(E) = \frac{m^*}{\pi \hbar^2 L_z}$$
+Where $m^*$ is the effective mass of the particle (depending on whether it's electron or hole).
+##### Consequences of Quantum Confinement
+![[Pasted image 20260114173322.png]]
 
+##### Optical Absorption in Quantum Wells
+![[Pasted image 20260114173454.png]]
+In a quantum well the absorption edge is shifted to higher energies due to the confinement energies of electrons and holes. 
+$$\Delta E = \hbar \omega = E_g + \frac{\hbar^2 n^2}{8 m^*_{e} d^2} + \frac{\hbar^2 k^2}{2 m^*_{e}} + \frac{\hbar^2 n'^2}{8 m^*_{h} d^2} + \frac{\hbar^2 k'^2}{2 m^*_{h}} $$
+Where n and n' are the quantum numbers for electrons and holes respectively. All this for $n=n'=1$ for the first absorption peak, and $k=k'=0$ for normal incidence.
 
 
 
