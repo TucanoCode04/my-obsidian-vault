@@ -19,8 +19,14 @@ We will use a model that consists on a 1D channel that connects two contacts (so
 - The contacts are reflectionless, meaning that electrons entering the contacts do not reflect back into the channel.
 So the transport in the wire happens because electrons with negative momentum (moving from right to left) are injected from the right contact with Fermi level $E_{FR}$, and electrons with positive momentum (moving from left to right) are injected from the left contact with Fermi level $E_{FL}$. The net current is then given by the difference between the currents contributed by electrons from each contact(maybe it's the contrary, check).
 
-The dispersion relation is the sum of the kinetic energy along the wire and the quantized energy levels due to confinement:$$E_{n,k_x} = \frac{\hbar^2 k_x^2}{2m^*} + E_n$$Where $E_n = \frac{\hbar^2 n^2 }{8mL^2}$ represents the quantized energy levels due to confinement in the transverse directions and is called cut-off energy.
-We will consider the c
+The dispersion relation is the sum of the kinetic energy along the wire and the quantized energy levels due to confinement:$$E_{n,k_x} = \frac{\hbar^2 k_x^2}{2m^*} + E_n$$Where $E_n = \frac{\hbar^2 n^2 }{8mL^2}$ represents the quantized energy levels due to confinement in the transverse directions (this time y and z) and it's called cut-off energy for each subband n.
+We will consider the contribution of each separate subband n to the total current.
+![[Pasted image 20260114145839.png]]
+
+Let's consider a nanowire whose length is less than the electron mean free path $\lambda = v_F \tau$, where $v_F$ is the Fermi velocity and $\tau$ is the relaxation time. In this ballistic regime, electrons can traverse the nanowire without scattering, the wavefunction will then retain its phase coherence throughout the length of the wire. In semiconductor based nanowires, this regime can be achieved at low temperatures with lengths of thousands of nanometers, compared to the transverse dimensions of few nanometers.
+As we have shown the 1D DOS takes the form of $$D(E) = \begin{cases} \left(\frac{2m^*}{\hbar^2}\right)^{1/2} \frac{1}{\pi \sqrt{E - E_n}} & \text{for } E > E_n \\ 0 & \text{for } E \leq E_n \end{cases}$$which
+If the nanowire is in the x direction, the 3D wavefunction and energies can be expressed as:$$\psi_{n,k_x}(x,y,z) = \frac{1}{\sqrt{L_x}} e^{ik_x x} \chi_n(y,z)$$$$E_{n,k_x} = \frac{\hbar^2 k_x^2}{2m^*} + E_n$$Where $\chi_n(y,z) \propto \sin\left(\frac{n_y \pi y}{L_y}\right)\sin\left(\frac{n_z \pi z}{L_z}\right)$ represents the transverse wavefunction and $E_n = \frac{\hbar^2 \pi^2}{2m^*}\left(\frac{n_y^2}{L_y^2} + \frac{n_z^2}{L_z^2}\right)$ is the quantized energy levels due to confinement in the transverse directions (y and z).
+
 
 
 
