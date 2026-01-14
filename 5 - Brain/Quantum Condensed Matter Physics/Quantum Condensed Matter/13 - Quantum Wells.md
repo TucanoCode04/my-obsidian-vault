@@ -97,7 +97,8 @@ In this device, other than electrical confinement, we have optical confinement a
 #### 2D Electron Gas
 To create it we need a type I heterostructure, for example AlAs heavily doped n-type and GaAs undoped. The electrons from the AlAs will diffuse into the GaAs, creating a depletion region in the AlAs and an accumulation region in the GaAs, till the two Fermi levels align.
 In the GaAs region, we will have a triangular potential well at the interface, confining the electrons in the z direction, while they are free to move in the x-y plane, creating a two-dimensional electron gas (2DEG).
-The 2D electron gas 
+The 2D electron gas is characterized by high mobility, higher than metals, $\approx 10^6 cm^2/Vs$, because the electrons are confined in a region with low impurity scattering, since the dopants are far away in the AlAs layer.
+To each energy level in the triangular well corresponds a paraboloid in k-space, so we have subbands in the z direction and free particle behavior in the x-y plane.
 
 
 
