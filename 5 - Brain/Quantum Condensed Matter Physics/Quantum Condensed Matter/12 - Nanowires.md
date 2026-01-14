@@ -11,5 +11,15 @@ The total energy of a nanowire can be expressed as:$$E = \frac{\hbar^2 k_z^2}{2m
 To have a more compact way to write we assume $L_x = L_y$ and $n_x = n_y = n$, then we can rewrite the energy as:$$E = \frac{\hbar^2 k_z^2}{2m^*} + \frac{\hbar^2 n^2 }{8mL^2}$$The density of states (DOS) for a nanowire is given by:$$D(E) = \sum_n \left(\frac{2m^*}{\hbar^2}\right)^{1/2} \frac{1}{\pi \sqrt{E - E_n}}$$Where $E_n = \frac{\hbar^2 n^2 }{8mL^2}$ represents the quantized energy levels due to confinement in the transverse directions and it also determines the vertices of the parabolic subbands in the nanowire band structure.
 ![[Pasted image 20260114142444.png]]
 By focusing of a single subband (fixed n), the DOS becomes:$$D(E) = \begin{cases} \left(\frac{2m^*}{\hbar^2}\right)^{1/2} \frac{1}{\pi \sqrt{E - E_n}} & \text{for } E > E_n \\ 0 & \text{for } E \leq E_n \end{cases}$$This expression shows that the DOS diverges as the energy approaches the subband edge $E_n$ from above, indicating a high density of available states near the subband minima. 
+#### Current Calculation
+![[Pasted image 20260114142858.png]]
+We will use a model that consists on a 1D channel that connects 
+
+
+
+
+
+
+
 
 ## References
