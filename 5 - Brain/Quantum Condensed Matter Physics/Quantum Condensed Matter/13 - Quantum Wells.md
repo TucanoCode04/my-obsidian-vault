@@ -94,8 +94,10 @@ The emission coefficient depends again on $L_z$, the well width, because it dete
 You inject current into the quantum well region, creating a population inversion between the electron and hole subbands. When the population inversion is achieved, stimulated emission occurs, leading to coherent light output from the laser diode.
 In this device, other than electrical confinement, we have optical confinement as well, because the refractive index of the quantum well region is higher than that of the surrounding barrier layers, creating a waveguide structure that confines the light within the active region.
 
-
-
+#### 2D Electron Gas
+To create it we need a type I heterostructure, for example AlAs heavily doped n-type and GaAs undoped. The electrons from the AlAs will diffuse into the GaAs, creating a depletion region in the AlAs and an accumulation region in the GaAs, till the two Fermi levels align.
+In the GaAs region, we will have a triangular potential well at the interface, confining the electrons in the z direction, while they are free to move in the x-y plane, creating a two-dimensional electron gas (2DEG).
+The 2D electron gas 
 
 
 
