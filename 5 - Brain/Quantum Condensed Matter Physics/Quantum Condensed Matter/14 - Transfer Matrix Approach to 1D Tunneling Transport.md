@@ -38,4 +38,9 @@ This can also be written in matrix form:
 $$\begin{pmatrix} C \\ D \end{pmatrix} = T^{(21)} \begin{pmatrix} A \\ B \end{pmatrix}$$
 Where the transfer matrix $T^{(21)}$ (meaning from region 1 to region 2, or equally region 2 in terms of region 1) is given by:$$T^{(21)} = \frac{1}{2k_2} \begin{pmatrix} k_2 + k_1 & k_2 - k_1 \\ k_2 - k_1 & k_2 + k_1 \end{pmatrix}$$So basically the transfer matrix relates the coefficients of the wavefunctions on either side of the barrier, which depends on the potentials $V_1$ and $V_2$ (they define the region of space in which the electron is moving) and the energy of the electron $E$ (by changing the energy of the electron we change $k_1$ and $k_2$, so we change the probability of tunneling through the barrier). So $T^{(21)}(k_1, k_2)$. Just to be clear $M_2^{-1} M_1 = T^{(21)}$.
 
+From a wavefunction, we can evaluate the probability current density $J$, which is given by:
+$$J = \frac{\hbar e}{2mi} \left( \psi^* \frac{\partial\psi}{\partial  x} - \psi \frac{\partial\psi^*}{\partial x} \right)$$In our case the hamiltonian does not depend on time, so:$$\hat{H} = \hat{H}(x) \quad \Rightarrow \quad \Psi(x, t) = \psi(x) e^{-i\omega t}$$ So as we see in the current density expression the time dependent part cancels out,
+
+
+since the derivative is only with respect to $x$, so we can just consider the spatial part of the wavefunction $\psi(x)$. (When we have time independent hamiltonians the time dependence consists only of a phase factor that does not affect the probability density or current.)
 ## References
