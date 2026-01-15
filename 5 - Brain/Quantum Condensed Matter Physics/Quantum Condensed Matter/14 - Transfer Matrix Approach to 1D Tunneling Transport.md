@@ -32,4 +32,10 @@ One way to write these equations is in matrix form:
 $$\begin{pmatrix} 1 & 1 \\ ik_1 & -ik_1 \end{pmatrix} \begin{pmatrix} A \\ B \end{pmatrix} = \begin{pmatrix} 1 & 1 \\ ik_2 & -ik_2 \end{pmatrix} \begin{pmatrix} C \\ D \end{pmatrix} = M_1 \begin{pmatrix} A \\ B \end{pmatrix} = M_2 \begin{pmatrix} C \\ D \end{pmatrix}$$
 Where $M_1$ and $M_2$ are the matrices representing the boundary conditions at the interface.
 Another way to write this is to express the coefficients in region 2 in terms of those in region 1, as like the output in terms of the input:
+$$\begin{cases} C = A + B - D \\ k_1(A - B) = k_2(A+ B - D) - k_2 D \end{cases}$$
+$$\Rightarrow \begin{cases} C= \frac{1}{2k_2} \left(k_2 +k_1\right) A + \frac{1}{2k_2} \left(k_2 - k_1\right) B \\ D = \frac{1}{2k_2} \left(k_2 - k_1\right) A + \frac{1}{2k_2} \left(k_2 + k_1\right) B \end{cases}$$
+This can also be written in matrix form:
+$$\begin{pmatrix} C \\ D \end{pmatrix} = T^{(21)} \begin{pmatrix} A \\ B \end{pmatrix}$$
+Where the transfer matrix $T^{(21)}$ (meaning from region 1 to region 2, or equally region 2 in terms of region 1) is given by:$$T^{(21)} = \frac{1}{2k_2} \begin{pmatrix} k_2 + k_1 & k_2 - k_1 \\ k_2 - k_1 & k_2 + k_1 \end{pmatrix}$$So basically the transfer matrix relates the coefficients of the wavefunctions on either side of the barrier, which depends on the potentials $V_1$ and $V_2$ (they define the region of space in which the electron is moving) and the energy of the electron $E$ (by changing the energy of the electron we change $k_1$ and $k_2$, so we change the probability of tunneling through the barrier). So $T^{(21)}(k_1, k_2)$. Just to
+
 ## References
