@@ -47,4 +47,20 @@ We want to see how to calculate $T$ and $R$ using the transfer matrix $T^{(21)}$
 In this kind of simple systems, without time dependence and the wavefunctions being symmetric plane waves with respect to the x-axis, a theorem states that the determinant of the transfer matrix is equal to 1: $det(T) = 1$. This property simplifies the expressions for the transmission and reflection coefficients:
 $$T = \frac{k_2}{k_1} \left| \frac{1}{T_{22}^{(21)}} \right|^2 \quad , \quad R = \left| \frac{T_{21}^{(21)}}{T_{22}^{(21)}} \right|^2$$
 
+![[Pasted image 20260115155422.png]]
+So if for example we add another barrier at position $x = d$, we can define a new region 3 ($x > d$) with potential $V_3$ and wavevector $k_3$. We can define what would happen in terms of transfer matrices:
+$$\begin{pmatrix} E \\ F \end{pmatrix} = T^{(32)} \begin{pmatrix} C \\ D \end{pmatrix}$$
+Where $E$ and $F$ are the coefficients of the wavefunction in region 3, and $T^{(32)}$ is the transfer matrix from region 2 to region 3. Now we can combine the two transfer matrices to relate the coefficients in region 3 directly to those in region 1:$$\begin{pmatrix} E \\ F \end{pmatrix} = T^{(32)} T^{(21)} \begin{pmatrix} A \\ B \end{pmatrix} = T^{(31)} \begin{pmatrix} A \\ B \end{pmatrix}$$Where $T^{(31)} = T^{(32)} T^{(21)}$ is the combined transfer matrix from region 1 to region 3. This approach can be extended to multiple barriers or regions by multiplying the corresponding transfer matrices, allowing us to analyze complex tunneling structures efficiently.
+And if we assume that there is no incoming wave from region 3, so $F = 0$, we can again derive the transmission and reflection coefficients for the entire structure using the elements of the combined transfer matrix $T^{(31)}$:
+$$T = \frac{k_3}{k_1} \left| \frac{det(T^{(31)})}{T_{22}^{(31)}} \right|^2 \quad , \quad R = \left| \frac{T_{21}^{(31)}}{T_{22}^{(31)}} \right|^2$$
+Which again simplifies to:
+$$T = \frac{k_3}{k_1} \left| \frac{1}{T_{22}^{(31)}} \right|^2 \quad , \quad R = \left| \frac{T_{21}^{(31)}}{T_{22}^{(31)}} \right|^2$$
+
+(The professor doesn't specify the reflection everytime, but it's good to have it for completeness)
+
+
+
+
+
+
 ## References

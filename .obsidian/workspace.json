@@ -177,8 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,6 +193,7 @@
   },
   "active": "c8947bcfac3bb783",
   "lastOpenFiles": [
+    "Pasted image 20260115155422.png",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/13 - Quantum Wells.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/14 - Transfer Matrix Approach to 1D Tunneling Transport.md",
     "5 - Brain/Fundamental of Technological Processes/Cryogeny and Superconductivity/00 - Thermodynamics Basis.md",
@@ -231,7 +231,6 @@
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/10 - Semi-Classical Boltzmann Equation.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/08 - Photon exciting an Electron in a Semiconductor(or Insulator).md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/11 - Nanostructures DOS.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Qubits/00 - Spin Basics.md",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits",
     "5 - Brain/Untitled 1.base",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/Untitled",
