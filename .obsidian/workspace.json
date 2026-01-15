@@ -177,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,7 +192,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0d9bc37f9ef97e25",
+  "active": "c8947bcfac3bb783",
   "lastOpenFiles": [
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/13 - Quantum Wells.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/14 - Transfer Matrix Approach to 1D Tunneling Transport.md",
