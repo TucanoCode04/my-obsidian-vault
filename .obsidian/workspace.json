@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Fundamental of Technological Processes/Cryogenics and Superconductivity/07 - Dilution Refrigerator.md",
+                "file": "5 - Brain/Fundamental of Technological Processes/Cryogenics and Superconductivity/01 - Thermodynamics of Refrigeration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07 - Dilution Refrigerator"
+              "title": "01 - Thermodynamics of Refrigeration"
             }
           }
         ]
@@ -194,6 +194,7 @@
   },
   "active": "c8947bcfac3bb783",
   "lastOpenFiles": [
+    "5 - Brain/Fundamental of Technological Processes/Cryogenics and Superconductivity/07 - Dilution Refrigerator.md",
     "Pasted image 20260115172534.png",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/14 - Transfer Matrix Approach to 1D Tunneling Transport.md",
     "Pasted image 20260115155422.png",
@@ -209,7 +210,6 @@
     "Pasted image 20260114184853.png",
     "Pasted image 20260114173454.png",
     "Pasted image 20260114173322.png",
-    "Pasted image 20260114173006.png",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/12 - Nanowires.md",
     "5 - Brain/Cybersecurity/Cybersec/06 - Security of Network Applications.md",
     "5 - Brain/Cybersecurity/Cybersec/08 - Quantum.md",
@@ -223,7 +223,6 @@
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/01 - Quantum Dots as Qubits.md",
     "5 - Brain/Mathematics for Quantum Engineering/Assignment/Assignment Adami.md",
     "5 - Brain/Mathematics for Quantum Engineering/Assignment",
-    "5 - Brain/Fundamental of Technological Processes/Cryogenics and Superconductivity/07 - Dilution Refrigerator.md",
     "5 - Brain/Fundamental of Technological Processes/Cryogenics and Superconductivity/06 - 3He Cryostats.md",
     "5 - Brain/Fundamental of Technological Processes/Cryogenics and Superconductivity/05 - 4He Cryostats.md",
     "5 - Brain/Fundamental of Technological Processes/Cryogenics and Superconductivity/04 - Thermal Contact and Thermal Isolation.md",
