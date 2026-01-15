@@ -12,7 +12,8 @@ In the liquid $^3$He-$^4$He mixture the isotopes concentrations are expressed as
 The temperature of the superfluid phase transition of pure $^4$He is depressed (meaning it occurs at a lower temperature) by diluting the Bose liquid $^4$He with the Fermi liquid $^3$He. At temperatures below approximately 0.87 K, and concentration $x=0.675$, the $\lambda$-line (the line representing the superfluid transition) meets the phase separation curve (representing the boundary between mixed and phase-separated states). Below this temperature, the isotopes only mix for limited concentrations depending on the temperature.
 The shaded region is a non-accessible region of temperature-concentration phase diagram.
 ![[Pasted image 20260115172534.png]]
-If we cool a mixture of $^3$He and $^4$He below 0.87 K with a concentration $x >$ 6.6%, 
+If we cool a mixture of $^3$He and $^4$He below 0.87 K with a concentration $x >$ 6.6%, the liquid will separate into two phases: a concentrated phase, rich in $^3$He that floats on top of $^4$He since it is less dense, and a dilute phase, rich in $^4$He.
+If the temperature is decreased to close to absolute zero, the $^3$He rich liquid becomes almost pure $^3$He 
 
 
 
