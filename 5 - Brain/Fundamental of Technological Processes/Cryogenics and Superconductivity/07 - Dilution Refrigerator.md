@@ -13,7 +13,8 @@ The temperature of the superfluid phase transition of pure $^4$He is depressed (
 The shaded region is a non-accessible region of temperature-concentration phase diagram.
 ![[Pasted image 20260115172534.png]]
 If we cool a mixture of $^3$He and $^4$He below 0.87 K with a concentration $x >$ 6.6%, the liquid will separate into two phases: a concentrated phase, rich in $^3$He that floats on top of $^4$He since it is less dense, and a dilute phase, rich in $^4$He.
-If the temperature is decreased to close to absolute zero, the $^3$He rich liquid becomes almost pure $^3$He 
+If the temperature is decreased to close to absolute zero, the $^3$He rich liquid becomes almost pure $^3$He, but the great surprise comes at the $^4$He rich phase: even at absolute zero, it contains about 6.6% of $^3$He at saturated vapor pressure. This means that at very low temperatures, there is always a finite solubility of $^3$He in $^4$He, which is important to know for the operation of the dilution refrigerator.
+For classical systems, a finite solubility means $S>0$ at $T=0K$, which contradicts the third law of thermodynamics, since the entropy of a pure substance is zero at absolute zero temperature and they should become 2 pure separated phases with zero entropy. However, in this case, the finite solubility is due to quantum effects: for $T\rightarrow 0K$, the $^3$He-$^4$He mixture behaves as a degenerate Fermi system in the ground state for the $^3$He atoms (one particle per quantum state up to the Fermi energy) immersed in a superfluid Bose system for the $^4$He atoms, both with $S\rightarrow 0$ as $T\rightarrow 0K$. 
 
 
 
