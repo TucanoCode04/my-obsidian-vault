@@ -107,6 +107,10 @@ We basically install a cascade of attenuators at different temperature stages, s
 **Radiative Load**
 Each temperature stage of the dilution refrigerator is enclosed by a radiation shield, to minimize radiative heat load from higher temperature stages to lower temperature stages, except for the cold plate. The heat shields at 50K and 4K are made of Aluminum, the ones at the Still and MXC of
 C, with an emissivity of 0.06.
+![[Pasted image 20260116162925.png]]
+![[Pasted image 20260116162934.png]]
+![[Pasted image 20260116162939.png]]
+![[Pasted image 20260116162947.png]]
 
 
 

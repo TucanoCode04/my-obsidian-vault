@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Fundamental of Technological Processes/Cryogenics and Superconductivity/07 - Dilution Refrigerator.md",
+                "file": "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/14 - Transfer Matrix Approach to 1D Tunneling Transport.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07 - Dilution Refrigerator"
+              "title": "14 - Transfer Matrix Approach to 1D Tunneling Transport"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -194,19 +193,18 @@
   },
   "active": "c8947bcfac3bb783",
   "lastOpenFiles": [
+    "5 - Brain/Fundamental of Technological Processes/Cryogenics and Superconductivity/07 - Dilution Refrigerator.md",
+    "Pasted image 20260116162947.png",
+    "Pasted image 20260116162939.png",
+    "Pasted image 20260116162934.png",
+    "Pasted image 20260116162925.png",
     "Pasted image 20260116162351.png",
     "Pasted image 20260116162002.png",
     "Pasted image 20260116161925.png",
     "Pasted image 20260116155952.png",
     "Pasted image 20260116134608.png",
     "Pasted image 20260116134521.png",
-    "Pasted image 20260116134031.png",
-    "Pasted image 20260116134025.png",
-    "Pasted image 20260116133211.png",
-    "Pasted image 20260116133050.png",
-    "Pasted image 20260116132725.png",
     "5 - Brain/Fundamental of Technological Processes/Cryogenics and Superconductivity/01 - Thermodynamics of Refrigeration.md",
-    "5 - Brain/Fundamental of Technological Processes/Cryogenics and Superconductivity/07 - Dilution Refrigerator.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/14 - Transfer Matrix Approach to 1D Tunneling Transport.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/13 - Quantum Wells.md",
     "5 - Brain/Fundamental of Technological Processes/Cryogenics and Superconductivity/00 - Thermodynamics Basis.md",
