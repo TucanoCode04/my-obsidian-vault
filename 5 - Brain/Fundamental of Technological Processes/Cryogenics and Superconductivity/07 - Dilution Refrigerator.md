@@ -35,7 +35,10 @@ So we can see that the cooling power will be $\dot{Q} \approx 84 \dot{n}_3 T^2$,
 ##### Osmotic Pressure
 ![[Pasted image 20260116113824.png]]
 As we will see later we have isotopic helium mixtures at varying concentrations and temperature in our refrigerators, in such situations an osmotic pressure $\pi$ develops in the $^3$He-$^4$He mixture. By considering them as ideal solutions (so in the classical regime where $T>T_F$):$$\pi V_{M,4}=xRT$$Where $V_{M,4}$ is the molar volume of pure $^4$He. In a dilution refrigerator a tube connect the mixture in the mixing chamber (where phase separation happens) to the still (where $^3$He is evaporated), so an osmotic pressure difference $\pi_{MC}-\pi_{ST} = (X_{MC}T_{MC}-X_{ST}T_{ST})\frac{R}{V_{M,4}}$develops.
-If no $^3
+If no $^3$He is pumped from the still, no difference in osmotic pressure, for example assuming the mixing chamber with $6.6\%$ mixture at 10mK and the still at 0.7K, we have:$$X_{ST} = X_{MC}(\frac{T_{MC}}{T_{ST}}) = 6.6\%(\frac{0.01}{0.7}) = 0.094\%$$Instead, if we pump $^3$He from the still, the concentration in the still decreases, leading to an increase in the osmotic pressure difference, which will push $^3$He atoms from the mixing chamber to the still, thus more $^3$He atoms will cross the phase boundary from concentrated phase to dilute phase in the mixing chamber, leading to more cooling power. The maximum osmotic pressure is obtained when the concentration of $^3$He in the still goes to zero:$$X_{ST} \rightarrow 0 \Rightarrow \Delta_{\pi_{max}} = X_{MC}T_{MC}\frac{R}{V_{M,4}} = 20 mbar$$This pressure correspond to the hydrostatic pressure of 1m of liquid helium, so the osmotic pressure will be large enough to drive the $^3$He from the mixing chamber into the still even if they are separated by 1m height difference.
+##### Realization of $^3$He-$^4$He Dilution Refrigerators
+![[Pasted image 20260116120754.png]]
+
 
 
 
