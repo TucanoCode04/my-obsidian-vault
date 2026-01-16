@@ -27,6 +27,13 @@ The lighter isotope $^3$He with it's nuclear spin $\frac{1}{2}$ behaves as a Fer
 (I put the whole slide for the colors)
 
 ##### Cooling Power of the Dilution Process
+By measuring the specific heats, we know that the enthalpy of $^3$He in the dilute phase is higher than that in the concentrated phase (since it's binding energy is higher), so we have the heat of mixing that can be used for cooling. $$\dot{Q}=\dot{n}_3[H_{D}(T)-H_{C}(T)]$$This equation suggests us that if we transfer $^3$He atoms from the concentrated phase to the dilute phase at a rate of $\dot{n}_3$ moles per second, cooling will result according to the enthalpy difference between the two phases at temperature T, because enthalpy is give by:$$H(T)-H(0)=\int_0^T C(T)dT$$So we must have $C_{3,D}(T) > C_{3,C}(T)$ for cooling to occur. (Calculations)
+![[Pasted image 20260116113522.png]]
+So we can see that the cooling power will be $\dot{Q} \approx 84 \dot{n}_3 T^2$, which seems small, but at low temperatures $T<0.35K$ is much higher than the cooling power of evaporating $^3$He which is $\dot{Q}_{evap} = \dot{n}_3 L_3 \propto p(T) \propto e^{-\frac{1}{T}}$. 
+![[Pasted image 20260116113805.png]]
+
+##### Osmotic Pressure
+
 
 
 
