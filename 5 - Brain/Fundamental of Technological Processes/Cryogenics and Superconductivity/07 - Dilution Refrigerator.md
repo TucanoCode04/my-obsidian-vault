@@ -83,6 +83,7 @@ We can also distinguish between:
 - **Drive lines:** used to control the qubits by applying microwave pulses and for probing the readout resonators. The bandwidth of these lines is typically from 4 to 8 GHz, to cover the qubit (4-6 GHz) and resonator (4-8 GHz) frequencies. 
 - **Flux lines:** used to control through its dynamical flux tunability the transition frequency of the qubits. Low pass filters are used to suppress the bandwidth to 1 GHz to reduce thermal noise.
 - **Output lines:** used to readout the state of the qubits through a series of cryogenic and room temperature amplifiers. 
+![[Pasted image 20260116161925.png]]
 ##### Sources of Heat Load
 Three main sources of heat load on the mixing chamber stage are identified:
 1. **Passive load:** due to heat conduction from higher temperature stages to the mixing chamber through the cables. 
@@ -92,7 +93,7 @@ Three main sources of heat load on the mixing chamber stage are identified:
 **Passive Load**
 To minimize passive load we use cable materials with low thermal conductivity.
 ![[Pasted image 20260116155952.png]]
-
+![[Pasted image 20260116162002.png]]
 **Active Load**
 The active load depends on the attenuation of the microwave signals along the RF lines and the signal levels required at the chip, and on the attenuators installed at each temperature stage.
 Although the signals required to drive or readout qubits are small, -66 dBm for a 20 ns $\pi$-pulse, the power applied at the input of the dilution refrigerator is much larger, because we need to attenuate at least 60 dB for the blackbody radiation present in cables at room temperature to reach the thermal photon occupation number of fewer than $10^{-3}$ at the mixing chamber stage. The blackbody radiation of a one dimensional cable is called Johnson-Nyquist noise.
@@ -100,6 +101,12 @@ Although the signals required to drive or readout qubits are small, -66 dBm for 
 In a coaxial cable connecting room temperature to lower temperature stages thermal photons propagate down the line, leading to an an increased thermal photon occupation number at the mixing chamber stage. To suppress this effect, we install attenuators at various temperature stages of the dilution refrigerator. Each attenuator with an attenuation A=20 dB= 100 in power effectively acts as a beamsplitter which transmits 1% of the incoming radiation and adds 99% of its own thermal noise (blackbody radiation) at its own temperature stage. So 99% of the radiation incident on the attenuator is thermalized, to prevent the attenuator from heating up, it needs to be well thermalized to the temperature stage.
 We basically install a cascade of attenuators at different temperature stages, so that the total attenuation is sufficient to reduce the thermal photon occupation number at the mixing chamber stage to below $10^{-3}$, while keeping the active load on each temperature stage within the cooling power of that stage.
 
+**Required Signal Levels**
+![[Pasted image 20260116162351.png]]
+
+**Radiative Load**
+Each temperature stage of the dilution refrigerator is enclosed by a radiation shield, to minimize radiative heat load from higher temperature stages to lower temperature stages, except for the cold plate. The heat shields at 50K and 4K are made of Aluminum, the ones at the Still and MXC of
+C, with an emissivity of 0.06.
 
 
 
