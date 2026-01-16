@@ -20,7 +20,8 @@ The lighter isotope $^3$He with it's nuclear spin $\frac{1}{2}$ behaves as a Fer
 ![[Pasted image 20260115191942.png]]
 ##### Finite Solubility of $^3$He in $^4$He at Low Temperatures
 - **$^3$He in pure $^3$He(x=1):** The chemical potential(which is related to the binding energy) of pure $^3$He is given by the latent heat of evaporation $\mu_{3,C}=L_{3}$. So that the energy required to remove one atom from the liquid in vacuum is $\epsilon_{3,C}=L_{3}/N_A$.
-- **One $^3$He atom in pure $^4$He(x=0):** for the dilute phase (phase in which $^3$He is dissolved in $^4$He) the binding energy of one $^3$He atom in pure $^4$He is $\mu_{3,D}/N_A=-\epsilon_{3,D} <-\epsilon_{3,C}$, since the $^3$He atom has a smaller mass, so it has a larger zero-point energy than the $^4$He atoms. Therefore, in the liquid phase $^4$He atoms occupy smaller volume than $^3$He atoms, the $
+- **One $^3$He atom in pure $^4$He(x=0):** for the dilute phase (phase in which $^3$He is dissolved in $^4$He) the binding energy of one $^3$He atom in pure $^4$He is $\mu_{3,D}/N_A=-\epsilon_{3,D} <-\epsilon_{3,C}$, since the $^3$He atom has a smaller mass, so it has a larger zero-point energy than the $^4$He atoms. Therefore, in the liquid phase $^4$He atoms occupy smaller volume than $^3$He atoms, the $^3$He atom will then be closer to $^4$He atoms than to other $^3$He atoms, leading to a stronger binding energy. So in the end it's binding is stronger in $^4$He than in $^3$He, as $\epsilon_{3,D}>\epsilon_{3,C}$.
+- **Many $^3$He atoms in $^4$He (0<x<1):** When more $^3$He atoms are added to the $^4$He liquid, they will start to feel attractive interactions among themselves, due to a magnetic interaction between their nuclear magnetic moments. And due to a density effect, $^3$He has a larger zero-point motion than $^4$He, so it needs more space, thus the liquid nearby $^3$He atoms will be slightly diluted, 
 
 
 
