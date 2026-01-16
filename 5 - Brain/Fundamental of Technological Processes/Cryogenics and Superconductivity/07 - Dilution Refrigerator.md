@@ -33,6 +33,7 @@ So we can see that the cooling power will be $\dot{Q} \approx 84 \dot{n}_3 T^2$,
 ![[Pasted image 20260116113805.png]]
 
 ##### Osmotic Pressure
+![[Pasted image 20260116113824.png]]
 
 
 
