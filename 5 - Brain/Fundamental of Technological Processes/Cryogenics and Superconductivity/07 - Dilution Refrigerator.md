@@ -89,6 +89,14 @@ Three main sources of heat load on the mixing chamber stage are identified:
 2. **Active load:** due to the dissipation (Joule Heating) of applied microwave signals in the attenuators and filters installed along the RF lines.
 3. **Radiative load:** due to blackbody radiation from higher temperature stages and shields to lower temperature stages.
 
-**PAs
+**Passive Load**
+To minimize passive load we use cable materials with low thermal conductivity.
+![[Pasted image 20260116155952.png]]
+
+**Active Load**
+
+
+
+
 
 ## References
