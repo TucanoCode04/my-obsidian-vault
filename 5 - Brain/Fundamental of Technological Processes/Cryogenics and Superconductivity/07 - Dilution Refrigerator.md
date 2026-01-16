@@ -38,8 +38,15 @@ As we will see later we have isotopic helium mixtures at varying concentrations 
 If no $^3$He is pumped from the still, no difference in osmotic pressure, for example assuming the mixing chamber with $6.6\%$ mixture at 10mK and the still at 0.7K, we have:$$X_{ST} = X_{MC}(\frac{T_{MC}}{T_{ST}}) = 6.6\%(\frac{0.01}{0.7}) = 0.094\%$$Instead, if we pump $^3$He from the still, the concentration in the still decreases, leading to an increase in the osmotic pressure difference, which will push $^3$He atoms from the mixing chamber to the still, thus more $^3$He atoms will cross the phase boundary from concentrated phase to dilute phase in the mixing chamber, leading to more cooling power. The maximum osmotic pressure is obtained when the concentration of $^3$He in the still goes to zero:$$X_{ST} \rightarrow 0 \Rightarrow \Delta_{\pi_{max}} = X_{MC}T_{MC}\frac{R}{V_{M,4}} = 20 mbar$$This pressure correspond to the hydrostatic pressure of 1m of liquid helium, so the osmotic pressure will be large enough to drive the $^3$He from the mixing chamber into the still even if they are separated by 1m height difference.
 ##### Realization of $^3$He-$^4$He Dilution Refrigerators
 ![[Pasted image 20260116120754.png]]
+The physics of the evaporation and dilution refrigerator is quite different:
+- in the evaporation we rely on the classical heat of evaporation cooling
+- in the dilution we rely on the enthalpy of mixing two quantum liquids, where the cooling comes from quantum effects: the different zero-point motions of the two isotopes and the different statistics which we have to consider.
 
+Cooling occurs when $^3$He atoms cross from the rich to the poor side, they are driven up along the liquid mixture column by a pressure caused by the osmotic pressure difference between the two sides, which is maintained by pumping $^3$He vapor from the still. The $^3$He atoms reach the still (in the image the $^3$He pump), which operate like a distillation chamber, evaporating pure $^3$He from the liquid mixture (it is pure because the vapor pressure of $^3$He is much higher than that of $^4$He so, even if dilute, the mixture has 90% of $^3$He vapor above it, so by pumping we only extract $^3$He). 
+![[Pasted image 20260116122727.png]]
 
+##### Properties of the main components
+- **Mixing Chamber:** 
 
 
 
