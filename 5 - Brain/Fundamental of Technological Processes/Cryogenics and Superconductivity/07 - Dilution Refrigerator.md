@@ -34,7 +34,8 @@ So we can see that the cooling power will be $\dot{Q} \approx 84 \dot{n}_3 T^2$,
 
 ##### Osmotic Pressure
 ![[Pasted image 20260116113824.png]]
-
+As we will see later we have isotopic helium mixtures at varying concentrations and temperature in our refrigerators, in such situations an osmotic pressure $\pi$ develops in the $^3$He-$^4$He mixture. By considering them as ideal solutions (so in the classical regime where $T>T_F$):$$\pi V_{M,4}=xRT$$Where $V_{M,4}$ is the molar volume of pure $^4$He. In a dilution refrigerator a tube connect the mixture in the mixing chamber (where phase separation happens) to the still (where $^3$He is evaporated), so an osmotic pressure difference $\pi_{MC}-\pi_{ST} = (X_{MC}T_{MC}-X_{ST}T_{ST})\frac{R}{V_{M,4}}$develops.
+If no $^3
 
 
 
