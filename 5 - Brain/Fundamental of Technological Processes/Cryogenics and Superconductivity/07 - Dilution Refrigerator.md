@@ -46,7 +46,7 @@ Cooling occurs when $^3$He atoms cross from the rich to the poor side, they are 
 ![[Pasted image 20260116122727.png]]
 
 ##### Properties of the main components
-- **Mixing Chamber:** 
+- **Mixing Chamber:** From an enthalpy balance applied to the mixing chamber and the exit of the heat exchanger, we have:$$\dot{Q} = \dot{n}_3[H_{D}(T_{MC})-H_{C}(T_{EX})] = \dot{n}_3[95T_{MC}^2 - 11T_{EX}^2] $$Therefore, to have the maximum cooling power, we need to have $T_{EX} = T_{MC}$, so that:$$\dot{Q}_{MC} = 84 \dot{n}_3 T_{MC}^2$$So the minimum temperature achievable is:$$T_{MC,min} = \sqrt{\frac{\dot{Q}}{84 \dot{n}_3}}$$On the other hand the minimum cooling power $\dot{Q} = 0$ is reached for $T_{EX} = 3T_{MC}$. So this imposed the requirement that the liquid should leave the last heat exchanger at a temperature no higher than three times the temperature that we want to obtain in the mixing chamber. So we need really efficient heat exchangers.![[Pasted image 20260116125838.png]]
 
 
 
