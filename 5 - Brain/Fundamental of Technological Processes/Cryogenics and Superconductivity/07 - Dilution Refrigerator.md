@@ -94,7 +94,11 @@ To minimize passive load we use cable materials with low thermal conductivity.
 ![[Pasted image 20260116155952.png]]
 
 **Active Load**
+The active load depends on the attenuation of the microwave signals along the RF lines and the signal levels required at the chip, and on the attenuators installed at each temperature stage.
+Although the signals required to drive or readout qubits are small, -66 dBm for a 20 ns $\pi$-pulse, the power applied at the input of the dilution refrigerator is much larger, because we need to attenuate at least 60 dB for the blackbody radiation present in cables at room temperature to reach the thermal photon occupation number of fewer than $10^{-3}$ at the mixing chamber stage. The blackbody radiation of a one dimensional cable is called Johnson-Nyquist noise.
 
+In a coaxial cable connecting room temperature to lower temperature stages thermal photons propagate down the line, leading to an an increased thermal photon occupation number at the mixing chamber stage. To suppress this effect, we install attenuators at various temperature stages of the dilution refrigerator. Each attenuator with an attenuation A=20 dB= 100 in power effectively acts as a beamsplitter which transmits 1% of the incoming radiation and adds 99% of its own thermal noise (blackbody radiation) at its own temperature stage. So 99% of the radiation incident on the attenuator is thermalized, to prevent the attenuator from heating up, it needs to be well thermalized to the temperature stage.
+We basically install a cascade of attenuators at different temperature stages, so that the total attenuation is sufficient to reduce the thermal photon occupation number at the mixing chamber stage to below $10^{-3}$, while keeping the active load on each temperature stage within the cooling power of that stage.
 
 
 
