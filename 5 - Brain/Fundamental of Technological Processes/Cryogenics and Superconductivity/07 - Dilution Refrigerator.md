@@ -64,10 +64,18 @@ The most powerful was build by Frossati with a maximum circulation rate of $\dot
 For use in high pulsed magnetic fields, refrigerator made of plastic are often used to reduce eddy current heating. The lower end needs to be small to be able to fit in the bore of the magnet, and they are mainly made of machinable PVC.
 ![[Pasted image 20260116134521.png]]
 
-##### Heat Budget of Large-Scale Quantum Computers based on Superconducting Circuits
+#### Heat Budget of Large-Scale Quantum Computers based on Superconducting Circuits
 ![[Pasted image 20260116134608.png]]
 When scaling dilute refrigerators to accommodate large-scale quantum computers an increase number in microwave lines and DC cables is required to control and readout the qubits. They connect the classical control electronics at room temperature to the quantum processor at the mixing chamber stage, leading to a significant heat load on the refrigerator due to heat conduction. Besides this passive load, active loads arise from the dissipation in attenuators, filters, and amplifiers. 
-Engineered dissipation is necessary to thermalize the radiation fields in the microwave lines and reduce th
+Engineered dissipation is necessary to thermalize the radiation fields in the microwave lines and reduce the number of thermal photons incident on the qubits, which would otherwise lead to qubit decoherence.
+The goal is to design a thermally optimized robust cabling scheme and cryogenic setup suitable for operation from 50 to 150 qubits at a temperature of 14mK.
 
+##### Cabling for Superconducting Circuits
+When designing the control and output lines connecting the quantum processor we need to provide strong enough coupling rates to perform fast high-fidelity qubit operations and readout, while minimizing decoherence due to the coupling of the qubits to the environment through these lines. 
+Thermal noise, mainly originating from the connection to room temperature, not only leads to qubit dephasing, but also to the creation of quasi particles and thus to dissipation and reduced energy relaxation times. To suppress thermal noise, attenuators, thermalization cables and microwave components are installed at various temperature stages of the dilution refrigerator. It's both important to protect the processor from thermal radiation and to reduce the heat load on the mixing chamber stage.
+In addition, we use thermal anchors, filters with stop bands outside the frequency range of interest, and infra red blocking filters to reduce the heat load on the mixing chamber stage.
+
+We distinguish two types of cabling:
+- **DC lines:** made from twisted pairs of wires, that are low pass filtered and thermalized at each temperature stage of the refrigerator. 
 
 ## References
