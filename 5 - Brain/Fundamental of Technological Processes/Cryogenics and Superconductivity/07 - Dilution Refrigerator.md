@@ -66,5 +66,8 @@ For use in high pulsed magnetic fields, refrigerator made of plastic are often u
 
 ##### Heat Budget of Large-Scale Quantum Computers based on Superconducting Circuits
 ![[Pasted image 20260116134608.png]]
+When scaling dilute refrigerators to accommodate large-scale quantum computers an increase number in microwave lines and DC cables is required to control and readout the qubits. They connect the classical control electronics at room temperature to the quantum processor at the mixing chamber stage, leading to a significant heat load on the refrigerator due to heat conduction. Besides this passive load, active loads arise from the dissipation in attenuators, filters, and amplifiers. 
+Engineered dissipation is necessary to thermalize the radiation fields in the microwave lines and reduce th
+
 
 ## References
