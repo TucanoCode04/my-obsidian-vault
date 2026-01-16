@@ -54,5 +54,17 @@ Cooling occurs when $^3$He atoms cross from the rich to the poor side, they are 
 	- **Rectangular heat exchanger:** welded Cu-Ni foil filled with sintered metal powder to a Cu-Ni foil.  ![[Pasted image 20260116133211.png]]
 
 ##### Examples of $^3$He-$^4$He Dilution Refrigerators
+Home made:
+![[Pasted image 20260116134025.png]]
+Commercial:
+![[Pasted image 20260116134031.png]]
+
+The most powerful was build by Frossati with a maximum circulation rate of $\dot{n}_3 = 10 mmol/s$, leading to a cooling power of $\dot{Q} = 20 \mu W$ at $T_{MC} = 10 mK$, with a minimum temperature of 1.9 mK. It contains a lot of Ag and and area of 2300 m$^2$ of sintered heat exchangers.
+
+For use in high pulsed magnetic fields, refrigerator made of plastic are often used to reduce eddy current heating. The lower end needs to be small to be able to fit in the bore of the magnet, and they are mainly made of machinable PVC.
+![[Pasted image 20260116134521.png]]
+
+##### Heat Budget of Large-Scale Quantum Computers based on Superconducting Circuits
+![[Pasted image 20260116134608.png]]
 
 ## References
