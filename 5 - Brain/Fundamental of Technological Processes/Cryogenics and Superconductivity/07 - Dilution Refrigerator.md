@@ -19,6 +19,8 @@ At $0.5K$, $^4$He is almost fully condensed into the quantum ground state, there
 The lighter isotope $^3$He with it's nuclear spin $\frac{1}{2}$ behaves as a Fermi liquid, it has to obey Fermi and Pauli statictics, like the conduction electrons in a metal, but at much lower temperatures. 
 ![[Pasted image 20260115191942.png]]
 ##### Finite Solubility of $^3$He in $^4$He at Low Temperatures
+- **$^3$He in pure $^3$He(x=1):** The chemical potential(which is related to the binding energy) of pure $^3$He is given by the latent heat of evaporation $\mu_{3,C}=L_{3}$. So that the energy required to remove one atom from the liquid in vacuum is $\epsilon_{3,C}=L_{3}/N_A$.
+- **One $^3$He atom in pure $^4$He(x=0):** for the dilute phase (phase in which $^3$He is dissolved in $^4$He) the binding energy of one $^3$He atom in pure $^4$He is $\mu_{3,D}/N_A=-\epsilon_{3,D} <-\epsilon_{3,C}$, since the $^3$He atom has a smaller mass, so it has a larger zero-point energy than the $^4$He atoms. Therefore, in the liquid phase $^4$He atoms occupy smaller volume than $^3$He atoms, the $
 
 
 
