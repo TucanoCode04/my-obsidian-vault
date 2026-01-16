@@ -76,6 +76,19 @@ Thermal noise, mainly originating from the connection to room temperature, not o
 In addition, we use thermal anchors, filters with stop bands outside the frequency range of interest, and infra red blocking filters to reduce the heat load on the mixing chamber stage.
 
 We distinguish two types of cabling:
-- **DC lines:** made from twisted pairs of wires, that are low pass filtered and thermalized at each temperature stage of the refrigerator. 
+- **DC lines:** made from twisted pairs of wires, that are low pass filtered and thermalized at each temperature stage of the refrigerator.
+- **RF lines:** semi rigid microwave cables and contain microwave components like attenuators, circulators, isolators, and amplifiers.
+
+We can also distinguish between:
+- **Drive lines:** used to control the qubits by applying microwave pulses and for probing the readout resonators. The bandwidth of these lines is typically from 4 to 8 GHz, to cover the qubit (4-6 GHz) and resonator (4-8 GHz) frequencies. 
+- **Flux lines:** used to control through its dynamical flux tunability the transition frequency of the qubits. Low pass filters are used to suppress the bandwidth to 1 GHz to reduce thermal noise.
+- **Output lines:** used to readout the state of the qubits through a series of cryogenic and room temperature amplifiers. 
+##### Sources of Heat Load
+Three main sources of heat load on the mixing chamber stage are identified:
+1. **Passive load:** due to heat conduction from higher temperature stages to the mixing chamber through the cables. 
+2. **Active load:** due to the dissipation (Joule Heating) of applied microwave signals in the attenuators and filters installed along the RF lines.
+3. **Radiative load:** due to blackbody radiation from higher temperature stages and shields to lower temperature stages.
+
+**PAs
 
 ## References
