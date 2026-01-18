@@ -47,6 +47,10 @@ We want to see how to calculate $T$ and $R$ using the transfer matrix $T^{(21)}$
 In this kind of simple systems, without time dependence and the wavefunctions being symmetric plane waves with respect to the x-axis, a theorem states that the determinant of the transfer matrix is equal to 1: $det(T) = 1$. This property simplifies the expressions for the transmission and reflection coefficients:
 $$T = \frac{k_2}{k_1} \left| \frac{1}{T_{22}^{(21)}} \right|^2 \quad , \quad R = \left| \frac{T_{21}^{(21)}}{T_{22}^{(21)}} \right|^2$$
 
+We could have even approached this problem by defining the incoming in terms of the outgoing, so expressing the coefficients in region 1 in terms of those in region 2. This would have led us to define a different transfer matrix $S$:$$\begin{pmatrix} A \\ B \end{pmatrix} = S^{(12)} \begin{pmatrix} C \\ D \end{pmatrix}$$
+Where the transfer matrix $S^{(12)}$ (meaning from region 2 to region 1, or equally region 1 in terms of region 2) is given by:$$S^{(12)} = \frac{1}{2k_1} \begin{pmatrix} k_1 + k_2 & k_1 - k_2 \\ k_1 - k_2 & k_1 + k_2 \end{pmatrix}$$Which is basically the inverse of the transfer matrix $T^{(21)}$: $S^{(12)} = (T^{(21)})^{-1}$. This approach would lead us to similar expressions for the transmission and reflection coefficients:$$T = \frac{k_2}{k_1} \left| \frac{1}{S_{11}^{(12)}} \right|^2 \quad , \quad R = \left| \frac{S_{21}^{(12)}}{S_{11}^{(12)}} \right|^2$$
+
+
 ![[Pasted image 20260115155422.png]]
 So if for example we add another barrier at position $x = d$, we can define a new region 3 ($x > d$) with potential $V_3$ and wavevector $k_3$. We can define what would happen in terms of transfer matrices:
 $$\begin{pmatrix} E \\ F \end{pmatrix} = T^{(32)} \begin{pmatrix} C \\ D \end{pmatrix}$$
@@ -58,12 +62,7 @@ $$T = \frac{k_3}{k_1} \left| \frac{1}{T_{22}^{(31)}} \right|^2 \quad , \quad R =
 
 (The professor doesn't specify the reflection every time, but it's good to have it for completeness)
 
-We could have even approached this problem by defining the scattering matrix $S$, which relates the outgoing waves to the incoming waves. The scattering matrix is defined as:
-$$\begin{pmatrix} B \\ C \end{pmatrix} = S \begin{pmatrix} A \\ D \end{pmatrix}$$
-Where $S$ is the scattering matrix, which can be expressed in terms of the transfer matrix $T$ as:$$S = \begin{pmatrix} -\frac{T_{21}}{T_{22}} & \frac{det(T)}{T_{22}} \\ \frac{1}{T_{22}} & \frac{T_{12}}{T_{22}} \end{pmatrix}$$
-
-
-
+And for $n-1$ barriers, we also normally defines $V_1$ and $V_{n}$ as equal and flat, so the electron comes from a region with potential $V_1$ and exits to a region with the same potential $V_n = V_1$. So we have $n$ regions and $n-1$ barriers. The system can be described as:$$\begin{pmatrix} Y \\ Z\end{pmatrix} = T^{(n1)} \begin{pmatrix} A \\ B \end{pmatrix}$$Where $Y$ and $Z=0$
 
 
 ## References
