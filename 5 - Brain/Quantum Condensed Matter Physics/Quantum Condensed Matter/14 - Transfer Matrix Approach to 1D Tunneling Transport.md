@@ -56,8 +56,11 @@ $$T = \frac{k_3}{k_1} \left| \frac{det(T^{(31)})}{T_{22}^{(31)}} \right|^2 \quad
 Which again simplifies to:
 $$T = \frac{k_3}{k_1} \left| \frac{1}{T_{22}^{(31)}} \right|^2 \quad , \quad R = \left| \frac{T_{21}^{(31)}}{T_{22}^{(31)}} \right|^2$$
 
-(The professor doesn't specify the reflection everytime, but it's good to have it for completeness)
+(The professor doesn't specify the reflection every time, but it's good to have it for completeness)
 
+We could have even approached this problem by defining the scattering matrix $S$, which relates the outgoing waves to the incoming waves. The scattering matrix is defined as:
+$$\begin{pmatrix} B \\ C \end{pmatrix} = S \begin{pmatrix} A \\ D \end{pmatrix}$$
+Where $S$ is the scattering matrix, which can be expressed in terms of the transfer matrix $T$ as:$$S = \begin{pmatrix} -\frac{T_{21}}{T_{22}} & \frac{det(T)}{T_{22}} \\ \frac{1}{T_{22}} & \frac{T_{12}}{T_{22}} \end{pmatrix}$$
 
 
 
