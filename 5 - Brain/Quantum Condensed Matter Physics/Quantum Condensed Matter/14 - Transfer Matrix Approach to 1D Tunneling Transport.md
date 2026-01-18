@@ -67,5 +67,23 @@ So we can again derive the transmission coefficient for the entire structure usi
 If this time the the discontinuity is from $0$ to $d$(region 1 from $x < 0$ to region 2 from $x> d$) we have to consider the propagation of the wavefunction in region 2. ![[Pasted image 20260118175922.png]]
 We introduce 2 propagation matrices to account for the phase change of the wavefunction as it propagates through region 2, so this time:$$T^{(21)}(d) = \begin{pmatrix} e^{ik_2 d} & 0 \\ 0 & e^{-ik_2 d} \end{pmatrix} \cdot T^{(21)}(0) \cdot \begin{pmatrix} e^{-ik_1 d} & 0 \\ 0 & e^{ik_1 d} \end{pmatrix}$$Where $T^{(21)}(0)$ is the transfer matrix at the boundary $x = 0$ and the propagation matrices account for the phase accumulation as the wavefunction travels through region 2 of width $d$. This modification is crucial for accurately modeling tunneling through barriers separated by finite distances, as it captures the interference effects that arise from the wave nature of electrons.
 
+Now we consider the case of a rectangular potential barrier of height $V_0$ and width $d$, placed between two regions with zero potential.
+![[Pasted image 20260118190352.png]]
+So now we have to study the matrix:$$T^{(31)} = T^{(32)}(\frac{d}{2}) \cdot T^{(21)}(-\frac{d}{2})$$We also know that $k_1=k_3=\sqrt{\frac{2mE}{\hbar^2}}$ and $k_2=\sqrt{\frac{2m(E-V_0)}{\hbar^2}}$, but by knowing that $V_0 > E$ (since it's a barrier) we can write $k_2 = i \alpha$ with $\alpha = \sqrt{\frac{2m(V_0 - E)}{\hbar^2}}$. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## References
