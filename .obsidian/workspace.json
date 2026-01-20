@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/04 - Lumped Junctions and AC Josephson Effect.md",
+                "file": "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/07 - Generalized Josephson Junction and DC SQUID.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04 - Lumped Junctions and AC Josephson Effect"
+              "title": "07 - Generalized Josephson Junction and DC SQUID"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -194,14 +193,15 @@
   },
   "active": "c8947bcfac3bb783",
   "lastOpenFiles": [
+    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/14 - Transfer Matrix Approach to 1D Tunneling Transport.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/13 - Quantum Wells.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/04 - Lumped Junctions and AC Josephson Effect.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/01 - The Macroscopic Quantum Model.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/03 - Josephson Effect and Quantum Superconducting Devices.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/14 - Transfer Matrix Approach to 1D Tunneling Transport.md",
     "Pasted image 20260118192901.png",
     "Pasted image 20260118191931.png",
     "Pasted image 20260118190352.png",
     "Pasted image 20260118175922.png",
-    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/13 - Quantum Wells.md",
     "5 - Brain/Fundamental of Technological Processes/Cryogenics and Superconductivity/07 - Dilution Refrigerator.md",
     "Pasted image 20260116162947.png",
     "Pasted image 20260116162939.png",
@@ -231,7 +231,6 @@
     "5 - Brain/Fundamental of Technological Processes/Cryogenics and Superconductivity/03 - Properties of Cryogenic Fluids.md",
     "5 - Brain/Untitled.base",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/10 - Semi-Classical Boltzmann Equation.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/08 - Photon exciting an Electron in a Semiconductor(or Insulator).md",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits",
     "5 - Brain/Untitled 1.base",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/Untitled",
