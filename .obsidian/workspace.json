@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/14 - Transfer Matrix Approach to 1D Tunneling Transport.md",
+                "file": "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/04 - Lumped Junctions and AC Josephson Effect.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14 - Transfer Matrix Approach to 1D Tunneling Transport"
+              "title": "04 - Lumped Junctions and AC Josephson Effect"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "shapiro",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,12 +74,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ced7d8bf4f6a83e7",
@@ -194,12 +194,14 @@
   },
   "active": "c8947bcfac3bb783",
   "lastOpenFiles": [
+    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/01 - The Macroscopic Quantum Model.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/03 - Josephson Effect and Quantum Superconducting Devices.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/14 - Transfer Matrix Approach to 1D Tunneling Transport.md",
     "Pasted image 20260118192901.png",
     "Pasted image 20260118191931.png",
     "Pasted image 20260118190352.png",
     "Pasted image 20260118175922.png",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/13 - Quantum Wells.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/14 - Transfer Matrix Approach to 1D Tunneling Transport.md",
     "5 - Brain/Fundamental of Technological Processes/Cryogenics and Superconductivity/07 - Dilution Refrigerator.md",
     "Pasted image 20260116162947.png",
     "Pasted image 20260116162939.png",
@@ -207,7 +209,6 @@
     "Pasted image 20260116162925.png",
     "Pasted image 20260116162351.png",
     "Pasted image 20260116162002.png",
-    "Pasted image 20260116161925.png",
     "5 - Brain/Fundamental of Technological Processes/Cryogenics and Superconductivity/01 - Thermodynamics of Refrigeration.md",
     "5 - Brain/Fundamental of Technological Processes/Cryogenics and Superconductivity/00 - Thermodynamics Basis.md",
     "5 - Brain/Fundamental of Technological Processes/Cryogenics and Superconductivity/02 - Refrigeration Machines.md",
@@ -231,7 +232,6 @@
     "5 - Brain/Untitled.base",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/10 - Semi-Classical Boltzmann Equation.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/08 - Photon exciting an Electron in a Semiconductor(or Insulator).md",
-    "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/11 - Nanostructures DOS.md",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits",
     "5 - Brain/Untitled 1.base",
     "5 - Brain/Quantum Condensed Matter Physics/Exam study/Untitled",
