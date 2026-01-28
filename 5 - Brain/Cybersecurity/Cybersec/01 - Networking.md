@@ -46,5 +46,19 @@ There exist different types of destination addresses:
 - anycast: address used to send frames to the peers that provide specific services, it is used as a gateway to reach external networks
 
 The base network device at this layer is the switch, which connects multiple devices on the same local network. It uses MAC addresses to forward frames only to the destination device, reducing collisions and improving performance.
-It is composed of multiple ports to connect a node(802.3). Is has a special port, trunk, used from connection with other switches and it learns the port associated with each MAC(location of the nodes) so it can forward frames correctly, either to the specific port or to the switch tha 
+It is composed of multiple ports to connect a node(802.3). Is has a special port, trunk, used from connection with other switches and it learns the port associated with each MAC(location of the nodes) so it can forward frames correctly, either to the specific port or to the switch that manages that MAC address.
+![[Pasted image 20260128170556.png]]
+##### Layer 3 - Network Layer
+It uses L2 to transport bits from one peer to another and it offers L4 the capacity of sending and receiving small data units called IP packets across networks that can have different technologies(heterogeneous networks, really important, every layer above on other basically doesn't depend on the lower layers). It is responsible for routing packets from source to destination across multiple networks, using logical addressing(IP addresses), so each peer is basically identified by either a 32-bit(IPv4) or 128-bit(IPv6) IP address. The packets that do not fit as a payload of L2 frames are fragmented into multiple packets and reassemble only at the destination.
+Each node has a unique MAC address assigned to its NIC(Network Interface Card) at L2, useful for communication inside the local network, and an IP address assigned at L3 and knowledge of which address are in its local network(subnet) and
+
+
+
+
+
+
+
+
+
+
 ## References
