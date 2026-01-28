@@ -26,8 +26,17 @@ We see a device, where the double barrier is composed by:
 - AlAs, higher band gap
 - GaAs, lower band gap
 The AlAs layers act as barriers for the electrons in the GaAs layers, creating a double barrier structure. When a voltage is applied across the device, electrons can tunnel through the barriers at specific resonant energies, leading to peaks in the current-voltage characteristics of the device. This phenomenon is known as resonant tunneling and is utilized in various electronic applications, such as high-speed transistors and quantum cascade lasers.
-
 Before and after the double barrier structure there are doped regions, which provide free electrons to the system, allowing for tunneling to occur when a voltage is applied.
+##### Resonant-Tunneling Diode (RTD)
+![[Pasted image 20260128212218.png]]
+A Resonant-Tunneling Diode (RTD) is a type of semiconductor device that utilizes the principle of resonant tunneling through a double barrier structure to achieve high-speed electronic performance. The RTD consists of two thin layers of a high bandgap material (barriers) separated by a thin layer of a low bandgap material (well). When a voltage is applied across the RTD, electrons can tunnel through the barriers at specific resonant energies, leading to peaks in the current-voltage characteristics of the device.
+
+![[Pasted image 20260128212627.png]]
+We are now going to analyze the energy band diagram of the RTD under different bias conditions. In the image we see the zero-bias condition (first figure), where the Fermi levels on both sides of the device are aligned, and there is no net current flow. The conduction band profile shows the double barrier structure with the well in between.
+
+![[Pasted image 20260128213009.png]]
+When a small forward bias is applied (second figure), the Fermi level on the left side of the device is raised relative to the right side. By increasing the bias, the current in the I-V current increases as expected also c
+
 
 
 ## References
