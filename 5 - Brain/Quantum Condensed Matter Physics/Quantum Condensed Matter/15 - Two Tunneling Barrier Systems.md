@@ -16,5 +16,6 @@ For example here, even with probability between $E_1$ and $E_2$ or greater than 
 In general in this resonance energies is like the particle doesn't see the barriers.
 
 ![[Pasted image 20260128201603.png]]
-In this slide we can see the same graph as before, but in logarithmic scale, to better see the difference with the single barrier transmission(dashed-line), otherwise too small to see.
+In this slide we can see the same graph as before, but in logarithmic scale, to better see the difference with the single barrier transmission(dashed-line), otherwise too small to see. As we can see the single barrier has probability going on higher energies of $10^{-3}$ while the double barrier has probability of 1 for specific energies.
+
 ## References
