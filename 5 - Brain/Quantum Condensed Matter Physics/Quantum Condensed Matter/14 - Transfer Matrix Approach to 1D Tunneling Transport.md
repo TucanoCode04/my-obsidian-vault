@@ -80,7 +80,7 @@ For $E> V_0$, the wavevector in region 2 becomes real again, $k_2 = \sqrt{\frac{
 In green we can see the classical behavior where for $E > V_0$ the electron can pass through the barrier with probability 1, while for $E < V_0$ the electron cannot pass through the barrier at all. In blue we can see the quantum behavior where for $E < V_0$ there is still a finite probability of tunneling through the barrier, and for $E > V_0$ there are oscillations in the transmission probability due to the fact that the sin function can go to 0, making $T = 1$ at those points, so as the energy increases above the barrier height, the transmission probability oscillates becoming 1 at certain energies corresponding to resonant tunneling conditions. More specifically the resonant energies can be found by setting the argument of the sine function to integer multiples of $\pi$:$$\sqrt{\frac{2m(E - V_0)}{\hbar^2}} d = n \pi \quad \Rightarrow \quad E_n = V_0 + \frac{n^2 \pi^2 \hbar^2}{2m d^2} \quad , \quad n = 1, 2, 3, \ldots$$These resonant energies correspond to the conditions where the electron's wavefunction constructively interferes within the barrier region, leading to enhanced transmission probabilities.
 
 ![[Pasted image 20260128195409.png]]
-
+So again the probability of tunneling decreases as the width of the barrier increases or the potential $V_0$ increases, and increases as the energy of the electron increases.
 
 
 

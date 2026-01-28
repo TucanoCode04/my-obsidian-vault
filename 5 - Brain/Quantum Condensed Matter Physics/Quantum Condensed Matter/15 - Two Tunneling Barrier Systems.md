@@ -6,6 +6,7 @@ Status:
 Tags:
 
 # Two Tunneling Barrier Systems
+![[Pasted image 20260128195607.png]]
 
 
 
