@@ -70,14 +70,34 @@ Autonomous Systems (AS) are large networks or group of networks under a common a
 - L7 uses file, messages, requests, responses depending on the application protocol used
 ##### Layer 4 - Transport Layer
 It works as an end-to-end logical channel, it is useful to hide network details and it may solve L3 problems like packet loss, duplication and out-of-order delivery. It allows multiplexing and demultiplexing of multiple applications on the same host(using a single IP address), using port numbers to identify the source and destination applications. It is used to regulate the flow control and congestion control, to avoid overwhelming the receiver or the network.
+![[Pasted image 20260128190154.png]]
+
 The two main protocols at this layer are:
 - Transmission Control Protocol (TCP): connection-oriented protocol that establishes a reliable connection between two peers before transmitting data. It guarantees that data is delivered or it informs the sender of any issues. It's slow but solves all problems of L3. It uses bidirectional segments as PDU, which are acknowledged by the receiver to ensure delivery and order. Data is split into segments, each with a sequence number, and the receiver sends back acknowledgments for received segments. If a segment is lost or corrupted, the sender retransmits it.
 - User Datagram Protocol (UDP): connectionless protocol that sends data without establishing a connection. It does not guarantee delivery, order, or error checking, making it faster but less reliable than TCP. It uses datagrams as PDU, which are independent packets that may arrive out of order or be lost.
 
+Some other protocols are SCTP(Stream Control Transmission Protocol) and MPTCP(Multipath TCP).
 
+The ports used for TCP and UDP are identified by a 16-bit number, ranging from 0 to 65535:
+- Well-known ports (0-1023): reserved for common services and protocols (e.g., HTTP, FTP, SMTP) and can be used only by privileged users or processes.
+- User ports (1024-65535): can be used by any application or service for dynamic or private purposes.
 
+A static port is a port number that is assigned to a specific service or application and remains constant. A dynamic(port ephemeral) port is a temporary port number that is assigned by the operating system to a client application when it initiates a connection to a server, and it is released when the connection is closed.
+##### Application Development: Clients and Servers
+**Server**:
+- A server is an application able to provide a specific service to multiple clients over a network.
+- It listens for incoming requests on a specific SAP (IP address + port number) and performs the requested service to provide responses.
+- Runs on a powerful node hosted in a data center
 
+**Client:**
+- A client is an application that requests services from a server on behalf of a user.
+- It initiates communication by sending requests to the server's SAP and waits for responses.
+- Runs on user devices like computers, smartphones, etc.
 
+![[Pasted image 20260128190118.png]]
+![[Pasted image 20260128190129.png]]
+
+The TCP connection or the UDP datagram is represented by a 5-
 
 
 
