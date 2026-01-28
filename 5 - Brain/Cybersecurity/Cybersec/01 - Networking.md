@@ -82,9 +82,11 @@ Autonomous Systems (AS) are large networks or group of networks under a common a
 
 
 
-
+##### OSI vs TCP/IP
+![[Pasted image 20260128173822.png]]
 ##### Layer 7 - Application Layer
-TCP/IP networks typical have a process layer that defines operations o
+TCP/IP networks typical have a process layer that defines operations of L5/L6/L7 together, depending on the different application different syntax, semantics and protocols are used.
+![[Pasted image 20260128173749.png]]
 
 
 
