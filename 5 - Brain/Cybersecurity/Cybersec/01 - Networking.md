@@ -28,6 +28,14 @@ Each layer has its own Protocol Data Unit (PDU), which is the unit of data that 
 The PDU of one layer is transported as payload of the next lower layer, which may require fragmentation into more units of that lower layer. This is called encapsulation.
 ![[Pasted image 20260128164135.png]]
 ##### Layer 2 - Data Link Layer
-
+It offers Layer 3 the capacity of sending and receiving small data units called frames between two devices connected on the same local network(homogeneous network). It is also called MAC layer (Media Access Control), since it provides access to the physical transmission medium. It uses L1 to transport bits between two peer connected devices.
+In 802.3 and 802.11 each peer device has a unique 48-bit MAC address assigned by the manufacturer(the initial bytes identify the manufacturer). The MAC address is used to identify the source and destination of frames on the local network.
+The PDU at this layer is called frame, and it is composed of:
+- header(14 bytes): 
+	- Destination MAC address(6 bytes)
+	- Source MAC address(6 bytes)
+	- Type/Length(2 bytes)
+- payload(46-1500 bytes): data from Layer 3, up to 9000 bytes in jumbo frames
+- trailer(4 bytes): Frame Check Sequence(FCS), used for transmission error detection
 
 ## References
