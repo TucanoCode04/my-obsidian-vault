@@ -35,8 +35,8 @@ A Resonant-Tunneling Diode (RTD) is a type of semiconductor device that utilizes
 We are now going to analyze the energy band diagram of the RTD under different bias conditions. In the image we see the zero-bias condition (first figure), where the Fermi levels on both sides of the device are aligned, and there is no net current flow. The conduction band profile shows the double barrier structure with the well in between.
 
 ![[Pasted image 20260128213009.png]]
-When a small forward bias is applied (second figure), the Fermi level on the left side of the device is raised relative to the right side. By increasing the bias, the current in the I-V current increases as expected also c
-
-
+When a small forward bias is applied (second figure), the Fermi level on the left side of the device is raised relative to the right side. By increasing the bias, the current in the I-V current increases as expected also classically. However, as the bias continues to increase, the resonant energy level in the well align with the Fermi level on the left side, leading to a peak in the current due to resonant tunneling. But after this peak, as the bias increases further, we see a sharp decrease in current(even no current if we are in a small energy scale where only tunneling current is possible), known as negative differential conductance ($\frac{dI}{dV}$). This occurs because the resonant energy level moves out of alignment with the Fermi level on the left side, reducing the tunneling probability.
+Important, this is not like quantum dot, the energy state in the well is not a bound state, so there will be no current flow when the energy level is out of alignment. Unlike quantum dots where the bound states can still allow for some current flow even when not aligned, since it only depends on the bias window.
+Obviously, to draw a better graph we would need to calculate the density of states in the well, the tunneling probabilities, and the Fermi-Dirac distributions on both sides of the device, but this is just a qualitative explanation of the I-V characteristics of an RTD.
 
 ## References
