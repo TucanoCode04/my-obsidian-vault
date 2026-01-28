@@ -17,7 +17,9 @@ Some notation:
 #### ISO/OSI Model
 Open Systems Interconnection model (ISO/OSI) is nowadays only a theoretical model, rarely used in practice. It consists of 7 layers:
 ![[Pasted image 20260128162517.png]]
-##### La
+##### Layer 1 - Physical Layer
+In charge of the physical connection between devices. It sends signals to a peer device through a transmission medium. It offers to Layer 2 the capacity of transmitting bits over a medium. Like electrical signals on cables(wired Ethernet), radio waves(Bluetooth, Wi-Fi), or light signals(fiber optics).
+The signals, for every technology, becomes weaker with distance, and are subject to noise and interference, so we use te
 
 
 ## References
