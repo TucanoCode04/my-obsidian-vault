@@ -18,4 +18,16 @@ In general in this resonance energies is like the particle doesn't see the barri
 ![[Pasted image 20260128201603.png]]
 In this slide we can see the same graph as before, but in logarithmic scale, to better see the difference with the single barrier transmission(dashed-line), otherwise too small to see. As we can see the single barrier has probability going on higher energies of $10^{-3}$ while the double barrier has probability of 1 for specific energies.
 
+![[Pasted image 20260128211228.png]]
+We see a device, where the double barrier is composed by:
+- GaAs, which has lower band gap
+- AlAs, which has higher band gap
+- GaAs, again lower band gap
+- AlAs, higher band gap
+- GaAs, lower band gap
+The AlAs layers act as barriers for the electrons in the GaAs layers, creating a double barrier structure. When a voltage is applied across the device, electrons can tunnel through the barriers at specific resonant energies, leading to peaks in the current-voltage characteristics of the device. This phenomenon is known as resonant tunneling and is utilized in various electronic applications, such as high-speed transistors and quantum cascade lasers.
+
+Before and after the double barrier structure there are doped regions, which provide free electrons to the system, allowing for tunneling to occur when a voltage is applied.
+
+
 ## References
