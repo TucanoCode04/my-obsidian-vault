@@ -110,19 +110,25 @@ DNS is a hierarchical and distributed naming system that translates human-readab
 - direct domain(name > address): when a user types a domain name into their browser, the DNS resolver queries the DNS servers to find the corresponding IP address. FQDN (Fully Qualified Domain Name) is the complete domain name that specifies its exact location in the DNS hierarchy, example: www.example.com.
 - reverse domain(address > name): used to find the domain name associated with a given IP address. This is useful for network diagnostics and security purposes. It uses PTR (Pointer) records in DNS to map IP addresses back to domain names. It associates an IP address with a fictitious domain name in the in-addr.arpa inverting the bytes of the IP address(example: 192.168.1.1 becomes 1.1.168.192.in-addr-arpa.)
 
-Each zone manager maintains the database for its zone on its name server(NS). The DNS pr
+Each zone manager maintains the database for its zone on its name server(NS). The DNS protocol uses:
+- UDP port 53 for standard queries and responses between DNS clients and name servers, if iterative load on the client, while if recursive load on the server
+- TCP port 53 for bulk data transfers between name servers, like zone transfers 
+
+![[Pasted image 20260128191834.png]]
+![[Pasted image 20260128191843.png]]
+**DNS server types:**
+- Root name servers: the highest level in the DNS hierarchy, they store information about first level zones, like .com, .org, .net, or geographic like .it, .jp. They have pointers to their name servers, not to the data. 
+- Primary (RR=SOA aldo NS): read/write data for a specific zone, it is the authoritative source for that zone.
+- Secondary (RR=NS): read-only copies of the primary server's data for a specific zone, used for redundancy and load balancing.
+- Forwarder: used as proxies to forward DNS queries from local clients to external DNS servers, improving performance and security.
+- Caching: store DNS query results temporarily to reduce latency and improve performance for frequently accessed domain names.
+
+One DNS server can have multiple roles, for example a primary server can also act as a caching server.
+
+![[Pasted image 20260128191944.png]]
 ##### OSI vs TCP/IP
 ![[Pasted image 20260128173822.png]]
 ##### Layer 7 - Application Layer
 TCP/IP networks typical have a process layer that defines operations of L5/L6/L7 together, depending on the different application different syntax, semantics and protocols are used.
 ![[Pasted image 20260128173749.png]]
-
-
-
-
-
-
-
-
-
 ## References
