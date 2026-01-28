@@ -58,8 +58,33 @@ The basic example for 192.168.1.7 with a netmask 255.255.255.0 (/24):
 ##### DHCP
 Dynamic Host Configuration Protocol (DHCP) is used to automatically assign IP addresses and other network configuration parameters to devices on a network, allowing them to communicate effectively. When a device connects to the network, it sends a broadcast request for an IP address asking for a valid network configuration (for his own node)(A.MAC > L2.broadcast). The DHCP server responds with a broadcast reply containing the offered network configuration(A.IP, A.netmask, GW.IP and NS.IP).
 ##### ARP
-Address Resolution Protocol (ARP) is used to map IP addresses to MAC addresses within a local network. 
+Address Resolution Protocol (ARP) is used to map IP addresses to MAC addresses within a local network. When a device (node) needs to communicate with another device (peer) on the same local network, it sends a broadcast ARP request asking for the MAC address associated with the target IP address(A.MAC > L2.broadcast, basically saying "I'm address A.IP - A.MAC, who is B.IP?"). The device with the matching IP address responds with an ARP unicast reply containing its MAC address(A.MAC < B.MAC, "B.IP is B.MAC"). 
+The result is also cached in an ARP table for future reference. The response could fail if the target IP address is not in the local network.
+The base network device at this layer is the router, which connects multiple networks together and routes packets between them. Each network has a border router that connects it to other networks, using routing tables to determine the best path for each packet based on its destination IP address.
+![[Pasted image 20260128173016.png]]
+Autonomous Systems (AS) are large networks or group of networks under a common administration that share a common routing policy. Each AS is assigned a unique AS number (ASN) for identification in inter-AS routing. Each AS announces its IP address ranges (prefixes) to other ASes using Border Gateway Protocol (BGP) to compute the best paths for routing packets between ASes.
+##### Excursus on PDUs 
+- L2 uses frames to transport packets from L3
+- L3 uses packets to transport segments from L4
+- L4 uses segments(TCP) or datagrams(UDP) to transport data from L7
+- L7 uses file, messages, requests, responses depending on the application protocol used
+##### Layer 4 - Transport Layer
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+##### Layer 7 - Application Layer
+TCP/IP networks typical have a process layer that defines operations o
 
 
 
