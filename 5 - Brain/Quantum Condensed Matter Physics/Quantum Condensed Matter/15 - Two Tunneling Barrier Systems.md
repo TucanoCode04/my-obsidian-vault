@@ -10,7 +10,11 @@ Tags:
 The first figure represents a two tunneling barrier system. As we said before to calculate the transition probability we will use the transfer matrix method. The transfer matrix for the whole system is given by the product of the transfer matrices for each region.
 In the second graph we see the transmittance in function of the energy for different values of the transmission coefficient of the barriers. The interesting case is when the transmission coefficient of the barriers is low, in this case we can see that there are some peaks in the transmittance(where transmission = 1) corresponding to specific energies, these energies are the resonant energies of the system. At these energies the wavefunction inside the well between the barriers constructively interferes, leading to a high probability of transmission through the system.
 It's not known beforehand that with 2 barriers you will have 2 resonant energies, but in general with N barriers you will have N-1 resonant energies. It depends on the width of the well between the barriers, the width of the barriers and the height of the barriers.
-The resonant energies are called resonance states or quasi-bound states, resonance because inside the well the two waves interfere constructively and 
+The resonant energies are called resonance states or quasi-bound states, resonance because inside the well the two waves interfere constructively creating high amplitude waves, and quasi-bound because if we take the modulus squared of the wavefunction inside the well we will see that it is similar to a bound state having high probability of finding the particle there, but since there is a non-zero probability of tunneling through the barriers the particle is not truly bound, since the barriers are finite.
+![[Pasted image 20260128201036.png]]
+For example here, even with probability between $E_1$ and $E_2$ or greater than $E_2$ there's still much much lower probability of transmission compared to the resonant energies $E_1$ and $E_2$(where we have transmission = 1).
+In general in this resonance energies is like the particle doesn't see the barriers.
 
-
+![[Pasted image 20260128201603.png]]
+In this slide we can see the same graph as before, but in logarithmic scale, to better see the difference with the single barrier transmission(dashed-line), otherwise too small to see.
 ## References
