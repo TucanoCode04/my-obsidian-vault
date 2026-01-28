@@ -70,7 +70,7 @@ Autonomous Systems (AS) are large networks or group of networks under a common a
 - L7 uses file, messages, requests, responses depending on the application protocol used
 ##### Layer 4 - Transport Layer
 It works as an end-to-end logical channel, it is useful to hide network details and it may solve L3 problems like packet loss, duplication and out-of-order delivery. It allows multiplexing and demultiplexing of multiple applications on the same host(using a single IP address), using port numbers to identify the source and destination applications. It is used to regulate the flow control and congestion control, to avoid overwhelming the receiver or the network.
-![[Pasted image 20260128190154.png]]
+![[Pasted image 20260128190826.png]]
 
 The two main protocols at this layer are:
 - Transmission Control Protocol (TCP): connection-oriented protocol that establishes a reliable connection between two peers before transmitting data. It guarantees that data is delivered or it informs the sender of any issues. It's slow but solves all problems of L3. It uses bidirectional segments as PDU, which are acknowledged by the receiver to ensure delivery and order. Data is split into segments, each with a sequence number, and the receiver sends back acknowledgments for received segments. If a segment is lost or corrupted, the sender retransmits it.
@@ -94,17 +94,23 @@ A static port is a port number that is assigned to a specific service or applica
 - It initiates communication by sending requests to the server's SAP and waits for responses.
 - Runs on user devices like computers, smartphones, etc.
 
-![[Pasted image 20260128190118.png]]
-![[Pasted image 20260128190129.png]]
+![[Pasted image 20260128190846.png]]
+![[Pasted image 20260128190836.png]]
 
-The TCP connection or the UDP datagram is represented by a 5-
+The TCP connection or the UDP datagram is represented by a 5-tuple:
+- protocol (TCP or UDP)
+- client IP address (32 bit) and port (16 bit)
+- server IP address (32 bit) and port (16 bit)
+![[Pasted image 20260128190738.png]]
 
+![[Pasted image 20260128190801.png]]
+![[Pasted image 20260128190814.png]]
+##### Domain Name System (DNS)
+DNS is a hierarchical and distributed naming system that translates human-readable domain names (like www.example.com) into IP addresses. This allows users to access websites and services using easy-to-remember names instead of numerical IP addresses. It is hierarchical because no server has the complete database of all domain names and and IP addresses, instead the information is distributed across multiple DNS servers, split into zones, each responsible for a portion of the DNS namespace.
+- direct domain(name > address): when a user types a domain name into their browser, the DNS resolver queries the DNS servers to find the corresponding IP address. FQDN (Fully Qualified Domain Name) is the complete domain name that specifies its exact location in the DNS hierarchy, example: www.example.com.
+- reverse domain(address > name): used to find the domain name associated with a given IP address. This is useful for network diagnostics and security purposes. It uses PTR (Pointer) records in DNS to map IP addresses back to domain names. It associates an IP address with a fictitious domain name in the in-addr.arpa inverting the bytes of the IP address(example: 192.168.1.1 becomes 1.1.168.192.in-addr-arpa.)
 
-
-
-
-
-
+Each zone manager maintains the database for its zone on its name server(NS). The DNS pr
 ##### OSI vs TCP/IP
 ![[Pasted image 20260128173822.png]]
 ##### Layer 7 - Application Layer
