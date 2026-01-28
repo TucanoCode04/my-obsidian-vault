@@ -69,7 +69,10 @@ Autonomous Systems (AS) are large networks or group of networks under a common a
 - L4 uses segments(TCP) or datagrams(UDP) to transport data from L7
 - L7 uses file, messages, requests, responses depending on the application protocol used
 ##### Layer 4 - Transport Layer
-
+It works as an end-to-end logical channel, it is useful to hide network details and it may solve L3 problems like packet loss, duplication and out-of-order delivery. It allows multiplexing and demultiplexing of multiple applications on the same host(using a single IP address), using port numbers to identify the source and destination applications. It is used to regulate the flow control and congestion control, to avoid overwhelming the receiver or the network.
+The two main protocols at this layer are:
+- Transmission Control Protocol (TCP): connection-oriented protocol that establishes a reliable connection between two peers before transmitting data. It guarantees that data is delivered or it informs the sender of any issues. It's slow but solves all problems of L3. It uses bidirectional segments as PDU, which are acknowledged by the receiver to ensure delivery and order. Data is split into segments, each with a sequence number, and the receiver sends back acknowledgments for received segments. If a segment is lost or corrupted, the sender retransmits it.
+- User Datagram Protocol (UDP): connectionless protocol that sends data without establishing a connection. It does not guarantee delivery, order, or error checking, making it faster but less reliable than TCP. It uses datagrams as PDU, which are independent packets that may arrive out of order or be lost.
 
 
 
