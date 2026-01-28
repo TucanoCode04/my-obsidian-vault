@@ -50,7 +50,15 @@ It is composed of multiple ports to connect a node(802.3). Is has a special port
 ![[Pasted image 20260128170556.png]]
 ##### Layer 3 - Network Layer
 It uses L2 to transport bits from one peer to another and it offers L4 the capacity of sending and receiving small data units called IP packets across networks that can have different technologies(heterogeneous networks, really important, every layer above on other basically doesn't depend on the lower layers). It is responsible for routing packets from source to destination across multiple networks, using logical addressing(IP addresses), so each peer is basically identified by either a 32-bit(IPv4) or 128-bit(IPv6) IP address. The packets that do not fit as a payload of L2 frames are fragmented into multiple packets and reassemble only at the destination.
-Each node has a unique MAC address assigned to its NIC(Network Interface Card) at L2, useful for communication inside the local network, and an IP address assigned at L3 and knowledge of which address are in its local network(subnet) and
+Each node has a unique MAC address assigned to its NIC(Network Interface Card) at L2, useful for communication inside the local network, and an IP address assigned at L3 and knowledge of which address are in its local network(subnet) and the gateway address to reach external networks.
+The local network in addressing is identified by the netmask, which indicates which bits of the IP address are used for the network(1s) and which for the host(0s). The lowest address in the subnet is the network address(all host bits 0) and the highest is the broadcast address(all host bits 1).
+The basic example for 192.168.1.7 with a netmask 255.255.255.0 (/24):
+- 192.168.1.0 - network address
+- 192.168.1.1-254 - usable host addresses
+##### DHCP
+Dynamic Host Configuration Protocol (DHCP) is used to automatically assign IP addresses and other network configuration parameters to devices on a network, allowing them to communicate effectively. When a device connects to the network, it sends a broadcast request for an IP address asking for a valid network configuration (for his own node)(A.MAC > L2.broadcast). The DHCP server responds with a broadcast reply containing the offered network configuration(A.IP, A.netmask, GW.IP and NS.IP).
+##### ARP
+Address Resolution Protocol (ARP) is used to map IP addresses to MAC addresses within a local network. 
 
 
 
