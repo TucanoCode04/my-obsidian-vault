@@ -25,6 +25,7 @@ Each layer has its own Protocol Data Unit (PDU), which is the unit of data that 
 - header: control information added by the layer, like source, destination, type, length, etc..
 - payload: the actual data being transmitted, which is the PDU from the layer above. The payload has a maximum size defined by the layer(Maximum Transport Unit).
 - trailer(optional): additional control information added by the layer, like error detection codes, end markers, etc..
+
 The PDU of one layer is transported as payload of the next lower layer, which may require fragmentation into more units of that lower layer. This is called encapsulation.
 ![[Pasted image 20260128164135.png]]
 ##### Layer 2 - Data Link Layer
@@ -38,4 +39,12 @@ The PDU at this layer is called frame, and it is composed of:
 - payload(46-1500 bytes): data from Layer 3, up to 9000 bytes in jumbo frames
 - trailer(4 bytes): Frame Check Sequence(FCS), used for transmission error detection
 
+There exist different types of destination addresses:
+- unicast: address of a single device(peer)
+- broadcast: address used to send frames to all devices on the local network
+- multicast: address used to send frames to all peers that listen to a channel
+- anycast: address used to send frames to the peers that provide specific services, it is used as a gateway to reach external networks
+
+The base network device at this layer is the switch, which connects multiple devices on the same local network. It uses MAC addresses to forward frames only to the destination device, reducing collisions and improving performance.
+It is composed of multiple ports to connect a node(802.3). Is has a special port, trunk, used from connection with other switches and it learns the port associated with each MAC(location of the nodes) so it can forward frames correctly, either to the specific port or to the switch tha 
 ## References
