@@ -278,7 +278,7 @@ $$\psi_A = \alpha \phi_1 - \beta \phi_2 \quad \text{with energy} \quad +|t_C|$$
 Where $t_C$ is the tunnel coupling strength between the dots, and $\alpha$ and $\beta$ are coefficients that depend on the specific system parameters.
 We call detuning $\epsilon$ the the energy difference between the individual dot levels, and it measure the degree of mixing between the two dot states. 
 ![[Pasted image 20260110153548.png]]
-The solution of the system will start bending when we change the detuning, which can be controlled through the gate voltages. So basically when we increase the detuning, the bonding and antibonding energy l
+The solution of the system will start bending when we change the detuning, which can be controlled through the gate voltages. So basically when we increase the detuning, the bonding and antibonding energy levels will deviate more from the original dot levels, indicating stronger hybridization between the states.
 ![[Pasted image 20260110153827.png]]
 We can visualize the detuning as a line in the stability diagram, representing the energy difference between the two dots as we vary the gate voltages. As we can see the effect of detuning is that it modifies the energy levels of the coupled quantum dot system, leading to the formation of bonding and antibonding states, which allow for coherent electron tunneling between the dots even before and after the two triple points.
 
@@ -314,7 +314,8 @@ We have four possible spin configurations:
 In the energy-detuning diagram, we can compare the total energies of the singlet and triplet states in both the (0,2) and (1,1) charge configurations as a function of detuning $\epsilon$.
 As the detuning $\epsilon$ increases, we start from a $N(2,0)$ configuration where both electrons are in dot 1, then we move to a $N(1,1)$ configuration where each dot has one electron, and finally we reach a $N(0,2)$ configuration where both electrons are in dot 2. 
 This happens because by increasing the detuning, we are effectively lowering the energy levels of dot 2 relative to dot 1, making it energetically favorable for both electrons to occupy dot 2 at high detuning values.
-As we introduce a magnetic field, the states start to hybridize, meaning that they mix together due to the tunnel coupling between the dots, this re
+As we introduce a magnetic field, the states start to hybridize, meaning that they mix together due to the tunnel coupling between the dots, this results in the formation of bonding and antibonding states for both the singlet and triplet configurations. 
+Before applying the magnetic field, the singlet and triplet states are degenerate at zero detuning, but after applying the field, they split into separate energy levels due to the Zeeman effect.
 ![[Pasted image 20260112112251.png]]
 Only the singlets hybridize with the singlet, and the triplets with the triplet, since they have different spin magnetic moments.
 ![[Pasted image 20260112112502.png]]
