@@ -76,6 +76,8 @@ In the latter example we identify 3 different situations, in which all of them a
 **High Bias Regime**
 The energy levels seen so far were all ground states (GS). However, quantum dots also have excited states (ES) that can participate in transport when the bias voltage is sufficiently high. They can arise from various sources, for example if a magnetic field is applied, the spin degeneracy of the energy levels is lifted, leading to spin-split excited states, Zeeman splitting.
 ![[Pasted image 20260107162933.png]]
+
+
 From the image we can analyze three different transitions showed by the chemical potentials:
 1. $ES(N) \rightarrow GS(N+1)$: One more electron is added to the dot, occupying the ground state of the N+1 electron system.
 2. $GS(N) \rightarrow GS(N+1)$: One more electron is added to the dot, occupying the ground state of the N+1 electron system.
