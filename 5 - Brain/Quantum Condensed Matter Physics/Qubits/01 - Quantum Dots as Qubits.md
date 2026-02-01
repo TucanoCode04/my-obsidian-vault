@@ -278,15 +278,15 @@ $$\psi_A = \alpha \phi_1 - \beta \phi_2 \quad \text{with energy} \quad +|t_C|$$
 Where $t_C$ is the tunnel coupling strength between the dots, and $\alpha$ and $\beta$ are coefficients that depend on the specific system parameters.
 We call detuning $\epsilon$ the the energy difference between the individual dot levels, and it measure the degree of mixing between the two dot states. 
 ![[Pasted image 20260110153548.png]]
-The solution of the system will start bending when we change the detuning, which can be controlled through the gate voltages. 
+The solution of the system will start bending when we change the detuning, which can be controlled through the gate voltages. So basically when we increase the detuning, the bonding and antibonding energy l
 ![[Pasted image 20260110153827.png]]
 We can visualize the detuning as a line in the stability diagram, representing the energy difference between the two dots as we vary the gate voltages. As we can see the effect of detuning is that it modifies the energy levels of the coupled quantum dot system, leading to the formation of bonding and antibonding states, which allow for coherent electron tunneling between the dots even before and after the two triple points.
 
 ![[Pasted image 20260110154141.png]]
 
 ![[Pasted image 20260110154007.png]]
-
-I didn't understand this graphs
+Basically what we to do by increasing the detuning is to move from a configuration where both electrons are in dot 1 ($N(2,0)$), to a configuration where each dot has one electron ($N(1,1)$), and finally to a configuration where both electrons are in dot 2 ($N(0,2)$), this is achieved by effectively lowering the energy levels of dot 2 relative to dot 1.
+We see 2 energy levels, which correspond to the bonding and antibonding states formed due to the tunnel coupling between the dots. The energy difference between these levels is determined by the tunnel coupling strength $t_C$. 
 
 ##### Spin States in Double Quantum Dots
 If only one of the dots is occupied by a single electron, the situation is similar to that of a single quantum dot qubit, with spin-up and spin-down states split by the Zeeman energy.
@@ -314,7 +314,7 @@ We have four possible spin configurations:
 In the energy-detuning diagram, we can compare the total energies of the singlet and triplet states in both the (0,2) and (1,1) charge configurations as a function of detuning $\epsilon$.
 As the detuning $\epsilon$ increases, we start from a $N(2,0)$ configuration where both electrons are in dot 1, then we move to a $N(1,1)$ configuration where each dot has one electron, and finally we reach a $N(0,2)$ configuration where both electrons are in dot 2. 
 This happens because by increasing the detuning, we are effectively lowering the energy levels of dot 2 relative to dot 1, making it energetically favorable for both electrons to occupy dot 2 at high detuning values.
-As we introduce a magnetic field, the states start to hybridize, meaning that they mix together due to the tunnel coupling between the dots. 
+As we introduce a magnetic field, the states start to hybridize, meaning that they mix together due to the tunnel coupling between the dots, this re
 ![[Pasted image 20260112112251.png]]
 Only the singlets hybridize with the singlet, and the triplets with the triplet, since they have different spin magnetic moments.
 ![[Pasted image 20260112112502.png]]
