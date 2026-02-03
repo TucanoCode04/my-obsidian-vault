@@ -383,7 +383,7 @@ The detuning $\epsilon$ is significantly increased so that we find our system wi
 ![[Pasted image 20260112120552.png]]
 If the state of the qubit is $S(0,2)$, one electron of the right dot can tunnel to the right reservoir, so that a current can be measured.
 ![[Pasted image 20260112120720.png]]
-If the state of the qubit is $T_0(1,1)$, since the other triplet states $T_+(1,1)$ and $T_-(1,1)$ are higher in energy, there's no possibility for an electron to tunnel to the other dot, and so from the right dot to the reservoir, so no current is measured. And the triplet to singlet transition is forbidden by the Pauli exclusion principle.
+If the state of the qubit is $T_0(1,1)$, since the other triplet states $T_+(1,1)$ and $T_-(1,1)$ are higher in energy, there's no possibility for an electron to tunnel to the other dot, and so from the right dot to the reservoir, so no current is measured. And the triplet to singlet transition is forbidden by the Pauli exclusion principle. This is because obviously in the (0,2) configuration both electrons must occupy the same dot, so they must be in a singlet state to satisfy the Pauli principle.
 ![[Pasted image 20260112120742.png]]
 ![[Pasted image 20260112120954.png]]
 ## References
