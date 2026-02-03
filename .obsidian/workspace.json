@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Quantum Condensed Matter Physics/Qubits/03 - Quantum Hall Effect.md",
+                "file": "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/04 - Lumped Junctions and AC Josephson Effect.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03 - Quantum Hall Effect"
+              "title": "04 - Lumped Junctions and AC Josephson Effect"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5 - Brain/Quantum Condensed Matter Physics/Qubits/03 - Quantum Hall Effect.md",
+                "file": "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/04 - Lumped Junctions and AC Josephson Effect.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 03 - Quantum Hall Effect"
+              "title": "Outline of 04 - Lumped Junctions and AC Josephson Effect"
             }
           },
           {
@@ -172,11 +172,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,9 +193,14 @@
   },
   "active": "c8947bcfac3bb783",
   "lastOpenFiles": [
+    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/03 - Josephson Effect and Quantum Superconducting Devices.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/02.5 - Summary.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/02 - Fluxoid Quantization.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/01 - The Macroscopic Quantum Model.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Qubits/05 - Flying Electron Qubit.md",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/04 - Aharonov Bohm Effect.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Qubits/03 - Quantum Hall Effect.md",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/01 - Quantum Dots as Qubits.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Qubits/03 - Quantum Hall Effect.md",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/00 - Spin Basics.md",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/02 - NV Centers.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/15 - Two Tunneling Barrier Systems.md",
@@ -205,12 +211,7 @@
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/06 - Extended Josephson Junctions.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/05 - SQUIDs.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/04 - Lumped Junctions and AC Josephson Effect.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/03 - Josephson Effect and Quantum Superconducting Devices.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/02.5 - Summary.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/02 - Fluxoid Quantization.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/01 - The Macroscopic Quantum Model.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/00 - Basic Properties of Superconductors.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Qubits/05 - Flying Electron Qubit.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/10 - Semi-Classical Boltzmann Equation.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/09 - Color Centers.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/08 - Photon exciting an Electron in a Semiconductor(or Insulator).md",
