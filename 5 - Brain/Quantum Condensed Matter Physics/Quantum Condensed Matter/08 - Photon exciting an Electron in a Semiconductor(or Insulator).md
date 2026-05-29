@@ -5,7 +5,7 @@ Status:
 
 Tags:
 
-# Photon exciting an Electron in a Semicondutor(or Insulator)
+# Photon exciting an Electron in a Semiconductor(or Insulator)
 We consider a photon with energy $E = \hbar \nu$ incident on a solid material. The photon can interact with the electrons in the solid, potentially exciting an electron from a lower energy state to a state whose gap is equal to the photon energy. The presence of energy gaps is due to the semiconductor(or insulator) physical properties.
 The electrons in the solid feel an attractive potential from the positively charged atomic nuclei, which modifies their energy levels compared to free electrons. 
 $$

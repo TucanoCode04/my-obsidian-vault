@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "08 - Photon exciting an Electron in a Semiconductor(or Insulator)"
             }
-          },
-          {
-            "id": "44e9bed457679ac6",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.12.7"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,7 +190,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "44e9bed457679ac6",
+  "active": "c8947bcfac3bb783",
   "lastOpenFiles": [
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/07 - First Order Perturbation Theory.md",
     "5 - Brain/Quantum Condensed Matter Physics/Quantum Condensed Matter/14 - Transfer Matrix Approach to 1D Tunneling Transport.md",
