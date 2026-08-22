@@ -293,6 +293,11 @@ Basically what we to do by increasing the detuning is to move from a configurati
 (this detuning seems different from the one above)
 We see 2 energy levels, which correspond to the bonding and antibonding states formed due to the tunnel coupling between the dots. The energy difference between these levels is determined by the tunnel coupling strength $t_C$. 
 
+
+###### Small summary about detuning
+Detuning is the energy difference between the two quantum dots, controlled by the gate voltages. So we have zero detuning when the energy levels of both dots are equal, and in this scenario the tunnel coupling is maximized, leading to strong hybridization of the states. As we increase the detuning(or go negative), we effectively lower the energy levels of one dot relative to the other, which reduces the tunnel coupling and leads to a more localized electron distribution in one of the dots. This allows us to control the charge configuration of the double quantum dot system, moving between (2,0), (1,1), and (0,2) configurations.
+
+
 ##### Spin States in Double Quantum Dots
 If only one of the dots is occupied by a single electron, the situation is similar to that of a single quantum dot qubit, with spin-up and spin-down states split by the Zeeman energy.
 ![[Pasted image 20260112104549.png]]
