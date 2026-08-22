@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Quantum Condensed Matter Physics/Qubits/05 - Flying Electron Qubit.md",
+                "file": "5 - Brain/Quantum Condensed Matter Physics/Qubits/01 - Quantum Dots as Qubits.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05 - Flying Electron Qubit"
+              "title": "01 - Quantum Dots as Qubits"
             }
           }
         ],
@@ -193,7 +193,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,11 +210,11 @@
   },
   "active": "aef10431da0125f2",
   "lastOpenFiles": [
-    "5 - Brain/Quantum Condensed Matter Physics/Qubits/04 - Aharonov Bohm Effect.md",
-    "5 - Brain/Quantum Condensed Matter Physics/Qubits/03 - Quantum Hall Effect.md",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/02 - NV Centers.md",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/01 - Quantum Dots as Qubits.md",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/05 - Flying Electron Qubit.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Qubits/04 - Aharonov Bohm Effect.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Qubits/03 - Quantum Hall Effect.md",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/00 - Spin Basics.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/07 - Generalized Josephson Junction and DC SQUID.md",
     "5 - Brain/Quantum Condensed Matter Physics/Superconductivity/06 - Extended Josephson Junctions.md",
