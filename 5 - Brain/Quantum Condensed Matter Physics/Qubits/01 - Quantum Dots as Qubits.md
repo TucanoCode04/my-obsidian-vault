@@ -288,6 +288,9 @@ We can visualize the detuning as a line in the stability diagram, representing t
 
 ![[Pasted image 20260110154007.png]]
 Basically what we to do by increasing the detuning is to move from a configuration where both electrons are in dot 1 ($N(2,0)$), to a configuration where each dot has one electron ($N(1,1)$), and finally to a configuration where both electrons are in dot 2 ($N(0,2)$), this is achieved by effectively lowering the energy levels of dot 2 relative to dot 1.
+
+
+(this detuning seems different from the one above)
 We see 2 energy levels, which correspond to the bonding and antibonding states formed due to the tunnel coupling between the dots. The energy difference between these levels is determined by the tunnel coupling strength $t_C$. 
 
 ##### Spin States in Double Quantum Dots
