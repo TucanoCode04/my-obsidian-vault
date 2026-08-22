@@ -72,6 +72,8 @@ Now the difference is that the vertical manipulation can only be done with optic
 As for the single spin qubit, the manipulation of the NV center qubit is done by applying both a DC magnetic field and an AC magnetic field (microwaves).
 The DC field is applied along the NV axis to create the Zeeman splitting, while the AC field is applied perpendicular to the DC field to induce transitions between the $|0\rangle$ and $|1\rangle$ states. 
 When the frequency of the AC field matches the energy difference between the two states $\Delta E = \hbar \omega_T$, we achieve resonance, allowing for efficient manipulation of the qubit state.
+
+(something is not right here)
 ![[Pasted image 20260112143344.png]]
 The main difference with the single spin qubit is that in the single spin qubit we had a doublet, while here we have a triplet, so our two level system will be represented by>
 ![[Pasted image 20260112143523.png]]
