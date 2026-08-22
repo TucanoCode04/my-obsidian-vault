@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Brain/Quantum Condensed Matter Physics/Qubits/02 - NV Centers.md",
+                "file": "5 - Brain/Quantum Condensed Matter Physics/Qubits/03 - Quantum Hall Effect.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02 - NV Centers"
+              "title": "03 - Quantum Hall Effect"
             }
           }
         ],
@@ -209,8 +209,8 @@
   },
   "active": "aef10431da0125f2",
   "lastOpenFiles": [
-    "5 - Brain/Quantum Condensed Matter Physics/Qubits/01 - Quantum Dots as Qubits.md",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/02 - NV Centers.md",
+    "5 - Brain/Quantum Condensed Matter Physics/Qubits/01 - Quantum Dots as Qubits.md",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/05 - Flying Electron Qubit.md",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/04 - Aharonov Bohm Effect.md",
     "5 - Brain/Quantum Condensed Matter Physics/Qubits/03 - Quantum Hall Effect.md",
