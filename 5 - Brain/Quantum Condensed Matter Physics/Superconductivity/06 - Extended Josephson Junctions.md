@@ -24,6 +24,8 @@ $$\psi_c - \psi_b = \psi_d - \psi_a$$
 We realize that the line integral of the phase along the chosen contour is identical to the one studied for the DC SQUID, since from the previous assumptions it can be seen as a SQUID loop with 2 lumped junctions connected in parallel.
 We can exploit our previous results:
 $$\oint_C \nabla \theta \cdot d\vec{l} = \psi_c - \psi_b + \frac{2\pi}{\Phi_0} \oint_C \vec{A} \cdot d\vec{l} - \frac{2\pi}{\Phi_0} \int_b^c \Lambda \vec{J_s} \cdot d\vec{l} - \frac{2\pi}{\Phi_0} \int_d^a \Lambda \vec{J_s} \cdot d\vec{l}$$
+Here $\psi_b = \theta_b - \theta_a - \frac{2\pi}{\Phi_0} \int_a^b A_x dx$ is the gauge-invariant phase difference across the junction at z=0, while $\psi_c = \theta_c - \theta_d - \frac{2\pi}{\Phi_0} \int_d^c A_x dx$ is the gauge-invariant phase difference across the junction at z=$\Delta z$.(important to understand everything)
+
 So, from the relation above we get:
 $$\psi_c - \psi_b = \psi_d - \psi_a = - \frac{2\pi}{\Phi_0} \oint_C \vec{A} \cdot d\vec{l} + \frac{2\pi}{\Phi_0} \int_b^c \Lambda \vec{J_s} \cdot d\vec{l} + \frac{2\pi}{\Phi_0} \int_d^a \Lambda \vec{J_s} \cdot d\vec{l}$$
 As always the integral over a contour of the vector potential can be converted into a surface integral of the magnetic field, which is simply the magnetic flux threading the junction area:
